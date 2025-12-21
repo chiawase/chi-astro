@@ -2,7 +2,7 @@
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
-import FormattedDate from "../components/FormattedDate.astro";
+import PostListMetadata from "../components/PostListMetadata.astro";
 import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL, SITE_AUTHOR } from "../consts";
 
 import { getCollection } from "astro:content";
@@ -11,7 +11,9 @@ const numberOfLatestPostsToShow = 10;
 
 // Fetch all posts from the `blog` collection and sort newest-first.
 // (Adjust "blog" if your collection name differs.)
-const allPosts = (await getCollection("blog")).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),);
+const allPosts = (await getCollection("blog")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
 // .filter((entry) => !entry.data.draft) // optional: remove if you don't use `draft`
 
 const latestPosts = allPosts.slice(0, numberOfLatestPostsToShow);
@@ -48,7 +50,7 @@ export function tagsHtml(tags) {
   return `${links.slice(0, -1).join(", ")} and ${links.at(-1)}.`;
 }
 
-const morePosts = Math.max(0, (allPosts.length - 1) - numberOfLatestPostsToShow);
+const morePosts = Math.max(0, allPosts.length - 1 - numberOfLatestPostsToShow);
 ---
 
 <!doctype html>
@@ -128,19 +130,11 @@ const morePosts = Math.max(0, (allPosts.length - 1) - numberOfLatestPostsToShow)
               {post.data.description && (
                 <p class="postlist-description">{post.data.description}</p>
               )}
-              <div class="post-metadata">
-                <a href={`/blog/${post.id}/`} class="postlist-link">
-                  <FormattedDate dateString={post.data.pubDate} />
-                </a>
-                <span class="postlist-separator" />
-                {Array.isArray(post.data.tags) && post.data.tags.length > 0 && (
-                  <div class="postlist-tags">
-                    {post.data.tags.map((t) => (
-                      <a href=`/tags/${t}/` class="postlist-tag">{t}</a>
-                    ))}
-                  </div>
-                )}
-              </div>
+              <PostListMetadata
+                postTags={post.data.tags}
+                postSlug={post.id}
+                postDate={post.data.pubDate}
+              />
             </li>
           ))
         }

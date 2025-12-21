@@ -2,10 +2,11 @@
 import { DateTime } from "luxon";
 
 interface Props {
-  [dateString: string]: Date;
+  dateString: Date | string;
+  dateType: string;
 }
 
-const { dateString } = Astro.props;
+const { dateString, dateType } = Astro.props;
 const date = new Date(dateString);
 
 // Match your Eleventy "readableDate" (ff ZZZZ) and zone "UTC+8"
@@ -19,4 +20,12 @@ const htmlDateString = DateTime.fromJSDate(date, { zone: "UTC+8" }).toFormat(
 );
 ---
 
-<time datetime={htmlDateString}>{readableDate}</time>
+<time
+  class:list={[
+    {
+      "dt-published": dateType === "published",
+      "dt-updated": dateType === "updated",
+    },
+  ]}
+  datetime={htmlDateString}>{readableDate}</time
+>

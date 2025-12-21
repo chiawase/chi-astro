@@ -1,0 +1,25 @@
+---
+import FormattedDate from "../components/FormattedDate.astro";
+
+interface Props {
+  postTags: string[] | undefined;
+  postSlug: string;
+  postDate: Date;
+}
+
+const { postTags, postSlug, postDate } = Astro.props;
+---
+
+<div class="post-metadata">
+  <a href={`/blog/${postSlug}/`} class="postlist-link">
+    <FormattedDate dateString={postDate} />
+  </a>
+  <span class="postlist-separator" />
+  {Array.isArray(postTags) && postTags.length > 0 && (
+    <div class="postlist-tags">
+      {postTags.map((t) => (
+        <a href=`/tags/${t}/` class="postlist-tag">{t}</a>
+      ))}
+    </div>
+  )}
+</div>
