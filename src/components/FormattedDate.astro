@@ -25,6 +25,8 @@ const htmlDateString = DateTime.fromJSDate(date, { zone: "UTC+8" }).toFormat(
     {
       "dt-published": dateType === "published",
       "dt-updated": dateType === "updated",
+      "postlist-date dt-published webmention__pubdate":
+        dateType === "webmention",
     },
   ]}
   datetime={htmlDateString}>{readableDate}</time

@@ -1,7 +1,9 @@
 ---
+import type { CollectionEntry } from "astro:content";
 import FormattedDate from "@components/FormattedDate.astro";
 
 interface Props {
+  post: CollectionEntry<"blog">;
   postTags: string[] | undefined;
   postSlug: string;
   postDate: Date;
@@ -11,6 +13,7 @@ interface Props {
 }
 
 const {
+  post,
   postTags,
   postSlug,
   postDate,

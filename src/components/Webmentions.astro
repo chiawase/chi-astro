@@ -1,80 +1,177 @@
 ---
-import { Image } from "astro:assets";
-import FormattedDate from "@components/FormattedDate.astro";
-import { SITE_DOMAIN } from "@consts";
+import Webmention from "@components/Webmention.astro";
+import { SITE_URL } from "@consts";
 
-// based on https://www.stevefrenzel.dev/posts/webmentions-in-astro-for-blog-posts/
-
-interface AuthorProps {
-  name: string;
-  photo: string;
-  url: string;
-}
-
-interface WebmentionProps {
-  author: AuthorProps;
-  "wm-received": string;
-  "wm-property": string;
-}
+// based on:
+// - https://www.stevefrenzel.dev/posts/webmentions-in-astro-for-blog-posts/
+// - https://kld.dev/adding-webmentions/
+// - https://github.com/siakaramalegos/sia.codes-eleventy/blob/main/src/_includes/webmentions.njk
+// - https://github.com/maxboeck/eleventy-webmentions/blob/master/_includes/webmentionlist.njk
 
 interface Props {
-  webmentions: WebmentionProps[];
+  mentions: any[];
+  likesSize: number;
+  repostsSize: number;
+  repliesSize: number;
+  mentionOfSize: number;
 }
 
-const { webmentions } = Astro.props;
-
-// const showDate = (webmention: string) =>
-//   new Date(webmention).toLocaleDateString(undefined, {
-//     day: "numeric",
-//     month: "long",
-//     year: "numeric",
-//   });
+const { mentions, likesSize, repostsSize, repliesSize, mentionOfSize } =
+  Astro.props;
+console.log(mentions[0]);
 ---
 
-{
-  webmentions.length > 0 ? (
-    <section aria-label="Webmentions">
-      <h2>Webmentions</h2>
+<section class="webmentions">
+  <h4>Webmentions</h4>
 
-      <ul>
-        {webmentions.map((webmention: WebmentionProps) => (
-          <li>
-            <div class="avatar-and-author">
-              {webmention.author.photo ? (
-                <Image
-                  alt=""
-                  height="50"
-                  src={webmention.author.photo}
-                  width="50"
-                />
-              ) : null}
-              <a href={webmention.author.url} rel="author">
-                {webmention.author.name}
-              </a>
-            </div>
-            <div class="information">
-              {webmention["wm-property"] === "like-of" ? (
-                <p>
-                  Liked on
-                  <FormattedDate
-                    dateType=""
-                    dateString={webmention["wm-received"]}
-                  />
-                </p>
-              ) : null}
-              {webmention["wm-property"] === "repost-of" ? (
-                <p>
-                  Reposted on{" "}
-                  <FormattedDate
-                    dateType=""
-                    dateString={webmention["wm-received"]}
-                  />
-                </p>
-              ) : null}
-            </div>
-          </li>
-        ))}
-      </ul>
-    </section>
-  ) : null
-}
+  {
+    mentions.length > 0 && (
+      <div class="webmentions__summary">
+        {likesSize > 0 && <span>💖 {likesSize}</span>}
+        {repostsSize > 0 && <span>🔁 {repostsSize}</span>}
+        {repliesSize > 0 && <span>💬 {repliesSize}</span>}
+        {mentionOfSize > 0 && <span>🗣️ {mentionOfSize}</span>}
+      </div>
+    )
+  }
+
+  {
+    mentions.length ? (
+      <ol class="webmentions__list">
+        {[...mentions].reverse().map((webmention) =>
+          webmention?.content?.text != null ? (
+            <li class="webmentions__item">
+              <Webmention webmention={webmention} />
+            </li>
+          ) : null,
+        )}
+      </ol>
+    ) : (
+      <p>No mentions yet.</p>
+    )
+  }
+
+  <br />
+
+  <p>
+    These are <a href="https://indieweb.org/Webmention">webmentions</a> via the <a
+      href="https://indieweb.org/">IndieWeb</a
+    > and <a href="https://webmention.io/">webmention.io</a>. Mention this post
+    from your site:
+  </p>
+
+  <form
+    action=`https://webmention.io/${SITE_URL}/webmention`
+    method="post"
+    class="form-webmention"
+  >
+    <label for="form-webmention-source">URL</label>
+    <input
+      id="form-webmention-source"
+      type="url"
+      name="source"
+      placeholder="https://example.com"
+      required
+    />
+    <input
+      type="hidden"
+      name="target"
+      value={new URL(Astro.url.pathname, `https://${SITE_URL}`).href}
+    />
+    <input type="submit" class="button button-small" value="Send Webmention" />
+  </form>
+
+  <p>
+    You can also <a href="/contact" title="These are my social links!"
+      >reach out to me online</a
+    > if you have thoughts to share about anything I’ve posted. Mostly I’m on <a
+      href="https://threads.com/@_chiawase">Threads</a
+    >, <a href="https://social.lol/@chi">Mastodon</a>, or <a
+      href="https://bsky.app/profile/chisenires.design">Bluesky</a
+    >.
+  </p>
+</section>
+<style>
+  /* Styling for Webmentions */
+  /* Copied from https://github.com/maxboeck/eleventy-webmentions/blob/master/css/webmentions.css */
+
+  .webmentions {
+    display: block;
+    text-align: left;
+  }
+
+  .webmentions__summary {
+    display: inline-flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .webmentions__facepile {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .webmentions__face {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+    flex: none;
+  }
+  .webmentions__list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .webmentions__item {
+    margin-bottom: 2rem;
+  }
+
+  /* Single Webmention */
+
+  .webmention {
+    display: block;
+    border-left: 2px solid var(--text-color-link);
+    margin-left: 0;
+    padding: 1em;
+    width: 100%;
+    color: var(--text-color);
+    background: var(--background-color-overlay);
+    transition: var(--subtle-transition);
+  }
+
+  .webmention__meta,
+  .webmention__author {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .webmention__meta {
+    font-size: 0.8rem;
+  }
+
+  .webmention__author {
+    margin-right: 0.25rem;
+  }
+  .webmention__author__photo {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0.25rem;
+  }
+  .webmention__pubdate {
+    margin-left: 0.25rem;
+  }
+  .webmention__pubdate:before {
+    content: "\2022";
+    margin-right: 0.5em;
+  }
+
+  .webmention__content {
+    margin-top: 0.25rem;
+  }
+
+  .webmention__link_only {
+    margin-left: 0.25rem;
+  }
+</style>

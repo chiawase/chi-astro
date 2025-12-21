@@ -1,31 +1,42 @@
 ---
 import { Image } from "astro:assets";
-import type { CollectionEntry } from "astro:content";
+import { type CollectionEntry, getCollection, render } from "astro:content";
 import BaseHead from "@components/BaseHead.astro";
 import Footer from "@components/Footer.astro";
 import Header from "@components/Header.astro";
 import PostMetadata from "@components/PostMetadata.astro";
+import Webmentions from "@components/WebmentionsLoader.astro";
 import { SITE_URL, SITE_AUTHOR } from "@consts";
 
-type Props = CollectionEntry<"blog">["data"] & { slug: string; postReadingTime?: string };
+type Props = {
+  post: CollectionEntry<"blog">;
+  slug: string;
+  postReadingTime?: string;
+};
 
 const {
-  title,
-  description,
-  pubDate,
-  updatedDate,
-  heroImage,
-  draft,
-  tags,
+  post,
   slug,
-  postLanguage,
   postReadingTime
 } = Astro.props;
+
+// Build the same sorted list here to find neighbors
+const allPosts = (await getCollection("blog", ({ data }) => !data.draft)).sort(
+  (b, a) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+
+const index = allPosts.findIndex((p) => p.id === post.id);
+
+// If sorted newest-first:
+// "next" is older (index+1), "prev" is newer (index-1)
+const prevPost = index > 0 ? allPosts[index - 1] : null;
+const nextPost =
+  index >= 0 && index < allPosts.length - 1 ? allPosts[index + 1] : null;
 ---
 
 <html lang="en">
   <head>
-    <BaseHead title={title} description={description} />
+    <BaseHead title={post.data.title} description={post.data.description} />
 
   </head>
 
@@ -34,22 +45,22 @@ const {
     <main>
       <article class="h-entry">
         {
-          title && (
-            <h1 class="p-name">{title}</h1>
+          post.data.title && (
+            <h1 class="p-name">{post.data.title}</h1>
             <!-- add handling for drafts here -->
 
             <PostMetadata
-              postTags={tags}
+              post={post}
+              postTags={post.data.tags}
               postSlug={slug}
-              postDate={pubDate}
-              postUpdatedDate={updatedDate}
-              draft?={draft}
-              postLanguage?={postLanguage}
+              postDate={post.data.pubDate}
+              postUpdatedDate={post.data.updatedDate}
+              draft?={post.data.draft}
+              postLanguage?={post.data.postLanguage}
               postReadingTime={postReadingTime}
             />
           )
         }
-
 
         <div class="u-author h-card">
           <data value={SITE_URL} class="u-url"></data>
@@ -66,16 +77,58 @@ const {
         </div>
 
         <PostMetadata
-          postTags={tags}
+          post={post}
+          postTags={post.data.tags}
           postSlug={slug}
-          postDate={pubDate}
-          postUpdatedDate={updatedDate}
-          draft?={draft}
-          postLanguage?={postLanguage}
+          postDate={post.data.pubDate}
+          postUpdatedDate={post.data.updatedDate}
+          draft?={post.data.draft}
+          postLanguage?={post.data.postLanguage}
           postReadingTime={postReadingTime}
         />
       </article>
+
+      <!-- Previous and Next blog posts -->
+      <ul class="links-nextprev">
+        {
+          prevPost && (
+            <li class="links-nextprev-prev">
+              <a href={`/blog/${prevPost.id}/`}>← Previous</a>
+              <span class="post-title-prev">{prevPost.data.title}</span>
+            </li>
+          )
+        }
+        {
+          nextPost && (
+            <li class="links-nextprev-next">
+              <a href={`/blog/${nextPost.id}/`}>Next →</a>
+              <span class="post-title-next">{nextPost.data.title}</span>
+            </li>
+          )
+        }
+      </ul>
+
+      <Webmentions />
     </main>
     <Footer />
   </body>
 </html>
+<style>
+  .links-nextprev {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em 1em;
+    list-style: "";
+    border-top: 1px dashed var(--color-gray-20);
+    padding: 1em 0;
+  }
+  .links-nextprev > * {
+    flex: 1;
+  }
+  [class*="post-title-"] {
+    display: block;
+  }
+  .links-nextprev-next {
+    text-align: right;
+  }
+</style>

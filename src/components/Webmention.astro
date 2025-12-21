@@ -1,0 +1,135 @@
+---
+import { Image } from "astro:assets";
+import FormattedDate from "@components/FormattedDate.astro";
+import { SITE_URL } from "@consts";
+
+// derived from:
+// - https://github.com/siakaramalegos/sia.codes-eleventy/blob/main/src/_includes/webmention.njk
+// - https://github.com/maxboeck/eleventy-webmentions/blob/master/_includes/webmention.njk
+// - https://www.stevefrenzel.dev/posts/webmentions-in-astro-for-blog-posts/
+
+interface AuthorProps {
+  name: string;
+  photo: string;
+  url: string;
+}
+
+interface WebmentionContentProps {
+  html?: string;
+  text?: string;
+}
+
+interface WebmentionProps {
+  author: AuthorProps;
+  url?: string;
+  published?: string;
+  "wm-received": string;
+  "wm-id": number;
+  "wm-source": string;
+  "wm-target": string;
+  "wm-protocol": string;
+  name?: string;
+  syndication: string[];
+  content: WebmentionContentProps;
+  "wm-property": string;
+}
+
+interface Props {
+  webmention: WebmentionProps;
+}
+
+const { webmention } = Astro.props;
+
+// Webmention specific props
+const authorName = webmention.author?.name ?? "Anonymous";
+const authorUrl = webmention.author?.url;
+const authorPhoto = webmention.author?.photo;
+
+const sourceUrl = webmention.url ?? webmention["wm-source"];
+const text = webmention.content?.text;
+---
+
+<article class="webmention h-cite" id={`webmention-${webmention["wm-id"]}`}>
+  <div class="webmention__meta">
+    <span class="p-author h-card webmention__author">
+      {
+        authorPhoto ? (
+          <Image
+            alt=""
+            height={48}
+            width={48}
+            loading="lazy"
+            class="u-photo webmention__author__photo"
+            src={authorPhoto}
+          />
+        ) : (
+          <Image
+            alt=""
+            height={48}
+            width={48}
+            loading="lazy"
+            class="u-photo webmention__author__photo"
+            src="/webmention-avatar-default.svg"
+          />
+        )
+      }
+
+      {
+        authorUrl ? (
+          <a
+            href={authorUrl}
+            rel="author noopener noreferrer"
+            target="_blank"
+            class="p-name"
+          >
+            <strong>{authorName}</strong>
+          </a>
+        ) : (
+          <span class="p-name">
+            <strong>{authorName}</strong>
+          </span>
+        )
+      }
+    </span>
+
+    {
+      webmention.published && (
+        <FormattedDate
+          dateType="webmention"
+          dateString={webmention.published}
+        />
+      )
+    }
+  </div>
+
+  {
+    text ? (
+      <p class="webmention__content p-content">
+        {text}{" "}
+        {sourceUrl && (
+          <a
+            href={sourceUrl}
+            class="u-url"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            source
+          </a>
+        )}
+      </p>
+    ) : (
+      sourceUrl && (
+        <p class="webmention__content">
+          <a
+            href={sourceUrl}
+            class="u-url"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            source
+          </a>
+        </p>
+      )
+    )
+  }
+</article>

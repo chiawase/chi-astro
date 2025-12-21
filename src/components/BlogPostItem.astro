@@ -2,7 +2,7 @@
 import type { CollectionEntry } from "astro:content";
 import PostListMetadata from "@components/PostListMetadata.astro";
 
-import { getReadingTime } from "@utils/reading-time";
+import { getReadingTime } from "@utils/reading-time.ts";
 
 interface Props {
   post: CollectionEntry<"blog">;
@@ -14,14 +14,6 @@ const { post } = Astro.props;
 const postReadingTime = getReadingTime(post.body ?? "");
 ---
 
-<!-- ...
-<div>
-  <a>
-    <p>{post.title}</p>
-  </a>
-  <p>{readingTime}</p>
-</div>
-... -->
 <li class="postlist-item">
   {/* if with title */}
   {

@@ -5,6 +5,7 @@ import BaseHead from "@components/BaseHead.astro";
 import Footer from "@components/Footer.astro";
 import PostListMetadata from "@components/PostListMetadata.astro";
 import Header from "@components/Header.astro";
+import BlogPostItem from "@components/BlogPostItem.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "@consts";
 
 const posts = (await getCollection("blog")).sort(
@@ -31,31 +32,7 @@ const posts = (await getCollection("blog")).sort(
           class="postlist"
           style=`--postslist-index: ${posts.length};`
         >
-          {
-            posts.map((post) => (
-              <li class="postlist-item">
-                {/* if with title */}
-                {post.data.title && (
-                  <a
-                    href={`/blog/${post.id}/`}
-                    class="postlist-link postlist-header"
-                  >
-                    {post.data.title}
-                  </a>
-                )}
-
-                {/* “summary” equivalent */}
-                {post.data.description && (
-                  <p class="postlist-description">{post.data.description}</p>
-                )}
-                <PostListMetadata
-                  postTags={post.data.tags}
-                  postSlug={post.id}
-                  postDate={post.data.pubDate}
-                />
-              </li>
-            ))
-          }
+          {posts.map((post) => <BlogPostItem post={post} />)}
         </ol>
       </section>
     </main>

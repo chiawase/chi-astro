@@ -1,12 +1,14 @@
 ---
 import { type CollectionEntry, getCollection, render } from "astro:content";
 import BlogPost from "@layouts/BlogPost.astro";
+import { getReadingTime } from "@utils/reading-time.ts";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("blog");
+  const posts = await getCollection("blog", ({ data }) => !data.draft);
+  posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
   return posts.map((post) => ({
     params: { slug: post.id },
-    props: { post, slug: post.id },
+    props: { post },
   }));
 }
 
@@ -16,8 +18,11 @@ type Props = {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+
+// Calculate reading time using `body` property
+const postReadingTime = getReadingTime(post.body ?? "");
 ---
 
-<BlogPost {...post.data} slug={post.id}>
+<BlogPost post={post} slug={post.id} postReadingTime={postReadingTime}>
   <Content />
 </BlogPost>

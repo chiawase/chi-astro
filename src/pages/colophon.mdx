@@ -1,14 +1,25 @@
 ---
-eleventyNavigation:
-  key: "Colophon"
-  parent: "More"
 title: "Colophon"
-date: 2025-09-26T09:08:31+00:00
-date_updated: 2025-11-10T14:46:59+00:00
-canonical: "colophon"
+pubDate: 2025-09-26T09:08:31+00:00
+updatedDate: 2025-11-10T14:46:59+00:00
 ---
 
-> Following the guide from [IndieWeb](https://indieweb.org/colophon) for what a Colophon page includes, I’ll do my best to lay down how I’ve set up my side of the internet. Last updated {{ date_updated | readableDate }}.
+import BaseHead from "@components/BaseHead.astro";
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import FormattedDate from "@components/FormattedDate.astro";
+import { SITE_DESCRIPTION } from "@consts";
+
+<head>
+    <BaseHead title={frontmatter.title} description={SITE_DESCRIPTION} />
+</head>
+<body>
+    <a href="#main" id="skip-link" class="visually-hidden"
+        >Skip to main content</a>
+    <Header />
+    <main id="skip">
+
+> Following the guide from [IndieWeb](https://indieweb.org/colophon) for what a Colophon page includes, I’ll do my best to lay down how I’ve set up my side of the internet. Last updated <FormattedDate dateType="" dateString={frontmatter.updatedDate} />.
 
 ## Website repository
 
@@ -16,7 +27,7 @@ The code for this website can be found [on Github](https://github.com/chiawase/c
 
 ## Website Icon
 
-![Favicon for chisenires.design](img/favicon.png)
+![Favicon for chisenires.design](/favicon.png)
 
 The favicon is a red (`#681310`) squircle with my nickname on it using the font [Anybody](https://etceteratype.co/anybody) for the letter `C` and [Victor Mono](https://rubjo.github.io/victor-mono/) for the letters `hi`. The letter spacing for this is also adjusted so all letters are neatly put together in the middle.
 
@@ -68,3 +79,7 @@ After writing and formatting whatever it is I wanted to share, I’ll add the ne
 ## Tracking things I want to update on my website
 
 I make use of the [Issues Tab](https://github.com/chiawase/chi-11ty/issues) of my website’s Github repo to track the things I wanna work on. The reason I used this was simply because I found it really cool that Github (or is it just git?) automatically closes issues so long as you remember to mention them in the commit messages pushed to the repo. I learned this while contributing to the code of our current Design System at work, while working with my teammate who’s a UX engineer. Amaze ✨
+
+</main>
+<Footer />
+</body>

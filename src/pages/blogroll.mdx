@@ -1,16 +1,27 @@
 ---
-eleventyNavigation:
-  key: "Blogroll"
-  parent: "More"
 title: Blogroll
-date: 2025-09-19T06:35:25+00:00
-date_updated: 2025-12-09T09:02:13+00:00
-canonical: "blogroll"
+pubDate: 2025-09-19T06:35:25+00:00
+updatedDate: 2025-12-09T09:02:13+00:00
 ---
+
+import BaseHead from "@components/BaseHead.astro";
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import FormattedDate from "@components/FormattedDate.astro";
+import { SITE_DESCRIPTION } from "@consts";
+
+<head>
+    <BaseHead title={frontmatter.title} description={SITE_DESCRIPTION} />
+</head>
+<body>
+    <a href="#main" id="skip-link" class="visually-hidden"
+        >Skip to main content</a>
+    <Header />
+    <main id="skip">
 
 # Random list of websites I find cool
 
-> Just a dump of links of websites from other people for now since I'm not sure how to go about this yet! But I've been adding to this slowly; the latest update was {{ date_updated | readableDate }}!
+> Just a dump of links of websites from other people for now since I'm not sure how to go about this yet! But I've been adding to this slowly; the latest update was <FormattedDate dateType="" dateString={frontmatter.updatedDate} />!
 
 [https://localghost.dev/](https://localghost.dev/)
 
@@ -51,3 +62,7 @@ canonical: "blogroll"
 [https://anhvn.com/](https://anhvn.com/)
 
 [https://www.nicchan.me/](https://www.nicchan.me/)
+
+</main>
+<Footer />
+</body>

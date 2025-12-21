@@ -1,14 +1,24 @@
 ---
 title: Stuff I Use
 description: "Listing all the stuff I use for whatever purpose."
-eleventyNavigation:
-  key: "Stuff I Use"
-  parent: "More"
-date: 2025-08-18T07:34:56+00:00
-date_updated: 2025-12-11T08:11:05+00:00
-layout: "layouts/page.njk"
-canonical: "stuff-i-use"
+pubDate: 2025-08-18T07:34:56+00:00
+updatedDate: 2025-12-11T08:11:05+00:00
 ---
+
+import BaseHead from "@components/BaseHead.astro";
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import FormattedDate from "@components/FormattedDate.astro";
+import { SITE_DESCRIPTION } from "@consts";
+
+<head>
+    <BaseHead title={frontmatter.title} description={SITE_DESCRIPTION} />
+</head>
+<body>
+    <a href="#main" id="skip-link" class="visually-hidden"
+        >Skip to main content</a>
+    <Header />
+    <main id="skip">
 
 # Stuff I Use
 
@@ -18,11 +28,11 @@ Some of the links here may be referral links! I'll just mark them accordingly if
 
 I eventually want to spiffy this up while getting some inspiration from these blogs: [Jason Burk's](https://grepjason.sh/mysetup)
 
-> Last updated on {{ date_updated | readableDate }}.
+> Last updated on <FormattedDate dateType="" dateString={frontmatter.updatedDate} />.
 
 #### 🚲 My bicycle
 
-![A red Brompton bike with its rear wheel folded under, allowing it to stand upright on its own. A red bag is mounted on the front rack with a matching red helmet resting on top. The bike is parked on the roadside in front of The Peninsula Manila, whose plaque is visible behind some greenery.](../img/uploads/2025/goldship.jpeg "The first time I brought Gold Ship out for a ride after I got her")
+![A red Brompton bike with its rear wheel folded under, allowing it to stand upright on its own. A red bag is mounted on the front rack with a matching red helmet resting on top. The bike is parked on the roadside in front of The Peninsula Manila, whose plaque is visible behind some greenery.](../content/img/uploads/2025/goldship.jpeg "The first time I brought Gold Ship out for a ride after I got her")
 
 - a custom painted red Brompton named *Gold Ship*
 	- my bag here is a GO FAR Large Bromp bag I bought from [Bikeary](https://bikeary.com/), though I don’t think they sell it on their store anymore
@@ -183,3 +193,7 @@ I eventually want to spiffy this up while getting some inspiration from these bl
 
 - [Ventusky](https://www.ventusky.com/)
 - [Hello Weather](https://helloweather.com/) for the cute widgets on iOS
+
+</main>
+<Footer />
+</body>

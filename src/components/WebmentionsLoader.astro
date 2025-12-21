@@ -1,0 +1,36 @@
+---
+import Webmentions from "@components/Webmentions.astro";
+import getWebmentions from "@utils/webmentions.js";
+import {
+  getWebmentionsForUrl,
+  webmentionsByType,
+  webmentionsSize,
+} from "@utils/webmentionFilters";
+import { SITE_URL } from "@consts";
+
+// Load from cache (and in production, may fetch+merge+write)
+const feed = await getWebmentions();
+
+// Use production URL for matching (so dev localhost still matches your cached wm-target)
+const canonicalTarget = new URL(Astro.url.pathname, SITE_URL).href;
+
+const mentions = getWebmentionsForUrl(feed.children ?? [], canonicalTarget);
+
+const reposts = webmentionsByType(mentions, "repost-of");
+const likes = webmentionsByType(mentions, "like-of");
+const replies = webmentionsByType(mentions, "in-reply-to");
+const mentionOfs = webmentionsByType(mentions, "mention-of");
+
+const repostsSize = webmentionsSize(reposts);
+const likesSize = webmentionsSize(likes);
+const repliesSize = webmentionsSize(replies);
+const mentionOfSize = webmentionsSize(mentionOfs);
+---
+
+<Webmentions
+  mentions={mentions}
+  likesSize={likesSize}
+  repostsSize={repostsSize}
+  repliesSize={repliesSize}
+  mentionOfSize={mentionOfSize}
+/>
