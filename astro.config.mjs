@@ -1,5 +1,3 @@
-// @ts-check
-
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import { defineConfig } from "astro/config";
@@ -20,8 +18,8 @@ export default defineConfig({
       [remarkToc, { heading: "toc", maxDepth: 3 }],
     ],
     rehypePlugins: [
-      rehypeAccessibleEmojis,
       rehypeHeadingIds,
+      rehypeAccessibleEmojis,
       [rehypeAutolinkHeadings, { behavior: "append" }],
     ],
   },
