@@ -1,9 +1,10 @@
 {
-  "extends": "astro/tsconfigs/strict",
+  "extends": "astro/tsconfigs/base",
   "include": [".astro/types.d.ts", "**/*"],
   "exclude": ["dist"],
   "compilerOptions": {
     "strictNullChecks": true,
-    "types": ["luxon"],
+    "verbatimModuleSyntax": true,
+    "types": ["luxon", "astro/client"],
   },
 }
