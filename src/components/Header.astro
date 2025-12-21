@@ -1,70 +1,70 @@
 ---
-import { SITE_TITLE } from "../consts";
+import { SITE_TITLE } from "@consts";
 import NavLink from "./NavLink.astro";
 import ThemeIcon from "./ThemeIcon.astro";
 ---
 
 <header>
-    <div class="left">
-        <img
-            src="/favicon.png"
-            alt=""
-            style="width: 32px; height: 32px; vertical-align: middle; margin-right: 0.5em;"
-        />
-        <a href="/" class="home-link">{SITE_TITLE}</a>
-        <ThemeIcon />
-    </div>
+  <div class="left">
+    <img
+      src="/favicon.png"
+      alt=""
+      style="width: 32px; height: 32px; vertical-align: middle; margin-right: 0.5em;"
+    />
+    <a href="/" class="home-link">{SITE_TITLE}</a>
+    <ThemeIcon />
+  </div>
 
-    <nav>
-        <h2 class="visually-hidden">Top level navigation menu</h2>
-        <ul class="nav">
-            <NavLink href="/">Home</NavLink>
-            <NavLink href="/blog/">Blog</NavLink>
-            <NavLink href="/about/">About</NavLink>
-            <NavLink href="/contact/">Contact</NavLink>
-            <NavLink href="/now/">/now</NavLink>
-            <NavLink href="/more/">More</NavLink>
-        </ul>
-    </nav>
+  <nav>
+    <h2 class="visually-hidden">Top level navigation menu</h2>
+    <ul class="nav">
+      <NavLink href="/">Home</NavLink>
+      <NavLink href="/blog/">Blog</NavLink>
+      <NavLink href="/about/">About</NavLink>
+      <NavLink href="/contact/">Contact</NavLink>
+      <NavLink href="/now/">/now</NavLink>
+      <NavLink href="/more/">More</NavLink>
+    </ul>
+  </nav>
 </header>
 
 <style>
-    /* Header */
+  /* Header */
+  header {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-bottom: 1px dashed var(--color-gray-20);
+    z-index: 8;
+  }
+
+  @media (min-width: 768px) {
     header {
-        display: flex;
-        gap: 1em;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1em;
-        border-bottom: 1px dashed var(--color-gray-20);
-        z-index: 8;
+      position: sticky;
+      top: 0;
+      background-color: var(--background-color);
+      transition: var(--subtle-transition);
     }
+  }
 
-    @media (min-width: 768px) {
-        header {
-            position: sticky;
-            top: 0;
-            background-color: var(--background-color);
-            transition: var(--subtle-transition);
-        }
-    }
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
 
-    .left {
-        display: flex;
-        align-items: center;
-        gap: 1em;
-    }
-
-    .home-link {
-        font-size: 1em;
-        font-family: var(--font-family-body);
-        font-style: italic;
-    }
-    .home-link:link:not(:hover) {
-        text-decoration-color: transparent;
-    }
-    .home-link:link:hover {
-        font-style: normal;
-    }
+  .home-link {
+    font-size: 1em;
+    font-family: var(--font-family-body);
+    font-style: italic;
+  }
+  .home-link:link:not(:hover) {
+    text-decoration-color: transparent;
+  }
+  .home-link:link:hover {
+    font-style: normal;
+  }
 </style>

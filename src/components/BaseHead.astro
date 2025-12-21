@@ -1,10 +1,11 @@
 ---
 // Import the global.css file here so that it is included on
 // all pages through the use of the <BaseHead /> component.
-import "../styles/global.css";
+import "@styles/global.css";
 import type { ImageMetadata } from "astro";
-import FallbackImage from "../assets/blog-placeholder-1.jpg";
-import { SITE_TITLE } from "../consts";
+import FallbackImage from "@assets/blog-placeholder-1.jpg";
+import RelMeAuth from "@components/RelMeAuth.astro";
+import { SITE_TITLE, SITE_DOMAIN } from "@consts";
 
 // Custom Fonts
 import "@fontsource-variable/victor-mono/wght-italic.css";
@@ -49,11 +50,41 @@ const { title, description, image = FallbackImage } = Astro.props;
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
+<meta property="og:site_name" content={SITE_DOMAIN} />
 <meta property="og:image" content={new URL(image.src, Astro.url)} />
+<!-- <meta property="og:image" content="{% socialImageUrl title, renderedDescription, hasTempTitle %}"> -->
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1280" />
+<meta property="og:image:height" content="640" />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={Astro.url} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
+<meta property="twitter:domain" content={SITE_DOMAIN} />
 <meta property="twitter:image" content={new URL(image.src, Astro.url)} />
+<!-- <meta property="twitter:image" content="{% socialImageUrl title, renderedDescription, hasTempTitle %}"> -->
+
+<!-- For Fediverse tag -->
+<meta name="fediverse:creator" content="@chi@social.lol" />
+
+<!-- rel-me link tags -->
+<RelMeAuth />
+
+<!-- Webmentions -->
+<link rel="webmention" href=`https://webmention.io/${SITE_DOMAIN}/webmention` />
+<link rel="pingback" href=`https://webmention.io/${SITE_DOMAIN}/xmlrpc` />
+
+<!-- Restricting indexing with AI crawlers
+From: https://simplycreative.uk/stop-chatgpt-ai-scraping/ -->
+<meta name="robots" content="noai, noimageai" />
+<meta name="ChatGPTBot" content="noindex, nofollow" />
+
+<!-- Umami tracking code -->
+<script
+  is:inline
+  defer
+  src="https://umami.chisenires.design/script.js"
+  data-website-id="82d4b6de-5ddb-4afb-bb8e-515e93b89f91"
+  data-do-not-track="true"></script>

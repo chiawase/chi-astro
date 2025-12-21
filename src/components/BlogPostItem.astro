@@ -1,8 +1,8 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import PostListMetadata from "../components/PostListMetadata.astro";
+import PostListMetadata from "@components/PostListMetadata.astro";
 
-import { getReadingTime } from "../../src/utils/reading-time";
+import { getReadingTime } from "@utils/reading-time";
 
 interface Props {
   post: CollectionEntry<"blog">;

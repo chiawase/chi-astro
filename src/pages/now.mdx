@@ -5,11 +5,11 @@ updatedDate: 2025-12-17T03:11:03+00:00
 ---
 
 import { Image } from "astro:assets";
-import BaseHead from "../components/BaseHead.astro";
-import Footer from "../components/Footer.astro";
-import FormattedDate from "../components/FormattedDate.astro";
-import Header from "../components/Header.astro";
-import { SITE_DESCRIPTION } from "../consts";
+import BaseHead from "@components/BaseHead.astro";
+import Footer from "@components/Footer.astro";
+import FormattedDate from "@components/FormattedDate.astro";
+import Header from "@components/Header.astro";
+import { SITE_DESCRIPTION } from "@consts";
 
 <head>
     <BaseHead title={frontmatter.title} description={SITE_DESCRIPTION} />
