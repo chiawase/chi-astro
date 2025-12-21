@@ -3,7 +3,7 @@ import { Image } from "astro:assets";
 import FormattedDate from "../components/FormattedDate.astro";
 import { SITE_DOMAIN } from "../consts";
 
-// some of these are from https://www.stevefrenzel.dev/posts/webmentions-in-astro-for-blog-posts/
+// based on https://www.stevefrenzel.dev/posts/webmentions-in-astro-for-blog-posts/
 
 interface AuthorProps {
   name: string;
@@ -56,13 +56,19 @@ const { webmentions } = Astro.props;
               {webmention["wm-property"] === "like-of" ? (
                 <p>
                   Liked on
-                  <FormattedDate dateString={webmention["wm-received"]} />
+                  <FormattedDate
+                    dateType=""
+                    dateString={webmention["wm-received"]}
+                  />
                 </p>
               ) : null}
               {webmention["wm-property"] === "repost-of" ? (
                 <p>
                   Reposted on{" "}
-                  <FormattedDate dateString={webmention["wm-received"]} />
+                  <FormattedDate
+                    dateType=""
+                    dateString={webmention["wm-received"]}
+                  />
                 </p>
               ) : null}
             </div>

@@ -10,7 +10,14 @@ interface Props {
   postReadingTime?: string;
 }
 
-const { postTags, postSlug, postDate, postUpdatedDate, postLanguage, postReadingTime } = Astro.props;
+const {
+  postTags,
+  postSlug,
+  postDate,
+  postUpdatedDate,
+  postLanguage,
+  postReadingTime
+} = Astro.props;
 ---
 <ul class="post-metadata">
   <li>
@@ -18,20 +25,21 @@ const { postTags, postSlug, postDate, postUpdatedDate, postLanguage, postReading
       dateType="published"
       dateString={postDate}
     />
+    <span class="post-metadata-separator"></span>
   </li>
   <li>
-    <span class="post-metadata-separator"></span>
     <span class="label">Last updated:</span><FormattedDate
       dateType="updated"
       dateString={postUpdatedDate}
     />
-  </li>
-  <li>
     <span class="post-metadata-separator"></span>
-    <span class="label" class="readingitme">Reading time:</span> {postReadingTime}
   </li>
   <li>
-    <span class="post-metadata-separator"></span><span class="label">Tags: </span>
+    <span class="post-reading-time">{postReadingTime}</span>
+    <span class="post-metadata-separator"></span>
+  </li>
+  <li>
+    <span class="label">Tags: </span>
     {Array.isArray(postTags) && postTags.length > 0 && (
       <div class="postlist-tags">
         {postTags.map((t) => (
@@ -74,22 +82,13 @@ const { postTags, postSlug, postDate, postUpdatedDate, postLanguage, postReading
 
 .post-metadata .label {
   color: var(--color-gray-20);
+  margin-right: 0.5rem;
 }
 
-.postlist-tag,
 .post-metadata li .post-tag,
 .post-metadata li .post-language {
   display: inline-block;
   padding: 0.015rem 0.25rem;
   background-color: var(--background-color-overlay);
-  margin-right: 0.25rem;
 }
-
-/*.post-metadata li:not(:has(.post-tag)),
-.postlist-item time,
-.postlist-item .postlist-readingtime,
-.postlist-item .postlist-separator,
-.post-metadata .post-metadata-separator {
-  margin-right: 0.5rem;
-}*/
 </style>

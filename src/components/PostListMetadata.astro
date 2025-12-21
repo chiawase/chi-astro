@@ -5,21 +5,78 @@ interface Props {
   postTags: string[] | undefined;
   postSlug: string;
   postDate: Date;
+  postLanguage?: string;
+  postReadingTime?: string;
 }
 
-const { postTags, postSlug, postDate } = Astro.props;
+const {
+  postTags,
+  postSlug,
+  postDate,
+  postLanguage,
+  postReadingTime
+} = Astro.props;
 ---
 
-<div class="post-metadata">
-  <a href={`/blog/${postSlug}/`} class="postlist-link">
-    <FormattedDate dateString={postDate} />
-  </a>
-  <span class="postlist-separator" />
-  {Array.isArray(postTags) && postTags.length > 0 && (
-    <div class="postlist-tags">
-      {postTags.map((t) => (
-        <a href=`/tags/${t}/` class="postlist-tag">{t}</a>
-      ))}
-    </div>
-  )}
-</div>
+<ul class="post-metadata">
+  <li>
+    <a href=`/blog/${postSlug}/` class="postlist-link">
+    <FormattedDate
+      dateType="published"
+      dateString={postDate}
+    /></a>
+    <span class="post-metadata-separator"></span>
+  </li>
+  <li>
+    <span class="post-reading-time">{postReadingTime}</span>
+    <span class="post-metadata-separator"></span>
+  </li>
+  <li>
+    {Array.isArray(postTags) && postTags.length > 0 && (
+      <div class="postlist-tags">
+        {postTags.map((t) => (
+          <a href=`/tags/${t}/` class="post-tag p-category">{t}</a>
+        ))}
+      </div>
+    )}
+  </li>
+  {postLanguage && (<li>
+    <span class="post-metadata-separator"></span>
+    <span class="label">Post language:</span> <span class="post-language">{postLanguage}</span>
+  </li>)}
+</ul>
+<style>
+/* Tags list */
+.post-metadata {
+  font-size: 0.8rem;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.post-metadata .webmentions__summary {
+  display: inline-flex;
+  gap: 0.5rem;
+  padding-bottom: initial;
+  padding-right: 0.5rem;
+}
+
+.h-entry .post-metadata {
+  margin: 1rem 0;
+}
+
+.post-metadata .label {
+  color: var(--color-gray-20);
+  margin-right: 0.5rem;
+}
+
+.post-metadata li .post-tag,
+.post-metadata li .post-language {
+  display: inline-block;
+  padding: 0.015rem 0.25rem;
+  background-color: var(--background-color-overlay);
+}
+</style>

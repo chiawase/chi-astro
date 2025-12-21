@@ -1,0 +1,49 @@
+---
+import type { CollectionEntry } from "astro:content";
+import PostListMetadata from "../components/PostListMetadata.astro";
+
+import { getReadingTime } from "../../src/utils/reading-time";
+
+interface Props {
+  post: CollectionEntry<"blog">;
+}
+
+const { post } = Astro.props;
+
+// Calculate reading time using `body` property
+const postReadingTime = getReadingTime(post.body ?? "");
+---
+
+<!-- ...
+<div>
+  <a>
+    <p>{post.title}</p>
+  </a>
+  <p>{readingTime}</p>
+</div>
+... -->
+<li class="postlist-item">
+  {/* if with title */}
+  {
+    post.data.title && (
+      <a href={`/blog/${post.id}/`} class="postlist-link postlist-header">
+        {post.data.title}
+      </a>
+    )
+  }
+
+  {/* “summary” equivalent */}
+  {
+    post.data.description && (
+      <p class="postlist-description">{post.data.description}</p>
+    )
+  }
+  <PostListMetadata
+    postTags={post.data.tags}
+    postSlug={post.id}
+    postDate={post.data.pubDate}
+    draft?={post.data.draft}
+    postLanguage?={post.data.postLanguage}
+    postReadingTime={postReadingTime}
+  />
+</li>
