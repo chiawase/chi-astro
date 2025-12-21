@@ -5,151 +5,706 @@
  */
 
 :root {
-	--accent: #2337ff;
-	--accent-dark: #000d8a;
-	--black: 15, 18, 25;
-	--gray: 96, 115, 159;
-	--gray-light: 229, 233, 240;
-	--gray-dark: 34, 41, 57;
-	--gray-gradient: rgba(var(--gray-light), 50%), #fff;
-	--box-shadow:
-		0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%), 0 16px 32px
-		rgba(var(--gray), 33%);
+  /*--accent: #2337ff;
+    --accent-dark: #000d8a;
+    --black: 15, 18, 25;
+    --gray: 96, 115, 159;
+    --gray-light: 229, 233, 240;
+    --gray-dark: 34, 41, 57;
+    --gray-gradient: rgba(var(--gray-light), 50%), #fff;
+    --box-shadow:
+        0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
+        0 16px 32px rgba(var(--gray), 33%);*/
+
+  --color-gray-20: #6a6a6a;
+  --color-gray-50: #666;
+  --color-gray-90: #333;
+
+  --background-color: #f3f3f3;
+  --background-color-overlay: #f8e3e2cc;
+
+  --text-color: var(--color-gray-90);
+
+  --text-color-link: #c2302b;
+  --text-color-link-active: #8b24da;
+  --text-color-link-visited: #8b24da;
+
+  /* MingCute Icon formatted in Figma for appropriate link colors */
+  --svg-external-link-icon: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.16667 5C9.38768 5 9.59964 5.0878 9.75592 5.24408C9.9122 5.40036 10 5.61232 10 5.83333C10 6.05435 9.9122 6.26631 9.75592 6.42259C9.59964 6.57887 9.38768 6.66667 9.16667 6.66667H4.16667V15.8333H13.3333V10.8333C13.3333 10.6123 13.4211 10.4004 13.5774 10.2441C13.7337 10.0878 13.9457 10 14.1667 10C14.3877 10 14.5996 10.0878 14.7559 10.2441C14.9122 10.4004 15 10.6123 15 10.8333V15.8333C15 16.2754 14.8244 16.6993 14.5118 17.0118C14.1993 17.3244 13.7754 17.5 13.3333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V6.66667C2.5 6.22464 2.67559 5.80072 2.98816 5.48816C3.30072 5.17559 3.72464 5 4.16667 5H9.16667ZM16.6667 2.5C16.8877 2.5 17.0996 2.5878 17.2559 2.74408C17.4122 2.90036 17.5 3.11232 17.5 3.33333V7.5C17.5 7.72101 17.4122 7.93298 17.2559 8.08926C17.0996 8.24554 16.8877 8.33333 16.6667 8.33333C16.4457 8.33333 16.2337 8.24554 16.0774 8.08926C15.9211 7.93298 15.8333 7.72101 15.8333 7.5V5.345L8.9225 12.2558C8.76533 12.4076 8.55483 12.4916 8.33633 12.4897C8.11784 12.4878 7.90882 12.4002 7.75432 12.2457C7.59981 12.0912 7.51217 11.8822 7.51027 11.6637C7.50837 11.4452 7.59237 11.2347 7.74417 11.0775L14.655 4.16667H12.5C12.279 4.16667 12.067 4.07887 11.9107 3.92259C11.7545 3.76631 11.6667 3.55435 11.6667 3.33333C11.6667 3.11232 11.7545 2.90036 11.9107 2.74408C12.067 2.5878 12.279 2.5 12.5 2.5H16.6667Z' fill='%23C2302B'/%3E%3C/svg%3E");
+  --svg-external-link-icon-hover: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.16667 5C9.38768 5 9.59964 5.0878 9.75592 5.24408C9.9122 5.40036 10 5.61232 10 5.83333C10 6.05435 9.9122 6.26631 9.75592 6.42259C9.59964 6.57887 9.38768 6.66667 9.16667 6.66667H4.16667V15.8333H13.3333V10.8333C13.3333 10.6123 13.4211 10.4004 13.5774 10.2441C13.7337 10.0878 13.9457 10 14.1667 10C14.3877 10 14.5996 10.0878 14.7559 10.2441C14.9122 10.4004 15 10.6123 15 10.8333V15.8333C15 16.2754 14.8244 16.6993 14.5118 17.0118C14.1993 17.3244 13.7754 17.5 13.3333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V6.66667C2.5 6.22464 2.67559 5.80072 2.98816 5.48816C3.30072 5.17559 3.72464 5 4.16667 5H9.16667ZM16.6667 2.5C16.8877 2.5 17.0996 2.5878 17.2559 2.74408C17.4122 2.90036 17.5 3.11232 17.5 3.33333V7.5C17.5 7.72101 17.4122 7.93298 17.2559 8.08926C17.0996 8.24554 16.8877 8.33333 16.6667 8.33333C16.4457 8.33333 16.2337 8.24554 16.0774 8.08926C15.9211 7.93298 15.8333 7.72101 15.8333 7.5V5.345L8.9225 12.2558C8.76533 12.4076 8.55483 12.4916 8.33633 12.4897C8.11784 12.4878 7.90882 12.4002 7.75432 12.2457C7.59981 12.0912 7.51217 11.8822 7.51027 11.6637C7.50837 11.4452 7.59237 11.2347 7.74417 11.0775L14.655 4.16667H12.5C12.279 4.16667 12.067 4.07887 11.9107 3.92259C11.7545 3.76631 11.6667 3.55435 11.6667 3.33333C11.6667 3.11232 11.7545 2.90036 11.9107 2.74408C12.067 2.5878 12.279 2.5 12.5 2.5H16.6667Z' fill='%238B24DA'/%3E%3C/svg%3E%0A");
+
+  --text-color-code: green;
+
+  color-scheme: var(--color-scheme, light);
+
+  --syntax-tab-size: 2;
+
+  --size-body-text: 18px;
+
+  --max-width: 50rem;
+  --max-viewport-width: 896px;
+
+  --height-header: 73px;
+
+  --subtle-transition: 300ms ease-in-out;
 }
+
+html.dark {
+  --color-scheme: dark;
+  --color-gray-20: #acacac;
+  --color-gray-50: #c0c0c0;
+  --color-gray-90: #dad8d8;
+
+  /* --text-color is assigned to --color-gray-_ above */
+  --text-color-link: #ff8984;
+  --text-color-link-active: #c5a6f8;
+  --text-color-link-visited: #c5a6f8;
+
+  /* MingCute Icon formatted in Figma for appropriate link colors */
+  --svg-external-link-icon: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.16667 5C9.38768 5 9.59964 5.0878 9.75592 5.24408C9.9122 5.40036 10 5.61232 10 5.83333C10 6.05435 9.9122 6.26631 9.75592 6.42259C9.59964 6.57887 9.38768 6.66667 9.16667 6.66667H4.16667V15.8333H13.3333V10.8333C13.3333 10.6123 13.4211 10.4004 13.5774 10.2441C13.7337 10.0878 13.9457 10 14.1667 10C14.3877 10 14.5996 10.0878 14.7559 10.2441C14.9122 10.4004 15 10.6123 15 10.8333V15.8333C15 16.2754 14.8244 16.6993 14.5118 17.0118C14.1993 17.3244 13.7754 17.5 13.3333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V6.66667C2.5 6.22464 2.67559 5.80072 2.98816 5.48816C3.30072 5.17559 3.72464 5 4.16667 5H9.16667ZM16.6667 2.5C16.8877 2.5 17.0996 2.5878 17.2559 2.74408C17.4122 2.90036 17.5 3.11232 17.5 3.33333V7.5C17.5 7.72101 17.4122 7.93298 17.2559 8.08926C17.0996 8.24554 16.8877 8.33333 16.6667 8.33333C16.4457 8.33333 16.2337 8.24554 16.0774 8.08926C15.9211 7.93298 15.8333 7.72101 15.8333 7.5V5.345L8.9225 12.2558C8.76533 12.4076 8.55483 12.4916 8.33633 12.4897C8.11784 12.4878 7.90882 12.4002 7.75432 12.2457C7.59981 12.0912 7.51217 11.8822 7.51027 11.6637C7.50837 11.4452 7.59237 11.2347 7.74417 11.0775L14.655 4.16667H12.5C12.279 4.16667 12.067 4.07887 11.9107 3.92259C11.7545 3.76631 11.6667 3.55435 11.6667 3.33333C11.6667 3.11232 11.7545 2.90036 11.9107 2.74408C12.067 2.5878 12.279 2.5 12.5 2.5H16.6667Z' fill='%23FF8984'/%3E%3C/svg%3E");
+  --svg-external-link-icon-hover: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.16667 5C9.38768 5 9.59964 5.0878 9.75592 5.24408C9.9122 5.40036 10 5.61232 10 5.83333C10 6.05435 9.9122 6.26631 9.75592 6.42259C9.59964 6.57887 9.38768 6.66667 9.16667 6.66667H4.16667V15.8333H13.3333V10.8333C13.3333 10.6123 13.4211 10.4004 13.5774 10.2441C13.7337 10.0878 13.9457 10 14.1667 10C14.3877 10 14.5996 10.0878 14.7559 10.2441C14.9122 10.4004 15 10.6123 15 10.8333V15.8333C15 16.2754 14.8244 16.6993 14.5118 17.0118C14.1993 17.3244 13.7754 17.5 13.3333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V6.66667C2.5 6.22464 2.67559 5.80072 2.98816 5.48816C3.30072 5.17559 3.72464 5 4.16667 5H9.16667ZM16.6667 2.5C16.8877 2.5 17.0996 2.5878 17.2559 2.74408C17.4122 2.90036 17.5 3.11232 17.5 3.33333V7.5C17.5 7.72101 17.4122 7.93298 17.2559 8.08926C17.0996 8.24554 16.8877 8.33333 16.6667 8.33333C16.4457 8.33333 16.2337 8.24554 16.0774 8.08926C15.9211 7.93298 15.8333 7.72101 15.8333 7.5V5.345L8.9225 12.2558C8.76533 12.4076 8.55483 12.4916 8.33633 12.4897C8.11784 12.4878 7.90882 12.4002 7.75432 12.2457C7.59981 12.0912 7.51217 11.8822 7.51027 11.6637C7.50837 11.4452 7.59237 11.2347 7.74417 11.0775L14.655 4.16667H12.5C12.279 4.16667 12.067 4.07887 11.9107 3.92259C11.7545 3.76631 11.6667 3.55435 11.6667 3.33333C11.6667 3.11232 11.7545 2.90036 11.9107 2.74408C12.067 2.5878 12.279 2.5 12.5 2.5H16.6667Z' fill='%23C5A6F8'/%3E%3C/svg%3E%0A");
+
+  --text-color-code: greenyellow;
+
+  --background-color: #202122;
+  --background-color-overlay: #2b2b2bcc;
+
+  color-scheme: dark;
+}
+/* victor-mono-latin-wght-italic */
 @font-face {
-	font-family: "Atkinson";
-	src: url("/fonts/atkinson-regular.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
+  font-family: "Victor Mono Variable";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100 700;
+  font-stretch: 50% 200%;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
 }
+
+/* victor-mono-latin-wght-normal */
 @font-face {
-	font-family: "Atkinson";
-	src: url("/fonts/atkinson-bold.woff") format("woff");
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
+  font-family: "Victor Mono Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 700;
+  font-stretch: 50% 200%;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
 }
+
+/* anybody-latin-wght-italic */
+@font-face {
+  font-family: "Anybody Variable";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100 900;
+  font-stretch: 50% 150%;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+
+/* Font Defaults */
+:root {
+  --font-family-heading:
+    "Anybody Variable", -apple-system, system-ui, sans-serif;
+  --font-family-body:
+    "Victor Mono Variable", -apple-system, system-ui, sans-serif;
+  --font-family-monospace:
+    "Victor Mono Variable", Consolas, Menlo, Monaco, Andale Mono WT,
+    Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New,
+    Courier, monospace;
+}
+
+/* Global stylesheet */
+* {
+  box-sizing: border-box;
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+html,
 body {
-	font-family: "Atkinson", sans-serif;
-	margin: 0;
-	padding: 0;
-	text-align: left;
-	background: linear-gradient(var(--gray-gradient)) no-repeat;
-	background-size: 100% 600px;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
-	color: rgb(var(--gray-dark));
-	font-size: 20px;
-	line-height: 1.7;
+  padding: 0;
+  margin: 0 auto;
+  font-family: var(--font-family-body);
+  font-size: var(--size-body-text);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  transition: var(--subtle-transition);
 }
-main {
-	width: 720px;
-	max-width: calc(100% - 2em);
-	margin: auto;
-	padding: 3em 1em;
+
+html {
+  overflow-y: scroll;
 }
+
+body {
+  max-width: var(--max-width);
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "ital" 0,
+    "wght" 200;
+}
+main,
+footer {
+  padding: 1rem;
+}
+main :first-child:not(h1) {
+  margin-top: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+#skip-link {
+  text-decoration-color: transparent;
+  background: var(--background-color);
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color-gray-90);
+  border-radius: 2px;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* Prevent visually-hidden skip link fom pushing content around when focused */
+#skip-link.visually-hidden:focus {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  /* Ensure it is positioned on top of everything else when it is shown */
+  z-index: 999;
+}
+
+/* Nav */
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em 1em;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  align-items: baseline;
+}
+.nav-item {
+  display: inline-block;
+}
+.nav-item a[href]:not(:hover) {
+  text-decoration-color: transparent;
+}
+.nav-item a[href]:hover,
+.post-metadata li .post-permalink:hover {
+  font-style: italic;
+}
+.nav a[href][aria-current="page"] {
+  text-decoration: underline;
+  text-underline-position: from-font;
+  color: var(--text-color-link-active);
+}
+
+/* Nav in footer */
+.nav-footer {
+  justify-content: center;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	margin: 0 0 0.5rem 0;
-	color: rgb(var(--black));
-	line-height: 1.2;
+  font-family: var(--font-family-heading);
+  font-style: italic;
+  line-height: 105%;
+  font-variation-settings:
+    "ital" 1,
+    "wdth" 88.2,
+    "wght" 250;
+  margin-bottom: 1.5rem;
 }
+
+/* Heading sizes */
 h1 {
-	font-size: 3.052em;
+  font-size: 4.3rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 h2 {
-	font-size: 2.441em;
+  font-size: 3.2rem;
 }
 h3 {
-	font-size: 1.953em;
+  font-size: 2.074rem;
 }
 h4 {
-	font-size: 1.563em;
+  font-size: 1.728rem;
 }
 h5 {
-	font-size: 1.25em;
+  font-size: 1.44rem;
 }
+h6 {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 896px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+/* Heading Fonts */
+h3,
+h4,
+h5,
+h6 {
+  --font-family-heading:
+    "Victor Mono Variable", -apple-system, system-ui, sans-serif;
+  letter-spacing: -0.1rem;
+}
+
+h2:before,
+h3:before,
+h4:before,
+h5:before,
+h6:before,
+.footnote-item:before {
+  display: block;
+  content: " ";
+  margin-top: calc(-1 * var(--height-header));
+  height: var(--height-header);
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  h2:before,
+  h3:before,
+  h4:before,
+  h5:before,
+  h6:before,
+  .footnote-item:before {
+    margin-top: initial;
+    height: initial;
+  }
+}
+
 strong,
 b {
-	font-weight: 700;
+  font-weight: 700;
 }
-a {
-	color: var(--accent);
+a[href] {
+  color: var(--text-color-link);
 }
-a:hover {
-	color: var(--accent);
+a[href]:not(:hover) {
+  text-decoration-color: transparent;
+}
+a[href]:hover,
+a[href]:active {
+  color: var(--text-color-link-active);
+  text-decoration: underline;
+  text-underline-position: from-font;
+}
+
+/* Showing the icon to mark external links */
+a[href^="http"] {
+  padding-right: 1.25rem;
+}
+a[href^="http"]:after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: var(--size-body-text);
+  height: var(--size-body-text);
+  margin-left: 0.25rem;
+  background-size: 100%;
+  background-image: var(--svg-external-link-icon);
+  transform: translateY(0.5rem);
+}
+a[href^="http"]:hover:after,
+a[href^="http"]:active:after {
+  background-image: var(--svg-external-link-icon-hover);
 }
 p {
-	margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 .prose p {
-	margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 textarea {
-	width: 100%;
-	font-size: 16px;
+  width: 100%;
+  font-size: 16px;
 }
 input {
-	font-size: 16px;
+  font-size: 16px;
 }
 table {
-	width: 100%;
+  width: 100%;
 }
 img {
-	max-width: 100%;
-	height: auto;
-	border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+pre,
+code {
+  font-family: var(--font-family-monospace) !important;
+  font-variation-settings:
+    "ital" 0,
+    "wdth" 100,
+    "wght" 400;
+  padding: 0.25rem;
+  color: var(--text-color-code);
+  transition: var(--subtle-transition);
+}
+
+pre {
+  background-color: var(--background-color-overlay);
+}
+
+pre:not([class*="language-"]) {
+  margin: 0.5em 0;
+  -moz-tab-size: var(--syntax-tab-size) !important;
+  -o-tab-size: var(--syntax-tab-size) !important;
+  tab-size: var(--syntax-tab-size) !important;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  overflow-x: auto;
+}
+
+pre:has(+ p) {
+  width: 100%;
+}
+
+pre[class*="language-Plaintext"],
+code[class*="language-Plaintext"] {
+  line-height: 1 !important;
+}
+
+em {
+  font-style: italic;
+  font-weight: 500;
+}
+
+strong {
+  font-weight: 600;
+  font-variation-settings:
+    "wdth" 150,
+    "ital" 0,
+    "wght" 600;
 }
 code {
-	padding: 2px 5px;
-	background-color: rgb(var(--gray-light));
-	border-radius: 2px;
+  padding: 2px 5px;
+  background-color: rgb(var(--gray-light));
+  border-radius: 2px;
 }
 pre {
-	padding: 1.5em;
-	border-radius: 8px;
+  padding: 1.5em;
+  border-radius: 8px;
 }
 pre > code {
-	all: unset;
+  all: unset;
 }
 blockquote {
-	border-left: 4px solid var(--accent);
-	padding: 0 0 0 20px;
-	margin: 0;
-	font-size: 1.333em;
+  border-left: 2px solid var(--text-color-link);
+  margin-left: 0;
+  padding: 1em;
+  width: 100%;
+  color: var(--text-color);
+  background: var(--background-color-overlay);
+  transition: var(--subtle-transition);
+}
+
+@media (max-width: 896px) {
+  blockquote {
+    width: 100%;
+  }
+}
+
+section.intro {
+  font-size: 1.2rem;
+  background-color: var(--background-color-overlay);
+  transition: var(--subtle-transition);
+  padding: 1em;
+}
+section.intro p {
+  line-height: 160%;
+}
+
+@media (max-width: 896px) {
+  section.intro {
+    font-size: 1rem;
+  }
+
+  section.intro p {
+    margin-top: 0.5rem;
+  }
 }
 hr {
-	border: none;
-	border-top: 1px solid rgb(var(--gray-light));
+  border: none;
+  border-top: 1px solid rgb(var(--gray-light));
 }
 @media (max-width: 720px) {
-	body {
-		font-size: 18px;
-	}
-	main {
-		padding: 1em;
-	}
+  body {
+    font-size: 18px;
+  }
+  main {
+    padding: 1em;
+  }
+}
+
+video,
+iframe {
+  width: 100%;
+  height: auto;
+}
+iframe {
+  aspect-ratio: 16/9;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+p {
+  line-height: 200%;
+}
+
+/* selects the paragraphs that come after a heading or at the end of the post */
+p:has(+ h2),
+p:has(+ h3),
+p:has(+ h4),
+p:has(+ h5),
+p:has(+ h6),
+p:has(+ .links-nextprev) {
+  margin-bottom: 2rem;
+}
+
+li {
+  line-height: 200%;
+}
+
+@media (max-width: 896px) {
+  li {
+    line-height: 160%;
+  }
+
+  li:not(:first-of-type) {
+    margin-top: 0.5rem;
+  }
+}
+
+/* add margin after the last item of every list, except for nav */
+li:not(ul.nav li):not(ul.post-metadata li):last-child {
+  margin-bottom: 1rem;
+}
+
+/* For lists in articles, add some spacing after an item */
+article .e-content * > li {
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 896px) {
+  ol,
+  ul {
+    padding-left: 1.5rem;
+  }
+}
+
+/* Posts list */
+.postlist {
+  counter-reset: start-from var(--postslist-index);
+  list-style: none;
+  padding: 0;
+  padding-left: 1.5rem;
+}
+.postlist-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  counter-increment: start-from -1;
+  margin-bottom: 1.75em;
+}
+.postlist-item:before {
+  display: inline-block;
+  pointer-events: none;
+  content: "" counter(start-from, decimal-leading-zero) ". ";
+  line-height: 100%;
+  text-align: right;
+  margin-left: -2.5rem;
+}
+@media (max-width: 896px) {
+  .postlist {
+    padding-left: 0;
+  }
+  .postlist-item:before {
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.postlist-item:before {
+  font-size: 0.8125em; /* 13px /16 */
+  color: currentColor;
+}
+.postlist-date {
+  word-spacing: -0.5px;
+}
+.postlist-link.postlist-header {
+  font-size: 1.44em; /* h5 size */
+  line-height: 120%;
+  flex-basis: calc(100% - 1rem);
+}
+
+.postlist-item-active .postlist-link {
+  font-weight: bold;
+}
+
+.postlist-header,
+.postlist-description {
+  flex-basis: calc(100% - 1rem);
+  padding-left: 0.25em;
+  padding-right: 0.5em;
+}
+@media (max-width: 896px) {
+  .postlist-header,
+  .postlist-description {
+    padding: 0;
+    flex-basis: 100%;
+  }
+}
+
+/* Tags */
+.post-tag {
+  /* display: inline-flex; */
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  overflow-wrap: break-word;
+}
+.postlist-item .postlist-tag {
+  align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+  font-size: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.post-metadata .webmentions__summary {
+  display: inline-flex;
+  gap: 0.5rem;
+  padding-bottom: initial;
+  padding-right: 0.5rem;
+}
+
+.h-entry .post-metadata {
+  margin: 1rem 0;
+}
+
+.post-metadata .label {
+  color: var(--color-gray-20);
+}
+
+.postlist-tag,
+.post-metadata li .post-tag,
+.post-metadata li .post-language {
+  display: inline-block;
+  padding: 0.015rem 0.25rem;
+  background-color: var(--background-color-overlay);
+  margin-right: 0.25rem;
+}
+
+/*.post-metadata li:not(:has(.post-tag)),
+.postlist-item time,
+.postlist-item .postlist-readingtime,
+.postlist-item .postlist-separator,
+.post-metadata .post-metadata-separator {
+  margin-right: 0.5rem;
+}*/
+
+.post-metadata .post-metadata-separator:before,
+.postlist-separator:before {
+  content: "\2022";
+}
+
+.postlist-tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.postlist-link {
+  word-wrap: break-word;
+}
+
+.post-backlinks {
+  margin-bottom: 2rem;
 }
 
 .sr-only {
-	border: 0;
-	padding: 0;
-	margin: 0;
-	position: absolute !important;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
-	/* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
-	clip: rect(1px 1px 1px 1px);
-	/* maybe deprecated but we need to support legacy browsers */
-	clip: rect(1px, 1px, 1px, 1px);
-	/* modern browsers, clip-path works inwards from each corner */
-	clip-path: inset(50%);
-	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
-	white-space: nowrap;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
+  clip: rect(1px 1px 1px 1px);
+  /* maybe deprecated but we need to support legacy browsers */
+  clip: rect(1px, 1px, 1px, 1px);
+  /* modern browsers, clip-path works inwards from each corner */
+  clip-path: inset(50%);
+  /* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
+  white-space: nowrap;
+}
+
+/*For anchor links?*/
+.sl-markdown-content :is(h1, h2, h3, h4, h5, h6) {
+  a {
+    color: var(--text-color-link);
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+  }
+
+  &:hover a {
+    color: var(--text-color-link-active);
+  }
+
+  .icon.icon-link::after {
+    content: "#";
+  }
 }

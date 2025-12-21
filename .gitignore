@@ -22,3 +22,11 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Obsidian
+# to exclude Obsidian's settings (including plugin and hotkey configurations)
+.obsidian/workspace.json
+.obsidian/plugins/emoji-autocomplete/data.json
+
+# Fetched webmentions
+_cache/

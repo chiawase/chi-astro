@@ -9,10 +9,23 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "^6.3.10",
     "@astrojs/mdx": "^4.3.13",
     "@astrojs/rss": "^4.0.14",
     "@astrojs/sitemap": "^3.6.0",
+    "@fontsource-variable/anybody": "^5.2.7",
+    "@fontsource-variable/victor-mono": "^5.2.8",
     "astro": "^5.16.5",
+    "luxon": "^3.7.2",
+    "mdast-util-to-string": "^4.0.0",
+    "reading-time": "^1.5.0",
+    "rehype-accessible-emojis": "^0.3.2",
+    "rehype-autolink-headings": "^7.1.0",
+    "remark-toc": "^9.0.0",
     "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.7.1",
+    "typescript": "^5.9.3"
   }
 }

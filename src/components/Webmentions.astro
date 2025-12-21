@@ -1,0 +1,74 @@
+---
+import { Image } from "astro:assets";
+import FormattedDate from "../components/FormattedDate.astro";
+import { SITE_DOMAIN } from "../consts";
+
+// some of these are from https://www.stevefrenzel.dev/posts/webmentions-in-astro-for-blog-posts/
+
+interface AuthorProps {
+  name: string;
+  photo: string;
+  url: string;
+}
+
+interface WebmentionProps {
+  author: AuthorProps;
+  "wm-received": string;
+  "wm-property": string;
+}
+
+interface Props {
+  webmentions: WebmentionProps[];
+}
+
+const { webmentions } = Astro.props;
+
+// const showDate = (webmention: string) =>
+//   new Date(webmention).toLocaleDateString(undefined, {
+//     day: "numeric",
+//     month: "long",
+//     year: "numeric",
+//   });
+---
+
+{
+  webmentions.length > 0 ? (
+    <section aria-label="Webmentions">
+      <h2>Webmentions</h2>
+
+      <ul>
+        {webmentions.map((webmention: WebmentionProps) => (
+          <li>
+            <div class="avatar-and-author">
+              {webmention.author.photo ? (
+                <Image
+                  alt=""
+                  height="50"
+                  src={webmention.author.photo}
+                  width="50"
+                />
+              ) : null}
+              <a href={webmention.author.url} rel="author">
+                {webmention.author.name}
+              </a>
+            </div>
+            <div class="information">
+              {webmention["wm-property"] === "like-of" ? (
+                <p>
+                  Liked on
+                  <FormattedDate dateString={webmention["wm-received"]} />
+                </p>
+              ) : null}
+              {webmention["wm-property"] === "repost-of" ? (
+                <p>
+                  Reposted on{" "}
+                  <FormattedDate dateString={webmention["wm-received"]} />
+                </p>
+              ) : null}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ) : null
+}

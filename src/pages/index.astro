@@ -1,49 +1,160 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import FormattedDate from "../components/FormattedDate.astro";
+import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL, SITE_AUTHOR } from "../consts";
+
+import { getCollection } from "astro:content";
+
+const numberOfLatestPostsToShow = 10;
+
+// Fetch all posts from the `blog` collection and sort newest-first.
+// (Adjust "blog" if your collection name differs.)
+const allPosts = (await getCollection("blog")).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),);
+// .filter((entry) => !entry.data.draft) // optional: remove if you don't use `draft`
+
+const latestPosts = allPosts.slice(0, numberOfLatestPostsToShow);
+
+const allTags = allPosts.flatMap((post) => {
+  const t = post.data.tags;
+  return Array.isArray(t) ? t : [];
+});
+
+const uniqueTags = Array.from(new Set(allTags)).sort((a, b) =>
+  a.localeCompare(b, undefined, { sensitivity: "base" }),
+);
+
+export function slugify(tag) {
+  return tag
+    .toLowerCase()
+    .trim()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+export function tagsHtml(tags) {
+  const clean = (tags ?? []).map((t) => String(t).trim()).filter(Boolean);
+
+  const links = clean.map((tag) => {
+    const slug = slugify(tag);
+    return `<a href="/tags/${slug}/" class="post-tag">${tag}</a>`;
+  });
+
+  if (links.length === 0) return "";
+  if (links.length === 1) return `${links[0]}.`;
+  if (links.length === 2) return `${links[0]} and ${links[1]}.`;
+  return `${links.slice(0, -1).join(", ")} and ${links.at(-1)}.`;
+}
+
+const morePosts = Math.max(0, (allPosts.length - 1) - numberOfLatestPostsToShow);
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template
-				serves as a lightweight, minimally-styled starting point for anyone looking to build a personal
-				website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <a href="#main" id="skip-link" class="visually-hidden"
+      >Skip to main content</a
+    >
+    <Header />
+    <main id="skip">
+      <!-- Intro Section -->
+      <section class="intro">
+        <div class="u-author h-card">
+          <h1>Hello! I'm <span class="p-name">Chi Señires</span>.</h1>
+
+          <p>
+            I’m a UX Designer, Gamer, and Bike Commuter from the Philippines 🇵🇭.
+            I'm currently working at <a
+              href="https://humanforce.com"
+              class="p-org">Humanforce</a
+            > as a <span class="p-job-title">UX Designer</span>. I'm also the
+            current Group Leader for <a
+              href="https://friends.figma.com/philippines"
+              class="p-org">Friends of Figma, Philippines</a
+            >. You learn learn more about me in <a href="/about/"
+              >my About page</a
+            >.
+          </p>
+
+          <!-- data value stuff -->
+          <data value={SITE_URL} class="u-url"></data>
+          <data value="chiawase" class="p-nickname"></data>
+          <data value=`${SITE_URL}/img/chi.jpg` class="u-photo"></data>
+          <data value={SITE_AUTHOR.email} class="u-email"></data>
+          <data
+            value="UX Designer, Gamer, Bike commuter from the Philippines"
+            class="p-note"></data>
+        </div>
+
+        <p>
+          I share thoughts about a lot of stuff, with posts covering various
+          topics, like: various topics, like: <span
+            class="post-tags"
+            set:html={tagsHtml(uniqueTags)}
+          />
+
+          <!-- {uniqueTags.map((tag) => <a href=`/tag/${tag}/` class="post-tag">{tag}</a>)} -->
+        </p>
+      </section>
+
+      <h2>
+        Latest {latestPosts.length} post{latestPosts.length !== 1 ? "s" : ""}
+      </h2>
+
+      <ol
+        reversed
+        class="postlist"
+        style=`--postslist-index: ${allPosts.length};`
+      >
+        {
+          latestPosts.map((post) => (
+            <li class="postlist-item">
+              {/* if with title */}
+              {post.data.title && (
+                <a
+                  href={`/blog/${post.id}/`}
+                  class="postlist-link postlist-header"
+                >
+                  {post.data.title}
+                </a>
+              )}
+
+              {/* “summary” equivalent */}
+              {post.data.description && (
+                <p class="postlist-description">{post.data.description}</p>
+              )}
+              <div class="post-metadata">
+                <a href={`/blog/${post.id}/`} class="postlist-link">
+                  <FormattedDate dateString={post.data.pubDate} />
+                </a>
+                <span class="postlist-separator" />
+                {Array.isArray(post.data.tags) && post.data.tags.length > 0 && (
+                  <div class="postlist-tags">
+                    {post.data.tags.map((t) => (
+                      <a href=`/tags/${t}/` class="postlist-tag">{t}</a>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </li>
+          ))
+        }
+      </ol>
+
+      {
+        morePosts > 0 && (
+          <p>
+            {morePosts} more post{morePosts !== 1 ? "s" : ""} can be found in{" "}
+            <a href="/blog/">the archive</a>.
+          </p>
+        )
+      }
+    </main>
+    <Footer />
+  </body>
 </html>

@@ -1,17 +1,22 @@
 ---
+import { DateTime } from "luxon";
+
 interface Props {
-	date: Date;
+  [dateString: string]: Date;
 }
 
-const { date } = Astro.props;
+const { dateString } = Astro.props;
+const date = new Date(dateString);
+
+// Match your Eleventy "readableDate" (ff ZZZZ) and zone "UTC+8"
+const readableDate = DateTime.fromJSDate(date, { zone: "UTC+8" }).toFormat(
+  "ff ZZZZ",
+);
+
+// Match your Eleventy "htmlDateString" (yyyy-LL-dd'T'HH:mm:ss)
+const htmlDateString = DateTime.fromJSDate(date, { zone: "UTC+8" }).toFormat(
+  "yyyy-LL-dd'T'HH:mm:ss",
+);
 ---
 
-<time datetime={date.toISOString()}>
-	{
-		date.toLocaleDateString('en-us', {
-			year: 'numeric',
-			month: 'short',
-			day: 'numeric',
-		})
-	}
-</time>
+<time datetime={htmlDateString}>{readableDate}</time>
