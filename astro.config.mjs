@@ -4,13 +4,14 @@ import { defineConfig } from "astro/config";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import remarkToc from "remark-toc";
+import remarkRemoveComments from "remark-remove-comments";
 import { rehypeAccessibleEmojis } from "rehype-accessible-emojis";
 import { SITE_URL } from "./src/consts";
 
 // https://astro.build/config
 export default defineConfig({
   site: SITE_URL,
-  integrations: [mdx(), sitemap()],
+  integrations: [mdx({ remarkPlugins: [remarkRemoveComments] }), sitemap()],
   markdown: {
     shikiConfig: {
       themes: {
@@ -18,7 +19,10 @@ export default defineConfig({
         dark: "github-light",
       },
     },
-    remarkPlugins: [[remarkToc, { heading: "toc", maxDepth: 3 }]],
+    remarkPlugins: [
+      remarkRemoveComments,
+      [remarkToc, { heading: "toc", maxDepth: 3 }],
+    ],
     rehypePlugins: [
       rehypeHeadingIds,
       rehypeAccessibleEmojis,

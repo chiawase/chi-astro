@@ -1,6 +1,6 @@
 ---
 title: TIL of npm cross-platform support
-description: Just dedicating a post here to say that OH MY GOD, the reason my site was not building on the server was because of something that I couldn’t debug had I stayed on Windows for coding my site!! 😤
+description: 
 pubDate: 2025-11-14T09:56:50+00:00
 updatedDate: 2025-11-20T12:45:13+00:00
 tags: 
