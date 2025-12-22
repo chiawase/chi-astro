@@ -46,7 +46,12 @@
 
   --height-header: 73px;
 
-  --subtle-transition: 300ms ease-in-out;
+  --subtle-transition: 400ms ease-in-out;
+}
+
+html:not(.theme-ready) *,
+html:not(.theme-ready) {
+  transition: none !important;
 }
 
 html.dark {
@@ -602,6 +607,10 @@ article .e-content * > li {
   justify-content: center;
   font-weight: 400;
   overflow-wrap: break-word;
+  transition:
+    background-color 200ms ease-in-out,
+    color 200ms ease-in-out,
+    border-color 200ms ease-in-out;
 }
 .postlist-item .postlist-tag {
   align-self: center;
@@ -641,14 +650,6 @@ article .e-content * > li {
   margin-right: 0.25rem;
 }
 
-/*.post-metadata li:not(:has(.post-tag)),
-.postlist-item time,
-.postlist-item .postlist-readingtime,
-.postlist-item .postlist-separator,
-.post-metadata .post-metadata-separator {
-  margin-right: 0.5rem;
-}*/
-
 .post-metadata .post-metadata-separator:before,
 .postlist-separator:before {
   content: "\2022";
@@ -662,10 +663,6 @@ article .e-content * > li {
 
 .postlist-link {
   word-wrap: break-word;
-}
-
-.post-backlinks {
-  margin-bottom: 2rem;
 }
 
 .sr-only {

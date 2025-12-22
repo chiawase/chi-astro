@@ -26,4 +26,7 @@ export default defineConfig({
       [rehypeAutolinkHeadings, { behavior: "append" }],
     ],
   },
+  experimental: {
+    preserveScriptOrder: true,
+  },
 });

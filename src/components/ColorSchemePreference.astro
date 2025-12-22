@@ -1,0 +1,28 @@
+---
+
+---
+
+<script is:inline>
+  (() => {
+    try {
+      const stored = localStorage.getItem("theme");
+      const prefersDark = window.matchMedia?.(
+        "(prefers-color-scheme: dark)",
+      )?.matches;
+      const theme =
+        stored === "dark" || stored === "light"
+          ? stored
+          : prefersDark
+            ? "dark"
+            : "light";
+
+      const root = document.documentElement;
+      root.classList.toggle("dark", theme === "dark");
+      root.style.colorScheme = theme;
+      localStorage.setItem("theme", theme);
+
+      // Enable transitions after initial paint
+      requestAnimationFrame(() => root.classList.add("theme-ready"));
+    } catch {}
+  })();
+</script>

@@ -5,6 +5,7 @@ import "@styles/global.css";
 import type { ImageMetadata } from "astro";
 import FallbackImage from "@assets/blog-placeholder-1.jpg";
 import RelMeAuth from "@components/RelMeAuth.astro";
+import ColorSchemePreference from "@components/ColorSchemePreference.astro";
 import { SITE_TITLE, SITE_DOMAIN } from "@consts";
 
 // Custom Fonts
@@ -23,6 +24,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const { title, description, image = FallbackImage } = Astro.props;
 ---
 
+<ColorSchemePreference />
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
