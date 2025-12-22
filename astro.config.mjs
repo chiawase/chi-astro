@@ -17,7 +17,6 @@ export default defineConfig({
         light: "github-dark",
         dark: "github-light",
       },
-      wrap: true,
     },
     remarkPlugins: [[remarkToc, { heading: "toc", maxDepth: 3 }]],
     rehypePlugins: [
