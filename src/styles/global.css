@@ -400,11 +400,6 @@ pre:has(+ p) {
   width: 100%;
 }
 
-pre[class*="language-Plaintext"],
-code[class*="language-Plaintext"] {
-  line-height: 1 !important;
-}
-
 em {
   font-style: italic;
   font-weight: 500;

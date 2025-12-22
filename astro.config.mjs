@@ -12,6 +12,13 @@ export default defineConfig({
   site: SITE_URL,
   integrations: [mdx(), sitemap()],
   markdown: {
+    shikiConfig: {
+      themes: {
+        light: "github-dark",
+        dark: "github-light",
+      },
+      wrap: true,
+    },
     remarkPlugins: [[remarkToc, { heading: "toc", maxDepth: 3 }]],
     rehypePlugins: [
       rehypeHeadingIds,

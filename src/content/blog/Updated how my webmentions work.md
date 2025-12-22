@@ -9,7 +9,7 @@ tags:
 - webmentions
 postLanguage: english
 ---
-
+<!-- markdownlint-disable MD013 -->
 It’s funny how I initially found out about this issue: I was showing off the recent changes to my website to a close friend of mine who’s hanging out with me to co-work, when I noticed that my posts didn’t have any webmentions at all. Like… *huh? I know this was working before…* [This blog post of mine](/blog/my-personal-website-should-have-support-for-webmentions-now/) was my best way to test out webmentions because another user, Kristof, mentioned my post on [his blog post](https://kiko.io/notes/2025/Run-Webmentions-Run/) (thank you for noticing my humble website! 🙏)
 
 So then starts the rabbit hole again of figuring out how to set things up, reading the code, understanding what’s happening, and all that jazz… I understand the underlying concept of how webmentions work, I just get a bit lost on how to go about it when it comes to the API related items that could be written in TypeScript or JavaScript. I’m personally more familiar with the latter than the former as I haven’t really updated myself yet, though I’m at the stage where I just make edits to already existing code I copied elsewhere because I understand what the code is trying to say. Kind of like when I was still learning HTML and CSS when I was in grade school, editing existing themes so it would show my favorite color and certain images instead of whatever it came with when I initially copy-pasted it.
@@ -30,62 +30,63 @@ const OWN_ORIGIN = `https://${domain}`;
 
 // A webmention is a self-mention if both source and target are on your own site
 function isSelfWebmention(entry) {
-	const source = entry["wm-source"] || "";
-	const target = entry["wm-target"] || "";
-	
-	return source.startsWith(OWN_ORIGIN) && target.startsWith(OWN_ORIGIN);
+  const source = entry["wm-source"] || "";
+  const target = entry["wm-target"] || "";
+  
+  return source.startsWith(OWN_ORIGIN) && target.startsWith(OWN_ORIGIN);
 }
 
 function filterSelfWebmentions(children = []) {
-	return children.filter((entry) => !isSelfWebmention(entry));
+  return children.filter((entry) => !isSelfWebmention(entry));
 }
 
 // ...
 ```
 
 Then I just had to call those new functions later down the file:
-```diff-js
+
+```diff
 // webmentions.js
 // ...
 
 // Merge fresh webmentions with cached entries, unique per ID
 function mergeWebmentions(a, b) {
-+	const merged = unionBy(a.children, b.children, "wm-id");
-+	return filterSelfWebmentions(merged);
++  const merged = unionBy(a.children, b.children, "wm-id");
++  return filterSelfWebmentions(merged);
 }
 
 // ... more code ...
 
 export default async function () {
-	console.log(">>> Reading webmentions from cache...");
-	const cache = readFromCache();
-	
-+	// Clean existing cache so self-mentions disappear right away
-+	cache.children = filterSelfWebmentions(cache.children);
-	
-	if (cache.children.length) {
-		console.log(`>>> ${cache.children.length} webmentions loaded from cache`);
-	}
-	
-	// Only fetch new mentions in production
-	if (process.env.NODE_ENV === "production") {
-		console.log(">>> Checking for new webmentions...");
-		
-		const feed = await fetchWebmentions(cache.lastFetched);
-		
-		if (feed) {
-			const webmentions = {
-				lastFetched: new Date().toISOString(),
-+				children: mergeWebmentions(cache, feed) // already filtered inside merge
-			};
-	
-			writeToCache(webmentions);
-			return webmentions;
-		}
-	}
+  console.log(">>> Reading webmentions from cache...");
+  const cache = readFromCache();
 
-+	// Even if we didn’t fetch, this is now self-mention-free
-	return cache;
++ // Clean existing cache so self-mentions disappear right away
++ cache.children = filterSelfWebmentions(cache.children);
+
+if (cache.children.length) {
+  console.log(`>>> ${cache.children.length} webmentions loaded from cache`);
+}
+
+// Only fetch new mentions in production
+if (process.env.NODE_ENV === "production") {
+  console.log(">>> Checking for new webmentions...");
+  
+  const feed = await fetchWebmentions(cache.lastFetched);
+  
+  if (feed) {
+    const webmentions = {
+      lastFetched: new Date().toISOString(),
++     children: mergeWebmentions(cache, feed) // already filtered inside merge
+  };
+  
+  writeToCache(webmentions);
+  return webmentions;
+  }
+}
+
++  // Even if we didn’t fetch, this is now self-mention-free
+  return cache;
 }
 ```
 
