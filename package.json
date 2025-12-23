@@ -10,6 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.6",
     "@astrojs/markdown-remark": "^6.3.10",
     "@astrojs/mdx": "^4.3.13",
     "@astrojs/rss": "^4.0.14",
@@ -26,6 +27,7 @@
     "reading-time": "^1.5.0",
     "rehype-accessible-emojis": "^0.3.2",
     "rehype-autolink-headings": "^7.1.0",
+    "remark-code-title": "^0.2.5",
     "remark-remove-comments": "^1.1.1",
     "remark-toc": "^9.0.0",
     "sharp": "^0.34.3"

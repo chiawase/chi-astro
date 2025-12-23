@@ -9,14 +9,14 @@ tags:
 - linux
 postLanguage: 
 ---
-
+<!-- markdownlint-disable MD013 -->
 I was initially supposed to start this project next weekend, but I had enough time last weekend to figure out making a partition with my current PC drive and then installing a Linux distro on it. So, tada! I’m writing this post while logged in on my Linux PC, too. Here’s the initial specs from my `fastfetch`:
 
 ![Screenshot of Chi’s fastfetch output in the terminal, which shows her current Linux installation details. The left side shows the ASCII art logo of CachyOS, which is what her OS is. The right side lists system details.](../img/uploads/2025/Pasted%20image%2020251202184813.png "I plan to personalize this in the future, but for the sake of sharing, this’ll do for now")
 
 I dunno if there’s any benefit to also pasting the specs from the above image here, but I guess for the sake of `Ctrl/Cmd+F`ing stuff, here it is:
 
-```
+```shell
            .-------------------------:                    chi@pchi
           .+=========================.                    --------
          :++===++==================-       :++-           OS: CachyOS x86_64
@@ -66,7 +66,7 @@ Knowing I do have to type accented characters due to my name, I wanted to know h
 
 I found that I could set it up in my Niri config, so I went and [followed the instructions in the wiki](https://wiki.archlinux.org/title/Niri#Keymap) and added this to my `~/.config/niri/config.kdl`:
 
-```kdl
+```kdl title="~/.config/niri/config.kdl"
 input {
     keyboard {
         xkb {

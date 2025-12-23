@@ -426,9 +426,26 @@ pre {
   padding: 1.5em;
   border-radius: 8px;
 }
-pre > code {
-  all: unset;
+/* code blocks css */
+div[data-remark-code-title] {
+  background-color: #60a5fa;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+  color: #000;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: monospace;
 }
+
+div[data-remark-code-title] + pre {
+  margin-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+}
+
 blockquote {
   border-left: 2px solid var(--text-color-link);
   margin-left: 0;
