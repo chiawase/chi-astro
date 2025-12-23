@@ -35,10 +35,10 @@ const nextPost =
   index >= 0 && index < allPosts.length - 1 ? allPosts[index + 1] : null;
 
 // Making appropriate metadata in case of missing title or description
-const websiteTitle = post.data.title ??
+const renderedTitle = post.data.title ??
 (createExcerpt(post.body ?? "").substring(0, 60)+"... • "+ SITE_TITLE);
 
-const websiteDescription = post.data.description ??
+const renderedDescription = post.data.description ??
 createExcerpt(post.body?? "").substring(0, 180)+"...";
 ---
 
@@ -46,8 +46,8 @@ createExcerpt(post.body?? "").substring(0, 180)+"...";
   <head>
     <BaseHead
       post={post}
-      title={websiteTitle}
-      description={websiteDescription}
+      title={renderedTitle}
+      description={renderedDescription}
     />
 
   </head>
