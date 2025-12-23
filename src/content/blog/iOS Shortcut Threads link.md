@@ -1,13 +1,13 @@
 ---
-title: Made an iOS Shortcut for better metadata sharing
-description: Duplicated this iOS Shortcut BlueSky link and made one to support threads.com links to turn them into fixthreads.net, since I do this manually anyway when I try to share Threads links in Discord.
+title:
+description:
 tags: 
 - shortcuts
 pubDate: 2025-06-27T02:52:25+00:00
 updatedDate: 2025-09-24T14:42:40+00:00
 ---
-
-Duplicated this [[iOS Shortcut BlueSky link]] and made one to support `threads.com` links to turn them into `fixthreads.net`, since I do this manually anyway when I try to share Threads links in Discord.
+<!-- markdownlint-disable MD013 -->
+Duplicated this [iOS Shortcut BlueSky link](https://chisenires.design/archive/2023-07-27T00:26+00:00/ios-shortcut-bluesky-link/) <!--TODO: turn this into a proper link in astro!! --> and made one to support `threads.com` links to turn them into `fixthreads.net`, since I do this manually anyway when I try to share Threads links in Discord.
 
 You can get the Shortcut here: [Ready Threads Preview Link](https://www.icloud.com/shortcuts/3853dd1e2f9a4076b19cdea85d612108)
 

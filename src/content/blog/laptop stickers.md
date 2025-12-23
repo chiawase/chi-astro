@@ -1,12 +1,12 @@
 ---
-title: Sharing my laptop stickers
-description: Talking about sharing the current state of the stickers on my laptop on stickertop.art and devlids.com.
+title:
+description:
 pubDate: 2025-11-12T08:32:53+00:00
 updatedDate: 2025-11-14T11:30:58+00:00
 tags: 
 - writing
 ---
-
+<!-- markdownlint-disable MD013 -->
 A friend shared this link in our Tambayan 404 `#coding-chatter` channel: [stickertop.art](https://stickertop.art/main/)
 
 Seeing this project, I immediately went and took a photo of my laptop’s current set of stickers on it to submit 😆 The site has an “Upload your own laptop” link with a form on the site.

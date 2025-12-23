@@ -29,14 +29,13 @@ const postReadingTime = getReadingTime(post.body ?? "");
   <p class="postlist-description">
     {
       post.data.description ??
-        createExcerpt(post.body).substring(0, 160) + "..."
+        createExcerpt(post.body ?? "").substring(0, 180) + "..."
     }
   </p>
   <PostListMetadata
     postTags={post.data.tags}
     postSlug={post.id}
     postDate={post.data.pubDate}
-    draft?={post.data.draft}
     postLanguage?={post.data.postLanguage}
     postReadingTime={postReadingTime}
   />

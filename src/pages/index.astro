@@ -11,7 +11,7 @@ const numberOfLatestPostsToShow = 10;
 
 // Fetch all posts from the `blog` collection and sort newest-first.
 // (Adjust "blog" if your collection name differs.)
-const allPosts = (await getCollection("blog")).sort(
+const allPosts = (await getCollection("blog", ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 

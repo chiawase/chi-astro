@@ -7,7 +7,7 @@ tags:
 - writing
 - thoughts
 ---
-
+<!-- markdownlint-disable MD013 -->
 > Maybe once I’ve finished writing the draft blog post I have, I’ll link it here too. But for now, I’ll be referring to a particular blog post that is still in my drafts and I haven’t published yet. You might be able to see it in my repo, but it’s not yet “built” on my website.
 
 While writing a draft blog post, I realize the length of it has gotten longer than I thought it was going to be. I just really have a lot of things to say, most times, and for that particular instance, I think it is properly warranted that I would write a lot of words.

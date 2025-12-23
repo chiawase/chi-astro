@@ -3,9 +3,11 @@
 // all pages through the use of the <BaseHead /> component.
 import "@styles/global.css";
 import type { ImageMetadata } from "astro";
+import type { CollectionEntry } from "astro:content";
 import FallbackImage from "@assets/blog-placeholder-1.jpg";
 import RelMeAuth from "@components/RelMeAuth.astro";
 import ColorSchemePreference from "@components/ColorSchemePreference.astro";
+import { createExcerpt } from "@utils/create-excerpt";
 import { SITE_TITLE, SITE_DOMAIN } from "@consts";
 
 // Custom Fonts
@@ -14,17 +16,21 @@ import "@fontsource-variable/victor-mono";
 import "@fontsource-variable/anybody/wdth-italic.css";
 
 interface Props {
-  title: string;
+  title?: string;
   description: string;
   image?: ImageMetadata;
+  post?: CollectionEntry<"blog">;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image = FallbackImage } = Astro.props;
+const { title, post, description, image = FallbackImage } = Astro.props;
+
+const metadataTitle = post?.data.title ?? "Chi´s blog post";
 ---
 
 <ColorSchemePreference />
+
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -42,15 +48,15 @@ const { title, description, image = FallbackImage } = Astro.props;
 <link rel="canonical" href={canonicalURL} />
 
 <!-- Primary Meta Tags -->
-<title>{title}</title>
+<title>{post?.data.title ?? title}</title>
 
-<meta name="title" content={title} />
+<meta name="title" content={metadataTitle} />
 <meta name="description" content={description} />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content={Astro.url} />
-<meta property="og:title" content={title} />
+<meta property="og:title" content={metadataTitle} />
 <meta property="og:description" content={description} />
 <meta property="og:site_name" content={SITE_DOMAIN} />
 <meta property="og:image" content={new URL(image.src, Astro.url)} />

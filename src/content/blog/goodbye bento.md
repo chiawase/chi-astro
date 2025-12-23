@@ -1,13 +1,13 @@
 ---
-title: Goodbye, Bento
-description: Just got the email that Bento is sunsetting soon and that it’ll shut down on February 13, 2026, so now I’ve just made an update to remove the link in my Contact page and wherever else I set it up.
+title:
+description:
 pubDate: 2025-12-19T02:11:20+00:00
 updatedDate: 2025-12-19T02:43:36+00:00
 tags: 
 - writing
 postLanguage: english
 ---
-
+<!-- markdownlint-disable MD013 -->
 Just got the email that [Bento is sunsetting soon](https://bento.me/bento-sunset) and that it’ll shut down on February 13, 2026, so now I’ve just made an update to remove the link in my [Contact](/contact/) page and wherever else I set it up.
 
 It was a nice 3 years of having it up, since the visual widgets were cool, but now I guess I don’t have a need for another linktree—and besides, I still have [omg.lol](https://omg.lol/chi)[^1] which works more or less the same 😆

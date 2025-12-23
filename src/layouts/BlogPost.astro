@@ -6,7 +6,8 @@ import Footer from "@components/Footer.astro";
 import Header from "@components/Header.astro";
 import PostMetadata from "@components/PostMetadata.astro";
 import Webmentions from "@components/WebmentionsLoader.astro";
-import { SITE_URL, SITE_AUTHOR } from "@consts";
+import { createExcerpt } from "@utils/create-excerpt";
+import { SITE_URL, SITE_AUTHOR, SITE_TITLE } from "@consts";
 
 type Props = {
   post: CollectionEntry<"blog">;
@@ -32,11 +33,22 @@ const index = allPosts.findIndex((p) => p.id === post.id);
 const prevPost = index > 0 ? allPosts[index - 1] : null;
 const nextPost =
   index >= 0 && index < allPosts.length - 1 ? allPosts[index + 1] : null;
+
+// Making appropriate metadata in case of missing title or description
+const websiteTitle = post.data.title ??
+(createExcerpt(post.body ?? "").substring(0, 60)+"... • "+ SITE_TITLE);
+
+const websiteDescription = post.data.description ??
+createExcerpt(post.body?? "").substring(0, 180)+"...";
 ---
 
 <html lang="en">
   <head>
-    <BaseHead title={post.data.title} description={post.data.description} />
+    <BaseHead
+      post={post}
+      title={websiteTitle}
+      description={websiteDescription}
+    />
 
   </head>
 
@@ -47,7 +59,6 @@ const nextPost =
         {
           post.data.title && (
             <h1 class="p-name">{post.data.title}</h1>
-            <!-- add handling for drafts here -->
 
             <PostMetadata
               post={post}
@@ -55,7 +66,6 @@ const nextPost =
               postSlug={slug}
               postDate={post.data.pubDate}
               postUpdatedDate={post.data.updatedDate}
-              draft?={post.data.draft}
               postLanguage?={post.data.postLanguage}
               postReadingTime={postReadingTime}
             />
@@ -82,7 +92,6 @@ const nextPost =
           postSlug={slug}
           postDate={post.data.pubDate}
           postUpdatedDate={post.data.updatedDate}
-          draft?={post.data.draft}
           postLanguage?={post.data.postLanguage}
           postReadingTime={postReadingTime}
         />

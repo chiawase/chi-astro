@@ -1,13 +1,13 @@
 ---
-title: Feeling giddy over small changes
-description:  I really do feel giddy whenever I make a small change in code, whether that’s on my personal website now—been making lots of changes for the past few days? weeks? ...
+title:
+description:
 pubDate: 2025-11-10T15:39:02+00:00
 updatedDate: 2025-11-10T15:54:55+00:00
 tags: 
 - writing
 - thoughts
 ---
-
+<!-- markdownlint-disable MD013 -->
 I really do feel giddy whenever I make a small change in code, whether that’s on my personal website now—been making lots of changes for the past few days? weeks? and I’m just also really excited to get them deployed—or with our internal design system code. I make small changes here and there, though, not to the point that I rewrite whole sections of it, but it feels nice to contribute to something.
 
 I still have so many I want to accomplish, though. But I know that working on it bit by bit is better than just thinking about it and not being able to do anything at all.

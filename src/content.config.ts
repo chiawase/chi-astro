@@ -7,7 +7,7 @@ const blog = defineCollection({
   // Type-check frontmatter using a schema
   schema: ({ image }) =>
     z.object({
-      title: z.string(),
+      title: z.string().nullable(),
       description: z.string().nullable(),
       // Transform string to Date object
       pubDate: z.coerce.date(),
