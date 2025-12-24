@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD013 -->
 # Chi's personal website built with Astro
 
 > As of 24 Dec 2025: Still a work in progress.
@@ -29,3 +30,4 @@ This website was built on top of the Astro Starter Kit: Blog template.
 - [ ] fix heading anchors (they exist but are not rendered with styles)
 - [ ] youtube embeds?
 - [ ] better Image handling?
+- [ ] also investigate the timestamps rendered... might not be showing the local time as I wanted it to go 🤔
