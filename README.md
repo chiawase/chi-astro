@@ -1,23 +1,10 @@
-# Astro Starter Kit: Blog
+# Chi's personal website built with Astro
 
-```sh
-npm create astro@latest -- --template blog
-```
+> Still a work in progress.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-Features:
-
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+This website was built on top of the Astro Starter Kit: Blog template.
 
 ## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
 
 ```text
 ├── public/
@@ -26,37 +13,19 @@ Inside of your Astro project, you'll see the following folders and files:
 │   ├── content/
 │   ├── layouts/
 │   └── pages/
+│   └── styles/
+│   └── utils/
 ├── astro.config.mjs
 ├── README.md
 ├── package.json
 └── tsconfig.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Chi's TODOs
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+- fix webmention reply formatting
+- attempt to fix wikilinks and backlinks using the `@braindb/astro` thing
+- implement preview images and see if cloudinary still works for this setup
+- fix heading anchors (they exist but are not rendered with styles)
+- youtube embeds?
+- better Image handling?
