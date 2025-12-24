@@ -6,6 +6,7 @@ import Footer from "@components/Footer.astro";
 import Header from "@components/Header.astro";
 import PostMetadata from "@components/PostMetadata.astro";
 import Webmentions from "@components/WebmentionsLoader.astro";
+import Backlinks from "@components/Backlinks.astro";
 import { createExcerpt } from "@utils/create-excerpt";
 import { SITE_URL, SITE_AUTHOR, SITE_TITLE } from "@consts";
 
@@ -116,6 +117,8 @@ createExcerpt(post.body?? "").substring(0, 180)+"...";
           )
         }
       </ul>
+
+      <Backlinks entry={post as any} />
 
       <Webmentions />
     </main>

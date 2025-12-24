@@ -7,6 +7,8 @@ import remarkToc from "remark-toc";
 import remarkRemoveComments from "remark-remove-comments";
 import remarkCodeTitle from "remark-code-title";
 
+import { brainDbAstro } from "@braindb/astro";
+
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import { rehypeAccessibleEmojis } from "rehype-accessible-emojis";
 import { SITE_URL } from "./src/consts";
@@ -19,6 +21,7 @@ export default defineConfig({
       remarkPlugins: [remarkRemoveComments],
     }),
     sitemap(),
+    brainDbAstro(),
   ],
   markdown: {
     shikiConfig: {
