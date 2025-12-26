@@ -5,10 +5,15 @@ import "@styles/global.css";
 import type { ImageMetadata } from "astro";
 import type { CollectionEntry } from "astro:content";
 import FallbackImage from "@assets/blog-placeholder-1.jpg";
+import { SITE_TITLE, SITE_DOMAIN } from "@consts";
+
 import RelMeAuth from "@components/RelMeAuth.astro";
 import ColorSchemePreference from "@components/ColorSchemePreference.astro";
+
 import { createExcerpt } from "@utils/create-excerpt";
-import { SITE_TITLE, SITE_DOMAIN } from "@consts";
+
+// Social media images via Cloudinary
+import { getCldOgImageUrl } from "astro-cloudinary/helpers";
 
 // Custom Fonts
 import "@fontsource-variable/victor-mono/wght-italic.css";
@@ -27,6 +32,101 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const { title, post, description, image = FallbackImage } = Astro.props;
 
 const metadataTitle = post?.data.title ?? "Chi´s blog post";
+const metadataDescription = description ?? post?.data.description ?? createExcerpt(post.body?? "").substring(0, 180)+"...";
+
+const CLOUDNAME = "chi-11ty";
+const FOLDER = "chisenires.design/";
+const BASE_URL = `https://res.cloudinary.com/${CLOUDNAME}/image/upload/`;
+const FALLBACK_WIDTHS = [300, 600, 680, 1360];
+const FALLBACK_WIDTH = 680;
+const DEFAULT_SIZES = "(min-width: 580px) 512px, calc(95.38vw - 22px)";
+const SHARE_IMAGE_FILE_NAME = "thumbnail_odokru"; // points to https://res.cloudinary.com/chi-11ty/image/upload/v1745850878/chisenires.design/thumbnail_odokru.png
+// If font not in the root of your Cloudinary media library, need to prepend with `foldername:`
+
+const TITLE_FONT = "open sans"; // setting to Open Sans for now
+const TITLE_FONT_SIZE = 60;
+const TITLE_BOTTOM_OFFSET = 378;
+const TAGLINE_FONT = "open sans";
+const TAGLINE_FONT_SIZE = 36;
+const TAGLINE_TOP_OFFSET = 298;
+const TAGLINE_LINE_HEIGHT = 10;
+const URL_FONT = "open sans";
+const URL_FONT_SIZE = 36;
+const URL_BOTTOM_OFFSET = 24;
+const URL_VALUE = "chisenires.design"; // update this if my domain changes
+const TEXT_AREA_WIDTH = 1071;
+const TEXT_LEFT_OFFSET = 60;
+const TEXT_COLOR = "rgb:FDFDFD";
+
+// Thumbnail Image particulars
+const metadataImageWidth = "1280";
+const metadataImageHeight = "640";
+
+const ogImageUrl = getCldOgImageUrl({
+  src: FOLDER+SHARE_IMAGE_FILE_NAME,
+  extension: "png",
+  width: metadataImageWidth,
+  height: metadataImageHeight,
+  quality: "auto:best",
+  format: "png",
+  overlays: [
+    {
+      SHARE_IMAGE_FILE_NAME,
+      crop: "fill",
+    },
+    {
+      width: TEXT_AREA_WIDTH,
+      crop: "fit",
+      text: {
+        fontFamily: TITLE_FONT,
+        fontSize: TITLE_FONT_SIZE,
+        color: TEXT_COLOR,
+        fontWeight: "bold_normal",
+        alignment: "left",
+        text: metadataTitle
+      },
+      position: {
+        x: TEXT_LEFT_OFFSET,
+        y: TITLE_BOTTOM_OFFSET,
+        gravity: "south_west"
+      }
+    },
+    {
+      width: TEXT_AREA_WIDTH,
+      crop: "fit",
+      text: {
+        fontFamily: TAGLINE_FONT,
+        fontSize: TAGLINE_FONT_SIZE,
+        color: TEXT_COLOR,
+        fontWeight: "normal",
+        alignment: "left",
+        text: metadataDescription
+      },
+      position: {
+        x: TEXT_LEFT_OFFSET,
+        y: TAGLINE_TOP_OFFSET,
+        gravity: "north_west"
+      }
+    },
+    {
+      width: TEXT_AREA_WIDTH,
+      crop: "fit",
+      text: {
+        fontFamily: URL_FONT,
+        fontSize: URL_FONT_SIZE,
+        color: TEXT_COLOR,
+        fontWeight: "bold_normal",
+        alignment: "left",
+        text: URL_VALUE
+      },
+      position: {
+        x: TEXT_LEFT_OFFSET,
+        y: URL_BOTTOM_OFFSET,
+        gravity: "south_west"
+      }
+    }
+  ],
+});
 ---
 
 <ColorSchemePreference />
@@ -59,8 +159,7 @@ const metadataTitle = post?.data.title ?? "Chi´s blog post";
 <meta property="og:title" content={metadataTitle} />
 <meta property="og:description" content={description} />
 <meta property="og:site_name" content={SITE_DOMAIN} />
-<meta property="og:image" content={new URL(image.src, Astro.url)} />
-<!-- <meta property="og:image" content="{% socialImageUrl title, renderedDescription, hasTempTitle %}"> -->
+<meta property="og:image" content={ogImageUrl} />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="640" />
@@ -71,8 +170,7 @@ const metadataTitle = post?.data.title ?? "Chi´s blog post";
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:domain" content={SITE_DOMAIN} />
-<meta property="twitter:image" content={new URL(image.src, Astro.url)} />
-<!-- <meta property="twitter:image" content="{% socialImageUrl title, renderedDescription, hasTempTitle %}"> -->
+<meta property="twitter:image" content={ogImageUrl} />
 
 <!-- For Fediverse tag -->
 <meta name="fediverse:creator" content="@chi@social.lol" />
