@@ -4,6 +4,8 @@ import sitemap from "@astrojs/sitemap";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import { SITE_URL } from "./src/consts";
 
+import embeds from "astro-embed/integration";
+
 import remarkToc from "remark-toc";
 import remarkRemoveComments from "remark-remove-comments";
 import remarkCodeTitle from "remark-code-title";
@@ -17,6 +19,11 @@ import rehypeFigureTitle from "rehype-figure-title";
 export default defineConfig({
   site: SITE_URL,
   integrations: [
+    embeds({
+      services: {
+        YouTube: true,
+      },
+    }),
     mdx({
       remarkPlugins: [
         remarkRemoveComments,

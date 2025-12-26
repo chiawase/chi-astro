@@ -31,4 +31,4 @@ This website was built on top of the Astro Starter Kit: Blog template.
 - [x] fix heading anchors (they exist but are not rendered with styles)
 - [ ] youtube embeds?
 - [x] better Image handling? --- using [rehype-figure-title](https://github.com/futuraprime/rehype-figure-title) for this!
-- [ ] also investigate the timestamps rendered... might not be showing the local time as I wanted it to go 🤔
+- [x] ~~also investigate the timestamps rendered... might not be showing the local time as I wanted it to go 🤔~~ nevermind

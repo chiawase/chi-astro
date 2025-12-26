@@ -15,6 +15,9 @@
   --text-color-link-active: #8b24da;
   --text-color-link-visited: #8b24da;
 
+  --text-highlight-bg: #f9adab;
+  --text-highlight-fg: #000;
+
   /* MingCute Icon formatted in Figma for appropriate link colors */
   --svg-external-link-icon: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.16667 5C9.38768 5 9.59964 5.0878 9.75592 5.24408C9.9122 5.40036 10 5.61232 10 5.83333C10 6.05435 9.9122 6.26631 9.75592 6.42259C9.59964 6.57887 9.38768 6.66667 9.16667 6.66667H4.16667V15.8333H13.3333V10.8333C13.3333 10.6123 13.4211 10.4004 13.5774 10.2441C13.7337 10.0878 13.9457 10 14.1667 10C14.3877 10 14.5996 10.0878 14.7559 10.2441C14.9122 10.4004 15 10.6123 15 10.8333V15.8333C15 16.2754 14.8244 16.6993 14.5118 17.0118C14.1993 17.3244 13.7754 17.5 13.3333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V6.66667C2.5 6.22464 2.67559 5.80072 2.98816 5.48816C3.30072 5.17559 3.72464 5 4.16667 5H9.16667ZM16.6667 2.5C16.8877 2.5 17.0996 2.5878 17.2559 2.74408C17.4122 2.90036 17.5 3.11232 17.5 3.33333V7.5C17.5 7.72101 17.4122 7.93298 17.2559 8.08926C17.0996 8.24554 16.8877 8.33333 16.6667 8.33333C16.4457 8.33333 16.2337 8.24554 16.0774 8.08926C15.9211 7.93298 15.8333 7.72101 15.8333 7.5V5.345L8.9225 12.2558C8.76533 12.4076 8.55483 12.4916 8.33633 12.4897C8.11784 12.4878 7.90882 12.4002 7.75432 12.2457C7.59981 12.0912 7.51217 11.8822 7.51027 11.6637C7.50837 11.4452 7.59237 11.2347 7.74417 11.0775L14.655 4.16667H12.5C12.279 4.16667 12.067 4.07887 11.9107 3.92259C11.7545 3.76631 11.6667 3.55435 11.6667 3.33333C11.6667 3.11232 11.7545 2.90036 11.9107 2.74408C12.067 2.5878 12.279 2.5 12.5 2.5H16.6667Z' fill='%23C2302B'/%3E%3C/svg%3E");
   --svg-external-link-icon-hover: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.16667 5C9.38768 5 9.59964 5.0878 9.75592 5.24408C9.9122 5.40036 10 5.61232 10 5.83333C10 6.05435 9.9122 6.26631 9.75592 6.42259C9.59964 6.57887 9.38768 6.66667 9.16667 6.66667H4.16667V15.8333H13.3333V10.8333C13.3333 10.6123 13.4211 10.4004 13.5774 10.2441C13.7337 10.0878 13.9457 10 14.1667 10C14.3877 10 14.5996 10.0878 14.7559 10.2441C14.9122 10.4004 15 10.6123 15 10.8333V15.8333C15 16.2754 14.8244 16.6993 14.5118 17.0118C14.1993 17.3244 13.7754 17.5 13.3333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V6.66667C2.5 6.22464 2.67559 5.80072 2.98816 5.48816C3.30072 5.17559 3.72464 5 4.16667 5H9.16667ZM16.6667 2.5C16.8877 2.5 17.0996 2.5878 17.2559 2.74408C17.4122 2.90036 17.5 3.11232 17.5 3.33333V7.5C17.5 7.72101 17.4122 7.93298 17.2559 8.08926C17.0996 8.24554 16.8877 8.33333 16.6667 8.33333C16.4457 8.33333 16.2337 8.24554 16.0774 8.08926C15.9211 7.93298 15.8333 7.72101 15.8333 7.5V5.345L8.9225 12.2558C8.76533 12.4076 8.55483 12.4916 8.33633 12.4897C8.11784 12.4878 7.90882 12.4002 7.75432 12.2457C7.59981 12.0912 7.51217 11.8822 7.51027 11.6637C7.50837 11.4452 7.59237 11.2347 7.74417 11.0775L14.655 4.16667H12.5C12.279 4.16667 12.067 4.07887 11.9107 3.92259C11.7545 3.76631 11.6667 3.55435 11.6667 3.33333C11.6667 3.11232 11.7545 2.90036 11.9107 2.74408C12.067 2.5878 12.279 2.5 12.5 2.5H16.6667Z' fill='%238B24DA'/%3E%3C/svg%3E%0A");
@@ -309,8 +312,29 @@ textarea {
 input {
   font-size: 16px;
 }
+/* From https://webdev.bryanhogan.com/miscellaneous/styling-markdown/#table-table */
 table {
-  width: 100%;
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  border-collapse: collapse;
+  border: 2px solid var(--color-gray-20);
+  border-spacing: 0;
+  margin-inline: auto;
+  overflow: auto;
+}
+td {
+  border: 1px solid var(--color-gray-20);
+  padding: 0.5rem 1rem;
+}
+th {
+  border: 1px solid vazr(--color-gray-20);
+  color: var(--text-color-link-visited);
+  padding: 0.75rem 1rem;
+}
+table tbody tr:nth-child(odd) {
+  /* different background color applied to every second row */
+  background-color: var(--background-color-overlay);
 }
 img {
   max-width: 100%;
@@ -507,12 +531,12 @@ li {
 
 /* add margin after the last item of every list, except for nav */
 li:not(ul.nav li):not(ul.post-metadata li):last-child {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 /* For lists in articles, add some spacing after an item */
 article .e-content * > li {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 896px) {
@@ -694,4 +718,15 @@ article .e-content * > li {
   .icon.icon-link::after {
     content: "#";
   }
+}
+
+mark {
+  background-color: var(--text-color-link);
+}
+
+::selection,
+::-moz-selection {
+  background-color: var(--text-highlight-bg);
+  color: var(--text-highlight-fg);
+  text-shadow: none;
 }
