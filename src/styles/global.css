@@ -1,21 +1,7 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
-
+/**
+* Chi's personal website global styles
+*/
 :root {
-  /*--accent: #2337ff;
-    --accent-dark: #000d8a;
-    --black: 15, 18, 25;
-    --gray: 96, 115, 159;
-    --gray-light: 229, 233, 240;
-    --gray-dark: 34, 41, 57;
-    --gray-gradient: rgba(var(--gray-light), 50%), #fff;
-    --box-shadow:
-        0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
-        0 16px 32px rgba(var(--gray), 33%);*/
-
   --color-gray-20: #6a6a6a;
   --color-gray-50: #666;
   --color-gray-90: #333;
@@ -75,44 +61,6 @@ html.dark {
   --background-color-overlay: #2b2b2bcc;
 
   color-scheme: dark;
-}
-/* victor-mono-latin-wght-italic */
-@font-face {
-  font-family: "Victor Mono Variable";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 100 700;
-  font-stretch: 50% 200%;
-  unicode-range:
-    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
-    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
-    U+2215, U+FEFF, U+FFFD;
-}
-
-/* victor-mono-latin-wght-normal */
-@font-face {
-  font-family: "Victor Mono Variable";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 100 700;
-  font-stretch: 50% 200%;
-  unicode-range:
-    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
-    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
-    U+2215, U+FEFF, U+FFFD;
-}
-
-/* anybody-latin-wght-italic */
-@font-face {
-  font-family: "Anybody Variable";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 100 900;
-  font-stretch: 50% 150%;
-  unicode-range:
-    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
-    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
-    U+2215, U+FEFF, U+FFFD;
 }
 
 /* Font Defaults */
