@@ -2,6 +2,7 @@ import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
+import { SITE_URL } from "./src/consts";
 
 import remarkToc from "remark-toc";
 import remarkRemoveComments from "remark-remove-comments";
@@ -10,7 +11,7 @@ import wikiLinkPlugin from "@flowershow/remark-wiki-link";
 
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import { rehypeAccessibleEmojis } from "rehype-accessible-emojis";
-import { SITE_URL } from "./src/consts";
+import rehypeFigureTitle from "rehype-figure-title";
 
 // https://astro.build/config
 export default defineConfig({
@@ -55,9 +56,10 @@ export default defineConfig({
       [
         rehypeAutolinkHeadings,
         {
-          behavior: "prepend",
+          behavior: "append",
         },
       ],
+      rehypeFigureTitle,
     ],
   },
   experimental: {

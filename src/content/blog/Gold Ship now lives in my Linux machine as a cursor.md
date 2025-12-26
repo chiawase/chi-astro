@@ -85,26 +85,26 @@ My process was just like this:
 3. In the Gold Ship cursors folder, I just copy the implementation based on what I indicated in #2.
 	- For main reference files, I just do simple renaming. So for example, `default` in Adwaita is the *default* pointer, but I noticed in the exported file, the file name is `left_ptr` instead. To align it with the Adwaita reference, I set the file name to be the same.
 	- For symlink files, I had to run some terminal commands to set this up, since I didn’t see any way to do that with my file explorer. For the sake of making it easier to type the commands, I opened a terminal within the `cursors/` folder and ran the following command:
-	  
+
 		```shell
 		ln -s <original_name> <name_of_symlink_file>
 		```
-		
-		This essentially creates a new symlink file, makes its target whatever file name was mentioned first, and its new file name is the second indicated value.
-		
-		Here’s the history of my shell logs when I set it up:
 
-	  ![Screenshot of a terminal showing a log of the commands run by Chi on 8 December, consisting mostly of commands creating symbolic links using the ln -s command.](../img/uploads/2025/Pasted%20image%2020251209222407.png "Recently learned about the `history` command which is helpful to trace back my steps and show them here 😁")
-	  
-	  There’s some liberties exercised in some of them, where I matched them based on what the cursor felt like it would work better in. 
-	  
-	  ![Three file explorer views showing cursor files: left shows Adwaita’s “wait” and “watch” cursors that look identical, middle shows the Gold Ship “wait” cursor, and right shows the Gold Ship final mapping where “wait” and “watch” are different cursors.](../img/uploads/2025/Pasted%20image%2020251209230334.png)
-	  
-	  An example is the `wait` cursor for golshi[^3], instead of copying how Adwaita cursors have it set up—where `wait` and `watch` are the same cursor—I used the `left_ptr_watch` cursor instead and just renamed it accordingly.
+	This essentially creates a new symlink file, makes its target whatever file name was mentioned first, and its new file name is the second indicated value.
+
+	Here’s the history of my shell logs when I set it up:
+
+  ![Screenshot of a terminal showing a log of the commands run by Chi on 8 December, consisting mostly of commands creating symbolic links using the ln -s command.](../img/uploads/2025/Pasted%20image%2020251209222407.png "Recently learned about the “history” command which is helpful to trace back my steps and show them here 😁")
+
+  There’s some liberties exercised in some of them, where I matched them based on what the cursor felt like it would work better in.
+
+  ![Three file explorer views showing cursor files: left shows Adwaita’s “wait” and “watch” cursors that look identical, middle shows the Gold Ship “wait” cursor, and right shows the Gold Ship final mapping where “wait” and “watch” are different cursors.](../img/uploads/2025/Pasted%20image%2020251209230334.png)
+
+  An example is the `wait` cursor for golshi[^3], instead of copying how Adwaita cursors have it set up—where `wait` and `watch` are the same cursor—I used the `left_ptr_watch` cursor instead and just renamed it accordingly.
 4. Once I was done doing that, I had one last thing to check: the `index.theme` file. The exported cursor pack also did have the same file, but I edited it to rename the title, add a description, and also add an `Inherits=` item and set it to Adwaita, to make it some sort of fallback cursor theme.[^4]
-   
-   ![Three index.theme files side-by-side: left shows Adwaita cursor theme configuration, middle shows Gold Ship initial theme with Name=Gold-Ship, right shows Gold Ship Cursors final theme with Inherits=Adwaita.](../img/uploads/2025/Pasted%20image%2020251209232138.png)
-   
+
+  ![Three index.theme files side-by-side: left shows Adwaita cursor theme configuration, middle shows Gold Ship initial theme with Name=Gold-Ship, right shows Gold Ship Cursors final theme with Inherits=Adwaita.](../img/uploads/2025/Pasted%20image%2020251209232138.png)
+
 After selecting the Gold Ship Cursors in my GTK Settings and clicking **Apply**, I rebooted my Linux machine and hoped for the best.
 
 When it loaded again… violà! It’s here!

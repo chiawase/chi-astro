@@ -317,6 +317,29 @@ img {
   height: auto;
   border-radius: 8px;
 }
+
+/* Images in posts, and also in other pages */
+article picture img,
+.page picture img,
+article figure img {
+  border-radius: 1rem;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+article figure figcaption {
+  border-radius: 1rem;
+  background-color: var(--background-color-overlay);
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 140%;
+  text-align: center;
+}
+
 pre,
 code {
   font-family: var(--font-family-monospace) !important;
