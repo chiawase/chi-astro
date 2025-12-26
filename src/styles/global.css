@@ -660,18 +660,15 @@ article .e-content * > li {
   position: relative;
   a[aria-hidden="true"] {
     text-decoration: none;
-    position: absolute;
-    text-align: right;
-    left: -1.2em;
-    width: 1em;
+    display: inline-block;
+    margin-left: 1rem;
   }
 
   & a:hover {
     color: var(--text-color-link-active);
   }
 
-  .icon.icon-link::before {
+  .icon.icon-link::after {
     content: "#";
-    display: block;
   }
 }
