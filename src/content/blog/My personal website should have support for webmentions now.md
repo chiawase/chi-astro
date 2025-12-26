@@ -35,7 +35,7 @@ OMG it worked. It fetched the one webmention I set up initially via [webmentions
 
 But now I'm not sure how to show the thing... I need to figure out how to connect it to the article itself 🤔
 
-I'm currently testing the webmention setup I made in [[Constantly updating this website|this post I made]] plus [[Setting up my website again for the nth time|this other older article]] too.
+I'm currently testing the webmention setup I made in [[/blog/constantly-updating-this-website|this post I made]] plus [[/blog/setting-up-my-website-again-for-the-nth-time|this other older article]] too.
 
 ## 22:42 PM update
 

@@ -11,7 +11,7 @@ postLanguage:
 
 So! I have been working on so many things these past few days, and upon tracing when the errors started to happen on my blog, everything was fine before 6 November 2025. When I tried updating and pushing changes to my my [now](/now/) page then, that’s the first instance when my deployment went back with a failed status.
 
-I wrote about me troubleshooting the deployment errors in [[TIL of npm cross-platform support|this other post]], in case you were curious. But for this post, This would be more of a changelog type of post (at least until I get my own Changelog page if I’m not lazy to put it together lol)
+I wrote about me troubleshooting the deployment errors in [[/blog/til-of-npm-cross-platform-support|this other post]], in case you were curious. But for this post, This would be more of a changelog type of post (at least until I get my own Changelog page if I’m not lazy to put it together lol)
 
 In the order that I remember them, here are some of the things I’ve changed in my blog since 6 November 2025!
 
@@ -23,11 +23,11 @@ In the order that I remember them, here are some of the things I’ve changed in
 - I moved the dark mode toggle I used to have in my footer to the header and right next to my name, so it’s cute
 - I set up my [Blog Stats page](/blog-stats/) using [PostGraph](https://postgraph.rknight.me/)
 - made a buncha new posts (and this one I have checked the order, from earliest to latest):
-	1. [[feeling giddy small changes|Feeling giddy about making small changes in code]]
-	2. [[Another random list of things to share]]—this one is part of my [#8to](/tags/8to/) posts where I list 8 random things to share
-	3. [[External links handling|setting up the marker for external links on my blog]]
-	4. [[laptop stickers|learning about 2 sites that feature laptop covers with stickers]]
-	5. [[TIL of npm cross-platform support]]
+	1. [[/blog/feeling-giddy-small-changes|Feeling giddy about making small changes in code]]
+	2. [[/blog/another-random-list-of-things-to-share|Another random list of things to share]]—this one is part of my [#8to](/tags/8to/) posts where I list 8 random things to share
+	3. [[/blog/external-links-handling|setting up the marker for external links on my blog]]
+	4. [[/blog/laptop-stickers|learning about 2 sites that feature laptop covers with stickers]]
+	5. [[/blog/til-of-npm-cross-platform-support|TIL of npm cross-platform support]]
 	6. and this one!
 	
 	Wow, that’s 6 new posts haha
@@ -38,7 +38,7 @@ In the order that I remember them, here are some of the things I’ve changed in
 - changed how my tags look like in posts and also added a `post_language` frontmatter thing to my posts in case I go Taglish when I write my stuff
 - also updated how my post metadata shows up—now if the post doesn’t have a title, it won’t repeat the same data at the top anymore. That only happens if there’s a title in the post, since usually my no-title posts are short in nature 😆
 - added Permalinks to my blog posts now just because
-- something git-specific: I had to rebase my previous commits made while I was on my PC because the `author.name` was set to `chiawase` instead of `Chi Señires`, which was how it was set up on my work Mac, and I wanted to keep my name there 😆 super happy about [[omg I just learned about lazygit|lazygit]] because it made rebasing and updating the author name so easy 😁
+- something git-specific: I had to rebase my previous commits made while I was on my PC because the `author.name` was set to `chiawase` instead of `Chi Señires`, which was how it was set up on my work Mac, and I wanted to keep my name there 😆 super happy about [[/blog/omg-i-just-learned-about-lazygit|lazygit]] because it made rebasing and updating the author name so easy 😁
 
 Wew! So many changes done in the span of a week.
 

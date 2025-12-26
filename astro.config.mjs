@@ -6,8 +6,7 @@ import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import remarkToc from "remark-toc";
 import remarkRemoveComments from "remark-remove-comments";
 import remarkCodeTitle from "remark-code-title";
-
-import { brainDbAstro } from "@braindb/astro";
+import wikiLinkPlugin from "@flowershow/remark-wiki-link";
 
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import { rehypeAccessibleEmojis } from "rehype-accessible-emojis";
@@ -18,10 +17,18 @@ export default defineConfig({
   site: SITE_URL,
   integrations: [
     mdx({
-      remarkPlugins: [remarkRemoveComments],
+      remarkPlugins: [
+        remarkRemoveComments,
+        [
+          wikiLinkPlugin,
+          {
+            format: "shortestPossible",
+            urlResolver: (post) => `${post.filePath}/`, // I have to do it like this so it shows with a closing slash
+          },
+        ],
+      ],
     }),
     sitemap(),
-    brainDbAstro(),
   ],
   markdown: {
     shikiConfig: {
@@ -33,6 +40,13 @@ export default defineConfig({
     remarkPlugins: [
       remarkRemoveComments,
       remarkCodeTitle,
+      [
+        wikiLinkPlugin,
+        {
+          format: "shortestPossible",
+          urlResolver: (post) => `${post.filePath}/`, // I have to do it like this so it shows with a closing slash
+        },
+      ],
       [remarkToc, { heading: "toc", maxDepth: 3 }],
     ],
     rehypePlugins: [

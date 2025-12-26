@@ -26,4 +26,4 @@ It didn't make sense too that I started getting a different error just for writi
 
 Turns out, the error was with the declarations I made above with the `css` and `js` tags. I just needed to use the `raw` tags as defined in the [Nunjucks docs](https://mozilla.github.io/nunjucks/templating.html#raw).
 
-NOW I to get back to gaming. And maybe adding Webmentions, as I mentioned in [[Finally fixed the metadata generation and the auto social images!|my previous post]]. 😆
+NOW I to get back to gaming. And maybe adding Webmentions, as I mentioned in [[/blog/finally-fixed-the-metadata-generation-and-the-auto-social-images|my previous post]]. 😆
