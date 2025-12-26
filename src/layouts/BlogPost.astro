@@ -104,7 +104,7 @@ createExcerpt(post.body?? "").substring(0, 180)+"...";
           prevPost && (
             <li class="links-nextprev-prev">
               <a href={`/blog/${prevPost.id}/`}>← Previous</a>
-              <span class="post-title-prev">{prevPost.data.title}</span>
+              <span class="post-title-prev">{prevPost.data.title ?? (createExcerpt(prevPost.body ?? "").substring(0, 60)+"...")}</span>
             </li>
           )
         }
@@ -112,7 +112,7 @@ createExcerpt(post.body?? "").substring(0, 180)+"...";
           nextPost && (
             <li class="links-nextprev-next">
               <a href={`/blog/${nextPost.id}/`}>Next →</a>
-              <span class="post-title-next">{nextPost.data.title}</span>
+              <span class="post-title-next">{nextPost.data.title ?? (createExcerpt(nextPost.body ?? "").substring(0, 60)+"...")}</span>
             </li>
           )
         }
@@ -135,7 +135,7 @@ createExcerpt(post.body?? "").substring(0, 180)+"...";
     padding: 1em 0;
   }
   .links-nextprev > * {
-    flex: 1;
+    flex: 0 1 50%;
   }
   [class*="post-title-"] {
     display: block;
