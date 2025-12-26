@@ -655,20 +655,23 @@ article .e-content * > li {
   white-space: nowrap;
 }
 
-/*For anchor links?*/
-.sl-markdown-content :is(h1, h2, h3, h4, h5, h6) {
-  a {
-    color: var(--text-color-link);
+/*For anchor links*/
+:is(h1, h2, h3, h4, h5, h6) {
+  position: relative;
+  a[aria-hidden="true"] {
     text-decoration: none;
-    font-size: 1.5rem;
-    margin-left: 0.5rem;
+    position: absolute;
+    text-align: right;
+    left: -1.2em;
+    width: 1em;
   }
 
-  &:hover a {
+  & a:hover {
     color: var(--text-color-link-active);
   }
 
-  .icon.icon-link::after {
+  .icon.icon-link::before {
     content: "#";
+    display: block;
   }
 }
