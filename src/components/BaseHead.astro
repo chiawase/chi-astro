@@ -4,8 +4,7 @@
 import "@styles/global.css";
 import type { ImageMetadata } from "astro";
 import type { CollectionEntry } from "astro:content";
-import FallbackImage from "@assets/blog-placeholder-1.jpg";
-import { SITE_TITLE, SITE_DOMAIN } from "@consts";
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_DOMAIN } from "@consts";
 
 import RelMeAuth from "@components/RelMeAuth.astro";
 import ColorSchemePreference from "@components/ColorSchemePreference.astro";
@@ -22,20 +21,21 @@ import "@fontsource-variable/anybody/wdth-italic.css";
 
 interface Props {
   title?: string;
-  description: string;
+  description?: string;
   image?: ImageMetadata;
   post?: CollectionEntry<"blog">;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, post, description, image = FallbackImage } = Astro.props;
+const { title, post, description, image } = Astro.props;
 
-const metadataTitleRaw = post?.data.title ?? "Chi´s blog post";
+const metadataTitleRaw = post?.data.title ?? "Chi’s blog post";
 const metadataDescriptionRaw =
-  description ??
-  post?.data.description ??
-  prepareOgText(post?.body?? "", { maxLength: 180 });
+  description ||
+  post?.data.description ||
+  (post?.body ? prepareOgText(post.body, { maxLength: 180 }) : "") ||
+  SITE_DESCRIPTION;
 
 const metadataTitleForCld = prepareOgText(metadataTitleRaw, { urlEncode: true, });
 const metadataDescriptionForCld = prepareOgText(metadataDescriptionRaw, { urlEncode: true });
@@ -59,7 +59,6 @@ const TAGLINE_LINE_HEIGHT = 10;
 const URL_FONT = "open sans";
 const URL_FONT_SIZE = 36;
 const URL_BOTTOM_OFFSET = 24;
-const URL_VALUE = "chisenires.design"; // update this if my domain changes
 const TEXT_AREA_WIDTH = 1071;
 const TEXT_LEFT_OFFSET = 60;
 const TEXT_COLOR = "rgb:FDFDFD";
@@ -75,9 +74,6 @@ const ogImageUrl = getCldOgImageUrl({
   quality: "auto:best",
   format: "png",
   overlays: [
-    {
-      crop: "fill",
-    },
     {
       width: TEXT_AREA_WIDTH,
       crop: "fit",
@@ -121,7 +117,7 @@ const ogImageUrl = getCldOgImageUrl({
         color: TEXT_COLOR,
         fontWeight: "bold_normal",
         alignment: "left",
-        text: URL_VALUE
+        text: SITE_DOMAIN
       },
       position: {
         x: TEXT_LEFT_OFFSET,
@@ -152,7 +148,7 @@ const ogImageUrl = getCldOgImageUrl({
 <link rel="canonical" href={canonicalURL} />
 
 <!-- Primary Meta Tags -->
-<title>{post?.data.title ?? title}</title>
+<title>{post?.data.title || (title === SITE_TITLE ? SITE_TITLE : title + " • "+ SITE_TITLE)}</title>
 
 <meta name="title" content={metadataTitleRaw} />
 <meta name="description" content={metadataDescriptionRaw} />

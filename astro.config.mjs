@@ -39,6 +39,7 @@ export default defineConfig({
       rehypePlugins: [
         rehypeHeadingIds,
         [rehypeAutolinkHeadings, { behavior: "append" }],
+        rehypeFigureTitle,
       ],
     }),
     sitemap(),

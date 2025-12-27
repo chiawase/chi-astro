@@ -1,0 +1,31 @@
+---
+import Page from "@layouts/Page.astro";
+import MoreNavLink from "@components/MoreNavLink.astro";
+import { MORE_PAGES, type MorePagesEntry } from "@data/morePages";
+
+const sortEntries = (entries: MorePagesEntry[]): MorePagesEntry[] =>
+  [...entries]
+    .map((e) => ({
+      ...e,
+      children: e.children ? sortEntries(e.children) : undefined,
+    }))
+    .sort((a, b) => a.title.localeCompare(b.title));
+
+const navEntries = sortEntries(MORE_PAGES);
+---
+
+<Page
+  title="More Pages"
+  description="A list of all the other pages on this site."
+>
+  <p>
+    Here’s a list of all the other pages I have on this website, sorted in
+    alphabetical order!
+  </p>
+
+  <ul role="list">
+    {navEntries.map((entry) => (
+      <MoreNavLink entry={entry} />
+    ))}
+  </ul>
+</Page>

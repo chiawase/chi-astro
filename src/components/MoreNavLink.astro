@@ -1,0 +1,20 @@
+---
+import type { MorePagesEntry } from "@data/morePages";
+
+const { entry } = Astro.props as { entry: MorePagesEntry };
+---
+
+<li>
+  {entry.children?.length ? (
+    <details>
+      <summary>{entry.title}</summary>
+      <ul role="list">
+        {entry.children.map((child) => (
+          <Astro.self entry={child} />
+        ))}
+      </ul>
+    </details>
+  ) : (
+    <a href={entry.url}>{entry.title}</a>
+  )}
+</li>

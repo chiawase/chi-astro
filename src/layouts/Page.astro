@@ -1,0 +1,35 @@
+---
+import BaseHead from "@components/BaseHead.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import { SITE_TITLE } from "@consts";
+
+const { title, description = null } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={title === "404" ? "Not found  • "+ SITE_TITLE : title}
+      description={description}
+    />
+  </head>
+
+  <body>
+    <a id="skip-link" class="visually-hidden" href="#main">Skip to content</a>
+
+    <Header />
+
+    <main id="main">
+      <section class="page">
+        {
+          (title !== "404") && (<h1>{title}</h1>)
+        }
+        <slot />
+      </section>
+    </main>
+
+    <Footer />
+  </body>
+</html>

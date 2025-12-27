@@ -3,7 +3,7 @@
 
 export const SITE_TITLE = "Chi Señires";
 export const SITE_DESCRIPTION =
-  "Chi's space for thoughts and ideas on her side of the internet";
+  "Chi’s space for thoughts and ideas on her side of the internet";
 export const SITE_URL = "https://chisenires.design";
 export const SITE_DOMAIN = "chisenires.design";
 export const SITE_AUTHOR = {

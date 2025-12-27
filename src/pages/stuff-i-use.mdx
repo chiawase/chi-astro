@@ -5,22 +5,15 @@ pubDate: 2025-08-18T07:34:56+00:00
 updatedDate: 2025-12-11T08:11:05+00:00
 ---
 
-import BaseHead from "@components/BaseHead.astro";
-import Footer from "@components/Footer.astro";
-import Header from "@components/Header.astro";
+import Page from "@layouts/Page.astro";
+
 import FormattedDate from "@components/FormattedDate.astro";
 import { SITE_DESCRIPTION } from "@consts";
 
-<head>
-    <BaseHead title={frontmatter.title} description={SITE_DESCRIPTION} />
-</head>
-<body>
-    <a href="#main" id="skip-link" class="visually-hidden"
-        >Skip to main content</a>
-    <Header />
-    <main id="skip">
-
-# Stuff I Use
+<Page
+  title={frontmatter.title}
+  description={frontmatter.description}
+>
 
 Initially put this together after seeing [Jarrod's](https://heydingus.net/gear) and [Robb's](https://rknight.me/blog/app-defaults/) lists, and eventually discovered there was a whole list of other people who did something similar. I copied the initial headings from [defaults.rknight.me](https://defaults.rknight.me/) and made do with the ones I wanted to note down, and added some of my own. 😄
 
@@ -35,8 +28,8 @@ I eventually want to spiffy this up while getting some inspiration from these bl
 ![A red Brompton bike with its rear wheel folded under, allowing it to stand upright on its own. A red bag is mounted on the front rack with a matching red helmet resting on top. The bike is parked on the roadside in front of The Peninsula Manila, whose plaque is visible behind some greenery.](../content/img/uploads/2025/goldship.jpeg "The first time I brought Gold Ship out for a ride after I got her")
 
 - a custom painted red Brompton named *Gold Ship*
-	- my bag here is a GO FAR Large Bromp bag I bought from [Bikeary](https://bikeary.com/), though I don’t think they sell it on their store anymore
-	- I also have a [LUMOS Ultra MIPS helmet](https://ridelumos.com/products/lumos-ultra?variant=40418367766684) that has seen better days lol
+ 	- my bag here is a GO FAR Large Bromp bag I bought from [Bikeary](https://bikeary.com/), though I don’t think they sell it on their store anymore
+ 	- I also have a [LUMOS Ultra MIPS helmet](https://ridelumos.com/products/lumos-ultra?variant=40418367766684) that has seen better days lol
 
 #### 📨 Mail Client
 
@@ -49,7 +42,7 @@ I eventually want to spiffy this up while getting some inspiration from these bl
 #### 📝 Notes
 
 - [Obsidian](https://obsidian.md) with a Sync subscription for the most convenient way to use my personal vault on Mac and Linux ([read more here](/blog/my-personal-obsidian-vault-setup/ "Read my blog post “My personal Obsidian vault setup”"))
-	- also using it with the following plugins:
+ 	- also using it with the following plugins:
 		- [Calendar](https://github.com/liamcain/obsidian-calendar-plugin)
 		- [Natural Language Dates](https://github.com/argenos/nldates-obsidian)
 		- [Reading Time](https://github.com/avr/obsidian-reading-time)
@@ -170,11 +163,11 @@ I eventually want to spiffy this up while getting some inspiration from these bl
 
 - PC: Dual-boot with [CachyOS](https://cachyos.org/)+[niri](https://github.com/YaLTeR/niri/)+[Noctalia shell](https://github.com/noctalia-dev/noctalia-shell) (explained more [here](/blog/dual-boot-linux-pc)) and Windows 11 (that I haven’t touched since I set up Linux lol)
 - Terminal:
-	- on Mac and Linux: [Ghostty](https://ghostty.org/)
-	- ~~on Windows: just plain old Terminal~~
+ 	- on Mac and Linux: [Ghostty](https://ghostty.org/)
+ 	- ~~on Windows: just plain old Terminal~~
 - Code Editor:
-	- on Mac ~~and Windows~~: VS Code
-	- on Linux: [Zed](https://zed.dev/)
+ 	- on Mac ~~and Windows~~: VS Code
+ 	- on Linux: [Zed](https://zed.dev/)
 - My main keyboard: [Baseform](https://posture.works/baseform/ "just released last September 2025!") with [Equalz Fruit Smoothie Switches](https://www.switchkeys.com.au/products/equalz-fruit-smoothie-switches-x10?_pos=8&_fid=1808135e3&_ss=c "special thanks to a friend based in AU who recoo’d this hehe")
 
 #### 📢Social Media Networks
@@ -193,7 +186,4 @@ I eventually want to spiffy this up while getting some inspiration from these bl
 
 - [Ventusky](https://www.ventusky.com/)
 - [Hello Weather](https://helloweather.com/) for the cute widgets on iOS
-
-</main>
-<Footer />
-</body>
+</Page>

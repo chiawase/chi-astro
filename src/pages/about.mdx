@@ -3,73 +3,64 @@ title: "About Me"
 ---
 import { Image, Picture } from "astro:assets";
 import { getCollection } from "astro:content";
-import BaseHead from "@components/BaseHead.astro";
-import Footer from "@components/Footer.astro";
-import FormattedDate from "@components/FormattedDate.astro";
-import Header from "@components/Header.astro";
-import { SITE_DESCRIPTION, SITE_TITLE } from "@consts";
+
+import Page from "@layouts/Page.astro";
+import { SITE_DESCRIPTION } from "@consts";
 
 import chiPhoto from "@assets/chi.jpg";
 import chiAndGoldShipBike from "../content/img/uploads/2025/chi-and-goldship.jpeg";
 
-<head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <style>
-    {`/* About Page */
-    .chi-image {
-      display: block;
-      border-radius: 2rem;
-      margin: 0 auto;
-      }`}
-    </style>
-</head>
-<body>
-    <a href="#main" id="skip-link" class="visually-hidden"
-        >Skip to main content</a>
-    <Header />
-    <main id="skip">
-# {frontmatter.title}
+<Page
+  title="About Me"
+  description={SITE_DESCRIPTION}
+>
+  <style>
+  {`/* About Page */
+  .chi-image {
+    display: block;
+    border-radius: 2rem;
+    margin: 0 auto;
+    }`}
+  </style>
 
-<div class="h-card">
+  <div class="h-card">
 
-Hello there! I'm <span class="p-name">**Chi Señires**</span>. I'm a <span class="p-job-title">UX Designer</span> from the <span class="p-country-name">Philippines</span>.
+  Hello there! I'm <span class="p-name">**Chi Señires**</span>. I'm a <span class="p-job-title">UX Designer</span> from the <span class="p-country-name">Philippines</span>.
 
-<Image src={chiPhoto} alt="" width="400" height="400" class="chi-image u-photo"/>
+  <Image src={chiPhoto} alt="" width="400" height="400" class="chi-image u-photo"/>
 
-## Quick <abbr title="Getting to Know Me">GTKM</abbr>
+  ## Quick <abbr title="Getting to Know Me">GTKM</abbr>
 
-- I have a red trifold Brompton folding bike I've named [**Gold Ship**](/stuff-i-use/#my-bicycle).
-- currently working at <a href="https://humanforce.com" class="p-org">Humanforce</a> as a UX Designer.
-- Most of my time working is within [Figma](https://figma.com). Though I also code occasionally now and contribute to our internal design system!
-- I am familiar with front-end web development. HTML & CSS are my jam!
-- I do my best to familiarize myself with accessibility, especially for online things.
-- I super duper love cats. But I don't own any.
+  - I have a red trifold Brompton folding bike I've named [**Gold Ship**](/stuff-i-use/#my-bicycle).
+  - currently working at <a href="https://humanforce.com" class="p-org">Humanforce</a> as a UX Designer.
+  - Most of my time working is within [Figma](https://figma.com). Though I also code occasionally now and contribute to our internal design system!
+  - I am familiar with front-end web development. HTML & CSS are my jam!
+  - I do my best to familiarize myself with accessibility, especially for online things.
+  - I super duper love cats. But I don't own any.
 
-## What am I up to now?
+  ## What am I up to now?
 
-My [/now](/now/) page has a list of the things I'm doing and taking note of so far.
+  My [/now](/now/) page has a list of the things I'm doing and taking note of so far.
 
-I've laid out all my links and accounts in this page: [Contact](/contact/)
+  I've laid out all my links and accounts in this page: [Contact](/contact/)
 
-Though if you'd like to chat, you may contact me through the following public accounts!
+  Though if you'd like to chat, you may contact me through the following public accounts!
 
-- [Mastodon via OMG.LOL](https://social.lol/@chi "I sometimes post private stuff here")
-- [Threads](https://threads.com/@_chiawase "my new slop online")
-- [BlueSky](https://bsky.app/profile/chisenires.design "I sometimes go here to chronologically go through topics")
-- [LinkedIn](https://linkedin.com/in/chisenires "yeah of course for the networking clout")
+  - [Mastodon via OMG.LOL](https://social.lol/@chi "I sometimes post private stuff here")
+  - [Threads](https://threads.com/@_chiawase "my new slop online")
+  - [BlueSky](https://bsky.app/profile/chisenires.design "I sometimes go here to chronologically go through topics")
+  - [LinkedIn](https://linkedin.com/in/chisenires "yeah of course for the networking clout")
 
-## Communities I'm part of
+  ## Communities I'm part of
 
-While I do have a list of the communities I organize in my now page, I figured I should also just have a general list of which communities I participate in, regardless if I moderate / organize stuff there or I'm simply a member.
+  While I do have a list of the communities I organize in my now page, I figured I should also just have a general list of which communities I participate in, regardless if I moderate / organize stuff there or I'm simply a member.
 
-- [Friends of Figma, Philippines](https://friends.figma.com/philippines) (User Group Leader)
-- [Tambayan 404](https://tambayan404.com) (Co-founder and Admin)
-- [Pinay Bike Commuter Community](https://fb.com/groups/pinaybikecommutercommunity) (Co-founder, Moderator)
-- [UXPH](https://uxph.org "UX Philippines") (Core Volunteer)
+  - [Friends of Figma, Philippines](https://friends.figma.com/philippines) (User Group Leader)
+  - [Tambayan 404](https://tambayan404.com) (Co-founder and Admin)
+  - [Pinay Bike Commuter Community](https://fb.com/groups/pinaybikecommutercommunity) (Co-founder, Moderator)
+  - [UXPH](https://uxph.org "UX Philippines") (Core Volunteer)
 
-<Picture src={chiAndGoldShipBike} alt="Chi with her red folding bike, Gold Ship, parked in a garage driveway at night. A red GO FAR Bromp bag is attached to the front. She’s wearing her red Lumos helmet, a red striped sleeveless top, and black shorts, smiling under the glow of nearby headlights." title="This photo was a bit amusing because it was taken as soon as someone was trying to make a U-turn on the road in front of me, ending up with them giving me a bit of lighting in the early evening 😆" width="500" class="chi-image"/>
+  <Picture src={chiAndGoldShipBike} alt="Chi with her red folding bike, Gold Ship, parked in a garage driveway at night. A red GO FAR Bromp bag is attached to the front. She’s wearing her red Lumos helmet, a red striped sleeveless top, and black shorts, smiling under the glow of nearby headlights." title="This photo was a bit amusing because it was taken as soon as someone was trying to make a U-turn on the road in front of me, ending up with them giving me a bit of lighting in the early evening 😆" width="500" class="chi-image"/>
 
-</div>
-</main>
-<Footer />
-</body>
+  </div>
+</Page>

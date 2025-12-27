@@ -12,6 +12,7 @@
       "@assets/*": ["./src/assets/*"],
       "@utils/*": ["./src/utils/*"],
       "@styles/*": ["./src/styles/*"],
+      "@data/*": ["./src/data/*"],
       "@consts": ["./src/consts"],
     },
   },
