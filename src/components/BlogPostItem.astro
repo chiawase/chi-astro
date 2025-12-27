@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import PostListMetadata from "@components/PostListMetadata.astro";
-import { createExcerpt } from "@utils/create-excerpt";
+import { prepareOgText } from "@utils/prepare-og-text";
 
 import { getReadingTime } from "@utils/reading-time.ts";
 
@@ -29,7 +29,7 @@ const postReadingTime = getReadingTime(post.body ?? "");
   <p class="postlist-description">
     {
       post.data.description ??
-        createExcerpt(post.body ?? "").substring(0, 180) + "..."
+        prepareOgText(post.body ?? "", { maxLength: 180 })
     }
   </p>
   <PostListMetadata

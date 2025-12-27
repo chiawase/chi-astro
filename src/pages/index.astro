@@ -4,6 +4,7 @@ import Footer from "@components/Footer.astro";
 import Header from "@components/Header.astro";
 import BlogPostItem from "@components/BlogPostItem.astro";
 import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL, SITE_AUTHOR } from "@consts";
+import chiPhoto from "@assets/chi.jpg";
 
 import { getCollection, render } from "astro:content";
 
@@ -84,7 +85,7 @@ const morePosts = Math.max(0, allPosts.length - 1 - numberOfLatestPostsToShow);
           <!-- data value stuff -->
           <data value={SITE_URL} class="u-url"></data>
           <data value="chiawase" class="p-nickname"></data>
-          <data value=`${SITE_URL}/img/chi.jpg` class="u-photo"></data>
+          <data value={chiPhoto.src} class="u-photo"></data>
           <data value={SITE_AUTHOR.email} class="u-email"></data>
           <data
             value="UX Designer, Gamer, Bike commuter from the Philippines"

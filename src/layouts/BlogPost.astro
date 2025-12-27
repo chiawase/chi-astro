@@ -1,5 +1,4 @@
 ---
-import { Image } from "astro:assets";
 import { type CollectionEntry, getCollection, render } from "astro:content";
 import BaseHead from "@components/BaseHead.astro";
 import Footer from "@components/Footer.astro";
@@ -9,6 +8,7 @@ import Webmentions from "@components/WebmentionsLoader.astro";
 import Backlinks from "@components/Backlinks.astro";
 import { prepareOgText } from "@utils/prepare-og-text";
 import { SITE_URL, SITE_AUTHOR, SITE_TITLE } from "@consts";
+import chiPhoto from "@assets/chi.jpg";
 
 type Props = {
   post: CollectionEntry<"blog">;
@@ -76,7 +76,7 @@ prepareOgText(post.body?? "", { maxLength: 180 });
         <div class="u-author h-card">
           <data value={SITE_URL} class="u-url"></data>
           <data value="chiawase" class="p-nickname"></data>
-          <data value=`${SITE_URL}/img/chi.jpg` class="u-photo"></data>
+          <data value={chiPhoto.src} class="u-photo"></data>
           <data value={SITE_AUTHOR.email} class="u-email"></data>
           <data
             value="UX Designer, Gamer, Bike commuter from the Philippines"

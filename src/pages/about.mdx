@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 ---
-import { Image } from "astro:assets";
+import { Image, Picture } from "astro:assets";
 import { getCollection } from "astro:content";
 import BaseHead from "@components/BaseHead.astro";
 import Footer from "@components/Footer.astro";
@@ -9,10 +9,19 @@ import FormattedDate from "@components/FormattedDate.astro";
 import Header from "@components/Header.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "@consts";
 
+import chiPhoto from "@assets/chi.jpg";
 import chiAndGoldShipBike from "../content/img/uploads/2025/chi-and-goldship.jpeg";
 
 <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+    {`/* About Page */
+    .chi-image {
+      display: block;
+      border-radius: 2rem;
+      margin: 0 auto;
+      }`}
+    </style>
 </head>
 <body>
     <a href="#main" id="skip-link" class="visually-hidden"
@@ -25,7 +34,7 @@ import chiAndGoldShipBike from "../content/img/uploads/2025/chi-and-goldship.jpe
 
 Hello there! I'm <span class="p-name">**Chi Señires**</span>. I'm a <span class="p-job-title">UX Designer</span> from the <span class="p-country-name">Philippines</span>.
 
-<img src="/chi/chi.jpg" alt="" width="400" height="400" class="chi-image u-photo"/>
+<Image src={chiPhoto} alt="" width="400" height="400" class="chi-image u-photo"/>
 
 ## Quick <abbr title="Getting to Know Me">GTKM</abbr>
 
@@ -58,7 +67,7 @@ While I do have a list of the communities I organize in my now page, I figured I
 - [Pinay Bike Commuter Community](https://fb.com/groups/pinaybikecommutercommunity) (Co-founder, Moderator)
 - [UXPH](https://uxph.org "UX Philippines") (Core Volunteer)
 
-<img src={chiAndGoldShipBike.src} alt="Chi with her red folding bike, Gold Ship, parked in a garage driveway at night. A red GO FAR Bromp bag is attached to the front. She’s wearing her red Lumos helmet, a red striped sleeveless top, and black shorts, smiling under the glow of nearby headlights." title="This photo was a bit amusing because it was taken as soon as someone was trying to make a U-turn on the road in front of me, ending up with them giving me a bit of lighting in the early evening 😆" width="500" class="chi-image"/>
+<Picture src={chiAndGoldShipBike} alt="Chi with her red folding bike, Gold Ship, parked in a garage driveway at night. A red GO FAR Bromp bag is attached to the front. She’s wearing her red Lumos helmet, a red striped sleeveless top, and black shorts, smiling under the glow of nearby headlights." title="This photo was a bit amusing because it was taken as soon as someone was trying to make a U-turn on the road in front of me, ending up with them giving me a bit of lighting in the early evening 😆" width="500" class="chi-image"/>
 
 </div>
 </main>

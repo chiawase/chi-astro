@@ -24,7 +24,7 @@ This website was built on top of the Astro Starter Kit: Blog template.
 
 ## Chi's TODOs
 
-- [ ] fix webmention reply formatting
+- [x] fix webmention reply formatting
 - [x] attempt to fix wikilinks and backlinks ~~using the `@braindb/astro` thing~~
   - note: did not use `@braindb/astro` since the implementation for it on my end seemed broken, made use of [@flowershow/remark-wiki-link](https://github.com/flowershow/remark-wiki-link) instead since it’s the one that worked for me
 - [x] implement preview images and see if cloudinary still works for this setup
@@ -34,3 +34,4 @@ This website was built on top of the Astro Starter Kit: Blog template.
 - [x] better Image handling? --- using [rehype-figure-title](https://github.com/futuraprime/rehype-figure-title) for this!
   - [ ] try to do the "click to view zoomed in" thing
 - [x] ~~also investigate the timestamps rendered... might not be showing the local time as I wanted it to go 🤔~~ nevermind
+- [ ] make More page work properly

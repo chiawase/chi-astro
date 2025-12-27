@@ -27,6 +27,7 @@ export default defineConfig({
     mdx({
       remarkPlugins: [
         remarkRemoveComments,
+        [remarkToc, { heading: "contents", maxDepth: 3 }],
         [
           wikiLinkPlugin,
           {
@@ -34,6 +35,10 @@ export default defineConfig({
             urlResolver: (post) => `${post.filePath}/`, // I have to do it like this so it shows with a closing slash
           },
         ],
+      ],
+      rehypePlugins: [
+        rehypeHeadingIds,
+        [rehypeAutolinkHeadings, { behavior: "append" }],
       ],
     }),
     sitemap(),
@@ -55,7 +60,7 @@ export default defineConfig({
           urlResolver: (post) => `${post.filePath}/`, // I have to do it like this so it shows with a closing slash
         },
       ],
-      [remarkToc, { heading: "toc", maxDepth: 3 }],
+      [remarkToc, { heading: "contents", maxDepth: 3 }],
     ],
     rehypePlugins: [
       rehypeHeadingIds,
