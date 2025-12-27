@@ -1,19 +1,18 @@
 ---
-title: "Colophon"
+title: Colophon
 pubDate: 2025-09-26T09:08:31+00:00
 updatedDate: 2025-11-10T14:46:59+00:00
 ---
 
+import { Image } from "astro:assets";
 import Page from "@layouts/Page.astro";
 
 import FormattedDate from "@components/FormattedDate.astro";
 import { SITE_DESCRIPTION } from "@consts";
+import siteFavicon from "../../public/favicon.png";
 
-<Page
-  title={frontmatter.title}
->
-
-> Following the guide from [IndieWeb](https://indieweb.org/colophon) for what a Colophon page includes, I’ll do my best to lay down how I’ve set up my side of the internet. Last updated <FormattedDate dateType="" dateString={frontmatter.updatedDate} />.
+<Page title={frontmatter.title} description={SITE_DESCRIPTION}>
+> Following the guide from [IndieWeb](https://indieweb.org/colophon) for what a Colophon page includes, I’ll do my best to lay down how I’ve set up my side of the internet. Last updated <FormattedDate dateString={frontmatter.updatedDate} />.
 
 ## Website repository
 
@@ -21,7 +20,7 @@ The code for this website can be found [on Github](https://github.com/chiawase/c
 
 ## Website Icon
 
-![Favicon for chisenires.design](/favicon.png)
+<Image src={siteFavicon} alt="Favicon for chisenires.design"/>
 
 The favicon is a red (`#681310`) squircle with my nickname on it using the font [Anybody](https://etceteratype.co/anybody) for the letter `C` and [Victor Mono](https://rubjo.github.io/victor-mono/) for the letters `hi`. The letter spacing for this is also adjusted so all letters are neatly put together in the middle.
 
@@ -73,4 +72,5 @@ After writing and formatting whatever it is I wanted to share, I’ll add the ne
 ## Tracking things I want to update on my website
 
 I make use of the [Issues Tab](https://github.com/chiawase/chi-11ty/issues) of my website’s Github repo to track the things I wanna work on. The reason I used this was simply because I found it really cool that Github (or is it just git?) automatically closes issues so long as you remember to mention them in the commit messages pushed to the repo. I learned this while contributing to the code of our current Design System at work, while working with my teammate who’s a UX engineer. Amaze ✨
+
 </Page>

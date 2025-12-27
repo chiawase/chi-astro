@@ -705,6 +705,7 @@ article .e-content * > li {
 /*For anchor links*/
 :is(h1, h2, h3, h4, h5, h6) {
   position: relative;
+  pointer-events: none;
   a[aria-hidden="true"] {
     text-decoration: none;
     display: inline-block;

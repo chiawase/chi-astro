@@ -36,4 +36,4 @@ This website was built on top of the Astro Starter Kit: Blog template.
 - [x] ~~also investigate the timestamps rendered... might not be showing the local time as I wanted it to go 🤔~~ nevermind
 - [x] make More page work properly
 - [ ] update Colophon page
-- [ ] fix how some images render in the wrong place?
+- [x] fix how some images render in the wrong place?
