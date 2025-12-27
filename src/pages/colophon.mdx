@@ -1,7 +1,6 @@
 ---
 title: Colophon
 pubDate: 2025-09-26T09:08:31+00:00
-updatedDate: 2025-11-10T14:46:59+00:00
 ---
 
 import { Image } from "astro:assets";
@@ -12,11 +11,11 @@ import { SITE_DESCRIPTION } from "@consts";
 import siteFavicon from "../../public/favicon.png";
 
 <Page title={frontmatter.title} description={SITE_DESCRIPTION}>
-> Following the guide from [IndieWeb](https://indieweb.org/colophon) for what a Colophon page includes, I’ll do my best to lay down how I’ve set up my side of the internet. Last updated <FormattedDate dateString={frontmatter.updatedDate} />.
+> Following the guide from [IndieWeb](https://indieweb.org/colophon) for what a Colophon page includes, I’ll do my best to lay down how I’ve set up my side of the internet.
 
 ## Website repository
 
-The code for this website can be found [on Github](https://github.com/chiawase/chi-11ty/).
+The code for this website can be found [on Github](https://github.com/chiawase/chi-astro/).
 
 ## Website Icon
 
@@ -34,24 +33,46 @@ The heading font used is [Anybody](https://etceteratype.co/anybody) and the body
 
 ## Tools
 
-This current website is built with [11ty](https://eleventy.dev) and was initially forked from the [Eleventy Base Blog](https://github.com/11ty/eleventy-base-blog).
+### Framework
+
+This current website is built with [Astro](https://astro.build/), using the base blog as a template and then re-implemented the styles and overall implementation from [chi-11ty](https://github.com/chiawase/chi-11ty/). Some weren't kept for now, like the [Blog Stats page](https://github.com/chiawase/chi-11ty/blob/main/content/blog-stats.md) as that was using a plugin that was built specifically for Eleventy.
 
 My old website used to be hosted on [Micro.blog](https://micro.blog) but I’ve since moved away from it since I wanted to save up on subscription costs, and paying with USD does hurt after paying enough times 😅
 
+### Hosting
+
 This website is also hosted on a self-hosted instance of [Coolify](https://coolify.io/). Please do not ask me anything about this, my boyfriend was the one that set it up for me 😅 (and yes, this _does_ have a subscription cost to it too but it feels less negligible since it’s paid yearly and I share the costs too :)) )
 
-For the **auto generated thumbnails**—which I [[/blog/finally-fixed-the-metadata-generation-and-the-auto-social-images|wrote about in this post]]—it’s set up using [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/yks8gwi2hltjef4vokiu?t=default) (this is a referral link!).
+### Metadata Thumbnails
 
-For the **dark-light-switch**, I followed the instructions laid out in [dark-mode-toggle npm package](https://www.npmjs.com/package/dark-mode-toggle) and also reference [this StackOverflow answer](https://stackoverflow.com/a/56550819) for some more code that made it work.
+For the **auto generated thumbnails**, I use [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/yks8gwi2hltjef4vokiu?t=default) (this is a referral link!). I initially [[/blog/finally-fixed-the-metadata-generation-and-the-auto-social-images|wrote about in this post]] when I was still on 11ty, but I've now discovered that Cloudinary has an integration with Astro after seeing [these docs](https://docs.astro.build/en/guides/media/cloudinary/)!
 
-For **webmentions**, I wrote about my experience in setting them up in [[/blog/my-personal-website-should-have-support-for-webmentions-now|this blog post]]. As for the setup, based on how I understand it, I piggyback on the [webmention npm package](https://www.npmjs.com/package/@remy/webmention) and also followed the instructions laid out in [webmention.app docs](https://webmention.app/docs). I also set up a [webmentions.js](https://github.com/chiawase/chi-11ty/blob/e703d949fd01a823ef94ab6296c11518fa09765a/_data/webmentions.js) file that _should_ facilitate the fetching and sending of (new) webmentions, but honestly I’m not sure if it does what I think it’s supposed to do 😅 For now I’ll leave this as is though since I only have so much time to figure out things and it _kinda_ works whenever I do tinker with my website 😆
+### Toggling dark-mode
+
+For the **dark-light-switch**, I use the [ThemeIcon](https://github.com/chiawase/chi-astro/blob/7f8f79a02d4b75d4abf6e028a744a8e41f387ab1/src/components/ThemeIcon.astro) Astro component after also copying implementations online on how to do this with CSS and the littlest JavaScript possible.
+
+### Webmentions
+
+For **webmentions**, I wrote about my initial experience in setting them up in [[/blog/my-personal-website-should-have-support-for-webmentions-now|this blog post]]. As for the setup, based on how I understood it, I make use of the [webmention npm package](https://www.npmjs.com/package/@remy/webmention) and also followed the instructions laid out in [webmention.app docs](https://webmention.app/docs).
+
+Since migrating to Astro, I’ve mostly reused the same JavaScript code from my previous 11ty implementation, but now I understand more the moving parts:
+
+- [@utils/webmentions.js](https://github.com/chiawase/chi-astro/blob/7f8f79a02d4b75d4abf6e028a744a8e41f387ab1/src/utils/webmentions.js) — This is where the main actions happen, and is what fetches the data.
+- [@utils/webmentionFilters.js](https://github.com/chiawase/chi-astro/blob/7f8f79a02d4b75d4abf6e028a744a8e41f387ab1/src/utils/webmentionFilters.ts) — This is where the functions to process the stuff pulled by `webmentions.js` and rendered in the Astro components are placed.
+- [@components/WebmentionsLoader.astro](https://github.com/chiawase/chi-astro/blob/7f8f79a02d4b75d4abf6e028a744a8e41f387ab1/src/components/WebmentionsLoader.astro) — This is the component that connects to `webmentions.js` to pull the available webmentions for a particular post, if any. It also uses functions defined in `webmentionFilters.js` to process the data.
+- [@components/Webmentions.astro](https://github.com/chiawase/chi-astro/blob/7f8f79a02d4b75d4abf6e028a744a8e41f387ab1/src/components/Webmentions.astro) — This is what renders the *section* for webmentions showing up in a particular post. It shows the overall number of interactions via webmentions, and also makes use of a Webmention component to render them if they have content.
+- [@components/Webmention.astro](https://github.com/chiawase/chi-astro/blob/7f8f79a02d4b75d4abf6e028a744a8e41f387ab1/src/components/Webmention.astro) — This is the individual webmention card that usually gets rendered if there’s a reply to the post or the post was mentioned by someone elsewhere.
+
+Aside from all of those, in my `package.json` scripts, I also have a `postbuild` action that *should* run after the whole site has been rendered. (Pending testing again in production… 😆)
+
+### Website Analytics
 
 For **website analytics**, I also share track page views and sessions using [Umami](https://umami.is/) (mostly for my personal consumption). You can view this website’s analytics here (since I made it public, and [[/blog/testing-sharing-my-personal-website-analytics-publicly|wrote about it here]]): [chisenires.design website analytics via Umami](https://umami.chisenires.design/share/368agdyWC4Nl6Bat/chisenires.design)
 
 ## Writing posts
 
-To write posts, I open my `content/` folder in [Obsidian](https://obsidian.md/) and use the following plugins to help me in crafting my posts:
-> All of these can be seen in my [Obsidian plugins folder](https://github.com/chiawase/chi-11ty/tree/e703d949fd01a823ef94ab6296c11518fa09765a/content/.obsidian/plugins).
+To write posts, I open my repo in [Obsidian](https://obsidian.md/) and use the following plugins to help me in crafting my posts:
+> All of these can be seen in my [Obsidian folder](https://github.com/chiawase/chi-astro/tree/7f8f79a02d4b75d4abf6e028a744a8e41f387ab1/.obsidian).
 
 - [Templater](https://github.com/SilentVoid13/Templater): To make use of a `post_template.md` [(view on Github)](https://github.com/chiawase/chi-11ty/blob/e703d949fd01a823ef94ab6296c11518fa09765a/content/_templates/post_template.md) for easier formatting of the YAML front matter.
 - [Linter](https://github.com/platers/obsidian-linter): To help populate the `date` (if it’s a new post, to get the date when the file was created) and `date_updated` (when the file was last edited/updated) YAML properties.
@@ -65,12 +86,16 @@ To write posts, I open my `content/` folder in [Obsidian](https://obsidian.md/) 
 
 ## Workflow for publishing
 
-Usually when I want to write something and share as a post, I open my website’s Obsidian setup and create a post using the `post_template.md` so it automatically makes a draft post and I can fill in the `title` and `description` if I wanted to.
+Usually when I want to write something and share as a post, I open my website’s Obsidian setup and create a post using the `post_template.md` so it automatically makes a post and I can fill in the `title` and `description` if I wanted to.
+
+If something is still a draft, I just don’t commit it yet into the repository. I can also technically mark them as drafts, but I’ve found myself to forget the posts I make if I leave it in drafts for too long, so my goal is to publish something as soon as I set aside time to write it.
 
 After writing and formatting whatever it is I wanted to share, I’ll add the new post file in a `commit` and `push` to my `main` branch. Once Coolify detects a new commit was added to my website’s Github repo, it auto triggers a new deployment and after a few minutes, I’d get notified if the build was pushed to production successfully. That’s when I know my blog post (and any other changes I made to my website) is now out in the open! 😄
 
 ## Tracking things I want to update on my website
 
-I make use of the [Issues Tab](https://github.com/chiawase/chi-11ty/issues) of my website’s Github repo to track the things I wanna work on. The reason I used this was simply because I found it really cool that Github (or is it just git?) automatically closes issues so long as you remember to mention them in the commit messages pushed to the repo. I learned this while contributing to the code of our current Design System at work, while working with my teammate who’s a UX engineer. Amaze ✨
+I make use of the [Issues Tab](https://github.com/chiawase/chi-astro/issues) of my website’s Github repo to track the things I wanna work on.
+
+The reason I used this was simply because I found it really cool that Github (or is it just git?) automatically closes issues so long as you remember to mention them in the commit messages pushed to the repo. I learned this while contributing to the code of our current Design System at work, while working with my teammate who’s a UX engineer. Amaze ✨
 
 </Page>
