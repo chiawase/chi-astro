@@ -67,7 +67,7 @@
       "convert-to-utc": true,
       "date-created-source-of-truth": "file system",
       "date-modified-source-of-truth": "file system",
-      "update-on-file-contents-updated": "never"
+      "update-on-file-contents-updated": "after 1 minute"
     },
     "yaml-title": {
       "enabled": false,
@@ -280,40 +280,9 @@
     "_cache",
     "dist",
     "node_modules",
-    "public",
-    "src/assets",
-    "src/components",
-    "src/styles",
-    "src/utils",
-    "src/pages/blog"
+    "public"
   ],
-  "filesToIgnore": [
-    {
-      "label": "ignore post template",
-      "match": "src/content/blog/_templates/post_template.md",
-      "flags": "i"
-    },
-    {
-      "label": "ignore site index",
-      "match": "src/content/pages/index.mdx",
-      "flags": "i"
-    },
-    {
-      "label": "ignore feed.xml",
-      "match": "src/content/pages/feed.xml.js",
-      "flags": "i"
-    },
-    {
-      "label": "ignore about page",
-      "match": "src/content/pages/about.mdx",
-      "flags": "i"
-    },
-    {
-      "label": "ignore 404 page",
-      "match": "src/content/pages/404.mdx",
-      "flags": "i"
-    }
-  ],
+  "filesToIgnore": [],
   "linterLocale": "system-default",
   "logLevel": "ERROR",
   "lintCommands": [],
