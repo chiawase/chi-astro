@@ -2,10 +2,10 @@
   "name": "chi-astro",
   "type": "module",
   "scripts": {
-    "dev": "npx astro dev",
-    "build": "npx astro build",
+    "dev": "astro dev",
+    "build": "astro build",
     "postbuild": "npx webmention https://chisenires.design/feed.xml --limit 1 --send",
-    "preview": "npx astro preview",
+    "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
