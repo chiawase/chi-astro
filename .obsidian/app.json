@@ -1,0 +1,53 @@
+{
+  "livePreview": true,
+  "propertiesInDocument": "source",
+  "showLineNumber": true,
+  "tabSize": 2,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "src/content/img/uploads/2025",
+  "promptDelete": false,
+  "mobileToolbarCommands": [
+    "editor:insert-wikilink",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:undo",
+    "editor:redo",
+    "editor:attach-file",
+    "obsidian-map-view:insert-geolink",
+    "editor:insert-embed",
+    "editor:insert-tag",
+    "editor:set-heading",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "editor:toggle-strikethrough",
+    "editor:toggle-highlight",
+    "editor:toggle-code",
+    "editor:toggle-blockquote",
+    "editor:insert-link",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:toggle-checklist-status",
+    "editor:configure-toolbar"
+  ],
+  "defaultViewMode": "source",
+  "readableLineLength": false,
+  "strictLineBreaks": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "newFileFolderPath": "src/content/blog",
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "_site/*",
+    "node_modules/*",
+    "_includes/*",
+    "_config/*",
+    "_data/*"
+  ],
+  "newLinkFormat": "relative"
+}

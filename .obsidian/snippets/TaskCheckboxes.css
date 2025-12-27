@@ -1,0 +1,8 @@
+/* <<------------- Hide Strikethrough in Reading View ----------------->> */
+	.markdown-preview-view ul>li.task-list-item:hover {
+		text-decoration: none;
+	}
+/* <<------------- Hide Strikethrough in LIVE PREVIEW ----------------->> */
+	.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="x"]:hover {
+		text-decoration: none;
+	}

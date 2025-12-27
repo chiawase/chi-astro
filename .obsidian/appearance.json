@@ -1,0 +1,11 @@
+{
+  "accentColor": "#971111",
+  "translucency": true,
+  "nativeMenus": false,
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "TaskCheckboxes",
+    "clean-embeds"
+  ],
+  "baseFontSize": 16
+}

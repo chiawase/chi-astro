@@ -1,0 +1,287 @@
+{
+  "main": {
+    "id": "416552eb25197b97",
+    "type": "split",
+    "children": [
+      {
+        "id": "29766b81241fa65d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de91176fe54d3aef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06 Timestamps/2025/03-March/2025-03-07-Friday.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-03-07-Friday"
+            }
+          },
+          {
+            "id": "29e0a7e611667cfd",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Home.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "00 Home"
+            }
+          },
+          {
+            "id": "0db455aa661b94a0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Link Dump.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "02 Link Dump"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "55525666d21900e2",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "264057dd58e31e58",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "c574a22c8b516db4",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "tag:#MOC",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "1c6034addad7313f",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "d966c327e25bda1f",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "cba9b686b789193e",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "92115183f65c0ac3",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d3cfe8387f83d0ad",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "06 Timestamps/2025/02-February/2025-02-25-Tuesday.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "2c38847116757be3",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "06 Timestamps/2024/10-October/2024-10-03-Thursday.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "e822fedde7bef822",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "06 Timestamps/2024/10-October/2024-10-03-Thursday.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "7d0befd7f9a2487f",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
+      },
+      {
+        "id": "a681413e813f9854",
+        "type": "leaf",
+        "state": {
+          "type": "BC-matrix",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
+        }
+      },
+      {
+        "id": "c3119ce0adb7f5c4",
+        "type": "leaf",
+        "state": {
+          "type": "BC-tree",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-map-view:Open map view": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "de91176fe54d3aef",
+  "lastOpenFiles": [
+    "06 Timestamps/2025/02-February/2025-02-25-Tuesday.md",
+    "03 Bills/Payments/Meralco Sugi February 2025.md",
+    "06 Timestamps/2025/02-February/2025-02-24-Monday.md",
+    "Lorene Ann Milligan.md",
+    "06 Timestamps/2025/02-February/2025-02-17-Monday.md",
+    "03 Bills/Payments/BDO VISA February 2025.md",
+    "06 Timestamps/2025/01-January/2025-01-22-Wednesday.md",
+    "00 Home.md",
+    "06 Timestamps/2025/01-January/2025-01-17-Friday.md",
+    "03 Bills/Payments/Zed December 2024.md",
+    "03 Bills/Payments/Meralco House December 2024.md",
+    "03 Bills/Bills to Pay/Meralco (House).md",
+    "00 MOCs/Bills MOC.md",
+    "06 Timestamps/2025/01-January/2025-01-04-Saturday.md",
+    "06 Timestamps/2024/10-October/2024-10-31-Thursday.md",
+    "06 Timestamps/2024/10-October/2024-10-03-Thursday.md",
+    "06 Timestamps/2024/09-September/2024-09-28-Saturday.md",
+    "06 Timestamps/2024/09-September/2024-09-23-Monday.md",
+    "06 Timestamps/2024/09-September/2024-09-24-Tuesday.md",
+    "06 Timestamps/2024/09-September/2024-09-22-Sunday.md",
+    "2024-09-21-Saturday.md",
+    "06 Timestamps/2024/09-September/2024-09-19-Thursday.md",
+    "06 Timestamps/2024/09-September/2024-09-10-Tuesday.md",
+    "06 Timestamps/2024/09-September/2024-09-09-Monday.md",
+    "06 Timestamps/2024/09-September/2024-09-07-Saturday.md",
+    "06 Timestamps/2024/09-September/2024-09-08-Sunday.md",
+    "05 Interests/Media/MARRIAGETOXIN/Manga",
+    "05 Interests/Media/The God Before Me/Manga",
+    "05 Interests/Media/Make the Exorcist Fall In Love/Manga",
+    "05 Interests/Media/Gokurakugai/Manga",
+    "05 Interests/Media/SAKAMOTO DAYS/Manga",
+    "05 Interests/Anime & Manga/Witch Enforcer/Manga",
+    "98 Attachments/IMG_8063.jpeg",
+    "98 Attachments/IMG_8260.jpeg",
+    "98 Attachments/IMG_8257.jpeg",
+    "98 Attachments/IMG_8346.jpeg",
+    "98 Attachments/IMG_8343.jpeg",
+    "98 Attachments/IMG_0618.jpeg",
+    "98 Attachments/IMG_8332.jpeg",
+    "98 Attachments/IMG_0843.jpeg",
+    "98 Attachments/IMG_0838.jpeg",
+    "98 Attachments/IMG_8043.jpeg"
+  ]
+}
