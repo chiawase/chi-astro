@@ -10,7 +10,7 @@ import { SITE_TITLE, SITE_DOMAIN } from "@consts";
 import RelMeAuth from "@components/RelMeAuth.astro";
 import ColorSchemePreference from "@components/ColorSchemePreference.astro";
 
-import { createExcerpt } from "@utils/create-excerpt";
+import { prepareOgText } from "@utils/prepare-og-text";
 
 // Social media images via Cloudinary
 import { getCldOgImageUrl } from "astro-cloudinary/helpers";
@@ -31,8 +31,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const { title, post, description, image = FallbackImage } = Astro.props;
 
-const metadataTitle = post?.data.title ?? "Chi´s blog post";
-const metadataDescription = description ?? post?.data.description ?? createExcerpt(post.body?? "").substring(0, 180)+"...";
+const metadataTitleRaw = post?.data.title ?? "Chi´s blog post";
+const metadataDescriptionRaw =
+  description ??
+  post?.data.description ??
+  prepareOgText(post?.body?? "", { maxLength: 180 });
+
+const metadataTitleForCld = prepareOgText(metadataTitleRaw, { urlEncode: true, });
+const metadataDescriptionForCld = prepareOgText(metadataDescriptionRaw, { urlEncode: true });
 
 const CLOUDNAME = "chi-11ty";
 const FOLDER = "chisenires.design/";
@@ -64,14 +70,12 @@ const metadataImageHeight = "640";
 
 const ogImageUrl = getCldOgImageUrl({
   src: FOLDER+SHARE_IMAGE_FILE_NAME,
-  extension: "png",
   width: metadataImageWidth,
   height: metadataImageHeight,
   quality: "auto:best",
   format: "png",
   overlays: [
     {
-      SHARE_IMAGE_FILE_NAME,
       crop: "fill",
     },
     {
@@ -83,7 +87,7 @@ const ogImageUrl = getCldOgImageUrl({
         color: TEXT_COLOR,
         fontWeight: "bold_normal",
         alignment: "left",
-        text: metadataTitle
+        text: metadataTitleForCld
       },
       position: {
         x: TEXT_LEFT_OFFSET,
@@ -100,7 +104,7 @@ const ogImageUrl = getCldOgImageUrl({
         color: TEXT_COLOR,
         fontWeight: "normal",
         alignment: "left",
-        text: metadataDescription
+        text: metadataDescriptionForCld
       },
       position: {
         x: TEXT_LEFT_OFFSET,
@@ -150,14 +154,14 @@ const ogImageUrl = getCldOgImageUrl({
 <!-- Primary Meta Tags -->
 <title>{post?.data.title ?? title}</title>
 
-<meta name="title" content={metadataTitle} />
-<meta name="description" content={description} />
+<meta name="title" content={metadataTitleRaw} />
+<meta name="description" content={metadataDescriptionRaw} />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content={Astro.url} />
-<meta property="og:title" content={metadataTitle} />
-<meta property="og:description" content={description} />
+<meta property="og:title" content={metadataTitleRaw} />
+<meta property="og:description" content={metadataDescriptionRaw} />
 <meta property="og:site_name" content={SITE_DOMAIN} />
 <meta property="og:image" content={ogImageUrl} />
 <meta property="og:image:type" content="image/png" />
@@ -167,8 +171,8 @@ const ogImageUrl = getCldOgImageUrl({
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={Astro.url} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
+<meta property="twitter:title" content={metadataTitleRaw} />
+<meta property="twitter:description" content={metadataDescriptionRaw} />
 <meta property="twitter:domain" content={SITE_DOMAIN} />
 <meta property="twitter:image" content={ogImageUrl} />
 

@@ -7,7 +7,7 @@ import Header from "@components/Header.astro";
 import PostMetadata from "@components/PostMetadata.astro";
 import Webmentions from "@components/WebmentionsLoader.astro";
 import Backlinks from "@components/Backlinks.astro";
-import { createExcerpt } from "@utils/create-excerpt";
+import { prepareOgText } from "@utils/prepare-og-text";
 import { SITE_URL, SITE_AUTHOR, SITE_TITLE } from "@consts";
 
 type Props = {
@@ -37,10 +37,10 @@ const nextPost =
 
 // Making appropriate metadata in case of missing title or description
 const renderedTitle = post.data.title ??
-(createExcerpt(post.body ?? "").substring(0, 60)+"... • "+ SITE_TITLE);
+(prepareOgText(post.body ?? "", { maxLength: 60 })+" • "+ SITE_TITLE);
 
 const renderedDescription = post.data.description ??
-createExcerpt(post.body?? "").substring(0, 180)+"...";
+prepareOgText(post.body?? "", { maxLength: 180 });
 ---
 
 <html lang="en">
@@ -104,7 +104,7 @@ createExcerpt(post.body?? "").substring(0, 180)+"...";
           prevPost && (
             <li class="links-nextprev-prev">
               <a href={`/blog/${prevPost.id}/`}>← Previous</a>
-              <span class="post-title-prev">{prevPost.data.title ?? (createExcerpt(prevPost.body ?? "").substring(0, 60)+"...")}</span>
+              <span class="post-title-prev">{prevPost.data.title ?? (prepareOgText(prevPost.body ?? "").substring(0, 60)+"...")}</span>
             </li>
           )
         }
@@ -112,7 +112,7 @@ createExcerpt(post.body?? "").substring(0, 180)+"...";
           nextPost && (
             <li class="links-nextprev-next">
               <a href={`/blog/${nextPost.id}/`}>Next →</a>
-              <span class="post-title-next">{nextPost.data.title ?? (createExcerpt(nextPost.body ?? "").substring(0, 60)+"...")}</span>
+              <span class="post-title-next">{nextPost.data.title ?? (prepareOgText(nextPost.body ?? "").substring(0, 60)+"...")}</span>
             </li>
           )
         }
