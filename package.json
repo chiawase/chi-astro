@@ -6,12 +6,14 @@
     "build": "astro build",
     "postbuild": "npx webmention https://chisenires.design/feed.xml --limit 1 --send",
     "preview": "astro preview",
+    "start": "HOST=0.0.0.0 node dist/server/entry.mjs",
     "astro": "astro"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.6",
     "@astrojs/markdown-remark": "^6.3.10",
     "@astrojs/mdx": "^4.3.13",
+    "@astrojs/node": "^9.5.1",
     "@astrojs/rss": "^4.0.14",
     "@astrojs/sitemap": "^3.6.0",
     "@braindb/astro": "^0.1.1",
