@@ -4,9 +4,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "postbuild": "npx webmention https://chisenires.design/feed.xml --limit 1 --send",
+    "webmentions:send": "webmention https://chisenires.design/feed.xml --limit 1 --send",
     "preview": "astro preview",
-    "start": "HOST=0.0.0.0 node dist/server/entry.mjs",
     "astro": "astro"
   },
   "dependencies": {

@@ -3,7 +3,6 @@ import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
-import node from "@astrojs/node";
 
 import { SITE_URL } from "./src/consts";
 
@@ -20,6 +19,7 @@ import rehypeFigureTitle from "rehype-figure-title";
 
 // https://astro.build/config
 export default defineConfig({
+  output: "static",
   site: SITE_URL,
   integrations: [
     embeds({
@@ -81,8 +81,4 @@ export default defineConfig({
   experimental: {
     preserveScriptOrder: true,
   },
-  output: "server",
-  adapter: node({
-    mode: "standalone",
-  }),
 });
