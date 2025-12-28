@@ -19,10 +19,7 @@ import rehypeFigureTitle from "rehype-figure-title";
 
 // https://astro.build/config
 export default defineConfig({
-  output: "server",
-  adapter: node({
-    mode: "standalone",
-  }),
+  output: "static",
   site: SITE_URL,
   integrations: [
     embeds({
