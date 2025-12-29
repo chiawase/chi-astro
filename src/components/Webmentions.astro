@@ -1,6 +1,7 @@
 ---
 import Webmention from "@components/Webmention.astro";
 import WebmentionsSummary from "@components/WebmentionsSummary.astro";
+import WebmentionAvatars from "@components/WebmentionAvatars.astro";
 import { SITE_URL } from "@consts";
 
 // based on:
@@ -19,37 +20,41 @@ interface Props {
 
 const { mentions, likesSize, repostsSize, repliesSize, mentionOfSize } =
   Astro.props;
+
+const authors = mentions
+  .filter((m) => m["wm-property"] === "like-of" || m["wm-property"] === "repost-of")
+  .map((m) => m.author)
+  .filter(Boolean);
+
 ---
 
 <section class="webmentions">
   <h4>Webmentions</h4>
-  {
-    mentions.length > 0 && (
+  {mentions.length > 0 && (
+  <div class="webmentions__summary_group">
     <WebmentionsSummary
       likes={likesSize}
       reposts={repostsSize}
       replies={repliesSize}
       mentionOfs={mentionOfSize}
-    />)
-  }
-  {
-    mentions.length ? (
-      <ol class="webmentions__list">
-        {[...mentions].reverse().map((webmention) =>
-          webmention?.content?.text != null ? (
-            <li class="webmentions__item">
-              <Webmention webmention={webmention} />
-            </li>
-          ) : null,
-        )}
-      </ol>
-    ) : (
-      <p>No mentions yet.</p>
-    )
-  }
-
-  <br />
-
+    />
+  {authors.length > 0 && (
+    <WebmentionAvatars authors={authors} />
+  )}
+  </div>)}
+  {mentions.length ? (
+    <ol class="webmentions__list">
+      {[...mentions].reverse().map((webmention) =>
+        webmention?.content?.text != null ? (
+          <li class="webmentions__item">
+            <Webmention webmention={webmention} />
+          </li>
+        ) : null,
+      )}
+    </ol>
+  ) : (
+    <p>No mentions yet.</p>
+  )}
   <p>
     These are <a href="https://indieweb.org/Webmention">webmentions</a> via the <a
       href="https://indieweb.org/">IndieWeb</a
@@ -103,18 +108,12 @@ const { mentions, likesSize, repostsSize, repliesSize, mentionOfSize } =
     padding-bottom: 1rem;
   }
 
-  .webmentions__facepile {
+  .webmentions__summary_group {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
   }
-  .webmentions__face {
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    object-fit: cover;
-    flex: none;
-  }
+
   .webmentions__list {
     list-style-type: none;
     padding: 0;

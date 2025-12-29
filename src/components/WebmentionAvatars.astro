@@ -1,0 +1,61 @@
+---
+type Author = {
+  name?: string;
+  photo?: string;
+  url?: string;
+};
+
+type Props = {
+  authors: Author[];
+};
+
+const { authors } = Astro.props;
+
+// De-dupe by photo or url so repeat interactions don’t duplicate avatars
+const uniqueAuthors = Array.from(
+  new Map(
+    authors
+      .filter((a) => a?.photo)
+      .map((a) => [a.photo ?? a.url, a]),
+  ).values(),
+);
+---
+
+<ul class="webmention-avatars">
+  {uniqueAuthors.map((author) => (
+    <li>
+      <img
+        src={author.photo}
+        alt={author.name ?? "Webmention author"}
+        title={author.name ?? author.url ?? "Webmention author"}
+        loading="lazy"
+        decoding="async"
+        referrerpolicy="no-referrer"
+      />
+    </li>
+  ))}
+</ul>
+
+<style>
+  .webmention-avatars {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0 0 0 0.5rem;
+    list-style: none;
+  }
+
+  .webmention-avatars li {
+    margin: 0 !important;
+    padding: 0;
+    line-height: initial;
+  }
+
+  .webmention-avatars img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+</style>
