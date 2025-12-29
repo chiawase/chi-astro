@@ -34,13 +34,14 @@ export default defineConfig({
         [
           wikiLinkPlugin,
           {
-            format: "shortestPossible",
+            format: "regular",
             urlResolver: (post) => `${post.filePath}/`, // I have to do it like this so it shows with a closing slash
           },
         ],
       ],
       rehypePlugins: [
         rehypeHeadingIds,
+        rehypeAccessibleEmojis,
         [rehypeAutolinkHeadings, { behavior: "append" }],
         rehypeFigureTitle,
       ],
@@ -60,7 +61,7 @@ export default defineConfig({
       [
         wikiLinkPlugin,
         {
-          format: "shortestPossible",
+          format: "regular",
           urlResolver: (post) => `${post.filePath}/`, // I have to do it like this so it shows with a closing slash
         },
       ],
