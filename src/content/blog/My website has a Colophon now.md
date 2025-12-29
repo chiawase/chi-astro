@@ -1,14 +1,14 @@
 ---
 title: My website has a Colophon now
-description: Me talking about my website having a Colophon now
+description:
 pubDate: 2025-09-26T14:39:32+00:00
-updatedDate: 2025-09-26T15:13:59+00:00
+updatedDate: 2025-12-29T18:30:58+00:00
 tags: 
 - writing
 - coding
 ---
 
-I finally wrote my website’s [[colophon]]!! Been wanting to do this for so long even though before I didn’t really understand what it was for. I thought it was similar to an Impressum or something (which I’d only see mentioned in Facebook Page details and until now, even though I know it’s something required in other countries, I don’t personally understand it) but I was mistaken 😆
+I finally wrote my website’s [colophon](/colophon/)!! Been wanting to do this for so long even though before I didn’t really understand what it was for. I thought it was similar to an Impressum or something (which I’d only see mentioned in Facebook Page details and until now, even though I know it’s something required in other countries, I don’t personally understand it) but I was mistaken 😆
 
 [This discussion I had on Threads with an upperclassman of mine](https://www.threads.com/@_chiawase/post/DPD0iNtEhgF?xmt=AQF0eKoy1x6PJ6mvAoQSk248wDc0nDExk0TaKwJ3J1Um2A) sparked the urge in me to finally set up this Colophon page, and also as a way for me to add another page that I saw listed in [slashpages.net](https://slashpages.net/).
 
