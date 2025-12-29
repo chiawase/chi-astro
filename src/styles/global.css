@@ -343,7 +343,8 @@ img {
 }
 
 /* Images in posts, and also in other pages */
-picture img {
+picture img,
+figure img {
   border-radius: 1rem;
   max-width: 100%;
   height: auto;
@@ -351,7 +352,7 @@ picture img {
   margin: 0 auto;
 }
 
-article figure figcaption {
+figure figcaption {
   border-radius: 1rem;
   background-color: var(--background-color-overlay);
   width: 100%;
