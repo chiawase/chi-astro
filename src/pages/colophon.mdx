@@ -1,7 +1,7 @@
 ---
 title: Colophon
 pubDate: 2025-09-26T09:08:31+00:00
-updatedDate: 2025-12-29T17:34:25+00:00
+updatedDate: 2025-12-29T19:25:54+00:00
 ---
 
 import { Image } from "astro:assets";
@@ -36,7 +36,7 @@ The heading font used is [Anybody](https://etceteratype.co/anybody) and the body
 
 ### Framework
 
-This current website is built with [Astro](https://astro.build/), using the base blog as a template and then re-implemented the styles and overall implementation from [chi-11ty](https://github.com/chiawase/chi-11ty/). Some weren't kept for now, like the [Blog Stats page](https://github.com/chiawase/chi-11ty/blob/main/content/blog-stats.md) as that was using a plugin that was built specifically for Eleventy.
+This current website is built with [Astro](https://astro.build/), using the base blog as a template and then re-implemented the styles and overall implementation from [chi-11ty](https://github.com/chiawase/chi-11ty/). Some weren't kept for now, like the [Blog Stats page](https://github.com/chiawase/chi-11ty/blob/main/content/blog-stats.md) as that was using a plugin that was built specifically for Eleventy. I wrote more about it [[/blog/11ty-to-astro|in this post]].
 
 My old website used to be hosted on [Micro.blog](https://micro.blog) but I’ve since moved away from it since I wanted to save up on subscription costs, and paying with USD does hurt after paying enough times 😅
 
@@ -46,11 +46,11 @@ This website is also hosted on a self-hosted instance of [Coolify](https://cooli
 
 ### Metadata Thumbnails
 
-For the **auto generated thumbnails**, I use [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/yks8gwi2hltjef4vokiu?t=default) (this is a referral link!). I initially [[/blog/finally-fixed-the-metadata-generation-and-the-auto-social-images|wrote about in this post]] when I was still on 11ty, but I've now discovered that Cloudinary has an integration with Astro after seeing [these docs](https://docs.astro.build/en/guides/media/cloudinary/)!
+For the **auto generated thumbnails**, I use [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/yks8gwi2hltjef4vokiu?t=default) (this is a referral link!). I initially [[/blog/finally-fixed-the-metadata-generation-and-the-auto-social-images|wrote about in this post]] when I was still on 11ty, but I've now discovered that Cloudinary has an integration with Astro after seeing [these docs](https://docs.astro.build/en/guides/media/cloudinary/)! I talk a bit more about it [[/blog/11ty-to-astro/#cloudinary-social-media-images-are-easier-now|here]].
 
 ### Toggling dark-mode
 
-For the **dark-light-switch**, I use the [ThemeIcon](https://github.com/chiawase/chi-astro/blob/7f8f79a02d4b75d4abf6e028a744a8e41f387ab1/src/components/ThemeIcon.astro) Astro component after also copying implementations online on how to do this with CSS and the littlest JavaScript possible.
+For the **dark-light-switch**, the actual switch trigger is set up in the `@components/ThemeIcon.astro` component, while the persistent state is managed in the `@components/ColorSchemePreference.astro` component.
 
 ### Webmentions
 
@@ -58,13 +58,14 @@ For **webmentions**, I wrote about my initial experience in setting them up in [
 
 Since migrating to Astro, I’ve mostly reused the same JavaScript code from my previous 11ty implementation, but now I understand more the moving parts:
 
-- [@utils/webmentions.js](https://github.com/chiawase/chi-astro/blob/7f8f79a02d4b75d4abf6e028a744a8e41f387ab1/src/utils/webmentions.js) — This is where the main actions happen, and is what fetches the data.
-- [@utils/webmentionFilters.js](https://github.com/chiawase/chi-astro/blob/7f8f79a02d4b75d4abf6e028a744a8e41f387ab1/src/utils/webmentionFilters.ts) — This is where the functions to process the stuff pulled by `webmentions.js` and rendered in the Astro components are placed.
-- [@components/WebmentionsLoader.astro](https://github.com/chiawase/chi-astro/blob/7f8f79a02d4b75d4abf6e028a744a8e41f387ab1/src/components/WebmentionsLoader.astro) — This is the component that connects to `webmentions.js` to pull the available webmentions for a particular post, if any. It also uses functions defined in `webmentionFilters.js` to process the data.
-- [@components/Webmentions.astro](https://github.com/chiawase/chi-astro/blob/7f8f79a02d4b75d4abf6e028a744a8e41f387ab1/src/components/Webmentions.astro) — This is what renders the *section* for webmentions showing up in a particular post. It shows the overall number of interactions via webmentions, and also makes use of a Webmention component to render them if they have content.
-- [@components/Webmention.astro](https://github.com/chiawase/chi-astro/blob/7f8f79a02d4b75d4abf6e028a744a8e41f387ab1/src/components/Webmention.astro) — This is the individual webmention card that usually gets rendered if there’s a reply to the post or the post was mentioned by someone elsewhere.
-
-Aside from all of those, in my `package.json` scripts, I also have a `postbuild` action that *should* run after the whole site has been rendered. (Pending testing again in production… 😆)
+- `@utils/webmentions.js` as the main script for fetching the data from the Webmentions API
+- `@utils/webmentionFilters.js` contain helpers for processing the webmentions data
+- `@components/WebmentionsLoader.astro` is a component used in for fetching and showing the webmentions in the `BlogPost.astro` page (so, when viewing a blog post)
+- `@components/Webmentions.astro` is the component that _actually_ shows the Webmentions section, where it’d pull the summary and the individual mentions / replies for the specific post it’s in
+- `@components/Webmention.astro` is the component to render the webmention card itself
+	- if you want to see an example, you can view [[/blog/my-personal-website-should-have-support-for-webmentions-now/#webmentions|this post’s webmentions]]
+- `@components/WebmentionsSummary.astro` is the component to show the _summary_ of the total webmentions for a post, so the number of likes, reposts, etc. plus showing the avatars of the people who did those mentions
+- `@components/WebmentionAvatars.astro` is the component to show the webmention author’s picture
 
 ### Website Analytics
 
@@ -77,13 +78,11 @@ To write posts, I open my repo in [Obsidian](https://obsidian.md/) and use the f
 
 - [Templater](https://github.com/SilentVoid13/Templater): To make use of a `post_template.md` [(view on Github)](https://github.com/chiawase/chi-11ty/blob/e703d949fd01a823ef94ab6296c11518fa09765a/content/_templates/post_template.md) for easier formatting of the YAML front matter.
 - [Linter](https://github.com/platers/obsidian-linter): To help populate the `date` (if it’s a new post, to get the date when the file was created) and `date_updated` (when the file was last edited/updated) YAML properties.
-- [Better Word Count](https://github.com/lukeleppan/better-word-count): I just have this installed but I haven’t really had use for it yet. I guess it’s mostly for my benefit, to see how many words I’ve written so far…
 - [Smart Typography](https://github.com/mgmeyers/obsidian-smart-typography): I wanted my quotes to be actual quotes `“”` and not like `""` these, and everything else followed.
 - [Reading Time](https://github.com/avr/obsidian-reading-time): Another plugin that’s more for my eyes rather than for anything shown on my website, though initially I did install it so I could try and “get” the value and place it somewhere. Haven’t gotten to that yet.
 - [Code Editor Shortcuts](https://github.com/timhor/obsidian-editor-shortcuts): Since I’m more used to the keyboard shortcuts for Code Editors like Sublime Text, VS Code, and the like, I wanted to mimic that experience in Obsidian as I typed.
 - [Unicode Search](https://github.com/BambusControl/obsidian-unicode-search): This is just here in case I wanted to get a specific special character and I figured I’d get it while not leaving Obsidian. Normally I’d just search the internet for it and copy and paste, but then I do have this plugin. 😁
 - [Emoji Autocomplete](https://github.com/KraXen72/obsidian-emoji-autocomplete): A very important Obsidian plugin for me as someone very expressive in typing and using a lot of emojis. Saves me 2-3 keypresses at the same time 😆
-- [Permalink Opener](https://github.com/kepano/obsidian-permalink-opener): I’ve never really used this yet, but I keep it around once I get around to using it, once I figure out how to set up the actual permalink for the blog posts I put out and save it in the YAML front matter.
 
 ## Workflow for publishing
 
