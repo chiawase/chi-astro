@@ -49,5 +49,6 @@
     "_config/*",
     "_data/*"
   ],
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "autoConvertHtml": true
 }
