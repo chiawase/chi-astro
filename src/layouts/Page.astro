@@ -1,17 +1,36 @@
 ---
+import { SITE_TITLE } from "@consts";
+import type { CollectionEntry } from "astro:content";
+
 import BaseHead from "@components/BaseHead.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
-import { SITE_TITLE } from "@consts";
 
-const { title, description = null } = Astro.props;
+interface Props {
+  post?: CollectionEntry<"blog">;
+  title: string;
+  description?: string;
+  showTitle?: boolean;
+}
+
+const {
+  post,
+  title,
+  description,
+  showTitle = true
+} = Astro.props;
+
+// Add handling in case of 404
+const headTitle =
+  title === "404" ? `Not found • ${SITE_TITLE}` : title;
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <BaseHead
-      title={title === "404" ? "Not found  • "+ SITE_TITLE : title}
+    post={post}
+      title={headTitle}
       description={description}
     />
   </head>
@@ -22,12 +41,8 @@ const { title, description = null } = Astro.props;
     <Header />
 
     <main id="main">
-      <section class="page">
-        {
-          (title !== "404") && (<h1>{title}</h1>)
-        }
-        <slot />
-      </section>
+      {showTitle && title && title !== "404" && <h1>{title}</h1>}
+      <slot />
     </main>
 
     <Footer />

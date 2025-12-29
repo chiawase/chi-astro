@@ -45,8 +45,8 @@ const {
     <span class="label">Tags: </span>
     {Array.isArray(postTags) && postTags.length > 0 && (
       <div class="postlist-tags">
-        {postTags.map((t) => (
-          <a href=`/tags/${t}/` class="post-tag p-category">{t}</a>
+        {postTags.map((tag) => (
+          <a href={`/tags/${tag}/`} class="post-tag p-category">{tag}</a>
         ))}
       </div>
     )}

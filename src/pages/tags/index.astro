@@ -1,0 +1,42 @@
+---
+import { getCollection } from "astro:content";
+import Page from "@layouts/Page.astro";
+
+const posts = await getCollection("blog", ({ data }) => {
+  return !data.draft;
+});
+
+const tagCounts = new Map<string, number>();
+for (const post of posts) {
+  console.log(post.data.title?.startsWith("<%"));
+  const tags = post.data.tags ?? [];
+  for (const tag of tags) {
+    const normalized = String(tag).trim();
+    if (!normalized) continue;
+    tagCounts.set(normalized, (tagCounts.get(normalized) ?? 0) + 1);
+  }
+}
+
+
+// sorted alphabetically
+const tagsSorted = Array.from(tagCounts.entries()).sort(([a], [b]) =>
+  a.localeCompare(b, undefined, { sensitivity: "base" }),
+);
+
+const tagToSlug = (tag: string) => encodeURIComponent(tag.trim().toLowerCase());
+---
+
+<Page title="Tags" description="All tags related to posts made in this blog.">
+  {tagsSorted.length ? (
+    <ul>
+      {tagsSorted.map(([tag, count]) => (
+        <li>
+          <a href={`/tags/${tagToSlug(tag)}/`}>{tag}</a>{" "}
+          <span>({count})</span>
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p>No tags yet.</p>
+  )}
+</Page>

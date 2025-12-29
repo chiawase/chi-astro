@@ -343,9 +343,7 @@ img {
 }
 
 /* Images in posts, and also in other pages */
-article picture img,
-.page picture img,
-article figure img {
+picture img {
   border-radius: 1rem;
   max-width: 100%;
   height: auto;
@@ -621,7 +619,6 @@ article .e-content * > li {
 
 /* Tags */
 .post-tag {
-  /* display: inline-flex; */
   align-items: center;
   justify-content: center;
   font-weight: 400;

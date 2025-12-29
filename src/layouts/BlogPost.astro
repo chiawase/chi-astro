@@ -1,13 +1,15 @@
 ---
 import { type CollectionEntry, getCollection, render } from "astro:content";
 import { SITE_URL, SITE_AUTHOR, SITE_TITLE } from "@consts";
-import BaseHead from "@components/BaseHead.astro";
-import Footer from "@components/Footer.astro";
-import Header from "@components/Header.astro";
+
+import Page from "@layouts/Page.astro";
+
 import PostMetadata from "@components/PostMetadata.astro";
 import WebmentionsLoader from "@components/WebmentionsLoader.astro";
 import Backlinks from "@components/Backlinks.astro";
+
 import { prepareOgText } from "@utils/prepare-og-text";
+
 import chiPhoto from "@assets/chi.jpg";
 
 type Props = {
@@ -34,58 +36,19 @@ const index = allPosts.findIndex((p) => p.id === post.id);
 const prevPost = index > 0 ? allPosts[index - 1] : null;
 const nextPost =
   index >= 0 && index < allPosts.length - 1 ? allPosts[index + 1] : null;
-
-// Making appropriate metadata in case of missing title or description
-const renderedTitle = post.data.title ??
-(prepareOgText(post.body ?? "", { maxLength: 60 })+" • "+ SITE_TITLE);
-
-const renderedDescription = post.data.description ??
-prepareOgText(post.body?? "", { maxLength: 180 });
 ---
 
-<html lang="en">
-  <head>
-    <BaseHead
-      post={post}
-      title={renderedTitle}
-      description={renderedDescription}
-    />
+<Page
+  post={post}
+  title={post.data.title}
+  description={post.data.description}
+  showTitle={false}
+>
 
-  </head>
-
-  <body>
-    <Header />
-    <main>
-      <article class="h-entry">
-        {
-          post.data.title && (
-            <h1 class="p-name">{post.data.title}</h1>
-
-            <PostMetadata
-              post={post}
-              postTags={post.data.tags}
-              postSlug={slug}
-              postDate={post.data.pubDate}
-              postUpdatedDate={post.data.updatedDate}
-              postLanguage?={post.data.postLanguage}
-              postReadingTime={postReadingTime}
-            />
-          )
-        }
-
-        <div class="u-author h-card">
-          <data value={SITE_URL} class="u-url"></data>
-          <data value="chiawase" class="p-nickname"></data>
-          <data value={chiPhoto.src} class="u-photo"></data>
-          <data value={SITE_AUTHOR.email} class="u-email"></data>
-          <data
-            value="UX Designer, Gamer, Bike commuter from the Philippines"
-            class="p-note"></data>
-        </div>
-
-        <div class="e-content">
-          <slot />
-        </div>
+  <article class="h-entry">
+    {post.data.title && (
+      <>
+        <h1 class="p-name">{post.data.title}</h1>
 
         <PostMetadata
           post={post}
@@ -96,35 +59,62 @@ prepareOgText(post.body?? "", { maxLength: 180 });
           postLanguage?={post.data.postLanguage}
           postReadingTime={postReadingTime}
         />
-      </article>
+      </>
+      )}
 
-      <!-- Previous and Next blog posts -->
-      <ul class="links-nextprev">
-        {
-          prevPost && (
-            <li class="links-nextprev-prev">
-              <a href={`/blog/${prevPost.id}/`}>← Previous</a>
-              <span class="post-title-prev">{prevPost.data.title ?? (prepareOgText(prevPost.body ?? "").substring(0, 60)+"...")}</span>
-            </li>
-          )
-        }
-        {
-          nextPost && (
-            <li class="links-nextprev-next">
-              <a href={`/blog/${nextPost.id}/`}>Next →</a>
-              <span class="post-title-next">{nextPost.data.title ?? (prepareOgText(nextPost.body ?? "").substring(0, 60)+"...")}</span>
-            </li>
-          )
-        }
-      </ul>
+    <div class="u-author h-card">
+      <data value={SITE_URL} class="u-url"></data>
+      <data value="chiawase" class="p-nickname"></data>
+      <data value={chiPhoto.src} class="u-photo"></data>
+      <data value={SITE_AUTHOR.email} class="u-email"></data>
+      <data
+        value="UX Designer, Gamer, Bike commuter from the Philippines"
+        class="p-note"></data>
+    </div>
 
-      <Backlinks entry={post as any} />
+    <div class="e-content">
+      <slot />
+    </div>
 
-      <WebmentionsLoader postUrl={post.id} />
-    </main>
-    <Footer />
-  </body>
-</html>
+    <PostMetadata
+      post={post}
+      postTags={post.data.tags}
+      postSlug={slug}
+      postDate={post.data.pubDate}
+      postUpdatedDate={post.data.updatedDate}
+      postLanguage?={post.data.postLanguage}
+      postReadingTime={postReadingTime}
+    />
+  </article>
+
+  <!-- Previous and Next blog posts -->
+  <ul class="links-nextprev">
+    {prevPost && (
+      <li class="links-nextprev-prev">
+        <a href={`/blog/${prevPost.id}/`}>← Previous</a>
+        <span class="post-title-prev">
+          {prevPost.data.title ??
+            `${prepareOgText(prevPost.body ?? "", { maxLength: 60 })}...`}
+        </span>
+      </li>
+    )}
+    {nextPost && (
+      <li class="links-nextprev-next">
+        <a href={`/blog/${nextPost.id}/`}>Next →</a>
+        <span class="post-title-next">
+          {nextPost.data.title ??
+            `${prepareOgText(nextPost.body ?? "", { maxLength: 60 })}...`}
+        </span>
+      </li>
+    )}
+  </ul>
+
+  <Backlinks entry={post as any} />
+
+  <WebmentionsLoader postUrl={post.id} />
+</Page>
+
+
 <style>
   .links-nextprev {
     display: flex;

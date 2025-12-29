@@ -28,44 +28,63 @@ interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, post, description, image } = Astro.props;
+const { title, post, description } = Astro.props;
 
-const metadataTitleRaw = post?.data.title ?? "Chi’s blog post";
+const normalizedTitle = typeof title === "string" && title.trim().length > 0 ? title.trim() : undefined;
+const normalizedDescription =
+  typeof description === "string" && description.trim().length > 0
+  ? description.trim()
+  : undefined;
+
+const hasPostTitle = Boolean(post?.data.title && post.data.title.trim().length > 0);
+
+const metadataTitleRaw =
+  post?.data.title ||
+  normalizedTitle ||
+  (post?.body ? prepareOgText(post.body, { maxLength: 60 }) : "") ||
+  SITE_TITLE;
+
 const metadataDescriptionRaw =
-  description ||
+  normalizedDescription ||
   post?.data.description ||
   (post?.body ? prepareOgText(post.body, { maxLength: 180 }) : "") ||
   SITE_DESCRIPTION;
 
-const metadataTitleForCld = prepareOgText(metadataTitleRaw, { urlEncode: true, });
+// For the browser tab
+const documentTitle =
+  metadataTitleRaw === SITE_TITLE ? SITE_TITLE : `${metadataTitleRaw} • ${SITE_TITLE}`;
+
+const cldTitleRaw =
+  post && !hasPostTitle
+  ? "Chi’s blog post"
+  : metadataTitleRaw;
+
+const metadataTitleForCld = prepareOgText(cldTitleRaw, { urlEncode: true, });
 const metadataDescriptionForCld = prepareOgText(metadataDescriptionRaw, { urlEncode: true });
 
-const CLOUDNAME = "chi-11ty";
+// Thumbnail Image particulars
+const metadataImageWidth = "1280";
+const metadataImageHeight = "640";
+
 const FOLDER = "chisenires.design/";
-const BASE_URL = `https://res.cloudinary.com/${CLOUDNAME}/image/upload/`;
-const FALLBACK_WIDTHS = [300, 600, 680, 1360];
-const FALLBACK_WIDTH = 680;
-const DEFAULT_SIZES = "(min-width: 580px) 512px, calc(95.38vw - 22px)";
 const SHARE_IMAGE_FILE_NAME = "thumbnail_odokru"; // points to https://res.cloudinary.com/chi-11ty/image/upload/v1745850878/chisenires.design/thumbnail_odokru.png
 // If font not in the root of your Cloudinary media library, need to prepend with `foldername:`
 
 const TITLE_FONT = "open sans"; // setting to Open Sans for now
 const TITLE_FONT_SIZE = 60;
 const TITLE_BOTTOM_OFFSET = 378;
+
 const TAGLINE_FONT = "open sans";
 const TAGLINE_FONT_SIZE = 36;
 const TAGLINE_TOP_OFFSET = 298;
-const TAGLINE_LINE_HEIGHT = 10;
+
 const URL_FONT = "open sans";
 const URL_FONT_SIZE = 36;
 const URL_BOTTOM_OFFSET = 24;
+
 const TEXT_AREA_WIDTH = 1071;
 const TEXT_LEFT_OFFSET = 60;
 const TEXT_COLOR = "rgb:FDFDFD";
-
-// Thumbnail Image particulars
-const metadataImageWidth = "1280";
-const metadataImageHeight = "640";
 
 const ogImageUrl = getCldOgImageUrl({
   src: FOLDER+SHARE_IMAGE_FILE_NAME,
@@ -148,7 +167,7 @@ const ogImageUrl = getCldOgImageUrl({
 <link rel="canonical" href={canonicalURL} />
 
 <!-- Primary Meta Tags -->
-<title>{post?.data.title || (title === SITE_TITLE ? SITE_TITLE : title + " • "+ SITE_TITLE)}</title>
+<title>{documentTitle}</title>
 
 <meta name="title" content={metadataTitleRaw} />
 <meta name="description" content={metadataDescriptionRaw} />

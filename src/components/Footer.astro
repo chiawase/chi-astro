@@ -4,6 +4,8 @@ import NavLink from "./NavLink.astro";
 import { SITE_URL } from "@consts";
 ---
 
+<a href="#main" class="back-to-top">Back to top &#8593;</a>
+
 <footer>
   <p>All Rights Reserved &copy; {today.getFullYear()}</p>
   <p>Built with <a href="https://astro.build/">{Astro.generator}</a></p>
@@ -43,3 +45,10 @@ import { SITE_URL } from "@consts";
   An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> 🕸💍
   <a href="https://xn--sr8hvo.ws/next">→</a>
 </footer>
+<style>
+.back-to-top {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+</style>

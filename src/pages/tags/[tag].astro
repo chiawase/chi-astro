@@ -1,0 +1,59 @@
+---
+import { getCollection } from "astro:content";
+import Page from "@layouts/Page.astro";
+import BlogPostItem from "@components/BlogPostItem.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog", ({ data }) => {
+    return !data.draft || data.title?.startsWith("<%");
+  });
+
+
+  const tags = new Set<string>();
+  for (const post of posts) {
+    for (const t of post.data.tags ?? []) {
+      const normalized = String(t).trim();
+      if (normalized) tags.add(normalized);
+    }
+  }
+
+  return Array.from(tags).map((t) => ({
+    params: { tag: encodeURIComponent(t.trim().toLowerCase()) },
+    props: { tag: t },
+  }));
+}
+
+type Props = {
+  tag: string;
+};
+
+const { tag } = Astro.props;
+
+const posts = await getCollection("blog", ({ data }) => {
+  return !data.draft || data.title?.startsWith("<%");
+});
+
+const taggedPosts = posts
+  .filter((p) => (p.data.tags ?? []).includes(tag) && (!(p.id).startsWith("_")) && !p.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<Page
+  title={`Tag: ${tag}`}
+  description={`Posts tagged with “${tag}”.`}
+>
+  {/* Show the back to all tags at the top too if there's more than 5 tags on the page */}
+  {taggedPosts.length > 5 && (<p><a href="/tags/">← Go back to all tags</a></p>)}
+  {taggedPosts.length ? (
+    <ol
+      reversed
+      class="postlist"
+      style=`--postslist-index: ${taggedPosts.length+1};`
+    >
+        {taggedPosts.map((post) => <BlogPostItem post={post} />)}
+    </ol>
+  ) : (
+    <p>No posts found for this tag.</p>
+  )}
+  <p><a href="/tags/">← Go back to all tags</a></p>
+</Page>

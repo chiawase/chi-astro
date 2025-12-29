@@ -10,6 +10,7 @@ export const MORE_PAGES: MorePagesEntry[] = [
   { title: "Blogroll", url: "/blogroll/" },
   { title: "Colophon", url: "/colophon/" },
   { title: "Stuff I Use", url: "/stuff-i-use/" },
+  { title: "Tags", url: "/tags/" },
 
   // Optional: groups
   // {

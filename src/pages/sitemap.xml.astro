@@ -1,0 +1,10 @@
+---
+Astro.response.headers.set("Content-Type", "application/xml");
+Astro.response.status = 301;
+Astro.response.headers.set(
+  "Location",
+  new URL("/sitemap-index.xml", Astro.site).toString()
+);
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
