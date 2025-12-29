@@ -7,9 +7,15 @@ import { getReadingTime } from "@utils/reading-time.ts";
 
 interface Props {
   post: CollectionEntry<"blog">;
+  wmSummary?: {
+    likes: number;
+    reposts: number;
+    replies: number;
+    mentionOfs: number;
+  }
 }
 
-const { post } = Astro.props;
+const { post, wmSummary } = Astro.props;
 
 // Calculate reading time using `body` property
 const postReadingTime = getReadingTime(post.body ?? "");
@@ -38,5 +44,6 @@ const postReadingTime = getReadingTime(post.body ?? "");
     postDate={post.data.pubDate}
     postLanguage?={post.data.postLanguage}
     postReadingTime={postReadingTime}
+    wmSummary={wmSummary}
   />
 </li>

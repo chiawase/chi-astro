@@ -1,0 +1,22 @@
+---
+/**
+ * Meant to show the summary of webmentions for a post,
+ * also can be used in postlists and in the blog post itself
+ */
+interface Props {
+  likes: number;
+  reposts: number;
+  replies: number;
+  mentionOfs: number;
+}
+
+const { likes, reposts, replies, mentionOfs } =
+  Astro.props;
+---
+
+<div class="webmentions__summary">
+  {likes > 0 && <span>💖 {likes}</span>}
+  {reposts > 0 && <span>🔁 {reposts}</span>}
+  {replies > 0 && <span>💬 {replies}</span>}
+  {mentionOfs > 0 && <span>🗣️ {mentionOfs}</span>}
+</div>

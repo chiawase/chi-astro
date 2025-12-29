@@ -1,12 +1,15 @@
 ---
+import { getCollection, render } from "astro:content";
+import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL, SITE_AUTHOR } from "@consts";
+
 import BaseHead from "@components/BaseHead.astro";
 import Footer from "@components/Footer.astro";
 import Header from "@components/Header.astro";
 import BlogPostItem from "@components/BlogPostItem.astro";
-import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL, SITE_AUTHOR } from "@consts";
-import chiPhoto from "@assets/chi.jpg";
 
-import { getCollection, render } from "astro:content";
+import getWebmentions from "@utils/webmentions";
+
+import chiPhoto from "@assets/chi.jpg";
 
 const numberOfLatestPostsToShow = 10;
 
@@ -51,6 +54,33 @@ export function tagsHtml(tags) {
 }
 
 const morePosts = Math.max(0, allPosts.length - 1 - numberOfLatestPostsToShow);
+
+/* Get webmentions for all posts */
+const webmentions = await getWebmentions();
+const allWebmentions = webmentions?.children ?? [];
+
+const summaryByTarget = new Map();
+for (const wm of allWebmentions) {
+  const target = wm["wm-target"];
+  if (!target) continue;
+
+  if (!summaryByTarget.has(target)) {
+    summaryByTarget.set(target, {
+      likes: 0,
+      reposts: 0,
+      replies: 0,
+      mentionOfs: 0
+    });
+  }
+
+  const stats = summaryByTarget.get(target);
+  switch (wm["wm-property"]) {
+    case "like-of": stats.likes++; break;
+    case "repost-of": stats.reposts++; break;
+    case "in-reply-to": stats.replies++; break;
+    case "mention-of": stats.mentionOfs++; break;
+  }
+}
 ---
 
 <!doctype html>
@@ -110,7 +140,16 @@ const morePosts = Math.max(0, allPosts.length - 1 - numberOfLatestPostsToShow);
         class="postlist"
         style=`--postslist-index: ${allPosts.length};`
       >
-        {latestPosts.map((post) => <BlogPostItem post={post} />)}
+        {latestPosts.map((post) => {
+          if((post.id).startsWith("_")) return; // skip those starting with _, for my post templates
+          const targetUrl = new URL(`/blog/${post.id}/`, Astro.site).href;
+          const wmSummary = summaryByTarget.get(targetUrl) ?? { likes: 0, reposts: 0, replies: 0, mentionOfs: 0 }
+
+          return (<BlogPostItem
+            post={post}
+            wmSummary={wmSummary}
+          />);
+        })}
       </ol>
 
       {

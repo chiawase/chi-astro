@@ -650,7 +650,6 @@ article .e-content * > li {
   display: inline-flex;
   gap: 0.5rem;
   padding-bottom: initial;
-  padding-right: 0.5rem;
 }
 
 .h-entry .post-metadata {
@@ -705,7 +704,6 @@ article .e-content * > li {
 /*For anchor links*/
 :is(h1, h2, h3, h4, h5, h6) {
   position: relative;
-  pointer-events: none;
   a[aria-hidden="true"] {
     text-decoration: none;
     display: inline-block;
@@ -721,6 +719,11 @@ article .e-content * > li {
   }
 }
 
+.nav-footer ~ h4 {
+  pointer-events: none;
+}
+
+/* Gives color to the highlight */
 mark {
   background-color: var(--text-color-link);
 }

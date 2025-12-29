@@ -1,12 +1,42 @@
 ---
 import { getCollection } from "astro:content";
+import { SITE_DESCRIPTION } from "@consts";
+
 import Page from "@layouts/Page.astro";
 import BlogPostItem from "@components/BlogPostItem.astro";
-import { SITE_DESCRIPTION } from "@consts";
+
+import getWebmentions from "@utils/webmentions";
 
 const posts = (await getCollection("blog", ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+/* Get webmentions for all posts */
+const webmentions = await getWebmentions();
+const allWebmentions = webmentions?.children ?? [];
+
+const summaryByTarget = new Map();
+for (const wm of allWebmentions) {
+  const target = wm["wm-target"];
+  if (!target) continue;
+
+  if (!summaryByTarget.has(target)) {
+    summaryByTarget.set(target, {
+      likes: 0,
+      reposts: 0,
+      replies: 0,
+      mentionOfs: 0
+    });
+  }
+
+  const stats = summaryByTarget.get(target);
+  switch (wm["wm-property"]) {
+    case "like-of": stats.likes++; break;
+    case "repost-of": stats.reposts++; break;
+    case "in-reply-to": stats.replies++; break;
+    case "mention-of": stats.mentionOfs++; break;
+  }
+}
 ---
 
 <Page
@@ -19,7 +49,16 @@ const posts = (await getCollection("blog", ({ data }) => !data.draft)).sort(
       class="postlist"
       style=`--postslist-index: ${posts.length};`
     >
-      {posts.map((post) => <BlogPostItem post={post} />)}
+      {posts.map((post) => {
+        if((post.id).startsWith("_")) return; // skip those starting with _, for my post templates
+        const targetUrl = new URL(`/blog/${post.id}/`, Astro.site).href;
+        const wmSummary = summaryByTarget.get(targetUrl) ?? { likes: 0, reposts: 0, replies: 0, mentionOfs: 0 }
+
+        return (<BlogPostItem
+          post={post}
+          wmSummary={wmSummary}
+        />);
+      })}
     </ol>
   </section>
 

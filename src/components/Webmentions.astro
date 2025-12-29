@@ -1,5 +1,6 @@
 ---
 import Webmention from "@components/Webmention.astro";
+import WebmentionsSummary from "@components/WebmentionsSummary.astro";
 import { SITE_URL } from "@consts";
 
 // based on:
@@ -22,18 +23,15 @@ const { mentions, likesSize, repostsSize, repliesSize, mentionOfSize } =
 
 <section class="webmentions">
   <h4>Webmentions</h4>
-
   {
     mentions.length > 0 && (
-      <div class="webmentions__summary">
-        {likesSize > 0 && <span>💖 {likesSize}</span>}
-        {repostsSize > 0 && <span>🔁 {repostsSize}</span>}
-        {repliesSize > 0 && <span>💬 {repliesSize}</span>}
-        {mentionOfSize > 0 && <span>🗣️ {mentionOfSize}</span>}
-      </div>
-    )
+    <WebmentionsSummary
+      likes={likesSize}
+      reposts={repostsSize}
+      replies={repliesSize}
+      mentionOfs={mentionOfSize}
+    />)
   }
-
   {
     mentions.length ? (
       <ol class="webmentions__list">

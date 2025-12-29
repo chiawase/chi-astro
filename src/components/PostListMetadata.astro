@@ -1,5 +1,6 @@
 ---
 import FormattedDate from "@components/FormattedDate.astro";
+import WebmentionsSummary from "@components/WebmentionsSummary.astro";
 
 interface Props {
   postTags: string[] | undefined;
@@ -7,6 +8,12 @@ interface Props {
   postDate: Date;
   postLanguage?: string;
   postReadingTime?: string;
+  wmSummary?: {
+    likes: number;
+    reposts: number;
+    replies: number;
+    mentionOfs: number;
+  }
 }
 
 const {
@@ -14,8 +21,16 @@ const {
   postSlug,
   postDate,
   postLanguage,
-  postReadingTime
+  postReadingTime,
+  wmSummary
 } = Astro.props;
+
+const likesSize = wmSummary?.likes ?? 0;
+const repostsSize = wmSummary?.reposts?? 0;
+const repliesSize = wmSummary?.replies ?? 0;
+const mentionsOfSize = wmSummary?.mentionOfs ?? 0;
+
+const hasAnyWebmentions = (likesSize + repostsSize + repliesSize + mentionsOfSize > 0);
 ---
 
 <ul class="post-metadata">
@@ -27,6 +42,17 @@ const {
     /></a>
     <span class="post-metadata-separator"></span>
   </li>
+  {hasAnyWebmentions && (
+  <li>
+    <WebmentionsSummary
+      likes={likesSize}
+      reposts={repostsSize}
+      replies={repliesSize}
+      mentionOfs={mentionsOfSize}
+    />
+    <span class="post-metadata-separator"></span>
+  </li>
+  )}
   <li>
     <span class="post-reading-time">{postReadingTime}</span>
     <span class="post-metadata-separator"></span>
