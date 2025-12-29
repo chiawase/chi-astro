@@ -69,12 +69,7 @@ export default defineConfig({
     rehypePlugins: [
       rehypeHeadingIds,
       rehypeAccessibleEmojis,
-      [
-        rehypeAutolinkHeadings,
-        {
-          behavior: "append",
-        },
-      ],
+      [rehypeAutolinkHeadings, { behavior: "append" }],
       rehypeFigureTitle,
     ],
   },
