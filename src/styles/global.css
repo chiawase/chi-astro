@@ -522,7 +522,7 @@ li {
     line-height: 160%;
   }
 
-  article li:not(:first-of-type) {
+  article .e-content li:not(:first-of-type) {
     margin-top: 0.5rem;
   }
 }
