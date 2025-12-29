@@ -3,6 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "FETCH_WEBMENTIONS=true astro dev",
+    "dev:host": "FETCH_WEBMENTIONS=true astro dev --host",
     "prebuild": "rm -rf _cache",
     "build": "FETCH_WEBMENTIONS=true astro build",
     "postbuild": "npm run webmentions:send",
