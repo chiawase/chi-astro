@@ -651,7 +651,9 @@ article .e-content * > li {
 }
 
 .h-entry .post-metadata {
-  margin: 1rem 0;
+  position: relative;
+  margin: 0 0 1.5rem;
+  z-index: 10;
 }
 
 .post-metadata .label {
