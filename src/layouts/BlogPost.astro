@@ -36,19 +36,27 @@ const index = allPosts.findIndex((p) => p.id === post.id);
 const prevPost = index > 0 ? allPosts[index - 1] : null;
 const nextPost =
   index >= 0 && index < allPosts.length - 1 ? allPosts[index + 1] : null;
+
+const hasRealTitle = Boolean(post.data.title && post.data.title.trim().length > 0);
+const fallbackTitle = "Chi’s blog post";
 ---
 
 <Page
   post={post}
-  title={post.data.title}
-  description={post.data.description}
+  title={post.data.title ?? undefined}
+  description={post.data.description ?? undefined}
   showTitle={false}
 >
 
   <article class="h-entry">
     {post.data.title && (
       <>
-        <h1 class="p-name">{post.data.title}</h1>
+        {hasRealTitle ? (
+          <h1 class="p-name">{post.data.title}</h1>
+      ) : (
+        // Not visible on page
+        <h1 class="p-name visually-hidden">{fallbackTitle}</h1>
+      )}
 
         <PostMetadata
           post={post}
@@ -56,7 +64,7 @@ const nextPost =
           postSlug={slug}
           postDate={post.data.pubDate}
           postUpdatedDate={post.data.updatedDate}
-          postLanguage?={post.data.postLanguage}
+          postLanguage={post.data.postLanguage ?? undefined}
           postReadingTime={postReadingTime}
         />
       </>
@@ -94,7 +102,7 @@ const nextPost =
         <a href={`/blog/${prevPost.id}/`}>← Previous</a>
         <span class="post-title-prev">
           {prevPost.data.title ??
-            `${prepareOgText(prevPost.body ?? "", { maxLength: 60 })}...`}
+            `${prepareOgText(prevPost.body ?? "", { maxLength: 60 })}`}
         </span>
       </li>
     )}
@@ -103,7 +111,7 @@ const nextPost =
         <a href={`/blog/${nextPost.id}/`}>Next →</a>
         <span class="post-title-next">
           {nextPost.data.title ??
-            `${prepareOgText(nextPost.body ?? "", { maxLength: 60 })}...`}
+            `${prepareOgText(nextPost.body ?? "", { maxLength: 60 })}`}
         </span>
       </li>
     )}
