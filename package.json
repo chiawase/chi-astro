@@ -2,8 +2,9 @@
   "name": "chi-astro",
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
+    "dev": "FETCH_WEBMENTIONS=true astro dev",
+    "prebuild": "rm -rf _cache",
+    "build": "FETCH_WEBMENTIONS=true astro build",
     "postbuild": "npm run webmentions:send",
     "webmentions:fetch": "webmention https://chisenires.design/feed.xml",
     "webmentions:send": "webmention https://chisenires.design/feed.xml --limit 1 --send",

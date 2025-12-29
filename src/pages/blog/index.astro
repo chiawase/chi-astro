@@ -15,10 +15,29 @@ const posts = (await getCollection("blog", ({ data }) => !data.draft)).sort(
 const webmentions = await getWebmentions();
 const allWebmentions = webmentions?.children ?? [];
 
-const summaryByTarget = new Map();
+const normalizeUrlKey = (url: string) => {
+  try {
+    const u = new URL(url);
+    u.pathname = u.pathname.replace(/\/$/,"");
+    u.hash = "";
+    return u.toString();
+  } catch {
+    return url.replace(/\/$/, "");
+  }
+};
+
+const summaryByTarget = new Map<string, {
+  likes: number;
+  reposts: number;
+  replies: number;
+  mentionOfs: number;
+}>();
+
 for (const wm of allWebmentions) {
-  const target = wm["wm-target"];
-  if (!target) continue;
+  const rawTarget = wm["wm-target"];
+  if (!rawTarget) continue;
+
+  const target = normalizeUrlKey(rawTarget);
 
   if (!summaryByTarget.has(target)) {
     summaryByTarget.set(target, {
@@ -29,7 +48,7 @@ for (const wm of allWebmentions) {
     });
   }
 
-  const stats = summaryByTarget.get(target);
+  const stats = summaryByTarget.get(target)!;
   switch (wm["wm-property"]) {
     case "like-of": stats.likes++; break;
     case "repost-of": stats.reposts++; break;
@@ -52,7 +71,8 @@ for (const wm of allWebmentions) {
       {posts.map((post) => {
         if((post.id).startsWith("_")) return; // skip those starting with _, for my post templates
         const targetUrl = new URL(`/blog/${post.id}/`, Astro.site).href;
-        const wmSummary = summaryByTarget.get(targetUrl) ?? { likes: 0, reposts: 0, replies: 0, mentionOfs: 0 }
+        const wmSummary = summaryByTarget.get(normalizeUrlKey(targetUrl)) ??
+        { likes: 0, reposts: 0, replies: 0, mentionOfs: 0 };
 
         return (<BlogPostItem
           post={post}

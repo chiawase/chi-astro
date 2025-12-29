@@ -42,7 +42,7 @@ const postReadingTime = getReadingTime(post.body ?? "");
     postTags={post.data.tags}
     postSlug={post.id}
     postDate={post.data.pubDate}
-    postLanguage?={post.data.postLanguage}
+    postLanguage={post.data.postLanguage ?? undefined}
     postReadingTime={postReadingTime}
     wmSummary={wmSummary}
   />
