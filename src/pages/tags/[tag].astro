@@ -1,13 +1,15 @@
 ---
 import { getCollection } from "astro:content";
+
 import Page from "@layouts/Page.astro";
 import BlogPostItem from "@components/BlogPostItem.astro";
+
+import getWebmentions from "@utils/webmentions";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog", ({ data }) => {
     return !data.draft || data.title?.startsWith("<%");
   });
-
 
   const tags = new Set<string>();
   for (const post of posts) {
@@ -36,6 +38,52 @@ const posts = await getCollection("blog", ({ data }) => {
 const taggedPosts = posts
   .filter((p) => (p.data.tags ?? []).includes(tag) && (!(p.id).startsWith("_")) && !p.data.draft)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+/* Get webmentions for all posts */
+const webmentions = await getWebmentions();
+const allWebmentions = webmentions?.children ?? [];
+
+const normalizeUrlKey = (url: string) => {
+  try {
+    const u = new URL(url);
+    u.pathname = u.pathname.replace(/\/$/,"");
+    u.hash = "";
+    return u.toString();
+  } catch {
+    return url.replace(/\/$/, "");
+  }
+};
+
+const summaryByTarget = new Map<string, {
+  likes: number;
+  reposts: number;
+  replies: number;
+  mentionOfs: number;
+}>();
+
+for (const wm of allWebmentions) {
+  const rawTarget = wm["wm-target"];
+  if (!rawTarget) continue;
+
+  const target = normalizeUrlKey(rawTarget);
+
+  if (!summaryByTarget.has(target)) {
+    summaryByTarget.set(target, {
+      likes: 0,
+      reposts: 0,
+      replies: 0,
+      mentionOfs: 0
+    });
+  }
+
+  const stats = summaryByTarget.get(target)!;
+  switch (wm["wm-property"]) {
+    case "like-of": stats.likes++; break;
+    case "repost-of": stats.reposts++; break;
+    case "in-reply-to": stats.replies++; break;
+    case "mention-of": stats.mentionOfs++; break;
+  }
+}
 ---
 
 <Page
@@ -50,7 +98,15 @@ const taggedPosts = posts
       class="postlist"
       style=`--postslist-index: ${taggedPosts.length+1};`
     >
-        {taggedPosts.map((post) => <BlogPostItem post={post} />)}
+        {taggedPosts.map((post) => {
+          const targetUrl = new URL(`/blog/${post.id}/`, Astro.site).href;
+          const wmSummary = summaryByTarget.get(normalizeUrlKey(targetUrl)) ??
+            { likes: 0, reposts: 0, replies: 0, mentionOfs: 0 };
+          return (<BlogPostItem
+            post={post}
+            wmSummary={wmSummary}
+          />);
+        })}
     </ol>
   ) : (
     <p>No posts found for this tag.</p>
