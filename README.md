@@ -1,9 +1,15 @@
 <!-- markdownlint-disable MD013 -->
 # Chi's personal website built with Astro
 
-> As of 24 Dec 2025: Still a work in progress.
+<!-- badges for the lulz -->
+<p>
+	<img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues-raw/chiawase/chi-astro">
+	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/chiawase/chi-astro">
+</p>
 
-This website was built on top of the Astro Starter Kit: Blog template.
+This website was built on top of the Astro Starter Kit: Blog template and then modified to make it look as closely as how my previous website looked like.
+
+Migrated from 11ty. Access the website at: [chisenires.design](https://chisenires.design)
 
 ## 🚀 Project Structure
 
@@ -35,5 +41,5 @@ This website was built on top of the Astro Starter Kit: Blog template.
   - [ ] try to do the "click to view zoomed in" thing
 - [x] ~~also investigate the timestamps rendered... might not be showing the local time as I wanted it to go 🤔~~ nevermind
 - [x] make More page work properly
-- [ ] update Colophon page
+- [x] update Colophon page
 - [x] fix how some images render in the wrong place?
