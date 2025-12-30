@@ -35,14 +35,27 @@ export function prepareOgText(input: string, options: OgTextOptions = {}) {
   // Remove HTML comments before parsing
   const withoutComments = input.replace(/<!--[\s\S]*?-->/g, "");
 
-  // Markdown -> plain text
+  // Markdown -> mdast
   const tree = fromMarkdown(withoutComments);
-  let text = toString(tree);
 
-  // Collapse whitespace + trim
+  // Preserve block boundaries by stringifying each top-level child
+  // This avoids cases where `toString(tree)` concatenates blocks with no separator.
+  const blockTexts =
+    "children" in tree
+      ? tree.children.map((node) => toString(node).trim()).filter(Boolean)
+      : [toString(tree).trim()];
+
+  let text = blockTexts.join("\n\n");
+
+  // Optional enhancement: control how breaks appear in excerpts/OG text
+  // - paragraph breaks (double newline) -> " · "
+  // - single newline -> " "
+  text = text.replace(/\n{2,}/g, " · ").replace(/\n/g, " ");
+
+  // Collapse whitespace + trim (your existing behavior)
   text = text.replace(/\s+/g, " ").trim();
 
-  // Normalize unicode (helps keep composed chars consistent)
+  // Normalize unicode
   text = text.normalize(normalize);
 
   // Truncate without splitting emoji / grapheme clusters
