@@ -23,7 +23,7 @@ interface Props {
   title?: string;
   description?: string;
   image?: ImageMetadata;
-  post?: CollectionEntry<"blog">;
+  post?: CollectionEntry<"blog"> | CollectionEntry<"archive">;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
