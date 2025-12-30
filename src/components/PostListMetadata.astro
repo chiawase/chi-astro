@@ -25,6 +25,8 @@ const {
   wmSummary,
 } = Astro.props;
 
+const hasTags = Array.isArray(postTags) && postTags.length > 0;
+
 const likesSize = wmSummary?.likes ?? 0;
 const repostsSize = wmSummary?.reposts?? 0;
 const repliesSize = wmSummary?.replies ?? 0;
@@ -55,17 +57,15 @@ const hasAnyWebmentions = (likesSize + repostsSize + repliesSize + mentionsOfSiz
   )}
   <li>
     <span class="post-reading-time">{postReadingTime}</span>
-    <span class="post-metadata-separator"></span>
+    {hasTags && (<span class="post-metadata-separator"></span>)}
   </li>
-  <li>
-    {Array.isArray(postTags) && postTags.length > 0 && (
-      <div class="postlist-tags">
-        {postTags.map((t) => (
-          <a href=`/tags/${t}/` class="post-tag p-category">{t}</a>
-        ))}
-      </div>
-    )}
-  </li>
+  {hasTags && (<li>
+    <div class="postlist-tags">
+      {postTags.map((t) => (
+        <a href=`/tags/${t}/` class="post-tag p-category">{t}</a>
+      ))}
+    </div>
+  </li>)}
   {postLanguage && (<li>
     <span class="post-metadata-separator"></span>
     <span class="label">Post language:</span> <span class="post-language">{postLanguage}</span>
