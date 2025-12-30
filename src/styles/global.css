@@ -183,12 +183,7 @@ footer {
   justify-content: center;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+:is(h1, h2, h3, h4, h5, h6) {
   font-family: var(--font-family-heading);
   font-style: italic;
   line-height: 105%;
@@ -234,7 +229,7 @@ h5,
 h6 {
   --font-family-heading:
     "Victor Mono Variable", -apple-system, system-ui, sans-serif;
-  letter-spacing: -0.1rem;
+  letter-spacing: -0.15rem;
 }
 
 h2:before,
@@ -299,11 +294,34 @@ a[href^="http"]:hover:after,
 a[href^="http"]:active:after {
   background-image: var(--svg-external-link-icon-hover);
 }
+
+@media (max-width: 896px) {
+  a[href^="http"]:after {
+    transform: translateY(0.3rem);
+  }
+}
+
 p {
   margin-bottom: 1em;
-}
-.prose p {
-  margin-bottom: 2em;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  line-height: 200%;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  /* selects the paragraphs that come after a heading or at the end of the post */
+  &:has(+ h2),
+  &:has(+ h3),
+  &:has(+ h4),
+  &:has(+ h5),
+  &:has(+ h6),
+  &:has(+ .links-nextprev) {
+    margin-bottom: 2rem;
+  }
 }
 textarea {
   width: 100%;
@@ -377,26 +395,30 @@ code {
 
 pre {
   background-color: var(--background-color-overlay);
+
+  &:not([class*="language-"]) {
+    margin: 0.5em 0;
+    -moz-tab-size: var(--syntax-tab-size) !important;
+    -o-tab-size: var(--syntax-tab-size) !important;
+    tab-size: var(--syntax-tab-size) !important;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    overflow-x: auto;
+  }
+
+  &:has(+ p) {
+    width: 100%;
+  }
 }
 
-pre:not([class*="language-"]) {
-  margin: 0.5em 0;
-  -moz-tab-size: var(--syntax-tab-size) !important;
-  -o-tab-size: var(--syntax-tab-size) !important;
-  tab-size: var(--syntax-tab-size) !important;
-  -webkit-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
-  direction: ltr;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  overflow-x: auto;
-}
-
-pre:has(+ p) {
-  width: 100%;
+code {
+  word-break: break-word;
 }
 
 em {
@@ -410,15 +432,6 @@ strong {
     "wdth" 150,
     "ital" 0,
     "wght" 600;
-}
-code {
-  padding: 2px 5px;
-  background-color: rgb(var(--color-gray-20));
-  border-radius: 2px;
-}
-pre {
-  padding: 1.5em;
-  border-radius: 8px;
 }
 /* code blocks css */
 div[data-remark-code-title] {
@@ -495,23 +508,6 @@ iframe {
 }
 iframe {
   aspect-ratio: 16/9;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-p {
-  line-height: 200%;
-}
-
-/* selects the paragraphs that come after a heading or at the end of the post */
-p:has(+ h2),
-p:has(+ h3),
-p:has(+ h4),
-p:has(+ h5),
-p:has(+ h6),
-p:has(+ .links-nextprev) {
-  margin-bottom: 2rem;
 }
 
 li {
@@ -708,10 +704,15 @@ article .e-content * > li {
 /*For anchor links*/
 :is(h1, h2, h3, h4, h5, h6) {
   position: relative;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+
   a[aria-hidden="true"] {
     text-decoration: none;
     display: inline-block;
-    margin-left: 1rem;
+    margin-left: 0.25rem;
   }
 
   & a:hover {
