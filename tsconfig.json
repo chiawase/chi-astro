@@ -15,5 +15,6 @@
       "@data/*": ["./src/data/*"],
       "@consts": ["./src/consts"],
     },
+    "plugins": [{ "name": "@astrojs/ts-plugin" }],
   },
 }

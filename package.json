@@ -12,6 +12,9 @@
     "preview": "astro preview",
     "astro": "astro"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@astrojs/check": "^0.9.6",
     "@astrojs/markdown-remark": "^6.3.10",
@@ -50,6 +53,7 @@
     "unified": "^11.0.5"
   },
   "devDependencies": {
+    "@astrojs/ts-plugin": "^1.10.6",
     "@types/lodash": "^4.17.21",
     "@types/luxon": "^3.7.1",
     "astro-robots-txt": "^1.0.0",
