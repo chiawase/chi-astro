@@ -1,21 +1,21 @@
 import { defineConfig } from "astro/config";
 
+import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
-import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import robotsTxt from "astro-robots-txt";
 
-import { SITE_URL, SITE_DOMAIN } from "./src/consts";
+import { SITE_DOMAIN, SITE_URL } from "./src/consts";
 
 import embeds from "astro-embed/integration";
 
-import remarkToc from "remark-toc";
-import remarkRemoveComments from "remark-remove-comments";
-import remarkCodeTitle from "remark-code-title";
 import wikiLinkPlugin from "@flowershow/remark-wiki-link";
+import remarkCodeTitle from "remark-code-title";
+import remarkRemoveComments from "remark-remove-comments";
+import remarkToc from "remark-toc";
 
-import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import { rehypeAccessibleEmojis } from "rehype-accessible-emojis";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeFigureTitle from "rehype-figure-title";
 
 // https://astro.build/config
