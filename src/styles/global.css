@@ -489,8 +489,11 @@ section.intro p {
   }
 }
 hr {
-  border: none;
-  border-top: 1px solid rgb(var(--color-gray-20));
+  color: var(--text-color-link);
+  border-top-width: 1px;
+  /* adding some styping so this looks fancy? */
+  width: 10rem;
+  margin: 2rem auto 3rem;
 }
 @media (max-width: 720px) {
   body {
