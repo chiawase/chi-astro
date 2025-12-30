@@ -19,4 +19,17 @@ const blog = defineCollection({
     }),
 });
 
-export const collections = { blog };
+const archive = defineCollection({
+  // Load Markdown and MDX files in the `src/content/blog/` directory.
+  loader: glob({ base: "./src/content/archive", pattern: "**/*.{md,mdx}" }),
+  // Type-check frontmatter using a schema
+  schema: z.object({
+    title: z.string().optional().nullable(),
+    description: z.string().optional().nullable(),
+    // Transform string to Date object
+    date: z.coerce.date(),
+    tags: z.array(z.string()).optional(),
+  }),
+});
+
+export const collections = { blog, archive };
