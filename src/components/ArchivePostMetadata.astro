@@ -21,27 +21,22 @@ const {
   postLanguage,
   postReadingTime
 } = Astro.props;
+
+const hasTags = Array.isArray(postTags) && postTags.length > 0;
 ---
 <ul class="post-metadata">
   <li>
-    <span class="label">Created:</span> <FormattedDate
+    <span class="label">Posted:</span> <FormattedDate
       dateType="published"
       dateString={postDate}
     />
     <span class="post-metadata-separator"></span>
   </li>
   <li>
-    <span class="label">Last updated:</span> <FormattedDate
-      dateType="updated"
-      dateString={postUpdatedDate}
-    />
-    <span class="post-metadata-separator"></span>
-  </li>
-  <li>
     <span class="post-reading-time">{postReadingTime}</span>
-    <span class="post-metadata-separator"></span>
+    {hasTags && (<span class="post-metadata-separator"></span>)}
   </li>
-  <li>
+  {hasTags && (<li>
     <span class="label">Tags: </span>
     {Array.isArray(postTags) && postTags.length > 0 && (
       <div class="postlist-tags">
@@ -50,10 +45,6 @@ const {
         ))}
       </div>
     )}
-  </li>
-  {postLanguage && (<li>
-    <span class="post-metadata-separator"></span>
-    <span class="label">Post language:</span> <span class="post-language">{postLanguage}</span>
   </li>)}
   <li>
     <span class="post-metadata-separator"></span>
