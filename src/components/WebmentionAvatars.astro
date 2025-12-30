@@ -23,7 +23,7 @@ const uniqueAuthors = Array.from(
 
 <ul class="webmention-avatars">
   {uniqueAuthors.map((author) => (
-    <li>
+    <li class="webmention-avatar">
       <img
         src={author.photo}
         alt={author.name ?? "Webmention author"}
@@ -46,15 +46,15 @@ const uniqueAuthors = Array.from(
     list-style: none;
   }
 
-  .webmention-avatars li {
+  .webmention-avatars .webmention-avatar {
     margin: 0 !important;
     padding: 0;
     line-height: initial;
   }
 
   .webmention-avatars img {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     object-fit: cover;
   }
