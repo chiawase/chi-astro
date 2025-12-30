@@ -24,6 +24,16 @@ const uniqueAuthors = Array.from(
 <ul class="webmention-avatars">
   {uniqueAuthors.map((author) => (
     <li class="webmention-avatar">
+      {author.url ? (<a href={author.url}>
+        <img
+          src={author.photo}
+          alt={author.name ?? "Webmention author"}
+          title={author.name ?? author.url ?? "Webmention author"}
+          loading="lazy"
+          decoding="async"
+          referrerpolicy="no-referrer"
+        />
+      </a>) : (
       <img
         src={author.photo}
         alt={author.name ?? "Webmention author"}
@@ -32,6 +42,7 @@ const uniqueAuthors = Array.from(
         decoding="async"
         referrerpolicy="no-referrer"
       />
+      )}
     </li>
   ))}
 </ul>

@@ -276,10 +276,10 @@ a[href]:active {
 }
 
 /* Showing the icon to mark external links */
-a[href^="http"] {
+a[href^="http"]:not(.webmention-avatar a) {
   padding-right: 1.25rem;
 }
-a[href^="http"]:after {
+a[href^="http"]:not(.webmention-avatar a):after {
   position: absolute;
   content: "";
   display: inline-block;
@@ -290,13 +290,13 @@ a[href^="http"]:after {
   background-image: var(--svg-external-link-icon);
   transform: translateY(0.5rem);
 }
-a[href^="http"]:hover:after,
-a[href^="http"]:active:after {
+a[href^="http"]:not(.webmention-avatar a):hover:after,
+a[href^="http"]:not(.webmention-avatar a):active:after {
   background-image: var(--svg-external-link-icon-hover);
 }
 
 @media (max-width: 896px) {
-  a[href^="http"]:after {
+  a[href^="http"]:not(.webmention-avatar a):after {
     transform: translateY(0.3rem);
   }
 }
