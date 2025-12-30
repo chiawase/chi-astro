@@ -32,13 +32,7 @@ export default defineConfig({
       remarkPlugins: [
         remarkRemoveComments,
         [remarkToc, { heading: "contents", maxDepth: 3 }],
-        [
-          wikiLinkPlugin,
-          {
-            format: "regular",
-            urlResolver: (post) => `${post.filePath}/`, // I have to do it like this so it shows with a closing slash
-          },
-        ],
+        [wikiLinkPlugin, { format: "regular" }],
       ],
       rehypePlugins: [
         rehypeHeadingIds,
@@ -132,13 +126,7 @@ export default defineConfig({
     remarkPlugins: [
       remarkRemoveComments,
       remarkCodeTitle,
-      [
-        wikiLinkPlugin,
-        {
-          format: "regular",
-          urlResolver: (post) => `${post.filePath}/`, // I have to do it like this so it shows with a closing slash
-        },
-      ],
+      [wikiLinkPlugin, { format: "regular" }],
       [remarkToc, { heading: "contents", maxDepth: 3 }],
     ],
     rehypePlugins: [
