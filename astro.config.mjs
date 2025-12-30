@@ -3,8 +3,9 @@ import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
+import robotsTxt from "astro-robots-txt";
 
-import { SITE_URL } from "./src/consts";
+import { SITE_URL, SITE_DOMAIN } from "./src/consts";
 
 import embeds from "astro-embed/integration";
 
@@ -47,6 +48,79 @@ export default defineConfig({
       ],
     }),
     sitemap(),
+    robotsTxt({
+      host: SITE_DOMAIN,
+      policy: [
+        {
+          userAgent: "*",
+          allow: "/",
+        },
+        {
+          userAgent: "GPTBot",
+          disallow: "/",
+        },
+        {
+          userAgent: "ChatGPT-User",
+          disallow: "/",
+        },
+        {
+          userAgent: "Google-Extended",
+          disallow: "/",
+        },
+        {
+          userAgent: "PerplexityBot",
+          disallow: "/",
+        },
+        {
+          userAgent: "Amazonbot",
+          disallow: "/",
+        },
+        {
+          userAgent: "ClaudeBot",
+          disallow: "/",
+        },
+        {
+          userAgent: "Omgilibot",
+          disallow: "/",
+        },
+        {
+          userAgent: "FacebookBot",
+          disallow: "/",
+        },
+        {
+          userAgent: "Applebot",
+          disallow: "/",
+        },
+        {
+          userAgent: "anthropic-ai",
+          disallow: "/",
+        },
+        {
+          userAgent: "Bytespider",
+          disallow: "/",
+        },
+        {
+          userAgent: "Claude-Web",
+          disallow: "/",
+        },
+        {
+          userAgent: "Diffbot",
+          disallow: "/",
+        },
+        {
+          userAgent: "ImagesiftBot",
+          disallow: "/",
+        },
+        {
+          userAgent: "Omgili",
+          disallow: "/",
+        },
+        {
+          userAgent: "YouBot",
+          disallow: "/",
+        },
+      ],
+    }),
   ],
   markdown: {
     shikiConfig: {

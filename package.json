@@ -2,8 +2,8 @@
   "name": "chi-astro",
   "type": "module",
   "scripts": {
-    "dev": "FETCH_WEBMENTIONS=true astro dev",
-    "dev:host": "FETCH_WEBMENTIONS=true astro dev --host",
+    "dev": "astro dev",
+    "dev:host": "astro dev --host",
     "prebuild": "rm -rf _cache",
     "build": "FETCH_WEBMENTIONS=true astro build",
     "postbuild": "npm run webmentions:send",
@@ -53,6 +53,7 @@
     "@types/lodash": "^4.17.21",
     "@types/luxon": "^3.7.1",
     "@types/node-fetch": "^2.6.13",
+    "astro-robots-txt": "^1.0.0",
     "typescript": "^5.9.3"
   }
 }
