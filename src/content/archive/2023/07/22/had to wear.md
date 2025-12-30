@@ -25,4 +25,4 @@ url: /2023/07/22/had-to-wear.html
 
 had to wear the jacket going back home because of a bit of drizzle 😆 also used the rain cover for my front bag this time around!
 
-![wide-angled selfie of Chi in her bike commute attire, with her cycling cap and helmet combo, plus her water resistant jacket for rainy rides.](https://chisenires.design/uploads/2023/17c2c93dc1.jpg)
+![wide-angled selfie of Chi in her bike commute attire, with her cycling cap and helmet combo, plus her water resistant jacket for rainy rides.](../../../../img/uploads/2023/17c2c93dc1.jpg)

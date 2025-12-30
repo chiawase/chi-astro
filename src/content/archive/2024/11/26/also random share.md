@@ -29,4 +29,4 @@ Also, random share, but I got a God Pack (?) yesterday while doing my usual pull
 
 I kept saying "wow!" after each reveal lol but it might take a while before I can utilize these in a deck 😅
 
-![Screenshot of 5 rare cards from mobile game Pokemon Trading Card Game Pocket, from left to right, top to bottom: Slowpoke, Charmander, Trainer Blaine, Gloom, and Meowth.](https://chisenires.design/uploads/2024/f88558df3d.jpg)
+![Screenshot of 5 rare cards from mobile game Pokemon Trading Card Game Pocket, from left to right, top to bottom: Slowpoke, Charmander, Trainer Blaine, Gloom, and Meowth.](../../../../img/uploads/2024/f88558df3d.jpg)

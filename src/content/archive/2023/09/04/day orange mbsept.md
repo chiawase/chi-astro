@@ -25,4 +25,4 @@ photos_with_metadata:
 url: /2023/09/04/day-orange-mbsept.html
 ---
 
-<img src="/img/uploads/2023/40e20e8f4a5c4b05a656e26b834a2466.jpg" width="450" height="600" alt="Chi's order of Thai milk tea with choco caviar from Pang Cha, which is raised under the neon orange sign that reads: &quot;Thailand's original Pang Cha&quot;.">
+<img src="../../../../img/uploads/2023/40e20e8f4a5c4b05a656e26b834a2466.jpg" width="450" height="600" alt="Chi's order of Thai milk tea with choco caviar from Pang Cha, which is raised under the neon orange sign that reads: &quot;Thailand's original Pang Cha&quot;.">

@@ -22,4 +22,4 @@ look at this: [www.thingiverse.com/thing:138...](https://www.thingiverse.com/thi
 
 it's so CUTE 😤 😻
 
-<img src="/img/uploads/2023/image-2023-07-04-163100921.png" width="600" height="450" alt="Photo preview from thingiverse link of the 3d printed neko atsume cat">
+![Photo preview from thingiverse link of the 3d printed neko atsume cat](../../../../img/uploads/2023/image-2023-07-04-163100921.png)

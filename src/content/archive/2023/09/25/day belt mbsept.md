@@ -27,4 +27,4 @@ url: /2023/09/25/day-belt-mbsept.html
 
 I'm not really one for belts on my everyday outfits so this was a bit hard 😅 here's an old photo of me at a shooting range wearing a holster belt lol
 
-<img src="/img/uploads/2023/040a2838afd145d382ccfa010324a3f8.jpg" width="450" height="600" alt="Chi wearing a cap, with her hair tied in a ponytail and swept to the side of her shoulder, a maroon fitted top, and black pants and black shoes. Around her belt and thigh is the belt holster for carrying guns. She's holding onto the noise-dampening headset and she has protective eyeglasses on, and also has a mask on.">
+<img src="../../../../img/uploads/2023/040a2838afd145d382ccfa010324a3f8.jpg" width="450" height="600" alt="Chi wearing a cap, with her hair tied in a ponytail and swept to the side of her shoulder, a maroon fitted top, and black pants and black shoes. Around her belt and thigh is the belt holster for carrying guns. She's holding onto the noise-dampening headset and she has protective eyeglasses on, and also has a mask on.">

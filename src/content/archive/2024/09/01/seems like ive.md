@@ -20,4 +20,4 @@ photos_with_metadata:
 
 Seems like I've kept a habit going on for a few months now, albeit not that consistent, but at least i know every month I've gone back to my Obsidian
 
-<img src="/img/uploads/2024/c3e23a7d03.png" alt="Screenshot of Chi's Obsidian folder labeled '06 TImestamps', which shows a directory for the year 2024, then inside it are folders from February to September without missing a month in between them.">
+![Screenshot of Chi's Obsidian folder labeled '06 TImestamps', which shows a directory for the year 2024, then inside it are folders from February to September without missing a month in between them.](../../../../img/uploads/2024/c3e23a7d03.png)

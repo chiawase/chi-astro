@@ -28,4 +28,4 @@ my bangs have gotten a bit longer than it is comfortable so I might trim them a 
 
 Timelapse: [youtu.be/8rOaIj968...](https://youtu.be/8rOaIj968Kg?si=_zhZj05-Lypz9rpo)
 
-![self-portrait drawing of Chi, on a pink-ish background. Her expression is shown blowing some air to push one of her bangs up because it's gotten a bit too long and goes in front of her eyes or face.](https://chisenires.design/uploads/2023/6b3e9319dd.jpg)
+![self-portrait drawing of Chi, on a pink-ish background. Her expression is shown blowing some air to push one of her bangs up because it's gotten a bit too long and goes in front of her eyes or face.](../../../../img/uploads/2023/6b3e9319dd.jpg)

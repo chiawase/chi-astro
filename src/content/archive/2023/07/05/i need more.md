@@ -25,4 +25,4 @@ url: /2023/07/05/i-need-more.html
 
 I need more comfy cardigans. 😅
 
-<img src="/img/uploads/2023/5e88f19d43.jpg" width="450" height="600" alt="">
+![](../../../../img/uploads/2023/5e88f19d43.jpg)

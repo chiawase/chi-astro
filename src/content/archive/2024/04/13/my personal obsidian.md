@@ -16,4 +16,4 @@ photos_with_metadata:
 
 My personal Obsidian Vault graph kinda looks like a globe, lol
 
-![Screenshot of Chi's Obsidian Vault graph, showing the nodes clumping up together to seemingly form the landmasses one could see on a globe. One node is highlighted red because that's the note Chi currently has opened.](https://chisenires.design/uploads/2024/screenshot-2024-04-13-132234.png)
+![Screenshot of Chi's Obsidian Vault graph, showing the nodes clumping up together to seemingly form the landmasses one could see on a globe. One node is highlighted red because that's the note Chi currently has opened.](../../../../img/uploads/2024/screenshot-2024-04-13-132234.png)

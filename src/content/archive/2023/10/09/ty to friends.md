@@ -30,4 +30,4 @@ url: /2023/10/09/ty-to-friends.html
 
 ty to friends who give me more photos of me and my folding bike together in my usual #ootd hehe 😌🫶
 
-<img src="/img/uploads/2023/1819f5a9b8.jpg" width="480" height="600" alt="Chi in her bike commuting attire, which is a white knitted sleeveless top and a light blue long skirt (with pockets!) and brown loafers, with her red trifold Banian folding bike. She is also wearing her red Lumos helmet where the front light is on."><img src="/img/uploads/2023/c57bc6a279.jpg" width="480" height="600" alt="Chi walking her unfolded folding bike down the ramp at BGC">
+<img src="../../../../img/uploads/2023/1819f5a9b8.jpg" width="480" height="600" alt="Chi in her bike commuting attire, which is a white knitted sleeveless top and a light blue long skirt (with pockets!) and brown loafers, with her red trifold Banian folding bike. She is also wearing her red Lumos helmet where the front light is on."><img src="../../../../img/uploads/2023/c57bc6a279.jpg" width="480" height="600" alt="Chi walking her unfolded folding bike down the ramp at BGC">

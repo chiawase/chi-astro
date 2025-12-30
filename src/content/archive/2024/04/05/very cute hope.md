@@ -20,4 +20,4 @@ photos_with_metadata:
 
 Very cute 😄 Hope Figma keeps this feature up 😁
 
-<img src="/img/uploads/2024/2ea5877be8.png" width="360" height="360" alt="Snapshot of the Figma cursor with an 8-bit heart icon and Chi Señires's name shown under it, for Figma's April Fun 2024 feature. The URL &quot;figma.com/april-fun&quot; is shown on the lower right corner of the frame.">
+<img src="../../../../img/uploads/2024/2ea5877be8.png" width="360" height="360" alt="Snapshot of the Figma cursor with an 8-bit heart icon and Chi Señires's name shown under it, for Figma's April Fun 2024 feature. The URL &quot;figma.com/april-fun&quot; is shown on the lower right corner of the frame.">

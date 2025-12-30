@@ -30,6 +30,6 @@ url: /2023/07/24/first-time-bringing.html
 
 First time bringing my trifold bike to the office. It fits nicely under the table, if I don't have my bag attached to it 😆
 
-![Chi's trifold bike in the fully folded state positioned next to her table at the office. Her front bag is still attached to the bike.](https://chisenires.design/uploads/2023/b594807cbf.jpg)
+![Chi's trifold bike in the fully folded state positioned next to her table at the office. Her front bag is still attached to the bike.](../../../../img/uploads/2023/b594807cbf.jpg)
 
-![Chi's trifold bike in the fully folded state fitted under her table at the office, and her bike bag placed on her computer chair.](https://chisenires.design/uploads/2023/09eefc9415.jpg)
+![Chi's trifold bike in the fully folded state fitted under her table at the office, and her bike bag placed on her computer chair.](../../../../img/uploads/2023/09eefc9415.jpg)

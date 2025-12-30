@@ -25,4 +25,4 @@ url: /2023/07/22/cant-go-wrong.html
 
 can't go wrong with a shirt and shorts 😁 out for errands today!
 
-![Chi showing her outfit for the day, which is a white shirt top with a print of the Kanagawa Waves, black shorts, and black rubber shoes.](https://chisenires.design/uploads/2023/23b899c2c4.jpg)
+![Chi showing her outfit for the day, which is a white shirt top with a print of the Kanagawa Waves, black shorts, and black rubber shoes.](../../../../img/uploads/2023/23b899c2c4.jpg)

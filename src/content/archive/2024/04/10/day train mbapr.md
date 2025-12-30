@@ -28,4 +28,4 @@ Hmm, train. Train... station? 😁
 
 Took a photo of this self-service ticketing machine while waiting for the S-Bahn in Berlin. It still made use of paper for the tickets bought here, but it works. Goes to show even if you don't fully digitize something, if it works, it works 😆
 
-<img src="/img/uploads/2024/154b5aae6b.jpg" width="450" height="600" alt="A self-service ticketing machine with two verification stands in front of the stairs leading to the entrance of the S-Bahn in Berlin.">
+<img src="../../../../img/uploads/2024/154b5aae6b.jpg" width="450" height="600" alt="A self-service ticketing machine with two verification stands in front of the stairs leading to the entrance of the S-Bahn in Berlin.">

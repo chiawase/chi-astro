@@ -1,7 +1,7 @@
 ---
 title: "Reflections and thoughts on tracking \"metrics\", accomplishments, and impact as a UX designer"
-
-tags: ["design", "Obsidian", "thoughts"]
+description: "Every now and then, I find myself wondering if I'm consistently focusing on the wrong things or unnecessary things while working. I'm not one who constantly pours myself over conversion metrics or other KPIs or numbers I need to \"track\" as a means to measure my impact as a designer, but maybe I need to learn how to be?"
+tags: ["design", "Obsidian", "writing"]
 bluesky:
   id: bafyreicssslfnmfnvzyi7uskfnbylnizyjjbm3gsvdgsfeoocwx4253t6m
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3l37yvnzdkb2e'
@@ -15,10 +15,8 @@ mastodon:
   username: chi
   hostname: social.lol
 ---
-
+<!-- markdownlint-disable MD013 -->
 Every now and then, I find myself wondering if I'm consistently focusing on the wrong things or unnecessary things while working. I'm not one who constantly pours myself over conversion metrics or other KPIs or numbers I need to "track" as a means to measure my impact as a designer, but maybe I need to learn how to be?
-
-<!--more-->
 
 A few years ago, my friends recommended I set up a [brag document](https://jvns.ca/blog/brag-documents/) for myself, and to help fight the mental health downs, also collate all the positive feedback I've gotten from people over the years. I did make one before—for the latter, I made a FigJam file where I would paste screenshots of messages I got from friends and former clients, and also note specific things I heard from people via sticky notes—but it's been... maybe 2 years since I last updated it?
 

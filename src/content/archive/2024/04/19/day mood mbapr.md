@@ -1,6 +1,5 @@
 ---
 title: "📷 Day 18: mood #mbApr"
-
 tags: ["Photoblogging Challenges"]
 bluesky:
   id: bafyreiaovp4epuzjh5737giderz7ycde67pfdl26wyvkzperwcwhqmpxb4
@@ -26,4 +25,4 @@ photos_with_metadata:
 
 This horse/donkey statue is a mood after the events of this week. 😆
 
-<img src="/img/uploads/2024/5a19047980.jpg" width="600" height="600" alt="A gray horse or donkey statue lying down on the grass, with its legs up in the air, and seemingly basking in the sun.">
+![A gray horse or donkey statue lying down on the grass, with its legs up in the air, and seemingly basking in the sun.](../../../../img/uploads/2024/5a19047980.jpg)

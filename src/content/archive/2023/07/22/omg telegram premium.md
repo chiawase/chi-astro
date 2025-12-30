@@ -26,4 +26,4 @@ omg telegram (premium) now has stories...... 🤣🤣
 
 you're maybe 2-3 years too late to the meme, telegram 😂
 
-![Telegram's top bar showing the usual Stories interface, with the person's avatar and a plus icon encouraging the user to add a story, but also with a note showing that the feature this month is only available to Telegram Premium subscribers.](https://chisenires.design/uploads/2023/46717070f6.jpg)
+![Telegram's top bar showing the usual Stories interface, with the person's avatar and a plus icon encouraging the user to add a story, but also with a note showing that the feature this month is only available to Telegram Premium subscribers.](../../../../img/uploads/2023/46717070f6.jpg)

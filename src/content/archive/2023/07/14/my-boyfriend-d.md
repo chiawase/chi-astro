@@ -25,4 +25,4 @@ url: /2023/07/14/my-boyfriend-d.html
 
 My boyfriend 3d printed me this super super cute cat 🐱 and I colored in some parts 😁 📷
 
-![photo of a 3d-printed white cat with simplified features, like the cats from Neko Atsume. The eyes, ears, and tip of the tail are colored black to give the cat more character.](https://chisenires.design/uploads/2023/0be4044d9f.jpg)
+![photo of a 3d-printed white cat with simplified features, like the cats from Neko Atsume. The eyes, ears, and tip of the tail are colored black to give the cat more character.](../../../../img/uploads/2023/0be4044d9f.jpg)

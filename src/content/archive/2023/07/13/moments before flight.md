@@ -25,4 +25,4 @@ url: /2023/07/13/moments-before-flight.html
 
 moments before flight 📷
 
-![a Maya bird perched on the edge of a chair, with its position, captured on camera moments before it flew away.](https://chisenires.design/uploads/2023/aa03f38a2c.jpg)
+![a Maya bird perched on the edge of a chair, with its position, captured on camera moments before it flew away.](../../../../img/uploads/2023/aa03f38a2c.jpg)

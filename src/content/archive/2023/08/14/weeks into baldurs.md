@@ -38,7 +38,7 @@ url: /2023/08/14/weeks-into-baldurs.html
 
 The last week has been spent playing [Baldur's Gate](https://store.steampowered.com/app/1086940/Baldurs_Gate_3/) almost every time I get a chance to, which just shows in my total number of hours so far...
 
-<img src="/img/uploads/2023/image-2023-08-14-001338166.png" width="600" height="127" alt="Screenshot of Chi's Steam stats for Baldur's Gate 3. Her playtime the past 2 weeks totals 45.1 hours so far, and she's earned 12 of the 53 (visible) achievements listed in the game. It's good to note that the game was just released last August 3, 2023.">
+<img src="../../../../img/uploads/2023/image-2023-08-14-001338166.png" width="600" height="127" alt="Screenshot of Chi's Steam stats for Baldur's Gate 3. Her playtime the past 2 weeks totals 45.1 hours so far, and she's earned 12 of the 53 (visible) achievements listed in the game. It's good to note that the game was just released last August 3, 2023.">
 
 If you're wondering why I haven't been posting much, it's because I am deep, deep into this game and I am not yet sick of it. 😆
 
@@ -104,19 +104,19 @@ Alright, with that out of the way, here are a few snippets from my game:
 
 ### A preview of what my character looks like in my solo playthrough
 
-<img src="/img/uploads/2023/20230811214733-1.jpg" width="600" height="337" alt="Chi's drow Monk character in dialogue with Wyll, the heroic Wizard. Next to her character is Karlach, a barbarian tiefling. Some dialogue options are shown in screen, and all Chi needs to do to progress the conversation is to either click one of the options, or press the number corresponding to the particular line she wants to reply based on what was initially said.">
+<img src="../../../../img/uploads/2023/20230811214733-1.jpg" width="600" height="337" alt="Chi's drow Monk character in dialogue with Wyll, the heroic Wizard. Next to her character is Karlach, a barbarian tiefling. Some dialogue options are shown in screen, and all Chi needs to do to progress the conversation is to either click one of the options, or press the number corresponding to the particular line she wants to reply based on what was initially said.">
 
 I tried to commit to being a drow as much as possible, so that meant the gray-ish skin, and gray hair. I added some red highlights to her hair though, since I really love red. Her eyes are also of different colors: her right eye is red and her left eye is gray dark. Purely for aesthetic reasons. (Though for my character in the playthrough with my boyfriend, the colors' placements are swapped. For funsies. hehe)
 
 ### Some funny dialogue responses to what a party member said to an NPC
 
-<img src="/img/uploads/2023/20230813173716-1.jpg" width="600" height="337" alt="Chi's drow Monk next to Astarion, a Rogue high elf who just said to the person we were talking to, 'You're a monster hunter? I'm surprised - I thought all Gur were vagrant cut-throats.'. Chi's highlighted choice in the screenshot was a response that read, 'I knew you were a jackass, but a racist? I'm shocked.' For additional context, Chi did not pick this choice. She just ended up finding it funny.">
+<img src="../../../../img/uploads/2023/20230813173716-1.jpg" width="600" height="337" alt="Chi's drow Monk next to Astarion, a Rogue high elf who just said to the person we were talking to, 'You're a monster hunter? I'm surprised - I thought all Gur were vagrant cut-throats.'. Chi's highlighted choice in the screenshot was a response that read, 'I knew you were a jackass, but a racist? I'm shocked.' For additional context, Chi did not pick this choice. She just ended up finding it funny.">
 
 While exploring the Sword's Coast (the name of the place according to some characters), we bumped into this person who is apparently a Gur (?). Astarion's reaction was intriguing, calling all Gurs cut-throats, but I laughed out loud IRL when I saw this response: "I knew you were a jackass, but a racist? I'm shocked." I ended up choosing the clarification on who a Gur is, but if ever I encounter this in my playthrough with my boyfriend, I might end up choosing this option instead 😛 Our solo playthroughs are our serious playthroughs. The one where we coop is turning out to be a "fuck around and find out" kind of playthrough. 😆
 
 ### A preview of my 4-member party in some dark depths
 
-<img src="/img/uploads/2023/20230813221212-1.jpg" width="600" height="337" alt="Chi's character leading a 4-member party, with the following members included: a Githyanki Warrior named Lae'zel, a Barbarian tiefling named Karlach, and a Warlock named Gale. Their party is found in some dark depths. The game interface is also visible and expanded, showing Chi's numerous options and items that are ready to use.">
+<img src="../../../../img/uploads/2023/20230813221212-1.jpg" width="600" height="337" alt="Chi's character leading a 4-member party, with the following members included: a Githyanki Warrior named Lae'zel, a Barbarian tiefling named Karlach, and a Warlock named Gale. Their party is found in some dark depths. The game interface is also visible and expanded, showing Chi's numerous options and items that are ready to use.">
 
 Here, I'm exploring some dark depths with my full party. As you may have noticed, Karlach is also here again; as much as possible, I wanna keep her by my character's side as much as possible because I love her wholesome and cute personality to bits, despite how she looks. She's also really powerful, so I'm not just keeping her around just because I'm fond of her.
 

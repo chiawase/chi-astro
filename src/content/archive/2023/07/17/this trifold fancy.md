@@ -27,4 +27,4 @@ this trifold + fancy dcb attached bag is giving me the idea that I can just go t
 
 considering how lighter it is than I expected as well 😆
 
-![photo of Chi's trifold bike folded into the trifolded state, with a front bag still neatly attached and doesn't seem to hinder bringing it around](https://chisenires.design/uploads/2023/6180b80f4b.jpg)
+![photo of Chi's trifold bike folded into the trifolded state, with a front bag still neatly attached and doesn't seem to hinder bringing it around](../../../../img/uploads/2023/6180b80f4b.jpg)

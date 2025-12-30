@@ -1,7 +1,6 @@
 ---
 title: "Life update"
-
-tags: ["thoughts"]
+tags: ["writing"]
 bluesky:
   id: bafyreia4qhgrevaru5qdfyfwioodnswcwhfrtt5ziheqqm4wgocrdur7ua
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3krguytu23k2x'
@@ -15,17 +14,19 @@ mastodon:
   username: chi
   hostname: social.lol
 ---
-
+<!-- markdownlint-disable MD013 -->
 Felt like writing this down and putting it here as a reference on some life updates I'm comfy to share:
 
-### Moving places
+## Moving places
+
 I started moving in with my current partner now in a shared space. This is definitely going to be a new situation to explore, but we're both game to face it and go through it together. The prospect is exciting, and I'm hoping this gives me the bump up in terms of Quality of Life that I've been longing for so long—something I realized after thinking about stuff I wanted to do in the future.
 
 Part of me wonders why when my partner brought this up, that I didn't panic as much as I would have had this happened before. Technically this _is_ a big move, a big change, and it's life-changing. But at the same time... I guess, I already saw it was gonna happen sooner or later, so it made sense as the next step? Not necessarily a small or super big step, but just... a step. A step forward.
 
 For sure there'll be bumps on this road my partner and I are taking together, but I'm determined to see these through. And he's shared the same sentiment. Here's hoping I look back at this post with a smile on my face.
 
-### Learning to deal with disappointing others
+## Learning to deal with disappointing others
+
 In this case... it's my parents. I've already moved out of their house for 2 years now, but of course we're still talking, updating each other about life, and occasionally meeting to eat together as a family again.
 
 But this time around, I had to give them the news of what I shared above. And they were both not happy, what with them both having traditional values and all. My partner and I are not married (yet(?)) but we also both recognize that this would be helpful for us in the long run. That clashes with traditional or conservative views, though. So... I really just had to face the reality that I'd be disappointing and possibly hurting my parents with this decision.

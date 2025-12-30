@@ -32,6 +32,6 @@ meet Candy 🥰🚲❤️
 
 It's a Banian trifold 16" bike! Finally got all my stuff matchy-matchy hehe
 
-![photo of Chi's two bikes, a red Merida Scultura 200 Disc road bike at the back, and a folded Banian Trifold 16" bike](https://chisenires.design/uploads/2023/618550f507.jpg)
+![photo of Chi's two bikes, a red Merida Scultura 200 Disc road bike at the back, and a folded Banian Trifold 16" bike](../../../../img/uploads/2023/618550f507.jpg)
 
-![closer photo of Chi's Banian trifold 16" bike, with a maroon Go Far PH bromp bag attached in front](https://chisenires.design/uploads/2023/86ca048a27.jpg)
+![closer photo of Chi's Banian trifold 16" bike, with a maroon Go Far PH bromp bag attached in front](../../../../img/uploads/2023/86ca048a27.jpg)

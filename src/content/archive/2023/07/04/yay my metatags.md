@@ -21,4 +21,5 @@ url: /2023/07/04/yay-my-metatags.html
 
 Yay my metatags work 😁 Got to use the Metatags Plug-in by [@manton](https://micro.blog/manton) and just tested it out. Woohoo 🥳
 
-<img src="/img/uploads/2023/image-2023-07-04-002850438.png" width="460" height="146" alt="Telegram message showing the link to Chi's website, chisenires.design, with the following metadata description shown: The space in the interwebs claimed by Chi Señires, a designer, gamer, and cyclist from the Philippines"><img src="/img/uploads/2023/image-2023-07-04-002859016.png" width="571" height="600" alt="Screenshot of the meta tags HTML field showing the meta tags for Chi's micro.blog">
+![Telegram message showing the link to Chi's website, chisenires.design, with the following metadata description shown: The space in the interwebs claimed by Chi Señires, a designer, gamer, and cyclist from the Philippines](../../../../img/uploads/2023/image-2023-07-04-002850438.png)
+![Screenshot of the meta tags HTML field showing the meta tags for Chi's micro.blog](../../../../img/uploads/2023/image-2023-07-04-002859016.png)

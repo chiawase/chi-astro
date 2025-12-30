@@ -20,4 +20,4 @@ photos_with_metadata:
 
 Super happy how this photo turned out. Special thanks to [Joyce Romero](https://bento.me/joyceromero) for taking this photo 💖 There are more, I just haven't gotten around to posting it yet 😆
 
-<img src="/img/uploads/2024/dscf0427.png" width="600" height="400" alt="Chi riding her red Banian trifold while wearing a white top, a long beige flowy skirt, and brown loafers. Her expression shows that she's having fun, while turning to look at the camera. She's not fully seated on the bike, and instead is coasting on it while turning to go towards the left.">
+<img src="../../../../img/uploads/2024/dscf0427.png" width="600" height="400" alt="Chi riding her red Banian trifold while wearing a white top, a long beige flowy skirt, and brown loafers. Her expression shows that she's having fun, while turning to look at the camera. She's not fully seated on the bike, and instead is coasting on it while turning to go towards the left.">

@@ -1,7 +1,6 @@
 ---
 title: "Collection of thoughts re: Figma's Framework APAC 2024"
-
-tags: ["design", "thoughts"]
+tags: ["design", "thoughts", "figma"]
 bluesky:
   id: bafyreic5kvlbd5tgp3quzhwf7idb23cdrqnq4xmrprfhyvs32yghfkufne
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kqewpgjvwb26'
@@ -15,7 +14,7 @@ mastodon:
   username: chi
   hostname: social.lol
 ---
-
+<!-- markdownlint-disable MD013 -->
 Dang, I thought the [Framework APAC](https://frameworkapac.splashthat.com/) would be live too (since they have an announcement for it as its own event and all), but I guess since [Figma already announced stuff yesterday](https://www.figma.com/blog/what-we-launched-at-framework-2024/), it really would just be a replay of the stuff they already did on April 16 🥲
 
 Feels weird to go through this now, since it seemed like it would be its own "event" where people would also be live, sad that APAC still feels like an afterthought. But I guess it's also fine we have these recordings available? 😅

@@ -25,4 +25,4 @@ url: /2023/07/10/one-less-car.html
 
 One less car. 🫡
 
-![photo of the back of a red Lumos helmet, with the sticker "One less car" shown](https://chisenires.design/uploads/2023/e3b810e250.jpg)
+![photo of the back of a red Lumos helmet, with the sticker "One less car" shown](../../../../img/uploads/2023/e3b810e250.jpg)

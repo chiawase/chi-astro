@@ -6,7 +6,7 @@ date: 2021-09-25T22:17:00+0800
 ---
 
 <figure>
-<img src="/img/uploads/2023/image-2023-07-05-204205862.png" width="600" height="399" alt="point-of-view of someone on a road bike, where the handlebars are visible, peering out to the road in front of them. A bit of sunlight is reflecting on the asphalt of the road, which somewhat encourages you to press on.">
+<img src="../img/uploads/2023/image-2023-07-05-204205862.png" width="600" height="399" alt="point-of-view of someone on a road bike, where the handlebars are visible, peering out to the road in front of them. A bit of sunlight is reflecting on the asphalt of the road, which somewhat encourages you to press on.">
 <figcaption>Photo by <a target="_blank" href="https://unsplash.com/@flo_karr?utm_source=micro.blog&utm_medium=referral&utm_campaign=api-credit">Flo Karr</a> / <a target="_blank" href="https://unsplash.com/?utm_source=micro.blog&utm_medium=referral&utm_campaign=api-credit">Unsplash</a></figcaption>
 </figure>
 

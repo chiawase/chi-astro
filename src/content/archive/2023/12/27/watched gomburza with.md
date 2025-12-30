@@ -26,4 +26,4 @@ Watched [GomBurZa](https://jescom.ph/gomburzafilm/) with Karen today! Super on a
 
 Nice film! Grabe talaga ginawa kina GomBurZa. I think more Filipinos should watch this film.
 
-<img src="/img/uploads/2023/2a51fbdf9e.jpg" width="450" height="600" alt="Selfie of Chi and Karen in front of the big movie poster for GomBurZa.">
+<img src="../../../../img/uploads/2023/2a51fbdf9e.jpg" width="450" height="600" alt="Selfie of Chi and Karen in front of the big movie poster for GomBurZa.">

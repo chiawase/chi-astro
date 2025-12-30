@@ -1,4 +1,7 @@
 ---
+tags:
+- design
+- uxph
 bluesky:
   id: bafyreiaoxh4aceics56wec3hyx4dh7r6ltcbn43ewx4yj52ys7z5bpqgqa
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3l6c5tplyl32v'
@@ -27,4 +30,4 @@ They said walk-ins are allowed, so if you wanna check it out, I'll be here the w
 
 2nd time in a row, special thanks to UXPH 😁
 
-![Chi's name plate and placed on a table with her laptop behind it. The text on her name plate reads: "Chi Señires, UX Design Specialist, Home Credit PH"](https://chisenires.design/uploads/2024/b19753ad38.jpg)
+![Chi’s name plate and placed on a table with her laptop behind it. The text on her name plate reads: “Chi Señires, UX Design Specialist, Home Credit PH”](../../../../img/uploads/2024/b19753ad38.jpg)

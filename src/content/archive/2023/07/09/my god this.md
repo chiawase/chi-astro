@@ -24,4 +24,4 @@ url: /2023/07/09/my-god-this.html
 
 my god this temp, 34°C???? 🥵 umabot na tayo sa peak nung inet, ulan mode na
 
-![screenshot of the iOS Weather app, showing that the current temperature is 34 degrees Celsius in Quezon City, with isolated thunderstorms.](https://chisenires.design/uploads/2023/72158b04fc.jpg)
+![screenshot of the iOS Weather app, showing that the current temperature is 34 degrees Celsius in Quezon City, with isolated thunderstorms.](../../../../img/uploads/2023/72158b04fc.jpg)

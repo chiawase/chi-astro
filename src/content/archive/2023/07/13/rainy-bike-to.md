@@ -36,10 +36,10 @@ url: /2023/07/13/rainy-bike-to.html
 
 rainy bike to work 🌧️🚲
 
-![wide angle selfie of Chi in office attire sitting in their office lobby lounge, with her folding bike neatly tucked under a table and seen behind her.](https://chisenires.design/uploads/2023/5aa218221f.jpg)
+![wide angle selfie of Chi in office attire sitting in their office lobby lounge, with her folding bike neatly tucked under a table and seen behind her.](../../../../img/uploads/2023/5aa218221f.jpg)
 
-![Chi's folding bike neatly tucked under a wall table](https://chisenires.design/uploads/2023/59d20d3014.jpg)
+![Chi's folding bike neatly tucked under a wall table](../../../../img/uploads/2023/59d20d3014.jpg)
 
 [View my ride on Strava](https://strava.app.link/WaXNuB20nBb)
 
-![Strava ride of Chi's rainy bike to work. Her ride was 3.9 kilometers long, with an elevation gain of 51 meters. The ride took a total of 18 minutes and 11 seconds.](https://chisenires.design/uploads/2023/a75b7e2ede.jpg)
+![Strava ride of Chi's rainy bike to work. Her ride was 3.9 kilometers long, with an elevation gain of 51 meters. The ride took a total of 18 minutes and 11 seconds.](../../../../img/uploads/2023/a75b7e2ede.jpg)

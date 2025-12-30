@@ -27,4 +27,4 @@ threads:
 
 Corned beef sinigang done! It tastes like sinigang, and the corned beef was yummy, added a subtle salty taste. My partner said we need to use 2 cans of corned beef next time so there's more of it haha (Yes, the kind for breakfast normally 😆) interesting meal hehe 10/10 would eat again
 
-<img src="/img/uploads/2024/052bce81d1.jpg" width="450" height="600" alt="A pot of corned beef sinigang with the ladle holding up a spoonful, containing kangkong, radish, onion bits, and a bit of corned beef.">
+![A pot of corned beef sinigang with the ladle holding up a spoonful, containing kangkong, radish, onion bits, and a bit of corned beef.](../../../../img/uploads/2024/052bce81d1.jpg)

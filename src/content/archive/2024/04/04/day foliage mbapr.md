@@ -26,4 +26,4 @@ photos_with_metadata:
 
 Took a photo of this cat with one of its legs not tucked under while I was at the Houtong Cat Village last year.
 
-<img src="/img/uploads/2024/07413e751d.jpg" width="450" height="600" alt="A black and white colored cat curled under the branches of a potted plant, taking cover from the sun. One of the cat's legs is laid down on the side of the ledge.">
+<img src="../../../../img/uploads/2024/07413e751d.jpg" width="450" height="600" alt="A black and white colored cat curled under the branches of a potted plant, taking cover from the sun. One of the cat's legs is laid down on the side of the ledge.">

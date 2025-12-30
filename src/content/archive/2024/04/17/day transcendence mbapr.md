@@ -1,6 +1,5 @@
 ---
 title: "📷 Day 17: transcendence #mbApr"
-
 tags: ["cycling", "Photoblogging Challenges"]
 bluesky:
   id: bafyreieronxrrkjpzxxgbv5uoxdjmpgfva2sor6ofckagthzb66yr3s6ie
@@ -26,4 +25,4 @@ photos_with_metadata:
 
 I guess this can count? 😆 This was taken after we rode over 140km around Taichung last April 2023. [This was the our actual Strava ride up to Sun Moon Lake](https://strava.app.link/AyGWaR58RIb) 😄 I can't believe I pulled it off then! I don't really do long rides that much anymore 😅
 
-<img src="/img/uploads/2024/73f69cb9a4.jpg" width="450" height="600" alt="Chi posing with her right hand raised to gesture to her background, which is the Sun Moon Lake in Yuchi Township, Nantou County, Taiwan. She has the bike she borrowed from her friend parked in front of her, with the 2 other bikes of her friends laid on the ground just behind her. Chi is wearing a red crop top shirt and black shorts, as well as a bike helmet and fingerless gloves.">
+![Chi posing with her right hand raised to gesture to her background, which is the Sun Moon Lake in Yuchi Township, Nantou County, Taiwan. She has the bike she borrowed from her friend parked in front of her, with the 2 other bikes of her friends laid on the ground just behind her. Chi is wearing a red crop top shirt and black shorts, as well as a bike helmet and fingerless gloves.](../../../../img/uploads/2024/73f69cb9a4.jpg)

@@ -23,4 +23,4 @@ photos_with_metadata:
 
 I am literally just looping through 6 songs right now
 
-![A screenshot of Chi's Liked Songs playlist on Spotify, with the following songs shown: Assumptions by Sam Gellaitry from the IV album, A Pimp Named Slickback by Lakim from the Classics II album, I GOT YOU by TWICE from the I GOT YOU album, Oddloop by frederic from the oddloop album, Love In My Pocket by Rich Brian from the Love In My Pocket album, and ALL MY FELLAS by Frizk from the ALL MY FELLAS album.](https://chisenires.design/uploads/2024/90120d6460.jpg)
+![A screenshot of Chi's Liked Songs playlist on Spotify, with the following songs shown: Assumptions by Sam Gellaitry from the IV album, A Pimp Named Slickback by Lakim from the Classics II album, I GOT YOU by TWICE from the I GOT YOU album, Oddloop by frederic from the oddloop album, Love In My Pocket by Rich Brian from the Love In My Pocket album, and ALL MY FELLAS by Frizk from the ALL MY FELLAS album.](../../../../img/uploads/2024/90120d6460.jpg)

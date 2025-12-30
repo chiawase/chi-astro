@@ -30,6 +30,6 @@ url: /2023/07/10/also-got-traffic.html
 
 Also got traffic cone valve caps from a cyclist friend 😄 
 
-![photo of the 3d-printed traffic cone valve cap attached to the front wheel of Chi's road bike](https://chisenires.design/uploads/2023/2140226e89.jpg)
+![photo of the 3d-printed traffic cone valve cap attached to the front wheel of Chi's road bike](../../../../img/uploads/2023/2140226e89.jpg)
 
-![photo of 4 3d-printed traffic cone valve caps on a table, with 1 tipped over to show the valve cap part](https://chisenires.design/uploads/2023/5994fef829.jpg)
+![photo of 4 3d-printed traffic cone valve caps on a table, with 1 tipped over to show the valve cap part](../../../../img/uploads/2023/5994fef829.jpg)

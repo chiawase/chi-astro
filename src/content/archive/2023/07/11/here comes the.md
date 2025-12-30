@@ -24,4 +24,4 @@ url: /2023/07/11/here-comes-the.html
 
 Here comes the rain. 🌧️⛈️
 
-![photo of a half opened window with lots of raindrops on its surface, showing the torrential rain outside providing low visibility](https://chisenires.design/uploads/2023/e2288b168a.jpg)
+![photo of a half opened window with lots of raindrops on its surface, showing the torrential rain outside providing low visibility](../../../../img/uploads/2023/e2288b168a.jpg)

@@ -15,4 +15,4 @@ photos_with_metadata:
 
 Just for the sake of posting: jumped on the [Arc](https://arc.net) bandwagon last January 2024! 😁
 
-![Chi's Arc Browser Card, with the label "Excited Connoisseur" under her name. The ARC label shows the date when she made an account for Browser Company's Arc browser, which was last January 25, 2024.](https://chisenires.design/uploads/2024/chi-seires-arc.png)
+![Chi's Arc Browser Card, with the label "Excited Connoisseur" under her name. The ARC label shows the date when she made an account for Browser Company's Arc browser, which was last January 25, 2024.](../../../../img/uploads/2024/chi-seires-arc.png)

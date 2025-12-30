@@ -26,4 +26,4 @@ photos_with_metadata:
 
 Tried windsurfing back in February 2022. That was fun! I'd like to do it again someday 😁 
 
-<img src="/img/uploads/2024/727df7c407.jpg" width="450" height="600" alt="Chi is controlling a windsurfer going to the right of the point-of-view while in the middle of Caliraya Lake in Laguna. The blue sky takes up majority of the shot, with a few clouds and some sun rays visible. In the background, a forest can be seen lining up right before the shore that draws a line in the middle of the shot.">
+<img src="../../../../img/uploads/2024/727df7c407.jpg" width="450" height="600" alt="Chi is controlling a windsurfer going to the right of the point-of-view while in the middle of Caliraya Lake in Laguna. The blue sky takes up majority of the shot, with a few clouds and some sun rays visible. In the background, a forest can be seen lining up right before the shore that draws a line in the middle of the shot.">

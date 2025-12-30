@@ -36,7 +36,7 @@ url: /2023/07/22/barbieheimer-barbie-oppenheimer.html
 
 I was honestly surprised that Oppenheimer was a 3-hour long movie! We figured that we could start with that since it had a more serious tone based on the film's premise.
 
-![Karen and Chi posing next to the Oppenheimer movie poster.](https://chisenires.design/uploads/2023/7cfb318a33.jpg)
+![Karen and Chi posing next to the Oppenheimer movie poster.](../../../../img/uploads/2023/7cfb318a33.jpg)
 
 Before watching the film, I did a bit of research on Oppenheimer's background and the events that the film was going to cover. I wanted to have a refresher on the context behind the film's story and why Oppenheimer was such a big name in history. Initially I only really associated him with Einstein and the atomic bomb.
 
@@ -49,9 +49,9 @@ I also like how the movie ended. I'll not expound on that much here since the mo
 
 After the first film, we ate dinner first and then prepared ourselves to watch Barbie. We of course took photos in the Barbie box that seems to be available everywhere there's a showing for Barbie, and Karen and I naturally both dressed up in pink as a homage to the film.
 
-![Chi posing in the Barbie Box promotional stand for the movie, dressed in a pink long-sleeved top and a black long skirt.](https://chisenires.design/uploads/2023/71469dcd47.jpg)
+![Chi posing in the Barbie Box promotional stand for the movie, dressed in a pink long-sleeved top and a black long skirt.](../../../../img/uploads/2023/71469dcd47.jpg)
 
-![Chi and Karen posing in the Barbie Box promotional stand for the movie. Chi is dressed in a pink long-sleeved top and a black long skirt, while Karen is wearing a light pink turtleneck dress with a black blazer.](https://chisenires.design/uploads/2023/488cd8c0f6.jpg)
+![Chi and Karen posing in the Barbie Box promotional stand for the movie. Chi is dressed in a pink long-sleeved top and a black long skirt, while Karen is wearing a light pink turtleneck dress with a black blazer.](../../../../img/uploads/2023/488cd8c0f6.jpg)
 
 I honestly didn't know what to expect from watching Barbie. For this showing, I went in blind. I didn't watch any trailers, save for seeing a few screenshots of it online from other people's posts. I just went in with the mindset of, "I wanna see what the hype is all about."
 

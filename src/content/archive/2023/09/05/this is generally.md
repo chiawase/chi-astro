@@ -20,4 +20,4 @@ url: /2023/09/05/this-is-generally.html
 
 This is generally a summary of why I'm still focused on Yakuza: Like a Dragon 🎮 more now. I'm just taking my sweet time with all of the side quests and minigames. 😁
 
-<img src="/img/uploads/2023/yakuzalike-a-dragon-9-3-2023-8-54-08-pm.png" width="600" height="337" alt="Screengrab of a cutscene from the game Yakuza: Like a Dragon, where Ichiban Kasuga, the game's protagonist, is seen squatting to look at a cat that is on its back and is showing its belly to him. In the background you can also see Part-Time Hero, who is the owner of the cat, behind an office desk.">
+<img src="../../../../img/uploads/2023/yakuzalike-a-dragon-9-3-2023-8-54-08-pm.png" width="600" height="337" alt="Screengrab of a cutscene from the game Yakuza: Like a Dragon, where Ichiban Kasuga, the game's protagonist, is seen squatting to look at a cat that is on its back and is showing its belly to him. In the background you can also see Part-Time Hero, who is the owner of the cat, behind an office desk.">

@@ -24,4 +24,4 @@ url: /2023/07/06/chicken-cordon-bleu.html
 
 📷 chicken cordon bleu for lunch! Working remotely for a few hours 😄
 
-<img src="/img/uploads/2023/2a3405f9b7.jpg" width="450" height="600" alt="">
+<img src="../../../../img/uploads/2023/2a3405f9b7.jpg" width="450" height="600" alt="">

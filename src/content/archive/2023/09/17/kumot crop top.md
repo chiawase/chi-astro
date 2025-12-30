@@ -29,4 +29,4 @@ url: /2023/09/17/kumot-crop-top.html
 
 full on designer mode jk 😂 ootd for UX+! see u at SMX MOA later 😄
 
-<img src="/img/uploads/2023/325632d9f1b340abb7744c8c53676d79.jpg" width="450" height="600" alt="Mirror selfie of Chi wearing a crop top with the pattern of a Filipino blanket, black skater skirt, black leggings, Figma patterned socks and black boots. On her right shoulder is her Friends of Figma black-on-white grid patterned tote bag.">
+<img src="../../../../img/uploads/2023/325632d9f1b340abb7744c8c53676d79.jpg" width="450" height="600" alt="Mirror selfie of Chi wearing a crop top with the pattern of a Filipino blanket, black skater skirt, black leggings, Figma patterned socks and black boots. On her right shoulder is her Friends of Figma black-on-white grid patterned tote bag.">

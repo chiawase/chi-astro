@@ -23,4 +23,4 @@ photos_with_metadata:
 
 lmao at this ""not mandatory"" checkbox for marketing opt-in 😂😂 what can I expect, I'm trying to get free WiFi lol
 
-![Screenshot of a website with the logo Social Wave on the upper left corner for availing free WiFi. The prompt to log in has a checkbox that has the label, "I agree to receive news and offers". The checkbox itself is highlighted red, and underneath the checkbox is an error alert message that reads, "Please accept the marketing opt-in to stay up to date. This is not mandatory!"](https://chisenires.design/uploads/2024/4e6d1a8a80.jpg)
+![Screenshot of a website with the logo Social Wave on the upper left corner for availing free WiFi. The prompt to log in has a checkbox that has the label, "I agree to receive news and offers". The checkbox itself is highlighted red, and underneath the checkbox is an error alert message that reads, "Please accept the marketing opt-in to stay up to date. This is not mandatory!"](../../../../img/uploads/2024/4e6d1a8a80.jpg)

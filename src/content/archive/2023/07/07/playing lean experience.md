@@ -33,9 +33,9 @@ url: /2023/07/07/playing-lean-experience.html
 
 A few weeks ago, I played this board game with my Scrum team. It's called [**Playing Lean 2**](https://www.playinglean.com/), and it was apparently [a Kickstarter project](https://www.kickstarter.com/projects/simenfur/playing-lean-2-the-next-release)!
 
-<img src="/img/uploads/2023/img-2184.jpeg" width="600" height="800" alt="Overlooking shot of the end state of Playing Lean 2.">
+<img src="../../../../img/uploads/2023/img-2184.jpeg" width="600" height="800" alt="Overlooking shot of the end state of Playing Lean 2.">
 
-<img src="/img/uploads/2023/img-2185.jpeg" width="600" height="800" alt="Playing Lean 2: Kickstarter edition board game box cover.">
+<img src="../../../../img/uploads/2023/img-2185.jpeg" width="600" height="800" alt="Playing Lean 2: Kickstarter edition board game box cover.">
 
 <!--more-->
 
@@ -43,7 +43,7 @@ It was an interesting experience playing it. The gameplay helps you appreciate t
 
 I was amused with all the sprint and product references in the game itself 😝 
 
-<img src="/img/uploads/2023/img-2176.jpeg" width="600" height="800" alt="Preview of the pieces and cards of Playing Lean 2, a board game simulating the process of a startup or company managing employees to build certain product features to cater to specific markets.">
+<img src="../../../../img/uploads/2023/img-2176.jpeg" width="600" height="800" alt="Preview of the pieces and cards of Playing Lean 2, a board game simulating the process of a startup or company managing employees to build certain product features to cater to specific markets.">
 
 We also played it with the context that our scrum master changed roles and became an Agile Coach, and this is one of the ways they want to help more people in the company appreciate the workflows and processes we have.
 
@@ -54,7 +54,7 @@ We were broken up into pairs, to make up 4 teams total. We comprised of:
 - Scrum Masters
 - and of course... UX Designer(s) (me!) 😆
 
-<img src="/img/uploads/2023/img-2178.jpeg" width="600" height="600" alt="Wide angled selfie of Chi with her Scrum teammates.">
+<img src="../../../../img/uploads/2023/img-2178.jpeg" width="600" height="600" alt="Wide angled selfie of Chi with her Scrum teammates.">
 
 It was a challenging but fun playing experience! 😄 I wish I could play this again, this time with my UX teammates or other people. Though it might be sickening for some to play a board game that's all about work, I personally don't mind games like this, since I see it for what it is: a game.
 

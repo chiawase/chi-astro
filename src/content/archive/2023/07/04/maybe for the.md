@@ -24,4 +24,4 @@ url: /2023/07/04/maybe-for-the.html
 
 Maybe for the meantime I'll explore any of these alternative apps. Looking at Gluon.
 
-<img src="/img/uploads/2023/img-2147.jpeg" width="405" height="600" alt="Screenshot of available iOS apps for micro.blog posting">
+![Screenshot of available iOS apps for micro.blog posting](../../../../img/uploads/2023/img-2147.jpeg)

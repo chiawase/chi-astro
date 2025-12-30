@@ -26,4 +26,4 @@ woke up to my 3d cats having a meeting on my desk 😆
 
 (i didn't realize this last night when i was playing with the fat cat 😂)
 
-![3 3d-printed small cats are found facing a 3d-printed fat cat on Chi's desk. The small cats are on the monitor stand.](https://chisenires.design/uploads/2023/065c439836.jpg)
+![3 3d-printed small cats are found facing a 3d-printed fat cat on Chi's desk. The small cats are on the monitor stand.](../../../../img/uploads/2023/065c439836.jpg)

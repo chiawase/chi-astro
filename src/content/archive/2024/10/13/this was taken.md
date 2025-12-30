@@ -1,4 +1,7 @@
 ---
+tags:
+- design
+- uxph
 bluesky:
   id: bafyreia2eyt4bpmi4iugqqlmwqxwlfn5aqbb72vly66j2jhs53o3xee2va
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3l6egyqz6ag2f'
@@ -23,4 +26,4 @@ This was taken yesterday at Design Week PH while I was waiting for mentees who w
 
 Thanks to Design Center of the Philippines and UXPH for the opportunity to pay it forward to the local design and tech community 😊
 
-![Chi smiling and seated behind a table with her name plate in front of her. Her vibrant floral crop top polo shirt stands out against the elegant decor, including suspended gold leaf decorations and patterned throw pillows.](https://chisenires.design/uploads/2024/7365c174a3.jpg)
+![Chi smiling and seated behind a table with her name plate in front of her. Her vibrant floral crop top polo shirt stands out against the elegant decor, including suspended gold leaf decorations and patterned throw pillows.](../../../../img/uploads/2024/7365c174a3.jpg)
