@@ -1,0 +1,144 @@
+---
+import { type CollectionEntry, getCollection, render } from "astro:content";
+import { SITE_URL, SITE_AUTHOR, SITE_TITLE } from "@consts";
+
+import Page from "@layouts/Page.astro";
+
+import ArchivePostMetadata from "@components/ArchivePostMetadata.astro";
+import Backlinks from "@components/Backlinks.astro";
+
+import { prepareOgText } from "@utils/prepare-og-text";
+
+import chiPhoto from "@assets/chi.jpg";
+
+type Props = {
+  post: CollectionEntry<"archive">;
+  slug: string;
+  postReadingTime?: string;
+};
+
+const {
+  post,
+  slug,
+  postReadingTime
+} = Astro.props;
+
+// Build the same sorted list here to find neighbors
+const allPosts = (await getCollection("archive")).sort(
+  (b, a) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+
+const index = allPosts.findIndex((p) => p.id === post.id);
+
+// If sorted newest-first:
+// "next" is older (index+1), "prev" is newer (index-1)
+const prevPost = index > 0 ? allPosts[index - 1] : null;
+const nextPost =
+  index >= 0 && index < allPosts.length - 1 ? allPosts[index + 1] : null;
+
+const hasRealTitle = Boolean(post.data.title && post.data.title.trim().length > 0);
+const fallbackTitle = "Chi’s blog post";
+---
+
+<Page
+  post={post}
+  title={post.data.title ?? undefined}
+  description={post.data.description ?? undefined}
+  showTitle={false}
+>
+
+  <article class="h-entry">
+    {post.data.title && (
+      <>
+        {hasRealTitle ? (
+          <h1 class="p-name">{post.data.title}</h1>
+      ) : (
+        // Not visible on page
+        <h1 class="p-name visually-hidden">{fallbackTitle}</h1>
+      )}
+      <ArchivePostMetadata
+        post={post}
+        postTags={post.data.tags}
+        postSlug={slug}
+        postDate={post.data.date}
+        postReadingTime={postReadingTime}
+      />
+      </>
+      )}
+
+    <div class="u-author h-card">
+      <data value={SITE_URL} class="u-url"></data>
+      <data value="chiawase" class="p-nickname"></data>
+      <data value={chiPhoto.src} class="u-photo"></data>
+      <data value={SITE_AUTHOR.email} class="u-email"></data>
+      <data
+        value="UX Designer, Gamer, Bike commuter from the Philippines"
+        class="p-note"></data>
+    </div>
+
+    <div class="e-content">
+      <slot />
+    </div>
+
+    <ArchivePostMetadata
+      post={post}
+      postTags={post.data.tags}
+      postSlug={slug}
+      postDate={post.data.date}
+      postReadingTime={postReadingTime}
+    />
+  </article>
+
+  <!-- Previous and Next blog posts -->
+  <ul class="links-nextprev">
+    {prevPost && (
+      <li class="links-nextprev-prev">
+        <a href={`/archive/${prevPost.id}/`}>← Previous</a>
+        <span class="post-title-prev">
+          {prevPost.data.title ??
+            `${prepareOgText(prevPost.body ?? "", { maxLength: 60 })}`}
+        </span>
+      </li>
+    )}
+    {nextPost && (
+      <li class="links-nextprev-next">
+        <a href={`/archive/${nextPost.id}/`}>Next →</a>
+        <span class="post-title-next">
+          {nextPost.data.title ??
+            `${prepareOgText(nextPost.body ?? "", { maxLength: 60 })}`}
+        </span>
+      </li>
+    )}
+  </ul>
+
+  <Backlinks entry={post as any} />
+</Page>
+
+
+<style>
+  .links-nextprev {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em 1em;
+    list-style: "";
+    border-top: 1px dashed var(--color-gray-20);
+    padding: 1em 0;
+  }
+  .links-nextprev > * {
+    flex: 0 1 50%;
+  }
+  [class*="post-title-"] {
+    display: block;
+  }
+  .links-nextprev-next {
+    text-align: right;
+  }
+
+  .post-backlinks {
+    margin-bottom: 2rem;
+  }
+
+  :global(lite-youtube) {
+    margin: 0 auto;
+  }
+</style>

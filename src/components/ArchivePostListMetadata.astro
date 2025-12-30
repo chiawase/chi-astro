@@ -1,0 +1,41 @@
+---
+import FormattedDate from "@components/FormattedDate.astro";
+
+interface Props {
+  postTags: string[] | undefined;
+  postSlug: string;
+  postDate: Date;
+  postReadingTime?: string;
+}
+
+const {
+  postTags,
+  postSlug,
+  postDate,
+  postReadingTime,
+} = Astro.props;
+
+const hasTags = Array.isArray(postTags) && postTags.length > 0;
+---
+
+<ul class="post-metadata">
+  <li>
+    <a href=`/archive/${postSlug}/` class="postlist-link">
+    <FormattedDate
+      dateType="published"
+      dateString={postDate}
+    /></a>
+    <span class="post-metadata-separator"></span>
+  </li>
+  <li>
+    <span class="post-reading-time">{postReadingTime}</span>
+    {hasTags && (<span class="post-metadata-separator"></span>)}
+  </li>
+  {hasTags && (<li>
+    <div class="postlist-tags">
+      {postTags.map((t) => (
+        <a href=`/tags/${t}/` class="post-tag p-category">{t}</a>
+      ))}
+    </div>
+  </li>)}
+</ul>

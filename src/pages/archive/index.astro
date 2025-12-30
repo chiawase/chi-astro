@@ -1,0 +1,34 @@
+---
+import { getCollection } from "astro:content";
+
+import Page from "@layouts/Page.astro";
+import ArchiveItem from "@components/ArchiveItem.astro";
+
+const page = {
+  title: "Archives",
+  description: "Post archives from the time before I got all my posts together under one wing. Each post will be marked based on where it originally was posted in, assuming I remember!"
+};
+
+const posts = (await getCollection("archive")).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+---
+
+<Page
+  title={page.title}
+  description={page.description}
+>
+  <section>
+    <p>{page.description}</p>
+    <ol
+      reversed
+      class="postlist"
+      style=`--postslist-index: ${posts.length};`
+    >
+      {posts.map((post) => {
+        return (<ArchiveItem post={post} />);
+      })}
+    </ol>
+  </section>
+
+</Page>

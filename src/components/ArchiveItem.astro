@@ -1,0 +1,37 @@
+---
+import type { CollectionEntry } from "astro:content";
+import ArchivePostListMetadata from "@components/ArchivePostListMetadata.astro";
+import { prepareOgText } from "@utils/prepare-og-text";
+
+import { getReadingTime } from "@utils/reading-time";
+
+interface Props {
+  post: CollectionEntry<"archive">;
+}
+
+const { post } = Astro.props;
+
+// Calculate reading time using `body` property
+const postReadingTime = getReadingTime(post.body ?? "");
+---
+
+<li class="postlist-item">
+  {/* if with title */}
+  {post.data.title && (
+      <a href={`/archive/${post.id}/`} class="postlist-link postlist-header">
+        {post.data.title}
+      </a>
+    )}
+
+  {/* “summary” equivalent */}
+  <p class="postlist-description">
+    {post.data.description ??
+      prepareOgText(post.body ?? "", { maxLength: 180 })}
+  </p>
+  <ArchivePostListMetadata
+    postTags={post.data.tags}
+    postSlug={post.id}
+    postDate={post.data.date}
+    postReadingTime={postReadingTime}
+  />
+</li>

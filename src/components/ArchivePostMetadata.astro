@@ -1,0 +1,62 @@
+---
+import type { CollectionEntry } from "astro:content";
+import FormattedDate from "@components/FormattedDate.astro";
+
+interface Props {
+  post: CollectionEntry<"archive">;
+  postTags: string[] | undefined;
+  postSlug: string;
+  postDate: Date;
+  postUpdatedDate: Date;
+  postLanguage?: string;
+  postReadingTime?: string;
+}
+
+const {
+  post,
+  postTags,
+  postSlug,
+  postDate,
+  postUpdatedDate,
+  postLanguage,
+  postReadingTime
+} = Astro.props;
+---
+<ul class="post-metadata">
+  <li>
+    <span class="label">Created:</span> <FormattedDate
+      dateType="published"
+      dateString={postDate}
+    />
+    <span class="post-metadata-separator"></span>
+  </li>
+  <li>
+    <span class="label">Last updated:</span> <FormattedDate
+      dateType="updated"
+      dateString={postUpdatedDate}
+    />
+    <span class="post-metadata-separator"></span>
+  </li>
+  <li>
+    <span class="post-reading-time">{postReadingTime}</span>
+    <span class="post-metadata-separator"></span>
+  </li>
+  <li>
+    <span class="label">Tags: </span>
+    {Array.isArray(postTags) && postTags.length > 0 && (
+      <div class="postlist-tags">
+        {postTags.map((tag) => (
+          <a href={`/tags/${tag}/`} class="post-tag p-category">{tag}</a>
+        ))}
+      </div>
+    )}
+  </li>
+  {postLanguage && (<li>
+    <span class="post-metadata-separator"></span>
+    <span class="label">Post language:</span> <span class="post-language">{postLanguage}</span>
+  </li>)}
+  <li>
+    <span class="post-metadata-separator"></span>
+    <a href={`/archive/${postSlug}/`} class="u-url post-permalink">Permalink</a>
+  </li>
+</ul>
