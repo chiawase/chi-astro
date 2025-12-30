@@ -242,13 +242,13 @@ h3:before,
 h4:before,
 h5:before,
 h6:before,
-.footnote-item:before {
-  display: block;
+.footnotes li[id*="user-content-fn"]:before {
   content: " ";
   margin-top: calc(-1 * var(--height-header));
   height: var(--height-header);
   visibility: hidden;
   pointer-events: none;
+  display: block;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
@@ -257,7 +257,7 @@ h6:before,
   h4:before,
   h5:before,
   h6:before,
-  .footnote-item:before {
+  .footnotes li[id*="user-content-fn"]:before {
     margin-top: initial;
     height: initial;
   }
@@ -413,7 +413,7 @@ strong {
 }
 code {
   padding: 2px 5px;
-  background-color: rgb(var(--gray-light));
+  background-color: rgb(var(--color-gray-20));
   border-radius: 2px;
 }
 pre {
@@ -477,7 +477,7 @@ section.intro p {
 }
 hr {
   border: none;
-  border-top: 1px solid rgb(var(--gray-light));
+  border-top: 1px solid rgb(var(--color-gray-20));
 }
 @media (max-width: 720px) {
   body {
@@ -656,6 +656,10 @@ article .e-content * > li {
   z-index: 10;
 }
 
+.e-content ~ .post-metadata {
+  margin-top: 1.5rem;
+}
+
 .post-metadata .label {
   color: var(--color-gray-20);
 }
@@ -733,4 +737,21 @@ mark {
   background-color: var(--text-highlight-bg);
   color: var(--text-highlight-fg);
   text-shadow: none;
+}
+
+/* Footnotes */
+/* Style the footnotes section. */
+.footnotes {
+  font-size: smaller;
+  color: var(--color-gray-20);
+  border-top: 1px solid var(--color-gray-50);
+}
+
+/* Place `[` and `]` around footnote references. */
+[data-footnote-ref]:before {
+  content: "[";
+}
+
+[data-footnote-ref]:after {
+  content: "]";
 }
