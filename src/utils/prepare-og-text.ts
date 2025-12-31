@@ -32,14 +32,26 @@ export function prepareOgText(input: string, options: OgTextOptions = {}) {
     normalize = "NFC",
   } = options;
 
-  // Remove HTML comments before parsing
-  const withoutComments = input.replace(/<!--[\s\S]*?-->/g, "");
+  // ─────────────────────────────────────────────
+  // 1. Strip things that should NEVER appear in excerpts
+  // ─────────────────────────────────────────────
 
-  // Markdown -> mdast
-  const tree = fromMarkdown(withoutComments);
+  let source = input
+    // Remove HTML comments
+    .replace(/<!--[\s\S]*?-->/g, "")
+    // Remove MDX ESM lines like: import {...} from "...";  or  export {...};
+    .replace(/^\s*import[\s\S]*?;\s*$/gim, "")
+    .replace(/^\s*export[\s\S]*?;\s*$/gim, "")
+    // Remove Astro / MDX embeds entirely
+    .replace(/<(YouTube|CodePen|Tweet)\b[\s\S]*?(?:\/>|>[\s\S]*?<\/\1>)/gi, "");
 
-  // Preserve block boundaries by stringifying each top-level child
-  // This avoids cases where `toString(tree)` concatenates blocks with no separator.
+  // ─────────────────────────────────────────────
+  // 2. Markdown → AST
+  // ─────────────────────────────────────────────
+
+  const tree = fromMarkdown(source);
+
+  // Preserve block boundaries
   const blockTexts =
     "children" in tree
       ? tree.children.map((node) => toString(node).trim()).filter(Boolean)
@@ -47,22 +59,26 @@ export function prepareOgText(input: string, options: OgTextOptions = {}) {
 
   let text = blockTexts.join("\n\n");
 
-  // Optional enhancement: control how breaks appear in excerpts/OG text
-  // - paragraph breaks (double newline) -> " · "
-  // - single newline -> " "
-  text = text.replace(/\n{2,}/g, " · ").replace(/\n/g, " ");
+  // ─────────────────────────────────────────────
+  // 3. Control how breaks are rendered
+  // ─────────────────────────────────────────────
+  // Paragraph breaks → " — "
+  // Line breaks → space
+  text = text.replace(/\n{2,}/g, " / ").replace(/\n/g, " ");
 
-  // Collapse whitespace + trim (your existing behavior)
+  // Normalize whitespace
   text = text.replace(/\s+/g, " ").trim();
 
   // Normalize unicode
   text = text.normalize(normalize);
 
-  // Truncate without splitting emoji / grapheme clusters
+  // ─────────────────────────────────────────────
+  // 4. Truncate safely
+  // ─────────────────────────────────────────────
   if (typeof maxLength === "number" && maxLength > 0) {
     text = truncateGraphemes(text, maxLength, ellipsis);
   }
 
-  // URL encode for Cloudinary overlay text
+  // URL encode for OG / Cloudinary usage
   return urlEncode ? encodeURIComponent(text) : text;
 }
