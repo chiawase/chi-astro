@@ -6,6 +6,7 @@ import sitemap from "@astrojs/sitemap";
 import robotsTxt from "astro-robots-txt";
 
 import { SITE_DOMAIN, SITE_URL } from "./src/consts";
+import siteRedirects from "./src/data/redirects";
 
 import embeds from "astro-embed/integration";
 
@@ -22,6 +23,8 @@ import rehypeFigureTitle from "rehype-figure-title";
 export default defineConfig({
   output: "static",
   site: SITE_URL,
+  trailingSlash: "always",
+  redirects: siteRedirects,
   integrations: [
     embeds({
       services: {
