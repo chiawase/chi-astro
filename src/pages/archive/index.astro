@@ -18,9 +18,6 @@ const posts = (await getCollection("archive")).sort(
   title={page.title}
   description={page.description}
 >
-  <blockquote>
-    This page and all related contents are still a work in progress.
-  </blockquote>
   <section>
     <p>{page.description}</p>
     <ol
