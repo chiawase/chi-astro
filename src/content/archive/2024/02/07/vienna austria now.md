@@ -1,4 +1,5 @@
 ---
+tags: ["travel"]
 bluesky:
   id: bafyreig4uhulz4kyhyye5sshrttjvj4yywjyjo4vucatql6yr5tpf346ka
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kksp33565f2y'

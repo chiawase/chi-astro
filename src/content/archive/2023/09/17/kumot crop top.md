@@ -1,5 +1,5 @@
 ---
-tags: ["design"]
+tags: ["design", "ootd"]
 bluesky:
   id: bafyreihsl2uzil25iuif3jqzzlnz46nw7aywggremea2cnmsqc5gkjzbvy
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k7kl7cn4bf27'
@@ -23,10 +23,10 @@ photos_with_metadata:
 url: /2023/09/17/kumot-crop-top.html
 ---
 
-• kumot crop top
-• figma socks
-• figma tote bag
+- kumot crop top
+- figma socks
+- figma tote bag
 
 full on designer mode jk 😂 ootd for UX+! see u at SMX MOA later 😄
 
-<img src="../../../../img/uploads/2023/325632d9f1b340abb7744c8c53676d79.jpg" width="450" height="600" alt="Mirror selfie of Chi wearing a crop top with the pattern of a Filipino blanket, black skater skirt, black leggings, Figma patterned socks and black boots. On her right shoulder is her Friends of Figma black-on-white grid patterned tote bag.">
+![Mirror selfie of Chi wearing a crop top with the pattern of a Filipino blanket, black skater skirt, black leggings, Figma patterned socks and black boots. On her right shoulder is her Friends of Figma black-on-white grid patterned tote bag.](../../../../img/uploads/2023/325632d9f1b340abb7744c8c53676d79.jpg)

@@ -1,6 +1,6 @@
 ---
 title: "📷 Day 21: mountain #mbApr"
-tags: ["Photoblogging Challenges"]
+tags: ["Photoblogging Challenges","mbApr"]
 bluesky:
   id: bafyreiafs2nvaihw3j4y65kvg34yx2oerndhkqu7obg237vealvqpnnyyq
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kqmhcrq75v27'

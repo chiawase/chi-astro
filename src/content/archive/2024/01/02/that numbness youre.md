@@ -1,5 +1,5 @@
 ---
-tags: ["thoughts"]
+tags: ["writing"]
 bluesky:
   id: bafyreih4wgzuodfzqh5ttddggcye36lkcrwxbap5tbr34tml575abhoqie
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3khxv7i6rcr2j'

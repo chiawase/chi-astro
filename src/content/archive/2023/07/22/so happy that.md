@@ -1,4 +1,5 @@
 ---
+tags: ["anime"]
 bluesky:
   id: bafyreiedsdyshsin2g54w6vcupyzz7psxwngnbcdhpmtqw6pmqbndlaoyy
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k34faqw6oi2d'

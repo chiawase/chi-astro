@@ -1,6 +1,6 @@
 ---
 title: "📷 Day 15: small #mbApr"
-tags: ["Photoblogging Challenges"]
+tags: ["Photoblogging Challenges","mbApr"]
 bluesky:
   id: bafyreibpaxbcasao52v34ptrltrohi5h33o5nasucwbkvjzs6i4fikncuu
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kq63pll3fw2y'

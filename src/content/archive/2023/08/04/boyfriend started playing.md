@@ -1,4 +1,5 @@
 ---
+tags: ["games", "ffxiv"]
 bluesky:
   id: bafyreiffoytoaqex7jcpgtw3kkked5ag3siynb5ibw725odahc3y7relsa
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k42ymvmmba2m'

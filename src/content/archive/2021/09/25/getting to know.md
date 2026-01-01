@@ -1,14 +1,11 @@
 ---
 title: "Getting to know myself more in the past year"
 description: "I'm grateful for all the experiences I've gone through, both the good and bad, because these have all shaped me into who I am now."
-tags: ["cycling", "thoughts"]
+tags: ["cycling", "writing"]
 date: 2021-09-25T22:17:00+0800
 ---
-
-<figure>
-<img src="../img/uploads/2023/image-2023-07-05-204205862.png" width="600" height="399" alt="point-of-view of someone on a road bike, where the handlebars are visible, peering out to the road in front of them. A bit of sunlight is reflecting on the asphalt of the road, which somewhat encourages you to press on.">
-<figcaption>Photo by <a target="_blank" href="https://unsplash.com/@flo_karr?utm_source=micro.blog&utm_medium=referral&utm_campaign=api-credit">Flo Karr</a> / <a target="_blank" href="https://unsplash.com/?utm_source=micro.blog&utm_medium=referral&utm_campaign=api-credit">Unsplash</a></figcaption>
-</figure>
+<!-- markdownlint-disable MD013 -->
+![point-of-view of someone on a road bike, where the handlebars are visible, peering out to the road in front of them. A bit of sunlight is reflecting on the asphalt of the road, which somewhat encourages you to press on.](../../../../img/uploads/2023/image-2023-07-05-204205862.png "Photo by Flo Karr / Unsplash")
 
 This past year, I think I have gotten to know myself better.
 
@@ -20,7 +17,7 @@ It's not as daunting anymore for me to say, "my future is in my hands." I have a
 
 I also see where I feel like I am lacking, and where I would need improvement to become a better version of myself.
 
-### On living alone, and recognizing responsibility
+## On living alone, and recognizing responsibility
 
 I still sometimes feel like I'm not ready for certain "big" roles where I need to take care of a lot of things.  Honestly, even at 25, I still feel like I'm a child. But I think this is due to my environment and where I am now in my life. I still live with my parents now. It's helped a lot in terms of finances and stability, but I know I shouldn't just stop here.
 
@@ -30,7 +27,7 @@ This is easier said than done, though, and given where I am based, it's an uphil
 
 I plan to do that in the next couple of months. That's not something I can just "cram", even though other people do inevitably do that anyway. Hopefully this is something that I can follow through until the end.
 
-### On working and being with other people
+## On working and being with other people
 
 I also understand more how I work by myself and with others. I'm maximizing my want to be clear on things by showing that through my over-communication online.
 
@@ -40,7 +37,7 @@ One thing I do know I need more help with in, is dealing with others in cases wh
 
 It's one thing to know about it, it's another thing to execute it by yourself. And that's when the learning actually happens. That's when you know what you need to do, what not to do, and what to improve on to the next. And you keep on doing it. Keep on doing it, until you get better.
 
-### Thankful for the company (the group of people kind)
+## Thankful for the company (the group of people kind)
 
 A lot of the things I do now, I learned because of the people around me. I have learned so much from my family, my friends, my colleagues, and even random people-turned-acquaintances from various sources and settings. It helps to get yourself out there, even when sometimes you feel like either you think that others will think you're ridiculous, or if you think that no one will notice you anyway.
 

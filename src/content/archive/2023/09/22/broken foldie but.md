@@ -1,7 +1,6 @@
 ---
 title: "Broken foldie, but lucky nonetheless: my World Car-Free Day experience"
-
-tags: ["cycling"]
+tags: ["cycling", "writing"]
 bluesky:
   id: bafyreies4utdho4qhgn77f27ti6xothfniczxbnoioz2j2a2fxzoobfcsq
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k7yahgbiaa2u'
@@ -33,8 +32,6 @@ I wanted to super celebrate World Car-Free Day today by doing my bike commutes t
 
 Yet today will not go as planned.
 
-<!--more-->
-
 My ride to work was normal; I even had my GoPro on my neck mount and recorded some near hits by motor vehicles just... blatantly disregarding personal space on the road. Other than that, it was a typical working day for me.
 
 I went home at around 6PM when our shift usually ends, and rush hour in the city where I work usually worsens. Especially so on a Friday night. Regardless, I wanted to persevere.
@@ -60,7 +57,6 @@ I made my way to the side of the road, and one of the guards from the condominiu
 The guard then helped me hail a tricycle so I could go home. Thankfully the driver also seemed friendly;  I shared with him what happened as we made our way back to where I lived, which was around 1-2km away.
 
 ![Chi's folding bike in the middle of a tricycle's cabin, folded neatly to fit within the seat. Chi's bag, which usually is attached to the front of the bike, is found on the right side of the bike, near the tricycle's entrance, to help keep it in place as the trip goes on.](../../../../img/uploads/2023/d80ce57bdc.jpg)
-
 ![A selfie of Chi wearing a mask and at the back of a tricycle, while holding onto her folded folding bike which was neatly tucked in the inner seat of the tricycle. It's a bit blurry because it's dark and the only source of light for the photo is the occasional streetlight.](../../../../img/uploads/2023/04ec152629.jpg)
 
 I eventually got home around an hour after I left the office. I recognize how lucky I was to hitch a ride back. Technically though, had I ridden my foldie home, I would have rested earlier. 😅

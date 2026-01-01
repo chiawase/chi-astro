@@ -1,5 +1,5 @@
 ---
-tags: ["Photoblogging Challenges"]
+tags: ["Photoblogging Challenges","mbApr"]
 bluesky:
   id: bafyreidbvv5h2lyw3uonvlkkbzw5bjfdstapbsev5pgnkd3izqy367ie7y
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kqc5zu6nnu2y'

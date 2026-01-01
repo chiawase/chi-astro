@@ -1,7 +1,6 @@
 ---
 title: "Mulling over why at-the-office would work vs mostly-remote (I'm for the latter)"
-
-tags: ["thoughts"]
+tags: ["writing", "career"]
 date: 2024-01-17T00:02:39+0800
 ---
 

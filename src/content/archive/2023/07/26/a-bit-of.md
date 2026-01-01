@@ -1,5 +1,4 @@
 ---
-tags: ["thoughts"]
 date: 2023-07-26T08:59:10+0800
 microblog: true
 url: /2023/07/26/a-bit-of.html

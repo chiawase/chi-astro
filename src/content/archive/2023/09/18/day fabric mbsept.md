@@ -1,7 +1,6 @@
 ---
 title: "📷 Day 18: fabric #mbsept"
-
-tags: ["design", "ootd", "Photoblogging Challenges"]
+tags: ["design", "ootd", "Photoblogging Challenges", "mbSept"]
 bluesky:
   id: bafyreiewmvqhvh5xihkjhwgbx27q2nt7rcdil57j45gueerwm63e4dlv4a
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k7nillmof625'
@@ -27,4 +26,4 @@ url: /2023/09/18/day-fabric-mbsept.html
 
 I know I already posted this outfit yesterday, but the prompt calls for fabric. So here it is. 😆
 
-<img src="../../../../img/uploads/2023/7662bb50c5734827b8e74d943fee2192.jpg" width="450" height="600" alt="Chi's full outfit. Her top is a cropped button top of what looks similar to blankets that were popularly used for bed when she was a child, with a black undergarment and a black skater skirt. She's also wearing black stockings and black boots, with her Figma two-toned orange and blue socks peeking above her boots. On her shoulder is her Figma grid tote bag.">
+![Chi’s full outfit. Her top is a cropped button top of what looks similar to blankets that were popularly used for bed when she was a child, with a black undergarment and a black skater skirt. She’s also wearing black stockings and black boots, with her Figma two-toned orange and blue socks peeking above her boots. On her shoulder is her Figma grid tote bag.](../../../../img/uploads/2023/7662bb50c5734827b8e74d943fee2192.jpg)

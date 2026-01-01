@@ -1,7 +1,6 @@
 ---
 title: "Random list of things I want to focus on"
-
-tags: ["cycling", "games", "thoughts"]
+tags: ["cycling", "games", "writing"]
 bluesky:
   id: bafyreid2fttb7dmlqmfptmzbw7lglievxfva2o47hckxxbkb6q5paaaaj4
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kbpmwxfqiv2i'

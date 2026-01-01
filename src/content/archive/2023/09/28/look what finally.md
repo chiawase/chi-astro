@@ -29,4 +29,5 @@ url: /2023/09/28/look-what-finally.html
 
 look what finally arrived! 😆 thanks for these stickers, [@jean](https://micro.blog/jean)! 😊
 
-<img src="../../../../img/uploads/2023/b2b6ff1d09.jpg" width="450" height="600" alt="A brown envelope from Jean from Micro.blog, with address details obscured. There is a sunflower stamp on the upper right corner of the envelope, and a written underlined note on the lower left which reads, &quot;via AirMail&quot;."><img src="../../../../img/uploads/2023/71a9e0ff9b.jpg" width="450" height="600" alt="Chi's hand holding up all the contents of the Micro.blog brown envelope sent to her, which includes 2 Micro.blog logo stickers, a Micro Camp campfire sticker, and a note from Jean which reads: &quot;Thanks for microblogging!&quot;">
+![A brown envelope from Jean from Micro.blog, with address details obscured. There is a sunflower stamp on the upper right corner of the envelope, and a written underlined note on the lower left which reads, “via AirMail”.](../../../../img/uploads/2023/b2b6ff1d09.jpg)
+![Chi’s hand holding up all the contents of the Micro.blog brown envelope sent to her, which includes 2 Micro.blog logo stickers, a Micro Camp campfire sticker, and a note from Jean which reads: “Thanks for microblogging!”](../../../../img/uploads/2023/71a9e0ff9b.jpg)

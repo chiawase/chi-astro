@@ -1,5 +1,5 @@
 ---
-tags: ["design"]
+tags: ["design", "figma"]
 bluesky:
   id: bafyreibhchnq4ps2kw5vcstmjio5mezahgfm6eamcrze7sq2ewkmi27gxq
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k5wll6fztw2y'

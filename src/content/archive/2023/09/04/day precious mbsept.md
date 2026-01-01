@@ -1,7 +1,6 @@
 ---
 title: "📷 Day 3: precious #mbsept"
-
-tags: ["Photoblogging Challenges"]
+tags: ["Photoblogging Challenges","mbSept"]
 bluesky:
   id: bafyreighy3o6ylk2lbx7xersxykcv6waprop3pfwzk3eqfcva3jrka4jmu
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k6ksxsydqp2g'
@@ -29,4 +28,4 @@ My preciouses. I don't own cats yet, so this'll have to do for now. 😝
 
 (also haven't colored in the big fat cat yet!)
 
-<img src="../../../../img/uploads/2023/a08ced9096e24c639c267da4acc09431.jpg" width="600" height="450" alt="Chi's 3d-printed cats, given to her by her boyfriend. She has one big fat cat, which is based on the fat cat in FFXIV, and 4 smaller Neko Atsume style cats that have their eyes, nose, mouths, and some patterns colored in with a black marker.">
+![Chi’s 3d-printed cats, given to her by her boyfriend. She has one big fat cat, which is based on the fat cat in FFXIV, and 4 smaller Neko Atsume style cats that have their eyes, nose, mouths, and some patterns colored in with a black marker.](../../../../img/uploads/2023/a08ced9096e24c639c267da4acc09431.jpg)

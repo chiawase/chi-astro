@@ -1,7 +1,6 @@
 ---
 title: "📷 Day 6: (oh) well #mbsept"
-
-tags: ["cycling", "Photoblogging Challenges"]
+tags: ["cycling", "Photoblogging Challenges", "mbSept"]
 bluesky:
   id: bafyreiamt5lfhlhavk37474jy77yjhfjtwyggqvdo7nesno3pjykm6lave
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k6pz25k5qh2f'
@@ -29,4 +28,4 @@ This was a moment that got me to go, "oh well, I'm drenched in the rain, but at 
 
 (I tried to see if I took any photos of actual wells, and... I have photos of other things with water, but not wells 😆)
 
-<img src="../../../../img/uploads/2023/8c50e6d55830473d860174eb8b2ddebb.jpg" width="450" height="600" alt="Selfie of Chi in her rain gear for her bike commute, wearing her red Lumos helmet and a black rain poncho. Both the poncho and her helmet are visibly drenched or have rain drops on them, and Chi's making a dejected or kind of exhausted face.">
+![Selfie of Chi in her rain gear for her bike commute, wearing her red Lumos helmet and a black rain poncho. Both the poncho and her helmet are visibly drenched or have rain drops on them, and Chi’s making a dejected or kind of exhausted face.](../../../../img/uploads/2023/8c50e6d55830473d860174eb8b2ddebb.jpg)

@@ -1,7 +1,6 @@
 ---
 title: "📷 Day 6: windy #mbApr"
-
-tags: ["cycling", "Photoblogging Challenges"]
+tags: ["cycling", "Photoblogging Challenges", "mbApr"]
 bluesky:
   id: bafyreibmyr7bi7zayyfrjlz7ox5y2horzikyafh76hqhajcfuo4nl7cwy4
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kpj6ikr6bx2r'
@@ -26,4 +25,4 @@ photos_with_metadata:
 
 I realize I don't have any (recent?) photo showing any wind (or photos of windy places for that matter) so here's a selfie I took last year while riding around Taiwan on a bike. There would be super windy days that I learned to just put on more layers if I'm biking around 😆
 
-<img src="../../../../img/uploads/2024/72b1537d29.jpg" width="450" height="600" alt="">
+![Wid angle selfie of Chi while on a rental YouBike. She’s wearing a cream-colored long-sleeved sweater, and her red leather bag is seen in the YouBike’s front basket. There are 2 other YouBikes parked behind her.](../../../../img/uploads/2024/72b1537d29.jpg)

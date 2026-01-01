@@ -20,4 +20,4 @@ url: /2023/12/23/oooh-bluesky-became.html
 
 oooh, BlueSky became a butterfly 🦋 
 
-<img src="../../../../img/uploads/2023/5a56f87db4.png" width="277" height="600" alt="Screenshot of Chi's group of app icons labeled &quot;Social Media&quot;, with the following apps shown in a 3 by 3 grid, from top to bottom, left to right: Facebook, BlueSky, Reddit, Threads, Instagram, TikTok, Metatext, LinkedIn, and Polywork.">
+![Screenshot of Chi’s group of app icons labeled “Social Media”, with the following apps shown in a 3 by 3 grid, from top to bottom, left to right: Facebook, BlueSky, Reddit, Threads, Instagram, TikTok, Metatext, LinkedIn, and Polywork.](../../../../img/uploads/2023/5a56f87db4.png)

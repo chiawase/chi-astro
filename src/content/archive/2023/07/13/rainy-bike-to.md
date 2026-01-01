@@ -37,7 +37,6 @@ url: /2023/07/13/rainy-bike-to.html
 rainy bike to work 🌧️🚲
 
 ![wide angle selfie of Chi in office attire sitting in their office lobby lounge, with her folding bike neatly tucked under a table and seen behind her.](../../../../img/uploads/2023/5aa218221f.jpg)
-
 ![Chi's folding bike neatly tucked under a wall table](../../../../img/uploads/2023/59d20d3014.jpg)
 
 [View my ride on Strava](https://strava.app.link/WaXNuB20nBb)

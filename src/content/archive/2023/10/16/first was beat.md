@@ -1,4 +1,5 @@
 ---
+tags: ["games"]
 bluesky:
   id: bafyreidvmgodt3synubiv34gk6ldaowxq3lucfnzcyte2kf5zzc4tcrmbe
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kbuxkzi7gn2g'

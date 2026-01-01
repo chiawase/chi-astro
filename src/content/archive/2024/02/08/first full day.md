@@ -1,5 +1,5 @@
 ---
-tags: ["ootd"]
+tags: ["ootd", "travel"]
 bluesky:
   id: bafyreihfei636shvvjw4t6ccjndl7k4nfqq6pwsob3aeymu5h5v2bqkyzm
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kkuc52sann2x'

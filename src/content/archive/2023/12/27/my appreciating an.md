@@ -1,7 +1,7 @@
 ---
 title: "My 2023: Appreciating an eventful year"
-
-tags: ["thoughts"]
+description: "2023 was an eventful year for me. There were a lot of ups and downs. Before the year comes to a close, I just want to reflect on everything I've done so far and appreciate where I am now."
+tags: ["writing"]
 bluesky:
   id: bafyreievx3kzq2khdssa5nz536qnrkwijm4xb3ltfu56hjlbqbeumodeim
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3khisqivhjh22'
@@ -28,7 +28,6 @@ In no particular order...
 - [Gained (and lost) friends, plus reframe outlook on relationships](#gained-and-lost-friends-plus-reframe-outlook-on-relationships)
 - [Managed my finances better](#managed-my-finances-better)
 
-<!--more-->
 <hr>
 
 ### Got a new job

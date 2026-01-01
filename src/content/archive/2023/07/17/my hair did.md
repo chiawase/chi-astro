@@ -33,5 +33,4 @@ my hair did not dry properly. 😆
 First ride with Candy out on the road!
 
 ![wide angled selfie of Chi on her trifold bike while waiting on the side of the road](../../../../img/uploads/2023/387f517a32.jpg)
-
 ![photo of Chi with her red trifold bike, showing her outfit and her bike commute setup](../../../../img/uploads/2023/d0b36bea09.jpg)

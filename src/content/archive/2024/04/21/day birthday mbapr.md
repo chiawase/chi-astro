@@ -1,6 +1,6 @@
 ---
 title: "📷 Day 19: birthday #mbApr"
-tags: ["Photoblogging Challenges"]
+tags: ["Photoblogging Challenges","mbApr"]
 bluesky:
   id: bafyreieihrtcisp64rtjiffjvp6y6ux2t4ynoettohs3gd2fyxp22ipzpa
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kqmfreixev26'

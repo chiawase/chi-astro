@@ -1,7 +1,6 @@
 ---
 title: "📷 Day 15: red #mbsept"
-
-tags: ["cycling", "ootd", "Photoblogging Challenges"]
+tags: ["cycling", "ootd", "Photoblogging Challenges", "mbSept"]
 bluesky:
   id: bafyreib2kkpbakw5ydiucjhnta4grh347hf2k257zoou64ugrhxarz7kby
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k7ht5h2mmc2p'
@@ -27,4 +26,4 @@ url: /2023/09/16/day-red-mbsept.html
 
 My outfit yesterday while with my bike 😁 red dress, red bike, red bag 😆
 
-<img src="../../../../img/uploads/2023/a06581c0b4aa46c2bc904e1ce411da54.jpg" width="450" height="600" alt="Chi posing with her red folded trifold bike. She is wearing a red long dress with a white undershirt, and slung on her shoulder is her red front bike bag. She is at a shared office space, with some indoor plants seen behind her.">
+![Chi posing with her red folded trifold bike. She is wearing a red long dress with a white undershirt, and slung on her shoulder is her red front bike bag. She is at a shared office space, with some indoor plants seen behind her.](../../../../img/uploads/2023/a06581c0b4aa46c2bc904e1ce411da54.jpg)

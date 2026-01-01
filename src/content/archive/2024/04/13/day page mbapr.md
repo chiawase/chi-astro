@@ -1,6 +1,6 @@
 ---
 title: "📷 Day 13: page #mbApr"
-tags: ["Photoblogging Challenges"]
+tags: ["Photoblogging Challenges","mbApr"]
 bluesky:
   id: bafyreif36pejifcsx5y2d4p7bsgmpwrhbqzain43tb33mmvppt5g3sde6q
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kpygpwpbc622'

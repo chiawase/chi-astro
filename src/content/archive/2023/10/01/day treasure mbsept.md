@@ -1,7 +1,6 @@
 ---
 title: "📷 day 30: treasure #mbsept"
-
-tags: ["Photoblogging Challenges"]
+tags: ["Photoblogging Challenges","mbSept"]
 bluesky:
   id: bafyreihg5sf7at7yllpn35yuebucnn4ivyhibymyir7mre4wwewei6pgn4
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kangf3m47l2c'
@@ -31,4 +30,4 @@ This means a bit more to me as a chronic nailbiter. I'm a bit better at it now, 
 
 (also an excuse to show off my new manicure 😝💅)
 
-<img src="../../../../img/uploads/2023/b3ea0508f41a474eaf4360df895f9ceb.jpg" width="600" height="600" alt="Chi's right hand resting on a pseudo wooden surface. Her nails are neatly trimmed and have a shimmery red gel polish on it.">
+![Chi’s right hand resting on a pseudo wooden surface. Her nails are neatly trimmed and have a shimmery red gel polish on it.](../../../../img/uploads/2023/b3ea0508f41a474eaf4360df895f9ceb.jpg)

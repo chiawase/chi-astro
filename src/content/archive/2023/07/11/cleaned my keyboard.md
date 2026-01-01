@@ -33,5 +33,4 @@ Mouse: Logitech Ergo M575
 Keyboard: Lily58 Pro split keyboard
 
 ![photo overlooking Chi's Lily58 Pro split keyboard and her Logitech Ergo M575 trackball mouse placed between the split](../../../../img/uploads/2023/8c0bf27f94.jpg)
-
 ![photo of Chi's desk with a bunch of keyboard switches scattered on top of notebook, and some keyboard switches also inserted already in the split keyboard frame. The printed circuit board can be seen through the split keyboard's acrylic case.](../../../../img/uploads/2023/dda838c0c9.jpg)

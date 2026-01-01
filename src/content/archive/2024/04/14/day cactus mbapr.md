@@ -1,6 +1,6 @@
 ---
 title: "📷 Day 14: cactus #mbApr"
-tags: ["Photoblogging Challenges"]
+tags: ["Photoblogging Challenges","mbApr"]
 bluesky:
   id: bafyreidpuxze44qlit5ywpaffl2a5s5xvneag6swopsdypevvtdxoa6fna
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kq32c75s3j2z'

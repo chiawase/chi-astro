@@ -1,7 +1,6 @@
 ---
 title: "A year does go by fast; self-reflection and other musings"
-
-tags: ["thoughts"]
+tags: ["writing"]
 bluesky:
   id: bafyreibyjb5ntzgkulgkzdx6ial4nzv2i7h7jkm2a7rrlwd7wt6pa5nj5m
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kb6bt5ipcu2n'

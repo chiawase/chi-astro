@@ -25,4 +25,4 @@ url: /2023/07/04/sharing-my-outfit.html
 
 Sharing my outfit from yesterday when I went to the office. First time wearing pants after a long while! I used up all my skirt outfits recently so I figured I could change things up a bit for myself 😄 📷
 
-![](../../../../img/uploads/2023/image.jpg)
+![Mirror selfie of Chi wearing a white knitted top, an unbuttoned black polo shirt, dark blue jeans with a belt, and brown slip on loafers.](../../../../img/uploads/2023/image.jpg)

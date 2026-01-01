@@ -24,4 +24,4 @@ I only go there because my boyfriend keeps sending me tweets from time to time, 
 
 Just missing one more X and... 🤭
 
-<img src="../../../../img/uploads/2023/image-2023-10-14-210329546.png" width="75" height="35" alt="Screenshot of a browser tab showing the favicon of X, formerly known as Twitter, as the X logo, with the title of the website &quot;X&quot; also next to it. It then looks like an &quot;X x&quot; on the browser tab.">
+![Screenshot of a browser tab showing the favicon of X, formerly known as Twitter, as the X logo, with the title of the website “X” also next to it. It then looks like an “X x” on the browser tab.](../../../../img/uploads/2023/image-2023-10-14-210329546.png)

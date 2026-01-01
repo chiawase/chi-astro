@@ -1,6 +1,6 @@
 ---
 title: "📷 Day 16: flâneur #mbApr"
-tags: ["Photoblogging Challenges"]
+tags: ["Photoblogging Challenges","mbApr"]
 bluesky:
   id: bafyreihlstdahri3xtjmi7kztbdorhlelrkz4wzineqikbct3bnwt2lxgm
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kqc5ipzkjl2j'

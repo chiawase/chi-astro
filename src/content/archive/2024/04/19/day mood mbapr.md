@@ -1,6 +1,6 @@
 ---
 title: "📷 Day 18: mood #mbApr"
-tags: ["Photoblogging Challenges"]
+tags: ["Photoblogging Challenges","mbApr"]
 bluesky:
   id: bafyreiaovp4epuzjh5737giderz7ycde67pfdl26wyvkzperwcwhqmpxb4
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kqgx7tv7cc23'

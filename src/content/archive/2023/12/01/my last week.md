@@ -1,7 +1,6 @@
 ---
 title: "📝 My last week of November in summary"
-
-tags: ["cycling", "thoughts"]
+tags: ["cycling", "writing"]
 bluesky:
   id: bafyreifzkequzjfkejrlyf3ftv6hdrrvyonl4cqyvnwynsddbw6ffq5cze
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kfihj6wu762c'

@@ -1,6 +1,6 @@
 ---
 title: "📷 Day 20: ice #mbApr"
-tags: ["Photoblogging Challenges"]
+tags: ["Photoblogging Challenges","mbApr"]
 bluesky:
   id: bafyreiabufy7bc7oyesbzdmejihcs57udumzzltkuoizizdbcatfg3m5yq
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kqmfy535sc24'

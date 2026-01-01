@@ -17,6 +17,6 @@ url: /2023/07/06/alright-im-also.html
 Alright, I'm also on Threads now lol
 
 If you're also trying that out, let's see each other there as well!
-✨ [www.threads.net/@_chiawas...](https://www.threads.net/@_chiawase) ✨
+✨ [www.threads.net/@_chiawase](https://www.threads.net/@_chiawase) ✨
 
 (I'm still mildly annoyed I can't claim the "chiawase" handle on IG because someone beat me to it but oh well 🫠)

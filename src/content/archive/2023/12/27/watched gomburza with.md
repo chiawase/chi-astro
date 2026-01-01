@@ -1,4 +1,5 @@
 ---
+tags: ["movies"]
 bluesky:
   id: bafyreif6n43uqorgr76y7ewvrllyjc5pc4tkpgeu5b3wj64n67r2ajahyi
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3khjxsc5uoy2s'
@@ -26,4 +27,4 @@ Watched [GomBurZa](https://jescom.ph/gomburzafilm/) with Karen today! Super on a
 
 Nice film! Grabe talaga ginawa kina GomBurZa. I think more Filipinos should watch this film.
 
-<img src="../../../../img/uploads/2023/2a51fbdf9e.jpg" width="450" height="600" alt="Selfie of Chi and Karen in front of the big movie poster for GomBurZa.">
+![Selfie of Chi and Karen in front of the big movie poster for GomBurZa.](../../../../img/uploads/2023/2a51fbdf9e.jpg)

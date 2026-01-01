@@ -1,6 +1,6 @@
 ---
 title: "📷 Day 22: blue #mbApr"
-tags: ["Photoblogging Challenges"]
+tags: ["Photoblogging Challenges","mbApr"]
 bluesky:
   id: bafyreiab4mphra3ffhprhbw5dawnnvnvulk4mertpc5me567tlz5agvima
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kqsgyyjce22t'

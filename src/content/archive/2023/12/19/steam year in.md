@@ -19,4 +19,4 @@ url: /2023/12/19/steam-year-in.html
 
 To view the rest: [s.team/y23/qgqjw...](https://s.team/y23/qgqjwjm?l=english)
 
-![Chi's Steam Year in Review 2023. She played a total of 32 games, had 402 achievements unlocked, 307 total game sessions, and 26 new games. Chi's most played games based on percentage of play time are, from left to right: Stardew Valley and Baldur's Gate 3 both with 16% of playtime, Pharaoh: A New Era with 15% of playtime, Vampire Survivors with 8% of playtime, and Project Zomboid with 7% of playtime.](../../../../img/uploads/2023/8e7fbd5b-b707-4cb9-8739-abf0673f7305.png)
+![Chi’s Steam Year in Review 2023. She played a total of 32 games, had 402 achievements unlocked, 307 total game sessions, and 26 new games. Chi’s most played games based on percentage of play time are, from left to right: Stardew Valley and Baldur’s Gate 3 both with 16% of playtime, Pharaoh: A New Era with 15% of playtime, Vampire Survivors with 8% of playtime, and Project Zomboid with 7% of playtime.](../../../../img/uploads/2023/8e7fbd5b-b707-4cb9-8739-abf0673f7305.png)

@@ -1,4 +1,5 @@
 ---
+tags: ["manga", "One Piece"]
 bluesky:
   id: bafyreiauwf2jwfs3loirmjljstea7jnzzdomzkuwo37tbxtwukwv77oguu
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3lcw2sq333m2l'

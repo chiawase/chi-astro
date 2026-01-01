@@ -1,7 +1,6 @@
 ---
 title: "📷 day 25: flare #mbsept"
-
-tags: ["Photoblogging Challenges"]
+tags: ["Photoblogging Challenges","mbSept"]
 bluesky:
   id: bafyreiconf34f2jyssmpobvnhuzpm767zn3u6ltmu5zedtpq55vs56ibda
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kac557nqxv2p'
@@ -27,4 +26,4 @@ url: /2023/09/26/day-flare-mbsept.html
 
 Flare... flame? Fire? 😆😅
 
-<img src="../../../../img/uploads/2023/5a84536104f74eed8a4c818908b70006.jpg" width="600" height="600" alt="A Thai folk dancer holding onto 3 different lighted torches, 2 on their hands and one double-ended torch held by their right foot, dancing a traditional Thai dance. This performance was captured one evening in Chiang Mai, Thailand.">
+![A Thai folk dancer holding onto 3 different lighted torches, 2 on their hands and one double-ended torch held by their right foot, dancing a traditional Thai dance. This performance was captured one evening in Chiang Mai, Thailand.](../../../../img/uploads/2023/5a84536104f74eed8a4c818908b70006.jpg)

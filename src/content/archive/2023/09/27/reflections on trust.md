@@ -1,6 +1,7 @@
 ---
 title: "Reflections on trust in one's self, and dealing with impatience"
-
+description: "I've been in a bit of a dilemma lately. I know I've been ignoring actual things I have to work on, like updating my portfolio (just to keep it fresh) or applying for a Visa for a trip I have in 4 months."
+tags: ["writing"]
 bluesky:
   id: bafyreic4opc7zqkgntpekz4ngn3czoo2re5mzz55xi6hfq3tevqrpuojqq
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kadjwqo6om2k'
@@ -17,8 +18,6 @@ url: /2023/09/27/reflections-on-trust.html
 ---
 
 > I'll be rambling on a bit about thoughts I've had in the past... month or so after this section. I initially thought I'd just post this on Mastodon with its content warning setup, but I wanna feel more comfy writing about my thoughts in whatever form _here_, not having everything be curated for a particular purpose or use.
-
-<!--more-->
 
 I've been in a bit of a dilemma lately. I know I've been ignoring actual things I have to work on, like updating my portfolio (just to keep it fresh) or applying for a Visa for a trip I have in 4 months.
 

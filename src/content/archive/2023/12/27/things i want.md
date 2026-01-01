@@ -1,5 +1,4 @@
 ---
-tags: ["design"]
 bluesky:
   id: bafyreifb6aqndrmabwdvsthyuamy3vn6zpsral5cdzolj3ognqkzsomr5y
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3khim2pwnxo2u'

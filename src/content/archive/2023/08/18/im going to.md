@@ -20,6 +20,6 @@ url: /2023/08/18/im-going-to.html
 
 I’m going to be an ADPList #BeMore2023 attendee! Looking forward to this 24-hour festival of non-stop learning in groundbreaking design, product growth, AI, careers, & more! Let me know if you're attending too 😄
 
-More details on the conference: [bit.ly/bemore_20...](https://bit.ly/bemore_2023) 
+More details on the conference: [bit.ly/bemore_2023](https://bit.ly/bemore_2023) 
 
-<img src="../../../../img/uploads/2023/bemore-mentor-ticket-216.png" width="479" height="600" alt="Chi's virtual ADPList Mentor ticket to ADPList's Be More 2023 Festival.">
+![Chi's virtual ADPList Mentor ticket to ADPList's Be More 2023 Festival.](../../../../img/uploads/2023/bemore-mentor-ticket-216.png)

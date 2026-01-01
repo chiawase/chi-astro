@@ -1,4 +1,5 @@
 ---
+tags: ["reading", "manga"]
 bluesky:
   id: bafyreickzziuqkdzcwn7m6lf73rmy56spjucf2qysqjinaun65v4ezej2y
   url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k22xk7i2rw22'
