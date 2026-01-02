@@ -22,9 +22,10 @@ description={pageMeta.description}
 <blockquote>
   Last updated: <FormattedDate dateType="" dateString={pageMeta.updatedDate} />
 </blockquote>
-<blockquote>
-  A collection of links to cool websites by cool people, in no particular order! Some of them are here because I like their websites, and others could be because I read some of their posts from time to time. Will try to add notes to all to also share what initially got me to just save a link to their website somewhere 😄
-</blockquote>
+<p>A collection of links to cool websites by cool people, in no particular order!</p>
+<p> Some of them are here because I like their websites, and others could be because I read some of their posts from time to time.</p>
+<p>Will try to add notes to all to also share what initially got me to just save a link to their website somewhere 😄
+</p>
 
 <div class="blogroll-list">
   {BLOGROLL_LIST.map((item) => (<BlogrollItem {...item} /> ))}
