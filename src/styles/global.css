@@ -457,6 +457,7 @@ blockquote {
   border-left: 2px solid var(--text-color-link);
   margin-left: 0;
   padding: 1em;
+  line-height: 160%;
   width: 100%;
   color: var(--text-color);
   background: var(--background-color-overlay);
