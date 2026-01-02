@@ -6,7 +6,7 @@ updatedDate: 2025-12-27T12:22:59+00:00
 tags: 
 - writing
 - coding
-post_language: 
+postLanguage: 
 ---
 
 Just having this here to test what the posts look like when I deploy this to a testing server.

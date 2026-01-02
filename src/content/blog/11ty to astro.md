@@ -8,7 +8,7 @@ tags:
 - coding
 - 11ty
 - astro
-post_language: english
+postLanguage: english
 ---
 
 I’ve done it, this site is now built using [Astro](https://astro.build/)!

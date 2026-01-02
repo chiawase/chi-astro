@@ -35,7 +35,7 @@ In the order that I remember them, here are some of the things I’ve changed in
 - added that hover effect for the navlinks because I like the *italics*
 - added some stuff in my [Stuff I Use](/stuff-i-use/) page
 - also updated my [now](/now/) page, particularly the manga I’m reading because some of them already finished 🥺
-- changed how my tags look like in posts and also added a `post_language` frontmatter thing to my posts in case I go Taglish when I write my stuff
+- changed how my tags look like in posts and also added a `postLanguage` frontmatter thing to my posts in case I go Taglish when I write my stuff
 - also updated how my post metadata shows up—now if the post doesn’t have a title, it won’t repeat the same data at the top anymore. That only happens if there’s a title in the post, since usually my no-title posts are short in nature 😆
 - added Permalinks to my blog posts now just because
 - something git-specific: I had to rebase my previous commits made while I was on my PC because the `author.name` was set to `chiawase` instead of `Chi Señires`, which was how it was set up on my work Mac, and I wanted to keep my name there 😆 super happy about [[/blog/omg-i-just-learned-about-lazygit|lazygit]] because it made rebasing and updating the author name so easy 😁
