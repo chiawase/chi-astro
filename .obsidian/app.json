@@ -47,7 +47,8 @@
     "node_modules/*",
     "_includes/*",
     "_config/*",
-    "_data/*"
+    "_data/*",
+    "dist/"
   ],
   "newLinkFormat": "relative",
   "autoConvertHtml": true
