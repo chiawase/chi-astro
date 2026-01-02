@@ -1,0 +1,66 @@
+---
+interface Props {
+  url: string;
+  domain: string;
+  author?: string;
+  note?: string;
+}
+
+const { url, domain, author, note } = Astro.props;
+---
+
+<div class="blogroll-item">
+  <a href={url} class="blogroll-link">
+    {domain} {author && `by ${author}`}
+  </a>
+
+  {note && (<p class="blogroll-note">{note}</p> )}
+</div>
+<style>
+.blogroll-item {
+  display: flex;
+  gap: 1rem;
+  align-content: flex-start;
+  flex-flow: row wrap;
+  margin-bottom: 1rem;
+  min-width: 0;
+  & .blogroll-link {
+    flex: 1 1 0;
+    min-width: 0;
+    display: inline-block;
+    max-width:100%;
+    width: 100%;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  & .blogroll-link:after {
+    transform: translateY(0.15rem);
+  }
+
+  &:before {
+    /*content: "\00bb";*/
+    /*content: "\25b6";*/
+    content: "\2217";
+  }
+
+  .blogroll-link {
+    flex: 0 1 auto;
+  }
+
+  & .blogroll-note {
+    display: block;
+    flex: 0 1 440px;
+    padding: 0.75rem 1rem;
+    background-color: var(--background-color-overlay);
+    border: 1px dashed var(--text-color-link-visited);
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 896px) {
+  .blogroll-item {
+    gap: 0.25rem 0.5rem;
+  }
+}
+</style>

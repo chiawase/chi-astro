@@ -1,0 +1,47 @@
+---
+import Page from "@layouts/Page.astro";
+import BlogrollItem from "@components/BlogrollItem.astro";
+
+import FormattedDate from "@components/FormattedDate.astro";
+import { BLOGROLL_LIST } from "@data/blogroll";
+
+const pageMeta = {
+  title: "Blogroll",
+  description: "Just a dump of links of websites from other people for now since I’m not sure how to go about this yet!",
+  pubDate: new Date("2025-09-19T06:35:25+00:00"),
+  updatedDate: new Date("2026-01-02T14:06:11+00:00"),
+};
+
+---
+
+<Page
+title={pageMeta.title}
+description={pageMeta.description}
+>
+
+<blockquote>
+  Last updated: <FormattedDate dateType="" dateString={pageMeta.updatedDate} />
+</blockquote>
+<blockquote>
+  A collection of links to cool websites by cool people, in no particular order! Some of them are here because I like their websites, and others could be because I read some of their posts from time to time. Will try to add notes to all to also share what initially got me to just save a link to their website somewhere 😄
+</blockquote>
+
+<div class="blogroll-list">
+  {BLOGROLL_LIST.map((item) => (<BlogrollItem {...item} /> ))}
+</div>
+</Page>
+<style>
+.blogroll-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+@media (max-width: 896px) {
+  .blogroll-list {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 1rem auto;
+  }
+}
+</style>
