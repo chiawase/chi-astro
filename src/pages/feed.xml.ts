@@ -9,7 +9,7 @@ import remarkGfm from "remark-gfm";
 
 import { SITE_TITLE, SITE_DESCRIPTION } from "@consts";
 
-/** Match your Eleventy template’s title fallback behavior */
+/** Match Eleventy template’s title fallback behavior */
 function stripHtml(input: string) {
   return input.replace(/<[^>]*>/g, "");
 }
@@ -48,16 +48,15 @@ function toRfc3339(date: Date) {
 }
 
 export async function GET(context: { site: URL }) {
-  const site = context.site; // your Astro config `site` value
+  const site = context.site;
   const feedUrl = new URL("/feed.xml", site).toString();
 
   // Adjust the filter to match your own draft/publish rules
   const posts = await getCollection("blog", ({ data }) => !data.draft);
 
-  // Your Eleventy feed showed the latest 10 posts
   const numberOfLatestPostsToShow = 10;
 
-  // Sort newest first (Atom readers are fine either way; this is the common convention)
+  // Sort newest first
   const sorted = [...posts].sort((a, b) => {
     const da = new Date((a.data.pubDate ?? a.data.date) as any).getTime();
     const db = new Date((b.data.pubDate ?? b.data.date) as any).getTime();
@@ -66,7 +65,6 @@ export async function GET(context: { site: URL }) {
 
   const latest = sorted.slice(0, numberOfLatestPostsToShow);
 
-  // Equivalent to Eleventy: collections.posts | getNewestCollectionItemDate
   const newestDate =
     latest.length > 0
       ? new Date((latest[0].data.pubDate ?? latest[0].data.date) as any)
@@ -78,7 +76,6 @@ export async function GET(context: { site: URL }) {
 
       const html = await markdownToHtml(post.body);
 
-      // Mimic: <title>post.data.title else stripped+truncated post.content</title>
       const fallbackTitle = truncate(stripHtml(html), 60);
       const title = post.data.title ? String(post.data.title) : fallbackTitle;
 
