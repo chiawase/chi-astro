@@ -1,6 +1,6 @@
 ---
 title: Migrated from 11ty to Astro!
-description:
+summary:
 pubDate: 2025-12-29T17:34:13+00:00
 updatedDate: 2025-12-29T19:27:45+00:00
 tags: 

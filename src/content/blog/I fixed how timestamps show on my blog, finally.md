@@ -1,6 +1,6 @@
 ---
 title: "I fixed how timestamps show on my blog, finally"
-description: "This took way longer than I thought it would to figure out, but better late than never!"
+summary: "This took way longer than I thought it would to figure out, but better late than never!"
 pubDate: 2025-09-24T14:43:25+00:00
 updatedDate: 2025-09-24T14:47:26+00:00
 tags: 

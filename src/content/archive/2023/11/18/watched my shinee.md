@@ -1,6 +1,6 @@
 ---
 title: "Watched My SHINee World premiere and it was super fun! I do not have regrets 🩵"
-description: "While last minute, I watched the premiere showing of My SHINee World at SM Megamall. It was worth it 🥹🤧"
+summary: "While last minute, I watched the premiere showing of My SHINee World at SM Megamall. It was worth it 🥹🤧"
 tags: ["writing", "kpop", "SHINee"]
 bluesky:
   id: bafyreif436xjlkz4blf6tgbfjilcoomfdrlqsd2vlm4qwp7hnubg2s7cta

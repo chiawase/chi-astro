@@ -1,6 +1,6 @@
 ---
 title: Updated how my webmentions work (again XD)
-description: "I noticed this while I was showing off the recent changes to my website to a friend—my webmentions weren’t showing properly >__< So I took the time to fix it, and now I think (?) it’s better now than it was before."
+summary: "I noticed this while I was showing off the recent changes to my website to a friend—my webmentions weren’t showing properly >__< So I took the time to fix it, and now I think (?) it’s better now than it was before."
 pubDate: 2025-12-08T07:31:34+00:00
 updatedDate: 2025-12-08T09:58:58+00:00
 tags: 

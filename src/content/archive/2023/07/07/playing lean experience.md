@@ -1,6 +1,6 @@
 ---
 title: "📝 Playing Lean 2: Experience and thoughts while playing"
-description: "A few weeks ago, I played this board game with my Scrum team. It's called Playing Lean 2, and it was apparently a Kickstarter project!"
+summary: "A few weeks ago, I played this board game with my Scrum team. It's called Playing Lean 2, and it was apparently a Kickstarter project!"
 tags: ["writing","games"]
 bluesky:
   id: bafyreiairoxw3ef3spdsximylec4ukf7j4wkw4byeztwqfjlm3la3il7yq

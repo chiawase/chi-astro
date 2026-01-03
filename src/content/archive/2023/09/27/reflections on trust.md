@@ -1,6 +1,6 @@
 ---
 title: "Reflections on trust in one's self, and dealing with impatience"
-description: "I've been in a bit of a dilemma lately. I know I've been ignoring actual things I have to work on, like updating my portfolio (just to keep it fresh) or applying for a Visa for a trip I have in 4 months."
+summary: "I've been in a bit of a dilemma lately. I know I've been ignoring actual things I have to work on, like updating my portfolio (just to keep it fresh) or applying for a Visa for a trip I have in 4 months."
 tags: ["writing"]
 bluesky:
   id: bafyreic4opc7zqkgntpekz4ngn3czoo2re5mzz55xi6hfq3tevqrpuojqq

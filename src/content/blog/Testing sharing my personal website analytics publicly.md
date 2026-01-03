@@ -1,6 +1,6 @@
 ---
 title: Testing sharing my personal website analytics publicly
-description: I’ve seen other people share the analytics to their personal websites publicly and initially wondered why one would do this, aside from I guess… transparency?
+summary: I’ve seen other people share the analytics to their personal websites publicly and initially wondered why one would do this, aside from I guess… transparency?
 tags: 
 - writing
 - thoughts

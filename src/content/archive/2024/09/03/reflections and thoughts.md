@@ -1,6 +1,6 @@
 ---
 title: "Reflections and thoughts on tracking \"metrics\", accomplishments, and impact as a UX designer"
-description: "Every now and then, I find myself wondering if I'm consistently focusing on the wrong things or unnecessary things while working. I'm not one who constantly pours myself over conversion metrics or other KPIs or numbers I need to \"track\" as a means to measure my impact as a designer, but maybe I need to learn how to be?"
+summary: "Every now and then, I find myself wondering if I'm consistently focusing on the wrong things or unnecessary things while working. I'm not one who constantly pours myself over conversion metrics or other KPIs or numbers I need to \"track\" as a means to measure my impact as a designer, but maybe I need to learn how to be?"
 tags: ["design", "Obsidian", "writing"]
 bluesky:
   id: bafyreicssslfnmfnvzyi7uskfnbylnizyjjbm3gsvdgsfeoocwx4253t6m

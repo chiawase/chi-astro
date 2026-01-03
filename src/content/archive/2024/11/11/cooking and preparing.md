@@ -1,6 +1,6 @@
 ---
 title: "Cooking and preparing the ingredients for a dish helped me appreciate food more"
-description: "My partner and I recently cooked a lot of food this weekend, and it got me to appreciate food and the ingredients that make sup the dishes we prepared. And I say this for both a dish I really loved as I grew up (sinigang) and another dish that I only recently started liking (curry rice). For this post I wanted to talk more about how cooking sinigang got me to appreciate it more as one of my favorite Filipino dishes."
+summary: "My partner and I recently cooked a lot of food this weekend, and it got me to appreciate food and the ingredients that make sup the dishes we prepared. And I say this for both a dish I really loved as I grew up (sinigang) and another dish that I only recently started liking (curry rice). For this post I wanted to talk more about how cooking sinigang got me to appreciate it more as one of my favorite Filipino dishes."
 tags: ["writing","cooking"]
 bluesky:
   id: bafyreihzziwpkqcgmw5envkrqdjlj5vag4jc645y32jx2ne7we7lplpzxa

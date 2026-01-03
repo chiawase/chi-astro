@@ -1,6 +1,6 @@
 ---
 title: "Getting to know myself more in the past year"
-description: "I'm grateful for all the experiences I've gone through, both the good and bad, because these have all shaped me into who I am now."
+summary: "I'm grateful for all the experiences I've gone through, both the good and bad, because these have all shaped me into who I am now."
 tags: ["cycling", "writing"]
 date: 2021-09-25T22:17:00+0800
 ---

@@ -1,6 +1,6 @@
 ---
 title: "The never ending dilemma of what to share online"
-description: "I constantly find myself wondering how much I should share online and where to share it, mostly because part of me is scared of bad actors who might take advantage of what I put out there..."
+summary: "I constantly find myself wondering how much I should share online and where to share it, mostly because part of me is scared of bad actors who might take advantage of what I put out there..."
 tags: 
 - writing
 - thoughts

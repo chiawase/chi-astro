@@ -1,6 +1,6 @@
 ---
 title: List of recent updates since last updating my site
-description: Because of my recent blunder with deploying changes to my website, and because I want to share what I've been working on so far, I'm putting them all in this post.
+summary: Because of my recent blunder with deploying changes to my website, and because I want to share what I've been working on so far, I'm putting them all in this post.
 pubDate: 2025-11-14T11:31:03+00:00
 updatedDate: 2025-11-14T13:50:05+00:00
 tags: 

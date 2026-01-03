@@ -8,7 +8,7 @@ const blog = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string().nullable(),
-      description: z.string().nullable(),
+      summary: z.string().optional().nullable(),
       // Transform string to Date object
       pubDate: z.coerce.date(),
       updatedDate: z.coerce.date(),
@@ -25,7 +25,7 @@ const archive = defineCollection({
   // Type-check frontmatter using a schema
   schema: z.object({
     title: z.string().optional().nullable(),
-    description: z.string().optional().nullable(),
+    summary: z.string().optional().nullable(),
     // Transform string to Date object
     date: z.coerce.date(),
     tags: z.array(z.string()).optional(),

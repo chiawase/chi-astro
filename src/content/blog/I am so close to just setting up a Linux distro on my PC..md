@@ -1,6 +1,6 @@
 ---
 title: I am so close to just setting up a Linux distro on my PC.
-description: "Long story short: my Windows setup is a doozy for code and it seems simpler to just have to deal with Linux shenanigans than... whatever I have now lol"
+summary: "Long story short: my Windows setup is a doozy for code and it seems simpler to just have to deal with Linux shenanigans than... whatever I have now lol"
 pubDate: 2025-11-28T16:29:26+00:00
 updatedDate: 2025-12-11T08:08:32+00:00
 tags: 

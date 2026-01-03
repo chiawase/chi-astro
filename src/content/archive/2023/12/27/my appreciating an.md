@@ -1,6 +1,6 @@
 ---
 title: "My 2023: Appreciating an eventful year"
-description: "2023 was an eventful year for me. There were a lot of ups and downs. Before the year comes to a close, I just want to reflect on everything I've done so far and appreciate where I am now."
+summary: "2023 was an eventful year for me. There were a lot of ups and downs. Before the year comes to a close, I just want to reflect on everything I've done so far and appreciate where I am now."
 tags: ["writing"]
 bluesky:
   id: bafyreievx3kzq2khdssa5nz536qnrkwijm4xb3ltfu56hjlbqbeumodeim

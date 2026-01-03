@@ -1,6 +1,6 @@
 ---
 title: "Reading Product Picnic part 3"
-description: "I only now am catching up to Pavel's newsletter post on this (which I have a new article to catch up reading to), and now I have a new set of open tabs to get back to because of all the related reading and other articles that seem interesting to me."
+summary: "I only now am catching up to Pavel's newsletter post on this (which I have a new article to catch up reading to), and now I have a new set of open tabs to get back to because of all the related reading and other articles that seem interesting to me."
 tags: 
 - writing
 - design

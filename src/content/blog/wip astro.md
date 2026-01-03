@@ -1,6 +1,6 @@
 ---
 title: "Work in Progress: rebuilding this website on Astro"
-description: I intended to share this when I was done with it, but reasons got me to push it to my public repo and I wanted to write something about it anyways lol
+summary: I intended to share this when I was done with it, but reasons got me to push it to my public repo and I wanted to write something about it anyways lol
 pubDate: 2025-12-24T06:03:02+00:00
 updatedDate: 2025-12-27T05:19:36+00:00
 tags: 

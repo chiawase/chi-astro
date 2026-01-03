@@ -1,6 +1,6 @@
 ---
 title: "25 Things I Learned after 25 years of existing"
-description: "My birthday has officially passed. I figured I'd write a list of 25 things I learned as I turned 25, in no particular order, just for the heck of it."
+summary: "My birthday has officially passed. I figured I'd write a list of 25 things I learned as I turned 25, in no particular order, just for the heck of it."
 tags: ["writing"]
 date: 2021-09-04T21:20:00+0800
 ---

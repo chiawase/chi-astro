@@ -1,6 +1,6 @@
 ---
 title:
-description:
+summary:
 tags: 
 - shortcuts
 pubDate: 2025-06-27T02:52:25+00:00

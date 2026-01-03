@@ -1,6 +1,6 @@
 ---
 title: "Finally fixed the metadata generation and the auto social images!"
-description: I finally got Cloudinary to work with my 11ty blog and processed my images with the auto adding of text and rendering it as an image!
+summary: I finally got Cloudinary to work with my 11ty blog and processed my images with the auto adding of text and rendering it as an image!
 tags: 
 - writing
 - coding

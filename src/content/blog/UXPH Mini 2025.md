@@ -1,6 +1,6 @@
 ---
 title: "UXPH Mini 2025: Thoughts and Experiences after another tour around the Philippines"
-description: "Sharing my experience with coming along UXPH Mini 2025 mostly as a workshop facilitator. We’ve done this before in 2019, and we’ve done it again this year!"
+summary: "Sharing my experience with coming along UXPH Mini 2025 mostly as a workshop facilitator. We’ve done this before in 2019, and we’ve done it again this year!"
 pubDate: 2025-10-22T09:18:22+00:00
 updatedDate: 2025-10-22T11:39:28+00:00
 tags: 

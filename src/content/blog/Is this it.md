@@ -1,6 +1,6 @@
 ---
 title: "Finally(?) setting up the site (soft launch)"
-description: "This is yet another attempt at soft launching my new website setup"
+summary: "This is yet another attempt at soft launching my new website setup"
 tags: 
 - writing
 - coding

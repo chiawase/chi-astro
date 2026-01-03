@@ -1,6 +1,6 @@
 ---
 title: omg I just learned about lazygit
-description: I literally just pushed some changes to my website but I wanted to log this revelation on my website as well
+summary: I literally just pushed some changes to my website but I wanted to log this revelation on my website as well
 pubDate: 2025-09-26T15:30:44+00:00
 updatedDate: 2025-09-26T15:37:41+00:00
 tags: 

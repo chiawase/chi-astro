@@ -1,6 +1,6 @@
 ---
 title: "I'll just keep at it, but I'm happy I'm updating stuff here"
-description: "I wanted to type on my keyboard. Mulling over the things I've been working on the past few days on my website now, like webmentions and the date format fix I did!"
+summary: "I wanted to type on my keyboard. Mulling over the things I've been working on the past few days on my website now, like webmentions and the date format fix I did!"
 tags: 
 - writing
 - coding

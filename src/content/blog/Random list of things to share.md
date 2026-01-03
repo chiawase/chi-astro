@@ -1,6 +1,6 @@
 ---
 title: Random list of things to share
-description: I just want to create a collection of updates to share as I every now and then go back to tinkering with my website and make changes based on things I encounter online or just things I figured I could work on now.
+summary: I just want to create a collection of updates to share as I every now and then go back to tinkering with my website and make changes based on things I encounter online or just things I figured I could work on now.
 tags: 
 - writing
 - "8to"

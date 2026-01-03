@@ -1,6 +1,6 @@
 ---
 title: Thoughts on looking for new opportunities
-description: Sharing my thoughts on job hunting especially after I shared to peers that I found a new role. It wasn't easy. It was long, but eventually was worth doing because I kept at it until I found something that stuck.
+summary: Sharing my thoughts on job hunting especially after I shared to peers that I found a new role. It wasn't easy. It was long, but eventually was worth doing because I kept at it until I found something that stuck.
 tags: 
 - writing
 - career

@@ -1,6 +1,6 @@
 ---
 title: Reminding myself why I write
-description: "While writing a draft blog post, I realize the length of it has gotten longer than I thought it was going to be. So I wrote or typed this as a reminder to myself."
+summary: "While writing a draft blog post, I realize the length of it has gotten longer than I thought it was going to be. So I wrote or typed this as a reminder to myself."
 pubDate: 2025-10-31T14:46:50+00:00
 updatedDate: 2025-10-31T15:15:37+00:00
 tags: 

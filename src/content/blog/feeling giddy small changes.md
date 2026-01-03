@@ -1,6 +1,6 @@
 ---
 title:
-description:
+summary:
 pubDate: 2025-11-10T15:39:02+00:00
 updatedDate: 2025-11-10T15:54:55+00:00
 tags: 

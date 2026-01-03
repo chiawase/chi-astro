@@ -1,6 +1,6 @@
 ---
 title: Setting up my website again for the nth time
-description: This is my test post for when I re-launched my website again in Eleventy and using Obsidian as my place to write thoughts down.
+summary: This is my test post for when I re-launched my website again in Eleventy and using Obsidian as my place to write thoughts down.
 tags:
 - writing
 - coding

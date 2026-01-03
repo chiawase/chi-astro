@@ -1,6 +1,6 @@
 ---
 title: My personal website should have support for webmentions now
-description: Sort of a play-by-play timestamped collection of notes of me figuring out setting up Webmentions with my blog.
+summary: Sort of a play-by-play timestamped collection of notes of me figuring out setting up Webmentions with my blog.
 tags: 
 - writing
 - coding

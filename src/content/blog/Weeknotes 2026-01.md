@@ -1,6 +1,6 @@
 ---
 title: "Weeknotes: 2026-01"
-description: "This is my redo of just having a habit of writing stuff down in notes. Initially tried to do this as 8to, but now I'll just mark them all as weeknotes."
+summary: "This is my redo of just having a habit of writing stuff down in notes. Initially tried to do this as 8to, but now I'll just mark them all as weeknotes."
 pubDate: 2026-01-02T07:23:20+00:00
 updatedDate: 2026-01-02T08:59:12+00:00
 tags: 

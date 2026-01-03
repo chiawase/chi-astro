@@ -1,6 +1,6 @@
 ---
 title: "Finally, a website update"
-description: My favicon's back to normal, the test text data I had is gone from view, and my site is building again!
+summary: My favicon's back to normal, the test text data I had is gone from view, and my site is building again!
 tags: 
 - writing
 - coding

@@ -1,6 +1,6 @@
 ---
 title: TIL of npm cross-platform support
-description: 
+summary: 
 pubDate: 2025-11-14T09:56:50+00:00
 updatedDate: 2025-11-20T12:45:13+00:00
 tags: 

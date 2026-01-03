@@ -1,6 +1,6 @@
 ---
 title: My website has a Colophon now
-description:
+summary:
 pubDate: 2025-09-26T14:39:32+00:00
 updatedDate: 2025-12-29T18:30:58+00:00
 tags: 

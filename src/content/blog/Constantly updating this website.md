@@ -1,6 +1,6 @@
 ---
 title: Constantly updating this website
-description: "Mostly made this to 'test' the updates to my website again. But can also serve as a mini blog update."
+summary: "Mostly made this to 'test' the updates to my website again. But can also serve as a mini blog update."
 tags: 
 - writing
 - coding

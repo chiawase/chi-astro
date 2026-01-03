@@ -1,6 +1,6 @@
 ---
 title: Initial thoughts after UXPH Mini 2025
-description: "This was supposed to be short, but I ended up writing a mini blog post as I drafted it. So here's me sharing my initial thoughts 2 weeks after UXPH Mini 2025 concluded."
+summary: "This was supposed to be short, but I ended up writing a mini blog post as I drafted it. So here's me sharing my initial thoughts 2 weeks after UXPH Mini 2025 concluded."
 pubDate: 2025-10-31T15:41:30+00:00
 updatedDate: 2025-11-01T03:32:59+00:00
 tags: 

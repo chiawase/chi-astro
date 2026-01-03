@@ -1,6 +1,6 @@
 ---
 title: My personal Obsidian vault setup
-description: "While mulling over whether I should make my own page for storing my personal Obsidian vault stuff, I’ll just put this post together so I can at least share it someplace and get back to it in the future."
+summary: "While mulling over whether I should make my own page for storing my personal Obsidian vault stuff, I’ll just put this post together so I can at least share it someplace and get back to it in the future."
 pubDate: 2025-12-04T13:09:40+00:00
 updatedDate: 2025-12-04T14:25:27+00:00
 tags: 

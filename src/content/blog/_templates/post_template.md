@@ -1,6 +1,6 @@
 ---
 title: <% tp.file.cursor() %>
-description: 
+summary: 
 pubDate: 
 updatedDate: 
 tags: 

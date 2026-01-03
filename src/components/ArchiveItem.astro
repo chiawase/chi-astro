@@ -25,7 +25,7 @@ const postReadingTime = getReadingTime(post.body ?? "");
 
   {/* “summary” equivalent */}
   <p class="postlist-description">
-    {post.data.description ??
+    {post.data.summary ??
       prepareOgText(post.body ?? "", { maxLength: 180 })}
   </p>
   <ArchivePostListMetadata

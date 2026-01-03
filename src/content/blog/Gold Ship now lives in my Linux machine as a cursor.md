@@ -1,6 +1,6 @@
 ---
 title: Gold Ship now lives in my Linux machine as a cursor
-description: In this post, I share my experience of learning how Linux cursors are set up—at least in a GTK? context—and how I set up the Gold Ship cursor pack to work in Linux.
+summary: In this post, I share my experience of learning how Linux cursors are set up—at least in a GTK? context—and how I set up the Gold Ship cursor pack to work in Linux.
 pubDate: 2025-12-09T10:15:22+00:00
 updatedDate: 2025-12-09T15:55:23+00:00
 tags: 
