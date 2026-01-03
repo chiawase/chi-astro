@@ -67,19 +67,16 @@ const metadataImageWidth = "1280";
 const metadataImageHeight = "640";
 
 const FOLDER = "chisenires.design/";
-const SHARE_IMAGE_FILE_NAME = "thumbnail_odokru"; // points to https://res.cloudinary.com/chi-11ty/image/upload/v1745850878/chisenires.design/thumbnail_odokru.png
-// If font not in the root of your Cloudinary media library, need to prepend with `foldername:`
+const SHARE_IMAGE_FILE_NAME = "thumbnail_odokru";
 
-const TITLE_FONT = "open sans"; // setting to Open Sans for now
-const TITLE_FONT_SIZE = 60;
+const TITLE_FONT = "anybodyheading.woff2";
+const TITLE_FONT_SIZE = 72;
 const TITLE_BOTTOM_OFFSET = 378;
 
-const TAGLINE_FONT = "open sans";
-const TAGLINE_FONT_SIZE = 36;
-const TAGLINE_TOP_OFFSET = 298;
+const BODY_FONT = "victormonobody.woff2";
+const BODY_FONT_SIZE = 36;
 
-const URL_FONT = "open sans";
-const URL_FONT_SIZE = 36;
+const TAGLINE_TOP_OFFSET = 298;
 const URL_BOTTOM_OFFSET = 24;
 
 const TEXT_AREA_WIDTH = 1071;
@@ -100,7 +97,7 @@ const ogImageUrl = getCldOgImageUrl({
         fontFamily: TITLE_FONT,
         fontSize: TITLE_FONT_SIZE,
         color: TEXT_COLOR,
-        fontWeight: "bold_normal",
+        fontWeight: "light_italic",
         alignment: "left",
         text: metadataTitleForCld
       },
@@ -114,8 +111,8 @@ const ogImageUrl = getCldOgImageUrl({
       width: TEXT_AREA_WIDTH,
       crop: "fit",
       text: {
-        fontFamily: TAGLINE_FONT,
-        fontSize: TAGLINE_FONT_SIZE,
+        fontFamily: BODY_FONT,
+        fontSize: BODY_FONT_SIZE,
         color: TEXT_COLOR,
         fontWeight: "normal",
         alignment: "left",
@@ -131,8 +128,8 @@ const ogImageUrl = getCldOgImageUrl({
       width: TEXT_AREA_WIDTH,
       crop: "fit",
       text: {
-        fontFamily: URL_FONT,
-        fontSize: URL_FONT_SIZE,
+        fontFamily: BODY_FONT,
+        fontSize: BODY_FONT_SIZE,
         color: TEXT_COLOR,
         fontWeight: "bold_normal",
         alignment: "left",
