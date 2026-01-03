@@ -20,7 +20,7 @@ The code for this website can be found [on Github](https://github.com/chiawase/c
 
 ## Website Icon
 
-<Image src={siteFavicon} alt="Favicon for chisenires.design"/>
+<Image src={siteFavicon} alt="Favicon for chisenires.design" />
 
 The favicon is a red (`#681310`) squircle with my nickname on it using the font [Anybody](https://etceteratype.co/anybody) for the letter `C` and [Victor Mono](https://rubjo.github.io/victor-mono/) for the letters `hi`. The letter spacing for this is also adjusted so all letters are neatly put together in the middle.
 
@@ -63,7 +63,7 @@ Since migrating to Astro, I’ve mostly reused the same JavaScript code from my 
 - `@components/WebmentionsLoader.astro` is a component used in for fetching and showing the webmentions in the `BlogPost.astro` page (so, when viewing a blog post)
 - `@components/Webmentions.astro` is the component that _actually_ shows the Webmentions section, where it’d pull the summary and the individual mentions / replies for the specific post it’s in
 - `@components/Webmention.astro` is the component to render the webmention card itself
-	- if you want to see an example, you can view [[/blog/my-personal-website-should-have-support-for-webmentions-now/#webmentions|this post’s webmentions]]
+  - if you want to see an example, you can view [[/blog/my-personal-website-should-have-support-for-webmentions-now/#webmentions|this post’s webmentions]]
 - `@components/WebmentionsSummary.astro` is the component to show the _summary_ of the total webmentions for a post, so the number of likes, reposts, etc. plus showing the avatars of the people who did those mentions
 - `@components/WebmentionAvatars.astro` is the component to show the webmention author’s picture
 
@@ -74,6 +74,7 @@ For **website analytics**, I also share track page views and sessions using [Uma
 ## Writing posts
 
 To write posts, I open my repo in [Obsidian](https://obsidian.md/) and use the following plugins to help me in crafting my posts:
+
 > All of these can be seen in my [Obsidian folder](https://github.com/chiawase/chi-astro/tree/7f8f79a02d4b75d4abf6e028a744a8e41f387ab1/.obsidian).
 
 - [Templater](https://github.com/SilentVoid13/Templater): To make use of a `post_template.md` [(view on Github)](https://github.com/chiawase/chi-11ty/blob/e703d949fd01a823ef94ab6296c11518fa09765a/content/_templates/post_template.md) for easier formatting of the YAML front matter.
@@ -86,7 +87,7 @@ To write posts, I open my repo in [Obsidian](https://obsidian.md/) and use the f
 
 ## Workflow for publishing
 
-Usually when I want to write something and share as a post, I open my website’s Obsidian setup and create a post using the `post_template.md` so it automatically makes a post and I can fill in the `title` and `description` if I wanted to.
+Usually when I want to write something and share as a post, I open my website’s Obsidian setup and create a post using the `post_template.md` so it automatically makes a post and I can fill in the `title` and `summary` if I wanted to.
 
 If something is still a draft, I just don’t commit it yet into the repository. I can also technically mark them as drafts, but I’ve found myself to forget the posts I make if I leave it in drafts for too long, so my goal is to publish something as soon as I set aside time to write it.
 
