@@ -46,7 +46,7 @@ const metadataTitleRaw =
 
 const metadataDescriptionRaw =
   normalizedDescription ||
-  post?.data.description ||
+  post?.data.summary ||
   (post?.body ? prepareOgText(post.body, { maxLength: 180 }) : "") ||
   SITE_DESCRIPTION;
 
