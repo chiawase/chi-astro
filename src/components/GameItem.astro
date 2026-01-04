@@ -1,0 +1,75 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+
+import { DateTime } from "luxon";
+
+interface Props {
+  game: CollectionEntry<"games">;
+}
+
+const { game } = Astro.props;
+
+const startedPlaying = DateTime.fromJSDate(game.data.startedPlayingDate, { zone: "UTC+8" }).toFormat("dd MMM yyyy");
+const lastPlayed = DateTime.fromJSDate(game.data.lastPlayedDate, { zone: "UTC+8" }).toFormat("dd MMM yyyy");
+---
+
+<li class="postlist-item game-list-item">
+  <div class="game-details">
+    <a href={`/games/${game.id}/`} class="postlist-link postlist-header">
+      {game.data.title}
+    </a>
+    <div class=`game-played-status game-played-status-${game.data.status}`>{game.data.status}</div>
+    <ul class="game-played-metadata">
+      <li><span class="label">started playing:</span> {startedPlaying}</li>
+      <li><span class="label">last played:</span> {lastPlayed}</li>
+      <li><a href={game.data.url} class="game-url">View Game page</a></li>
+    </ul>
+  </div>
+  {game.data.gameImage &&
+    (<Image src={game.data.gameImage}
+      inferSize={true}
+      class="game-cover-image"
+      alt=`Cover photo for ${game.data.title}`
+      />
+    ) /* eventually add some fallback image here */}
+</li>
+<style>
+.game-list-item {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  & .game-details {
+    display: block;
+  }
+
+  & .game-played-status {
+    --game-status-completed: green;
+    --game-status-playing: red;
+    --game-status-paused: yellow;
+    --game-status-dropped: grey;
+    --game-status-wishlisted: teal;
+
+    display: block;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.75rem;
+    color: black;
+    width: fit-content;
+
+    &.game-played-status-completed { background-color: var(--game-status-completed); }
+    &.game-played-status-playing { background-color: var(--game-status-playing); }
+    &.game-played-status-paused { background-color: var(--game-status-paused); }
+    &.game-played-status-dropped { background-color: var(--game-status-dropped); }
+    &.game-played-status-wishlisted { background-color: var(--game-status-wishlisted); }
+  }
+
+  & .game-cover-image {
+    --cover-size: 15rem;
+
+    width: var(--cover-size);
+    height: var(--cover-size);
+    object-fit: cover;
+  }
+}
+</style>

@@ -1,0 +1,34 @@
+---
+import { Image } from "astro:assets";
+import { type CollectionEntry, getCollection, render } from "astro:content";
+import { SITE_URL, SITE_AUTHOR, SITE_TITLE } from "@consts";
+
+import Page from "@layouts/Page.astro";
+
+import { prepareOgText } from "@utils/prepare-og-text";
+
+type Props = {
+  game: CollectionEntry<"games">;
+};
+
+const { game } = Astro.props;
+---
+
+<Page
+  title=`🎮 ${game.data.title}`
+  description=`Chi’s notes on ${game.data.title}. Last played ${game.data.lastPlayedDate}`
+  showTitle={false}
+>
+  <h1>{game.data.title}</h1>
+
+  <Image class="game-cover-image" src={game.data.gameImage} inferSize={true} alt=`Cover photo for ${game.data.title}`/>
+
+  <div class="game-metadata">
+    <div class="game-status">{game.data.status}</div>
+  </div>
+
+  <div class="game-notes">
+    <slot />
+  </div>
+  <p><a href="/games/">← Go back to all games</a></p>
+</Page>
