@@ -83,14 +83,13 @@ const fallbackTitle = "Chi’s blog post";
     <div class="e-content">
       <slot />
     </div>
-
     <PostMetadata
       post={post}
       postTags={post.data.tags}
       postSlug={slug}
       postDate={post.data.pubDate}
       postUpdatedDate={post.data.updatedDate}
-      postLanguage?={post.data.postLanguage}
+      postLanguage={post.data.postLanguage ?? undefined}
       postReadingTime={postReadingTime}
     />
   </article>
