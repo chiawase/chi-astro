@@ -104,5 +104,23 @@
       ],
       "key": "N"
     }
-  ]
+  ],
+  "editor:open-link-in-new-leaf": [],
+  "templater-obsidian:create-src/content/_templates/Game.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ],
+  "templater-obsidian:create-src/content/_templates/Post.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:create-new-note-from-template": []
 }

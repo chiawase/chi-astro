@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "src/content/blog/_templates",
+  "templates_folder": "src/content/_templates",
   "templates_pairs": [
     [
       "",
@@ -29,7 +29,8 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": true,
   "enabled_templates_hotkeys": [
-    "src/content/blog/_templates/post_template.md"
+    "src/content/_templates/Game.md",
+    "src/content/_templates/Post.md"
   ],
   "startup_templates": [
     ""

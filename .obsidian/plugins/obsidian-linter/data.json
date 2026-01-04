@@ -280,7 +280,9 @@
     "_cache",
     "dist",
     "node_modules",
-    "public"
+    "public",
+    "src/content/_templates",
+    "src/content/games"
   ],
   "filesToIgnore": [],
   "linterLocale": "system-default",
