@@ -13,6 +13,8 @@ export const MORE_PAGES: MorePagesEntry[] = [
   { title: "Tags", url: "/tags/" },
   { title: "Archive", url: "/archive/" },
   { title: "Changelog", url: "/changelog/" },
+  { title: "Games", url: "/games/" },
+  // { title: "replace", url: "/replace/" },
 
   // Optional: groups
   // {
