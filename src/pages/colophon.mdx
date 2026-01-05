@@ -1,7 +1,7 @@
 ---
 title: Colophon
 pubDate: 2025-09-26T09:08:31+00:00
-updatedDate: 2025-12-29T19:25:54+00:00
+updatedDate: 2026-01-05T12:44:41+00:00
 ---
 
 import { Image } from "astro:assets";
@@ -69,7 +69,9 @@ Since migrating to Astro, I’ve mostly reused the same JavaScript code from my 
 
 ### Website Analytics
 
-For **website analytics**, I also share track page views and sessions using [Umami](https://umami.is/) (mostly for my personal consumption). You can view this website’s analytics here (since I made it public, and [[/blog/testing-sharing-my-personal-website-analytics-publicly|wrote about it here]]): [chisenires.design website analytics via Umami](https://umami.chisenires.design/share/368agdyWC4Nl6Bat/chisenires.design)
+For **website analytics**, I also share track page views and sessions using [Umami](https://umami.is/) mostly for my personal consumption as I'm curious where people check my site and what pages get visited.
+
+You can view this website’s analytics here (since I made it public, and [[/blog/testing-sharing-my-personal-website-analytics-publicly|wrote about it here]]): [chisenires.design website analytics via Umami](https://umami.chisenires.design/share/368agdyWC4Nl6Bat/chisenires.design)
 
 ## Writing posts
 
@@ -87,16 +89,23 @@ To write posts, I open my repo in [Obsidian](https://obsidian.md/) and use the f
 
 ## Workflow for publishing
 
-Usually when I want to write something and share as a post, I open my website’s Obsidian setup and create a post using the `post_template.md` so it automatically makes a post and I can fill in the `title` and `summary` if I wanted to.
+Usually when I want to write something and share as a post, I open my website’s Obsidian setup and create a post using the `_templates/Post.md` template so it automatically makes a post and I can fill in the `title` and `summary` if I wanted to.
 
 If something is still a draft, I just don’t commit it yet into the repository. I can also technically mark them as drafts, but I’ve found myself to forget the posts I make if I leave it in drafts for too long, so my goal is to publish something as soon as I set aside time to write it.
 
-After writing and formatting whatever it is I wanted to share, I’ll add the new post file in a `commit` and `push` to my `main` branch. Once Coolify detects a new commit was added to my website’s Github repo, it auto triggers a new deployment and after a few minutes, I’d get notified if the build was pushed to production successfully. That’s when I know my blog post (and any other changes I made to my website) is now out in the open! 😄
+After writing and formatting whatever it is I wanted to share, I’ll add the new post file in a `commit` and `push` to my `main` branch. I usually just make the commit name something like `New blog post: [title or file name of blog post]` to make it simple.
+
+Once Coolify detects a new commit was added to my website’s Github repo, it auto triggers a new deployment and after a few minutes, I’d get notified if the build was pushed to production successfully via a webhook. That’s when I know my blog post (and any other changes I made to my website) is now out in the open! 😄
 
 ## Tracking things I want to update on my website
 
 I make use of the [Issues Tab](https://github.com/chiawase/chi-astro/issues) of my website’s Github repo to track the things I wanna work on.
 
 The reason I used this was simply because I found it really cool that Github (or is it just git?) automatically closes issues so long as you remember to mention them in the commit messages pushed to the repo. I learned this while contributing to the code of our current Design System at work, while working with my teammate who’s a UX engineer. Amaze ✨
+
+## Other notable things
+
+- I set the timezone for all timestamps in my blog to [UTC+8 or Philippine time](https://www.timeanddate.com/worldclock/@1699807) since I want to know what time it was posted in the point of reference most familiar to me.
+- My website is also listed in [personalsit.es](https://personalsit.es/)!
 
 </Page>
