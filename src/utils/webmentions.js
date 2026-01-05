@@ -94,7 +94,6 @@ function matchesOwnSocialAccounts(post, ownAccountPatterns = []) {
   const source = normalize(post?.["wm-source"]);
 
   if (authorUrl) {
-    console.log(ownAccountPatterns);
     return ownAccountPatterns.some((pattern) =>
       authorUrl.includes(normalize(pattern)),
     );
