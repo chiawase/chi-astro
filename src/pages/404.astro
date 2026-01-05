@@ -1,6 +1,7 @@
 ---
 import Page from "@layouts/Page.astro";
-import { SITE_DESCRIPTION } from "@consts";
+import { SITE_DESCRIPTION, SITE_AUTHOR } from "@consts";
+import { OWN_SOCIAL_ACCOUNTS } from "@data/ownSocialAccounts";
 ---
 
 <Page
@@ -9,5 +10,6 @@ import { SITE_DESCRIPTION } from "@consts";
 >
   <h1>Oops! Nothing found here</h1>
   <p>You might have encountered a bug as I’m still fixing some parts of this website.</p>
-  <p>Go back <a href="/">home</a>.</p>
+  <p>It would help if you could let me know by <a href=`mailto:${SITE_AUTHOR.email}?subject=Found%20a%20bug%20on%20chisenires.design`>sending me an email</a> or by contacting me online on <a href={OWN_SOCIAL_ACCOUNTS.Mastodon.profileUrl}>Mastodon</a>, <a href={OWN_SOCIAL_ACCOUNTS.Bluesky.profileUrl}>BlueSky</a>, or <a href={OWN_SOCIAL_ACCOUNTS.Threads.profileUrl}>Threads</a>!</p>
+  <p>You can also go back <a href="/">home</a>.</p>
 </Page>
