@@ -1,0 +1,53 @@
+---
+import { getCollection } from "astro:content";
+
+import Page from "@layouts/Page.astro";
+import GameItem from "@components/GameItem.astro";
+
+const page = {
+  title: "Games",
+  description: "A place for me to track and note down my experiences with various games."
+};
+
+const games = (await getCollection("games")).sort((a, b) => {
+  const aLast = a.data.lastPlayedDate
+    ? a.data.lastPlayedDate.valueOf()
+    : null;
+
+  const bLast = b.data.lastPlayedDate
+    ? b.data.lastPlayedDate.valueOf()
+    : null;
+
+  if (aLast !== null && bLast !== null) {
+    if (aLast !== bLast) {
+      return bLast - aLast; // most recently played goes first
+    } else if (aLast !== null) {
+      return -1;
+    } else if (bLast !== null) {
+      return 1;
+    }
+  }
+
+  return b.data.startedPlayingDate.valueOf() - a.data.startedPlayingDate.valueOf();
+});
+---
+
+<Page
+  title={page.title}
+  description={page.description}
+>
+  <section>
+    <blockquote> A place for me to track and note down my experiences with various games.</blockquote>
+    <blockquote>While this might not be an exhaustive list of all the games I’ve played to date, this will serve as the space where I can remember the experiences I’ve had with all memorable games.</blockquote>
+    <ol
+      reversed
+      class="postlist"
+      style=`--postslist-index: calc(${games.length} + 1);`
+    >
+      {games.map((game) => {
+        return (<GameItem game={game} />);
+      })}
+    </ol>
+  </section>
+
+</Page>

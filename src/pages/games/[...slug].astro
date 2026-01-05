@@ -1,0 +1,24 @@
+---
+import { type CollectionEntry, getCollection, render } from "astro:content";
+import GamePost from "@layouts/GamePost.astro";
+
+export async function getStaticPaths() {
+  const games = await getCollection("games");
+  games.sort((a, b) => b.data.startedPlayingDate.valueOf() - a.data.startedPlayingDate.valueOf());
+  return games.map((game) => ({
+    params: { slug: game.id },
+    props: { game },
+  }));
+}
+
+type Props = {
+  game: CollectionEntry<"games">;
+};
+
+const { game } = Astro.props;
+const { Content } = await render(game);
+---
+
+<GamePost game={game}>
+  <Content />
+</GamePost>

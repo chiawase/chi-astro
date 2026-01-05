@@ -142,6 +142,18 @@ export const BLOGROLL_LIST: Blogroll[] = [
     author: "Maggie Appleton",
     note: "Man... I love her website!!!! Wow!!! I can’t. There’s so many things... so many things here that I could just lose myself in the numerous pages and articles. I also love that she really brought the concept of having a “digital garden” to life in this setup on her own side of the web.",
   },
+  {
+    url: "https://www.sharyap.com/",
+    domain: "sharyap.com",
+    author: "Sharlene Yap",
+    note: "Such a cute website! The sounds are also a nice touch 😄",
+  },
+  {
+    url: "https://samrosecruz.com/",
+    domain: "samrosecruz.com",
+    author: "Sam Rose Cruz",
+    note: "One of my good close friends IRL who I talk to about coding and a bajillion other things with hehe she also writes and has a lot of cool stuff to showcase!",
+  },
   // {
   //   url: "",
   //   domain: "",

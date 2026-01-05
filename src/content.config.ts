@@ -20,7 +20,7 @@ const blog = defineCollection({
 });
 
 const archive = defineCollection({
-  // Load Markdown and MDX files in the `src/content/blog/` directory.
+  // Load Markdown and MDX files in the `src/content/archive/` directory.
   loader: glob({ base: "./src/content/archive", pattern: "**/*.{md,mdx}" }),
   // Type-check frontmatter using a schema
   schema: z.object({
@@ -32,4 +32,19 @@ const archive = defineCollection({
   }),
 });
 
-export const collections = { blog, archive };
+const games = defineCollection({
+  loader: glob({ base: "./src/content/games", pattern: "**/*.{md,mdx}" }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      url: z.string().url(),
+      platform: z.string(),
+      gameImage: image(),
+      tags: z.array(z.string()).optional(),
+      startedPlayingDate: z.coerce.date(),
+      lastPlayedDate: z.coerce.date(),
+      status: z.enum(["completed", "playing", "paused", "dropped"]),
+    }),
+});
+
+export const collections = { blog, archive, games };
