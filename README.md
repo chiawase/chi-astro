@@ -7,7 +7,7 @@
 	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/chiawase/chi-astro">
 </p>
 
-This website was built on top of the Astro Starter Kit: Blog template and then modified to make it look as closely as how my previous website looked like.
+This website was built on top of the [Astro Starter Kit: Blog template](https://github.com/withastro/astro/tree/latest/examples/blog?on=github) and then modified to make it look as closely as how my previous website looked like.
 
 Migrated from 11ty. Access the website at: [chisenires.design](https://chisenires.design)
 
