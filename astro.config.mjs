@@ -5,8 +5,9 @@ import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import robotsTxt from "astro-robots-txt";
 
-import { SITE_DOMAIN, SITE_URL } from "./src/consts";
+import { SITE_URL } from "./src/consts";
 import siteRedirects from "./src/data/redirects";
+import { robotsTxtOptions } from "./src/data/robotsTxt";
 
 import embeds from "astro-embed/integration";
 
@@ -47,79 +48,7 @@ export default defineConfig({
       ],
     }),
     sitemap(),
-    robotsTxt({
-      host: SITE_DOMAIN,
-      policy: [
-        {
-          userAgent: "*",
-          allow: "/",
-        },
-        {
-          userAgent: "GPTBot",
-          disallow: "/",
-        },
-        {
-          userAgent: "ChatGPT-User",
-          disallow: "/",
-        },
-        {
-          userAgent: "Google-Extended",
-          disallow: "/",
-        },
-        {
-          userAgent: "PerplexityBot",
-          disallow: "/",
-        },
-        {
-          userAgent: "Amazonbot",
-          disallow: "/",
-        },
-        {
-          userAgent: "ClaudeBot",
-          disallow: "/",
-        },
-        {
-          userAgent: "Omgilibot",
-          disallow: "/",
-        },
-        {
-          userAgent: "FacebookBot",
-          disallow: "/",
-        },
-        {
-          userAgent: "Applebot",
-          disallow: "/",
-        },
-        {
-          userAgent: "anthropic-ai",
-          disallow: "/",
-        },
-        {
-          userAgent: "Bytespider",
-          disallow: "/",
-        },
-        {
-          userAgent: "Claude-Web",
-          disallow: "/",
-        },
-        {
-          userAgent: "Diffbot",
-          disallow: "/",
-        },
-        {
-          userAgent: "ImagesiftBot",
-          disallow: "/",
-        },
-        {
-          userAgent: "Omgili",
-          disallow: "/",
-        },
-        {
-          userAgent: "YouBot",
-          disallow: "/",
-        },
-      ],
-    }),
+    robotsTxt(robotsTxtOptions),
     icon(),
   ],
   markdown: {
