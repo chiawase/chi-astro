@@ -43,13 +43,7 @@ const games = defineCollection({
       tags: z.array(z.string()).optional(),
       startedPlayingDate: z.coerce.date(),
       lastPlayedDate: z.coerce.date(),
-      status: z.enum([
-        "completed",
-        "playing",
-        "paused",
-        "dropped",
-        "wishlisted",
-      ]),
+      status: z.enum(["completed", "playing", "paused", "dropped"]),
     }),
 });
 

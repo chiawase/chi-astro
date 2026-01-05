@@ -7,7 +7,7 @@ tags:
 - 
 startedPlayingDate: <% tp.date.now("YYYY-MM-DD") %>
 lastPlayedDate:
-status: <% await tp.system.suggester(["completed", "playing", "paused", "dropped", "wishlisted"],["completed", "playing", "paused", "dropped", "wishlisted"],true) %>
+status: <% await tp.system.suggester(["completed", "playing", "paused", "dropped"],["completed", "playing", "paused", "dropped"],true) %>
 pubDate: 2026-01-04T10:31:01+00:00
 updatedDate: 2026-01-04T10:44:58+00:00
 ---

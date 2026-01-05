@@ -35,6 +35,24 @@ const lastPlayed = DateTime.fromJSDate(game.data.lastPlayedDate, { zone: "UTC+8"
     ) /* eventually add some fallback image here */}
 </li>
 <style>
+/* Declaring light mode colors */
+:root {
+  --game-status-completed: green;
+  --game-status-playing: red;
+  --game-status-paused: yellow;
+  --game-status-dropped: grey;
+  --game-status-text-color: var(--text-color);
+}
+
+/* Declaring dark mode colors */
+html.dark {
+  --game-status-completed: green;
+  --game-status-playing: red;
+  --game-status-paused: yellow;
+  --game-status-dropped: grey;
+  --game-status-text-color: var(--text-color);
+}
+
 .game-list-item {
   display: flex;
   flex-flow: row nowrap;
@@ -45,16 +63,11 @@ const lastPlayed = DateTime.fromJSDate(game.data.lastPlayedDate, { zone: "UTC+8"
   }
 
   & .game-played-status {
-    --game-status-completed: green;
-    --game-status-playing: red;
-    --game-status-paused: yellow;
-    --game-status-dropped: grey;
-    --game-status-wishlisted: teal;
-
     display: block;
-    padding: 0.1rem 0.5rem;
+    padding: 0.5rem 0.75rem;
     border-radius: 0.75rem;
-    color: black;
+    line-height: 100%;
+    color: var(--game-status-text-color);
     width: fit-content;
 
     &.game-played-status-completed { background-color: var(--game-status-completed); }
