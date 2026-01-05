@@ -231,33 +231,6 @@ h6 {
     "Victor Mono Variable", -apple-system, system-ui, sans-serif;
   letter-spacing: -0.15rem;
 }
-
-h2:before,
-h3:before,
-h4:before,
-h5:before,
-h6:before,
-.footnotes li[id*="user-content-fn"]:before {
-  content: " ";
-  margin-top: calc(-1 * var(--height-header));
-  height: var(--height-header);
-  visibility: hidden;
-  pointer-events: none;
-  display: block;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 2) {
-  h2:before,
-  h3:before,
-  h4:before,
-  h5:before,
-  h6:before,
-  .footnotes li[id*="user-content-fn"]:before {
-    margin-top: initial;
-    height: initial;
-  }
-}
-
 strong,
 b {
   font-weight: 700;
