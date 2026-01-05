@@ -1,7 +1,7 @@
 ---
 title: <% tp.file.cursor() %>
 url: 
-platform: <% await tp.system.suggester(["Steam", "PS5", "Xbox"], ["Steam", "PS5", "Xbox"], true) %>
+platform: <% await tp.system.suggester(["steam", "playstation", "xbox"], ["steam", "playstation", "xbox"], true) %>
 gameImage: 
 tags: 
 - 
