@@ -124,6 +124,12 @@ export const BLOGROLL_LIST: Blogroll[] = [
     author: "John Peart",
     note: "I stumbled upon one article of his from a newsletter I'm subbed to and found his personal website to be pretty unique. Another source of inspiration!",
   },
+  {
+    url: "https://letra.studio/",
+    domain: "letra.studio",
+    author: "João Beleza Freire",
+    note: "I found his website after following a link from anh's inspiration for her own media library, and also found the rest of his website neat!",
+  },
   // {
   //   url: "",
   //   domain: "",
