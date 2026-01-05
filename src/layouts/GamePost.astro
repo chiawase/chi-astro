@@ -1,17 +1,25 @@
 ---
 import { Image } from "astro:assets";
 import { type CollectionEntry, getCollection, render } from "astro:content";
-import { SITE_URL, SITE_AUTHOR, SITE_TITLE } from "@consts";
+
+import { DateTime } from "luxon";
 
 import Page from "@layouts/Page.astro";
+import GameMetadata from "@components/GameMetadata.astro";
 
-import { prepareOgText } from "@utils/prepare-og-text";
+
 
 type Props = {
   game: CollectionEntry<"games">;
 };
 
 const { game } = Astro.props;
+
+const startedPlaying = DateTime.fromJSDate(game.data.startedPlayingDate, { zone: "UTC+8" }).toFormat("dd MMM yyyy");
+const lastPlayed = DateTime.fromJSDate(game.data.lastPlayedDate, { zone: "UTC+8" }).toFormat("dd MMM yyyy");
+
+const hasNotes = game.rendered?.html !== "";
+console.log(hasNotes)
 ---
 
 <Page
@@ -19,16 +27,33 @@ const { game } = Astro.props;
   description=`Chi’s notes on ${game.data.title}. Last played ${game.data.lastPlayedDate}`
   showTitle={false}
 >
+  <Image
+    class="game-cover-image"
+    src={game.data.gameImage}
+    inferSize={true}
+    alt=`Cover photo for ${game.data.title}`
+  />
   <h1>{game.data.title}</h1>
 
-  <Image class="game-cover-image" src={game.data.gameImage} inferSize={true} alt=`Cover photo for ${game.data.title}`/>
-
   <div class="game-metadata">
-    <div class="game-status">{game.data.status}</div>
-  </div>
-
-  <div class="game-notes">
-    <slot />
+    <GameMetadata
+      status={game.data.status}
+      platform={game.data.platform}
+      startedPlaying={startedPlaying}
+      lastPlayed={lastPlayed}
+      gameUrl={game.data.url}
+    />
   </div>
   <p><a href="/games/">← Go back to all games</a></p>
+
+  {hasNotes && (<div class="game-notes">
+    <h2>Notes</h2>
+    <slot />
+  </div>)}
 </Page>
+<style>
+.game-cover-image {
+  display: block;
+  margin: 0 auto;
+}
+</style>

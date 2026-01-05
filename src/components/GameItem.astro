@@ -4,6 +4,8 @@ import { Image } from "astro:assets";
 
 import { DateTime } from "luxon";
 
+import GameMetadata from "@components/GameMetadata.astro";
+
 interface Props {
   game: CollectionEntry<"games">;
 }
@@ -19,12 +21,13 @@ const lastPlayed = DateTime.fromJSDate(game.data.lastPlayedDate, { zone: "UTC+8"
     <a href={`/games/${game.id}/`} class="postlist-link postlist-header">
       {game.data.title}
     </a>
-    <div class=`game-played-status game-played-status-${game.data.status}`>{game.data.status}</div>
-    <ul class="game-played-metadata">
-      <li><span class="label">started playing:</span> {startedPlaying}</li>
-      <li><span class="label">last played:</span> {lastPlayed}</li>
-      <li><a href={game.data.url} class="game-url">View Game page</a></li>
-    </ul>
+    <GameMetadata
+      status={game.data.status}
+      platform={game.data.platform}
+      startedPlaying={startedPlaying}
+      lastPlayed={lastPlayed}
+      gameUrl={game.data.url}
+    />
   </div>
   {game.data.gameImage &&
     (<Image src={game.data.gameImage}
@@ -35,23 +38,7 @@ const lastPlayed = DateTime.fromJSDate(game.data.lastPlayedDate, { zone: "UTC+8"
     ) /* eventually add some fallback image here */}
 </li>
 <style>
-/* Declaring light mode colors */
-:root {
-  --game-status-completed: green;
-  --game-status-playing: red;
-  --game-status-paused: yellow;
-  --game-status-dropped: grey;
-  --game-status-text-color: var(--text-color);
-}
 
-/* Declaring dark mode colors */
-html.dark {
-  --game-status-completed: green;
-  --game-status-playing: red;
-  --game-status-paused: yellow;
-  --game-status-dropped: grey;
-  --game-status-text-color: var(--text-color);
-}
 
 .game-list-item {
   display: flex;
@@ -60,21 +47,6 @@ html.dark {
 
   & .game-details {
     display: block;
-  }
-
-  & .game-played-status {
-    display: block;
-    padding: 0.5rem 0.75rem;
-    border-radius: 0.75rem;
-    line-height: 100%;
-    color: var(--game-status-text-color);
-    width: fit-content;
-
-    &.game-played-status-completed { background-color: var(--game-status-completed); }
-    &.game-played-status-playing { background-color: var(--game-status-playing); }
-    &.game-played-status-paused { background-color: var(--game-status-paused); }
-    &.game-played-status-dropped { background-color: var(--game-status-dropped); }
-    &.game-played-status-wishlisted { background-color: var(--game-status-wishlisted); }
   }
 
   & .game-cover-image {

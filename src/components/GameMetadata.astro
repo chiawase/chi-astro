@@ -1,0 +1,75 @@
+---
+import { Icon } from "astro-icon/components";
+
+interface Props {
+  status: string;
+  platform: string;
+  startedPlaying: string;
+  lastPlayed: string;
+  gameUrl: string;
+}
+
+const { status, platform, startedPlaying, lastPlayed, gameUrl } = Astro.props;
+---
+
+<ul class="game-metadata">
+  <li class="game-status-platform">
+    <div class=`game-played-status game-played-status-${status}`>{status}</div>
+    <Icon name=`simple-icons:${platform}` size="24" title={status} />
+  </li>
+  <li><span class="label">started playing:</span> {startedPlaying}</li>
+  <li><span class="label">last played:</span> {lastPlayed}</li>
+  <li><a target="_blank" href={gameUrl} class="game-url">View Game page</a></li>
+</ul>
+<style>
+:root {
+  --game-status-completed: #96EC83;
+  --game-status-playing: #EC8396;
+  --game-status-paused: #8396EC;
+  --game-status-dropped: #abb1ab;
+  --game-status-text-color: #2E312D;
+}
+
+.game-metadata {
+  list-style-type: none;
+  padding-left: 0;
+
+  & .game-status-platform {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  & .game-played-status {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.75rem;
+    line-height: 100%;
+    margin: 0.5rem 0;
+    color: var(--game-status-text-color);
+    width: fit-content;
+    font-variation-settings:
+      "wdth" 100,
+      "wght" 400;
+    font-style: italic;
+    transition: var(--subtle-transition);
+
+    &.game-played-status-completed { background-color: var(--game-status-completed); }
+    &.game-played-status-playing { background-color: var(--game-status-playing); }
+    &.game-played-status-paused { background-color: var(--game-status-paused); }
+    &.game-played-status-dropped { background-color: var(--game-status-dropped); }
+    &.game-played-status-wishlisted { background-color: var(--game-status-wishlisted);}
+  }
+
+  & [data-icon] {
+    transition: var(--subtle-transition);
+    color: var(--text-color);
+    fill: var(--text-color);
+  }
+
+  & .label {
+    color: var(--color-gray-20);
+  }
+}
+</style>
