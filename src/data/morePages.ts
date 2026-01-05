@@ -12,6 +12,7 @@ export const MORE_PAGES: MorePagesEntry[] = [
   { title: "Stuff I Use", url: "/stuff-i-use/" },
   { title: "Tags", url: "/tags/" },
   { title: "Archive", url: "/archive/" },
+  { title: "Changelog", url: "/changelog/" },
 
   // Optional: groups
   // {
