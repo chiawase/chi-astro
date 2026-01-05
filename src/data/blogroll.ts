@@ -130,6 +130,18 @@ export const BLOGROLL_LIST: Blogroll[] = [
     author: "João Beleza Freire",
     note: "I found his website after following a link from anh's inspiration for her own media library, and also found the rest of his website neat!",
   },
+  {
+    url: "https://chsmc.org/",
+    domain: "chsmc.org",
+    author: "Chase McCoy",
+    note: "I initially stumbled upon his website after getting linked by anh (again! XD) while I was thinking of other things I could modify on my website. After seeing his website though I’m amazed with how well-put-together everything is, where it’s his posts feed on the left and the rest of his info are condensed on a sidebar on the right. Very clean!",
+  },
+  {
+    url: "https://maggieappleton.com",
+    domain: "maggieappleton.com",
+    author: "Maggie Appleton",
+    note: "Man... I love her website!!!! Wow!!! I can’t. There’s so many things... so many things here that I could just lose myself in the numerous pages and articles. I also love that she really brought the concept of having a “digital garden” to life in this setup on her own side of the web.",
+  },
   // {
   //   url: "",
   //   domain: "",
