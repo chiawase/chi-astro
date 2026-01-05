@@ -17,6 +17,7 @@ type Props = {
 
 const { game } = Astro.props;
 const { Content } = await render(game);
+---
 
 <GamePost game={game}>
   <Content />
