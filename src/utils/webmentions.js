@@ -2,7 +2,7 @@ import fs from "fs";
 import unionBy from "lodash/unionBy.js";
 import dotenv from "dotenv";
 import { SITE_DOMAIN } from "@consts";
-import { OWN_SOCIAL_ACCOUNTS } from "@data/ownSocialAccounts";
+import { OWN_SOCIAL_ACCOUNT_PATTERNS } from "@data/ownSocialAccounts";
 
 // Load .env variables with dotenv
 dotenv.config();
@@ -94,6 +94,7 @@ function matchesOwnSocialAccounts(post, ownAccountPatterns = []) {
   const source = normalize(post?.["wm-source"]);
 
   if (authorUrl) {
+    console.log(ownAccountPatterns);
     return ownAccountPatterns.some((pattern) =>
       authorUrl.includes(normalize(pattern)),
     );
@@ -148,9 +149,7 @@ function mergeWebmentions(cache, fresh) {
     normalizeWebmention,
   );
 
-  const filtered = filterSelfWebmentions(merged, OWN_SOCIAL_ACCOUNTS);
-
-  return filtered;
+  return filterSelfWebmentions(merged, OWN_SOCIAL_ACCOUNT_PATTERNS);
 }
 
 // save combined Webmentions in cache file
@@ -183,11 +182,16 @@ function readFromCache() {
     if (fs.existsSync(CACHE_FILE_PATH)) {
       const cacheFile = fs.readFileSync(CACHE_FILE_PATH, "utf8");
       const parsed = JSON.parse(cacheFile);
+
       parsed.children = Array.isArray(parsed.children)
         ? parsed.children.map(normalizeWebmention)
         : [];
 
-      parsed.children = filterSelfWebmentions(parsed.children);
+      // IMPORTANT: apply BOTH filters on cached data, too
+      parsed.children = filterSelfWebmentions(
+        parsed.children,
+        OWN_SOCIAL_ACCOUNT_PATTERNS,
+      );
 
       return parsed;
     }
