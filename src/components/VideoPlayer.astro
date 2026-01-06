@@ -2,14 +2,14 @@
 import { MuxPlayer } from "@mux/mux-player-astro";
 
 interface Props {
-  id: string;
+  playbackId: string;
   metadata?: {};
 }
 
-const { id, metadata } = Astro.props;
+const { playbackId, metadata } = Astro.props;
 ---
 
 <MuxPlayer
-  playbackId={id}
+  playbackId={playbackId}
   metadata={metadata?? {}}
 />

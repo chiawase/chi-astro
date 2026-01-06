@@ -12,16 +12,12 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-
 # environment variables
 .env
 .env.production
 
 # macOS-specific files
 .DS_Store
-
-# jetbrains setting folder
-.idea/
 
 # Obsidian
 # to exclude Obsidian's settings (including plugin and hotkey configurations)
@@ -30,3 +26,6 @@ pnpm-debug.log*
 
 # Fetched webmentions
 _cache/
+
+# Local media files
+src/content/img/uploads/**

@@ -1,5 +1,6 @@
 import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
+import { cldAssetsLoader } from "astro-cloudinary/loaders";
 
 const blog = defineCollection({
   // Load Markdown and MDX files in the `src/content/blog/` directory.
@@ -47,4 +48,8 @@ const games = defineCollection({
     }),
 });
 
-export const collections = { blog, archive, games };
+const assets = defineCollection({
+  loader: cldAssetsLoader(),
+});
+
+export const collections = { blog, archive, games, assets };
