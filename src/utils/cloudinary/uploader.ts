@@ -1,6 +1,7 @@
 import "dotenv/config";
 import { v2 as cloudinary } from "cloudinary";
 import fs from "node:fs/promises";
+import fsSync from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 
@@ -96,7 +97,23 @@ export async function uploadIfNeeded(absPath: string) {
   const relFromUploadRoot = path.relative(UPLOAD_ROOT, absPath);
   const localRelPath = toPosix(path.join("uploads", relFromUploadRoot));
 
-  console.log(`[cloudinary] uploading ${localRelPath}`);
+  // 10MB Cloudinary limit on many free plans
+  const MAX_BYTES = 10 * 1024 * 1024;
+
+  let size = 0;
+  try {
+    size = fsSync.statSync(absPath).size;
+  } catch (e) {
+    console.error("[cloudinary] stat failed:", { localRelPath, absPath }, e);
+    return null;
+  }
+
+  if (size > MAX_BYTES) {
+    console.warn(
+      `[cloudinary] skipped (too large): ${localRelPath} (${(size / 1024 / 1024).toFixed(2)}MB)`,
+    );
+    return null;
+  }
 
   const sha1 = await sha1File(absPath);
   const existing = manifest[localRelPath];
@@ -104,30 +121,33 @@ export async function uploadIfNeeded(absPath: string) {
   // Skip if unchanged
   if (existing?.sha1 === sha1) return existing;
 
+  console.log(`[cloudinary] uploading ${localRelPath}`);
+
   const publicId = publicIdFor(localRelPath);
 
-  const result = await cloudinary.uploader.upload(absPath, {
-    public_id: publicId,
-    resource_type: "image", // cloudinary only processes images
-    overwrite: true, // if you replace the file locally, keep the same URL
-    unique_filename: false, // keep predictable IDs
-    invalidate: true,
-  });
+  try {
+    const result = await cloudinary.uploader.upload(absPath, {
+      public_id: publicId,
+      resource_type: "image",
+      overwrite: true,
+      unique_filename: false,
+      invalidate: true,
+    });
 
-  const entry: ManifestEntry = {
-    localRelPath,
-    publicId: result.public_id,
-    resourceType: "image",
-    secureUrl: result.secure_url,
-    bytes: result.bytes,
-    etag: result.etag,
-    uploadedAt: new Date().toISOString(),
-    sha1,
-  };
-
-  manifest[localRelPath] = entry;
-  await writeManifest(manifest);
-  return entry;
+    // ... build entry, write manifest ...
+  } catch (e) {
+    console.error(
+      "[cloudinary] upload failed:",
+      {
+        localRelPath,
+        absPath,
+        bytes: size,
+        publicId,
+      },
+      e,
+    );
+    throw e; // rethrow so build can fail if you want it to
+  }
 }
 
 export async function getManifestUrl(localRelPath: string) {

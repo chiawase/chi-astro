@@ -62,7 +62,18 @@ export default function cloudinaryWatch(): AstroIntegration {
           for (const it of items) {
             const abs = path.join(dir, it.name);
             if (it.isDirectory()) await walk(abs);
-            else await uploadIfNeeded(abs);
+            else {
+              try {
+                await uploadIfNeeded(abs);
+              } catch (e) {
+                console.error("[cloudinary-build] upload failed:", abs, e);
+                // Option A: keep failing the build:
+                throw e;
+
+                // Option B: keep going (comment out throw):
+                // continue;
+              }
+            }
           }
         };
         await walk(UPLOAD_ROOT);
