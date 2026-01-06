@@ -40,9 +40,9 @@ export default defineConfig({
     mdx({
       remarkPlugins: [
         remarkRemoveComments,
+        remarkCloudinaryLocalUploads,
         [remarkToc, { heading: "contents", maxDepth: 3 }],
         [wikiLinkPlugin, { format: "regular" }],
-        remarkCloudinaryLocalUploads,
       ],
       rehypePlugins: [
         rehypeHeadingIds,
@@ -65,10 +65,10 @@ export default defineConfig({
     },
     remarkPlugins: [
       remarkRemoveComments,
+      remarkCloudinaryLocalUploads,
       remarkCodeTitle,
       [wikiLinkPlugin, { format: "regular" }],
       [remarkToc, { heading: "contents", maxDepth: 3 }],
-      remarkCloudinaryLocalUploads,
     ],
     rehypePlugins: [
       rehypeHeadingIds,

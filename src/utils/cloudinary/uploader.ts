@@ -6,7 +6,7 @@ import crypto from "node:crypto";
 type ManifestEntry = {
   localRelPath: string; // uploads/2026/foo.jpg
   publicId: string; // chisenires.design/uploads/2026/foo
-  resourceType: "image" | "video" | "raw" | "auto";
+  resourceType: "image";
   secureUrl: string; // Cloudinary hosted URL
   bytes?: number;
   etag?: string;
@@ -84,8 +84,8 @@ export async function uploadIfNeeded(absPath: string) {
   if (!isImageFile(absPath)) return null;
 
   cloudinary.config({
-    cloud_name: requireEnv("PUBLIC_CLOUDINARY_CLOUD_NAME"),
-    api_key: requireEnv("PUBLIC_CLOUDINARY_API_KEY"),
+    cloud_name: requireEnv("CLOUDINARY_CLOUD_NAME"),
+    api_key: requireEnv("CLOUDINARY_API_KEY"),
     api_secret: requireEnv("CLOUDINARY_API_SECRET"),
   });
 
@@ -103,8 +103,6 @@ export async function uploadIfNeeded(absPath: string) {
 
   const publicId = publicIdFor(localRelPath);
 
-  // Let Cloudinary detect resource type automatically (image/video/raw)
-  // This is standard in their Node SDK approach. :contentReference[oaicite:3]{index=3}
   const result = await cloudinary.uploader.upload(absPath, {
     public_id: publicId,
     resource_type: "image", // cloudinary only processes images
@@ -116,7 +114,7 @@ export async function uploadIfNeeded(absPath: string) {
   const entry: ManifestEntry = {
     localRelPath,
     publicId: result.public_id,
-    resourceType: (result.resource_type ?? "auto") as any,
+    resourceType: "image",
     secureUrl: result.secure_url,
     bytes: result.bytes,
     etag: result.etag,
