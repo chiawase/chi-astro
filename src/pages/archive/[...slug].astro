@@ -1,7 +1,7 @@
 ---
 import { type CollectionEntry, getCollection, render } from "astro:content";
 import ArchivePost from "@layouts/ArchivePost.astro";
-import { getReadingTime } from "@utils/reading-time.ts";
+import { getReadingTime } from "@utils/readingTime";
 
 export async function getStaticPaths() {
   const posts = await getCollection("archive");

@@ -3,7 +3,7 @@ import type { CollectionEntry } from "astro:content";
 import ArchivePostListMetadata from "@components/ArchivePostListMetadata.astro";
 import { prepareOgText } from "@utils/prepareOgText";
 
-import { getReadingTime } from "@utils/reading-time";
+import { getReadingTime } from "@utils/readingTime";
 
 interface Props {
   post: CollectionEntry<"archive">;
