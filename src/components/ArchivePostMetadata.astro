@@ -7,8 +7,6 @@ interface Props {
   postTags: string[] | undefined;
   postSlug: string;
   postDate: Date;
-  postUpdatedDate: Date;
-  postLanguage?: string;
   postReadingTime?: string;
 }
 
@@ -17,8 +15,6 @@ const {
   postTags,
   postSlug,
   postDate,
-  postUpdatedDate,
-  postLanguage,
   postReadingTime
 } = Astro.props;
 
