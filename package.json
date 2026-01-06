@@ -39,7 +39,6 @@
     "astro-icon": "^1.1.5",
     "chokidar": "^5.0.0",
     "cloudinary": "^2.8.0",
-    "dotenv": "^17.2.3",
     "lodash": "^4.17.21",
     "luxon": "^3.7.2",
     "mdast-util-from-markdown": "^2.0.2",
@@ -66,6 +65,7 @@
     "@types/lodash": "^4.17.21",
     "@types/luxon": "^3.7.1",
     "astro-robots-txt": "^1.0.0",
+    "dotenv": "^17.2.3",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }

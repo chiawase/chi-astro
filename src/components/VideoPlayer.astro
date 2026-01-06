@@ -1,15 +1,20 @@
 ---
 import { MuxPlayer } from "@mux/mux-player-astro";
+import { getMuxPlaybackId } from "@utils/muxUploader"; // adjust relative path
 
-interface Props {
-  playbackId: string;
-  metadata?: {};
+const { id, src, metadata } = Astro.props;
+
+let playbackId = id;
+
+if (!playbackId && src) {
+  playbackId = await getMuxPlaybackId(src);
+  if (!playbackId) {
+    throw new Error(`No Mux playbackId found for src="${src}". Run "npm run mux:upload".`);
+  }
 }
-
-const { playbackId, metadata } = Astro.props;
 ---
 
 <MuxPlayer
   playbackId={playbackId}
-  metadata={metadata?? {}}
+  metadata={metadata}
 />

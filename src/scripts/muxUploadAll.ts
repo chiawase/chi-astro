@@ -1,6 +1,7 @@
+import "dotenv/config";
 import fs from "node:fs/promises";
 import path from "node:path";
-import { muxUploadIfNeeded } from "@utils/muxUploader";
+import { muxUploadIfNeeded } from "../utils/muxUploader";
 
 const ROOT = path.resolve("src/content/uploads");
 
@@ -18,12 +19,15 @@ async function walk(dir: string): Promise<string[]> {
 
 async function main() {
   const files = await walk(ROOT);
+
   for (const abs of files) {
     const res = await muxUploadIfNeeded(abs);
-    if (res) {
-      console.log(`[mux] uploaded: ${abs}`);
-      console.log(`      playbackId: ${res.playbackId}`);
-    }
+    if (!res) continue;
+
+    const label = res.cached ? "cached" : "uploaded";
+    console.log(`[mux] ${label}: ${res.localRelPath}`);
+    console.log(`      playbackId: ${res.playbackId}`);
+    console.log(`      paste: <VideoPlayer id="${res.playbackId}" />\n`);
   }
 }
 
