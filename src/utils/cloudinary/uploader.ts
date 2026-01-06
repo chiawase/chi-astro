@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { v2 as cloudinary } from "cloudinary";
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -20,7 +21,7 @@ type ManifestEntry = {
 
 type Manifest = Record<string, ManifestEntry>; // key = localRelPath
 
-const UPLOAD_ROOT = path.resolve("src/content/uploads");
+const UPLOAD_ROOT = path.resolve("src/content/img/uploads");
 const CACHE_DIR = path.resolve("_cache");
 const MANIFEST_PATH = path.join(CACHE_DIR, "cloudinary-manifest.json");
 
@@ -84,8 +85,8 @@ export async function uploadIfNeeded(absPath: string) {
   if (!isImageFile(absPath)) return null;
 
   cloudinary.config({
-    cloud_name: requireEnv("CLOUDINARY_CLOUD_NAME"),
-    api_key: requireEnv("CLOUDINARY_API_KEY"),
+    cloud_name: requireEnv("PUBLIC_CLOUDINARY_CLOUD_NAME"),
+    api_key: requireEnv("PUBLIC_CLOUDINARY_API_KEY"),
     api_secret: requireEnv("CLOUDINARY_API_SECRET"),
   });
 
@@ -94,6 +95,8 @@ export async function uploadIfNeeded(absPath: string) {
   // derive localRelPath as: uploads/....
   const relFromUploadRoot = path.relative(UPLOAD_ROOT, absPath);
   const localRelPath = toPosix(path.join("uploads", relFromUploadRoot));
+
+  console.log(`[cloudinary] uploading ${localRelPath}`);
 
   const sha1 = await sha1File(absPath);
   const existing = manifest[localRelPath];

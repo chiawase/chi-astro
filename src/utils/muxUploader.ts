@@ -97,10 +97,7 @@ export async function muxUploadIfNeeded(absPath: string) {
   if (!isVideoFile(absPath)) return null;
 
   // Convert absolute path → "uploads/...."
-  const relFromUploadsRoot = path.relative(
-    path.resolve("src/content"),
-    absPath,
-  );
+  const relFromUploadsRoot = path.relative(path.resolve("src/img"), absPath);
   const localRelPath = toPosix(relFromUploadsRoot); // e.g. "uploads/2026/foo.mp4"
 
   const sha1 = await sha1File(absPath);

@@ -1,3 +1,4 @@
+import "dotenv/config";
 import type { AstroIntegration } from "astro";
 import chokidar from "chokidar";
 import path from "node:path";
