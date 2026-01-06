@@ -9,19 +9,27 @@
 
 This website was built on top of the [Astro Starter Kit: Blog template](https://github.com/withastro/astro/tree/latest/examples/blog?on=github) and then modified to make it look as closely as how my previous website looked like.
 
-Migrated from 11ty. Access the website at: [chisenires.design](https://chisenires.design)
+Migrated from 11ty. Talked more about it here: [Migrated from 11ty to Astro!](https://chisenires.design/blog/11ty-to-astro/)
+
+Access the website at: [chisenires.design](https://chisenires.design)
 
 ## 🚀 Project Structure
 
 ```text
 ├── public/
 ├── src/
+│   ├── _templates/        for Obsidian related templates only
+│   ├── assets/
 │   ├── components/
 │   ├── content/
+│   ├────── archive/       Archived posts by Chi from different platforms
+│   ├────── blog/          Chi's blog posts
+│   ├────── games/         Listing all of Chi's played games
 │   ├── layouts/
-│   └── pages/
-│   └── styles/
-│   └── utils/
+│   ├── pages/
+│   ├── scripts/           Scripts used in package.json
+│   ├── styles/
+│   └── utils/             Housing all the JS/TS stuff to help get things done
 ├── astro.config.mjs
 ├── README.md
 ├── package.json
@@ -30,16 +38,7 @@ Migrated from 11ty. Access the website at: [chisenires.design](https://chisenire
 
 ## Chi's TODOs
 
-- [x] fix webmention reply formatting
-- [x] attempt to fix wikilinks and backlinks ~~using the `@braindb/astro` thing~~
-  - note: did not use `@braindb/astro` since the implementation for it on my end seemed broken, made use of [@flowershow/remark-wiki-link](https://github.com/flowershow/remark-wiki-link) instead since it’s the one that worked for me
-- [x] implement preview images and see if cloudinary still works for this setup
-  - [x] double check if this also escapes emojis if there are any in title and/or description
-- [x] fix heading anchors (they exist but are not rendered with styles)
-- [x] youtube embeds?
-- [x] better Image handling? --- using [rehype-figure-title](https://github.com/futuraprime/rehype-figure-title) for this!
-  - [ ] try to do the "click to view zoomed in" thing
-- [x] ~~also investigate the timestamps rendered... might not be showing the local time as I wanted it to go 🤔~~ nevermind
-- [x] make More page work properly
-- [x] update Colophon page
-- [x] fix how some images render in the wrong place?
+> The rest of the TODOs are listed in my [Issues](https://github.com/chiawase/chi-astro/issues) tab, but the ones I have listed here are just for my additional reference.
+
+- [ ] add some image gallery handling / viewing images closer (since some screenshots are small)
+- [ ] also add WordPress archived posts here
