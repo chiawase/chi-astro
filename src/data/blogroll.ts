@@ -154,6 +154,12 @@ export const BLOGROLL_LIST: Blogroll[] = [
     author: "Sam Rose Cruz",
     note: "One of my good close friends IRL who I talk to about coding and a bajillion other things with hehe she also writes and has a lot of cool stuff to showcase!",
   },
+  {
+    url: "https://www.interroban.gg/",
+    domain: "www.interroban.gg",
+    author: "Luke Mitchell",
+    note: "I'm not sure when I visited his website yesterday, might've been mixed with all the other links I opened before I had to stop myself from viewing other people's sites and had to work on my own. But after checking it, I like his footer showing his last deply + the commit related to the last update on his website 😄 I think that's neat!",
+  },
   // {
   //   url: "",
   //   domain: "",
