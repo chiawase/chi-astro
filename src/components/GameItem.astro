@@ -6,6 +6,8 @@ import { DateTime } from "luxon";
 
 import GameMetadata from "@components/GameMetadata.astro";
 
+import { resolveCloudinaryUrl } from "@utils/cloudinary/resolveCloudinaryUrl";
+
 interface Props {
   game: CollectionEntry<"games">;
 }
@@ -14,6 +16,10 @@ const { game } = Astro.props;
 
 const startedPlaying = DateTime.fromJSDate(game.data.startedPlayingDate, { zone: "UTC+8" }).toFormat("dd MMM yyyy");
 const lastPlayed = DateTime.fromJSDate(game.data.lastPlayedDate, { zone: "UTC+8" }).toFormat("dd MMM yyyy");
+
+const gameImageUrl = game.data.gameImage
+  ? resolveCloudinaryUrl(game.data.gameImage)
+  : null;
 ---
 
 <li class="postlist-item game-list-item">
@@ -29,11 +35,11 @@ const lastPlayed = DateTime.fromJSDate(game.data.lastPlayedDate, { zone: "UTC+8"
       gameUrl={game.data.url}
     />
   </div>
-  {game.data.gameImage &&
-    (<Image src={game.data.gameImage}
-      inferSize={true}
+  {gameImageUrl &&
+    (<img src={gameImageUrl}
       class="game-cover-image"
       alt=`Cover photo for ${game.data.title}`
+      loading="lazy"
       />
     ) /* eventually add some fallback image here */}
 </li>

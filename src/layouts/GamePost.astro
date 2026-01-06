@@ -7,6 +7,8 @@ import { DateTime } from "luxon";
 import Page from "@layouts/Page.astro";
 import GameMetadata from "@components/GameMetadata.astro";
 
+import { resolveCloudinaryUrl } from "@utils/cloudinary/resolveCloudinaryUrl";
+
 type Props = {
   game: CollectionEntry<"games">;
 };
@@ -17,7 +19,10 @@ const startedPlaying = DateTime.fromJSDate(game.data.startedPlayingDate, { zone:
 const lastPlayed = DateTime.fromJSDate(game.data.lastPlayedDate, { zone: "UTC+8" }).toFormat("dd MMM yyyy");
 
 const hasNotes = game.rendered?.html !== "";
-console.log(hasNotes)
+
+const gameImageUrl = game.data.gameImage
+  ? resolveCloudinaryUrl(game.data.gameImage)
+  : null;
 ---
 
 <Page
@@ -25,11 +30,11 @@ console.log(hasNotes)
   description=`Chi’s notes on ${game.data.title}. Last played ${game.data.lastPlayedDate}`
   showTitle={false}
 >
-  <Image
+  <img
+    src={gameImageUrl}
     class="game-cover-image"
-    src={game.data.gameImage}
-    inferSize={true}
     alt=`Cover photo for ${game.data.title}`
+    loading="lazy"
   />
   <h1>{game.data.title}</h1>
 
