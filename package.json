@@ -7,6 +7,7 @@
     "prebuild": "rm -rf _cache",
     "build": "FETCH_WEBMENTIONS=true astro build",
     "postbuild": "npm run webmentions:send",
+    "build:local": "astro build",
     "webmentions:fetch": "webmention https://chisenires.design/feed.xml",
     "webmentions:send": "webmention https://chisenires.design/feed.xml --limit 1 --send",
     "preview": "astro preview",
