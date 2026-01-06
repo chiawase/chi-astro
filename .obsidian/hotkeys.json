@@ -122,5 +122,21 @@
       "key": "N"
     }
   ],
-  "templater-obsidian:create-new-note-from-template": []
+  "templater-obsidian:create-new-note-from-template": [],
+  "templater-obsidian:create-src/_templates/Post.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:create-src/_templates/Game.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ]
 }
