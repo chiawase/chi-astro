@@ -4,12 +4,12 @@
   "scripts": {
     "dev": "astro dev",
     "dev:host": "astro dev --host",
-    "prebuild": "rm -f _cache/webmentions.json",
     "build": "FETCH_WEBMENTIONS=true astro build",
     "build:local": "astro build",
-    "postbuild": "npm run webmentions:send",
+    "postbuild": "if [ \"$SEND_WEBMENTIONS\" = \"true\" ]; then npm run webmentions:send; else echo \"Skipping webmentions:send\"; fi",
     "preview": "astro preview",
     "astro": "astro",
+    "webmentions:clean": "rm -f _cache/webmentions.json",
     "webmentions:fetch": "webmention https://chisenires.design/feed.xml",
     "webmentions:send": "webmention https://chisenires.design/feed.xml --limit 1 --send",
     "mux:upload": "tsx src/scripts/muxUploadAll.ts"

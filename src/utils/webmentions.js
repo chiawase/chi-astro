@@ -7,6 +7,9 @@ import { OWN_SOCIAL_ACCOUNT_PATTERNS } from "@data/ownSocialAccounts";
 // Load .env variables with dotenv
 dotenv.config();
 
+// memoize stuff
+let memoizedPromise;
+
 // Config parameters
 const CACHE_FILE_PATH = "_cache/webmentions.json";
 const API = "https://webmention.io/api/";
@@ -206,30 +209,36 @@ function readFromCache() {
 }
 
 export default async function () {
-  console.log(">>> Reading webmentions from cache...");
-  const cache = readFromCache();
+  if (memoizedPromise) return memoizedPromise;
 
-  if (cache.children.length) {
-    console.log(`>>> ${cache.children.length} webmentions loaded from cache`);
-  }
+  memoizedPromise = (async () => {
+    console.log(">>> Reading webmentions from cache...");
+    const cache = readFromCache();
 
-  const SHOULD_FETCH =
-    process.env.NODE_ENV === "production" ||
-    process.env.FETCH_WEBMENTIONS === "true";
+    if (cache.children.length) {
+      console.log(`>>> ${cache.children.length} webmentions loaded from cache`);
+    }
 
-  if (!SHOULD_FETCH) return cache;
+    const SHOULD_FETCH =
+      process.env.NODE_ENV === "production" ||
+      process.env.FETCH_WEBMENTIONS === "true";
 
-  console.log(">>> Checking for new webmentions...");
-  const since = cache.children.length ? cache.lastFetched : null;
-  const feed = await fetchWebmentions(since);
+    if (!SHOULD_FETCH) return cache;
 
-  if (!feed) return cache;
+    console.log(">>> Checking for new webmentions...");
+    const since = cache.children.length ? cache.lastFetched : null;
+    const feed = await fetchWebmentions(since);
 
-  const webmentions = {
-    lastFetched: new Date().toISOString(),
-    children: mergeWebmentions(cache, feed),
-  };
+    if (!feed) return cache;
 
-  writeToCache(webmentions);
-  return webmentions;
+    const webmentions = {
+      lastFetched: new Date().toISOString(),
+      children: mergeWebmentions(cache, feed),
+    };
+
+    writeToCache(webmentions);
+    return webmentions;
+  })();
+
+  return memoizedPromise;
 }
