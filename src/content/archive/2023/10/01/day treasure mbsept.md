@@ -30,4 +30,4 @@ This means a bit more to me as a chronic nailbiter. I'm a bit better at it now, 
 
 (also an excuse to show off my new manicure 😝💅)
 
-![Chi’s right hand resting on a pseudo wooden surface. Her nails are neatly trimmed and have a shimmery red gel polish on it.](../../../../img/uploads/2023/b3ea0508f41a474eaf4360df895f9ceb.jpg)
+![Chi’s right hand resting on a pseudo wooden surface. Her nails are neatly trimmed and have a shimmery red gel polish on it.](/uploads/2023/b3ea0508f41a474eaf4360df895f9ceb.jpg)

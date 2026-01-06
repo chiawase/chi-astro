@@ -24,4 +24,4 @@ threads:
 
 Just recently picked up [Geoguessr](https://geoguessr.com) and... after 3 duels I am qualified for the Silver III Division 😆
 
-![Screenshot of Geoguessr with text 'Silver III Division!' and the button 'Join Division' seen on the website. Some virtual confetti is also scattered on the page.](../../../../img/uploads/2024/7ee5c7f3fa.png)
+![Screenshot of Geoguessr with text 'Silver III Division!' and the button 'Join Division' seen on the website. Some virtual confetti is also scattered on the page.](/uploads/2024/7ee5c7f3fa.png)

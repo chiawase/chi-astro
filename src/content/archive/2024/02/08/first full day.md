@@ -33,6 +33,6 @@ there was a lot of walking, and just mostly getting used to the weather 😆
 
 Here is the before and after I realized I needed a thicker coat to not feel super cold in today's windy and cloudy day 😆🙈🥶
 
-![Photo of Chi next to Salzach River. It is a sunny day, with some clouds seen but not blocking the sunlight. Chi is wearing shades, and a red puffer jacket hiding her outfit of a blue crop top that has the pattern of an old blanket from her childhood, a black turtleneck, and a black long skirt. She has her backpack behind her back. A row of leaf-less trees are seen behind her.](../../../../img/uploads/2024/7f81ec2af2.jpg)
+![Photo of Chi next to Salzach River. It is a sunny day, with some clouds seen but not blocking the sunlight. Chi is wearing shades, and a red puffer jacket hiding her outfit of a blue crop top that has the pattern of an old blanket from her childhood, a black turtleneck, and a black long skirt. She has her backpack behind her back. A row of leaf-less trees are seen behind her.](/uploads/2024/7f81ec2af2.jpg)
 
-![Candid photo of Chi next to the Salzach River wearing her boyfriend's big winter jacket, with the hood going on top of her head and seemingly eating her because of how big the jacket is. The sky is a dark blue, with more clouds in sight, and the sun has set already.](../../../../img/uploads/2024/13e13f8b19.jpg)
+![Candid photo of Chi next to the Salzach River wearing her boyfriend's big winter jacket, with the hood going on top of her head and seemingly eating her because of how big the jacket is. The sky is a dark blue, with more clouds in sight, and the sun has set already.](/uploads/2024/13e13f8b19.jpg)

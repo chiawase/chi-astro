@@ -40,7 +40,7 @@ I said goodbye to another teammate who was also leaving around the same time as 
 
 But, as I tried to pedal, the shifting seemed to get stuck. I was thinking maybe it just wasn't set to the right gear, so I adjusted that on my bike and then kept trying. I think because of that... the chain tensioner* (?) of my folding bike's rear derailleur broke.
 
-![Chi's folded bike, focusing on the place where the rear derailleur and gears are. The chain tensioner is broken, and the bike's chain is not in its tensed state anymore.](../../../../img/uploads/2023/media.jpg)
+![Chi's folded bike, focusing on the place where the rear derailleur and gears are. The chain tensioner is broken, and the bike's chain is not in its tensed state anymore.](/uploads/2023/media.jpg)
 
 *side note: I just got this term from a friend online when I shared what happened. I just knew something broke on my rear derailleur. I didn't know what part. But that seems to be the name. 😅
 
@@ -56,8 +56,8 @@ I made my way to the side of the road, and one of the guards from the condominiu
 
 The guard then helped me hail a tricycle so I could go home. Thankfully the driver also seemed friendly;  I shared with him what happened as we made our way back to where I lived, which was around 1-2km away.
 
-![Chi's folding bike in the middle of a tricycle's cabin, folded neatly to fit within the seat. Chi's bag, which usually is attached to the front of the bike, is found on the right side of the bike, near the tricycle's entrance, to help keep it in place as the trip goes on.](../../../../img/uploads/2023/d80ce57bdc.jpg)
-![A selfie of Chi wearing a mask and at the back of a tricycle, while holding onto her folded folding bike which was neatly tucked in the inner seat of the tricycle. It's a bit blurry because it's dark and the only source of light for the photo is the occasional streetlight.](../../../../img/uploads/2023/04ec152629.jpg)
+![Chi's folding bike in the middle of a tricycle's cabin, folded neatly to fit within the seat. Chi's bag, which usually is attached to the front of the bike, is found on the right side of the bike, near the tricycle's entrance, to help keep it in place as the trip goes on.](/uploads/2023/d80ce57bdc.jpg)
+![A selfie of Chi wearing a mask and at the back of a tricycle, while holding onto her folded folding bike which was neatly tucked in the inner seat of the tricycle. It's a bit blurry because it's dark and the only source of light for the photo is the occasional streetlight.](/uploads/2023/04ec152629.jpg)
 
 I eventually got home around an hour after I left the office. I recognize how lucky I was to hitch a ride back. Technically though, had I ridden my foldie home, I would have rested earlier. 😅
 

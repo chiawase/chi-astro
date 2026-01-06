@@ -25,4 +25,4 @@ photos_with_metadata:
 
 Took photos while walking along the riverside during my visit to Austria last February. I wanna go back soon. Things were peaceful then.
 
-![Chi looking toward the distance in front of the Salzach. The sun is shining from the upper right corner of the photo, and in the distance the University of Salzburg is in full view.](../../../../img/uploads/2024/c3b4c2ffa9.jpg)
+![Chi looking toward the distance in front of the Salzach. The sun is shining from the upper right corner of the photo, and in the distance the University of Salzburg is in full view.](/uploads/2024/c3b4c2ffa9.jpg)

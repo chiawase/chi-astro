@@ -24,4 +24,4 @@ threads:
 
 Weee you can ride a bicycle in-game in [Infinity Nikki](https://infinitynikki.infoldgames.com) 😁🚲
 
-![Screenshot of the game Infinity Nikki, with the girl character riding a city bicycle around the hills in the game, with a cat humanoid character standing in the front basket.](../../../../img/uploads/2024/infinity-nikki15-dec-24-20-27-22.png)
+![Screenshot of the game Infinity Nikki, with the girl character riding a city bicycle around the hills in the game, with a cat humanoid character standing in the front basket.](/uploads/2024/infinity-nikki15-dec-24-20-27-22.png)

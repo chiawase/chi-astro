@@ -25,4 +25,4 @@ photos_with_metadata:
 
 This horse/donkey statue is a mood after the events of this week. 😆
 
-![A gray horse or donkey statue lying down on the grass, with its legs up in the air, and seemingly basking in the sun.](../../../../img/uploads/2024/5a19047980.jpg)
+![A gray horse or donkey statue lying down on the grass, with its legs up in the air, and seemingly basking in the sun.](/uploads/2024/5a19047980.jpg)

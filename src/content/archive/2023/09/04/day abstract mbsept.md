@@ -26,4 +26,4 @@ url: /2023/09/04/day-abstract-mbsept.html
 
 Joining in the September photoblogging challenge 😁
 
-![View outside of Chi’s window. The rain is pouring, with a foggy outlook the farther you look out. The window pane is aligned to the middle of the picture as a way to frame the outside—seen to the left side portion of the photo—with the right side of the photo, which is the glass of the window pane. There are rain droplets seen on the glass.](../../../../img/uploads/2023/aa4126ae74894323b81c4f382d1141de.jpg)
+![View outside of Chi’s window. The rain is pouring, with a foggy outlook the farther you look out. The window pane is aligned to the middle of the picture as a way to frame the outside—seen to the left side portion of the photo—with the right side of the photo, which is the glass of the window pane. There are rain droplets seen on the glass.](/uploads/2023/aa4126ae74894323b81c4f382d1141de.jpg)

@@ -24,4 +24,4 @@ url: /2023/07/19/my-boyfriend-is.html
 
 My boyfriend is headed back to Europe tonight. 🤧 It was a fun week with him 😊
 
-![Richard and Chi](../../../../img/uploads/2023/c421c8767c.jpg)
+![Richard and Chi](/uploads/2023/c421c8767c.jpg)

@@ -20,4 +20,4 @@ Thankfully pwede ako makisabay sa officemate's Grab that was going the same dire
 
 Poncho mode pa rin since I still brought my bike bag 😁
 
-![mirror photo of Chi in their condominium's elevator. She is seen wearing her bike poncho over her work clothes. Her bike bag is in sling mode and set to her left, and in her left hand she is also seen holding a wet folded umbrella.](../../../../img/uploads/2023/3f4aecc753.jpg)
+![mirror photo of Chi in their condominium's elevator. She is seen wearing her bike poncho over her work clothes. Her bike bag is in sling mode and set to her left, and in her left hand she is also seen holding a wet folded umbrella.](/uploads/2023/3f4aecc753.jpg)

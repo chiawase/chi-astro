@@ -25,4 +25,4 @@ photos_with_metadata:
 
 Was chilling outside the hotel on my first full day in Salzburg back in February. I asked my boyfriend to take this photo of me because I found it amusing that I'm so cold I need my jacket... but here I am, going out in slippers 😆 I needed to balance the temp 😛
 
-![Chi is seated on a sofa outside of her hotel and is looking towards the left of the photo, which is where the road is but it's not seen. She's wearing a red puffer jacket and black leggings to keep warm, but also is seen wearing slippers.](../../../../img/uploads/2024/dc43b0dc1c.jpg)
+![Chi is seated on a sofa outside of her hotel and is looking towards the left of the photo, which is where the road is but it's not seen. She's wearing a red puffer jacket and black leggings to keep warm, but also is seen wearing slippers.](/uploads/2024/dc43b0dc1c.jpg)

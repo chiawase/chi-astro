@@ -25,4 +25,4 @@ url: /2023/07/05/i-need-more.html
 
 I need more comfy cardigans. 😅
 
-![Mirror selfie of Chi wearing a green knitted top, beige culottes, and a gray cardigan with backpack straps visible.](../../../../img/uploads/2023/5e88f19d43.jpg)
+![Mirror selfie of Chi wearing a green knitted top, beige culottes, and a gray cardigan with backpack straps visible.](/uploads/2023/5e88f19d43.jpg)

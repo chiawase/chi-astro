@@ -24,4 +24,4 @@ url: /2023/07/09/view-this-morning.html
 
 view this morning, bisita moment
 
-![photo of a house's backyard wall  overlooking some greenery](../../../../img/uploads/2023/2e9dbc80ae.jpg)
+![photo of a house's backyard wall  overlooking some greenery](/uploads/2023/2e9dbc80ae.jpg)

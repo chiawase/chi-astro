@@ -26,4 +26,4 @@ url: /2023/09/28/day-workout-mbsept.html
 
 this was a rowing machine at the Manila Boat Club that I got to try! They recommend you practice here first before trying to row in a canoe along Pasig River 😁 I got some assumptions on rowing debunked as I used this 😆
 
-![Chi seated on a rowing boat machine, with both her legs currently straightened and her hands on the rowing handlebars. A guide is seen to her left looking somewhere off-screen. They all are on the second floor of a wooden building, with wooden floorboards visible.](../../../../img/uploads/2023/7ca2cd9fa0cb4294a8d10a277d6d6c0e.jpg)
+![Chi seated on a rowing boat machine, with both her legs currently straightened and her hands on the rowing handlebars. A guide is seen to her left looking somewhere off-screen. They all are on the second floor of a wooden building, with wooden floorboards visible.](/uploads/2023/7ca2cd9fa0cb4294a8d10a277d6d6c0e.jpg)

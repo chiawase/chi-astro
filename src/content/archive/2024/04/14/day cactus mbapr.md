@@ -25,4 +25,4 @@ photos_with_metadata:
 
 This is the only photo I have with a cactus in it 😆 Tried an iced coffee drink in the local mall a while back. It was OK. Nothing much to say about it 😝
 
-![Chi is holding up an iced coffee beverage in a container with the label 19° on it. In the background, a neon sign that reads "Sealed Freshness" in cursive is surrounded by fake cacti plants on a white wall.](../../../../img/uploads/2024/24acadf501.jpg)
+![Chi is holding up an iced coffee beverage in a container with the label 19° on it. In the background, a neon sign that reads "Sealed Freshness" in cursive is surrounded by fake cacti plants on a white wall.](/uploads/2024/24acadf501.jpg)

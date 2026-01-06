@@ -24,4 +24,4 @@ I only go there because my boyfriend keeps sending me tweets from time to time, 
 
 Just missing one more X and... 🤭
 
-![Screenshot of a browser tab showing the favicon of X, formerly known as Twitter, as the X logo, with the title of the website “X” also next to it. It then looks like an “X x” on the browser tab.](../../../../img/uploads/2023/image-2023-10-14-210329546.png)
+![Screenshot of a browser tab showing the favicon of X, formerly known as Twitter, as the X logo, with the title of the website “X” also next to it. It then looks like an “X x” on the browser tab.](/uploads/2023/image-2023-10-14-210329546.png)

@@ -28,4 +28,4 @@ forgot to post yesterday!!! huhu i broke my streak 😆
 
 this was taken when we were at a rest house near the sea during a storm.
 
-![View of the backyard of a rest house in Zambales, Philippines. This was taken while there was a typhoon leaving the country, and part of the typhoon's tail was around the area, bringing cloudy skies, strong wind, and constant rain that would strengthen or weaken depending on the hour. Over the distance, the sea is at high tide, brought about the effects of the typhoon.](../../../../img/uploads/2023/d8e1a83ae43f4d58a55c734eff9d7b07.jpg)
+![View of the backyard of a rest house in Zambales, Philippines. This was taken while there was a typhoon leaving the country, and part of the typhoon's tail was around the area, bringing cloudy skies, strong wind, and constant rain that would strengthen or weaken depending on the hour. Over the distance, the sea is at high tide, brought about the effects of the typhoon.](/uploads/2023/d8e1a83ae43f4d58a55c734eff9d7b07.jpg)

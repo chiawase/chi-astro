@@ -26,4 +26,4 @@ url: /2023/09/26/day-beverage-mbsept.html
 
 I found this glass of juice amusingly big. So I put my hand next to it to see the comparison in size 😆
 
-![Chi’s glass filled with mango juice, with a really big glass. The size is as big and wide as her hand, which is positioned right next to the glass for comparison. In the background, her companion’s drink is also visible: a red drink, but Chi forgot what it was.](../../../../img/uploads/2023/c50b6bbf3063410ba8817735e5745dc2.jpg)
+![Chi’s glass filled with mango juice, with a really big glass. The size is as big and wide as her hand, which is positioned right next to the glass for comparison. In the background, her companion’s drink is also visible: a red drink, but Chi forgot what it was.](/uploads/2023/c50b6bbf3063410ba8817735e5745dc2.jpg)

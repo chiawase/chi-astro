@@ -25,4 +25,4 @@ photos_with_metadata:
 
 Look at them crispy hibiscus popcorn and rice flakes on top of this poke bowl I ate somewhere around Salzburg 😁
 
-![A poke bowl with hibiscus popcorn, rice flakes, corn, carrots, edamame, tomatoes, sesame seeds, and leafy greens all in a blue bowl.](../../../../img/uploads/2024/b356d28ee4.jpg)
+![A poke bowl with hibiscus popcorn, rice flakes, corn, carrots, edamame, tomatoes, sesame seeds, and leafy greens all in a blue bowl.](/uploads/2024/b356d28ee4.jpg)

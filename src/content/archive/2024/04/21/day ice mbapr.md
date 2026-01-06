@@ -25,4 +25,4 @@ photos_with_metadata:
 
 I forgot what this drink was called 🤣 but it was a nice cocktail from [Hakid](https://www.instagram.com/hakid.mnl) 😁 
 
-![A mixed orange cocktail in a tall glass with a dried orange as a garnish, with ice in the drink as well.](../../../../img/uploads/2024/a61eb0756b.jpg)
+![A mixed orange cocktail in a tall glass with a dried orange as a garnish, with ice in the drink as well.](/uploads/2024/a61eb0756b.jpg)

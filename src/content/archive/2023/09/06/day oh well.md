@@ -28,4 +28,4 @@ This was a moment that got me to go, "oh well, I'm drenched in the rain, but at 
 
 (I tried to see if I took any photos of actual wells, and... I have photos of other things with water, but not wells 😆)
 
-![Selfie of Chi in her rain gear for her bike commute, wearing her red Lumos helmet and a black rain poncho. Both the poncho and her helmet are visibly drenched or have rain drops on them, and Chi’s making a dejected or kind of exhausted face.](../../../../img/uploads/2023/8c50e6d55830473d860174eb8b2ddebb.jpg)
+![Selfie of Chi in her rain gear for her bike commute, wearing her red Lumos helmet and a black rain poncho. Both the poncho and her helmet are visibly drenched or have rain drops on them, and Chi’s making a dejected or kind of exhausted face.](/uploads/2023/8c50e6d55830473d860174eb8b2ddebb.jpg)

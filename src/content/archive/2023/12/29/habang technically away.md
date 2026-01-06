@@ -24,4 +24,4 @@ url: /2023/12/29/habang-technically-away.html
 
 habang technically away from PC ako, pansasamantalahin ko na oras at itatahi ko yung mga butas ng mga pambahay ko (kahit di ganun kaganda) 😆🪡
 
-![Chi has one of her red shorts with a big hole in it on her lap, and next to her knee is a sewing kit with a bunch of different colored threads and other sewing materials in the black clutch bag.](../../../../img/uploads/2023/fe8e23a3a4.jpg)
+![Chi has one of her red shorts with a big hole in it on her lap, and next to her knee is a sewing kit with a bunch of different colored threads and other sewing materials in the black clutch bag.](/uploads/2023/fe8e23a3a4.jpg)

@@ -23,4 +23,4 @@ Made a mental note not to delete the spam messages I would get today before I le
 
 SIM registration anuna haha this keeps happening and mas marami pa nga eh 🫠 kahapon din kasi it felt more pero I would delete (and occasionally block the number) when I got it. Now I'm thinking if I'll try to collate these numbers and then see if any numbers keep sending the same spam to me.
 
-![screenshot of Chi's Messages list, with the spam messages from unknown senders shown with full view of the numbers and the rest of her messages blurred out.](../../../../img/uploads/2024/47edd16332.jpg)
+![screenshot of Chi's Messages list, with the spam messages from unknown senders shown with full view of the numbers and the rest of her messages blurred out.](/uploads/2024/47edd16332.jpg)

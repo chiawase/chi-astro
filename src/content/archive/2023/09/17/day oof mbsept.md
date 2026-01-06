@@ -26,4 +26,4 @@ url: /2023/09/17/day-oof-mbsept.html
 
 This is a ramp at the mall near my place. It has been "under maintenance" for like 2 months already, with no visible damage.
 
-![A ramp meant to make the entrance more accessible to PWDs, but is cordoned off with a sign on it that reads, &quot;Sorry for the inconvenience / Maintenance in progress to serve you better&quot; by SM Light Mall.](../../../../img/uploads/2023/e8b122988cc04b5393fe60ea97c3f3fb.jpg)
+![A ramp meant to make the entrance more accessible to PWDs, but is cordoned off with a sign on it that reads, &quot;Sorry for the inconvenience / Maintenance in progress to serve you better&quot; by SM Light Mall.](/uploads/2023/e8b122988cc04b5393fe60ea97c3f3fb.jpg)

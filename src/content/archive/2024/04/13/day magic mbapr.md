@@ -25,4 +25,4 @@ photos_with_metadata:
 
 Saw these cool shiny playing cards yesterday while at my friend's cafe and lounge.
 
-![Chi is holding a deck of cards partially fanned out in her right hand. The cards themselves have a sheen texture, with the faces or symbols of each of the playing cards just a darker black to make it obvious when light shines on the surface of the card.](../../../../img/uploads/2024/202cde523a.jpg)
+![Chi is holding a deck of cards partially fanned out in her right hand. The cards themselves have a sheen texture, with the faces or symbols of each of the playing cards just a darker black to make it obvious when light shines on the surface of the card.](/uploads/2024/202cde523a.jpg)

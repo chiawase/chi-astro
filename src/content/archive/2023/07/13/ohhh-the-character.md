@@ -27,4 +27,4 @@ ohhh, the character count in Threads shows at the upper right corner of the new 
 
 It's so muted though, I don't think I would've noticed it had I not checked my battery for a quick second. 😅
 
-![Annotated screenshot of the Threads mobile app showing a draft post. On the upper right is a remaining text counter, encircled in red.](../../../../img/uploads/2023/5839963a33.jpg)
+![Annotated screenshot of the Threads mobile app showing a draft post. On the upper right is a remaining text counter, encircled in red.](/uploads/2023/5839963a33.jpg)

@@ -26,4 +26,4 @@ url: /2023/09/18/day-intense-mbsept.html
 
 yep, that's 4 different kinds of drinks. 😅 there was a time I had no problems doing this one time. But now, I will pass. lolz
 
-![4 different alcoholic drinks lined up, from top to bottom: a bottle of beer, a Jägerbomb, a Tequila shot, and a rum shot.](../../../../img/uploads/2023/ce38b38e855946ad9c215bb0ce7d02fe.jpg)
+![4 different alcoholic drinks lined up, from top to bottom: a bottle of beer, a Jägerbomb, a Tequila shot, and a rum shot.](/uploads/2023/ce38b38e855946ad9c215bb0ce7d02fe.jpg)

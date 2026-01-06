@@ -25,4 +25,4 @@ photos_with_metadata:
 
 Taken last 24 June 2022. Second to the last gig I got to attend of [Banna Harbera](https://open.spotify.com/artist/53EF6PS4UcQwjNrpaE0968?si=JMWk_U6LRf6uJH9QffNWcQ) performing. They stopped putting new music out later that year too, but I was thankful I still got to attend some of the gigs when they were still playing. 🥹
 
-![Banna Harbera performing at the 2022 Fête de la Musique Philippines. Both the main vocalist and lead guitar and vocalist are lit in a cool blue hue. Both of them are focused on singing the song, as shown in their expressions.](../../../../img/uploads/2024/94351e23f1.jpg)
+![Banna Harbera performing at the 2022 Fête de la Musique Philippines. Both the main vocalist and lead guitar and vocalist are lit in a cool blue hue. Both of them are focused on singing the song, as shown in their expressions.](/uploads/2024/94351e23f1.jpg)

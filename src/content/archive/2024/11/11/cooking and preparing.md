@@ -24,7 +24,7 @@ photos_with_metadata:
 <!-- markdownlint-disable MD013 -->
 My partner and I recently cooked a lot of food this weekend, and it got me to appreciate food and the ingredients that make sup the dishes we prepared. And I say this for both a dish I really loved as I grew up (sinigang) and another dish that I only recently started liking (curry rice). For this post I wanted to talk more about how cooking sinigang got me to appreciate it more as one of my favorite Filipino dishes.
 
-![Sinigang na baboy in a pot and placed on a dining table. A bowl of rice is seen behind the pot, as well as some utensils and a placemat. Pieces of labanos and kangkong are floating on the top of the sabaw, and the sinigang looks like its signature orangey color.](../../../../img/uploads/2024/photo-2024-11-11-23-28-47.jpg)
+![Sinigang na baboy in a pot and placed on a dining table. A bowl of rice is seen behind the pot, as well as some utensils and a placemat. Pieces of labanos and kangkong are floating on the top of the sabaw, and the sinigang looks like its signature orangey color.](/uploads/2024/photo-2024-11-11-23-28-47.jpg)
 
 Growing up, I was a really picky eater. My mom would always try to get me to try food, but I just always found a way to either go around it or just to eat something else with whatever was available so I could swallow what was on my plate. That was usually either some sweet snacks or biscuits, like say Oreo and then eventually Cream-O when the former got too expensive to get, or maybe a banana (since we loved having bananas at home for a quick snack). Yes, the sweet snack is weird, but it was really the only way before that would get me to eat nilaga or some other dish that I didn't particularly had the appetite for.
 

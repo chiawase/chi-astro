@@ -34,14 +34,14 @@ url: /2023/07/07/playing-lean-experience.html
 
 A few weeks ago, I played this board game with my Scrum team. It's called [**Playing Lean 2**](https://www.playinglean.com/), and it was apparently [a Kickstarter project](https://www.kickstarter.com/projects/simenfur/playing-lean-2-the-next-release)!
 
-![Overlooking shot of the end state of Playing Lean 2.](../../../../img/uploads/2023/img-2184.jpeg)
-![Playing Lean 2: Kickstarter edition board game box cover.](../../../../img/uploads/2023/img-2185.jpeg)
+![Overlooking shot of the end state of Playing Lean 2.](/uploads/2023/img-2184.jpeg)
+![Playing Lean 2: Kickstarter edition board game box cover.](/uploads/2023/img-2185.jpeg)
 
 It was an interesting experience playing it. The gameplay helps you appreciate the product-building process more... AKA if you wanna get things done, it takes time—or turns, in this case—and sometimes you won't have enough resources to do what you wanna do. Just like in real life! 😆🫠
 
 I was amused with all the sprint and product references in the game itself 😝 
 
-![Preview of the pieces and cards of Playing Lean 2, a board game simulating the process of a startup or company managing employees to build certain product features to cater to specific markets.](../../../../img/uploads/2023/img-2176.jpeg)
+![Preview of the pieces and cards of Playing Lean 2, a board game simulating the process of a startup or company managing employees to build certain product features to cater to specific markets.](/uploads/2023/img-2176.jpeg)
 
 We also played it with the context that our scrum master changed roles and became an Agile Coach, and this is one of the ways they want to help more people in the company appreciate the workflows and processes we have.
 
@@ -53,7 +53,7 @@ We were broken up into pairs, to make up 4 teams total. We comprised of:
 - Scrum Masters
 - and of course... UX Designer(s) (me!) 😆
 
-![Wide angled selfie of Chi with her Scrum teammates.](../../../../img/uploads/2023/img-2178.jpeg)
+![Wide angled selfie of Chi with her Scrum teammates.](/uploads/2023/img-2178.jpeg)
 
 It was a challenging but fun playing experience! 😄 I wish I could play this again, this time with my UX teammates or other people. Though it might be sickening for some to play a board game that's all about work, I personally don't mind games like this, since I see it for what it is: a game.
 

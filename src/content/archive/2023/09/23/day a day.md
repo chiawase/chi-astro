@@ -26,4 +26,4 @@ url: /2023/09/23/day-a-day.html
 
 took this earlier when I got back home. Those are some heavy rain clouds 😳 not to mention a bleak late morning given the smog 😷💨
 
-![A peek out of Chi's window, where the rain clouds look lower than usual, obscuring the usual city skyline you'd see from the central business district where she lives.](../../../../img/uploads/2023/d62093f2cd08495e910719517a49b434.jpg)
+![A peek out of Chi's window, where the rain clouds look lower than usual, obscuring the usual city skyline you'd see from the central business district where she lives.](/uploads/2023/d62093f2cd08495e910719517a49b434.jpg)

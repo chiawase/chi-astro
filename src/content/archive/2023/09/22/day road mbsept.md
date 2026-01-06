@@ -26,4 +26,4 @@ url: /2023/09/22/day-road-mbsept.html
 
 Selfie of me riding along the roads of MueangKaen, Chiang Mai, Thailand! 😄
 
-![Wide angle selfie of Chi riding a bike, wearing her red popcorn cycling cap, kumot crop top, and black shorts, riding along one of the roads around the MueangKaen municipality at Chiang Mai, Thailand. Behind her are some trees, and the road is narrow enough for one person on a bike to pass with ease.](../../../../img/uploads/2023/a115ea826e144369839e4977c703920a.jpg)
+![Wide angle selfie of Chi riding a bike, wearing her red popcorn cycling cap, kumot crop top, and black shorts, riding along one of the roads around the MueangKaen municipality at Chiang Mai, Thailand. Behind her are some trees, and the road is narrow enough for one person on a bike to pass with ease.](/uploads/2023/a115ea826e144369839e4977c703920a.jpg)

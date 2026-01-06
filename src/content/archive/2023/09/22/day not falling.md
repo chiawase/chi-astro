@@ -26,4 +26,4 @@ url: /2023/09/22/day-not-falling.html
 
 These bikes are not falling. As they are propped up each other. 😆
 
-![Two full bikes leaning against each other, making them both be balanced and not falling over.](../../../../img/uploads/2023/9be6b55d039f48acaa87cd24f666f193.jpg)
+![Two full bikes leaning against each other, making them both be balanced and not falling over.](/uploads/2023/9be6b55d039f48acaa87cd24f666f193.jpg)

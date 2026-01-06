@@ -26,4 +26,4 @@ url: /2023/09/14/day-panic-mbsept.html
 
 Taken while eating breakfast at a hospital a month ago. This was a woozy day.
 
-![A green plate with rice, one hotdog, and a bitten-off banana are in view. Two green cups are also to the side, because Chi is eating breakfast with her mom.](../../../../img/uploads/2023/b0f7d6c4205d48a094776d9e73173982.jpg)
+![A green plate with rice, one hotdog, and a bitten-off banana are in view. Two green cups are also to the side, because Chi is eating breakfast with her mom.](/uploads/2023/b0f7d6c4205d48a094776d9e73173982.jpg)

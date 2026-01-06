@@ -27,4 +27,4 @@ all I can post now so far are my outfits for the day 😅 please bear with me as
 
 This outfit is a staple for me, the top is actually from my mom 😊
 
-![Chi's outfit for the day shown in a mirror selfie: white polka-dot on black v-neck fitted top with a sheer black long sleeved collared coverup, and long black flared pants.](../../../../img/uploads/2023/116ed60971.jpg)
+![Chi's outfit for the day shown in a mirror selfie: white polka-dot on black v-neck fitted top with a sheer black long sleeved collared coverup, and long black flared pants.](/uploads/2023/116ed60971.jpg)

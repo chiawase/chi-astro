@@ -25,4 +25,4 @@ url: /2023/07/09/i-made-a.html
 
 I made a [quick mind map on FigJam]( https://www.figma.com/file/APwhoYyk6Gogu71PtS1jcs/Chi's-micro.blog?type=whiteboard&node-id=1%3A677&t=w4N3fPT274qRfvkG-1) on how I wanna organize _stuff_ here in general. IDK if this works, but I guess it's a start?
 
-![A mindmap diagram made by Chi for her micro.blog website.](../../../../img/uploads/2023/2bc90b1283.jpg)
+![A mindmap diagram made by Chi for her micro.blog website.](/uploads/2023/2bc90b1283.jpg)

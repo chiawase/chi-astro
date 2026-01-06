@@ -23,4 +23,4 @@ photos_with_metadata:
 
 back to my red nail polish era 💅 
 
-![Chi holding her left hand up to cover her mouth, while extending her fingers more to show off her newly polished red nails from her manicure.](../../../../img/uploads/2024/9ebfd952a0.jpg)
+![Chi holding her left hand up to cover her mouth, while extending her fingers more to show off her newly polished red nails from her manicure.](/uploads/2024/9ebfd952a0.jpg)

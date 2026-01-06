@@ -28,4 +28,4 @@ At Iloilo City Hall now for the Move Together in-person workshop by Climate Real
 
 with fellow speakers Celine and Chuck 😊
 
-![Selfie of Chi with Celine Tabinga from Mobility Awards PH and Chuck Baclagon from 350 Pilipinas at the Iloilo City Hall Auditorium.](../../../../img/uploads/2023/ac5d68c902.jpg)
+![Selfie of Chi with Celine Tabinga from Mobility Awards PH and Chuck Baclagon from 350 Pilipinas at the Iloilo City Hall Auditorium.](/uploads/2023/ac5d68c902.jpg)

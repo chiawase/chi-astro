@@ -26,4 +26,4 @@ url: /2023/09/07/day-panorama-mbsept.html
 
 I rarely take actual panorama photos with my phone, but maybe this'll count? View of the clouds during my flight from the Philippines to Thailand ☁️🤩
 
-![View outside a flight en route to Thailand from the Philippines. The glare of the sun is out of the frame, but its light shines brightly on the fluffy sea of clouds, further defining their shape. The sky above the clouds is a calming type of blue, reinforcing how serene the heavens look.](../../../../img/uploads/2023/1782ab2cb9294a08a35548bdf8728ce9.jpg)
+![View outside a flight en route to Thailand from the Philippines. The glare of the sun is out of the frame, but its light shines brightly on the fluffy sea of clouds, further defining their shape. The sky above the clouds is a calming type of blue, reinforcing how serene the heavens look.](/uploads/2023/1782ab2cb9294a08a35548bdf8728ce9.jpg)

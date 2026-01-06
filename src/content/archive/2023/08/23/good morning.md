@@ -30,5 +30,5 @@ url: /2023/08/23/good-morning.html
 
 Good morning! 🌞
 
-![Mirror elevator selfie of Chi showing her current outfit for the day: a long-sleeved blue polo shirt with a leaves pattern tucked in a long beige skirt.](../../../../img/uploads/2023/e67971d5ec.jpg)
-![Chi's breakfast from the hotel: scrambled egg with ham and cheese, a chicken sausage, some steamed vegetables, sweet and sour fish, with egg fried rice and a brownie. She also has a bowl of Koko Crunch chocolate cereal.](../../../../img/uploads/2023/3ee5a4dd41.jpg)
+![Mirror elevator selfie of Chi showing her current outfit for the day: a long-sleeved blue polo shirt with a leaves pattern tucked in a long beige skirt.](/uploads/2023/e67971d5ec.jpg)
+![Chi's breakfast from the hotel: scrambled egg with ham and cheese, a chicken sausage, some steamed vegetables, sweet and sour fish, with egg fried rice and a brownie. She also has a bowl of Koko Crunch chocolate cereal.](/uploads/2023/3ee5a4dd41.jpg)

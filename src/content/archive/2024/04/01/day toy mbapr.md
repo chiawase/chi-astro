@@ -27,4 +27,4 @@ Sharing this 3d-printed neko atsume style cat printed by my boyfriend, and color
 
 There are 3 more cats like this, and they just stay seated on my monitor's stand accompanying me 🐈
 
-![A 3d-printed white cat with distinctive features like its ears, eyes, nose, mouth, paws, and tail tip colored in with a black marker. The cat is seated on a computer deskmat.](../../../../img/uploads/2024/2771cf4885.jpg)
+![A 3d-printed white cat with distinctive features like its ears, eyes, nose, mouth, paws, and tail tip colored in with a black marker. The cat is seated on a computer deskmat.](/uploads/2024/2771cf4885.jpg)

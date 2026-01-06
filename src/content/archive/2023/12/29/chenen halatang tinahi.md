@@ -24,4 +24,4 @@ url: /2023/12/29/chenen-halatang-tinahi.html
 
 chenen! halatang tinahi, pero goal naman is mawala butas. solb 👍😂
 
-![Chi’s red shorts that previously had a hole in it, now sewn back closed. Some of the threads used in her patchwork are visible, and the sewing isn’t that clean, but the hole is not present anymore.](../../../../img/uploads/2023/c87542cbdc.jpg)
+![Chi’s red shorts that previously had a hole in it, now sewn back closed. Some of the threads used in her patchwork are visible, and the sewing isn’t that clean, but the hole is not present anymore.](/uploads/2023/c87542cbdc.jpg)

@@ -5,7 +5,7 @@ tags: ["cycling", "writing"]
 date: 2021-09-25T22:17:00+0800
 ---
 <!-- markdownlint-disable MD013 -->
-![point-of-view of someone on a road bike, where the handlebars are visible, peering out to the road in front of them. A bit of sunlight is reflecting on the asphalt of the road, which somewhat encourages you to press on.](../../../../img/uploads/2023/image-2023-07-05-204205862.png "Photo by Flo Karr / Unsplash")
+![point-of-view of someone on a road bike, where the handlebars are visible, peering out to the road in front of them. A bit of sunlight is reflecting on the asphalt of the road, which somewhat encourages you to press on.](/uploads/2023/image-2023-07-05-204205862.png "Photo by Flo Karr / Unsplash")
 
 This past year, I think I have gotten to know myself better.
 

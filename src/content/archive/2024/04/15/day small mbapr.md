@@ -27,4 +27,4 @@ photos_with_metadata:
 
 Took this photo while walking along the East Side Gallery in Berlin.
 
-![Urban art found on the East Side Gallery with text that reads, first in German: “Viele kleine Leute die in vielen kleinen Orten viele kleine Dinge tun, können das Gesicht der Welt verändern.” and then in English: “Many small people who in many small places do many small things that can alter the face of the world.” underneath the text block is the credits to &quot;Afrikanische Weisheit&quot;—African wisdom in english.](../../../../img/uploads/2024/bb6ce4bf0b.jpg)
+![Urban art found on the East Side Gallery with text that reads, first in German: “Viele kleine Leute die in vielen kleinen Orten viele kleine Dinge tun, können das Gesicht der Welt verändern.” and then in English: “Many small people who in many small places do many small things that can alter the face of the world.” underneath the text block is the credits to &quot;Afrikanische Weisheit&quot;—African wisdom in english.](/uploads/2024/bb6ce4bf0b.jpg)

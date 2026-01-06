@@ -25,4 +25,4 @@ photos_with_metadata:
 
 I realize I don't have any (recent?) photo showing any wind (or photos of windy places for that matter) so here's a selfie I took last year while riding around Taiwan on a bike. There would be super windy days that I learned to just put on more layers if I'm biking around 😆
 
-![Wid angle selfie of Chi while on a rental YouBike. She’s wearing a cream-colored long-sleeved sweater, and her red leather bag is seen in the YouBike’s front basket. There are 2 other YouBikes parked behind her.](../../../../img/uploads/2024/72b1537d29.jpg)
+![Wid angle selfie of Chi while on a rental YouBike. She’s wearing a cream-colored long-sleeved sweater, and her red leather bag is seen in the YouBike’s front basket. There are 2 other YouBikes parked behind her.](/uploads/2024/72b1537d29.jpg)

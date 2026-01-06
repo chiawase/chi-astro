@@ -26,4 +26,4 @@ This was taken yesterday at Design Week PH while I was waiting for mentees who w
 
 Thanks to Design Center of the Philippines and UXPH for the opportunity to pay it forward to the local design and tech community 😊
 
-![Chi smiling and seated behind a table with her name plate in front of her. Her vibrant floral crop top polo shirt stands out against the elegant decor, including suspended gold leaf decorations and patterned throw pillows.](../../../../img/uploads/2024/7365c174a3.jpg)
+![Chi smiling and seated behind a table with her name plate in front of her. Her vibrant floral crop top polo shirt stands out against the elegant decor, including suspended gold leaf decorations and patterned throw pillows.](/uploads/2024/7365c174a3.jpg)

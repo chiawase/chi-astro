@@ -25,4 +25,4 @@ url: /2023/10/29/run-cat-run.html
 
 run, cat, run
 
-![Chi about to carry her folded bike up some stairs that have Christmas or fairy lights draped on the railings, looking at the camera in an amused state. Her bike bag is in messenger bag mode, with her helmet strapped to the bag. A cat can also be seen blurry and running away from the stairs because it was initially chilling underneath it before Chi approached the area.](../../../../img/uploads/2023/541da2e943.jpg)
+![Chi about to carry her folded bike up some stairs that have Christmas or fairy lights draped on the railings, looking at the camera in an amused state. Her bike bag is in messenger bag mode, with her helmet strapped to the bag. A cat can also be seen blurry and running away from the stairs because it was initially chilling underneath it before Chi approached the area.](/uploads/2023/541da2e943.jpg)

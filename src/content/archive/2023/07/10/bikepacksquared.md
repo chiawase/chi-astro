@@ -30,6 +30,6 @@ url: /2023/07/10/bikepacksquared.html
 
 bike(pack)squared 😂
 
-![photo of Chi gesturing with a thumbs up to the camera with her backpack on, and her new front bag, meant for a trifold folding bike with a front carrier block, attached to the front of her backpack.](../../../../img/uploads/2023/48c0a61dcc.jpg)
+![photo of Chi gesturing with a thumbs up to the camera with her backpack on, and her new front bag, meant for a trifold folding bike with a front carrier block, attached to the front of her backpack.](/uploads/2023/48c0a61dcc.jpg)
 
-![photo of Chi with her backpack on, and her new front bag, meant for a trifold folding bike with a front carrier block, attached to the front of her backpack.](../../../../img/uploads/2023/3468aa3a9b.jpg)
+![photo of Chi with her backpack on, and her new front bag, meant for a trifold folding bike with a front carrier block, attached to the front of her backpack.](/uploads/2023/3468aa3a9b.jpg)
