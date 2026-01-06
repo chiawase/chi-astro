@@ -2,7 +2,7 @@
 title: Dispatch
 url: https://store.steampowered.com/app/2592160/Dispatch/
 platform: steam
-gameImage: https://cdn.mobygames.com/covers/25307025-dispatch-nintendo-switch-front-cover.jpg
+gameImage: ../img/uploads/games/25307025-dispatch-nintendo-switch-front-cover.jpg
 tags:
 - superheroes
 - "story-based"

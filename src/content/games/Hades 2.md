@@ -2,7 +2,7 @@
 title: Hades 2
 url: https://store.steampowered.com/app/1145350/Hades_II/
 platform: steam
-gameImage: https://images.ctfassets.net/5owu3y35gz1g/2J66RQRNqhF3jK5dbPOt9h/6fe752a31a2b87715c56cd0612cbcaed/3840x2160_v1.0_KeyArt.png?w=1920&q=80
+gameImage: ../img/uploads/games/Hades_2-3840x2160_v1.0_KeyArt.png
 tags:
 - indie
 - roguelite

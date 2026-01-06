@@ -2,7 +2,7 @@
 title: Ghost of Yotei
 url: https://www.playstation.com/en-ph/games/ghost-of-yotei/
 platform: playstation
-gameImage: https://img.psnprofiles.com/game/l/36989/5bd00e23-bca0-4e96-b8ae-7fc1dddba672.png
+gameImage: ../img/uploads/games/ghost-of-yotei-thoughts-and-speculations-v0-z7kxbmy0a2rd1.webp
 tags: 
 - "story-based"
 startedPlayingDate: 2025-11-05
