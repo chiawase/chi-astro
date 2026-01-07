@@ -7,12 +7,14 @@ updatedDate: 2026-01-05T12:44:41+00:00
 import { Image } from "astro:assets";
 import Page from "@layouts/Page.astro";
 
+import { getUpdatedDateFor } from "@utils/getUpdatedDateFor";
+
 import FormattedDate from "@components/FormattedDate.astro";
 import { SITE_DESCRIPTION } from "@consts";
 import siteFavicon from "../../public/favicon.png";
 
 <Page title={frontmatter.title} description={SITE_DESCRIPTION}>
-> Following the guide from [IndieWeb](https://indieweb.org/colophon) for what a Colophon page includes, I’ll do my best to lay down how I’ve set up my side of the internet. Last updated on <FormattedDate dateType="" dateString={frontmatter.updatedDate} />.
+> Following the guide from [IndieWeb](https://indieweb.org/colophon) for what a Colophon page includes, I’ll do my best to lay down how I’ve set up my side of the internet. Last updated on <FormattedDate dateType="" dateString={await getUpdatedDateFor("./src/pages/colophon.mdx")} />.
 
 ## Website repository
 
