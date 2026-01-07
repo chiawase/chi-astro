@@ -9,6 +9,7 @@
     "postbuild": "if [ \"$SEND_WEBMENTIONS\" = \"true\" ]; then npm run webmentions:send; else echo \"Skipping webmentions:send\"; fi",
     "preview": "astro preview",
     "astro": "astro",
+    "cloudinary:upload:folder": "tsx src/scripts/cloudinaryUploadFolder.ts",
     "webmentions:clean": "rm -f _cache/webmentions.json",
     "webmentions:fetch": "webmention https://chisenires.design/feed.xml",
     "webmentions:send": "webmention https://chisenires.design/feed.xml --limit 1 --send",

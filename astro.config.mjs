@@ -24,6 +24,7 @@ import rehypeFigureTitle from "rehype-figure-title";
 // Personal scripts
 import cloudinaryWatch from "./src/utils/cloudinary/watch";
 import { remarkCloudinaryLocalUploads } from "./src/utils/cloudinary/remarkLocalUploads";
+import { rehypeUploadsToCloudinary } from "./src/utils/cloudinary/rehypeUploadsToCloudinary";
 
 // https://astro.build/config
 export default defineConfig({
@@ -48,6 +49,7 @@ export default defineConfig({
         rehypeHeadingIds,
         rehypeAccessibleEmojis,
         [rehypeAutolinkHeadings, { behavior: "append" }],
+        rehypeUploadsToCloudinary,
         rehypeFigureTitle,
       ],
     }),
@@ -74,6 +76,7 @@ export default defineConfig({
       rehypeHeadingIds,
       rehypeAccessibleEmojis,
       [rehypeAutolinkHeadings, { behavior: "append" }],
+      rehypeUploadsToCloudinary,
       rehypeFigureTitle,
     ],
   },
