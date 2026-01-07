@@ -23,7 +23,7 @@ type ManifestEntry = {
 type Manifest = Record<string, ManifestEntry>; // key = localRelPath
 
 const UPLOAD_ROOT = path.resolve("src/content/img/uploads");
-const CACHE_DIR = path.resolve("_cache");
+const CACHE_DIR = path.resolve(process.cwd(), "_cache");
 const MANIFEST_PATH = path.join(CACHE_DIR, "cloudinary-manifest.json");
 
 const IMAGE_EXTS = new Set([
@@ -36,6 +36,8 @@ const IMAGE_EXTS = new Set([
   ".svg",
   ".heic",
 ]);
+
+let cloudinaryConfigured = false;
 
 export function isImageFile(absPath: string) {
   return IMAGE_EXTS.has(path.extname(absPath).toLowerCase());
@@ -77,7 +79,7 @@ async function sha1File(absPath: string) {
 function publicIdFor(localRelPath: string) {
   // localRelPath like: uploads/2026/foo.jpg (relative to UPLOAD_ROOT’s parent)
   // We want: chisenires.design/uploads/2026/foo (no extension)
-  const folder = requireEnv("CLOUDINARY_FOLDER"); // e.g. chisenires.design/uploads
+  const folder = requireEnv("CLOUDINARY_FOLDER").replace(/\/+$/, ""); // e.g. chisenires.design/uploads
   const noExt = localRelPath.replace(/\.[^.]+$/, "");
   return `${folder}/${noExt.replace(/^uploads\//, "")}`;
 }
@@ -85,11 +87,14 @@ function publicIdFor(localRelPath: string) {
 export async function uploadIfNeeded(absPath: string) {
   if (!isImageFile(absPath)) return null;
 
-  cloudinary.config({
-    cloud_name: requireEnv("PUBLIC_CLOUDINARY_CLOUD_NAME"),
-    api_key: requireEnv("PUBLIC_CLOUDINARY_API_KEY"),
-    api_secret: requireEnv("CLOUDINARY_API_SECRET"),
-  });
+  if (!cloudinaryConfigured) {
+    cloudinary.config({
+      cloud_name: requireEnv("PUBLIC_CLOUDINARY_CLOUD_NAME"),
+      api_key: requireEnv("PUBLIC_CLOUDINARY_API_KEY"),
+      api_secret: requireEnv("CLOUDINARY_API_SECRET"),
+    });
+    cloudinaryConfigured = true;
+  }
 
   const manifest = await readManifest();
 
@@ -121,6 +126,14 @@ export async function uploadIfNeeded(absPath: string) {
   // Skip if unchanged
   if (existing?.sha1 === sha1) return existing;
 
+  // Backfill old manifest entries (no sha1 yet)
+  if (existing?.secureUrl && !existing.sha1) {
+    existing.sha1 = sha1;
+    existing.uploadedAt ||= new Date().toISOString();
+    await writeManifest(manifest);
+    return existing;
+  }
+
   console.log(`[cloudinary] uploading ${localRelPath}`);
 
   const publicId = publicIdFor(localRelPath);
@@ -134,7 +147,21 @@ export async function uploadIfNeeded(absPath: string) {
       invalidate: true,
     });
 
-    // ... build entry, write manifest ...
+    const entry: ManifestEntry = {
+      localRelPath,
+      publicId: result.public_id,
+      resourceType: "image",
+      secureUrl: result.secure_url,
+      bytes: result.bytes,
+      etag: (result as any).etag,
+      uploadedAt: new Date().toISOString(),
+      sha1,
+    };
+
+    manifest[localRelPath] = entry;
+    await writeManifest(manifest);
+
+    return entry;
   } catch (e) {
     console.error(
       "[cloudinary] upload failed:",
