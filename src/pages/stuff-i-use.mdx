@@ -2,10 +2,11 @@
 title: Stuff I Use
 summary: "Listing all the stuff I use for whatever purpose."
 pubDate: 2025-08-18T07:34:56+00:00
-updatedDate: 2025-12-11T08:11:05+00:00
 ---
 
 import Page from "@layouts/Page.astro";
+
+import { getUpdatedDateFor } from "@utils/getUpdatedDateFor";
 
 import FormattedDate from "@components/FormattedDate.astro";
 
@@ -19,7 +20,7 @@ Some of the links here may be referral links! I'll just mark them accordingly if
 
 I eventually want to spiffy this up while getting some inspiration from these blogs: [Jason Burk's](https://grepjason.sh/mysetup)
 
-> Last updated on <FormattedDate dateType="" dateString={frontmatter.updatedDate} />.
+> Last updated on <FormattedDate dateType="" dateString={await getUpdatedDateFor("./src/pages/stuff-i-use.mdx")} />.
 
 #### My bicycle 🚲
 
@@ -37,10 +38,9 @@ I eventually want to spiffy this up while getting some inspiration from these bl
   </figure>
   - my bag here is a GO FAR Large Bromp bag I bought from
   [Bikeary](https://bikeary.com/), though I don’t think they sell it on their
-  store anymore
-  - I also have a [LUMOS Ultra MIPS
-    helmet](https://ridelumos.com/products/lumos-ultra?variant=40418367766684)
-    that has seen better days lol
+  store anymore - I also have a [LUMOS Ultra MIPS
+  helmet](https://ridelumos.com/products/lumos-ultra?variant=40418367766684)
+  that has seen better days lol
 
 #### Mail Client 📨
 
@@ -76,6 +76,7 @@ I eventually want to spiffy this up while getting some inspiration from these bl
 #### To-Do ✅
 
 - Tasks or making an Event in my personal Google Calendar
+- Sometimes also sending myself messages either in Telegram or Slack (for work)
 
 #### iPhone Photo Shooting 📷
 
@@ -108,7 +109,9 @@ I eventually want to spiffy this up while getting some inspiration from these bl
 
 #### Browser 🌐
 
-- [Zen Browser](https://zen-browser.app/)
+- [Zen Browser](https://zen-browser.app/) on my Linux and Mac
+- [Firefox](https://www.firefox.com/) on my iPhone so I could send links between my devices
+- I also still use Safari if certain things don’t load in Firefox for some reason
 
 #### Chat 💬
 
@@ -163,7 +166,7 @@ I eventually want to spiffy this up while getting some inspiration from these bl
 
 #### Blog Hosting 🏡
 
-- [Coolify](https://www.coolify.io/) (for now... 😏)
+- [Coolify](https://www.coolify.io/)
 
 #### Domains 🌐
 
