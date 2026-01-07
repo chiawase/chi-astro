@@ -25,8 +25,9 @@ pnpm-debug.log*
 .obsidian/workspace.json
 .obsidian/plugins/emoji-autocomplete/data.json
 
-# Fetched webmentions
-_cache/
+_cache/*
+!_cache/cloudinary-manifest.json
+
 
 # Local media files
 src/content/img/uploads/**
