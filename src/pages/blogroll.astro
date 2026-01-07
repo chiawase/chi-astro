@@ -5,11 +5,17 @@ import BlogrollItem from "@components/BlogrollItem.astro";
 import FormattedDate from "@components/FormattedDate.astro";
 import { BLOGROLL_LIST } from "@data/blogroll";
 
+import fs from "node:fs/promises";
+import path from "node:path";
+
+const filePath = path.resolve("./src/data/blogroll.ts");
+const stats = await fs.stat(filePath);
+
 const pageMeta = {
   title: "Blogroll",
   description: "Just a dump of links of websites from other people for now since I’m not sure how to go about this yet!",
   pubDate: new Date("2025-09-19T06:35:25+00:00"),
-  updatedDate: new Date("2026-01-02T14:06:11+00:00"),
+  updatedDate: stats.mtime,
 };
 
 ---
