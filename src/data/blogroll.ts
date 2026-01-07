@@ -185,6 +185,12 @@ export const BLOGROLL_LIST: Blogroll[] = [
     author: "Adam Argyle",
     note: "His website is super interactive and also very cool.",
   },
+  {
+    url: "https://www.floguo.com/",
+    domain: "www.floguo.com",
+    author: "Flo Guo",
+    note: "Her website feels like me taking a peek in her digital notebook with so many notes and musings!",
+  },
   // {
   //   url: "",
   //   domain: "",
