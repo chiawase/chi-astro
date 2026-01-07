@@ -80,7 +80,4 @@ export default defineConfig({
       rehypeFigureTitle,
     ],
   },
-  experimental: {
-    preserveScriptOrder: true,
-  },
 });
