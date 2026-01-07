@@ -26,6 +26,7 @@ const tagToSlug = (tag: string) => encodeURIComponent(tag.trim().toLowerCase());
 ---
 
 <Page title="Tags" description="All tags related to posts made in this blog.">
+  <blockquote>The tags listed here are still all just from my <a href="/blog/">Blog</a> page. I’m still thinking if I should also add the posts that show up in my <a href="/archives/">Archives</a> here.</blockquote>
   {tagsSorted.length ? (
     <ul>
       {tagsSorted.map(([tag, count]) => (
