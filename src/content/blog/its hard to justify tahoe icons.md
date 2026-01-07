@@ -2,9 +2,10 @@
 title: 
 summary: 
 pubDate: 2026-01-06T00:19:04+00:00
-updatedDate: 2026-01-06T00:23:16+00:00
+updatedDate: 2026-01-07T16:03:28+00:00
 tags: 
 - links
+- micro
 - design
 postLanguage: 
 ---
