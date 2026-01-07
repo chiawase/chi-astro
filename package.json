@@ -24,7 +24,7 @@
     "@astrojs/mdx": "^4.3.13",
     "@astrojs/node": "^9.5.1",
     "@astrojs/rss": "^4.0.14",
-    "@astrojs/sitemap": "^3.6.0",
+    "@astrojs/sitemap": "^3.6.1",
     "@braindb/astro": "^0.1.1",
     "@braindb/remark-wiki-link": "^2.1.0",
     "@flowershow/remark-wiki-link": "^3.3.1",
