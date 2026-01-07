@@ -12,6 +12,9 @@ import Page from "@layouts/Page.astro";
 - finally got my website up and running again, this time with images now hosted on Cloudinary instead of my repo 😆
   - surprise surprise, for a long while I just kept having _all_ the images in both [/blog/](/blog/) and [/archive/](/archive/) saved in my own repo. I mean, I know that can be done, but long term it’s... not the best thing ever :))
   - I added more items in my [Blogroll](/blogroll/) list (and I think I did these changes the day before, but I couldn’t release it until I fixed the media management on my site 🙈)
+- I also changed how the last updated timestamps show up for the following pages: [Blogroll](/blogroll/), [Colophon](/colophon/), [Stuff I Use](/stuff-i-use/)
+  - I made a `@utils/getUpdatedDateFor.ts` that gets the path for the file I want to check the latest modified timestamp and output that 😁
+- I also moved the links from my [Contact](/contact/) page from just declared in the `.mdx` file itself into a file found in my `@data` directory!
 
 ## 6 Jan 2026
 
