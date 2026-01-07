@@ -1,95 +1,100 @@
 ---
 title: now
 pubDate: 2025-03-30T12:48:25+00:00
-updatedDate: 2026-01-02T09:01:10+00:00
 ---
 
 import { Image } from "astro:assets";
+import { SITE_DESCRIPTION } from "@consts";
 
 import Page from "@layouts/Page.astro";
 
+import { getUpdatedDateFor } from "@utils/getUpdatedDateFor";
+
 import FormattedDate from "@components/FormattedDate.astro";
-import { SITE_DESCRIPTION } from "@consts";
 
 <Page
   title="What I’m currently up to"
   description="What is Chi up to now?"
 >
 
-  > Last updated on <FormattedDate dateType="" dateString={frontmatter.updatedDate} />.
+> Last updated on <FormattedDate dateType="" dateString={await getUpdatedDateFor("./src/pages/now.mdx")} />.
 
-  ### Stuff on my mind
+### Stuff on my mind
 
-  - I wrote my first entry in my hobonichi planner!! hooray hehe
-  - I recently bought [a smart ring](https://shopee.ph/Aolon-Ring-Gen3-Smart-Ring-5ATM-Swimming-Diving-Sports-Health-Records-Control-Video-Photo-Shooting-i.728957216.25733122589) and been testing it out the past couple of days. I might write a post about it here aside from also posting it on social media for my friends to see 😆
-  	- This is the highlight reel on my Instagram in case anyone was curious: [view Chi’s Instagram highlights for her Aolon ring experience](https://www.instagram.com/stories/highlights/18187289851344521/)
-  	- Update: just noting here that I have yet to write a post about my experience with this, but just to add a note here: I’m still using it mostly for sleep tracking haha
+- I wrote my first entry in my hobonichi planner!! hooray hehe
+- I recently bought [a smart ring](https://shopee.ph/Aolon-Ring-Gen3-Smart-Ring-5ATM-Swimming-Diving-Sports-Health-Records-Control-Video-Photo-Shooting-i.728957216.25733122589) and been testing it out the past couple of days. I might write a post about it here aside from also posting it on social media for my friends to see 😆
+  - This is the highlight reel on my Instagram in case anyone was curious: [view Chi’s Instagram highlights for her Aolon ring experience](https://www.instagram.com/stories/highlights/18187289851344521/)
+  - Update: just noting here that I have yet to write a post about my experience with this, but just to add a note here: I’m still using it mostly for sleep tracking haha
 
-  ### Ideas to get back to
+### Ideas to get back to
 
-  - maybe rebuilding this website in Astro and see how the experience is there? 🤔
-	  - Update: [[/blog/wip-astro|wrote about my in progress experience here]]
-	  - UPDATE: this is now a done deal! [[/blog/11ty-to-astro|Read more about it]] ← just upping this here to make it more prominent that my site is now built with Astro :))
-  - maybe I can just make a reading list that has those manga links below within them and I can have a place where I could dump my thoughts on them. Same with games lol ← this is a priority!! 😤
-	  - Update 2 Jan 2026: gonna start work on this lol
-  - setting up the Webring for [Tambayan 404](https://tambayan404.com) members too haha
-  - I reaaally really want to make something like this but for my own life: [Life in Weeks](https://busterbenson.com/life-in-weeks)
+- maybe rebuilding this website in Astro and see how the experience is there? 🤔
+  - Update: [[/blog/wip-astro|wrote about my in progress experience here]]
+  - UPDATE: this is now a done deal! [[/blog/11ty-to-astro|Read more about it]] ← just upping this here to make it more prominent that my site is now built with Astro :))
+- maybe I can just make a reading list that has those manga links below within them and I can have a place where I could dump my thoughts on them. Same with games lol ← this is a priority!! 😤
+  - Update 2 Jan 2026: gonna start work on this lol
+  - Update 7 Jan 2026: I have my [Games](/games/) up!! Just need to add a few more entries then I’ll move on to the other stuff hehe
+- setting up the Webring for [Tambayan 404](https://tambayan404.com) members too haha
+- I reaaally really want to make something like this but for my own life: [Life in Weeks](https://busterbenson.com/life-in-weeks)
 
-  ### Games I’m thinking about
+### Games I’m thinking about
 
-  - [Date Everything!](https://store.steampowered.com/app/2201320/Date_Everything/) — this game is so amusing with all its dialogue choices and even the initial commentary of the real world at the start hahaha
-  - [Dispatch](https://store.steampowered.com/app/2592160/Dispatch/) — my boyfriend bought it for me this Christmas and I finished my first run through 🥹 I wanna put my thoughts about it together in a post but I have to do the media digital garden thing first ~~and before *that* I also have to finish this 11ty-to-astro migration~~ (this is done so I’m strikethrough-ing it lol) 😂
-  - [Clair Obscur: Expedition 33](https://www.expedition33.com/) — replaying this on the PS5 Pro for better graphics 😎 and so I get all the things i missed haha already in Act 3!
-  - [Ghost of Yotei](https://www.playstation.com/en-us/games/ghost-of-yotei/) — going through it again because of **New Game+** 😄
-  - [Hades 2](https://store.steampowered.com/app/1145350/Hades_II/) — have yet to get back to this since I want to know what happens after the True Ending 😆
-  - [Umamusume: Pretty Derby](https://umamusume.com/) — I just want to get a lot of A level Umas with them in their signature racewear 🥹 Also 2026 is the year of the HORSE! 🐎 *umyapoi intensifies*
+> I will eventually either move this out of here or have this section be auto updated based on the stuff I update in [Games](/games/). I’ll just get to it eventually! 😛
 
-  ### What I’m reading
+- [Date Everything!](https://store.steampowered.com/app/2201320/Date_Everything/) — this game is so amusing with all its dialogue choices and even the initial commentary of the real world at the start hahaha
+- [Dispatch](https://store.steampowered.com/app/2592160/Dispatch/) — my boyfriend bought it for me this Christmas and I finished my first run through 🥹 I wanna put my thoughts about it together in a post but I have to do the media digital garden thing first ~~and before _that_ I also have to finish this 11ty-to-astro migration~~ (this is done so I’m strikethrough-ing it lol) 😂
+- [Clair Obscur: Expedition 33](https://www.expedition33.com/) — replaying this on the PS5 Pro for better graphics 😎 and so I get all the things i missed haha already in Act 3!
+- [Ghost of Yotei](https://www.playstation.com/en-us/games/ghost-of-yotei/) — going through it again because of **New Game+** 😄
+- [Hades 2](https://store.steampowered.com/app/1145350/Hades_II/) — have yet to get back to this since I want to know what happens after the True Ending 😆
+- [Umamusume: Pretty Derby](https://umamusume.com/) — I just want to get a lot of A level Umas with them in their signature racewear 🥹 Also 2026 is the year of the HORSE! 🐎 _umyapoi intensifies_
 
-  #### Manga
+### What I’m reading
 
-  ##### Ongoing
+#### Manga
 
-  1. [Akane-banashi](https://mangaplus.shueisha.co.jp/titles/100185)
-  2. [DANDADAN](https://mangaplus.shueisha.co.jp/titles/100171)
-  3. [One Piece](https://myanimelist.net/manga/13/One_Piece)
-  4. [Girl meets Rock!](https://mangaplus.shueisha.co.jp/titles/100291)
-  5. [Kakegurui](https://global.bookwalker.jp/series/75664/)
-  6. [Drama Queen](https://mangaplus.shueisha.co.jp/titles/100404)
-  7. [Eunuch of Empire](https://mangaplus.shueisha.co.jp/titles/100439)
-  8. [G.G.G.](https://mangaplus.shueisha.co.jp/titles/100480)
-  9. [Gokurakugai](https://mangaplus.shueisha.co.jp/titles/100230)
-  10. [Home at the Horizon](https://mangaplus.shueisha.co.jp/titles/100467)
-  11. [Hope You're Happy, Lemon](https://mangaplus.shueisha.co.jp/titles/100280)
-  12. [Kindergarten WARS](https://mangaplus.shueisha.co.jp/titles/100246)
-  13. [Magical Girl and Narco Wars](https://mangaplus.shueisha.co.jp/titles/100491)
-  14. [Make the Exorcist Fall in Love](https://mangaplus.shueisha.co.jp/titles/100198)
-  15. [MARRIAGETOXIN](https://mangaplus.shueisha.co.jp/titles/100190)
-  16. [Monochrome Days](https://mangaplus.shueisha.co.jp/titles/100372)
-  17. [Night Light Hounds](https://mangaplus.shueisha.co.jp/titles/100374)
-  18. [No Gyaru in This Class](https://mangaplus.shueisha.co.jp/titles/100357)
-  19. [Otr of the Flame](https://mangaplus.shueisha.co.jp/titles/100493)
-  20. [SAKAMOTO DAYS](https://mangaplus.shueisha.co.jp/titles/100127)
-  21. [SPY x FAMILY](https://mangaplus.shueisha.co.jp/titles/100056)
-  22. [The God Before Me](https://mangaplus.shueisha.co.jp/titles/100289)
-  23. [War of the Adults](https://mangaplus.shueisha.co.jp/titles/100479)
+##### Ongoing
 
-  ### What I’m watching
+1. [Akane-banashi](https://mangaplus.shueisha.co.jp/titles/100185)
+2. [DANDADAN](https://mangaplus.shueisha.co.jp/titles/100171)
+3. [One Piece](https://myanimelist.net/manga/13/One_Piece)
+4. [Girl meets Rock!](https://mangaplus.shueisha.co.jp/titles/100291)
+5. [Kakegurui](https://global.bookwalker.jp/series/75664/)
+6. [Drama Queen](https://mangaplus.shueisha.co.jp/titles/100404)
+7. [Eunuch of Empire](https://mangaplus.shueisha.co.jp/titles/100439)
+8. [G.G.G.](https://mangaplus.shueisha.co.jp/titles/100480)
+9. [Gokurakugai](https://mangaplus.shueisha.co.jp/titles/100230)
+10. [Home at the Horizon](https://mangaplus.shueisha.co.jp/titles/100467)
+11. [Hope You're Happy, Lemon](https://mangaplus.shueisha.co.jp/titles/100280)
+12. [Kindergarten WARS](https://mangaplus.shueisha.co.jp/titles/100246)
+13. [Magical Girl and Narco Wars](https://mangaplus.shueisha.co.jp/titles/100491)
+14. [Make the Exorcist Fall in Love](https://mangaplus.shueisha.co.jp/titles/100198)
+15. [MARRIAGETOXIN](https://mangaplus.shueisha.co.jp/titles/100190)
+16. [Monochrome Days](https://mangaplus.shueisha.co.jp/titles/100372)
+17. [Night Light Hounds](https://mangaplus.shueisha.co.jp/titles/100374)
+18. [No Gyaru in This Class](https://mangaplus.shueisha.co.jp/titles/100357)
+19. [Otr of the Flame](https://mangaplus.shueisha.co.jp/titles/100493)
+20. [SAKAMOTO DAYS](https://mangaplus.shueisha.co.jp/titles/100127)
+21. [SPY x FAMILY](https://mangaplus.shueisha.co.jp/titles/100056)
+22. [The God Before Me](https://mangaplus.shueisha.co.jp/titles/100289)
+23. [War of the Adults](https://mangaplus.shueisha.co.jp/titles/100479)
 
-  > Now it’s at a more manageable number since we had to re-set up our homelab 😄 so now I can list these down from memory!
-  
-  > I’d also like to add that I saw the RSS feed generator (?) in Plex, so now I understand how people post when they’ve watched a film or episode in places like Mastodon 😆
+### What I’m watching
 
-  - [Uma Musume: Cinderella Gray](https://myanimelist.net/anime/59636/Uma_Musume__Cinderella_Gray) (a new era!!!)
-  - [SPY x FAMILY Season 3](https://myanimelist.net/anime/59027/Spy_x_Family_Season_3) — recently caught up to the latest episode HUUUU i’m so happy seeing the manga panels I read before now animated 🥹
-  - [Plur1bus](https://tv.apple.com/us/show/pluribus/umc.cmc.37axgovs2yozlyh3c2cmwzlza)
-  - [Fallout Season 2](https://www.primevideo.com/detail/Fallout/0KBDY8OBBE3Y0RV5FOQH96H3N6)
+> Now it’s at a more manageable number since we had to re-set up our homelab 😄 so now I can list these down from memory!
 
-  ### Communities I'm Moderating
+> I’d also like to add that I saw the RSS feed generator (?) in Plex, so now I understand how people post when they’ve watched a film or episode in places like Mastodon 😆
 
-  - [Tambayan 404](https://tambayan404.com)
-  - [Friends of Figma, Philippines](https://friends.figma.com/philippines)
-  - [Pinay Bike Commuter Community](https://fb.com/groups/pinaybikecommutercommunity)
+- [Uma Musume: Cinderella Gray](https://myanimelist.net/anime/59636/Uma_Musume__Cinderella_Gray) (a new era!!!)
+- [SPY x FAMILY Season 3](https://myanimelist.net/anime/59027/Spy_x_Family_Season_3) — recently caught up to the latest episode HUUUU i’m so happy seeing the manga panels I read before now animated 🥹
+- [Plur1bus](https://tv.apple.com/us/show/pluribus/umc.cmc.37axgovs2yozlyh3c2cmwzlza)
+- [Fallout Season 2](https://www.primevideo.com/detail/Fallout/0KBDY8OBBE3Y0RV5FOQH96H3N6)
 
-  > Want to know more about the concept of `/now` pages? Check out [nownownow.com/about](https://nownownow.com/about). You can also check my `/now` page on nownownow.com: [Chi’s nownownow page](https://nownownow.com/p/kreC)
+### Communities I'm Moderating
+
+- [Tambayan 404](https://tambayan404.com)
+- [Friends of Figma, Philippines](https://friends.figma.com/philippines)
+- [Pinay Bike Commuter Community](https://fb.com/groups/pinaybikecommutercommunity)
+
+> Want to know more about the concept of `/now` pages? Check out [nownownow.com/about](https://nownownow.com/about). You can also check my `/now` page on nownownow.com: [Chi’s nownownow page](https://nownownow.com/p/kreC)
+
 </Page>
