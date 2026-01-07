@@ -1,7 +1,5 @@
 import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
-import { rehypeUploadsToCloudinary } from "@utils/cloudinary/rehypeUploadsToCloudinary";
-import { remarkCloudinaryLocalUploads } from "@utils/cloudinary/remarkLocalUploads";
 
 const blog = defineCollection({
   // Load Markdown and MDX files in the `src/content/blog/` directory.
