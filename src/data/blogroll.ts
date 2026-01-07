@@ -34,16 +34,19 @@ export const BLOGROLL_LIST: Blogroll[] = [
     url: "https://cyrneko.eu/",
     domain: "cyrneko.eu",
     author: "Alexia",
+    note: "I found the button/badge grid endearing and a nice throwback to the time when so many other sites had that by default. Nowadays it’s not as popular now, but I like that she has some on her site.",
   },
   {
     url: "https://gerireid.com/",
     domain: "gerireid.com",
     author: "Geri Reid",
+    note: "I love how personalized her website is and I wanted to learn more about accessibility for websites!",
   },
   {
     url: "https://matthewsmith.website/",
     domain: "matthewsmith.website",
     author: "Matthew Smith",
+    note: "A super simple website with great reads.",
   },
   {
     url: "https://missmansanas.com/",
@@ -67,6 +70,7 @@ export const BLOGROLL_LIST: Blogroll[] = [
     url: "https://flamedfury.com/",
     domain: "flamedfury.com",
     author: "fLaMEd🔥",
+    note: "I found it cool that his website is very loud, yet also unapologetically what it is now. There’s also so many pages and things to look through, I saved his website so I could explore it from time to time.",
   },
   {
     url: "https://mkultra.monster/",
@@ -96,15 +100,18 @@ export const BLOGROLL_LIST: Blogroll[] = [
     url: "https://json.blog/",
     domain: "json.blog",
     author: "Jason Becker",
+    note: "I super duper love the terminal style and I’m such a sucker for monospaced fonts; I immediately saved his website as a source of inspiration 😆",
   },
   {
     url: "https://www.thefrugalgamer.net/",
     domain: "www.thefrugalgamer.net",
+    note: "Personally I saved her website because of the early 2010’s? or late 2000’s? aesthetic that reminded me of the websites I used to frequent when I was a kid. Her site is also suuuuper duper personalized, and serves as an inspiration of how I could also make my website to be.",
   },
   {
     url: "https://www.trevorlasn.com/",
     domain: "www.trevorlasn.com",
     author: "Trevor I. Lasn",
+    note: "I initially saw his blog from a shared article and figured I’d save his website since the style was simple, but it does the job really well.",
   },
   {
     url: "https://anhvn.com/",
@@ -158,7 +165,25 @@ export const BLOGROLL_LIST: Blogroll[] = [
     url: "https://www.interroban.gg/",
     domain: "www.interroban.gg",
     author: "Luke Mitchell",
-    note: "I'm not sure when I visited his website yesterday, might've been mixed with all the other links I opened before I had to stop myself from viewing other people's sites and had to work on my own. But after checking it, I like his footer showing his last deply + the commit related to the last update on his website 😄 I think that's neat!",
+    note: "I’m not sure when I visited his website yesterday, might’ve been mixed with all the other links I opened before I had to stop myself from viewing other people’s sites and had to work on my own. But after checking it, I like his footer showing his last deply + the commit related to the last update on his website 😄 I think that’s neat!",
+  },
+  {
+    url: "https://vale.rocks/",
+    domain: "vale.rocks",
+    author: "Declan Chidlow",
+    note: "I initially stumbled upon his site from an article I was reading, and loved the style of his website. I then learned afterwards that he also helps maintain the personalsit.es directory, which is cool! 😁",
+  },
+  {
+    url: "https://henry.codes/",
+    domain: "henry.codes",
+    author: "Henry Desroches",
+    note: "The first time I stumbled upon his website, I was in awe with how unique and awesome it looked like! His website looks like a digitized newspaper that’s very interactive, and is such a great flex of skill knowing that it’s also mobile responsive!!",
+  },
+  {
+    url: "https://nerdy.dev/",
+    domain: "nerdy.dev",
+    author: "Adam Argyle",
+    note: "His website is super interactive and also very cool.",
   },
   // {
   //   url: "",
