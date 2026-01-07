@@ -191,6 +191,24 @@ export const BLOGROLL_LIST: Blogroll[] = [
     author: "Flo Guo",
     note: "Her website feels like me taking a peek in her digital notebook with so many notes and musings!",
   },
+  {
+    url: "https://rowan.fyi/",
+    domain: "rowan.fyi",
+    author: "Rowan Merewood",
+    note: "His website hosts all the different coding and art projects he’s done over the years. I particularly find the Color date picker amusing as I remember having a blast going through all the different ways you could make the worst kind of date picker for the Bad UX World Cup 😆",
+  },
+  {
+    url: "https://sidebar.io/",
+    domain: "sidebar.io",
+    author: "Sacha Greif",
+    note: "I’ve been following Sidebar since when I was still active in Twitter, and I figured I’d also list here the website where I get some of the things I read about design and tech via newsletter.",
+  },
+  {
+    url: "https://productpicnic.beehiiv.com/",
+    domain: "productpicnic.beehiiv.com",
+    author: "Pavel Samsonov",
+    note: "I follow Pavel online everywhere else, so when he announced he was going to have a newsletter, I subscribed as soon as I could 😄 I like his takes on UX and product management, and usually he says a lot of the quiet parts out loud and even links back to those who also talk about that more!",
+  },
   // {
   //   url: "",
   //   domain: "",
