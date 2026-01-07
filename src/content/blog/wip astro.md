@@ -23,7 +23,7 @@ So far though, I do like how I am understanding where things are and how they’
 
 For now, what I can share is just the repo of where the code lives, and a screenshot or side-by-side comparison with what I have here in my 11ty setup and how it fares with my Astro rendition.
 
-![Screenshot of Chi’s personal website, the left being the render in Eleventy, while the right is built with Astro.](../img/uploads/2025/Pasted%20image%2020251224143132.png "I don’t have the archives/ folder in the Astro build yet as I focused on my blog posts for now, but it’s slowly getting there")
+![Screenshot of Chi’s personal website, the left being the render in Eleventy, while the right is built with Astro.](/uploads/2025/Pasted%20image%2020251224143132.png "I don’t have the archives/ folder in the Astro build yet as I focused on my blog posts for now, but it’s slowly getting there")
 
 Also if you check the commits, you’ll find that the first ever commit is _one big commit_ because I initially just wanted to do the “first” ever commit to my Astro setup as… “set up current personal website in Astro”. But I’m learning now that it’s not as simple as just importing my `.md` files and pages 😆 (I mean, it could be, but I also wanted to keep the current styles, so… yeah haha)
 

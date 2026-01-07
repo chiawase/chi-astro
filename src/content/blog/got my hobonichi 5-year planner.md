@@ -12,9 +12,9 @@ postLanguage: english
 
 Just got my [hobonichi 5-year planner](https://www.1101.com/store/techo/en/5year/)! I initially learned about this from a friend of mine who started journalling last year, also with a 5-year planner (but hers is from 2025–2029).
 
-![Chi holding up a hobonichi 5-year planner for the years 2026 to 2030. The brown leather cover has those labels embossed in gold colored Japanese characters.](../img/uploads/2025/photo_2025-12-07_16-30-28.jpg)
+![Chi holding up a hobonichi 5-year planner for the years 2026 to 2030. The brown leather cover has those labels embossed in gold colored Japanese characters.](/uploads/2025/photo_2025-12-07_16-30-28.jpg)
 
-![A partially opened box for the hobonichi techo life book, with the years 2026 to 2030 printed on the teal box cover set to the right. Inside the box is a paper instruction card with writing in Japanese, reading as "about the big hobonichi 5-year planner".](../img/uploads/2025/photo_2025-12-07_16-30-33.jpg)
+![A partially opened box for the hobonichi techo life book, with the years 2026 to 2030 printed on the teal box cover set to the right. Inside the box is a paper instruction card with writing in Japanese, reading as "about the big hobonichi 5-year planner".](/uploads/2025/photo_2025-12-07_16-30-33.jpg)
 
 I also am happy I can still somewhat read Japanese, since I still remember my hiragana.
 

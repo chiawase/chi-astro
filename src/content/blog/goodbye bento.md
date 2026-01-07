@@ -16,7 +16,7 @@ I did export my data from bento.me though. I’ll just see in the future if I do
 
 And I guess for the sake of preserving how it looked like before it’s fully gone—as I have no plans to join Linktree or make an account there since I don’t really have a need for it—here’s how my Bento page looks like:
 
-![Screenshot of Chi’s full Bento page, viewed on a desktop device. Her photo and bio are set to the left side, while the various Bento cards and widgets are laid out on the right side, containing her various social media links, a feature of her with her old bike, a link to the communities she moderates, which are Friends of Figma Philippines and Tambayan 404, and a map grid of places she’s visited.](../img/uploads/2025/Pasted%20image%2020251219104055.png)
+![Screenshot of Chi’s full Bento page, viewed on a desktop device. Her photo and bio are set to the left side, while the various Bento cards and widgets are laid out on the right side, containing her various social media links, a feature of her with her old bike, a link to the communities she moderates, which are Friends of Figma Philippines and Tambayan 404, and a map grid of places she’s visited.](/uploads/2025/Pasted%20image%2020251219104055.png)
 
 Now I have immortalized (somewhat) my Bento page 😆
 

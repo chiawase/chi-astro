@@ -11,7 +11,7 @@ A friend shared this link in our Tambayan 404 `#coding-chatter` channel: [sticke
 
 Seeing this project, I immediately went and took a photo of my laptop’s current set of stickers on it to submit 😆 The site has an “Upload your own laptop” link with a form on the site.
 
-![Top view of Chi’s MacBook cover decorated with colorful stickers featuring Figma logos, UX Western Visayas, Tambayan 404 (an online community she co-founded during the pandemic), Next Keyboard Club, Posture Works Atelier, and Humanforce. There are also playful “budol” and “naol” word emoji stickers among the mix.](../img/uploads/2025/IMG_3030.png "It’s full of Figma stickers because I got a lot saved up this past year haha plus obviously gonna feature Tambayan 404 too 😁")
+![Top view of Chi’s MacBook cover decorated with colorful stickers featuring Figma logos, UX Western Visayas, Tambayan 404 (an online community she co-founded during the pandemic), Next Keyboard Club, Posture Works Atelier, and Humanforce. There are also playful “budol” and “naol” word emoji stickers among the mix.](/uploads/2025/IMG_3030.png "It’s full of Figma stickers because I got a lot saved up this past year haha plus obviously gonna feature Tambayan 404 too 😁")
 
 Seeing this now though, I realize I don’t even have a [UXPH](https://uxph.org) reference on my laptop! That has to change soon. 😛
 

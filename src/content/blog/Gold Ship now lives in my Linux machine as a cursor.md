@@ -34,7 +34,7 @@ I was going to try and convert the Luigi cursor set to a Linux-friendly version,
 
 I knew from some web sleuthing that one could convert Windows cursor themes into Linux with [win2xcur](https://github.com/quantum5/win2xcur)—and I even tested that now with the Luigi cursor set just to see what it outputs for the sake of this post, since I didn’t do it initially when I changed my cursor theme as I didn’t need to do it myself anymore.
 
-![Screenshot of Chi’s desktop showing two window explorers side-by-side, with annotations on the contents of the left window as the Windows cursor files and the contents of the right window are the converted Linux cursor files.](../img/uploads/2025/Pasted%20image%2020251209192058.png)
+![Screenshot of Chi’s desktop showing two window explorers side-by-side, with annotations on the contents of the left window as the Windows cursor files and the contents of the right window are the converted Linux cursor files.](/uploads/2025/Pasted%20image%2020251209192058.png)
 
 (Just as an added note: I was the one that added the `index.theme` in the right side of the screenshot there. I noticed GTK Settings I use ([nwg-look](https://github.com/nwg-piotr/nwg-look)) likes it if this has some basic information like the Theme Name and a Description. I explain it more later in this post.)
 
@@ -46,17 +46,17 @@ I was happy to have found this [reddit post](https://www.reddit.com/r/UmaMusume/
 
 I downloaded the ZIP file[^2] and took a peek at the files:
 
-![Screenshot of Chi’s file explorer showing ZIP file and the extracted parent folder “Gold Ship Cursor Pack by pixloen”, with 3 folders in it for Mac, Linux, and Windows, and a README text file and a preview image for the cursor set.](../img/uploads/2025/Pasted%20image%2020251209211715.png "As mentioned in the contents and the README, the ZIP does contian the relevant cursor files for Linux, too, as well as other OSes")
+![Screenshot of Chi’s file explorer showing ZIP file and the extracted parent folder “Gold Ship Cursor Pack by pixloen”, with 3 folders in it for Mac, Linux, and Windows, and a README text file and a preview image for the cursor set.](/uploads/2025/Pasted%20image%2020251209211715.png "As mentioned in the contents and the README, the ZIP does contian the relevant cursor files for Linux, too, as well as other OSes")
 
 I followed [the instructions laid out in Arch Linux Wiki](https://wiki.archlinux.org/title/Cursor_themes#GTK:~:text=The%20cursor%20theme%20directory%20structure%20is%20theme%2Dname%2Fcursors) to set up the directory properly in my `~/.local/share/icons/` folder and hoped for the best. I did see it show up in my **GTK Settings > Mouse cursor** tab, so I felt hopeful this was working.
 
-![Cropped screenshot of a file explorer on the left showing a folder named “gold-ship-initial” with another folder named “cursors” and an index.theme file, and the GTK Settings on the right with the mouse cursor tab active. In the settings, the highlighted item in the list is labeled “Gold-Ship”, with a cursor theme preview to its right.](../img/uploads/2025/Pasted%20image%2020251209212646.png)
+![Cropped screenshot of a file explorer on the left showing a folder named “gold-ship-initial” with another folder named “cursors” and an index.theme file, and the GTK Settings on the right with the mouse cursor tab active. In the settings, the highlighted item in the list is labeled “Gold-Ship”, with a cursor theme preview to its right.](/uploads/2025/Pasted%20image%2020251209212646.png)
 
 (I have another item here named “Gold Ship Cursors” as that’s my properly set up cursor set already.)
 
 I was confused at the start on why this wasn’t working. So I took a peek at how other cursor themes were set up in `/usr/share/icons` since I saw that was also another place one could look at for cursor themes. I looked at the Adwaita cursor set and noticed there were specific names to certain cursor image, and some were even using the same image, but had a 🔗 link icon on its preview as well.
 
-![Screenshot of Chi’s file explorer showing the Adwaita cursors folder contents, with an annotation for the first 3 cursor images saying, “why do these have no link icons?” and the next 5 cursor images have another annotation saying, “why do these have a link icon and the file name is in italics?”](../img/uploads/2025/Pasted%20image%2020251209214930.png)
+![Screenshot of Chi’s file explorer showing the Adwaita cursors folder contents, with an annotation for the first 3 cursor images saying, “why do these have no link icons?” and the next 5 cursor images have another annotation saying, “why do these have a link icon and the file name is in italics?”](/uploads/2025/Pasted%20image%2020251209214930.png)
 
 *What’s that? Why is it like that?*
 
@@ -66,7 +66,7 @@ Judging from how everything else is laid out in the folder, I inferred that this
 
 This is the final output:
 
-![Screenshot of Chi’s Linux desktop with two file explorers side by side. The left side is showing the contents of the Adwaita cursors folder contents, while the right side is showing the gold-ship-cursors contents. Some of the files have the same names.](../img/uploads/2025/Pasted%20image%2020251209215846.png)
+![Screenshot of Chi’s Linux desktop with two file explorers side by side. The left side is showing the contents of the Adwaita cursors folder contents, while the right side is showing the gold-ship-cursors contents. Some of the files have the same names.](/uploads/2025/Pasted%20image%2020251209215846.png)
 
 The left side is my reference, which are the Adwaita cursor images. The right side is my cleaned up version for the Gold Ship cursors to work well with Linux.
 
@@ -74,7 +74,7 @@ The left side is my reference, which are the Adwaita cursor images. The right si
 
 I didn’t know how to do this programatically, so I did each remapping one-by-one.
 
-![3 side-by-side file folders showing the Adwaita cursors as the reference folder, the Gold Ship cursor pack based on how it looked initially after exporting, and the cleaned up Gold Ship cursor files as a preview of the final output that works as the cursor set used in Chi’s Linux setup.](../img/uploads/2025/Pasted%20image%2020251209224136.png "the reference, the before, and the after")
+![3 side-by-side file folders showing the Adwaita cursors as the reference folder, the Gold Ship cursor pack based on how it looked initially after exporting, and the cleaned up Gold Ship cursor files as a preview of the final output that works as the cursor set used in Chi’s Linux setup.](/uploads/2025/Pasted%20image%2020251209224136.png "the reference, the before, and the after")
 
 My process was just like this:
 
@@ -94,22 +94,22 @@ My process was just like this:
 
 	Here’s the history of my shell logs when I set it up:
 
-  ![Screenshot of a terminal showing a log of the commands run by Chi on 8 December, consisting mostly of commands creating symbolic links using the ln -s command.](../img/uploads/2025/Pasted%20image%2020251209222407.png "Recently learned about the “history” command which is helpful to trace back my steps and show them here 😁")
+  ![Screenshot of a terminal showing a log of the commands run by Chi on 8 December, consisting mostly of commands creating symbolic links using the ln -s command.](/uploads/2025/Pasted%20image%2020251209222407.png "Recently learned about the “history” command which is helpful to trace back my steps and show them here 😁")
 
   There’s some liberties exercised in some of them, where I matched them based on what the cursor felt like it would work better in.
 
-  ![Three file explorer views showing cursor files: left shows Adwaita’s “wait” and “watch” cursors that look identical, middle shows the Gold Ship “wait” cursor, and right shows the Gold Ship final mapping where “wait” and “watch” are different cursors.](../img/uploads/2025/Pasted%20image%2020251209230334.png)
+  ![Three file explorer views showing cursor files: left shows Adwaita’s “wait” and “watch” cursors that look identical, middle shows the Gold Ship “wait” cursor, and right shows the Gold Ship final mapping where “wait” and “watch” are different cursors.](/uploads/2025/Pasted%20image%2020251209230334.png)
 
   An example is the `wait` cursor for golshi[^3], instead of copying how Adwaita cursors have it set up—where `wait` and `watch` are the same cursor—I used the `left_ptr_watch` cursor instead and just renamed it accordingly.
 4. Once I was done doing that, I had one last thing to check: the `index.theme` file. The exported cursor pack also did have the same file, but I edited it to rename the title, add a description, and also add an `Inherits=` item and set it to Adwaita, to make it some sort of fallback cursor theme.[^4]
 
-  ![Three index.theme files side-by-side: left shows Adwaita cursor theme configuration, middle shows Gold Ship initial theme with Name=Gold-Ship, right shows Gold Ship Cursors final theme with Inherits=Adwaita.](../img/uploads/2025/Pasted%20image%2020251209232138.png)
+  ![Three index.theme files side-by-side: left shows Adwaita cursor theme configuration, middle shows Gold Ship initial theme with Name=Gold-Ship, right shows Gold Ship Cursors final theme with Inherits=Adwaita.](/uploads/2025/Pasted%20image%2020251209232138.png)
 
 After selecting the Gold Ship Cursors in my GTK Settings and clicking **Apply**, I rebooted my Linux machine and hoped for the best.
 
 When it loaded again… violà! It’s here!
 
-![Screenshot of GTK Settings window with the Mouse cursor tab open and Gold Ship Cursors is the selected cursor theme. A preview of the different cursors available in the theme is shown to the right, along with an option to adjust cursor size, which is currently set to 24 pixels.](../img/uploads/2025/Pasted%20image%2020251209233002.png "Showing the Gold Ship Cursors off… with my Gold Ship cursor 😎 hehe")
+![Screenshot of GTK Settings window with the Mouse cursor tab open and Gold Ship Cursors is the selected cursor theme. A preview of the different cursors available in the theme is shown to the right, along with an option to adjust cursor size, which is currently set to 24 pixels.](/uploads/2025/Pasted%20image%2020251209233002.png "Showing the Gold Ship Cursors off… with my Gold Ship cursor 😎 hehe")
 
 I’m so happy the cursor also has animations. She’s so cute next to the cursor pointer. *Anything but training* loljk
 

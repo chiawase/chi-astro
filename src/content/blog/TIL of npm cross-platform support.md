@@ -99,7 +99,7 @@ I immediately pushed my changes and waited for the logs. But my deployment issue
 
  I forgot to set up the new environment variables on my production site (technically, this site you’re looking at, which is [chisenires.design](https://chisenires.design)) so I just had to set that up and tada!! All my changes are now here! 🥳
 
-![Screenshot of production deployment logs for Chi’s website, from latest to earliest. The latest item in the list is a successful deployment that was manually triggered, followed by a cancelled deployment, then the remaining items are all failed deployments from 38 minutes ago and 2 days ago.](../img/uploads/2025/Pasted%20image%2020251114182455.png "the bane of my existence the past few days. The cancelled one was when I saw I forgot to add the Nixpacks environment variable in this setup")
+![Screenshot of production deployment logs for Chi’s website, from latest to earliest. The latest item in the list is a successful deployment that was manually triggered, followed by a cancelled deployment, then the remaining items are all failed deployments from 38 minutes ago and 2 days ago.](/uploads/2025/Pasted%20image%2020251114182455.png "the bane of my existence the past few days. The cancelled one was when I saw I forgot to add the Nixpacks environment variable in this setup")
 
 When I shared it to my boyfriend, he just said, “this is why I don’t like working on Windows.” 😆 I don’t know why exactly this is an issue of working on my website code on both Windows and Mac, but since the error logs did say something about checking if my package manager could support [cross-platform](https://sharp.pixelplumbing.com/install/#cross-platform) stuff, I guess this is truly a Windows moment(tm) 😛
 
