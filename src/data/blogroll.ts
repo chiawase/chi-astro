@@ -209,6 +209,12 @@ export const BLOGROLL_LIST: Blogroll[] = [
     author: "Pavel Samsonov",
     note: "I follow Pavel online everywhere else, so when he announced he was going to have a newsletter, I subscribed as soon as I could 😄 I like his takes on UX and product management, and usually he says a lot of the quiet parts out loud and even links back to those who also talk about that more!",
   },
+  {
+    url: "https://piccalil.li/",
+    domain: "piccalil.li",
+    author: "Set Studio / Andy Bell",
+    note: "I’ve also been following Andy Bell’s works since Twitter times and also support the things they do over at Picalilli! I like reading through their posts when I have the time.",
+  },
   // {
   //   url: "",
   //   domain: "",
