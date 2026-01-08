@@ -6,7 +6,7 @@ updatedDate: 2025-12-19T02:19:43+00:00
 
 import Page from "@layouts/Page.astro";
 import { SITE_DESCRIPTION } from "@consts";
-import { CONTACT_LINKS } from "@data/contactLinks";
+import { ACCOUNT_LINKS } from "@data/accountLinks";
 
 <Page
   title="Where to find me online"
@@ -16,7 +16,7 @@ import { CONTACT_LINKS } from "@data/contactLinks";
 Here are all my social links, in no particular order:
 
 <ul>
-  {CONTACT_LINKS.map((item) => (
+  {ACCOUNT_LINKS.map((item) => (
     <li>
       <a target="_blank" href={item.socialUrl} title={item.note ?? ""}>
         {item.customLabel ?? `${item.username} on ${item.platform}`}

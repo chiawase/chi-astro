@@ -1,5 +1,5 @@
 /* For listing all my accounts */
-export type ContactLinks = {
+export type AccountLinks = {
   username?: string;
   platform: string;
   socialUrl: string;
@@ -7,7 +7,7 @@ export type ContactLinks = {
   customLabel?: string;
 };
 
-export const CONTACT_LINKS: ContactLinks[] = [
+export const ACCOUNT_LINKS: AccountLinks[] = [
   {
     username: "@chiawase",
     platform: "Matrix.org",
