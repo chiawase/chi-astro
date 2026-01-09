@@ -1,0 +1,24 @@
+---
+import { type CollectionEntry, getCollection, render } from "astro:content";
+import MangaPost from "@layouts/MangaPost.astro";
+
+export async function getStaticPaths() {
+  const manga = await getCollection("manga");
+  manga.sort((a, b) => a.data.title.localeCompare(b.data.title));
+  return manga.map((mangaEntry) => ({
+    params: { slug: mangaEntry.id },
+    props: { mangaEntry },
+  }));
+}
+
+type Props = {
+  mangaEntry: CollectionEntry<"manga">;
+};
+
+const { mangaEntry } = Astro.props;
+const { Content } = await render(mangaEntry);
+---
+
+<MangaPost manga={mangaEntry}>
+  <Content />
+</MangaPost>

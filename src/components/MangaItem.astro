@@ -1,0 +1,63 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+
+import { DateTime } from "luxon";
+
+import MangaMetadata from "@components/MangaMetadata.astro";
+
+import { resolveCloudinaryUrl } from "@utils/cloudinary/resolveCloudinaryUrl";
+
+interface Props {
+  manga: CollectionEntry<"manga">;
+}
+
+const { manga } = Astro.props;
+
+const mangaCoverUrl = manga.data.mangaCover
+  ? resolveCloudinaryUrl(manga.data.mangaCover)
+  : null;
+---
+
+<li class="manga-list-item">
+  {mangaCoverUrl &&
+    (<img src={mangaCoverUrl}
+      class="manga-cover-image"
+      alt=`Cover photo for ${manga.data.title}`
+      loading="lazy"
+      />
+    ) /* eventually add some fallback image here */}
+  <div class="manga-details">
+    <a href={`/manga/${manga.id}/`} class="postlist-link postlist-header">
+      {manga.data.title}
+    </a>
+    <MangaMetadata
+      status={manga.data.status}
+      latestChapter={manga.data.latestChapter}
+      tags={manga.data.tags}
+      mangaUrl={manga.data.url}
+    />
+  </div>
+</li>
+<style>
+.manga-list-item {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+
+  & .manga-details {
+    display: block;
+  }
+
+  & .manga-cover-image {
+    --cover-width: 11rem;
+    --cover-height: 15rem;
+
+    width: var(--cover-width);
+    height: var(--cover-height);
+    object-fit: cover;
+  }
+}
+</style>

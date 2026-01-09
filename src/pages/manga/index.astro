@@ -1,0 +1,40 @@
+---
+import { getCollection } from "astro:content";
+
+import Page from "@layouts/Page.astro";
+import MangaItem from "@components/MangaItem.astro";
+
+const page = {
+  title: "Manga",
+  description: "A place for me to track and note down my thoughts on different manga I read."
+};
+
+const manga = (await getCollection("manga")).sort((a, b) =>
+  a.data.title.localeCompare(b.data.title));
+---
+
+<Page
+  title={page.title}
+  description={page.description}
+>
+  <section>
+    <blockquote> A place for me to track and note down my thoughts on different manga I read.</blockquote>
+    <blockquote>While this might not be an exhaustive list of all the manga I’ve read to date, this will serve as the space where I can remember the experiences I’ve had with all memorable manga.</blockquote>
+    <ul class="manga-postlist">
+      {manga.map((mangaTitle) => {
+        return (<MangaItem manga={mangaTitle} />);
+      })}
+    </ul>
+  </section>
+
+</Page>
+<style>
+.manga-postlist {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+</style>

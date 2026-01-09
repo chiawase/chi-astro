@@ -1,0 +1,75 @@
+---
+import { Icon } from "astro-icon/components";
+
+interface Props {
+  status: string;
+  latestChapter: string;
+  tags: string[] | undefined;
+  mangaUrl: string;
+}
+
+const {
+  status,
+  latestChapter,
+  tags,
+  mangaUrl,
+} = Astro.props;
+---
+
+<ul class="manga-metadata">
+  <li class="manga-status">
+    <div class=`manga-read-status manga-read-status-${status}`>{status}</div>
+  </li>
+  <li><span class="label">Latest Chapter:</span> {latestChapter}</li>
+  {Array.isArray(tags) && tags.length > 0 && (
+    <li><span class="label">Tags:</span>
+      {tags.map((tag) => (<span class="manga-tag">{tag}</span>))}
+    </li>
+  )}
+  <li><a target="_blank" href={mangaUrl} class="manga-url">Read Manga</a></li>
+</ul>
+<style>
+:root {
+  --manga-status-finished: #96EC83;
+  --manga-status-reading: #EC8396;
+  --manga-status-dropped: #abb1ab;
+  --manga-status-text-color: #2E312D;
+}
+
+.manga-metadata {
+  list-style-type: none;
+  padding-left: 0;
+
+  & li {
+    line-height: 160%;
+    margin-bottom: 0.75rem;
+  }
+
+  & .manga-read-status {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.75rem;
+    line-height: 100%;
+    margin: 0.5rem 0;
+    color: var(--manga-status-text-color);
+    width: fit-content;
+    font-variation-settings:
+      "wdth" 100,
+      "wght" 400;
+    font-style: italic;
+    transition: var(--subtle-transition);
+
+    &.manga-read-status-finished { background-color: var(--manga-status-finished); }
+    &.manga-read-status-reading { background-color: var(--manga-status-reading); }
+    &.manga-read-status-dropped { background-color: var(--manga-status-dropped); }
+  }
+
+  & .label {
+    color: var(--color-gray-20);
+  }
+
+  & .manga-tag:not(:last-of-type):after {
+    content: ", ";
+  }
+}
+</style>

@@ -46,4 +46,16 @@ const games = defineCollection({
   }),
 });
 
-export const collections = { blog, archive, games };
+const manga = defineCollection({
+  loader: glob({ base: "./src/content/manga", pattern: "**/*.{md,mdx}" }),
+  schema: z.object({
+    title: z.string(),
+    url: z.string().url(),
+    mangaCover: z.string().optional(),
+    tags: z.array(z.string()).optional(),
+    latestChapter: z.string(),
+    status: z.enum(["reading", "finished", "dropped"]),
+  }),
+});
+
+export const collections = { blog, archive, games, manga };

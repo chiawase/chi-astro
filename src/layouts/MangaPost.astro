@@ -1,0 +1,56 @@
+---
+import { type CollectionEntry, getCollection, render } from "astro:content";
+
+import Page from "@layouts/Page.astro";
+import MangaMetadata from "@components/MangaMetadata.astro";
+
+import { resolveCloudinaryUrl } from "@utils/cloudinary/resolveCloudinaryUrl";
+
+type Props = {
+  manga: CollectionEntry<"manga">;
+};
+
+const { manga } = Astro.props;
+
+const hasNotes = manga.rendered?.html !== "";
+
+const mangaCoverUrl = manga.data.mangaCover
+  ? resolveCloudinaryUrl(manga.data.mangaCover)
+  : null;
+---
+
+<Page
+  title=`🎮 ${manga.data.title}`
+  description=`Chi’s notes on ${manga.data.title}. Latest chapter ${manga.data.latestChapter}`
+  showTitle={false}
+>
+  <img
+    src={mangaCoverUrl}
+    class="manga-cover-image"
+    alt=`Cover photo for ${manga.data.title}`
+    loading="lazy"
+  />
+  <h1>{manga.data.title}</h1>
+
+  <div class="manga-metadata">
+    <MangaMetadata
+      status={manga.data.status}
+      latestChapter={manga.data.latestChapter}
+      tags={manga.data.tags}
+      mangaUrl={manga.data.url}
+    />
+  </div>
+  <p><a href="/manga/">← Go back to all manga</a></p>
+
+  {hasNotes && (<div class="manga-notes">
+    <h2>Notes</h2>
+    <slot />
+  </div>)}
+</Page>
+<style>
+.manga-cover-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 20vw;
+}
+</style>

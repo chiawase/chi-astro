@@ -14,6 +14,7 @@ export const MORE_PAGES: MorePagesEntry[] = [
   { title: "Archive", url: "/archive/" },
   { title: "Changelog", url: "/changelog/" },
   { title: "Games", url: "/games/" },
+  { title: "Manga", url: "/manga/" },
   // { title: "replace", url: "/replace/" },
 
   // Optional: groups
