@@ -443,6 +443,17 @@ blockquote {
   }
 }
 
+details {
+  margin-bottom: 1rem;
+  background-color: var(--background-color-overlay);
+  padding: 0.75rem 1.25rem;
+  border-radius: 1rem;
+}
+
+summary:before {
+  content: "Content info: ";
+}
+
 section.intro {
   font-size: 1.2rem;
   background-color: var(--background-color-overlay);
