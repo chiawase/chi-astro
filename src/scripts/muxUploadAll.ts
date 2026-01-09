@@ -3,7 +3,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { muxUploadIfNeeded } from "../utils/muxUploader";
 
-const ROOT = path.resolve("src/content/img/uploads");
+const ROOT = path.resolve("uploads");
 
 async function walk(dir: string): Promise<string[]> {
   const out: string[] = [];

@@ -22,7 +22,7 @@ type ManifestEntry = {
 
 type Manifest = Record<string, ManifestEntry>; // key = localRelPath
 
-const UPLOAD_ROOT = path.resolve("src/content/img/uploads");
+const UPLOAD_ROOT = path.resolve("uploads");
 const CACHE_DIR = path.resolve(process.cwd(), "_cache");
 const MANIFEST_PATH = path.join(CACHE_DIR, "cloudinary-manifest.json");
 

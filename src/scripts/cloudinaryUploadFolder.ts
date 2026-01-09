@@ -43,11 +43,6 @@ function isImage(file: string) {
 /**
  * Convert an absolute file path into the manifest key you use in Markdown:
  *   "uploads/2025/foo.png"
- *
- * This assumes your local originals live under:
- *   src/content/img/uploads/...
- *
- * If yours differ, edit UPLOADS_ROOT below.
  */
 function absPathToManifestKey(absFile: string, uploadsRootAbs: string): string {
   const rel = path.relative(uploadsRootAbs, absFile).replace(/\\/g, "/");
@@ -58,16 +53,14 @@ async function main() {
   const folderArg = process.argv[2];
   if (!folderArg) {
     console.error("Usage: npm run cloudinary:upload:folder -- <folder>");
-    console.error(
-      "Example: npm run cloudinary:upload:folder -- src/content/img/uploads/2025",
-    );
+    console.error("Example: npm run cloudinary:upload:folder -- uploads/2025");
     process.exit(1);
   }
 
   const projectRoot = process.cwd();
 
   // IMPORTANT: adjust this if your originals live elsewhere
-  const UPLOADS_ROOT = path.resolve(projectRoot, "src/content/img/uploads");
+  const UPLOADS_ROOT = path.resolve(projectRoot, "uploads");
 
   const folderAbs = path.resolve(projectRoot, folderArg);
   if (!fs.existsSync(folderAbs)) {
