@@ -2748,5 +2748,41 @@
     "etag": "c1883b1af9bec1e20ffc50749829d540",
     "uploadedAt": "2026-01-07T15:58:29.214Z",
     "sha1": "5399de1f3a3bc67b2a946db0d7dd433192b21b5c"
+  },
+  "uploads/games/expedition33-gameposter.jpg": {
+    "localRelPath": "uploads/games/expedition33-gameposter.jpg",
+    "publicId": "chisenires.design/uploads/games/expedition33-gameposter",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1767981867/chisenires.design/uploads/games/expedition33-gameposter.jpg",
+    "bytes": 489626,
+    "etag": "9692afdbac69ad5c07eb9152fea49f9a",
+    "uploadedAt": "2026-01-09T18:04:27.688Z"
+  },
+  "uploads/games/expedition33-trueachievements-xboxgamepass.jpg": {
+    "localRelPath": "uploads/games/expedition33-trueachievements-xboxgamepass.jpg",
+    "publicId": "chisenires.design/uploads/games/expedition33-trueachievements-xboxgamepass",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1767981868/chisenires.design/uploads/games/expedition33-trueachievements-xboxgamepass.jpg",
+    "bytes": 166025,
+    "etag": "4847a4aa9be9fa515e3226afdddb7b0a",
+    "uploadedAt": "2026-01-09T18:04:28.812Z"
+  },
+  "uploads/manga/Kakegurui_Volume_6_cover.PNG.webp": {
+    "localRelPath": "uploads/manga/Kakegurui_Volume_6_cover.PNG.webp",
+    "publicId": "chisenires.design/uploads/manga/Kakegurui_Volume_6_cover.PNG",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1767981876/chisenires.design/uploads/manga/Kakegurui_Volume_6_cover.PNG.webp",
+    "bytes": 233830,
+    "etag": "84fac63d492cd208fa5c9b754e476a98",
+    "uploadedAt": "2026-01-09T18:04:36.884Z"
+  },
+  "uploads/manga/One_Piece,_Volume_61_Cover_(Japanese).jpg": {
+    "localRelPath": "uploads/manga/One_Piece,_Volume_61_Cover_(Japanese).jpg",
+    "publicId": "chisenires.design/uploads/manga/One_Piece,_Volume_61_Cover_(Japanese)",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1767981877/chisenires.design/uploads/manga/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg",
+    "bytes": 182705,
+    "etag": "65b5a5e20a74e7caf1feae4a1b2e8d68",
+    "uploadedAt": "2026-01-09T18:04:37.955Z"
   }
 }
