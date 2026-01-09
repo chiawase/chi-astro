@@ -93,7 +93,7 @@ export const BLOGROLL_LIST: Blogroll[] = [
   {
     url: "https://jamesg.blog/",
     domain: "jamesg.blog",
-    author: "James",
+    author: "James Gallagher",
     note: "I initially saw his blog post after seeing his article on a 100 list of things to do for your website, and even the other 100 more that he listed. I still do aspire to get back to that list and do some of 'em, and I also like how many (hidden) pages he has in his website.",
   },
   {
