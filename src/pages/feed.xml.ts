@@ -1,11 +1,7 @@
-import { getCollection } from "astro:content";
-import { unified } from "unified";
-import remarkParse from "remark-parse";
-import remarkRehype from "remark-rehype";
-import rehypeRemoveComments from "rehype-remove-comments";
-import rehypeRaw from "rehype-raw";
-import rehypeStringify from "rehype-stringify";
-import remarkGfm from "remark-gfm";
+import { getCollection, render } from "astro:content";
+import { experimental_AstroContainer as AstroContainer } from "astro/container";
+import { loadRenderers } from "astro:container";
+import { getContainerRenderer as getMDXRenderer } from "@astrojs/mdx";
 
 import { SITE_TITLE, SITE_DESCRIPTION } from "@consts";
 
@@ -20,6 +16,34 @@ function truncate(input: string, max = 60) {
   return s.slice(0, max).trimEnd() + "...";
 }
 
+function makeFeedSafeHtml(html: string) {
+  let out = html;
+
+  // 1) Remove any scripts (feed readers often strip them, and some stop rendering after them)
+  out = out.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "");
+  out = out.replace(/<script\b[^>]*\/>/gi, ""); // self-closing
+
+  // 2) Replace <lite-youtube videoid="...">...</lite-youtube> with a simple link
+  out = out.replace(
+    /<lite-youtube\b[^>]*\bvideoid=["']([^"']+)["'][^>]*>[\s\S]*?<\/lite-youtube>/gi,
+    (_m, id) =>
+      `<p><a href="https://www.youtube.com/watch?v=${id}">Watch on YouTube</a></p>`,
+  );
+
+  // If it's self-closing (rare, but safe)
+  out = out.replace(
+    /<lite-youtube\b[^>]*\bvideoid=["']([^"']+)["'][^>]*\/>/gi,
+    (_m, id) =>
+      `<p><a href="https://www.youtube.com/watch?v=${id}">Watch on YouTube</a></p>`,
+  );
+
+  // 3) As a final safety net, remove any remaining iframes
+  out = out.replace(/<iframe\b[^>]*>[\s\S]*?<\/iframe>/gi, "");
+  out = out.replace(/<iframe\b[^>]*\/>/gi, "");
+
+  return out;
+}
+
 /** Escape only where Atom requires text nodes to be safe */
 function escapeXml(input: string) {
   return input
@@ -30,62 +54,54 @@ function escapeXml(input: string) {
     .replaceAll("'", "&apos;");
 }
 
-async function markdownToHtml(markdown: string) {
-  const file = await unified()
-    .use(remarkParse)
-    .use(remarkGfm)
-    .use(remarkRehype, { allowDangerousHtml: true })
-    .use(rehypeRaw)
-    .use(rehypeRemoveComments)
-    .use(rehypeStringify, { allowDangerousHtml: true })
-    .process(markdown);
-
-  return String(file);
-}
-
-function toRfc3339(date: Date) {
-  return date.toISOString();
-}
-
 export async function GET(context: { site: URL }) {
-  const site = context.site;
+  const { site } = context;
   const feedUrl = new URL("/feed.xml", site).toString();
 
-  // Adjust the filter to match your own draft/publish rules
+  // Container needed to render MDX <Content /> to an HTML string
+  const renderers = await loadRenderers([getMDXRenderer()]);
+  const container = await AstroContainer.create({ renderers });
+
   const posts = await getCollection("blog", ({ data }) => !data.draft);
 
   const numberOfLatestPostsToShow = 10;
 
-  // Sort newest first
+  // Sort newest first (by publish date)
   const sorted = [...posts].sort((a, b) => {
-    const da = new Date((a.data.pubDate ?? a.data.date) as any).getTime();
-    const db = new Date((b.data.pubDate ?? b.data.date) as any).getTime();
-    return db - da;
+    return b.data.pubDate.getTime() - a.data.pubDate.getTime();
   });
 
   const latest = sorted.slice(0, numberOfLatestPostsToShow);
 
+  // Feed-level updated: latest updatedDate in the set
   const newestDate =
     latest.length > 0
-      ? new Date((latest[0].data.pubDate ?? latest[0].data.date) as any)
+      ? new Date(Math.max(...latest.map((p) => p.data.updatedDate.getTime())))
       : new Date();
 
   const entriesXml = await Promise.all(
     latest.map(async (post) => {
       const postUrl = new URL(`/blog/${post.id}/`, site).toString();
 
-      const html = await markdownToHtml(post.body);
+      // Compile MD/MDX via content collections…
+      const { Content } = await render(post);
+
+      // …then render to HTML string (so MDX imports/components don’t leak)
+      const rawHtml = await container.renderToString(Content);
+      const html = makeFeedSafeHtml(rawHtml);
 
       const fallbackTitle = truncate(stripHtml(html), 60);
       const title = post.data.title ? String(post.data.title) : fallbackTitle;
 
-      const updated = new Date((post.data.pubDate ?? post.data.date) as any);
+      const published = post.data.pubDate.toISOString();
+      const updated = post.data.updatedDate.toISOString();
 
       return `
   <entry>
     <title>${escapeXml(title)}</title>
     <link href="${escapeXml(postUrl)}" />
-    <updated>${escapeXml(toRfc3339(updated))}</updated>
+    <published>${published}</published>
+    <updated>${updated}</updated>
     <id>${escapeXml(postUrl)}</id>
     <content type="html"><![CDATA[${html}]]></content>
   </entry>`;
@@ -98,7 +114,7 @@ export async function GET(context: { site: URL }) {
   <subtitle>${escapeXml(SITE_DESCRIPTION)}</subtitle>
   <link href="${escapeXml(feedUrl)}" rel="self" />
   <link href="${escapeXml(site.toString())}" />
-  <updated>${escapeXml(toRfc3339(newestDate))}</updated>
+  <updated>${newestDate.toISOString()}</updated>
   <id>${escapeXml(site.toString())}</id>
   <author>
     <name>${escapeXml(SITE_TITLE)}</name>
