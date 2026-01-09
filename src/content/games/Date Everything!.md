@@ -2,7 +2,7 @@
 title: "Date Everything!"
 url: https://store.steampowered.com/app/2201320/Date_Everything/
 platform: steam
-gameImage: ../img/uploads/games/Date-Everything-Artwork-001.webp
+gameImage: /uploads/games/Date-Everything-Artwork-001.webp
 tags:
 - "dating sim"
 - "visual novel"
