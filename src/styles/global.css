@@ -535,6 +535,7 @@ article .e-content * > li {
   list-style: none;
   padding: 0;
   padding-left: 1.5rem;
+  margin-top: 2rem;
 }
 .postlist-item {
   position: relative;
