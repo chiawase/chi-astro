@@ -1,6 +1,6 @@
 ---
 const today = new Date();
-import NavLink from "./NavLink.astro";
+import NavLink from "@components/NavLink.astro";
 import { SITE_URL } from "@consts";
 ---
 
@@ -8,20 +8,22 @@ import { SITE_URL } from "@consts";
 
 <footer>
   <p>All Rights Reserved &copy; {today.getFullYear()}</p>
-  <p>Built with <a href="https://astro.build/">{Astro.generator}</a></p>
+  <p>Built with <a target="_blank" rel="noopener noreferrer" href="https://astro.build/">{Astro.generator}</a></p>
   <p>
     <a
       title="Public website analytics for chisenires.design"
       href="https://umami.chisenires.design/share/368agdyWC4Nl6Bat/chisenires.design"
-      >View my website’s analytics</a
-    >
+      target="_blank"
+      rel="noopener noreferrer"
+      >View my website’s analytics</a>
   </p>
   <p>
         <a
-            title="Website Issues tab"
-            href="https://github.com/chiawase/chi-astro/issues"
-            >View my website’s open issues</a
-        >
+          title="Website Issues tab"
+          href="https://github.com/chiawase/chi-astro/issues"
+          target="_blank"
+          rel="noopener noreferrer"
+          >View my website’s open issues</a>
     </p>
 
   <h2 class="visually-hidden">Bottom level navigation menu</h2>
@@ -30,13 +32,14 @@ import { SITE_URL } from "@consts";
     <NavLink href="/blog/">Blog</NavLink>
     <NavLink href="/about/">About</NavLink>
     <NavLink href="/contact/">Contact</NavLink>
-    <NavLink href="/now/">/now</NavLink>
+    <NavLink href="/now/">Now</NavLink>
     <NavLink href="/more/">More</NavLink>
     <!-- RSS Feed managed via Subscribe Openly -->
     <NavLink
       href=`https://subscribeopenly.net/subscribe/?url=${SITE_URL}/feed.xml`
-      >RSS Feed</NavLink
+      >Subscribe</NavLink
     >
+    <NavLink href="/feed.xml">RSS Feed</NavLink>
   </ul>
 
   <!-- Webring links -->

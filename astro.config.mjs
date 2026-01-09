@@ -21,6 +21,7 @@ import remarkToc from "remark-toc";
 import { rehypeAccessibleEmojis } from "rehype-accessible-emojis";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeFigureTitle from "rehype-figure-title";
+import rehypeExternalLinks from "rehype-external-links";
 
 /* Various plugins */
 import embeds from "astro-embed/integration";
@@ -51,10 +52,17 @@ export default defineConfig({
         [wikiLinkPlugin, { format: "regular" }],
       ],
       rehypePlugins: [
-        rehypeHeadingIds,
         rehypeAccessibleEmojis,
-        [rehypeAutolinkHeadings, { behavior: "append" }],
+        [
+          rehypeExternalLinks,
+          {
+            target: "_blank",
+            rel: ["noopener", "noreferrer"],
+          },
+        ],
         rehypeUploadsToCloudinary,
+        rehypeHeadingIds,
+        [rehypeAutolinkHeadings, { behavior: "append" }],
         rehypeFigureTitle,
       ],
     }),
@@ -78,10 +86,17 @@ export default defineConfig({
       [remarkToc, { heading: "contents", maxDepth: 3 }],
     ],
     rehypePlugins: [
-      rehypeHeadingIds,
       rehypeAccessibleEmojis,
-      [rehypeAutolinkHeadings, { behavior: "append" }],
+      [
+        rehypeExternalLinks,
+        {
+          target: "_blank",
+          rel: ["noopener", "noreferrer"],
+        },
+      ],
       rehypeUploadsToCloudinary,
+      rehypeHeadingIds,
+      [rehypeAutolinkHeadings, { behavior: "append" }],
       rehypeFigureTitle,
     ],
   },

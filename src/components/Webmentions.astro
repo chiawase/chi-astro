@@ -1,6 +1,5 @@
 ---
 import Webmention from "@components/Webmention.astro";
-import WebmentionsSummary from "@components/WebmentionsSummary.astro";
 import WebmentionAvatars from "@components/WebmentionAvatars.astro";
 import { SITE_URL } from "@consts";
 
@@ -66,9 +65,9 @@ const repostsAuthors = mentions
     <p>No mentions yet.</p>
   )}
   <p>
-    These are <a href="https://indieweb.org/Webmention">webmentions</a> via the <a
+    These are <a target="_blank" rel="noopener noreferrer" href="https://indieweb.org/Webmention">webmentions</a> via the <a
       href="https://indieweb.org/">IndieWeb</a
-    > and <a href="https://webmention.io/">webmention.io</a>. Mention this post
+    > and <a target="_blank" rel="noopener noreferrer" href="https://webmention.io/">webmention.io</a>. Mention this post
     from your site:
   </p>
 
@@ -96,9 +95,9 @@ const repostsAuthors = mentions
   <p>
     You can also <a href="/contact/" title="These are my social links!"
       >reach out to me online</a
-    > if you have thoughts to share about anything I’ve posted. Mostly I’m on <a
+    > if you have thoughts to share about anything I’ve posted. Mostly I’m on <a target="_blank" rel="noopener noreferrer"
       href="https://threads.com/@_chiawase">Threads</a
-    >, <a href="https://social.lol/@chi">Mastodon</a>, or <a
+    >, <a target="_blank" rel="noopener noreferrer" href="https://social.lol/@chi">Mastodon</a>, or <a target="_blank" rel="noopener noreferrer"
       href="https://bsky.app/profile/chisenires.design">Bluesky</a
     >.
   </p>

@@ -18,7 +18,12 @@ Here are all my social links, in no particular order:
 <ul>
   {ACCOUNT_LINKS.map((item) => (
     <li>
-      <a target="_blank" href={item.socialUrl} title={item.note ?? ""}>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href={item.socialUrl}
+        title={item.note ?? ""}
+      >
         {item.customLabel ?? `${item.username} on ${item.platform}`}
       </a>
     </li>
