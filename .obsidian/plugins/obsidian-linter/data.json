@@ -283,7 +283,8 @@
     "public",
     "src/content/_templates",
     "src/content/games",
-    "uploads"
+    "uploads",
+    "src/content/manga"
   ],
   "filesToIgnore": [],
   "linterLocale": "system-default",

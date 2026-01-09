@@ -30,7 +30,8 @@
   "syntax_highlighting_mobile": true,
   "enabled_templates_hotkeys": [
     "src/_templates/Post.md",
-    "src/_templates/Game.md"
+    "src/_templates/Game.md",
+    "src/_templates/Manga.md"
   ],
   "startup_templates": [
     ""

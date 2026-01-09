@@ -138,5 +138,13 @@
       ],
       "key": "G"
     }
+  ],
+  "templater-obsidian:create-src/_templates/Manga.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "M"
+    }
   ]
 }
