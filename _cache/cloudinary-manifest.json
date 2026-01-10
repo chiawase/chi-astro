@@ -2756,7 +2756,8 @@
     "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1767981867/chisenires.design/uploads/games/expedition33-gameposter.jpg",
     "bytes": 489626,
     "etag": "9692afdbac69ad5c07eb9152fea49f9a",
-    "uploadedAt": "2026-01-09T18:04:27.688Z"
+    "uploadedAt": "2026-01-09T18:04:27.688Z",
+    "sha1": "e0600da49aecd10505a7b0ade576f98709450c06"
   },
   "uploads/games/expedition33-trueachievements-xboxgamepass.jpg": {
     "localRelPath": "uploads/games/expedition33-trueachievements-xboxgamepass.jpg",
@@ -2765,7 +2766,8 @@
     "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1767981868/chisenires.design/uploads/games/expedition33-trueachievements-xboxgamepass.jpg",
     "bytes": 166025,
     "etag": "4847a4aa9be9fa515e3226afdddb7b0a",
-    "uploadedAt": "2026-01-09T18:04:28.812Z"
+    "uploadedAt": "2026-01-09T18:04:28.812Z",
+    "sha1": "f0b8746e283ea6a1405c6499b6b9274f66925c1a"
   },
   "uploads/manga/Kakegurui_Volume_6_cover.PNG.webp": {
     "localRelPath": "uploads/manga/Kakegurui_Volume_6_cover.PNG.webp",
@@ -2774,7 +2776,8 @@
     "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1767981876/chisenires.design/uploads/manga/Kakegurui_Volume_6_cover.PNG.webp",
     "bytes": 233830,
     "etag": "84fac63d492cd208fa5c9b754e476a98",
-    "uploadedAt": "2026-01-09T18:04:36.884Z"
+    "uploadedAt": "2026-01-09T18:04:36.884Z",
+    "sha1": "83291af412e1bf00f1401bfe72bc01f8464effd6"
   },
   "uploads/manga/One_Piece,_Volume_61_Cover_(Japanese).jpg": {
     "localRelPath": "uploads/manga/One_Piece,_Volume_61_Cover_(Japanese).jpg",
@@ -2783,6 +2786,7 @@
     "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1767981877/chisenires.design/uploads/manga/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg",
     "bytes": 182705,
     "etag": "65b5a5e20a74e7caf1feae4a1b2e8d68",
-    "uploadedAt": "2026-01-09T18:04:37.955Z"
+    "uploadedAt": "2026-01-09T18:04:37.955Z",
+    "sha1": "887b026e8e05c956da0dad5217217a8e6b4a29f3"
   }
 }
