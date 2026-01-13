@@ -2,7 +2,7 @@
 title: 
 summary: 
 pubDate: 2026-01-13T00:00:53+00:00
-updatedDate: 2026-01-13T00:29:58+00:00
+updatedDate: 2026-01-13T00:33:26+00:00
 tags: 
 - micro
 - meme
@@ -25,4 +25,4 @@ When I saw the replies to the post though, they were all talking about the actua
 
 (via [@featherless / Threads](https://www.threads.com/@featherless/post/DTZSOKQFeaO?xmt=AQF0dMwEMtEmSRc0FhP8JU6wgcH12-cxh5QHTYHHJ9oEvw))
 
-[^1]: Originally posted about it on Threads: https://www.threads.com/@_chiawase/post/DTZ1LVfklIj?xmt=AQF0dMwEMtEmSRc0FhP8JU6wgcH12-cxh5QHTYHHJ9oEvw
+[^1]: Originally posted about it on Threads: [view Chi’s quote post on Threads](https://www.threads.com/@_chiawase/post/DTZ1LVfklIj?xmt=AQF0dMwEMtEmSRc0FhP8JU6wgcH12-cxh5QHTYHHJ9oEvw)
