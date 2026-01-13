@@ -49,6 +49,6 @@
     "_config/*",
     "dist/"
   ],
-  "newLinkFormat": "relative",
+  "newLinkFormat": "absolute",
   "autoConvertHtml": true
 }
