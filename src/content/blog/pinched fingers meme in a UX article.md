@@ -2,7 +2,7 @@
 title: 
 summary: 
 pubDate: 2026-01-13T00:00:53+00:00
-updatedDate: 2026-01-13T00:21:38+00:00
+updatedDate: 2026-01-13T00:29:58+00:00
 tags: 
 - micro
 - meme
@@ -12,7 +12,7 @@ postLanguage:
 
 [🔗 the struggle of resizing windows on MacOS Tahoe](https://noheger.at/blog/2026/01/11/the-struggle-of-resizing-windows-on-macos-tahoe/) by Norbert Heger
 
-When I saw this on my feed, I thought the screenshot was deliberate so the hand looks like a 🤌 —you know that gesture that’s been making rounds as a meme in reels again, which was originally something done back in grade school or high school to bait people to look at something (then you would either bonk them on the head as a sort of “punishment” 😆)
+When I saw this on my feed[^1], I thought the screenshot was deliberate so the hand looks like a 🤌 —you know that gesture that’s been making rounds as a meme in reels again, which was originally something done back in grade school or high school to bait people to look at something (then you would either bonk them on the head as a sort of “punishment” 😆)
 
 Here’s the screenshot shared (but I’ll also put the Threads embed because I’m kinda curious what that looks like):
 
@@ -24,3 +24,5 @@ Here’s the screenshot shared (but I’ll also put the Threads embed because I�
 When I saw the replies to the post though, they were all talking about the actual post content 😂 Which I think you should also go through! It’s a quick read, and also documents how sometimes making something aesthetically pleasing to the eye, AKA adding rounded corners to a rectangle window, may introduce some accessibility issues if not considered. 😅
 
 (via [@featherless / Threads](https://www.threads.com/@featherless/post/DTZSOKQFeaO?xmt=AQF0dMwEMtEmSRc0FhP8JU6wgcH12-cxh5QHTYHHJ9oEvw))
+
+[^1]: Originally posted about it on Threads: https://www.threads.com/@_chiawase/post/DTZ1LVfklIj?xmt=AQF0dMwEMtEmSRc0FhP8JU6wgcH12-cxh5QHTYHHJ9oEvw
