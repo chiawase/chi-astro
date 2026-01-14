@@ -65,7 +65,7 @@
   },
   "devDependencies": {
     "@astrojs/ts-plugin": "^1.10.6",
-    "@types/lodash": "^4.17.21",
+    "@types/lodash": "^4.17.23",
     "@types/luxon": "^3.7.1",
     "astro-robots-txt": "^1.0.0",
     "dotenv": "^17.2.3",
