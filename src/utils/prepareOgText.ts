@@ -24,6 +24,22 @@ function truncateGraphemes(value: string, max: number, ellipsis: string) {
   return codepoints.slice(0, max).join("") + ellipsis;
 }
 
+function stripFootnotes(node: any) {
+  if (!node) return;
+
+  // If this node has children, remove footnote nodes from them
+  if (Array.isArray(node.children)) {
+    node.children = node.children.filter(
+      (child: any) =>
+        child.type !== "footnoteDefinition" &&
+        child.type !== "footnoteReference",
+    );
+
+    // Recurse
+    for (const child of node.children) stripFootnotes(child);
+  }
+}
+
 export function prepareOgText(input: string, options: OgTextOptions = {}) {
   const {
     maxLength,
@@ -42,6 +58,10 @@ export function prepareOgText(input: string, options: OgTextOptions = {}) {
     // Remove MDX ESM lines like: import {...} from "...";  or  export {...};
     .replace(/^\s*import[\s\S]*?;\s*$/gim, "")
     .replace(/^\s*export[\s\S]*?;\s*$/gim, "")
+    // Remove footnote definition blocks like:
+    // [^1]: definition text
+    //     continued definition text
+    .replace(/^\[\^[^\]]+\]:.*(?:\n(?: {2,}|\t).*)*/gim, "")
     // Remove Astro / MDX embeds entirely
     .replace(/<(YouTube|CodePen|Tweet)\b[\s\S]*?(?:\/>|>[\s\S]*?<\/\1>)/gi, "");
 
@@ -50,6 +70,9 @@ export function prepareOgText(input: string, options: OgTextOptions = {}) {
   // ─────────────────────────────────────────────
 
   const tree = fromMarkdown(source);
+
+  // Remove footnote references/definitions before turning AST into text
+  stripFootnotes(tree);
 
   // Preserve block boundaries
   const blockTexts =
@@ -60,7 +83,7 @@ export function prepareOgText(input: string, options: OgTextOptions = {}) {
   let text = blockTexts.join("\n\n");
 
   // ─────────────────────────────────────────────
-  // 3. Control how breaks are rendered
+  // 3. Format the text properly
   // ─────────────────────────────────────────────
   // Paragraph breaks → " — "
   // Line breaks → space
@@ -71,6 +94,9 @@ export function prepareOgText(input: string, options: OgTextOptions = {}) {
 
   // Normalize unicode
   text = text.normalize(normalize);
+
+  // Remove inline footnote refs like [^1], [^note], etc.
+  text = text.replace(/\[\^[^\]]+\]/g, "");
 
   // ─────────────────────────────────────────────
   // 4. Truncate safely
