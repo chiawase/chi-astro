@@ -19,6 +19,20 @@ import "@fontsource-variable/victor-mono/wght-italic.css";
 import "@fontsource-variable/victor-mono";
 import "@fontsource-variable/anybody/wdth-italic.css";
 
+/**
+ * Removes most emoji (including common sequences like skin tones / ZWJ).
+ */
+export function stripEmoji(input: string): string {
+  return input
+    // Remove "extended pictographic" (covers most emoji)
+    .replace(/\p{Extended_Pictographic}+/gu, "")
+    // Remove variation selectors (e.g. FE0F) and zero-width joiners
+    .replace(/[\uFE0E\uFE0F\u200D]/g, "")
+    // Collapse extra whitespace created by removals
+    .replace(/\s{2,}/g, " / ")
+    .trim();
+}
+
 interface Props {
   title?: string;
   description?: string;
@@ -56,11 +70,13 @@ const documentTitle =
 
 const cldTitleRaw =
   post && !hasPostTitle
-  ? "Chi’s blog post"
-  : metadataTitleRaw;
+    ? "Chi’s blog post"
+    : stripEmoji(metadataTitleRaw);
 
-const metadataTitleForCld = prepareOgText(cldTitleRaw, { urlEncode: true, });
-const metadataDescriptionForCld = prepareOgText(metadataDescriptionRaw, { urlEncode: true });
+const cldDescriptionRaw = stripEmoji(metadataDescriptionRaw);
+
+const metadataTitleForCld = prepareOgText(cldTitleRaw, { urlEncode: true });
+const metadataDescriptionForCld = prepareOgText(cldDescriptionRaw, { urlEncode: true });
 
 // Thumbnail Image particulars
 const metadataImageWidth = "1280";
