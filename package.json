@@ -55,12 +55,10 @@
     "rehype-stringify": "^10.0.1",
     "remark-code-title": "^0.2.5",
     "remark-gfm": "^4.0.1",
-    "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.2",
     "remark-remove-comments": "^1.1.1",
     "remark-toc": "^9.0.0",
     "sharp": "^0.34.3",
-    "unified": "^11.0.5",
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
@@ -69,9 +67,14 @@
     "@types/luxon": "^3.7.1",
     "astro-robots-txt": "^1.0.0",
     "dotenv": "^17.2.3",
+    "remark-mdx": "^3.1.1",
+    "remark-parse": "^11.0.0",
+    "remark-smartypants": "^3.0.2",
+    "remark-stringify": "^11.0.0",
     "sharp-cli": "^5.2.0",
     "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "unified": "^11.0.5"
   },
   "overrides": {
     "minimist": "0.2.4",
