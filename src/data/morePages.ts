@@ -13,8 +13,14 @@ export const MORE_PAGES: MorePagesEntry[] = [
   { title: "Tags", url: "/tags/" },
   { title: "Archive", url: "/archive/" },
   { title: "Changelog", url: "/changelog/" },
-  { title: "Games", url: "/games/" },
-  { title: "Manga", url: "/manga/" },
+  {
+    title: "Media Log",
+    url: "/media/",
+    children: [
+      { title: "Games", url: "/games/" },
+      { title: "Manga", url: "/manga/" },
+    ],
+  },
   // { title: "replace", url: "/replace/" },
 
   // Optional: groups

@@ -1,0 +1,55 @@
+---
+import Page from "@layouts/Page.astro";
+import MoreNavLink from "@components/MoreNavLink.astro";
+import { MORE_PAGES, type MorePagesEntry } from "@data/morePages";
+
+const sortEntries = (entries: MorePagesEntry[]): MorePagesEntry[] =>
+  [...entries]
+    .map((e) => ({
+      ...e,
+      children: e.children ? sortEntries(e.children) : undefined,
+    }))
+    .sort((a, b) => a.title.localeCompare(b.title));
+
+const normalize = (url: string) => (url.endsWith("/") ? url : `${url}/`);
+
+// Depth-first search for a matching entry anywhere in the tree
+const findEntryByUrl = (
+  entries: MorePagesEntry[],
+  url: string
+): MorePagesEntry | undefined => {
+  const target = normalize(url);
+
+  for (const entry of entries) {
+    if (normalize(entry.url) === target) return entry;
+    if (entry.children?.length) {
+      const found = findEntryByUrl(entry.children, target);
+      if (found) return found;
+    }
+  }
+};
+
+const currentUrl = Astro.url.pathname;
+const parentEntry = findEntryByUrl(MORE_PAGES, currentUrl);
+
+const childEntries = sortEntries(parentEntry?.children ?? []);
+---
+
+<Page
+title={parentEntry?.title ?? "Media Log"}
+  description="The grouping for all the media I consume!"
+>
+  <p>
+    Collating all the media I consume in this page!
+  </p>
+
+  {parentEntry?.children?.length ? (
+    <ul role="list">
+      {childEntries.map((entry) => (
+        <MoreNavLink entry={entry} />
+      ))}
+    </ul>
+  ) : (
+    <p>No child pages found for this section.</p>
+  )}
+</Page>
