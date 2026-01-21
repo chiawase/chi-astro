@@ -2798,5 +2798,65 @@
     "etag": "9336f8d54aa670c59a97445847fff34b",
     "uploadedAt": "2026-01-13T00:22:37.723Z",
     "sha1": "0a6f98455822feb839b4847ff4b20534680e8dd7"
+  },
+  "uploads/manga/sakamoto-days-cover.jpg": {
+    "localRelPath": "uploads/manga/sakamoto-days-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/sakamoto-days-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768991031/chisenires.design/uploads/manga/sakamoto-days-cover.jpg",
+    "bytes": 52224,
+    "etag": "040cb478b9b5cd2da216dd910be88957",
+    "uploadedAt": "2026-01-21T10:23:52.389Z",
+    "sha1": "8ec0b60db3aa31f082c7a52b4f4b9a9c5a21b729"
+  },
+  "uploads/manga/spy-x-family-cover.jpg": {
+    "localRelPath": "uploads/manga/spy-x-family-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/spy-x-family-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768991163/chisenires.design/uploads/manga/spy-x-family-cover.jpg",
+    "bytes": 36073,
+    "etag": "1ce7fc31ec34c704fbd0a7e6bb44dc7d",
+    "uploadedAt": "2026-01-21T10:26:04.144Z",
+    "sha1": "1f5cf678c3799881881548703cbe1bd0b2eecf3d"
+  },
+  "uploads/manga/otr-of-the-flame-cover.jpg": {
+    "localRelPath": "uploads/manga/otr-of-the-flame-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/otr-of-the-flame-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768991291/chisenires.design/uploads/manga/otr-of-the-flame-cover.jpg",
+    "bytes": 82286,
+    "etag": "eebd61b5d5162824f13cf62bcaf3f428",
+    "uploadedAt": "2026-01-21T10:28:11.672Z",
+    "sha1": "2d10472de705f31022dcfc10d8023c4e1f3a0631"
+  },
+  "uploads/manga/akane-banashi-cover.jpg": {
+    "localRelPath": "uploads/manga/akane-banashi-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/akane-banashi-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768991425/chisenires.design/uploads/manga/akane-banashi-cover.jpg",
+    "bytes": 51340,
+    "etag": "631e7a3d34e4ff1bbe86d731acd1f89b",
+    "uploadedAt": "2026-01-21T10:30:27.352Z",
+    "sha1": "6eb9873ff7deb7d661293446809a2fa76f5c1264"
+  },
+  "uploads/manga/drama-queen-cover.jpg": {
+    "localRelPath": "uploads/manga/drama-queen-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/drama-queen-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768991735/chisenires.design/uploads/manga/drama-queen-cover.jpg",
+    "bytes": 61790,
+    "etag": "1636f6f737638eebf6944d23f7ede6d0",
+    "uploadedAt": "2026-01-21T10:35:35.875Z",
+    "sha1": "6505cd152941b3504b6ca929d2b2161b39692c5f"
+  },
+  "uploads/manga/dandadan-cover.jpg": {
+    "localRelPath": "uploads/manga/dandadan-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/dandadan-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768991869/chisenires.design/uploads/manga/dandadan-cover.jpg",
+    "bytes": 55740,
+    "etag": "c1d671615315720c454f77becdea6fd5",
+    "uploadedAt": "2026-01-21T10:37:49.855Z",
+    "sha1": "2ca3e8ab062650454a40c5e97bdfccf0973a0894"
   }
 }
