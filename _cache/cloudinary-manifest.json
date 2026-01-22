@@ -2858,5 +2858,135 @@
     "etag": "c1d671615315720c454f77becdea6fd5",
     "uploadedAt": "2026-01-21T10:37:49.855Z",
     "sha1": "2ca3e8ab062650454a40c5e97bdfccf0973a0894"
+  },
+  "uploads/manga/girl-meets-rock-cover.jpg": {
+    "localRelPath": "uploads/manga/girl-meets-rock-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/girl-meets-rock-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768995021/chisenires.design/uploads/manga/girl-meets-rock-cover.jpg",
+    "bytes": 40639,
+    "etag": "3cb7daa02f189512e2e5027d8e104faf",
+    "uploadedAt": "2026-01-21T11:30:22.366Z",
+    "sha1": "b06fe3fc3cff091a7133eb504df7262a7646ceb1"
+  },
+  "uploads/manga/eunuch-of-empire-cover.jpg": {
+    "localRelPath": "uploads/manga/eunuch-of-empire-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/eunuch-of-empire-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768995092/chisenires.design/uploads/manga/eunuch-of-empire-cover.jpg",
+    "bytes": 51707,
+    "etag": "232bb0270c90c224da3ea14ef806ee6f",
+    "uploadedAt": "2026-01-21T11:31:32.456Z",
+    "sha1": "2199032e3575fa4f61778f8586994c0147cdf8a6"
+  },
+  "uploads/manga/ggg-cover.jpg": {
+    "localRelPath": "uploads/manga/ggg-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/ggg-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768995165/chisenires.design/uploads/manga/ggg-cover.jpg",
+    "bytes": 50003,
+    "etag": "5cb0a446177422f50c7c7b4da34f733b",
+    "uploadedAt": "2026-01-21T11:32:46.360Z",
+    "sha1": "7bf3d61de64893e1a6f6bb093fb0f72ed4bfdc10"
+  },
+  "uploads/manga/gokurakugai-cover.jpg": {
+    "localRelPath": "uploads/manga/gokurakugai-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/gokurakugai-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768995263/chisenires.design/uploads/manga/gokurakugai-cover.jpg",
+    "bytes": 55943,
+    "etag": "e115903228d998209648cdc3b8a4347f",
+    "uploadedAt": "2026-01-21T11:34:23.786Z",
+    "sha1": "bbd2d8dfd907e95106f6d58a902a7cd762a754a2"
+  },
+  "uploads/manga/home-at-the-horizon-cover.jpg": {
+    "localRelPath": "uploads/manga/home-at-the-horizon-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/home-at-the-horizon-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768995324/chisenires.design/uploads/manga/home-at-the-horizon-cover.jpg",
+    "bytes": 58345,
+    "etag": "a226e4770f1e832888dd34a13ed74b3a",
+    "uploadedAt": "2026-01-21T11:35:25.383Z",
+    "sha1": "9608b4bb78e431b2dff681841a8a7b7934e4d96c"
+  },
+  "uploads/manga/hope-youre-happy-lemon.jpg": {
+    "localRelPath": "uploads/manga/hope-youre-happy-lemon.jpg",
+    "publicId": "chisenires.design/uploads/manga/hope-youre-happy-lemon",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768995410/chisenires.design/uploads/manga/hope-youre-happy-lemon.jpg",
+    "bytes": 57164,
+    "etag": "8f770ca0ec2ba5ef407c6cdfe97c2f6c",
+    "uploadedAt": "2026-01-21T11:36:51.724Z",
+    "sha1": "44edc4655f995e93de39beba34076f27b49bb7ff"
+  },
+  "uploads/manga/hope-youre-happy-lemon-cover.jpg": {
+    "localRelPath": "uploads/manga/hope-youre-happy-lemon-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/hope-youre-happy-lemon-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768995422/chisenires.design/uploads/manga/hope-youre-happy-lemon-cover.jpg",
+    "bytes": 57164,
+    "etag": "8f770ca0ec2ba5ef407c6cdfe97c2f6c",
+    "uploadedAt": "2026-01-21T11:37:02.794Z",
+    "sha1": "44edc4655f995e93de39beba34076f27b49bb7ff"
+  },
+  "uploads/manga/kindergarten-wars-cover.jpg": {
+    "localRelPath": "uploads/manga/kindergarten-wars-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/kindergarten-wars-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768995485/chisenires.design/uploads/manga/kindergarten-wars-cover.jpg",
+    "bytes": 54010,
+    "etag": "750533b6bbf1b70320a7f14b5e7df71d",
+    "uploadedAt": "2026-01-21T11:38:05.774Z",
+    "sha1": "36e5a6f45d4dd760fc684f9c02b1f8ab0d888ced"
+  },
+  "uploads/manga/magical-girl-and-narco-wars-cover.jpg": {
+    "localRelPath": "uploads/manga/magical-girl-and-narco-wars-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/magical-girl-and-narco-wars-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768995549/chisenires.design/uploads/manga/magical-girl-and-narco-wars-cover.jpg",
+    "bytes": 53574,
+    "etag": "408558c75d97ebf2203cc22458f8da51",
+    "uploadedAt": "2026-01-21T11:39:10.296Z",
+    "sha1": "102db483c92cb398aca1b7ffaa02c106ae4b5e4d"
+  },
+  "uploads/manga/make-the-exorcist-fall-in-love-cover.jpg": {
+    "localRelPath": "uploads/manga/make-the-exorcist-fall-in-love-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/make-the-exorcist-fall-in-love-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768995619/chisenires.design/uploads/manga/make-the-exorcist-fall-in-love-cover.jpg",
+    "bytes": 33621,
+    "etag": "dd4e39eaa89eb131117531252ecd1745",
+    "uploadedAt": "2026-01-21T11:40:19.975Z",
+    "sha1": "4e66e714b5dd5357d6c85973a6d3b2efe641cd9f"
+  },
+  "uploads/manga/marriagetoxin-cover.jpg": {
+    "localRelPath": "uploads/manga/marriagetoxin-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/marriagetoxin-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1768995667/chisenires.design/uploads/manga/marriagetoxin-cover.jpg",
+    "bytes": 65413,
+    "etag": "036cf17fca8f2df73d4fb3a20a5d3cf7",
+    "uploadedAt": "2026-01-21T11:41:07.784Z",
+    "sha1": "706530a8ded9724aeef820db0f48e3b8a96cf5e4"
+  },
+  "uploads/manga/no-gyaru-in-this-class-cover.jpg": {
+    "localRelPath": "uploads/manga/no-gyaru-in-this-class-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/no-gyaru-in-this-class-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1769069512/chisenires.design/uploads/manga/no-gyaru-in-this-class-cover.jpg",
+    "bytes": 48843,
+    "etag": "9a65f5ba97a4959c6e6dcca50cc5ec15",
+    "uploadedAt": "2026-01-22T08:11:52.896Z",
+    "sha1": "909bbf9b48e7f51b25342cef4edf57910c4314f0"
+  },
+  "uploads/manga/war-of-the-adults-cover.jpg": {
+    "localRelPath": "uploads/manga/war-of-the-adults-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/war-of-the-adults-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1769069670/chisenires.design/uploads/manga/war-of-the-adults-cover.jpg",
+    "bytes": 40787,
+    "etag": "c33cb3a0c8c7ccc380c17c3a23d2f5ca",
+    "uploadedAt": "2026-01-22T08:14:30.841Z",
+    "sha1": "b245f1e4159a9a4f44c83313ee5978040819200a"
   }
 }
