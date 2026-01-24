@@ -7,6 +7,7 @@ tags:
 - "slice-of-life"
 - drama
 latestChapter: SHORT MISSION 18
+lastReadDate: 2026-01-21
 status: reading
 ---
 

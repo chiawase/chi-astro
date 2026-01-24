@@ -8,6 +8,6 @@ tags:
 - action
 - romantic comedy
 latestChapter: "Chapter 153"
+lastReadDate: 2026-01-21
 status: reading
 ---
-

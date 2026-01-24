@@ -9,6 +9,7 @@ tags:
 - comedy
 - shonen
 latestChapter: Chapter 1171
+lastReadDate: 2026-01-20
 status: reading
 ---
 

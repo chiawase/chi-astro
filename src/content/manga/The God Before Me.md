@@ -7,6 +7,6 @@ tags:
 - shogi
 - friends
 latestChapter: Chapter 43
+lastReadDate: 2026-01-22
 status: reading
 ---
-

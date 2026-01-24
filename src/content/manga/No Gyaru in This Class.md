@@ -7,6 +7,6 @@ tags:
 - romantic comedy
 - friends
 latestChapter: Chapter 37
+lastReadDate: 2026-01-22
 status: reading
 ---
-

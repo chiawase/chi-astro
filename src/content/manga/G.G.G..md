@@ -7,6 +7,6 @@ tags:
 - superpowers
 - fighting
 latestChapter: "EPISODE 29: AT OUR WALK'S END..."
+lastReadDate: 2026-01-21
 status: reading
 ---
-

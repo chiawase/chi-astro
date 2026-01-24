@@ -8,6 +8,6 @@ tags:
 - "slice-of-life"
 - manga
 latestChapter: "Chapter 35: Entrusted Artwork"
+lastReadDate: 2026-01-22
 status: reading
 ---
-

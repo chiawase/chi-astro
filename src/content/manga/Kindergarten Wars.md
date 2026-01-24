@@ -7,6 +7,6 @@ tags:
 - romantic comedy
 - assassins
 latestChapter: "Chapter 120: Jealous"
+lastReadDate: 2026-01-21
 status: reading
 ---
-

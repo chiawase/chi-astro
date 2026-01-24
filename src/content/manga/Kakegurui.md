@@ -6,8 +6,6 @@ tags:
 - gambling
 - suspense
 latestChapter: Chapter 123
+lastReadDate: 2026-01-12
 status: reading
-pubDate: 2026-01-09T17:23:58+00:00
-updatedDate: 2026-01-09T17:28:25+00:00
 ---
-

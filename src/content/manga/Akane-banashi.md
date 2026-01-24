@@ -8,6 +8,7 @@ tags:
 - "slice-of-life"
 - drama
 latestChapter: "Story 190: What is Death"
+lastReadDate: 2026-01-21
 status: reading
 ---
 

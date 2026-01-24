@@ -9,6 +9,7 @@ tags:
 - mythical
 - vikings
 latestChapter: "Final Chapter: Otr of the Flame"
+lastReadDate: 2026-01-22
 status: finished
 ---
 - I’m happy I got to read this manga, albeit it was a bit short. I wish they could’ve expounded more on the other elemental spirits! The setup of the story seemed like it could go on and on forever 😭

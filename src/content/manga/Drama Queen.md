@@ -7,6 +7,7 @@ tags:
 - drama
 - dark humor
 latestChapter: "Chapter 44: I Really Hate You pt. 8"
+lastReadDate: 2026-01-21
 status: reading
 ---
 

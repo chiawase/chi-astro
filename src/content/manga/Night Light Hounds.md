@@ -7,6 +7,6 @@ tags:
 - supernatural
 - drama
 latestChapter: "Chapter 25: Magic Show Part 11, Stagebound"
+lastReadDate: 2026-01-22
 status: reading
 ---
-

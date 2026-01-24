@@ -10,6 +10,6 @@ tags:
 - action
 - supernatural
 latestChapter: "Chapter 224: My Power’s Been Stolen"
+lastReadDate: 2026-01-21
 status: reading
 ---
-

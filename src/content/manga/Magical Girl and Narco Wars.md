@@ -8,6 +8,6 @@ tags:
 - undercover
 - action
 latestChapter: "Chapter 20: Regicide"
+lastReadDate: 2026-01-21
 status: reading
 ---
-

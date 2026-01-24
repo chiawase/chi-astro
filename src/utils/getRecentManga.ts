@@ -2,47 +2,37 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 import { getCollection } from "astro:content";
-
 import { extractFirstSection } from "@utils/extractFirstSection";
 
 const MANGA_DIR = "./src/content/manga";
-async function getFileMtime(id: string): Promise<Date> {
-  const fullPath = path.join(MANGA_DIR, id);
 
-  try {
-    await fs.access(fullPath);
-    const stats = await fs.stat(fullPath);
-    return stats.mtime;
-  } catch {
-    const files = await fs.readdir(MANGA_DIR);
-    const matchingFile = files.find(
-      (f) =>
-        f.replace(/\.mdx?$/, "").toLowerCase() ===
-        id.replace(/\.mdx?$/, "").toLowerCase(),
-    );
-    if (matchingFile) {
-      const stats = await fs.stat(path.join(MANGA_DIR, matchingFile));
-      return stats.mtime;
-    }
-    return new Date(0);
+function toDate(value: unknown): Date {
+  // If your schema uses z.coerce.date(), this will already be a Date.
+  // This helper just makes the script resilient.
+  if (value instanceof Date) return value;
+  if (typeof value === "string" || typeof value === "number") {
+    const d = new Date(value);
+    if (!Number.isNaN(d.getTime())) return d;
   }
+  return new Date(0);
 }
 
 export async function getRecentManga() {
   const mangaEntries = await getCollection("manga");
+
   const mangaProcessed = await Promise.all(
     mangaEntries.map(async (entry) => {
-      const mangaFileName = entry.data.title + ".md";
-      const mtime = await getFileMtime(mangaFileName);
+      const fullPath = path.join(MANGA_DIR, entry.data.title + ".md");
 
       let section = "";
       try {
-        const fullPath = path.join(MANGA_DIR, mangaFileName);
         const content = await fs.readFile(fullPath, "utf-8");
         section = extractFirstSection(content);
       } catch {
         section = "";
       }
+
+      const lastReadDate = toDate(entry.data.lastReadDate);
 
       return {
         id: entry.id,
@@ -50,19 +40,32 @@ export async function getRecentManga() {
         title: entry.data.title,
         latestChapter: entry.data.latestChapter,
         status: entry.data.status,
-        mtime,
+        lastReadDate,
         section,
       };
     }),
   );
-  mangaProcessed.sort((a, b) => b.mtime.getTime() - a.mtime.getTime());
 
-  return {
-    recentReading: mangaProcessed
-      .filter((m) => m.status === "reading")
-      .slice(0, 5),
-    recentFinished: mangaProcessed
-      .filter((m) => m.status === "finished")
-      .slice(0, 5),
+  const sortByLatestRead = (
+    a: (typeof mangaProcessed)[number],
+    b: (typeof mangaProcessed)[number],
+  ) => {
+    const diff = b.lastReadDate.getTime() - a.lastReadDate.getTime();
+    if (diff !== 0) return diff;
+
+    // stable tie-breaker so ordering is deterministic
+    return a.title.localeCompare(b.title);
   };
+
+  const recentReading = mangaProcessed
+    .filter((m) => m.status === "reading")
+    .sort(sortByLatestRead)
+    .slice(0, 5);
+
+  const recentFinished = mangaProcessed
+    .filter((m) => m.status === "finished")
+    .sort(sortByLatestRead)
+    .slice(0, 5);
+
+  return { recentReading, recentFinished };
 }

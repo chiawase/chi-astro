@@ -9,6 +9,7 @@ tags:
 - gore
 - "manga drawing"
 latestChapter: "Chapter 2: SUSPICION"
+lastReadDate: 2026-01-24
 status: reading
 ---
 

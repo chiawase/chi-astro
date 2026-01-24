@@ -8,6 +8,6 @@ tags:
 - body swap
 - friends
 latestChapter: "Chapter 84"
+lastReadDate: 2026-01-21
 status: reading
 ---
-

@@ -7,6 +7,6 @@ tags:
 - music
 - friends
 latestChapter: Chapter 95
+lastReadDate: 2026-01-21
 status: reading
 ---
-

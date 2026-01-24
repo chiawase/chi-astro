@@ -7,6 +7,6 @@ tags:
 - family
 - drama
 latestChapter: "Chapter 18: Misunderstanding"
+lastReadDate: 2026-01-21
 status: reading
 ---
-

@@ -8,6 +8,6 @@ tags:
 - romantic comedy
 - drama
 latestChapter: "Episode 108: Infiltration"
+lastReadDate: 2026-01-21
 status: reading
 ---
-

@@ -7,6 +7,7 @@ tags:
 - drama
 - comedy
 latestChapter: "Chapter 37: THE NEXT GARDEN HINT"
+lastReadDate: 2026-01-22
 status: reading
 ---
 

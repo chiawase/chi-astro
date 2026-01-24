@@ -54,6 +54,7 @@ const manga = defineCollection({
     mangaCover: z.string().optional(),
     tags: z.array(z.string()).optional(),
     latestChapter: z.string(),
+    lastReadDate: z.coerce.date(),
     status: z.enum(["reading", "finished", "dropped"]),
   }),
 });
