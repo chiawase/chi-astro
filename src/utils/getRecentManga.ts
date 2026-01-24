@@ -32,11 +32,12 @@ export async function getRecentManga() {
   const mangaEntries = await getCollection("manga");
   const mangaProcessed = await Promise.all(
     mangaEntries.map(async (entry) => {
-      const mtime = await getFileMtime(entry.id);
+      const mangaFileName = entry.data.title + ".md";
+      const mtime = await getFileMtime(mangaFileName);
 
       let section = "";
       try {
-        const fullPath = path.join(MANGA_DIR, entry.data.title + ".md");
+        const fullPath = path.join(MANGA_DIR, mangaFileName);
         const content = await fs.readFile(fullPath, "utf-8");
         section = extractFirstSection(content);
       } catch {
