@@ -3018,5 +3018,15 @@
     "etag": "a7498733df66bf001becf1a5f1c28ef8",
     "uploadedAt": "2026-01-24T02:57:32.766Z",
     "sha1": "ff28f9e910f81da623f673a7c6062156c764fc57"
+  },
+  "uploads/manga/the-trembling-right-hand-cover.jpg": {
+    "localRelPath": "uploads/manga/the-trembling-right-hand-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/the-trembling-right-hand-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1769268801/chisenires.design/uploads/manga/the-trembling-right-hand-cover.jpg",
+    "bytes": 46633,
+    "etag": "0519429f476d2ea0f08ec685604805be",
+    "uploadedAt": "2026-01-24T15:33:22.432Z",
+    "sha1": "797b8fccc00a5ce0c9cf236f1d0ea1479ddb2300"
   }
 }
