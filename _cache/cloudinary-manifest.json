@@ -2988,5 +2988,35 @@
     "etag": "c33cb3a0c8c7ccc380c17c3a23d2f5ca",
     "uploadedAt": "2026-01-22T08:14:30.841Z",
     "sha1": "b245f1e4159a9a4f44c83313ee5978040819200a"
+  },
+  "uploads/manga/monochrome-days-cover.jpg": {
+    "localRelPath": "uploads/manga/monochrome-days-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/monochrome-days-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1769223449/chisenires.design/uploads/manga/monochrome-days-cover.jpg",
+    "bytes": 60267,
+    "etag": "de33fbbc19de2ae9b6e07a95a1387086",
+    "uploadedAt": "2026-01-24T02:57:29.438Z",
+    "sha1": "94dee16fdaa596f1c2ad07c47b9b733047045a0f"
+  },
+  "uploads/manga/night-light-hounds-cover.jpg": {
+    "localRelPath": "uploads/manga/night-light-hounds-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/night-light-hounds-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1769223450/chisenires.design/uploads/manga/night-light-hounds-cover.jpg",
+    "bytes": 41659,
+    "etag": "536b2eee97e53325fec9b37e0a6304e6",
+    "uploadedAt": "2026-01-24T02:57:31.233Z",
+    "sha1": "40957b78a4a80a5fec4d1707d97c524bf8935e68"
+  },
+  "uploads/manga/the-god-before-me-cover.jpg": {
+    "localRelPath": "uploads/manga/the-god-before-me-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/the-god-before-me-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1769223451/chisenires.design/uploads/manga/the-god-before-me-cover.jpg",
+    "bytes": 46199,
+    "etag": "a7498733df66bf001becf1a5f1c28ef8",
+    "uploadedAt": "2026-01-24T02:57:32.766Z",
+    "sha1": "ff28f9e910f81da623f673a7c6062156c764fc57"
   }
 }
