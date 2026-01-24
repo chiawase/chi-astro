@@ -5,9 +5,14 @@ pubDate: 2025-03-30T12:48:25+00:00
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 import { SITE_DESCRIPTION } from "@consts";
+
 import Page from "@layouts/Page.astro";
-import { getUpdatedDateFor } from "@utils/getUpdatedDateFor";
+
 import FormattedDate from "@components/FormattedDate.astro";
+import MangaRecentList from "@components/MangaRecentList.astro";
+
+import { getUpdatedDateFor } from "@utils/getUpdatedDateFor";
+
 import { getRecentManga } from "@utils/getRecentManga";
 export const { recentReading, recentFinished } = await getRecentManga();
 
@@ -16,7 +21,7 @@ export const { recentReading, recentFinished } = await getRecentManga();
 
   ### Traveling
 
-  ✈️ currently in Thailand for another week! 🇹🇭
+  🛬 back in home base 🇵🇭 it was a fun few weeks in Thailand!
 
   ### Ideas to get back to
 
@@ -28,7 +33,7 @@ export const { recentReading, recentFinished } = await getRecentManga();
     * **Update 7 Jan 2026**: I have my [Games](/games/) up!! Just need to add a few more entries then I’ll move on to the other stuff hehe
     * **Update 12 Jan 2026**: There’s also [Manga](/manga/) now, next I wanna set up Anime and my Travel log too!
   * setting up the Webring for [Tambayan 404](https://tambayan404.com) members too haha
-    * Update 12 Jan 2026: There is some interest within the community so I’m hoping this gets done soon hehe
+    * **Update 12 Jan 2026**: There is some interest within the community so I’m hoping this gets done soon hehe
   * I reaaally really want to make something like this but for my own life: [Life in Weeks](https://busterbenson.com/life-in-weeks)
 
   ### Games I’m thinking about
@@ -51,30 +56,13 @@ export const { recentReading, recentFinished } = await getRecentManga();
 
   ### Manga
 
-  <h4>Recently Updated</h4>
+  #### Recently finished
 
-  <ul>
-    {recentReading.map((manga) => (
-        <li>
-          <a href={`/manga/${manga.id}/`}>{manga.title}</a> (read <a target="_blank" rel="noreferrer noopener" href={manga.url}>{manga.latestChapter}</a>)
-          {manga.section && <div set:html={manga.section} />}
-        </li>
-      ))}
-  </ul>
+  <MangaRecentList items={recentFinished} />
 
-  {recentFinished.length > 0 && (
-      <>
-        <h4>Recently Finished</h4>
-        <ul>
-          {recentFinished.map((manga) => (
-            <li>
-              <a href={`/manga/${manga.id}/`}>{manga.title}</a> (read <a target="_blank" rel="noreferrer noopener" href={manga.url}>{manga.latestChapter}</a>)
-              {manga.section && <div set:html={manga.section} />}
-            </li>
-          ))}
-        </ul>
-      </>
-    )}
+  #### Recently updated
+
+  <MangaRecentList items={recentReading} />
 
   ### What I’m watching
 
@@ -94,5 +82,7 @@ export const { recentReading, recentFinished } = await getRecentManga();
   * [Friends of Figma, Philippines](https://friends.figma.com/philippines)
   * [Pinay Bike Commuter Community](https://fb.com/groups/pinaybikecommutercommunity)
 
-  > Want to know more about the concept of `/now` pages? Check out [nownownow.com/about](https://nownownow.com/about). You can also check my `/now` page on nownownow.com: [Chi’s nownownow page](https://nownownow.com/p/kreC)
+  > Want to know more about the concept of `/now` pages? Check out [nownownow.com/about](https://nownownow.com/about).
+
+  > You can also check my `/now` page on nownownow.com: [Chi’s nownownow page](https://nownownow.com/p/kreC)
 </Page>

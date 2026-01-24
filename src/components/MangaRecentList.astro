@@ -1,0 +1,35 @@
+---
+type MangaItem = {
+  id: string;
+  title: string;
+  url?: string;
+  latestChapter?: string;
+  section?: string;
+};
+
+interface Props {
+  items: MangaItem[];
+}
+
+const {
+  items,
+} = Astro.props;
+
+if (!items.length) return `<p><em>None yet.</em></p>`;
+---
+
+<ul>
+  {items.map((manga) => (
+    <li>
+      <a href={`/manga/${manga.id}/`}>{manga.title}</a>
+      {manga.url && manga.latestChapter && (
+        <>
+          {" "}
+          (read{" "}
+          <a target="_blank" rel="noreferrer noopener" href={manga.url}>{manga.latestChapter}</a>)
+        </>
+      )}
+      {manga.section && <div set:html={manga.section} />}
+    </li>
+  ))}
+</ul>
