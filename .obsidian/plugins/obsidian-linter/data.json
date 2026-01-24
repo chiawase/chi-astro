@@ -281,7 +281,7 @@
     "dist",
     "node_modules",
     "public",
-    "src/content/_templates",
+    "src/_templates",
     "src/content/games",
     "uploads",
     "src/content/manga"
