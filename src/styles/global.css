@@ -450,7 +450,7 @@ details {
   border-radius: 1rem;
 }
 
-summary:before {
+summary:not(.now-summary):before {
   content: "Content info: ";
 }
 
