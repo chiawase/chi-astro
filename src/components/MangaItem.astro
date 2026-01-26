@@ -60,4 +60,13 @@ const mangaCoverUrl = manga.data.mangaCover
     object-fit: cover;
   }
 }
+
+@media (max-width: 896px) {
+  .manga-list-item {
+    & .manga-cover-image {
+      --cover-width: 8rem;
+      --cover-height: 12rem;
+    }
+  }
+}
 </style>

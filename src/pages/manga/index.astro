@@ -37,4 +37,10 @@ const manga = (await getCollection("manga")).sort((a, b) =>
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
+
+@media (max-width: 896px) {
+  .manga-postlist {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
