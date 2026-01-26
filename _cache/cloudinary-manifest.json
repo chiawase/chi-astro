@@ -3028,5 +3028,15 @@
     "etag": "0519429f476d2ea0f08ec685604805be",
     "uploadedAt": "2026-01-24T15:33:22.432Z",
     "sha1": "797b8fccc00a5ce0c9cf236f1d0ea1479ddb2300"
+  },
+  "uploads/manga/under-doctor-cover.jpg": {
+    "localRelPath": "uploads/manga/under-doctor-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/under-doctor-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1769441231/chisenires.design/uploads/manga/under-doctor-cover.jpg",
+    "bytes": 37546,
+    "etag": "2a03864b29bce8d8ea1ed670276c9db1",
+    "uploadedAt": "2026-01-26T15:27:13.352Z",
+    "sha1": "188d77ad10d125f8e7079980b23426474edf2078"
   }
 }
