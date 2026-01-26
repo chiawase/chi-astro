@@ -21,15 +21,32 @@ if (!items.length) return `<p><em>None yet.</em></p>`;
 <ul>
   {items.map((manga) => (
     <li>
-      <a href={`/manga/${manga.id}/`}>{manga.title}</a>
-      {manga.url && manga.latestChapter && (
+      {manga.section ? (
+        <details>
+          <summary class="now-summary">
+            <a href={`/manga/${manga.id}/`}>{manga.title}</a>
+            {manga.url && manga.latestChapter && (
+              <>
+                {" "}
+                (read{" "}
+                <a target="_blank" rel="noreferrer noopener" href={manga.url}>{manga.latestChapter}</a>)
+              </>
+            )}
+          </summary>
+          <div set:html={manga.section} />
+        </details>
+      ) : (
         <>
-          {" "}
-          (read{" "}
-          <a target="_blank" rel="noreferrer noopener" href={manga.url}>{manga.latestChapter}</a>)
+          <a href={`/manga/${manga.id}/`}>{manga.title}</a>
+          {manga.url && manga.latestChapter && (
+            <>
+              {" "}
+              (read{" "}
+              <a target="_blank" rel="noreferrer noopener" href={manga.url}>{manga.latestChapter}</a>)
+            </>
+          )}
         </>
       )}
-      {manga.section && <div set:html={manga.section} />}
     </li>
   ))}
 </ul>
