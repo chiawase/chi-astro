@@ -1,4 +1,10 @@
-export function extractFirstSection(markdown: string): string {
+import { unified } from "unified";
+import remarkParse from "remark-parse";
+import remarkGfm from "remark-gfm";
+import remarkRehype from "remark-rehype";
+import rehypeStringify from "rehype-stringify";
+
+export async function extractFirstSection(markdown: string): Promise<string> {
   // Remove frontmatter
   const yamlEnd = markdown.indexOf("---", 3);
   const bodyStart = yamlEnd !== -1 ? yamlEnd + 3 : markdown.indexOf("---") + 3;
@@ -30,7 +36,14 @@ export function extractFirstSection(markdown: string): string {
     }
   }
   if (listItems.length === 0) return "";
-  // Convert to HTML
-  const ulHtml = `<ul>\n${listItems.map((item) => `  <li>${item}</li>`).join("\n")}\n</ul>`;
-  return ulHtml;
+  // Instead of manual HTML creation, create markdown content
+  const markdownContent = listItems.map((item) => `- ${item}`).join("\n");
+  // Process markdown through unified pipeline
+  const processedHTML = await unified()
+    .use(remarkParse)
+    .use(remarkGfm) // For GitHub-flavored markdown (links, emphasis, etc.)
+    .use(remarkRehype)
+    .use(rehypeStringify)
+    .process(markdownContent);
+  return processedHTML.toString();
 }

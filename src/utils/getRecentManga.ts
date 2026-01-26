@@ -27,7 +27,7 @@ export async function getRecentManga() {
       let section = "";
       try {
         const content = await fs.readFile(fullPath, "utf-8");
-        section = extractFirstSection(content);
+        section = await extractFirstSection(content);
       } catch {
         section = "";
       }
