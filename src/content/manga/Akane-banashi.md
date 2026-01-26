@@ -7,8 +7,8 @@ tags:
 - rakugo
 - "slice-of-life"
 - drama
-latestChapter: "Story 190: What is Death"
-lastReadDate: 2026-01-21
+latestChapter: "Story 191: Strain"
+lastReadDate: 2026-01-25
 status: reading
 ---
 
