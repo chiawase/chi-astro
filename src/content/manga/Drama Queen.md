@@ -6,10 +6,15 @@ tags:
 - aliens
 - drama
 - dark humor
-latestChapter: "Chapter 44: I Really Hate You pt. 8"
-lastReadDate: 2026-01-21
+latestChapter: "Chapter 45: I Really Hate You pt. 9"
+lastReadDate: 2026-01-25
 status: reading
 ---
+
+## 25 Jan 2026
+
+- man… sucks to be Seiran
+- how long will this “chapter” be 😭 man what’s gonna happen next
 
 ## 21 Jan 2026
 
