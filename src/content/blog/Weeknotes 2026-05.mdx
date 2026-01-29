@@ -1,0 +1,99 @@
+---
+title: "Weeknotes: 2026-05"
+summary:
+pubDate: 2026-01-29T03:39:49+00:00
+updatedDate: 2026-01-29T05:44:32+00:00
+tags: [writing, weeknotes]
+postLanguage:
+---
+
+I’m back home after a 2-week trip to Thailand and I’ve been doing my best to catch up to all the other stuff happening around me 😆 Plus there’s so many other things I wanna do as well, but so as to not overwhelm myself, I’m trying to take it one step, one day at a time 😅
+
+I also learned about a lot of cool shit that I wanna share before I forget to put it somewhere, hence why I’m making this now :))
+
+---
+
+We recently watched [Cosmic Princess Kaguya!](https://www.netflix.com/ph-en/title/81756595)[^1] after we got back from our trip and I gotta say, this was super fun to watch!! Super duper enjoyed all the Vocaloid references 🥹
+
+In case you don’t wanna be spoiled about stuff in the film, I’ll put these all in a collapsible section:
+
+<details>
+  <summary>Maybe spoilers for Cosmic Princess Kaguya!</summary>
+
+- At the start of the movie, I thought it would be hinting at like, teenage pregnancy or someshit because the main character, Iroha, essentially had to speedrun taking care of a baby, then a toddler, then a child while she’s a teenager living alone while she’s studying high school. Eventually Kaguya, who is essentially an alien at this point, transforms into a high school student like Iroha and stays like that for the rest of the film
+- girl what is with all the yuri baiting 😂 what is that handshake!!! I refuse to believe I’m the only one who read too much into their… “scissor” handshake 🙈 plus the fact Kaguya essentially declares her love for Iroha every step of the way, and Iroha also eventually reciprocates and the ending is her making Kaguya real, reminding me of Chi from Chobits lolol
+  - I love ‘em though, they are 🫶
+  - make them KISS!! 😤
+- the art is also super duper amazing and clean, it was a blast to watch and me and my partner were on our toes every time a twist was revealed like “😮!! what!!! 😆 omg!!!” ← basically like that almost all the time hahaha
+
+</details>
+
+Anyway, the film is amazing, it’s animated super well, and the characters are all lovable. Bonus for you if you’re a fan of J-Pop and Vocaloid, because some Vocaloid producers also made songs for this movie! 😁
+
+---
+
+I still haven’t worked on the Travel Log thing therefore I still haven’t really looked back at all the photos I’ve taken during our 2-week trip in Thailand :)) I do want to work on it soon though, but I just have stuff this weekend that I need to work on, and after that maybe I can just spend a day recapping all the things we got to do that was memorable 😁
+
+But to share some stuff our Thailand trip:
+
+- it was nice that we got to go around places even if I technically still had to work in the early morning until early afternoon, since I didn’t have any accrued leaves at work yet
+- Grab makes more sense in Thailand even if it is traffic at certain times because the distances you have to go to for certain places really is far, compared to if you do it in the Philippines, sometimes you’d have to get a Grab because you’re holding a lot of stuff but you just have to travel like, 5 or 10km 🙃
+- Out of the 14 days we were there, I only really got bamboozled by food that was apparently spicy a total of 3 times :))
+  - in my defense, they were not labeled as spicy at all in the menu, but it still ended up being spicy because of some sauce that was mixed in 🥲
+- I learned that the KFCs in Thailand _don’t_ have non-spicy chicken readily available, and if you order it, they’d have to inform you it will take 20 minutes because I guess they’re cooking it from scratch 😆 we waited though, I have no choice else I won’t be able to eat anything :))
+
+Okay, I’ll end up writing everything else here if I continue but I’ll save it for when I fix my Travel Log 😄 I wanna share photos alongside the things I write!
+
+---
+
+I learned from [this YouTube video](https://www.youtube.com/watch?v=51-wk_F0SfE) that there is apparently a way to view webpages in your terminal! The tool is called [Brow.sh](https://www.brow.sh/) and from what I understand, it uses Firefox under the hood but just also renders the page within the terminal :))
+
+Here's the video:
+
+import { YouTube } from "astro-embed";
+
+<YouTube id="https://www.youtube.com/watch?v=51-wk_F0SfE" />
+
+Obviously I had to try it with my website, and I’m amused to see that even the theme switching between light and dark mode works! Though the SVGs and my emojis don’t render properly. Something I now want to figure out how to fix when I get to it 😁
+
+import VideoPlayer from "@components/VideoPlayer.astro";
+
+<VideoPlayer
+  id="WdyuCqZXSjgXOThSKHO7CE023uzBCTgMLU44QEp7a7Sk"
+  metadata={{
+    video_title:
+      "viewing my website and switching between light mode and dark mode in the terminal",
+  }}
+/>
+
+I also learned about other <abbr title="text user interfaces">TUIs</abbr> like `wttr.in` which shows the 7-day weather forecast for your location (or whichever location you choose if you append it to the input) in the terminal:
+
+![Screenshot of Chi’s terminal showing the output of the command “curl wttr.in”, which shows the Weather report for Manila, Philippines for today and the next 2 days for morning, noon, evening, and night.](/uploads/2026/Pasted%20image%2020260129122709.png "It’s so cute that it also has ASCII drawings of the sun if it’s sunny or the sun and clouds if it’s cloudy 😄")
+
+And then there’s also `w3n` which, if you run it like `w3n <URL>` (in my case, `w3n https://chisenires.design` hehe) it renders the text-based version of the website. Here’s what my website looks like in text only mode:
+
+![Screenshot of Chi’s terminal showing the text-based version of the home page of her personal website](/uploads/2026/Pasted%20image%2020260129133214.png "I can see that emojis are rendering nicely, but maybe I could do something about how the list items show for the post metadata? 🤔 that or I could leave it as is 😁")
+
+It’s so cool to see so many cool things to work on done by very talented people! I only wish I had more time to explore them and also maybe work on things similar to this. But I know that that’s ultimately up to me, and I _did_ get to migrate my website on my own time… so for sure I can do all the other projects I wanna work on, in due time 😄
+
+---
+
+I’m almost 1 year in my current company and only now I’m learning some Aussie slang from my officemates 😆
+
+Some of the things I know so far:
+
+- “under the pump” – means they’re under a lot of pressure and they’re very busy
+  - initially I thought they meant they were sick or under the weather, so I said “get well soon!” but they corrected me to say they’re just busy with back-to-back meetings 😅
+  - only when I was corrected did it occur to me to search what it was, and it was apparently Aussie slang :))
+- “arvo” – means afternoon
+  - this time around when I saw this very foreign-to-me looking word, I immediately searched what it meant. It’s slang used in Australia and New Zealand, apparently! I knew then how to respond, and also spelled out “afternoon” so I also remember what it means if I do backread our chats 😆
+
+There’s bound to be more, maybe I can mimic [anh’s Personal Lexicon](https://anhvn.com/garden/lexicon/) and also add a page in my website for things I wanna remember the meaning of. :))
+
+---
+
+Okay I’m keeping it to here for now since this is becoming lengthier by the minute 😆
+
+If you got to this point, I appreciate you ❤️ here is a cookie! 🍪
+
+[^1]: Also making myself a note here to link to the individual Movie (?) or Anime (?) page for this once I get to it 😝
