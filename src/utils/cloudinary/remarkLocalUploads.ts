@@ -4,7 +4,8 @@ import path from "node:path";
 import { getManifestUrl } from "./uploader";
 
 function toPosix(p: string) {
-  return p.split(path.sep).join("/");
+  const decoded = decodeURIComponent(p);
+  return decoded.split(path.sep).join("/");
 }
 
 // Handles Markdown images: ![](./src/content/img/uploads/2026/foo.jpg) or similar
