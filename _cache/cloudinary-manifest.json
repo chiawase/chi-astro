@@ -3058,5 +3058,35 @@
     "etag": "2345687dc382893bef9ee72fa86d3537",
     "uploadedAt": "2026-01-29T05:31:53.950Z",
     "sha1": "4a8fd0e61efac10f073c050a7f67ac2de113a3f6"
+  },
+  "uploads/2026/Pasted image 20260201173804.png": {
+    "localRelPath": "uploads/2026/Pasted image 20260201173804.png",
+    "publicId": "chisenires.design/uploads/2026/Pasted image 20260201173804",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1769938686/chisenires.design/uploads/2026/Pasted%20image%2020260201173804.png",
+    "bytes": 139443,
+    "etag": "056bb64ae2610034a8be173d3cbccb70",
+    "uploadedAt": "2026-02-01T09:38:07.418Z",
+    "sha1": "a1129340eaa35250820c9a821e01e59a19ecddee"
+  },
+  "uploads/games/Umamusume_Pretty_Derby_game_cover.jpg": {
+    "localRelPath": "uploads/games/Umamusume_Pretty_Derby_game_cover.jpg",
+    "publicId": "chisenires.design/uploads/games/Umamusume_Pretty_Derby_game_cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1769942609/chisenires.design/uploads/games/Umamusume_Pretty_Derby_game_cover.jpg",
+    "bytes": 81500,
+    "etag": "b70f0c7b3289abbfc45bb8964193c0ab",
+    "uploadedAt": "2026-02-01T10:43:29.818Z",
+    "sha1": "71db05147773c93ecdb6ff9f904dbdd0124f43ff"
+  },
+  "uploads/2026/Umamusume_Pretty_Derby_game_cover.jpg": {
+    "localRelPath": "uploads/2026/Umamusume_Pretty_Derby_game_cover.jpg",
+    "publicId": "chisenires.design/uploads/2026/Umamusume_Pretty_Derby_game_cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1769942632/chisenires.design/uploads/2026/Umamusume_Pretty_Derby_game_cover.jpg",
+    "bytes": 81500,
+    "etag": "b70f0c7b3289abbfc45bb8964193c0ab",
+    "uploadedAt": "2026-02-01T10:43:53.000Z",
+    "sha1": "71db05147773c93ecdb6ff9f904dbdd0124f43ff"
   }
 }
