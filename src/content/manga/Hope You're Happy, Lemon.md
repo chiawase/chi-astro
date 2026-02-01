@@ -7,10 +7,16 @@ tags:
 - romantic comedy
 - body swap
 - friends
-latestChapter: "Chapter 85"
-lastReadDate: 2026-01-25
+latestChapter: "Chapter 86"
+lastReadDate: 2026-02-01
 status: reading
 ---
+
+## 1 Feb 2026
+
+- LET’S GOOOOO KOGAHARA AAAAAAAAA FINALLY 😭😭😭😭
+- also Sunao just being hung up on what Kogahara had to say!!!!!! How is this gonna go!!!!! 
+- What’s gonna happen to LEMON 🥺 REEEEEEEEEE
 
 ## 25 Jan 2026
 
