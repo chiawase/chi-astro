@@ -2,56 +2,62 @@
 title: Changelog
 description: "Where I list the different changes I make on my personal website."
 ---
+
 import Page from "@layouts/Page.astro";
 
 <Page title={frontmatter.title} description={frontmatter.description}>
   > I made this page so I could collate somewhere all the things I’ve updated in this website so far + so I don’t “spam” people blog posts that are all just me talking about my website updates.
 
-  > Some of them are really small changes now, so this is where they’ll be housed for the meantime. If I do make a big change, I might reference that here, too!
+> Some of them are really small changes now, so this is where they’ll be housed for the meantime. If I do make a big change, I might reference that here, too!
 
-  ***
+---
 
-  ## 24 Jan 2026
+## 1 Feb 2026
 
-  * My [now](/now/) page shows a dynamic list for my [Manga](/now/#manga) based on the recently updated manga entries, and are segregated to **Recently Updated** and **Recently Finished**
-    * ~~I still have to figure out how to get these either rendered as Markdown so it gets the auto heading links generated for it, OR I change how that plugin works and it processes the HTML (?) output instead? I’ll see. For now this is fine haha~~ I have since figured this out by moving the rendering of the manga list into an Astro component named `MangaRecentList.astro` 😁
+- made the recently finished list in my [Now](/now/) page to just show the latest 3 recently finished entries
 
-  ## 22 Jan 2026
+## 24 Jan 2026
 
-  * finished importing the rest of the items in [Manga](/manga/) (from my [now](/now/) page)
+- My [now](/now/) page shows a dynamic list for my [Manga](/now/#manga) based on the recently updated manga entries, and are segregated to **Recently Updated** and **Recently Finished**
+  - ~~I still have to figure out how to get these either rendered as Markdown so it gets the auto heading links generated for it, OR I change how that plugin works and it processes the HTML (?) output instead? I’ll see. For now this is fine haha~~ I have since figured this out by moving the rendering of the manga list into an Astro component named `MangaRecentList.astro` 😁
 
-  ## 21 Jan 2026
+## 22 Jan 2026
 
-  * Made a [Media](/media/) page so I could group [Games](/games/) and [Manga](/manga/) (and eventually stuff like Anime, TV Shows, Films) could be grouped together
-    * not sure if I’m going to keep the formatting of the URLs for these pages as is or if I’ll append them first with `/media/*` then everything can be housed there. *Technically* speaking it makes sense to have that as the URL format, but I’d rather not place my Games and Manga content folders into *more* folders 😬
-  * Stripped emojis from the title and description when rendering the social image URL, all set up in `BaseHead.astro`
-  * I was in the middle of adding all the things I have listed in my [Ongoing Manga list](/now/#ongoing) into [Manga](/manga/) but I’m not done yet 😅 There’s so many!
+- finished importing the rest of the items in [Manga](/manga/) (from my [now](/now/) page)
 
-  ## 10 Jan 2026
+## 21 Jan 2026
 
-  * Added some styles for the `<details>` tags, for when I mark spoilers in posts
-  * Added [Manga](/manga/) to my website, though I have yet to fill it up with entries!
+- Made a [Media](/media/) page so I could group [Games](/games/) and [Manga](/manga/) (and eventually stuff like Anime, TV Shows, Films) could be grouped together
+  - not sure if I’m going to keep the formatting of the URLs for these pages as is or if I’ll append them first with `/media/*` then everything can be housed there. _Technically_ speaking it makes sense to have that as the URL format, but I’d rather not place my Games and Manga content folders into _more_ folders 😬
+- Stripped emojis from the title and description when rendering the social image URL, all set up in `BaseHead.astro`
+- I was in the middle of adding all the things I have listed in my [Ongoing Manga list](/now/#ongoing) into [Manga](/manga/) but I’m not done yet 😅 There’s so many!
 
-  ## 9 Jan 2026
+## 10 Jan 2026
 
-  * Fixed how content shows up in my [feed.xml](/feed.xml) as it used to show the MDX content, now it processes the HTML content properly and also makes YouTube embeds into links for the feed specifically
+- Added some styles for the `<details>` tags, for when I mark spoilers in posts
+- Added [Manga](/manga/) to my website, though I have yet to fill it up with entries!
 
-  ## 7 Jan 2026
+## 9 Jan 2026
 
-  * finally got my website up and running again, this time with images now hosted on Cloudinary instead of my repo 😆
-    * surprise surprise, for a long while I just kept having *all* the images in both [/blog/](/blog/) and [/archive/](/archive/) saved in my own repo. I mean, I know that can be done, but long term it’s... not the best thing ever :))
-    * I added more items in my [Blogroll](/blogroll/) list (and I think I did these changes the day before, but I couldn’t release it until I fixed the media management on my site 🙈)
-  * I also changed how the last updated timestamps show up for the following pages: [Blogroll](/blogroll/), [Colophon](/colophon/), [Stuff I Use](/stuff-i-use/)
-    * I made a `@utils/getUpdatedDateFor.ts` that gets the path for the file I want to check the latest modified timestamp and output that 😁
-  * I also moved the links from my [Contact](/contact/) page from just declared in the `.mdx` file itself into a file found in my `@data` directory!
+- Fixed how content shows up in my [feed.xml](/feed.xml) as it used to show the MDX content, now it processes the HTML content properly and also makes YouTube embeds into links for the feed specifically
 
-  ## 6 Jan 2026
+## 7 Jan 2026
 
-  * my site had to be deleted off our self-hosting server because my deployments kept using up a lot of memory and space 🥲
+- finally got my website up and running again, this time with images now hosted on Cloudinary instead of my repo 😆
+  - surprise surprise, for a long while I just kept having _all_ the images in both [/blog/](/blog/) and [/archive/](/archive/) saved in my own repo. I mean, I know that can be done, but long term it’s... not the best thing ever :))
+  - I added more items in my [Blogroll](/blogroll/) list (and I think I did these changes the day before, but I couldn’t release it until I fixed the media management on my site 🙈)
+- I also changed how the last updated timestamps show up for the following pages: [Blogroll](/blogroll/), [Colophon](/colophon/), [Stuff I Use](/stuff-i-use/)
+  - I made a `@utils/getUpdatedDateFor.ts` that gets the path for the file I want to check the latest modified timestamp and output that 😁
+- I also moved the links from my [Contact](/contact/) page from just declared in the `.mdx` file itself into a file found in my `@data` directory!
 
-  ## 5 Jan 2026
+## 6 Jan 2026
 
-  * Decided to make this page so I could have a space to log the different changes to my website moving forward, instead of making a blog post every time I do a change 😆
-  * added my social links and a way to reach out to me via email in my 404 pages
-  * Updated the email listed in my rel=me tags to the “proper” email format of `mailto:<email>`
+- my site had to be deleted off our self-hosting server because my deployments kept using up a lot of memory and space 🥲
+
+## 5 Jan 2026
+
+- Decided to make this page so I could have a space to log the different changes to my website moving forward, instead of making a blog post every time I do a change 😆
+- added my social links and a way to reach out to me via email in my 404 pages
+- Updated the email listed in my rel=me tags to the “proper” email format of `mailto:<email>`
+
 </Page>
