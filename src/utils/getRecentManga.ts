@@ -65,7 +65,7 @@ export async function getRecentManga() {
   const recentFinished = mangaProcessed
     .filter((m) => m.status === "finished")
     .sort(sortByLatestRead)
-    .slice(0, 5);
+    .slice(0, 3);
 
   return { recentReading, recentFinished };
 }
