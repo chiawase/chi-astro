@@ -6,7 +6,12 @@ tags:
 - "slice-of-life"
 - romantic comedy
 - friends
-latestChapter: Chapter 37
-lastReadDate: 2026-01-22
+latestChapter: Chapter 38
+lastReadDate: 2026-02-01
 status: reading
 ---
+
+## 1 February 2026
+
+- let’S GOOOOO CHARACTER PROGRESSION 😤 the CONFESSION!!!!! aaaaaaaaaa
+- also lol at Mirei casually just sleeping on Yushin’s shoulder, she’s that relaxed around him 😆
