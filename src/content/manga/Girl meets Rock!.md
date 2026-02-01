@@ -7,10 +7,14 @@ tags:
 - music
 - friends
 - romantic comedy
-latestChapter: "Chapter 96: Let’s Shout a Huge Lie"
-lastReadDate: 2026-01-25
+latestChapter: "Chapter 97: Let's Stop Holding Back"
+lastReadDate: 2026-02-01
 status: reading
 ---
+
+## 1 February 2026
+
+- lmao I thought Rin is gonna crash out with Hatono having a crush on Mizuo but this just made her worship her even more 😂
 
 ## 25 Jan 2026
 
