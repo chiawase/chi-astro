@@ -8,7 +8,10 @@ if (!files.length) process.exit(0);
 
 // Resolve your existing smartquotes script in the repo.
 // Adjust this if your mdx-smartquotes.mjs lives elsewhere.
-const smartquotesPath = path.resolve(process.cwd(), "mdx-smartquotes.mjs");
+const smartquotesPath = path.resolve(
+  process.cwd(),
+  "src/scripts/mdx-smartquotes.mjs",
+);
 
 for (const file of files) {
   // Skip missing files (renames/deletes can happen in staging)
