@@ -215,6 +215,12 @@ export const BLOGROLL_LIST: Blogroll[] = [
     author: "Set Studio / Andy Bell",
     note: "I’ve also been following Andy Bell’s works since Twitter times and also support the things they do over at Picalilli! I like reading through their posts when I have the time.",
   },
+  {
+    url: "https://www.alicepackarddesign.com/",
+    domain: "www.alicepackarddesign.com",
+    author: "Alice Packard",
+    note: "Initially encountered her blog post about the different uses for Figma variables and are interested to hear more from her 😄",
+  },
   // {
   //   url: "",
   //   domain: "",
