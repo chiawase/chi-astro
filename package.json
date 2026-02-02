@@ -13,7 +13,14 @@
     "webmentions:clean": "rm -f _cache/webmentions.json",
     "webmentions:fetch": "webmention https://chisenires.design/feed.xml",
     "webmentions:send": "webmention https://chisenires.design/feed.xml --limit 1 --send",
-    "mux:upload": "tsx src/scripts/muxUploadAll.ts"
+    "mux:upload": "tsx src/scripts/muxUploadAll.ts",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{md,mdx}": [
+      "node scripts/smartquotes-staged.mjs",
+      "git add"
+    ]
   },
   "engines": {
     "node": ">=18"
@@ -73,6 +80,8 @@
     "@types/luxon": "^3.7.1",
     "astro-robots-txt": "^1.0.0",
     "dotenv": "^17.2.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "remark-mdx": "^3.1.1",
     "remark-parse": "^11.0.0",
     "remark-smartypants": "^3.0.2",
