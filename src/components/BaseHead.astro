@@ -85,19 +85,20 @@ const metadataImageHeight = "640";
 const FOLDER = "chisenires.design/";
 const SHARE_IMAGE_FILE_NAME = "thumbnail_odokru";
 
+const TEXT_AREA_WIDTH = 943;
+const TEXT_LEFT_OFFSET = 124;
+const TEXT_COLOR = "rgb:FDFDFD";
+
+const URL_VERTICAL_OFFSET = 82;
+const URL_OPACITY = 50;
+
 const TITLE_FONT = "anybodyheading.woff2";
-const TITLE_FONT_SIZE = 72;
-const TITLE_BOTTOM_OFFSET = 378;
+const TITLE_FONT_SIZE = 80;
+const TITLE_VERTICAL_OFFSET = 152;
 
 const BODY_FONT = "victormonobody.woff2";
 const BODY_FONT_SIZE = 36;
-
-const TAGLINE_TOP_OFFSET = 298;
-const URL_BOTTOM_OFFSET = 24;
-
-const TEXT_AREA_WIDTH = 1071;
-const TEXT_LEFT_OFFSET = 60;
-const TEXT_COLOR = "rgb:FDFDFD";
+const BODY_VERTICAL_OFFSET = 338;
 
 const ogImageUrl = getCldOgImageUrl({
   src: FOLDER+SHARE_IMAGE_FILE_NAME,
@@ -106,40 +107,7 @@ const ogImageUrl = getCldOgImageUrl({
   quality: "auto:best",
   format: "png",
   overlays: [
-    {
-      width: TEXT_AREA_WIDTH,
-      crop: "fit",
-      text: {
-        fontFamily: TITLE_FONT,
-        fontSize: TITLE_FONT_SIZE,
-        color: TEXT_COLOR,
-        fontWeight: "light_italic",
-        alignment: "left",
-        text: metadataTitleForCld
-      },
-      position: {
-        x: TEXT_LEFT_OFFSET,
-        y: TITLE_BOTTOM_OFFSET,
-        gravity: "south_west"
-      }
-    },
-    {
-      width: TEXT_AREA_WIDTH,
-      crop: "fit",
-      text: {
-        fontFamily: BODY_FONT,
-        fontSize: BODY_FONT_SIZE,
-        color: TEXT_COLOR,
-        fontWeight: "normal",
-        alignment: "left",
-        text: metadataDescriptionForCld
-      },
-      position: {
-        x: TEXT_LEFT_OFFSET,
-        y: TAGLINE_TOP_OFFSET,
-        gravity: "north_west"
-      }
-    },
+    // showing URL
     {
       width: TEXT_AREA_WIDTH,
       crop: "fit",
@@ -153,10 +121,49 @@ const ogImageUrl = getCldOgImageUrl({
       },
       position: {
         x: TEXT_LEFT_OFFSET,
-        y: URL_BOTTOM_OFFSET,
-        gravity: "south_west"
+        y: URL_VERTICAL_OFFSET,
+        gravity: "north_west"
+      },
+      effects: [
+        { opacity: URL_OPACITY }
+      ]
+    },
+    // showing post title
+    {
+      width: TEXT_AREA_WIDTH,
+      crop: "fit",
+      text: {
+        fontFamily: TITLE_FONT,
+        fontSize: TITLE_FONT_SIZE,
+        color: TEXT_COLOR,
+        fontWeight: "light_italic",
+        alignment: "left",
+        text: metadataTitleForCld
+      },
+      position: {
+        x: TEXT_LEFT_OFFSET,
+        y: TITLE_VERTICAL_OFFSET,
+        gravity: "north_west"
       }
-    }
+    },
+    // showing post description
+    {
+      width: TEXT_AREA_WIDTH,
+      crop: "fit",
+      text: {
+        fontFamily: BODY_FONT,
+        fontSize: BODY_FONT_SIZE,
+        color: TEXT_COLOR,
+        fontWeight: "normal",
+        alignment: "left",
+        text: metadataDescriptionForCld
+      },
+      position: {
+        x: TEXT_LEFT_OFFSET,
+        y: BODY_VERTICAL_OFFSET,
+        gravity: "north_west"
+      }
+    },
   ],
 });
 ---
