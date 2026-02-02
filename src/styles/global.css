@@ -593,7 +593,8 @@ article .e-content * > li {
 }
 
 .postlist-description {
-  margin: 0.5rem auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Tags */
