@@ -13,7 +13,13 @@
     "webmentions:clean": "rm -f _cache/webmentions.json",
     "webmentions:fetch": "webmention https://chisenires.design/feed.xml",
     "webmentions:send": "webmention https://chisenires.design/feed.xml --limit 1 --send",
-    "mux:upload": "tsx src/scripts/muxUploadAll.ts"
+    "mux:upload": "tsx src/scripts/muxUploadAll.ts",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{md,mdx}": [
+      "node src/scripts/smartquotes-staged.mjs"
+    ]
   },
   "engines": {
     "node": ">=18"
@@ -29,6 +35,7 @@
     "@braindb/remark-wiki-link": "^2.1.0",
     "@flowershow/remark-wiki-link": "^3.3.1",
     "@fontsource-variable/anybody": "^5.2.7",
+    "@fontsource-variable/source-sans-3": "^5.2.9",
     "@fontsource-variable/victor-mono": "^5.2.8",
     "@iconify-json/simple-icons": "^1.2.65",
     "@mux/mux-node": "^12.8.1",
@@ -72,6 +79,8 @@
     "@types/luxon": "^3.7.1",
     "astro-robots-txt": "^1.0.0",
     "dotenv": "^17.2.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "remark-mdx": "^3.1.1",
     "remark-parse": "^11.0.0",
     "remark-smartypants": "^3.0.2",
