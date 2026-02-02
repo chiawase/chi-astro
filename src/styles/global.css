@@ -11,6 +11,8 @@
 
   --text-color: var(--color-gray-90);
 
+  --text-color-code: green;
+
   --text-color-link: #c2302b;
   --text-color-link-active: #8b24da;
   --text-color-link-visited: #8b24da;
@@ -22,15 +24,13 @@
   --svg-external-link-icon: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.16667 5C9.38768 5 9.59964 5.0878 9.75592 5.24408C9.9122 5.40036 10 5.61232 10 5.83333C10 6.05435 9.9122 6.26631 9.75592 6.42259C9.59964 6.57887 9.38768 6.66667 9.16667 6.66667H4.16667V15.8333H13.3333V10.8333C13.3333 10.6123 13.4211 10.4004 13.5774 10.2441C13.7337 10.0878 13.9457 10 14.1667 10C14.3877 10 14.5996 10.0878 14.7559 10.2441C14.9122 10.4004 15 10.6123 15 10.8333V15.8333C15 16.2754 14.8244 16.6993 14.5118 17.0118C14.1993 17.3244 13.7754 17.5 13.3333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V6.66667C2.5 6.22464 2.67559 5.80072 2.98816 5.48816C3.30072 5.17559 3.72464 5 4.16667 5H9.16667ZM16.6667 2.5C16.8877 2.5 17.0996 2.5878 17.2559 2.74408C17.4122 2.90036 17.5 3.11232 17.5 3.33333V7.5C17.5 7.72101 17.4122 7.93298 17.2559 8.08926C17.0996 8.24554 16.8877 8.33333 16.6667 8.33333C16.4457 8.33333 16.2337 8.24554 16.0774 8.08926C15.9211 7.93298 15.8333 7.72101 15.8333 7.5V5.345L8.9225 12.2558C8.76533 12.4076 8.55483 12.4916 8.33633 12.4897C8.11784 12.4878 7.90882 12.4002 7.75432 12.2457C7.59981 12.0912 7.51217 11.8822 7.51027 11.6637C7.50837 11.4452 7.59237 11.2347 7.74417 11.0775L14.655 4.16667H12.5C12.279 4.16667 12.067 4.07887 11.9107 3.92259C11.7545 3.76631 11.6667 3.55435 11.6667 3.33333C11.6667 3.11232 11.7545 2.90036 11.9107 2.74408C12.067 2.5878 12.279 2.5 12.5 2.5H16.6667Z' fill='%23C2302B'/%3E%3C/svg%3E");
   --svg-external-link-icon-hover: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.16667 5C9.38768 5 9.59964 5.0878 9.75592 5.24408C9.9122 5.40036 10 5.61232 10 5.83333C10 6.05435 9.9122 6.26631 9.75592 6.42259C9.59964 6.57887 9.38768 6.66667 9.16667 6.66667H4.16667V15.8333H13.3333V10.8333C13.3333 10.6123 13.4211 10.4004 13.5774 10.2441C13.7337 10.0878 13.9457 10 14.1667 10C14.3877 10 14.5996 10.0878 14.7559 10.2441C14.9122 10.4004 15 10.6123 15 10.8333V15.8333C15 16.2754 14.8244 16.6993 14.5118 17.0118C14.1993 17.3244 13.7754 17.5 13.3333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V6.66667C2.5 6.22464 2.67559 5.80072 2.98816 5.48816C3.30072 5.17559 3.72464 5 4.16667 5H9.16667ZM16.6667 2.5C16.8877 2.5 17.0996 2.5878 17.2559 2.74408C17.4122 2.90036 17.5 3.11232 17.5 3.33333V7.5C17.5 7.72101 17.4122 7.93298 17.2559 8.08926C17.0996 8.24554 16.8877 8.33333 16.6667 8.33333C16.4457 8.33333 16.2337 8.24554 16.0774 8.08926C15.9211 7.93298 15.8333 7.72101 15.8333 7.5V5.345L8.9225 12.2558C8.76533 12.4076 8.55483 12.4916 8.33633 12.4897C8.11784 12.4878 7.90882 12.4002 7.75432 12.2457C7.59981 12.0912 7.51217 11.8822 7.51027 11.6637C7.50837 11.4452 7.59237 11.2347 7.74417 11.0775L14.655 4.16667H12.5C12.279 4.16667 12.067 4.07887 11.9107 3.92259C11.7545 3.76631 11.6667 3.55435 11.6667 3.33333C11.6667 3.11232 11.7545 2.90036 11.9107 2.74408C12.067 2.5878 12.279 2.5 12.5 2.5H16.6667Z' fill='%238B24DA'/%3E%3C/svg%3E%0A");
 
-  --text-color-code: green;
-
   color-scheme: var(--color-scheme, light);
 
   --syntax-tab-size: 2;
 
   --size-body-text: 18px;
 
-  --max-width: 50rem;
+  --max-width: 60rem;
   --max-viewport-width: 896px;
 
   --height-header: 73px;
@@ -71,7 +71,7 @@ html.dark {
   --font-family-heading:
     "Anybody Variable", -apple-system, system-ui, sans-serif;
   --font-family-body:
-    "Victor Mono Variable", -apple-system, system-ui, sans-serif;
+    "Source Sans 3 Variable", -apple-system, system-ui, sans-serif;
   --font-family-monospace:
     "Victor Mono Variable", Consolas, Menlo, Monaco, Andale Mono WT,
     Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono,
@@ -183,15 +183,21 @@ footer {
   justify-content: center;
 }
 
-:is(h1, h2, h3, h4, h5, h6) {
+/* Heading Fonts */
+:is(h1, h2) {
   font-family: var(--font-family-heading);
   font-style: italic;
   line-height: 105%;
   font-variation-settings:
-    "ital" 1,
     "wdth" 88.2,
     "wght" 250;
   margin-bottom: 1.5rem;
+}
+
+:is(h3, h4, h5, h6) {
+  font-family: var(--font-family-monospace);
+  font-style: italic;
+  letter-spacing: -0.15rem;
 }
 
 /* Heading sizes */
@@ -222,15 +228,6 @@ h6 {
   }
 }
 
-/* Heading Fonts */
-h3,
-h4,
-h5,
-h6 {
-  --font-family-heading:
-    "Victor Mono Variable", -apple-system, system-ui, sans-serif;
-  letter-spacing: -0.15rem;
-}
 strong,
 b {
   font-weight: 700;
@@ -296,6 +293,13 @@ p {
     margin-bottom: 2rem;
   }
 }
+
+@media (max-width: 896px) {
+  p {
+    line-height: 160%;
+  }
+}
+
 textarea {
   width: 100%;
   font-size: 16px;
@@ -469,6 +473,10 @@ section.intro p {
     font-size: 1rem;
   }
 
+  section.intro h1 {
+    font-size: 3.3rem;
+  }
+
   section.intro p {
     margin-top: 0.5rem;
   }
@@ -476,17 +484,9 @@ section.intro p {
 hr {
   color: var(--text-color-link);
   border-top-width: 1px;
-  /* adding some styping so this looks fancy? */
+  /* adding some styling so this looks fancy? */
   width: 10rem;
   margin: 2rem auto 3rem;
-}
-@media (max-width: 720px) {
-  body {
-    font-size: 18px;
-  }
-  main {
-    padding: 1em;
-  }
 }
 
 video,
@@ -576,31 +576,24 @@ article .e-content * > li {
   font-size: 0.8125em; /* 13px /16 */
   color: currentColor;
 }
-.postlist-date {
-  word-spacing: -0.5px;
-}
-.postlist-link.postlist-header {
-  font-size: 1.44em; /* h5 size */
-  line-height: 120%;
-  flex-basis: calc(100% - 1rem);
+
+.postlist-header {
+  font-family: var(--font-family-heading);
+  font-size: 2.5rem;
+  font-style: italic;
+  font-variation-settings:
+    "ital" 1,
+    "wdth" 88.2,
+    "wght" 250;
+  line-height: 100%;
 }
 
 .postlist-item-active .postlist-link {
   font-weight: bold;
 }
 
-.postlist-header,
 .postlist-description {
-  flex-basis: calc(100% - 1rem);
-  padding-left: 0.25em;
-  padding-right: 0.5em;
-}
-@media (max-width: 896px) {
-  .postlist-header,
-  .postlist-description {
-    padding: 0;
-    flex-basis: 100%;
-  }
+  margin: 0.5rem auto;
 }
 
 /* Tags */
