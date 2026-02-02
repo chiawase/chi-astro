@@ -18,8 +18,7 @@
   },
   "lint-staged": {
     "*.{md,mdx}": [
-      "node scripts/smartquotes-staged.mjs",
-      "git add"
+      "node src/scripts/smartquotes-staged.mjs"
     ]
   },
   "engines": {
