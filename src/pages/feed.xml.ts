@@ -92,6 +92,7 @@ export async function GET(context: { site: URL }) {
 
       const fallbackTitle = truncate(stripHtml(html), 60);
       const title = post.data.title ? String(post.data.title) : fallbackTitle;
+      const summary = post.data.summary ? String(post.data.summary) : null;
 
       const published = post.data.pubDate.toISOString();
       const updated = post.data.updatedDate.toISOString();
@@ -103,6 +104,7 @@ export async function GET(context: { site: URL }) {
     <published>${published}</published>
     <updated>${updated}</updated>
     <id>${escapeXml(postUrl)}</id>
+    <summary>${summary ? escapeXml(summary) : escapeXml(truncate(stripHtml(html), 200))}</summary>
     <content type="html"><![CDATA[${html}]]></content>
   </entry>`;
     }),
