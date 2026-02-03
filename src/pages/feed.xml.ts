@@ -104,7 +104,7 @@ export async function GET(context: { site: URL }) {
     <published>${published}</published>
     <updated>${updated}</updated>
     <id>${escapeXml(postUrl)}</id>
-    <summary>${summary ? escapeXml(summary) : escapeXml(truncate(stripHtml(html), 200))}</summary>
+    ${summary ? `<summary>${escapeXml(summary)}</summary>` : ``}
     <content type="html"><![CDATA[${html}]]></content>
   </entry>`;
     }),
