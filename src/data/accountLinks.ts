@@ -98,6 +98,13 @@ export const ACCOUNT_LINKS: AccountLinks[] = [
     socialUrl: "https://twitter.com/_ChiAwase",
     note: "This was my first Twitter account which was my personal, but I also don’t use it anymore since 2023. Keeping it here so no one else can get the username",
   },
+  {
+    username: "chiawase",
+    platform: "MonkeyType",
+    socialUrl: "https://monkeytype.com/profile/chiawase",
+    note: "Occasionally I use this to test my typing skills, though I don’t really try to get personal bests or something. I just like typing 😁",
+    customLabel: "MonkeyType Public profile (chiawase)",
+  },
   // {
   //   username: "",
   //   platform: "",
