@@ -15,7 +15,6 @@ import { robotsTxtOptions } from "./src/data/robotsTxt";
 import wikiLinkPlugin from "@flowershow/remark-wiki-link";
 import remarkCodeTitle from "remark-code-title";
 import remarkRemoveComments from "remark-remove-comments";
-import remarkToc from "remark-toc";
 
 /* Rehype Plugins */
 import { rehypeAccessibleEmojis } from "rehype-accessible-emojis";
@@ -48,7 +47,6 @@ export default defineConfig({
       remarkPlugins: [
         remarkRemoveComments,
         remarkCloudinaryLocalUploads,
-        [remarkToc, { heading: "contents", maxDepth: 3 }],
         [wikiLinkPlugin, { format: "regular" }],
       ],
       rehypePlugins: [
@@ -83,7 +81,6 @@ export default defineConfig({
       remarkCloudinaryLocalUploads,
       remarkCodeTitle,
       [wikiLinkPlugin, { format: "regular" }],
-      [remarkToc, { heading: "contents", maxDepth: 3 }],
     ],
     rehypePlugins: [
       rehypeAccessibleEmojis,
