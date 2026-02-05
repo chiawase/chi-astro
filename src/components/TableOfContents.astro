@@ -1,0 +1,83 @@
+---
+import { type MarkdownHeading } from "astro";
+import NestedTOC from "@components/NestedTOC.astro";
+
+interface Props {
+  headings: MarkdownHeading[];
+}
+
+interface NestedHeading {
+  depth: number;
+  slug: string;
+  text: string;
+  children: NestedHeading[];
+}
+
+const { headings } = Astro.props;
+
+const filteredHeadings = headings.filter((heading) => heading.depth >= 2 && heading.depth <= 4 && heading.text != "Footnotes");
+
+function buildNestedStructure(headings: MarkdownHeading[]): NestedHeading[] {
+  const result: NestedHeading[] = [];
+  const stack: NestedHeading[] = [];
+
+  for (const heading of headings) {
+    const node: NestedHeading = {
+      depth: heading.depth,
+      slug: heading.slug,
+      text: heading.text,
+      children: []
+    };
+
+    while (stack.length > 0 && stack[stack.length - 1].depth >= heading.depth) stack.pop();
+
+    if (stack.length === 0) {
+      result.push(node);
+    } else {
+      stack[stack.length - 1].children.push(node);
+    }
+
+    stack.push(node);
+  }
+
+  return result;
+}
+
+const nestedHeadings = buildNestedStructure(filteredHeadings);
+---
+{nestedHeadings.length > 0 && (
+  <nav>
+    <h5>Table of Contents</h5>
+    <ul class="toc-list">
+      {nestedHeadings.map((heading) => (
+        <NestedTOC item={heading} />
+      ))}
+    </ul>
+  </nav>
+)}
+<style>
+nav {
+  display: block;
+  float: right;
+  position: sticky;
+  top: calc(73px + 1rem); /* header height + some margin */
+  padding-bottom: 50vh;
+  width: 25rem;
+  font-size: 14px;
+}
+
+@media (max-width: 896px) {
+  nav {
+    position: relative;
+    float: none;
+    padding-bottom: initial;
+    top: initial;
+    width: 100%;
+  }
+}
+
+.toc-list {
+  padding-left: 1.5rem;
+}
+
+</style>

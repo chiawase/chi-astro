@@ -2,27 +2,37 @@
 import { type CollectionEntry, getCollection, render } from "astro:content";
 import BlogPost from "@layouts/BlogPost.astro";
 import { getReadingTime } from "@utils/readingTime";
+import { type MarkdownHeading } from "astro";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog", ({ data }) => !data.draft);
   posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-  return posts.map((post) => ({
+
+  const headings = await Promise.all(
+    posts.map(async (post) => {
+      const data = await render(post);
+      return data.headings;
+    })
+  );
+
+  return posts.map((post, index) => ({
     params: { slug: post.id },
-    props: { post },
+    props: { post, headings: headings[index] },
   }));
 }
 
 type Props = {
   post: CollectionEntry<"blog">;
+  headings: MarkdownHeading[];
 };
 
-const { post } = Astro.props;
+const { post, headings } = Astro.props;
 const { Content } = await render(post);
 
 // Calculate reading time using `body` property
 const postReadingTime = getReadingTime(post.body ?? "");
 ---
 
-<BlogPost post={post} slug={post.id} postReadingTime={postReadingTime}>
+<BlogPost post={post} slug={post.id} postReadingTime={postReadingTime} headings={headings}>
   <Content />
 </BlogPost>

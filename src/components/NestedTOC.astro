@@ -1,0 +1,36 @@
+---
+interface NestedHeading {
+  depth: number;
+  slug: string;
+  text: string;
+  children: NestedHeading[];
+}
+
+interface Props {
+  item: NestedHeading;
+}
+
+const { item } = Astro.props;
+---
+
+<li class="toc-item">
+  <a href={`#${item.slug}`}>{item.text}</a>
+  {item.children.length > 0 && (
+  <ul class="toc-nested">
+    {item.children.map((child) => (
+      <Astro.self item={child} />
+    ))}
+  </ul>
+  )}
+</li>
+<style>
+.toc-item {
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 0 !important;
+}
+
+.toc-nested {
+  padding-left: 1rem;
+}
+</style>

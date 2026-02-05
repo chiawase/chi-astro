@@ -1,5 +1,6 @@
 ---
 import { type CollectionEntry, getCollection, render } from "astro:content";
+import { type MarkdownHeading } from "astro";
 import { SITE_URL, SITE_AUTHOR, SITE_TITLE } from "@consts";
 
 import Page from "@layouts/Page.astro";
@@ -7,6 +8,7 @@ import Page from "@layouts/Page.astro";
 import PostMetadata from "@components/PostMetadata.astro";
 import WebmentionsLoader from "@components/WebmentionsLoader.astro";
 import Backlinks from "@components/Backlinks.astro";
+import TableOfContents from "@components/TableOfContents.astro";
 
 import { prepareOgText } from "@utils/prepareOgText";
 
@@ -16,12 +18,14 @@ type Props = {
   post: CollectionEntry<"blog">;
   slug: string;
   postReadingTime?: string;
+  headings: MarkdownHeading[];
 };
 
 const {
   post,
   slug,
-  postReadingTime
+  postReadingTime,
+  headings
 } = Astro.props;
 
 // Build the same sorted list here to find neighbors
@@ -80,6 +84,8 @@ const fallbackTitle = "Chi’s blog post";
         class="p-note"></data>
     </div>
 
+    <TableOfContents headings={headings} />
+
     <div class="e-content">
       <slot />
     </div>
@@ -123,6 +129,30 @@ const fallbackTitle = "Chi’s blog post";
 
 
 <style>
+  .h-entry h1 {
+    -webkit-hyphens: unset;
+    -moz-hyphens: unset;
+    -ms-hyphens: unset;
+    hyphens: unset; /* Only for the blog titles */
+  }
+
+  .e-content {
+    max-width: 50rem;
+  }
+
+  @media (max-width: 896px) {
+    .h-entry h1 {
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+    }
+
+    .e-content {
+      max-width: none;
+    }
+  }
+
   .links-nextprev {
     display: flex;
     justify-content: space-between;
