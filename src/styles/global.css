@@ -30,7 +30,7 @@
 
   --size-body-text: 18px;
 
-  --max-width: 55rem;
+  --max-width: 80rem;
   --max-viewport-width: 896px;
 
   --height-header: 73px;
@@ -198,6 +198,7 @@ footer {
   font-family: var(--font-family-monospace);
   font-style: italic;
   letter-spacing: -0.15rem;
+  margin-bottom: 0.25rem;
 }
 
 /* Heading sizes */
