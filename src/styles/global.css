@@ -254,8 +254,8 @@ a[href^="http"]:not(.webmention-avatar a):after {
   position: absolute;
   content: "";
   display: inline-block;
-  width: var(--size-body-text);
-  height: var(--size-body-text);
+  width: 1em; /* setting this to 1em so it follows its parent font size */
+  height: 1em;
   margin-left: 0.25rem;
   background-size: 100%;
   background-image: var(--svg-external-link-icon);
@@ -274,11 +274,7 @@ a[href^="http"]:not(.webmention-avatar a):active:after {
 
 p {
   margin-bottom: 1em;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  line-height: 200%;
+  line-height: 220%;
 
   &:last-child {
     margin-bottom: 0;
@@ -367,6 +363,7 @@ code {
     "wdth" 100,
     "wght" 400;
   padding: 0.25rem;
+  font-size: inherit;
   color: var(--text-color-code);
   transition: var(--subtle-transition);
 }
@@ -457,6 +454,12 @@ details {
 
 summary:not(.now-summary):before {
   content: "Content info: ";
+}
+
+kbd > kbd {
+  border-radius: 3px;
+  padding: 1px 2px 0;
+  border: 1px solid var(--text-color);
 }
 
 section.intro {
