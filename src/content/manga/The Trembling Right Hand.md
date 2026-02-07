@@ -8,10 +8,19 @@ tags:
 - drama
 - gore
 - "manga drawing"
-latestChapter: "Chapter 2: SUSPICION"
-lastReadDate: 2026-01-24
+latestChapter: "Chapter 4: SUSPICIOUS ASSISTANTS"
+lastReadDate: 2026-02-07
 status: reading
 ---
+
+## 7 Feb 2026
+
+- creepy ass smile on Shirahama-san……….
+- ew she might be setting herself up to “replace” Itsuki’s girlfriend geez hahaha
+- meanwhile, these 2 other assistants seem to be seeing each other 🤨
+	- I’m worried something’s gonna happen to Yamamoto-san’s dad though… 😬
+- EWWWWW seems like Shirahama-san has a crush on Itsuki and is trying to make a move on him hahaha
+- what the hell is that cliffhanger 😭
 
 ## 24 Jan 2026
 
