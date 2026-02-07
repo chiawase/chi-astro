@@ -7,10 +7,16 @@ tags:
 - rakugo
 - "slice-of-life"
 - drama
-latestChapter: "Story 191: Strain"
-lastReadDate: 2026-01-25
+latestChapter: "Story 192: The Form You’ve Got Now"
+lastReadDate: 2026-02-07
 status: reading
 ---
+
+## 7 Feb 2026
+
+- Akane as a tourist in Fukuoka hehe cute
+- she is 100% wearing a UNIQLO striped sleeveless bra top HAHA
+- oooooh what a build up for Rokuro Kashiwaya 👀
 
 ## 21 Jan 2026
 
