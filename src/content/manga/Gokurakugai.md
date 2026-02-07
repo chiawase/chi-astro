@@ -7,7 +7,7 @@ tags:
 - fantasy
 - drama
 - superpowers
-latestChapter: "Chapter 32: Test Shot"
-lastReadDate: 2026-01-21
+latestChapter: "Chapter 33: Lone Wolf"
+lastReadDate: 2026-02-07
 status: reading
 ---
