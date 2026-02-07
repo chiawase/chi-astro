@@ -7,10 +7,16 @@ tags:
 - drama
 - comedy
 - political
-latestChapter: "Chapter 38: THE CASE FOR BICYCLE LICENSES"
-lastReadDate: 2026-02-01
+latestChapter: "Chapter 39: YOU ALIVE?"
+lastReadDate: 2026-02-07
 status: reading
 ---
+
+## 7 February 2026
+
+- oh right we’re back to the uma-unc lmao
+- Babubus 😂 ridiculous man, deserved getting his shit trashed hahaha
+- what the hell is gonna happen to this Ice Man!! What is Oji plotting aaaaaa
 
 ## 1 February 2026
 
