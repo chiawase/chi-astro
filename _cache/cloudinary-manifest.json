@@ -3088,5 +3088,15 @@
     "etag": "b70f0c7b3289abbfc45bb8964193c0ab",
     "uploadedAt": "2026-02-01T10:43:53.000Z",
     "sha1": "71db05147773c93ecdb6ff9f904dbdd0124f43ff"
+  },
+  "uploads/manga/manaka-the-human-and-the-slaughter-robot-cover.jpg": {
+    "localRelPath": "uploads/manga/manaka-the-human-and-the-slaughter-robot-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/manaka-the-human-and-the-slaughter-robot-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1770450648/chisenires.design/uploads/manga/manaka-the-human-and-the-slaughter-robot-cover.jpg",
+    "bytes": 45416,
+    "etag": "f9a0f1c603ca22b33bc1aa62f7531f70",
+    "uploadedAt": "2026-02-07T07:50:49.070Z",
+    "sha1": "7217f48825c9c15d1b12cb1c1421e1c2d341034a"
   }
 }
