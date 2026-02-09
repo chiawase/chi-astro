@@ -6,17 +6,23 @@ tags:
 - aliens
 - drama
 - dark humor
-latestChapter: "Chapter 45: I Really Hate You pt. 9"
-lastReadDate: 2026-01-25
+latestChapter: "Chapter 46: Peace of Mind"
+lastReadDate: 2026-02-09
 status: reading
 ---
 
-## 25 Jan 2026
+## Chapter 46
+
+- bro.... Seiran please i hope things look better for you here
+- BRO NOOOO SEIRAN WHAT THE FUUUUCK 😭😭😭
+- man ending with a timeskip cliffhanger!!! huhuhu
+
+## Chapter 45
 
 - man… sucks to be Seiran
 - how long will this “chapter” be 😭 man what’s gonna happen next
 
-## 21 Jan 2026
+## Chapter 44
 
 > Just logging it under this day because I made this page, but these thoughts have already existed since I started reading this lol
 
