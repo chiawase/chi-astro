@@ -7,12 +7,17 @@ tags:
 - romantic comedy
 - body swap
 - friends
-latestChapter: "Chapter 86"
-lastReadDate: 2026-02-01
+latestChapter: "Chapter 87"
+lastReadDate: 2026-02-09
 status: reading
 ---
 
-## 1 Feb 2026
+## Chapter 87
+
+- AAAAAAAA SUNAO AND KOGAHARAAAAAA DAAAAATEEE!!!
+- Sunao stop being such a dense dummy!!! 😆😆
+
+## Chapter 86
 
 - LET’S GOOOOO KOGAHARA AAAAAAAAA FINALLY 😭😭😭😭
 - also Sunao just being hung up on what Kogahara had to say!!!!!! How is this gonna go!!!!! 
