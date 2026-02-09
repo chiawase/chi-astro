@@ -6,12 +6,18 @@ tags:
 - action
 - comedy
 - drama
-latestChapter: "Days 246: Shishiba Said"
-lastReadDate: 2026-02-07
+latestChapter: "Days 247: On Me"
+lastReadDate: 2026-02-09
 status: reading
 ---
 
-## 7 Feb 2026
+## Days 247
+
+- LET’S GET OUR GAMBLING FREAK ON
+- damn... Nagumo got pushed to the limit
+- at least he’s still alive 🥲
+
+## Days 246
 
 - The fight scenes are always so ridiculous but always so amusing to read 😆
 - next chapter’s gonna be a kakegurui chapter sksksksks jk
