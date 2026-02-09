@@ -8,12 +8,19 @@ tags:
 - fantasy
 - comedy
 - shonen
-latestChapter: "Chapter 1172: The Elbaph I Dreamed Of"
-lastReadDate: 2026-02-07
+latestChapter: "Chapter 1173: Warrior Generation"
+lastReadDate: 2026-02-09
 status: reading
 ---
 
 > Please take note this is a work in progress + I have not yet fully explicitly marked things as spoilers! Proceed with caution if you don’t want to be spoiled 😆
+
+## Chapter 1173
+
+- omg ZORO your plan really is just to piss ‘em off 😭🙏
+- man.... Brook have you been crawling all this time 🤣 also!!! who is princess Shuri!!! 😳
+- GUNKO NOOOOOO free yourself from Imu!!!!
+- lmao Sommers get rekt
 
 ## Chapter 1172
 > I technically read this earlier this week but I didn’t get to note my thoughts, so now I’m re-reading it 😆
