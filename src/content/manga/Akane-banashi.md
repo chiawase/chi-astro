@@ -7,12 +7,16 @@ tags:
 - rakugo
 - "slice-of-life"
 - drama
-latestChapter: "Story 192: The Form You’ve Got Now"
-lastReadDate: 2026-02-07
+latestChapter: "Story 193: Weaves a World"
+lastReadDate: 2026-02-09
 status: reading
 ---
 
-## 7 Feb 2026
+## Story 193
+
+- oooooh… I do wonder how they’re gonna eventually do this if in the anime. Though that will probably be in another … 2 years? 😆 we’ll see :))
+
+## Story 192
 
 - Akane as a tourist in Fukuoka hehe cute
 - she is 100% wearing a UNIQLO striped sleeveless bra top HAHA
