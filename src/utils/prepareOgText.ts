@@ -63,7 +63,9 @@ export function prepareOgText(input: string, options: OgTextOptions = {}) {
     //     continued definition text
     .replace(/^\[\^[^\]]+\]:.*(?:\n(?: {2,}|\t).*)*/gim, "")
     // Remove Astro / MDX embeds entirely
-    .replace(/<(YouTube|CodePen|Tweet)\b[\s\S]*?(?:\/>|>[\s\S]*?<\/\1>)/gi, "");
+    .replace(/<(YouTube|CodePen|Tweet)\b[\s\S]*?(?:\/>|>[\s\S]*?<\/\1>)/gi, "")
+    // strip any remanining HTML/JSX tags but keep the human-readable text inside
+    .replace(/<\/?[A-Za-z][\w:-]*(?:\s[^>]*?)?>/g, "");
 
   // ─────────────────────────────────────────────
   // 2. Markdown → AST
