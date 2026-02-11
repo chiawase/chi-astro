@@ -221,6 +221,12 @@ export const BLOGROLL_LIST: Blogroll[] = [
     author: "Alice Packard",
     note: "Initially encountered her blog post about the different uses for Figma variables and are interested to hear more from her 😄",
   },
+  {
+    url: "https://ralphammer.com/",
+    domain: "ralphammer.com",
+    author: "Ralph Ammer",
+    note: "I saw one article from his website about not making boring drawings and wow!! This site rocks, I’m gonna enjoy exploring this site hehe",
+  },
   // {
   //   url: "",
   //   domain: "",
