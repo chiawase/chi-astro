@@ -3098,5 +3098,33 @@
     "etag": "f9a0f1c603ca22b33bc1aa62f7531f70",
     "uploadedAt": "2026-02-07T07:50:49.070Z",
     "sha1": "7217f48825c9c15d1b12cb1c1421e1c2d341034a"
+  },
+  "uploads/manga/blooming-love-cover.jpg": {
+    "localRelPath": "uploads/manga/blooming-love-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/blooming-love-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1770906642/chisenires.design/uploads/manga/blooming-love-cover.jpg",
+    "bytes": 51295,
+    "etag": "bcc627bf34de1da5e4c27cc4df0e89a1",
+    "uploadedAt": "2026-02-12T14:30:42.955Z"
+  },
+  "uploads/manga/kanna-and-her-ghost-guardian-cover.jpg": {
+    "localRelPath": "uploads/manga/kanna-and-her-ghost-guardian-cover.jpg",
+    "publicId": "chisenires.design/uploads/manga/kanna-and-her-ghost-guardian-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1770906643/chisenires.design/uploads/manga/kanna-and-her-ghost-guardian-cover.jpg",
+    "bytes": 39659,
+    "etag": "c89309afb04b66eea45c9171f2339e55",
+    "uploadedAt": "2026-02-12T14:30:44.113Z"
+  },
+  "uploads/2026/Pasted image 20260212223928.png": {
+    "localRelPath": "uploads/2026/Pasted image 20260212223928.png",
+    "publicId": "chisenires.design/uploads/2026/Pasted image 20260212223928",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1770907172/chisenires.design/uploads/2026/Pasted%20image%2020260212223928.png",
+    "bytes": 108883,
+    "etag": "c6075d05752d18f1eed04ae098a1cd01",
+    "uploadedAt": "2026-02-12T14:39:32.631Z",
+    "sha1": "2167c2bbe1e51f59f403d40e443d6df37824436d"
   }
 }
