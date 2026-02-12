@@ -456,6 +456,11 @@ summary:not(.now-summary):before {
   content: "Content info: ";
 }
 
+kbd,
+samp {
+  font-family: var(--font-family-monospace);
+}
+
 kbd > kbd {
   border-radius: 3px;
   padding: 1px 2px 0;
