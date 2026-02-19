@@ -6,10 +6,15 @@ tags:
 - action
 - comedy
 - drama
-latestChapter: "Days 247: On Me"
-lastReadDate: 2026-02-09
+latestChapter: "Days 248: Alike"
+lastReadDate: 2026-02-19
 status: reading
 ---
+
+## Days 248
+
+- “When someone attacks me, I fight back. Ain’t that enough?” goes hard, Shishiba-san
+- ah, bro is a battery, got it lol
 
 ## Days 247
 
