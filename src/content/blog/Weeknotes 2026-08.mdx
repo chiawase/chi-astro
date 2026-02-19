@@ -1,0 +1,60 @@
+---
+title: "Weeknotes: 2026-08"
+summary: "I missed another weeknote because I did a lot of not-on-my-computer stuff the past week! Trying to get back into it again."
+pubDate: 2026-02-19T15:57:58+00:00
+updatedDate: 2026-02-19T16:37:44+00:00
+tags:
+  - writing
+  - weeknotes
+postLanguage: english
+---
+
+A lot of things happened between now and the [[/blog/weeknotes-2026-06/|previous weeknotes]]. Man. What a year! lol
+
+I know its’s already past 12 midnight as I’m writing the draft of this, but I figured better I write this draft now then post it once I’m done—hopefully before the week ends… so the title still makes sense 😆—than forget about it the next day. :))
+
+---
+
+I finally finished putting together this post I had about [[/blog/responsive-progress-bar-component-in-figma/|creating a responsive progress bar component in Figma]], which I initially wrote last week but only uploaded now because of reasons I shall explain here: I wanted to have moving visuals to aid the things I’m writing because… It’s kinda hard to explain the “responsive” part of the component I made if I couldn’t show how it functioned 😅
+
+But, in order for me to do that, I’d have to upload multiple videos in my Mux CDN project. I’m already at 9 out of the 10 free videos allocated for my account, and… well, I just thought about it for a bit and eventually bit the bullet and got a pay-as-you-go subscription.
+
+Initially, I was trying to look for a way to do this without having to pay any extra subscriptions, but… for now, since I have a `@component/VideoPlayer.astro` that makes use of the [Mux Player component](https://github.com/muxinc/elements/blob/b60b4b1a30f3d4259f13a41f9695c73d6e4e622c/packages/mux-player-astro/README.md) just fine, I figured this was fine for now. I could always just change my setup in the future if I _really_ really wanted to.
+
+Days after I wrote down my thoughts after I figured out how to do it—I tend to go in “rabbit hole” mode when something really bugs me and I feel like the solution’s just within reach—I also felt a bit awkward thinking about sharing it online. The whole craze now is _AI this, AI that_, something something _designers are gonna lose jobs because AI!!!_ whatever. I have yet to put together a page that collates my thoughts on AI (as I have [noted in my repo’s Issues tab](https://github.com/chiawase/chi-astro/issues/16) lol), but all I know is that while AI could potentially make some jobs obsolete, UX design is probably not one of them. Why? Well… humans are stubborn beings. I’ll just leave it here for now, I’ll maybe expound on this when I get to that other task 😛
+
+All I know is I’ve been wanting to make something like this in Figma since I started working with designs that have progress bars in them, and I’m happy I figured out how to make it work with Constraints. And I want to write about it on my blog, and share it on my social media accounts. There is a want to be perceived in that sense, but even without that, I would still yap about this eventually so I might as well just put it somewhere it makes sense, which is my personal website. 😆
+
+This is also my attempt to write more about design-related stuff on my website (that has a `.design` domain as I’m writing this lmao) so at least _some_ of the things I’m writing here about is related to my line of work. 😁
+
+---
+
+To touch a bit on reflections with the popularity of AI, I read these two articles (special thanks to [Sidebar](https://sidebar.io/) as I’m still subbed to the newsletter and occasionally I get the time to read through some of the links I open in a new tab after I go through my emails for the day):
+
+🔗 [AI is accidentally making documentation more accessible by Geri Reid](https://gerireid.com/blog/ai-is-accidently-making-documentation-accessible/)
+
+I’ve recently had to do something at work that was AI-assisted or just had AI integrated within it. After reading this post, it helped me realize that this process is getting me to write more meaningful documentation. Sure, some of it will be with the help of AI—a lot of times I write lengthy, as you can see… in other posts in my website… so I sometimes need the help to make what I wrote more concise—but I guess at the end of the day, if the intention is to make sure something is explained clearly, that’s a positive in my book, too.
+
+🔗 [I guess I kinda get why people hate AI by Anthony Super](https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html)
+
+I resonate with what’s written here since now I have more or less the same perspective on it. It sometimes teeters towards the more negative side, but I try to be cautiously optimistic about it regardless because I… kinda have no choice in my line of work 😅 It’s gonna be there and will improve whether I learn about it or not, so I might as well learn more about it and maybe I could have the opportunity to help make the whole experience better? Maybe? I’m not that smart to go deep into the research aspect of it, and back in college I took an elective on Artificial Intelligence—back when AI would just be synonymous with “machine learning” and “neural networks” and… that was mostly it, I guess?—but maybe in the future I’ll find my own way to sustainably use AI. (Those are words that _might_ not go together for some people… but <span aria-label="shrugging emoticon">¯\\_(ツ)_/¯</span>)
+
+---
+
+Last week, we also had a Water Cooler Session in Tambayan 404 that covered art fundamentals and art styles. Usually for these sessions, they’re recorded, so we’d post it on YouTube after it was done.
+
+This time around though, I wanted to make sure the videos we upload have subtitles or captions to make the video content more accessible. I’m on Linux now mostly, so I didn’t have Da Vinci Resolve installed (it probably has some Linux port or something but I’ve never bothered to look for it haha). Instead, I made use of [kdenlive](https://kdenlive.org/), which is a “Free and Open Source Video Editor” (says so on their home page!)
+
+I was happy there was a plugin for speech recognition and Speech to Text that generated subtitles from the recorded audio! I just had to properly set up the models that would parse thru the audio because our content wasn’t purely just English, but Taglish. I mostly just followed the [documentation for Speech to Text stuff](https://docs.kdenlive.org/en/effects_and_filters/speech_to_text.html) and used the Whisper model since that’s what fit our use case more.
+
+It took longer than intended for me to get through this video and clean up the subtitles though 😅 but at least it’s now posted! You can [https://youtu.be/vEUacRtJN6Y](https://youtu.be/vEUacRtJN6Y “https://youtu.be/vEUacRtJN6Y”), or here I’ll embed:
+
+import { YouTube } from "astro-embed";
+
+<YouTube id="https://youtu.be/vEUacRtJN6Y" />
+
+---
+
+Okay, I guess I have nothing much else to say. This week had me moving less, so I do need to get back into exercising… and I have to catch up on kendo, so I’m gonna get back into it on Saturday. Friday is also one of the scheduled days I’m supposed to have workouts, so I’ll do my best to do that and start my streak again 🙆
+
+I’m going to publish this before I go to sleep (at almost 1 AM)! lolz
