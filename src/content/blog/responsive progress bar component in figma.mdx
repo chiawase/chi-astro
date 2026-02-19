@@ -2,7 +2,7 @@
 title: "I made a responsive Progress Bar component in Figma"
 summary: "Getting the outcome of this solidified this particular takeaway: sometimes, the simplest solution is the best. Just wanted to share it somewhere so future me doesn’t forget lol"
 pubDate: 2026-02-12T14:31:09+00:00
-updatedDate: 2026-02-19T14:37:45+00:00
+updatedDate: 2026-02-19T14:48:58+00:00
 tags:
   - writing
   - figma
@@ -10,7 +10,11 @@ tags:
 postLanguage: english
 ---
 
+import VideoPlayer from "@components/VideoPlayer.astro";
+
 When I figured this out initially, I was figuratively slapping myself silly in my head because of how simple the solution was. Just wanted to share this so I remember that sometimes, **the simplest solution is the best**.
+
+> This post has a bunch of screen recording videos embedded with me walking you through some steps via Figma Cursor Chat. The text is a bit small when viewed initially in the preview, so feel free to go fullscreen for any of them!
 
 ## A bit of a demo
 
@@ -22,9 +26,9 @@ So now I know that if I set the component to the **10%** variant, the fill is _a
 
 ## Getting the component
 
-![Screenshot of the Publish Community File modal in Figma showing the preview thumbnail of the Responsive Progress Bar component file by Chi Señires.](/uploads/2026/Pasted%20image%2020260212223928.png "Published to Figma Community!")
+![Screenshot of the Publish Community File modal in Figma showing the preview thumbnail of the Responsive Progress Bar component file by Chi Señires.](/uploads/2026/Pasted%20image%2020260212223928.png “Published to Figma Community!”)
 
-I published the component in a Figma Community File so anyone who needs this specific use case can utilize it: [Responsive Progress Bar component](https://www.figma.com/community/file/1603784710539433733 "View the Responsive Progress Bar component in Figma Community")
+I published the component in a Figma Community File so anyone who needs this specific use case can utilize it: [Responsive Progress Bar component](https://www.figma.com/community/file/1603784710539433733 “View the Responsive Progress Bar component in Figma Community”)
 
 ## Why I made this
 
@@ -46,7 +50,7 @@ The previous way I did this before was utilizing Auto Layout’s properties. But
 
 <VideoPlayer id="mTHWJ4YAGb2VlkG8U4r8PsNFlpVBgUCjFcZbGijdcz00" />
 
-The indicator in the progress bar was set to _Fill_ the width, and the right padding of the Auto Layout parent Frame would need to be set to this formula: `<width of the parent frame> * (1 - <the actual percentage you wanted to show>)`.[^1] For example, if I wanted to show a progress bar that’s `500px` wide and 20% filled, I would set the right padding to: <kbd>500 * (1-0.2)</kbd>. That would equate to <samp>400</samp>, which is _80%_ of `500px`, but it’s coming from the right, so it pushes the width of the Indicator layer to effectively the equivalent of 20%, which is `100px`.
+The indicator in the progress bar was set to _Fill_ the width, and the right padding of the Auto Layout parent Frame would need to be set to this formula: `<width of the parent frame> * (1 - <the actual percentage you wanted to show>)`.[^1] For example, if I wanted to show a progress bar that’s `500px` wide and 20% filled, I would set the right padding to: <kbd>500 \* (1-0.2)</kbd>. That would equate to <samp>400</samp>, which is _80%_ of `500px`, but it’s coming from the right, so it pushes the width of the Indicator layer to effectively the equivalent of 20%, which is `100px`.
 
 And if I wanted to adjust the progress bar so it was filled in a very specific percentage—say, 59%—I’d just have to type the equation within the field and it would adjust accordingly. If I wanted to demonstrate how the progress bar was filling up, then I could just click and drag from the right padding icon and set it to the fill I want.
 
@@ -94,11 +98,12 @@ The first time I figured out `Scale` was the answer, it was already almost 6pm�
 
 I know what I did was arbitrary or wasn’t really something that would make or break any design I’d be working on. At the end of the day, what matters more in this context is for the components to serve as the designer’s shared language with developers and other people in the company. And sometimes that can be achieved by just manually setting this up instead of the amount of time and effort I put into making this work.
 
-//maybe look for the meme for the engineer that spent 5 hours fixing a 5 minute task?
+![Meme showing devs saying no to do a task which takes 5 minutes, but yes to making a script to do the task which would take 30 minutes.](/uploads/2026/Pasted%20image%2020260219224708.png “You know, just like this but put in my context as a designer. 😆 (I was gonna make a meme like this for designers but I realized I’m the only one that would do this… so nevermind hahaha)”)
 
 But despite being aware of that, the urge was still there in me to “fix” it, or set this up. And now I’ve shared it with my teammates; I don’t know if they’ll care that the component can now be resized and it’ll still communicate the same thing, that it’s filled up to the certain percentage based on the selected variant, but at least now I know that when they use it in their designs, if I see it, I wouldn’t feel the urge to “fix” it anymore. 😆
 
 On my end, I’m also doing my best to learn to let things like this go, especially if it ends up eating more time than my _actual_ work tasks. But for this specific case, I’m happy it only took me an afternoon to figure out 😝 At least I didn’t seem to waste too much time? haha
 
 [^1]: When I prepped the recording to include in this post, even I got confused with the rule I set up before haha so that goes to show this way could work, but will need some handholding 😆
+
 [^2]: I’m assuming the average designer doesn’t think like this, this might just be me lol
