@@ -6,12 +6,20 @@ tags:
 - "slice-of-life"
 - family
 - drama
-latestChapter: "Chapter 19: The Meaning of the Photo"
-lastReadDate: 2026-02-01
+latestChapter: "Chapter 20: Decision"
+lastReadDate: 2026-02-19
 status: reading
 ---
 
-## 1 February 2026
+## Chapter 20
+
+- REOOOOO 🥺 huhuhu please accept your grandpa’s love!! allow yourself to stay 😭
+- bruh Ryoma with the “Here’s Johnny!” jumpscare 😂
+- noooooo huhu Hitomi-chan 🥺 ignore those mean comments on social media!! reeeeeee
+- NOOOOO HUHU the mean vibes passed onto Hitomi 😭
+- ooooh Hitomi’s gonna visit the bathhouse next chapter!!
+
+## Chapter 19
 
 - Reoooooo 🥺 pwease don’t be too hard on yourself HUHU 🤧
 - RYOMAAAAA brother to the rescue!!!! lezgo even on a BIKE woooo bike superiority 🚲🚲🚲
