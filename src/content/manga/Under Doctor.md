@@ -6,10 +6,18 @@ tags:
 - superhuman
 - action
 - assassins
-latestChapter: "Chapter 3: Salvation"
-lastReadDate: 2026-02-09
+latestChapter: "Chapter 4: Pro"
+lastReadDate: 2026-02-19
 status: reading
 ---
+
+## Chapter 4
+
+- lmao using math to defeat a bunch of thugs, amazing Chiwa
+- omg, the powerful person knows sign language!!
+- *Nheh heh heh heh*
+- “It’s easy for humans to die.” MAN this line goes HARD
+- of COURSE Haiji knows sign language, I love this man now
 
 ## Chapter 3
 
