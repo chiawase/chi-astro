@@ -6,10 +6,16 @@ tags:
 - aliens
 - drama
 - dark humor
-latestChapter: "Chapter 46: Peace of Mind"
-lastReadDate: 2026-02-09
+latestChapter: "Chapter 47: I Don’t Wanna Hear It"
+lastReadDate: 2026-02-19
 status: reading
 ---
+
+## Chapter 47
+
+- omg a time skip!!! SEIRANNNN 🥺🥺🥺🥺
+- long hair Seiran was too short!! now his hair is short again haha
+- NOMAMOTO??????????
 
 ## Chapter 46
 
