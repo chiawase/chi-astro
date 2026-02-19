@@ -7,10 +7,16 @@ tags:
 - rakugo
 - "slice-of-life"
 - drama
-latestChapter: "Story 193: Weaves a World"
-lastReadDate: 2026-02-09
+latestChapter: "Story 194: The Audience"
+lastReadDate: 2026-02-19
 status: reading
 ---
+
+## Story 194
+
+- JAZZ???? 😂 wow haha
+- the double spread!!!! amazing
+- woooo the setup for the next chapter!! I can’t wait for more!
 
 ## Story 193
 
