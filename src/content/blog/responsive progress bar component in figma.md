@@ -2,7 +2,7 @@
 title: "I made a responsive Progress Bar component in Figma"
 summary: "Getting the outcome of this solidified this particular takeaway: sometimes, the simplest solution is the best. Just wanted to share it somewhere so future me doesn’t forget lol"
 pubDate: 2026-02-12T14:31:09+00:00
-updatedDate: 2026-02-12T16:27:24+00:00
+updatedDate: 2026-02-19T14:37:45+00:00
 tags:
   - writing
   - figma
@@ -16,7 +16,7 @@ When I figured this out initially, I was figuratively slapping myself silly in m
 
 Let me show you first how the finalized component works so you get a better idea of what I mean when I say it’s responsive when you resize it:
 
-// put recording here of resizing the component and checking its width
+<VideoPlayer id="JJlO2js3oHgLGez4bkCqK024dENt5FJl2SEVc5oOBPyc" />
 
 So now I know that if I set the component to the **10%** variant, the fill is _actually_ 10% and not some arbitrary width. When adjusted to **15%**, then it fills up to 15%, and so on.
 
@@ -44,13 +44,13 @@ Weird feeling, but okay…
 
 The previous way I did this before was utilizing Auto Layout’s properties. But admittedly, that was a _very complicated_ way of setting up the progress bar component. It was trying too hard to be accurate always, as much as possible.
 
-// show a recording of the previous progress bar version i have from HC days…?
+<VideoPlayer id="mTHWJ4YAGb2VlkG8U4r8PsNFlpVBgUCjFcZbGijdcz00" />
 
-The indicator in the progress bar was set to _Fill_ the width, and the right padding of the Auto Layout parent Frame would need to be set to this formula: `<width of the parent frame> * (1 - <the actual percentage you wanted to show>)`. For example, if I wanted to show a progress bar that’s `500px` wide and 20% filled, I would set the right padding to: <kbd>500 * (1-0.2)</kbd>. That would equate to <samp>400</samp>, which is _80%_ of `500px`, but it’s coming from the right, so it pushes the width of the Indicator layer to effectively the equivalent of 20%, which is `100px`.
+The indicator in the progress bar was set to _Fill_ the width, and the right padding of the Auto Layout parent Frame would need to be set to this formula: `<width of the parent frame> * (1 - <the actual percentage you wanted to show>)`.[^1] For example, if I wanted to show a progress bar that’s `500px` wide and 20% filled, I would set the right padding to: <kbd>500 * (1-0.2)</kbd>. That would equate to <samp>400</samp>, which is _80%_ of `500px`, but it’s coming from the right, so it pushes the width of the Indicator layer to effectively the equivalent of 20%, which is `100px`.
 
 And if I wanted to adjust the progress bar so it was filled in a very specific percentage—say, 59%—I’d just have to type the equation within the field and it would adjust accordingly. If I wanted to demonstrate how the progress bar was filling up, then I could just click and drag from the right padding icon and set it to the fill I want.
 
-// show demo of doing that
+<VideoPlayer id="NEiS01jrTikjYf4RdSdESRSj89JpY202U7lRyKnQiwUGk" />
 
 This initially seemed neat and all at the time when I did it, but I recognize that this might be too much to ask for other designer teammates—who just need to get _a_ progress bar in the design, no matter what the fill amount was—to have to go into the Auto Layout settings for this component and adjust it by typing a formula in the **Right padding** field every time you needed to adjust the fill amount of the progress bar.
 
@@ -84,11 +84,11 @@ So now I’m trying to update the existing component, but kept scratching my hea
 
 I had a feeling Constraints did have something to do with it, but _for some reason_ it didn’t occur to me to just try and set the left and right constraints to `Scale` to get it to work. Initially I kept trying to attach it either to the left only or right only, or both, since I thought that by setting it up as `L + R`, the left side should always be attached to the left side where it is now—AKA at x=0—and the right side of the indicator would grow and shrink with its parent container.
 
-// show recording of resizing something with L + R vs Scale
+<VideoPlayer id="JOWnbKiVebw4s8q01tCIB00T2YasIDThVvayzqn00i5gQY" />
 
 So when I saw this behavior where the right side would just _keep growing_, I was stumped for a while because it didn’t make sense to me. I thought that `L + R` and `Scale` could be interchangeable, because previous observations got me to think this is how it worked. But I guess there _is_ a reason why it’s different if you set it up as `Scale` or if you set it up as attached to the left and right sides; the former is how I initially thought `L + R` would work, and the latter meant Figma would make sure the right side of the Indicator kept its position the same in relation to the right side of the parent Frame.
 
-The first time I figured out `Scale` was the answer, it was already almost 6pm—meaning I was already working outside work hours, as I normally only worked until 3–4pm—and I think I was at my wit’s end at the time. The relief I felt when I saw it work after setting it up in the correct way was just like a knot was released and I could relax now.[^1]
+The first time I figured out `Scale` was the answer, it was already almost 6pm—meaning I was already working outside work hours, as I normally only worked until 3–4pm—and I think I was at my wit’s end at the time. The relief I felt when I saw it work after setting it up in the correct way was just like a knot was released and I could relax now.[^2]
 
 ## Parting thoughts
 
@@ -100,4 +100,5 @@ But despite being aware of that, the urge was still there in me to “fix” it,
 
 On my end, I’m also doing my best to learn to let things like this go, especially if it ends up eating more time than my _actual_ work tasks. But for this specific case, I’m happy it only took me an afternoon to figure out 😝 At least I didn’t seem to waste too much time? haha
 
-[^1]: I’m assuming the average designer doesn’t think like this, this might just be me lol
+[^1]: When I prepped the recording to include in this post, even I got confused with the rule I set up before haha so that goes to show this way could work, but will need some handholding 😆
+[^2]: I’m assuming the average designer doesn’t think like this, this might just be me lol
