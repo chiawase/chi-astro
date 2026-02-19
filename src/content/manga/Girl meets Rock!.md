@@ -7,16 +7,24 @@ tags:
 - music
 - friends
 - romantic comedy
-latestChapter: "Chapter 97: Let's Stop Holding Back"
-lastReadDate: 2026-02-01
+latestChapter: "Chapter 98: Let’s Enjoy the Main Attraction"
+lastReadDate: 2026-02-19
 status: reading
 ---
 
-## 1 February 2026
+## Chapter 98
+
+- oh wow the last band has a lot of people who look like troublemakers lol 😝
+- Mawari-san with the badass deadpan look ready to slap some bass
+- lmao Mawari could sense Yukinari’s creepy thoughts from a mile away 😂
+- lmao come on Reiha-san with the 180 😂
+- Rin go! Look for Hatocchi hahaha
+
+## Chapter 97
 
 - lmao I thought Rin is gonna crash out with Hatono having a crush on Mizuo but this just made her worship her even more 😂
 
-## 25 Jan 2026
+## Chapter 96
 
 - This chapter’s song is: [I Love Iu by Wasurenanneyo](https://linktr.ee/girlmeetsrock_096_01stsuiq)
 - maaaan Hatocchi is in love now for real
