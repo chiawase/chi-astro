@@ -8,12 +8,19 @@ tags:
 - fantasy
 - comedy
 - shonen
-latestChapter: "Chapter 1173: Warrior Generation"
-lastReadDate: 2026-02-09
+latestChapter: "Chapter 1174: The Strongest Thing in the World"
+lastReadDate: 2026-02-16
 status: reading
 ---
 
 > Please take note this is a work in progress + I have not yet fully explicitly marked things as spoilers! Proceed with caution if you don’t want to be spoiled 😆
+
+## Chapter 1174
+
+- bruh fucking Sommers not right in the head this mofo
+- I’m ACTUALLY TEARING UP CRYING HUHU noooooo 😭
+- tangina mo Road pati sayo naiiyak ako 😭
+- YOOOOOO NIDHOGG!!!!!!!!!
 
 ## Chapter 1173
 
