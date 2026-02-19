@@ -7,7 +7,7 @@ tags:
 - yakuza
 - undercover
 - action
-latestChapter: "Chapter 20: Regicide"
-lastReadDate: 2026-01-21
+latestChapter: "Chapter 21: Scramble!"
+lastReadDate: 2026-01-19
 status: reading
 ---
