@@ -8,12 +8,24 @@ tags:
 - drama
 - gore
 - "manga drawing"
-latestChapter: "Chapter 4: SUSPICIOUS ASSISTANTS"
-lastReadDate: 2026-02-07
+latestChapter: "Chapter 6: Cluttered and Messy"
+lastReadDate: 2026-02-19
 status: reading
 ---
 
-## 7 Feb 2026
+## Chapter 6
+
+- maaaaaaan this Shono dude is a piece of shit
+- YOOOO that punch was deserved lmao
+- but… Shirahama is super brainwashed by this host dude 😩 huhu
+- omg….. I have a bad feeling about the dad, I was right 💀 what’s gonna happen aaaaaaaa
+
+## Chapter 5
+
+- bro……. bro walked into a potential CRIME SCENE 🫥
+- NO OMG PLEASE she was super creepy but don’t kill Shirahama-san 😭
+
+##  Chapter 4
 
 - creepy ass smile on Shirahama-san……….
 - ew she might be setting herself up to “replace” Itsuki’s girlfriend geez hahaha
