@@ -7,18 +7,25 @@ tags:
 - drama
 - comedy
 - political
-latestChapter: "Chapter 39: YOU ALIVE?"
-lastReadDate: 2026-02-07
+latestChapter: "Chapter 40: Showdown with the Super Geezer!"
+lastReadDate: 2026-02-19
 status: reading
 ---
 
-## 7 February 2026
+## Chapter 40
+
+- Super Geezer 😭😂 this chapter title hahaha
+- oh wow, they’re involving the Imperial Family interesting :))
+- bruh Waku just did the ol’ Yakuza “remove the jacket and throw it away dramatically” thing 🤣
+- OH NOOOO WAKU HAS THE RAYBAN METAS
+
+## Chapter 39
 
 - oh right we’re back to the uma-unc lmao
 - Babubus 😂 ridiculous man, deserved getting his shit trashed hahaha
 - what the hell is gonna happen to this Ice Man!! What is Oji plotting aaaaaa
 
-## 1 February 2026
+## Chapter 38
 
 - bicycle commuting in my mystery drama political manga? we love to see it 😌
 - man who is this Waku dude, why is he running like an umamusume 😭 faster than bikes what the hell hahaha
