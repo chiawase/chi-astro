@@ -13,7 +13,9 @@ I recently watched [Rainbolt’s latest video](https://youtu.be/uA4WIOc4x7k) adv
 
 Here’s the video so you can watch it for yourself (it’s just under 9 minutes so it’s not too long):
 
-embed https://youtu.be/uA4WIOc4x7k
+import { YouTube } from "astro-embed";
+
+<YouTube id="https://youtu.be/uA4WIOc4x7k" />
 
 ## Trying it out with my own old boarding pass
 
@@ -54,4 +56,5 @@ I knew about this already before just to exercise caution, so whenever I’m fly
 Now with this newfound information of how easy it could be to just get your data from extracting the barcode[^2] from a photo, I’ll make sure to cover even the barcode and only show it to airline staff once needed.
 
 [^1]: I really wanted to know what the rest of the numbers meant after this point and I stumbled upon [this online document](https://docs.scandit.com/6.28/data-capture-sdk/android/parser/iata-bcbp.html) listing all the details per segment.
+
 [^2]: Not that I’d be the type to be targeted for things like this, but I’ll never really know what people online think, so best to err on the side of caution every time.
