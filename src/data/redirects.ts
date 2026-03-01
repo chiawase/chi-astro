@@ -11,5 +11,6 @@ export default {
   "/2021/09/04/things-i-learned.html": { destination: "/archive/2021/09/04/things-i-learned/", status: 301 },
   "/2023/12/27/things-i-want.html": { destination: "/archive/2023/12/27/things-i-want/", status: 301 },
   "/2023/07/07/things-i-wanna.html": { destination: "/archive/2023/07/07/things-i-wanna/", status: 301 },
+  "/tags/link/": { destination: "/tags/links/", status: 301 },
   // "": { destination: "", status: 301 },
 } as const;

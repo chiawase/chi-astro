@@ -1,13 +1,13 @@
 ---
-title: 
-summary: 
+title:
+summary:
 pubDate: 2026-01-13T00:00:53+00:00
 updatedDate: 2026-01-13T00:33:26+00:00
-tags: 
-- micro
-- meme
-- link
-postLanguage: 
+tags:
+  - micro
+  - meme
+  - links
+postLanguage:
 ---
 
 [🔗 the struggle of resizing windows on MacOS Tahoe](https://noheger.at/blog/2026/01/11/the-struggle-of-resizing-windows-on-macos-tahoe/) by Norbert Heger

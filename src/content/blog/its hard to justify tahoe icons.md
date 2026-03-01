@@ -1,16 +1,16 @@
 ---
-title: 
-summary: 
+title:
+summary:
 pubDate: 2026-01-06T00:19:04+00:00
 updatedDate: 2026-02-02T11:23:51+00:00
-tags: 
-- link
-- micro
-- design
-postLanguage: 
+tags:
+  - links
+  - micro
+  - design
+postLanguage:
 ---
 
-[🔗 It’s hard to justify Tahoe icons](https://tonsky.me/blog/tahoe-icons/ "It’s hard to justify Tahoe icons")
+[🔗 It’s hard to justify Tahoe icons](https://tonsky.me/blog/tahoe-icons/ “It’s hard to justify Tahoe icons”)
 
 From Niki @ tonsky.me:
 
