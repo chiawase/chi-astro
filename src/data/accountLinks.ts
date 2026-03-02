@@ -83,7 +83,7 @@ export const ACCOUNT_LINKS: AccountLinks[] = [
     username: "Arya Tsukino",
     platform: "FFXIV",
     socialUrl: "https://na.finalfantasyxiv.com/lodestone/character/36591732/",
-    note: "on indefinite hiatus",
+    note: "Started playing again recently!",
     customLabel: "Arya Tsukino @ Meteor - Ramuh #FFXIV",
   },
   {
