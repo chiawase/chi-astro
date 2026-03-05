@@ -3153,5 +3153,55 @@
     "bytes": 39659,
     "etag": "c89309afb04b66eea45c9171f2339e55",
     "uploadedAt": "2026-02-19T15:19:08.180Z"
+  },
+  "uploads/games/ffxiv.jpg": {
+    "localRelPath": "uploads/games/ffxiv.jpg",
+    "publicId": "chisenires.design/uploads/games/ffxiv",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1772718313/chisenires.design/uploads/games/ffxiv.jpg",
+    "bytes": 289278,
+    "etag": "26f6a192967de4a55bec495a2dd47c44",
+    "uploadedAt": "2026-03-05T13:45:14.577Z",
+    "sha1": "58826245f1c02d13fd02eedb9733d31fb9b1a5a7"
+  },
+  "uploads/2026/Pasted image 20260305222335.png": {
+    "localRelPath": "uploads/2026/Pasted image 20260305222335.png",
+    "publicId": "chisenires.design/uploads/2026/Pasted image 20260305222335",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1772720619/chisenires.design/uploads/2026/Pasted%20image%2020260305222335.png",
+    "bytes": 620265,
+    "etag": "04365725f097c3b7ab7917af44e476a5",
+    "uploadedAt": "2026-03-05T14:23:40.095Z",
+    "sha1": "51277d3958da40432d77ce099451b90662149ed7"
+  },
+  "uploads/2026/IMG_5945.jpeg": {
+    "localRelPath": "uploads/2026/IMG_5945.jpeg",
+    "publicId": "chisenires.design/uploads/2026/IMG_5945",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1772721551/chisenires.design/uploads/2026/IMG_5945.jpg",
+    "bytes": 1190304,
+    "etag": "56e1d2e14dc2ac73824612011a89772d",
+    "uploadedAt": "2026-03-05T14:39:12.551Z",
+    "sha1": "ae015e3779a28401c2082d85fbf413257e9ad064"
+  },
+  "uploads/2026/IMG_5955.jpeg": {
+    "localRelPath": "uploads/2026/IMG_5955.jpeg",
+    "publicId": "chisenires.design/uploads/2026/IMG_5955",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1772721781/chisenires.design/uploads/2026/IMG_5955.jpg",
+    "bytes": 526050,
+    "etag": "a769286ab536b5a11ba59986439f0186",
+    "uploadedAt": "2026-03-05T14:43:01.959Z",
+    "sha1": "e17b3717573976f05a535496ec5f6bcb58e11d68"
+  },
+  "uploads/2026/IMG_5979.jpeg": {
+    "localRelPath": "uploads/2026/IMG_5979.jpeg",
+    "publicId": "chisenires.design/uploads/2026/IMG_5979",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1772721842/chisenires.design/uploads/2026/IMG_5979.jpg",
+    "bytes": 498882,
+    "etag": "8c90983066b64b16625db4f6dd1ec610",
+    "uploadedAt": "2026-03-05T14:44:03.221Z",
+    "sha1": "f59c1cd259b8c91a0924153db4aff71ef5111986"
   }
 }
