@@ -2,7 +2,7 @@
 title: "Weeknotes: 2026-10"
 summary: "It has been. A Week. And I have time now to do this so I’ll share about: starting FFXIV again, the lunar eclipse, and some other reflections."
 pubDate: 2026-03-05T13:41:35+00:00
-updatedDate: 2026-03-05T15:02:39+00:00
+updatedDate: 2026-03-05T21:49:25+00:00
 tags:
   - writing
   - weeknotes
@@ -12,6 +12,18 @@ postLanguage: english
 <!-- markdownlint-disable MD013 -->
 
 It has been. A Week. And I have time now to do this so I’ll share about: starting FFXIV again, the lunar eclipse, and some other reflections.
+
+---
+
+**Update @ 6 Mar 5:32AM:** I initially published this last night without checking that the images were properly loaded 🙈 😅 It had something to do with the script I had that ran before I committed any `.md` or `.mdx` files and changed normal quotes (`'' ""`) that existed in the file into smart quotes (`‘’ “”`). The script was looking at Markdown-rendered images (ones I type like this: `![<alt text>](<url> "<title>")`) and changed the double quotes in the part that was meant for the image title—which served as my caption—into smart quotes 😭 😅
+
+Now this post _should_ render as I initially intended for it to be… 🤞
+
+If you wanted to know what it looked like before, [I flagged it as an issue in my repo](https://github.com/chiawase/chi-astro/issues/70) just so that in case I didn’t fix it immediately now, I would at least have it in my TODO 😂 Now it’s just forever (?) preserved in my Closed Issues[^1] 😛
+
+Thank you to those who let me know that my published post had the images not rendering properly! (Hallo [Mike](https://fosstodon.org/@mw) and [James](https://jamesg.blog/) 😁)
+
+Now… onto the rest of what I initially wrote 😂
 
 ---
 
@@ -80,3 +92,5 @@ Recently when I do manage to go out, I try to look good in the mirror to give my
 ---
 
 Okay, I think that’s enough yapping for now. I hope I find some more time in the coming months to continue making various changes in my website, and maybe even document a bit more thoughts on various topics that interest me. Life lately has felt a bit too fast these past few days, but I know eventually it’ll settle and I’ll also manage in whatever way I can.
+
+[^1]: At least, I hope it’s gonna be preserved as a snapshot there! I’m also writing this in the “I hope this actually does what I said it would do” tense lmao
