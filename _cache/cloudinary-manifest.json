@@ -3203,5 +3203,23 @@
     "etag": "8c90983066b64b16625db4f6dd1ec610",
     "uploadedAt": "2026-03-05T14:44:03.221Z",
     "sha1": "f59c1cd259b8c91a0924153db4aff71ef5111986"
+  },
+  "uploads/2026/IMG_5982.jpeg": {
+    "localRelPath": "uploads/2026/IMG_5982.jpeg",
+    "publicId": "chisenires.design/uploads/2026/IMG_5982",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1772747589/chisenires.design/uploads/2026/IMG_5982.jpg",
+    "bytes": 511527,
+    "etag": "3772a14cdb191bcc32909e6eaaeb5164",
+    "uploadedAt": "2026-03-05T21:53:10.458Z"
+  },
+  "uploads/2026/IMG_5994.png": {
+    "localRelPath": "uploads/2026/IMG_5994.png",
+    "publicId": "chisenires.design/uploads/2026/IMG_5994",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1772747595/chisenires.design/uploads/2026/IMG_5994.png",
+    "bytes": 8668140,
+    "etag": "30d89d29d8c545e2c97e5757be3b97ff",
+    "uploadedAt": "2026-03-05T21:53:16.357Z"
   }
 }
