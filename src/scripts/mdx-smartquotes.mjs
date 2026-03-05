@@ -205,6 +205,55 @@ function consumeBracedExpression(input, startIdx) {
   return { chunk: out, newIndex: i };
 }
 
+function consumeLinkOrImageParen(input, startIdx) {
+  let i = startIdx;
+  let out = "";
+  let depth = 0;
+  let quote = "";
+  let escaped = false;
+
+  while (i < input.length) {
+    const ch = input[i];
+    out += ch;
+
+    if (escaped) {
+      escaped = false;
+      i++;
+      continue;
+    }
+
+    if (ch === "\\") {
+      escaped = true;
+      i++;
+      continue;
+    }
+
+    if (quote) {
+      if (ch === quote) quote = "";
+      i++;
+      continue;
+    }
+
+    if (ch === '"' || ch === "'") {
+      quote = ch;
+      i++;
+      continue;
+    }
+
+    if (ch === "(") depth++;
+    if (ch === ")") {
+      depth--;
+      i++;
+      if (depth <= 0) break;
+      continue;
+    }
+
+    i++;
+  }
+
+  return { chunk: out, newIndex: i };
+}
+
 function smartenQuotesPreserveMarkdown(input) {
   let i = 0;
   let out = "";
@@ -294,6 +343,15 @@ function smartenQuotesPreserveMarkdown(input) {
     if (input[i] === "{") {
       flushText();
       const { chunk, newIndex } = consumeBracedExpression(input, i);
+      out += chunk;
+      i = newIndex;
+      continue;
+    }
+
+    // Preserve link/image destination + title, e.g. ](url "title")
+    if (input[i] === "(" && i > 0 && input[i - 1] === "]") {
+      flushText();
+      const { chunk, newIndex } = consumeLinkOrImageParen(input, i);
       out += chunk;
       i = newIndex;
       continue;
