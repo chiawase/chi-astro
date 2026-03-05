@@ -1,6 +1,7 @@
 ---
 title: now
 pubDate: 2025-03-30T12:48:25+00:00
+updatedDate: 2026-03-05T22:18:45+08:00
 ---
 
 import { Image } from "astro:assets";
@@ -18,11 +19,7 @@ import { getRecentManga } from "@utils/getRecentManga";
 export const { recentReading, recentFinished } = await getRecentManga();
 
 <Page title="What I’m currently up to" description="What is Chi up to now?">
-  > Last updated on <FormattedDate dateType="" dateString={await getUpdatedDateFor("./src/pages/now.mdx")} />.
-
-### Traveling
-
-🛬 back in home base 🇵🇭 it was a fun few weeks in Thailand!
+  > Last updated on <FormattedDate dateType="" dateString={frontmatter.updatedDate} />.
 
 ### Ideas to get back to
 
