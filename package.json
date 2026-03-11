@@ -68,7 +68,7 @@
     "remark-rehype": "^11.1.2",
     "remark-remove-comments": "^1.1.1",
     "sharp": "^0.34.3",
-    "tar": "^7.5.7",
+    "tar": "^7.5.11",
     "undici": "^7.19.1",
     "unist-util-visit": "^5.1.0"
   },
