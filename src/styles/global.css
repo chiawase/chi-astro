@@ -229,10 +229,6 @@ h6 {
   }
 }
 
-strong,
-b {
-  font-weight: 700;
-}
 a[href] {
   color: var(--text-color-link);
 }
@@ -401,12 +397,13 @@ em {
   font-weight: 500;
 }
 
+b,
 strong {
-  font-weight: 600;
+  font-weight: 700;
   font-variation-settings:
-    "wdth" 150,
+    "wdth" 100,
     "ital" 0,
-    "wght" 600;
+    "wght" 700;
 }
 /* code blocks css */
 div[data-remark-code-title] {
