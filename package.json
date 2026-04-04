@@ -48,6 +48,7 @@
     "astro-lightgallery": "^2.3.0",
     "chokidar": "^5.0.0",
     "cloudinary": "^2.9.0",
+    "defu": "^6.1.6",
     "devalue": "^5.6.4",
     "diff": "^8.0.3",
     "h3": "^2.0.1-rc.19",
