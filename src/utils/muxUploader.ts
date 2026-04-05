@@ -67,7 +67,7 @@ async function putFileToSignedUrl(uploadUrl: string, absPath: string) {
   const file = await fs.readFile(absPath);
   const res = await fetch(uploadUrl, {
     method: "PUT",
-    body: file,
+    body: file.buffer as ArrayBuffer,
     headers: { "Content-Type": "application/octet-stream" },
   });
   if (!res.ok)
