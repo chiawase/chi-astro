@@ -35,7 +35,7 @@ function loadManifest(): Manifest {
   }
 
   manifestCache = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));
-  return manifestCache;
+  return manifestCache!;
 }
 
 /**
