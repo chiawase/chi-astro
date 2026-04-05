@@ -20,11 +20,6 @@ interface Props {
 const { mentions, likesSize, repostsSize, repliesSize, mentionOfSize } =
   Astro.props;
 
-const authors = mentions
-  .filter((m) => m["wm-property"] === "like-of" || m["wm-property"] === "repost-of")
-  .map((m) => m.author)
-  .filter(Boolean);
-
 // Get all the authors who liked the post
 const likesAuthors = mentions
   .filter((m) => m["wm-property"] === "like-of")

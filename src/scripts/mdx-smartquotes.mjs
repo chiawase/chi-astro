@@ -262,7 +262,6 @@ function smartenQuotesPreserveMarkdown(input) {
   let fenceSeq = "";
 
   let inInlineCode = false;
-  let inlineTickCount = 0;
 
   let textBuf = "";
   const flushText = () => {

@@ -2,8 +2,6 @@
 // Import the global.css file here so that it is included on
 // all pages through the use of the <BaseHead /> component.
 import "@styles/global.css";
-import type { ImageMetadata } from "astro";
-import type { CollectionEntry } from "astro:content";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_DOMAIN } from "@consts";
 
 import RelMeAuth from "@components/RelMeAuth.astro";
@@ -31,13 +29,6 @@ export function stripEmoji(input: string): string {
     // Collapse extra whitespace created by removals
     .replace(/\s{2,}/g, " / ")
     .trim();
-}
-
-interface Props {
-  title?: string;
-  description?: string;
-  image?: ImageMetadata;
-  post?: CollectionEntry<"blog"> | CollectionEntry<"archive">;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
