@@ -11,12 +11,10 @@ export async function extractFirstSection(markdown: string): Promise<string> {
   const body = markdown.slice(bodyStart).trim();
   const lines = body.split("\n");
   // Find first H2 or direct list
-  let h2Line = "";
   let listStartIndex = -1;
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
     if (line.startsWith("## ")) {
-      h2Line = line;
       listStartIndex = i + 1;
       break;
     }

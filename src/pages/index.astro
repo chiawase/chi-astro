@@ -1,5 +1,5 @@
 ---
-import { getCollection, render } from "astro:content";
+import { getCollection } from "astro:content";
 import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL, SITE_AUTHOR } from "@consts";
 
 import BaseHead from "@components/BaseHead.astro";
@@ -30,7 +30,7 @@ const uniqueTags = Array.from(new Set(allTags)).sort((a, b) =>
   a.localeCompare(b, undefined, { sensitivity: "base" }),
 );
 
-export function slugify(tag) {
+export function slugify(tag: string) {
   return tag
     .toLowerCase()
     .trim()
@@ -39,7 +39,7 @@ export function slugify(tag) {
     .replace(/^-+|-+$/g, "");
 }
 
-export function tagsHtml(tags) {
+export function tagsHtml(tags: string[]) {
   const clean = (tags ?? []).map((t) => String(t).trim()).filter(Boolean);
 
   const links = clean.map((tag) => {

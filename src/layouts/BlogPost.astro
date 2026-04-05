@@ -1,7 +1,7 @@
 ---
-import { type CollectionEntry, getCollection, render } from "astro:content";
+import { type CollectionEntry, getCollection } from "astro:content";
 import { type MarkdownHeading } from "astro";
-import { SITE_URL, SITE_AUTHOR, SITE_TITLE } from "@consts";
+import { SITE_URL, SITE_AUTHOR } from "@consts";
 
 import Page from "@layouts/Page.astro";
 
@@ -46,7 +46,6 @@ const fallbackTitle = "Chi’s blog post";
 ---
 
 <Page
-  post={post}
   title={post.data.title ?? undefined}
   description={post.data.summary ?? undefined}
   showTitle={false}
@@ -63,7 +62,6 @@ const fallbackTitle = "Chi’s blog post";
       )}
 
         <PostMetadata
-          post={post}
           postTags={post.data.tags}
           postSlug={slug}
           postDate={post.data.pubDate}
@@ -90,7 +88,6 @@ const fallbackTitle = "Chi’s blog post";
       <slot />
     </div>
     <PostMetadata
-      post={post}
       postTags={post.data.tags}
       postSlug={slug}
       postDate={post.data.pubDate}

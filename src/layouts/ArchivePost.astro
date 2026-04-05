@@ -1,6 +1,6 @@
 ---
-import { type CollectionEntry, getCollection, render } from "astro:content";
-import { SITE_URL, SITE_AUTHOR, SITE_TITLE } from "@consts";
+import { type CollectionEntry, getCollection } from "astro:content";
+import { SITE_URL, SITE_AUTHOR } from "@consts";
 
 import Page from "@layouts/Page.astro";
 
@@ -57,7 +57,6 @@ const fallbackTitle = "Chi’s blog post";
         <h1 class="p-name visually-hidden">{fallbackTitle}</h1>
       )}
       <ArchivePostMetadata
-        post={post}
         postTags={post.data.tags}
         postSlug={slug}
         postDate={post.data.date}
@@ -81,7 +80,6 @@ const fallbackTitle = "Chi’s blog post";
     </div>
 
     <ArchivePostMetadata
-      post={post}
       postTags={post.data.tags}
       postSlug={slug}
       postDate={post.data.date}
