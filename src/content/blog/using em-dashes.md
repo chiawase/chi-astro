@@ -5,9 +5,10 @@ tags:
   - writing
   - thoughts
 postLanguage: taglish
-pubDate: 2026-04-06T14:08:30+00:00
-updatedDate: 2026-04-06T14:40:10+00:00
+pubDate: 2026-04-06T14:57:37+00:00
+updatedDate: 2026-04-06T14:58:16+00:00
 ---
+<!-- markdownlint-disable MD013 -->
 
 I saw a post shared on my feed a few weeks ago about how there was a law document[^1] that had em-dashes used in them, _therefore_ this was using AI, even if the disclosure information clause specifically stated otherwise.
 

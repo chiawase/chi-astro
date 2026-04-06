@@ -7,4 +7,4 @@ tags:
 - writing
 postLanguage: 
 ---
-<% await tp.file.move("/src/content/blog/" + tp.file.title) %>
+<% await tp.file.move("/src/content/blog/" + tp.file.title) %><!-- markdownlint-disable MD013 -->
