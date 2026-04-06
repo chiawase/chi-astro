@@ -81,6 +81,56 @@ var lineArrange = class extends import_obsidian.Plugin {
     this.addCommand({ id: "shuffle-headings", name: "Shuffle headings", editorCallback: runAsync(async (ed) => ed.replaceSelection(await this.shuffleHeadings(ed.getSelection()))) });
     this.addCommand({ id: "reverse-headings", name: "Reverse headings", editorCallback: runAsync(async (ed) => ed.replaceSelection(await this.reverseHeadings(ed.getSelection()))) });
     this.addSettingTab(new MySettingsTab(this.app, this));
+    this.registerEvent(
+      this.app.workspace.on("editor-menu", (menu, editor) => {
+        if (!editor.somethingSelected())
+          return;
+        const selection = () => editor.getSelection();
+        const replace = (fn) => async () => editor.replaceSelection(await fn.call(this, selection()));
+        menu.addItem((rootItem) => {
+          rootItem.setTitle("Line Arrange").setIcon("list-ordered");
+          const sub = rootItem.setSubmenu();
+          sub.addItem(
+            (item) => item.setTitle("Lexisort lines").onClick(replace(this.lexisortLines))
+          );
+          sub.addItem(
+            (item) => item.setTitle("Sort lines").onClick(replace(this.sortLines))
+          );
+          sub.addItem(
+            (item) => item.setTitle("Shuffle lines").onClick(replace(this.shuffleLines))
+          );
+          sub.addItem(
+            (item) => item.setTitle("Reverse lines").onClick(replace(this.reverseLines))
+          );
+          sub.addSeparator();
+          sub.addItem(
+            (item) => item.setTitle("Lexisort blocks").onClick(replace(this.lexisortBlocks))
+          );
+          sub.addItem(
+            (item) => item.setTitle("Sort blocks").onClick(replace(this.sortBlocks))
+          );
+          sub.addItem(
+            (item) => item.setTitle("Shuffle blocks").onClick(replace(this.shuffleBlocks))
+          );
+          sub.addItem(
+            (item) => item.setTitle("Reverse blocks").onClick(replace(this.reverseBlocks))
+          );
+          sub.addSeparator();
+          sub.addItem(
+            (item) => item.setTitle("Lexisort headings").onClick(replace(this.lexisortHeadings))
+          );
+          sub.addItem(
+            (item) => item.setTitle("Sort headings").onClick(replace(this.sortHeadings))
+          );
+          sub.addItem(
+            (item) => item.setTitle("Shuffle headings").onClick(replace(this.shuffleHeadings))
+          );
+          sub.addItem(
+            (item) => item.setTitle("Reverse headings").onClick(replace(this.reverseHeadings))
+          );
+        });
+      })
+    );
   }
   /**
    * The `onunload` method is called when the plugin is disabled.
@@ -176,6 +226,61 @@ var lineArrange = class extends import_obsidian.Plugin {
     }
     return out;
   }
+  /** ------------------ Ordered List Utilities ------------------ */
+  /**
+   * If every line in the array is a valid Markdown ordered list item (e.g. "1. text" or "1) text"),
+   * returns the starting number of the first item. Otherwise returns null.
+   * This is used to detect a clean ordered list before sorting so the start number
+   * can be re-applied to the first line of the sorted output.
+   *
+   * @param {string[]} lines - The lines to check.
+   * @returns {number | null} The starting number, or null if not a complete ordered list.
+   */
+  getListStartNum(lines) {
+    var _a, _b;
+    if (lines.length === 0)
+      return null;
+    if (!lines.every((l) => /^\s*\d+[.)]\s/.test(l)))
+      return null;
+    return parseInt((_b = (_a = lines[0].match(/\d+/)) == null ? void 0 : _a[0]) != null ? _b : "1");
+  }
+  /**
+   * Replaces the leading number on the first line of a sorted ordered list
+   * with the saved start number. Obsidian then increments all subsequent
+   * items automatically from that number.
+   * Preserves leading whitespace and the separator style (. or )).
+   *
+   * @param {string[]} lines - The sorted lines to fix up.
+   * @param {number} startNum - The number to place on the first line.
+   * @returns {string[]} The lines with the first item's number corrected.
+   */
+  applyListStartNum(lines, startNum) {
+    if (lines.length === 0)
+      return lines;
+    return [
+      lines[0].replace(/^(\s*)\d+([.)])(\s)/, `$1${startNum}$2$3`),
+      ...lines.slice(1)
+    ];
+  }
+  /**
+   * Tree-specific equivalent of applyListStartNum. Takes the full children array,
+   * renumbers every child's line sequentially starting from startNum, and returns
+   * the array. Mutates nodes in place since TreeNode lines are managed by reference.
+   * Unlike the line-level version, this renumbers ALL children because Obsidian does
+   * not auto-increment indices in raw text during block-level operations.
+   *
+   * @param {TreeNode[]} children - The reordered children array.
+   * @param {number} startNum - The number to place on the first child's line.
+   * @returns {TreeNode[]} The same children array with all lines renumbered sequentially.
+   */
+  applyListStartNumToChildren(children, startNum) {
+    if (children.length === 0)
+      return children;
+    children.forEach((child, i) => {
+      child.line = (child.line || "").replace(/^(\s*)\d+([.)])(\s)/, `$1${startNum + i}$2$3`);
+    });
+    return children;
+  }
   /** ------------------ Unified Cache ------------------ */
   /**
    * A unified function to get the rendered plain text and visual width of a line of Markdown.
@@ -221,6 +326,8 @@ var lineArrange = class extends import_obsidian.Plugin {
   /**
    * A generic processor for line-based operations. It handles splitting text into lines
    * and managing blank lines according to the `preserveBlankLines` setting.
+   * After ordering, if the lines form a complete ordered list, the starting number
+   * is preserved from the original input.
    * @param {string} orgText - The original text selection.
    * @param {(lines: string[]) => Promise<string[]>} orderer - An async function that takes an array of lines and returns them in a new order.
    * @returns {Promise<string>} The re-ordered text.
@@ -228,17 +335,20 @@ var lineArrange = class extends import_obsidian.Plugin {
   async processLines(orgText, orderer) {
     const lines = orgText.split("\n");
     if (!this.settings.preserveBlankLines) {
-      const blanks = lines.filter((l) => l.trim() === "");
       const nonBlanks = lines.filter((l) => l.trim() !== "");
+      const startNum = this.getListStartNum(nonBlanks);
       const ordered = await orderer(nonBlanks);
-      return [...blanks, ...ordered].join("\n").trimEnd();
+      const final = startNum !== null ? this.applyListStartNum(ordered, startNum) : ordered;
+      return [...final].join("\n").trimEnd();
     }
     const result = [];
     let buffer = [];
     const flush = async () => {
       if (buffer.length > 0) {
+        const startNum = this.getListStartNum(buffer);
         const ordered = await orderer(buffer);
-        result.push(...ordered);
+        const final = startNum !== null ? this.applyListStartNum(ordered, startNum) : ordered;
+        result.push(...final);
         buffer = [];
       }
     };
@@ -282,22 +392,22 @@ var lineArrange = class extends import_obsidian.Plugin {
   /** ------------------ Block Helpers (for indented lists) ------------------ */
   // --- Block command implementations ---
   async sortBlocks(orgText) {
-    const tree = this.buildTree(orgText.split("\n"));
+    const tree = this.buildTree(orgText.split("\n").filter((l) => l.trim() !== ""));
     await this.sortTreeByWidth(tree);
     return this.flattenTree(tree).join("\n");
   }
   async lexisortBlocks(orgText) {
-    const tree = this.buildTree(orgText.split("\n"));
+    const tree = this.buildTree(orgText.split("\n").filter((l) => l.trim() !== ""));
     await this.lexiSortTree(tree);
     return this.flattenTree(tree).join("\n");
   }
   async reverseBlocks(orgText) {
-    const tree = this.buildTree(orgText.split("\n"));
+    const tree = this.buildTree(orgText.split("\n").filter((l) => l.trim() !== ""));
     await this.reverseTree(tree);
     return this.flattenTree(tree).join("\n");
   }
   async shuffleBlocks(orgText) {
-    const tree = this.buildTree(orgText.split("\n"));
+    const tree = this.buildTree(orgText.split("\n").filter((l) => l.trim() !== ""));
     await this.shuffleTree(tree);
     return this.flattenTree(tree).join("\n");
   }
@@ -305,16 +415,20 @@ var lineArrange = class extends import_obsidian.Plugin {
   async sortTreeByWidth(node) {
     if (!node.children.length)
       return;
+    const startNum = this.getListStartNum(node.children.map((c) => c.line || ""));
     const entries = await Promise.all(node.children.map((c) => this.getRenderCacheEntry(c.line || "")));
     const items = node.children.map((c, i) => ({ c, width: entries[i].width, i }));
     items.sort((a, b) => a.width - b.width || a.i - b.i);
     node.children = items.map((it) => it.c);
+    if (startNum !== null)
+      node.children = this.applyListStartNumToChildren(node.children, startNum);
     for (const child of node.children)
       await this.sortTreeByWidth(child);
   }
   async lexiSortTree(node) {
     if (!node.children.length)
       return;
+    const startNum = this.getListStartNum(node.children.map((c) => c.line || ""));
     const entries = await Promise.all(node.children.map((c) => this.getRenderCacheEntry(c.line || "")));
     const items = node.children.map((c, i) => ({ c, rendered: entries[i].renderedText, i }));
     items.sort((a, b) => {
@@ -322,16 +436,28 @@ var lineArrange = class extends import_obsidian.Plugin {
       return cmp !== 0 ? cmp : a.i - b.i;
     });
     node.children = items.map((it) => it.c);
+    if (startNum !== null)
+      node.children = this.applyListStartNumToChildren(node.children, startNum);
     for (const child of node.children)
       await this.lexiSortTree(child);
   }
   async reverseTree(node) {
+    if (!node.children.length)
+      return;
+    const startNum = this.getListStartNum(node.children.map((c) => c.line || ""));
     node.children.reverse();
+    if (startNum !== null)
+      node.children = this.applyListStartNumToChildren(node.children, startNum);
     for (const child of node.children)
       await this.reverseTree(child);
   }
   async shuffleTree(node) {
+    if (!node.children.length)
+      return;
+    const startNum = this.getListStartNum(node.children.map((c) => c.line || ""));
     node.children = this.shuffleArray(node.children);
+    if (startNum !== null)
+      node.children = this.applyListStartNumToChildren(node.children, startNum);
     for (const child of node.children)
       await this.shuffleTree(child);
   }
@@ -460,7 +586,7 @@ var MySettingsTab = class extends import_obsidian.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h2", { text: "Sorting Options" });
-    new import_obsidian.Setting(containerEl).setName("Preserve Blanks (during line sorting)").setDesc("If enabled, blank lines remain in place. If disabled, blank lines are moved to the top during line operations.").addToggle((toggle) => toggle.setValue(this.plugin.settings.preserveBlankLines).onChange(async (value) => {
+    new import_obsidian.Setting(containerEl).setName("Preserve Blanks (during line sorting)").setDesc("If enabled, blank lines remain in place and sorting happens around them. If disabled, blank lines are ignored.").addToggle((toggle) => toggle.setValue(this.plugin.settings.preserveBlankLines).onChange(async (value) => {
       this.plugin.settings.preserveBlankLines = value;
       await this.plugin.saveSettings();
     }));
