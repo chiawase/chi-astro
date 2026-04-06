@@ -233,6 +233,12 @@ export const BLOGROLL_LIST: Blogroll[] = [
     author: "Gab Brioso",
     note: "I first encountered Gab when he was one of the keynote speakers for UXPH Mini 2025 Manila. Seeing his website be an extension of the mindblowing artefacts he showcased to us during the time he shared his thoughts and insights is a delight and I just want to save this here so if ever anyone’s looking at this list, you get inspired, too!",
   },
+  {
+    url: "https://kmcd.dev/",
+    domain: "kmcd.dev",
+    author: "Kevin McDonald",
+    note: "I initially encountered his website from an Echofeed Amplify repost where he has some prompts posted every day. I found that interesting and checked what else he has and he has a lot of cool projects up on his site! A nice place to explore 😄",
+  },
   // {
   //   url: "",
   //   domain: "",
