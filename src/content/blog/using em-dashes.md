@@ -1,14 +1,15 @@
 ---
 title: "I use em-dashes a lot and I don’t want to stop using it."
 summary: "tl;dr I will continue to use em-dashes—sometimes wrongly—just because I can and because I know how to type it."
-pubDate: 2026-03-24T06:55:22+00:00
-updatedDate: 2026-03-25T15:35:59+00:00
 tags:
   - writing
+  - thoughts
 postLanguage: taglish
+pubDate: 2026-04-06T14:08:30+00:00
+updatedDate: 2026-04-06T14:40:10+00:00
 ---
 
-I saw a post shared on my feed yesterday about how there was a law document[^1] that had em-dashes used in them, _therefore_ this was using AI, even if the disclosure information clause specifically stated otherwise.
+I saw a post shared on my feed a few weeks ago about how there was a law document[^1] that had em-dashes used in them, _therefore_ this was using AI, even if the disclosure information clause specifically stated otherwise.
 
 ![Screenshot of Law Requisites Ph’s Post with a photo set showing sections of a legal document and em-dashes in the text encircled with a blue ballpen. The post caption itself says this is an example of AI being used on the law itself, pointing out the visibility of em dashes as the indicator.](/uploads/2026/Pasted%20image%2020260324145728.png "Not included in the screenshots are the slew of haha reacts on the post as well as lots of comments calling out the hasty generalization of this post re: the usae of em-dashes.")
 
@@ -72,8 +73,31 @@ The default keyboard layout that comes with CachyOS—which is what I’m using 
 
 I saw [this post on AskUbuntu](https://askubuntu.com/questions/31258/how-can-i-type-a-unicode-character-for-example-em-dash) and [this post on the SuperUser StackExchange forums](https://superuser.com/questions/311612/how-to-get-alt-nnnn-keyboard-shortcuts-to-work-under-linux) and saw the same thing mentioned: the <kbd><kbd>AltGr</kbd></kbd> key.
 
-I was not familiar with this key on the keyboard at all. Eventually I learned that the US-International keyboard layout was different from the US-International keyboard layout with AltGr keys too.
+I was not familiar with this key on the keyboard at all. Eventually I learned that the US-International keyboard layout was different from the US-International keyboard layout with AltGr keys too. That was an interesting read [on Wikipedia](https://en.wikipedia.org/wiki/AltGr_key)…
+
+> _**Quick commercial before I continue on!**_
+>
+> I originally started writing this post in March 24, but when I got to this part I kinda got stuck between wanting to trace back how I initially installed the way I got my AltGr Intl keyboard installed on my Linux and leaving that a mystery.
+>
+> Then life got in the way—essentially I just got too busy to get back to this until now—and I’ve made the resolution to just write this and things moving forward to the best of my ability at the time I put them together. And stuff with Linux isn’t always straightforward too. Maybe in the future I’ll just link back to this when I finally have the time to trace back my steps from before.
+>
+> Now, back to what I was saying 😆
+
+I don’t really remember at the moment of writing how exactly I installed it, but after trying a bunch of things, I eventually ended up being able to type Unicode characters and even my surname properly without having to resort to searching online, “how to type enye”[^4] or “how to type em-dash/en-dash”.
+
+So, for the purposes of this section, the way I got to type an em-dash now is to first press <kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>U</kbd></kbd> which shows a `U+` automatically where your text cursor is while typing. That means you can type the number code for the Unicode character you want to type—in my case, that’s `2014` for em-dash—and then press <kbd>Enter</kbd>. The `U+2014` gets replaced with an em-dash (<samp>—</samp>)!
+
+For an en-dash, it’s just -1 from `2014`. So, `U+2013` is an en-dash: `–`. This is supposedly the correct way to add a dash between dates, or so I remember (but forget the actual source).
+
+## Wrapping up
+
+Like I said earlier in this post, I still plan to use em-dashes a lot when I type since it’s so fun to type! I feel like I’m typing a special code just to type stuff hehe (technically, it is one…)
+
+Part of me sometimes wonders or worries that other people might think I’m using AI for writing just because I have em-dashes in the things I write. But sometimes I do use it wrongly—or too much even—and that may be more of a dead giveaway of someone who just likes using / typing em-dashes a lot rather than the text being something generated from a prompt.
+
+The generator is me! The prompt lives in my brain! And I used my appendages to press the correct keys in order so I get—here it comes—an em-dash to type my sentences 😁
 
 [^1]: I’m not really sure what this is at this point, as it’s also just a passing post on my social media feed.
 [^2]: lol nah but go off if you ever use it I guess
 [^3]: I ordered the sections based on the first type of device I’ve used to the latest one 😁
+[^4]: btw for this one, it’s a slightly different approach on my Linux keyboard layout: I press <kbd><kbd>AltGr</kbd>+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd title="tilde">~</kbd></kbd> then press <kbd><kbd>n</kbd></kbd> when I see the `~` with an underline appear. The n—or whichever valid letter you type—gets a neat tilde added on top afterwards. It’s a similar manner to how one types it on Mac and Windows, too, but with a slight difference, as the <kbd><kbd>AltGr</kbd></kbd> key isn’t as emphasized for the latter OSes than doing it for Linux.
