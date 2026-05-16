@@ -2,7 +2,7 @@
 title: "Turning 30"
 summary: Just wanted to share some thoughts as I turn 30 today!
 pubDate: 2026-05-16T08:48:49+00:00
-updatedDate: 2026-05-16T09:11:09+00:00
+updatedDate: 2026-05-16T15:38:32+00:00
 tags: 
 - writing
 - thoughts
@@ -47,3 +47,5 @@ I’m thankful for my partner for getting me and him to try a local gym, [BeFit]
 I think i’ll leave it here, but I’m happy I wrote this. 😁
 
 ![Chi smiling and holding a plate with a slice of chocolate cake with a silver candle. She’s wearing red dice earrings, a black cardigan, a red dress, and her mahjong trinket bracelet. She also has her shades on her head.](/uploads/2026/IMG_6732.jpeg "Happy 30th birthday to me! Here’s to more happy and content days in life 😄")
+
+> **Update @ May 16, 11:38PM**: when I pushed the changes to this earlier before going to keiko, the deployment failed. So I’m trying to fix it again, hopefully I still get to post it within May 16 my time haha
