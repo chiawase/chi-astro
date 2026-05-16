@@ -3280,5 +3280,15 @@
     "bytes": 557714,
     "etag": "912c38d6d4f75b0a8c420863a04e06fb",
     "uploadedAt": "2026-04-06T14:51:04.150Z"
+  },
+  "uploads/2026/IMG_6732.jpeg": {
+    "localRelPath": "uploads/2026/IMG_6732.jpeg",
+    "publicId": "chisenires.design/uploads/2026/IMG_6732",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1778922583/chisenires.design/uploads/2026/IMG_6732.jpg",
+    "bytes": 3708940,
+    "etag": "05dc2f6434e997d422cc3b290f008c91",
+    "uploadedAt": "2026-05-16T09:09:44.897Z",
+    "sha1": "dbf2a717e09524fb3c0f11dade1df742c15b12ac"
   }
 }
