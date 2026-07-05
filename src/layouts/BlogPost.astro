@@ -119,9 +119,9 @@ const fallbackTitle = "Chi’s blog post";
     )}
   </ul>
 
-  <Backlinks entry={post as any} />
+  <Backlinks currentPostId={post.id} />
 
-  <WebmentionsLoader postUrl={post.id} />
+  <WebmentionsLoader postUrl={`/blog/${post.id}/`} />
 </Page>
 
 

@@ -31,7 +31,6 @@
     "@astrojs/mdx": "^4.3.14",
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.2",
-    "@braindb/astro": "^0.1.1",
     "@flowershow/remark-wiki-link": "^3.3.1",
     "@fontsource-variable/anybody": "^5.2.7",
     "@fontsource-variable/source-sans-3": "^5.2.9",
