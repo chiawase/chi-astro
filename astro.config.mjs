@@ -43,27 +43,7 @@ export default defineConfig({
         YouTube: true,
       },
     }),
-    mdx({
-      remarkPlugins: [
-        remarkRemoveComments,
-        remarkCloudinaryLocalUploads,
-        [wikiLinkPlugin, { format: "regular" }],
-      ],
-      rehypePlugins: [
-        rehypeAccessibleEmojis,
-        [
-          rehypeExternalLinks,
-          {
-            target: "_blank",
-            rel: ["noopener", "noreferrer"],
-          },
-        ],
-        rehypeUploadsToCloudinary,
-        rehypeHeadingIds,
-        [rehypeAutolinkHeadings, { behavior: "append" }],
-        rehypeFigureTitle,
-      ],
-    }),
+    mdx({}),
     sitemap(),
     robotsTxt(robotsTxtOptions),
     icon(),
