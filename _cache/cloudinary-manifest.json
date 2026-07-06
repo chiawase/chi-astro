@@ -3106,7 +3106,8 @@
     "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1770906642/chisenires.design/uploads/manga/blooming-love-cover.jpg",
     "bytes": 51295,
     "etag": "bcc627bf34de1da5e4c27cc4df0e89a1",
-    "uploadedAt": "2026-02-12T14:30:42.955Z"
+    "uploadedAt": "2026-02-12T14:30:42.955Z",
+    "sha1": "896cbcc6860a6a30107b7749430a43382aeb996e"
   },
   "uploads/manga/kanna-and-her-ghost-guardian-cover.jpg": {
     "localRelPath": "uploads/manga/kanna-and-her-ghost-guardian-cover.jpg",
@@ -3115,7 +3116,8 @@
     "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1770906643/chisenires.design/uploads/manga/kanna-and-her-ghost-guardian-cover.jpg",
     "bytes": 39659,
     "etag": "c89309afb04b66eea45c9171f2339e55",
-    "uploadedAt": "2026-02-12T14:30:44.113Z"
+    "uploadedAt": "2026-02-12T14:30:44.113Z",
+    "sha1": "b8475bef0af0de7621505f5ba54021b2eec04fbb"
   },
   "uploads/2026/Pasted image 20260212223928.png": {
     "localRelPath": "uploads/2026/Pasted image 20260212223928.png",
@@ -3134,7 +3136,8 @@
     "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1771514342/chisenires.design/uploads/2026/Pasted%20image%2020260129133214.png",
     "bytes": 157373,
     "etag": "2345687dc382893bef9ee72fa86d3537",
-    "uploadedAt": "2026-02-19T15:19:03.777Z"
+    "uploadedAt": "2026-02-19T15:19:03.777Z",
+    "sha1": "4a8fd0e61efac10f073c050a7f67ac2de113a3f6"
   },
   "uploads/2026/Pasted image 20260219224708.png": {
     "localRelPath": "uploads/2026/Pasted image 20260219224708.png",
@@ -3143,7 +3146,8 @@
     "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1771514346/chisenires.design/uploads/2026/Pasted%20image%2020260219224708.png",
     "bytes": 570379,
     "etag": "46a7d05bcaefddcd5ec9a3306ba18c46",
-    "uploadedAt": "2026-02-19T15:19:07.067Z"
+    "uploadedAt": "2026-02-19T15:19:07.067Z",
+    "sha1": "6fb5806c176a5ff11b8aa500c70042d3d630f020"
   },
   "uploads/2026/kanna-and-her-ghost-guardian-cover.jpg": {
     "localRelPath": "uploads/2026/kanna-and-her-ghost-guardian-cover.jpg",
@@ -3152,7 +3156,8 @@
     "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1771514347/chisenires.design/uploads/2026/kanna-and-her-ghost-guardian-cover.jpg",
     "bytes": 39659,
     "etag": "c89309afb04b66eea45c9171f2339e55",
-    "uploadedAt": "2026-02-19T15:19:08.180Z"
+    "uploadedAt": "2026-02-19T15:19:08.180Z",
+    "sha1": "b8475bef0af0de7621505f5ba54021b2eec04fbb"
   },
   "uploads/games/ffxiv.jpg": {
     "localRelPath": "uploads/games/ffxiv.jpg",
@@ -3211,7 +3216,8 @@
     "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1772747589/chisenires.design/uploads/2026/IMG_5982.jpg",
     "bytes": 511527,
     "etag": "3772a14cdb191bcc32909e6eaaeb5164",
-    "uploadedAt": "2026-03-05T21:53:10.458Z"
+    "uploadedAt": "2026-03-05T21:53:10.458Z",
+    "sha1": "f86c54b552d760a84e3cf992a9c34cac88fca8ec"
   },
   "uploads/2026/IMG_5994.png": {
     "localRelPath": "uploads/2026/IMG_5994.png",
@@ -3220,7 +3226,8 @@
     "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1772747595/chisenires.design/uploads/2026/IMG_5994.png",
     "bytes": 8668140,
     "etag": "30d89d29d8c545e2c97e5757be3b97ff",
-    "uploadedAt": "2026-03-05T21:53:16.357Z"
+    "uploadedAt": "2026-03-05T21:53:16.357Z",
+    "sha1": "af96d66e8dde98c14df80004986a05f7db8c4082"
   },
   "uploads/2026/Pasted image 20260325223611.png": {
     "localRelPath": "uploads/2026/Pasted image 20260325223611.png",
@@ -3279,7 +3286,8 @@
     "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1775487063/chisenires.design/uploads/2026/Pasted%20image%2020260324145728.png",
     "bytes": 557714,
     "etag": "912c38d6d4f75b0a8c420863a04e06fb",
-    "uploadedAt": "2026-04-06T14:51:04.150Z"
+    "uploadedAt": "2026-04-06T14:51:04.150Z",
+    "sha1": "de0a5a4ce53797ab1501f38bf70aaeaf9f99b0c7"
   },
   "uploads/2026/IMG_6732.jpeg": {
     "localRelPath": "uploads/2026/IMG_6732.jpeg",
@@ -3290,5 +3298,15 @@
     "etag": "05dc2f6434e997d422cc3b290f008c91",
     "uploadedAt": "2026-05-16T09:09:44.897Z",
     "sha1": "dbf2a717e09524fb3c0f11dade1df742c15b12ac"
+  },
+  "uploads/anime/frieren-cover.jpg": {
+    "localRelPath": "uploads/anime/frieren-cover.jpg",
+    "publicId": "chisenires.design/uploads/anime/frieren-cover",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1770455157/chisenires.design/uploads/anime/frieren-cover.jpg",
+    "bytes": 837731,
+    "etag": "52e14b80f8974cd971e3d60e8fa00f63",
+    "uploadedAt": "2026-07-05T03:16:17.485Z",
+    "sha1": "9727a2dfeccb4742c39acd956bd763ca9bcdceed"
   }
 }
