@@ -1,4 +1,5 @@
 import { defineConfig } from "astro/config";
+import { unified } from "@astrojs/markdown-remark";
 
 /* From Astro or @astrojs */
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
@@ -50,6 +51,7 @@ export default defineConfig({
     cloudinaryWatch(),
   ],
   markdown: {
+    processor: unified(),
     shikiConfig: {
       themes: {
         light: "github-dark",

@@ -1,4 +1,5 @@
-import { defineCollection, z } from "astro:content";
+import { defineCollection } from "astro:content";
+import { z } from "astro/zod";
 import { glob } from "astro/loaders";
 
 const blog = defineCollection({
@@ -36,7 +37,7 @@ const games = defineCollection({
   loader: glob({ base: "./src/content/games", pattern: "**/*.{md,mdx}" }),
   schema: z.object({
     title: z.string(),
-    url: z.string().url(),
+    url: z.url(),
     platform: z.string(),
     gameImage: z.string().optional(),
     tags: z.array(z.string()).optional(),
@@ -50,7 +51,7 @@ const manga = defineCollection({
   loader: glob({ base: "./src/content/manga", pattern: "**/*.{md,mdx}" }),
   schema: z.object({
     title: z.string(),
-    url: z.string().url(),
+    url: z.url(),
     mangaCover: z.string().optional(),
     tags: z.array(z.string()).optional(),
     latestChapter: z.string(),
