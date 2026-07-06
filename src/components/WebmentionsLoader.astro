@@ -18,7 +18,7 @@ const { postUrl } = Astro.props;
 const feed = await getWebmentions();
 
 // Use production URL for matching (so dev localhost still matches your cached wm-target)
-const canonicalTarget = new URL(`/blog/${postUrl}/`, SITE_URL).href;
+const canonicalTarget = new URL(postUrl, SITE_URL).href;
 const mentions = getWebmentionsForUrl(feed.children ?? [], canonicalTarget);
 
 const reposts = webmentionsByType(mentions, "repost-of");
