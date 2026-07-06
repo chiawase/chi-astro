@@ -10,7 +10,7 @@ tags:
 postLanguage:
 ---
 
-[🔗 It’s hard to justify Tahoe icons](https://tonsky.me/blog/tahoe-icons/ “It’s hard to justify Tahoe icons”)
+[🔗 It’s hard to justify Tahoe icons](https://tonsky.me/blog/tahoe-icons/ "It’s hard to justify Tahoe icons")
 
 From Niki @ tonsky.me:
 
