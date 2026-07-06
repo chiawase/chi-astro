@@ -624,7 +624,6 @@ article .e-content * > li {
   display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.5rem;
   list-style: none;
   padding: 0;
 }
@@ -661,6 +660,7 @@ article .e-content * > li {
 .post-metadata .post-metadata-separator:before,
 .postlist-separator:before {
   content: "\2022";
+  padding: 0 0.5rem;
 }
 
 .postlist-tags {

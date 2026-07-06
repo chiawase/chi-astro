@@ -13,6 +13,15 @@ import Page from "@layouts/Page.astro";
 
 ---
 
+## 5 Jul 2026
+
+> wow I was gone for a few months here wew
+
+- trying to fix my site to be ~~Astro 6~~ Astro 7 ready (in the middle of this update I think I missed another big version bump and since I wanna be updated, I am really just utilizing all tools avilable to me so I could make the upgrade cleanly)
+  - set up a custom implementation for my Backlinks instead of the one relying on `@braindb/astro` since it's not in the latest Astro anymore
+  - fix my `feed.xml.ts` so it generates a simple Atom feed without the full blog entry in the feed
+  - cleaned up my `astro.config.mjs` because I was apparently declaring MDX plugins twice, after checking the [Astro docs for MDX](https://docs.astro.build/en/guides/integrations-guide/mdx/#extendmarkdownconfig) it seems like MDX extends the `markdown` integrations by default, so the config is updated to reflect that, plus put it all within `unified()` since apparently that's how it's supposed to be done now
+
 ## 5 Apr 2026
 
 - cleaned up my `package.json` to remove unused packages

@@ -1,17 +1,14 @@
 ---
-import { getBrainDb } from "@braindb/astro";
-import type { CollectionEntry } from "astro:content";
+import { buildBacklinkMap } from "@utils/backlinks";
+
 interface Props {
-  entry: CollectionEntry<"blog">;
+  currentPostId: string;
 }
 
-const bdb = getBrainDb();
+const { currentPostId } = Astro.props;
 
-const { entry } = Astro.props;
-const doc = await bdb.findDocument(`/${entry.id}`);
-
-const links = doc?.documentsFrom()
-  .filter((doc) => doc.frontmatter().draft !== true || import.meta.env.DEV) || [];
+const backlinkMap = await buildBacklinkMap();
+const links = backlinkMap[currentPostId] ?? [];
 ---
 
  {
@@ -19,9 +16,9 @@ const links = doc?.documentsFrom()
      <div class="backlinks">
        <h2>Backlinks</h2>
        <ul>
-         {links.map((x) => (
+         {links.map((link) => (
            <li>
-             <a href={x.url()}>{x.title()}</a>
+             <a href={link.url}>{link.title ?? link.id}</a>
            </li>
          ))}
        </ul>
@@ -42,8 +39,8 @@ const links = doc?.documentsFrom()
       display: block;
       border-radius: 0.25rem;
       padding-block: 0.25rem;
-      padding-inline: var(--pad-inline) var(--pad-inline);
-      line-height: 1.25;
+      padding-inline: var(--pad-inline);
+      line-height: 120%;
     }
   }
 </style>

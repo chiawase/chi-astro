@@ -1,4 +1,5 @@
 import { defineConfig } from "astro/config";
+import { unified } from "@astrojs/markdown-remark";
 
 /* From Astro or @astrojs */
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
@@ -43,10 +44,18 @@ export default defineConfig({
         YouTube: true,
       },
     }),
-    mdx({
+    mdx({}),
+    sitemap(),
+    robotsTxt(robotsTxtOptions),
+    icon(),
+    cloudinaryWatch(),
+  ],
+  markdown: {
+    processor: unified({
       remarkPlugins: [
         remarkRemoveComments,
         remarkCloudinaryLocalUploads,
+        remarkCodeTitle,
         [wikiLinkPlugin, { format: "regular" }],
       ],
       rehypePlugins: [
@@ -64,37 +73,11 @@ export default defineConfig({
         rehypeFigureTitle,
       ],
     }),
-    sitemap(),
-    robotsTxt(robotsTxtOptions),
-    icon(),
-    cloudinaryWatch(),
-  ],
-  markdown: {
     shikiConfig: {
       themes: {
         light: "github-dark",
         dark: "github-light",
       },
     },
-    remarkPlugins: [
-      remarkRemoveComments,
-      remarkCloudinaryLocalUploads,
-      remarkCodeTitle,
-      [wikiLinkPlugin, { format: "regular" }],
-    ],
-    rehypePlugins: [
-      rehypeAccessibleEmojis,
-      [
-        rehypeExternalLinks,
-        {
-          target: "_blank",
-          rel: ["noopener", "noreferrer"],
-        },
-      ],
-      rehypeUploadsToCloudinary,
-      rehypeHeadingIds,
-      [rehypeAutolinkHeadings, { behavior: "append" }],
-      rehypeFigureTitle,
-    ],
   },
 });
