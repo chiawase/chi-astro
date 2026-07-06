@@ -51,32 +51,33 @@ export default defineConfig({
     cloudinaryWatch(),
   ],
   markdown: {
-    processor: unified(),
+    processor: unified({
+      remarkPlugins: [
+        remarkRemoveComments,
+        remarkCloudinaryLocalUploads,
+        remarkCodeTitle,
+        [wikiLinkPlugin, { format: "regular" }],
+      ],
+      rehypePlugins: [
+        rehypeAccessibleEmojis,
+        [
+          rehypeExternalLinks,
+          {
+            target: "_blank",
+            rel: ["noopener", "noreferrer"],
+          },
+        ],
+        rehypeUploadsToCloudinary,
+        rehypeHeadingIds,
+        [rehypeAutolinkHeadings, { behavior: "append" }],
+        rehypeFigureTitle,
+      ],
+    }),
     shikiConfig: {
       themes: {
         light: "github-dark",
         dark: "github-light",
       },
     },
-    remarkPlugins: [
-      remarkRemoveComments,
-      remarkCloudinaryLocalUploads,
-      remarkCodeTitle,
-      [wikiLinkPlugin, { format: "regular" }],
-    ],
-    rehypePlugins: [
-      rehypeAccessibleEmojis,
-      [
-        rehypeExternalLinks,
-        {
-          target: "_blank",
-          rel: ["noopener", "noreferrer"],
-        },
-      ],
-      rehypeUploadsToCloudinary,
-      rehypeHeadingIds,
-      [rehypeAutolinkHeadings, { behavior: "append" }],
-      rehypeFigureTitle,
-    ],
   },
 });
