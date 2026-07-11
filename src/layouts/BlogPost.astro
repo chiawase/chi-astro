@@ -6,9 +6,10 @@ import { SITE_URL, SITE_AUTHOR } from "@consts";
 import Page from "@layouts/Page.astro";
 
 import PostMetadata from "@components/PostMetadata.astro";
-import WebmentionsLoader from "@components/WebmentionsLoader.astro";
-import Backlinks from "@components/Backlinks.astro";
 import TableOfContents from "@components/TableOfContents.astro";
+import Backlinks from "@components/Backlinks.astro";
+import WebmentionsLoader from "@components/WebmentionsLoader.astro";
+import Comments from "@components/Comments.astro";
 
 import { prepareOgText } from "@utils/prepareOgText";
 
@@ -121,7 +122,15 @@ const fallbackTitle = "Chi’s blog post";
 
   <Backlinks currentPostId={post.id} />
 
-  <WebmentionsLoader postUrl={`/blog/${post.id}/`} />
+  <div class="post-feedback">
+    <section class="post-feedback__col post-feedback__col--comments">
+      <h4 id="comments">Comments<a aria-hidden="true" tabindex="-1" href="#comments"><span class="icon icon-link"></span></a></h4>
+      <Comments />
+    </section>
+    <section class="post-feedback__col post-feedback__col--webmentions">
+      <WebmentionsLoader postUrl={`/blog/${post.id}/`} />
+    </section>
+  </div>
 </Page>
 
 
@@ -172,5 +181,23 @@ const fallbackTitle = "Chi’s blog post";
   :global(iframe) {
     display: block;
     margin: 0 auto !important;
+  }
+
+  .post-feedback {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  @media (min-width: 896px) {
+    .post-feedback {
+      /*grid-template-columns: 1fr 1fr;*/
+      align-items: start;
+    }
+  }
+
+  .post-feedback__col--comments h4 {
+    margin-bottom: 0;
   }
 </style>
