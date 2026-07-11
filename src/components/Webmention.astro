@@ -55,36 +55,15 @@ const text = webmention.content?.text;
     <span class="p-author h-card webmention__author">
       {
         authorPhoto ? (
-          <Image
-            alt=""
-            height={48}
-            width={48}
-            loading="lazy"
-            class="u-photo webmention__author__photo"
-            src={authorPhoto}
-          />
+          <Image alt="" height={48} width={48} loading="lazy" class="u-photo webmention__author__photo" src={authorPhoto} />
         ) : (
-          <Image
-            alt=""
-            height={48}
-            width={48}
-            loading="lazy"
-            class="u-photo webmention__author__photo"
-            src="/webmention-avatar-default.svg"
-          />
+          <Image alt="" height={48} width={48} loading="lazy" class="u-photo webmention__author__photo" src="/webmention-avatar-default.svg" />
         )
       }
 
       {
         authorUrl ? (
-          <a
-            href={authorUrl}
-            rel="author noopener noreferrer"
-            target="_blank"
-            class="p-name"
-          >
-            <strong>{authorName}</strong>
-          </a>
+          <a href={authorUrl} rel="author noopener noreferrer" target="_blank" class="p-name"><strong>{authorName}</strong></a>
         ) : (
           <span class="p-name">
             <strong>{authorName}</strong>
@@ -95,10 +74,7 @@ const text = webmention.content?.text;
 
     {
       webmention.published && (
-        <FormattedDate
-          dateType="webmention"
-          dateString={webmention.published}
-        />
+        <FormattedDate dateType="webmention" dateString={webmention.published} />
       )
     }
   </div>
@@ -106,29 +82,15 @@ const text = webmention.content?.text;
   {
     text ? (
       <p class="webmention__content p-content">
-        {prepareOgText(text, { maxLength: 280 })}
+        {prepareOgText(text, { maxLength: 280 })}&nbsp;
         {sourceUrl && (
-          <a
-            href={sourceUrl}
-            class="u-url"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            source
-          </a>
+          <a href={sourceUrl} class="u-url" rel="noopener noreferrer" target="_blank">source</a>
         )}
       </p>
     ) : (
       sourceUrl && (
         <p class="webmention__content">
-          <a
-            href={sourceUrl}
-            class="u-url"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            source
-          </a>
+          <a href={sourceUrl} class="u-url" rel="noopener noreferrer" target="_blank">source</a>
         </p>
       )
     )

@@ -1,0 +1,41 @@
+---
+import { COMMENT_URL, COMMENT_SITE_ID, SITE_URL } from "@consts";
+
+const canonicalUrl = new URL(Astro.url.pathname, SITE_URL).href;
+---
+
+<div id="remark42">Comments loading...</div>
+
+<script is:inline define:vars={{
+  commentUrl: COMMENT_URL,
+  commentSiteId: COMMENT_SITE_ID,
+  canonicalUrl,
+}}>
+  window.remark_config = {
+    host: commentUrl,
+    site_id: commentSiteId,
+    url: canonicalUrl,
+    components: ["embed"],
+    theme: document.documentElement.classList.contains("dark") ? "dark" : "light",
+  };
+
+  !(function(e,n) {
+    for (var o = 0; o < e.length; o++) {
+      var r = n.createElement("script"),
+      c = ".js",
+      d = n.head || n.body;
+      "noModule" in r ? ((r.type = "module"), (c = ".mjs")) : (r.async = !0),
+      (r.defer = !0),
+      (r.src = remark_config.host + "/web/" + e[o] + c),
+      d.appendChild(r);
+    }
+  })(remark_config.components || ["embed"], document);
+
+  // Follow site theme toggle
+  new MutationObserver(() => {
+    window.REMARK42?.changeTheme(document.documentElement.classList.contains("dark") ? "dark" : "light");
+  }).observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["class"],
+  });
+</script>
