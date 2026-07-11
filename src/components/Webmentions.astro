@@ -60,41 +60,18 @@ const repostsAuthors = mentions
     <p>No mentions yet.</p>
   )}
   <p>
-    These are <a target="_blank" rel="noopener noreferrer" href="https://indieweb.org/Webmention">webmentions</a> via the <a
-      href="https://indieweb.org/">IndieWeb</a
-    > and <a target="_blank" rel="noopener noreferrer" href="https://webmention.io/">webmention.io</a>. Mention this post
-    from your site:
+    These are <a target="_blank" rel="noopener noreferrer" href="https://indieweb.org/Webmention">webmentions</a> via the <a href="https://indieweb.org/">IndieWeb</a > and <a target="_blank" rel="noopener noreferrer" href="https://webmention.io/">webmention.io</a>. Mention this post from your site:
   </p>
 
-  <form
-    action=`https://webmention.io/${SITE_URL}/webmention`
-    method="post"
-    class="form-webmention"
-  >
+  <form action=`https://webmention.io/${SITE_URL}/webmention` method="post" class="form-webmention">
     <label for="form-webmention-source">URL</label>
-    <input
-      id="form-webmention-source"
-      type="url"
-      name="source"
-      placeholder="https://example.com"
-      required
-    />
-    <input
-      type="hidden"
-      name="target"
-      value={new URL(Astro.url.pathname, `https://${SITE_URL}`).href}
-    />
+    <input id="form-webmention-source" type="url" name="source" placeholder="https://example.com" required />
+    <input type="hidden" name="target" value={new URL(Astro.url.pathname, `https://${SITE_URL}`).href} />
     <input type="submit" class="button button-small" value="Send Webmention" />
   </form>
 
   <p>
-    You can also <a href="/contact/" title="These are my social links!"
-      >reach out to me online</a
-    > if you have thoughts to share about anything I’ve posted. Mostly I’m on <a target="_blank" rel="noopener noreferrer"
-      href="https://threads.com/@_chiawase">Threads</a
-    >, <a target="_blank" rel="noopener noreferrer" href="https://social.lol/@chi">Mastodon</a>, or <a target="_blank" rel="noopener noreferrer"
-      href="https://bsky.app/profile/chisenires.design">Bluesky</a
-    >.
+    You can also <a href="/contact/" title="These are my social links!" >reach out to me online</a> if you have thoughts to share about anything I’ve posted. You can also leave a comment below!
   </p>
 </section>
 <style>
