@@ -17,17 +17,33 @@ import chiAndGoldShipBike from "@assets/chi-and-goldship.jpeg";
 >
 <style>
 {`/* About Page */
-.chi-image {
-  display: block;
-  border-radius: 2rem;
-  margin: 0 auto;
-  }`}
+  .chi-image {
+    display: block;
+    border-radius: 2rem;
+  }
+
+  .side-by-side {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .side-by-side:first-of-type {
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 896px) {
+    .side-by-side {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  `}
 </style>
 
 <div class="h-card">
 
-Hello there! I'm <span class="p-name">**Chi Señires**</span>. I'm a <span class="p-job-title">UX Designer</span> from the <span class="p-country-name">Philippines</span>.
-
+<div class="side-by-side">
 <Image
   src={chiPhoto}
   alt=""
@@ -36,35 +52,49 @@ Hello there! I'm <span class="p-name">**Chi Señires**</span>. I'm a <span class
   class="chi-image u-photo"
 />
 
+<div class="chi-about-section">
+
+Hello there! I’m <span class="p-name">**Chi Señires**</span>. I’m a <span class="p-job-title">UX Designer</span> from the <span class="p-country-name">Philippines</span> 🇵🇭
+
 ## Quick <abbr title="Getting to Know Me">GTKM</abbr>
 
-- I have a red trifold Brompton folding bike I've named [**Gold Ship**](/stuff-i-use/#my-bicycle).
+- I have a red trifold Brompton folding bike I’ve named [**Gold Ship**](/stuff-i-use/#my-bicycle).
 - currently working at <a target="_blank" rel="noopener noreferrer" href="https://humanforce.com" class="p-org">Humanforce</a> as a UX Designer.
 - Most of my time working is within [Figma](https://figma.com). Though I also code occasionally now and contribute to our internal design system!
-- I am familiar with front-end web development. HTML & CSS are my jam!
+- I do front-end web development from time to time. HTML & CSS my beloved(s)
 - I do my best to familiarize myself with accessibility, especially for online things.
-- I super duper love cats. But I don't own any.
+- I super duper love cats. But I don’t own any. (yet?)
+</div>
+
+</div>
+
+<div class="side-by-side">
+
+<div class="chi-about-section">
 
 ## What am I up to now?
 
-My [Now](/now/) page has a list of the things I'm doing and taking note of so far.
+My [Now](/now/) page has a list of the things I’m doing and taking note of so far.
 
-I've laid out all my links and accounts in this page: [Contact](/contact/)
+I’ve laid out all my links and accounts in this page: [Contact](/contact/)
 
-Though if you'd like to chat, you may contact me through the following public accounts!
+Though if you’d like to chat, you may contact me through the following public accounts!
 
 - [Mastodon via OMG.LOL](https://social.lol/@chi "I sometimes post private stuff here")
 - [Threads](https://threads.com/@_chiawase "my new slop online")
 - [BlueSky](https://bsky.app/profile/chisenires.design "I sometimes go here to chronologically go through topics")
 - [LinkedIn](https://linkedin.com/in/chisenires "yeah of course for the networking clout")
 
-## Communities I'm part of
+## Communities I’m part of
 
-While I do have a list of the communities I organize in my now page, I figured I should also just have a general list of which communities I participate in, regardless if I moderate / organize stuff there or I'm simply a member.
+While I do have a list of the communities I organize in my now page, I figured I should also just have a general list of which communities I participate in, regardless if I moderate / organize stuff there or I’m simply a member.
 
 - [Friends of Figma, Manila](https://friends.figma.com/manila) (User Group Leader)
 - [Tambayan 404](https://tambayan404.com) (Co-founder and Admin)
 - [Pinay Bike Commuter Community](https://fb.com/groups/pinaybikecommutercommunity) (Co-founder, Moderator)
+- [<abbr title="User Experience Philippines">UXPH</abbr>](https://uxph.org) (Member, former Core Volunteer)
+
+</div>
 
 <figure class="chi-image">
 {/* Just manually making this a figure element so it also has the same styles */}
@@ -72,6 +102,7 @@ While I do have a list of the communities I organize in my now page, I figured I
 <figcaption>This photo was a bit amusing because it was taken as soon as someone was trying to make a U-turn on the road in front of me, ending up with them giving me a bit of lighting in the early evening 😆</figcaption>
 
 </figure>
+</div>
 
 </div>
 </Page>
