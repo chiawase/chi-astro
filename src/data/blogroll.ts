@@ -239,7 +239,12 @@ export const BLOGROLL_LIST: Blogroll[] = [
     author: "Kevin McDonald",
     note: "I initially encountered his website from an Echofeed Amplify repost where he has some prompts posted every day. I found that interesting and checked what else he has and he has a lot of cool projects up on his site! A nice place to explore 😄",
   },
-  // {
+  {
+    url: "https://davedavies.dev/",
+    domain: "davedavies.dev",
+    author: "Dave Davies",
+    note: "Stumbled upon his website after seeing the a11y.quest and figured I should save his link here so I can get back to his articles and videos!"
+  },
   //   url: "",
   //   domain: "",
   //   author: "",
