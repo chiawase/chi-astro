@@ -11,6 +11,7 @@ mastodon:
   id: 112366654852637947
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I didn't get to finish the April photoblogging challenge again 🥲 But oh well, at least I got to update it for most of the month!

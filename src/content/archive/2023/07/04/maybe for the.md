@@ -20,6 +20,7 @@ photos_with_metadata:
   width: 405
   height: 600
 url: /2023/07/04/maybe-for-the.html
+source: microblog
 ---
 
 Maybe for the meantime I'll explore any of these alternative apps. Looking at Gluon.

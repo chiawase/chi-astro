@@ -11,6 +11,7 @@ mastodon:
   id: 112357791122493183
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 as the weeks pass I hear more and more sirens 😟 kung hindi ambulance, fire truck. huhu

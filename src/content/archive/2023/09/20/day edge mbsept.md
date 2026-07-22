@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/20/day-edge-mbsept.html
+source: microblog
 ---
 
 late post! meant to do this yesterday but i kinda forgot lol

@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/20/i-want-to.html
+source: microblog
 ---
 
 I want to be more efficient in doing my design work. The Adobe Xd to Miro pipeline is very... tedious 🫠

@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/22/i-really-am.html
+source: microblog
 ---
 
 I really am so happy I'm here with my friend. We've just been chatting the whole time while waiting to board our flight. 😆

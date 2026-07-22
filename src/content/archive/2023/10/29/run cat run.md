@@ -21,6 +21,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/10/29/run-cat-run.html
+source: microblog
 ---
 
 run, cat, run

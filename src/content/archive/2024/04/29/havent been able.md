@@ -11,6 +11,7 @@ mastodon:
   id: 112351409144159958
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Haven't been able to catch up to the challenges again 😅 been busy the past few days

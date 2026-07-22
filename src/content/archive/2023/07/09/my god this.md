@@ -20,6 +20,7 @@ photos_with_metadata:
   width: 1170
   height: 2532
 url: /2023/07/09/my-god-this.html
+source: microblog
 ---
 
 my god this temp, 34°C???? 🥵 umabot na tayo sa peak nung inet, ulan mode na

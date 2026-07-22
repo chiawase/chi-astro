@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/08/i-keep-asking.html
+source: microblog
 ---
 
 I keep asking myself why I continue buying books I end up not reading. Mostly resource books.

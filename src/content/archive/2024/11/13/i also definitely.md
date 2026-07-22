@@ -15,6 +15,7 @@ threads:
   id: 18026419274211443
   url: https://www.threads.net/@_chiawase/post/DCS9XmfNfph
   username: _chiawase
+source: microblog
 ---
 
 I also definitely need to clean my table soon lol

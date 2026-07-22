@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/13/some-people-elsewhere.html
+source: microblog
 ---
 
 some people elsewhere really have all the time in the world just to harrass and belittle others.

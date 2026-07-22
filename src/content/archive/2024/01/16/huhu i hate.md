@@ -11,6 +11,7 @@ mastodon:
   id: 111764345246848581
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 huhu i hate my cravings once they hit i cannot think about any other kind of food 😖

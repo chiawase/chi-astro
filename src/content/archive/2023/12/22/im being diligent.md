@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/22/im-being-diligent.html
+source: microblog
 ---
 
 I'm being diligent now on what to buy during the 2023 Steam Winter Sale... I really just want one gift. But then I'm keeping some easy ones also just saved for later. 😆

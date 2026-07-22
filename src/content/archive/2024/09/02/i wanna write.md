@@ -11,6 +11,7 @@ mastodon:
   id: 113063183816254912
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I wanna write more this month.

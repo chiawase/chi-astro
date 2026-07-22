@@ -26,6 +26,7 @@ photos_with_metadata:
   width: 1800
   height: 2400
 url: /2023/07/10/also-got-traffic.html
+source: microblog
 ---
 
 Also got traffic cone valve caps from a cyclist friend 😄 

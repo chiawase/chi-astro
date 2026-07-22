@@ -12,6 +12,7 @@ mastodon:
   id: 111888909115693161
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 🛬 Vienna, Austria 🇦🇹

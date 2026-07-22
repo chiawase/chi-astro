@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/25/day-belt-mbsept.html
+source: microblog
 ---
 
 I'm not really one for belts on my everyday outfits so this was a bit hard 😅 here's an old photo of me at a shooting range wearing a holster belt lol

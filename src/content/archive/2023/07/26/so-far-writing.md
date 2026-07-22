@@ -13,6 +13,7 @@ mastodon:
   hostname: social.lol
 microblog: true
 url: /2023/07/26/so-far-writing.html
+source: microblog
 ---
 
 So far, writing long posts with the mobile app works great, but I strain myself sometimes just writing all in the app when I could also type on my PC 🙈

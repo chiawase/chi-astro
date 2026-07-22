@@ -11,6 +11,7 @@ mastodon:
   id: 112182613835773635
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I stayed online enough to clean up my inbox of unnecessary newsletters and cleaned through old event invites and other threads.

@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/c3b4c2ffa9.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 Took photos while walking along the riverside during my visit to Austria last February. I wanna go back soon. Things were peaceful then.

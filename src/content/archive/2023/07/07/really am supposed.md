@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/07/really-am-supposed.html
+source: microblog
 ---
 
 Really am supposed to be going back home soon. But I am lazy and sleepy 😪

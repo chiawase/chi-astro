@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/06/i-really-hope.html
+source: microblog
 ---
 
 I really hope in the future I don't have to call or check in advance if the venues I'm going to allow (folding) bikes inside, or at the very least have accessible bike parking within or nearby. 🙏🏻

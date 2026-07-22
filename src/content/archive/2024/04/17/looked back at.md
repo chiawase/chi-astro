@@ -11,6 +11,7 @@ mastodon:
   id: 112287208234395578
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Looked back at some of the photos I submitted for the photoblogging challenge, and I saw I reposted 1 photo 🙈 Now I know I shouldn't use that photo moving forward haha!

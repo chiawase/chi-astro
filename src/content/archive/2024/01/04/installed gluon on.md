@@ -11,6 +11,7 @@ mastodon:
   id: 111697551215372369
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Installed Gluon on my phone again!

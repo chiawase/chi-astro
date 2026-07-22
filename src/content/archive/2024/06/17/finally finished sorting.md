@@ -11,6 +11,7 @@ mastodon:
   id: 112631150436606894
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 finally finished sorting through the stuff I hauled from my old unit! There's still a big pile and bags of clothes that are set aside, but at the very least they're all bundled up together. The rest of the things have been sorted to either trash, or for keeping somewhere. 😆

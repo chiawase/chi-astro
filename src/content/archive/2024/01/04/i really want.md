@@ -11,6 +11,7 @@ mastodon:
   id: 111697412847348798
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I really want to fix my link embed previews soon 😓 huhuhu.

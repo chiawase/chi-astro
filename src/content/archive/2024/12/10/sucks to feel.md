@@ -15,6 +15,7 @@ threads:
   id: 17948602661778686
   url: https://www.threads.net/@_chiawase/post/DDZpTNFKUCk
   username: _chiawase
+source: microblog
 ---
 
 sucks to feel under the weather once evening comes huhuhu i have no energy left to do things 😭

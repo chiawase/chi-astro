@@ -11,6 +11,7 @@ mastodon:
   id: 113470603782293727
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Equal exchange. Or relatively equal exchange.

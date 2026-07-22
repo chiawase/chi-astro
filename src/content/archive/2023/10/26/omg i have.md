@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/26/omg-i-have.html
+source: microblog
 ---
 
 omg I have so much footage from the community ride through the Iloilo bike lanes and I wanna compile them immediately because I know the more time passes the more I'll forget about them or get too busy to put it together 🫠 (see: Taiwan 2023 trip hahahuhuhu)

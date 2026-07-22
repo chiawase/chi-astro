@@ -20,6 +20,7 @@ photos_with_metadata:
   width: 1800
   height: 2400
 url: /2023/07/19/my-boyfriend-is.html
+source: microblog
 ---
 
 My boyfriend is headed back to Europe tonight. 🤧 It was a fun week with him 😊

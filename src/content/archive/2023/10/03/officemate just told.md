@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/03/officemate-just-told.html
+source: microblog
 ---
 
 officemate just told me they can't attend a sync meeting later because they're stuck in traffic. It's a 1 hour meeting though, and I'm implying they might be able to catch up, unless they feel like traffic will take them 1 hour to get to the office.

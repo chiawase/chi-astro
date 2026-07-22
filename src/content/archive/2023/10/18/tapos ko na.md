@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/18/tapos-ko-na.html
+source: microblog
 ---
 
 tapos ko na yakuza 0!! playing yakuza: like a dragon before finishing this made me understand some references 😆 and now i get how they're all getting tied together hahaha

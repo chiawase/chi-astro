@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/31/just-finished-viewfinder.html
+source: microblog
 ---
 
 Just finished [Viewfinder](https://store.steampowered.com/app/1382070/Viewfinder/)!! Lovely game, I'm really a sucker for these kind of puzzle games. 😆 Also happy to see a friend's name in the credits :3

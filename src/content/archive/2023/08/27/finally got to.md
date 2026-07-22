@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/27/finally-got-to.html
+source: microblog
 ---
 
 Finally got to fix up the file and publish the [Slider Prototype Variations](https://www.figma.com/community/file/1277562905887280569/Slider-Prototype-Variations) on Figma Community. Hopefully this helps someone in the future when they're trying to figure out how to make smoother swipe-to-action prototypes on Figma. 😁

@@ -12,6 +12,7 @@ mastodon:
   id: 112564913637993430
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I'll also be at Singapore by the first week of July, because I'm attending [Figma Config APAC 2024](https://configapac.splashthat.com/) in-person 😄

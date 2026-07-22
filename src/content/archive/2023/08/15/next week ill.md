@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/15/next-week-ill.html
+source: microblog
 ---
 
 Next week I'll be travelling ✈️

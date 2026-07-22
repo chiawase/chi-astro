@@ -17,6 +17,7 @@ mastodon:
 photos: 
 photos_with_metadata: 
 url: /2023/12/19/honestly-i-find.html
+source: microblog
 ---
 
 honestly I find it so funny that my stats for 🎮 Baldur's Gate 3 is like this HAHA the jab is totally real, I still haven't left Act One :((((((

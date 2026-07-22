@@ -20,6 +20,7 @@ photos_with_metadata:
   width: 1800
   height: 2400
 url: /2023/08/06/woke-up-to.html
+source: microblog
 ---
 
 woke up to my 3d cats having a meeting on my desk 😆

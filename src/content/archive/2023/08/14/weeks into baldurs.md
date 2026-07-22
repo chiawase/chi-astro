@@ -34,6 +34,7 @@ photos_with_metadata:
   width: 600
   height: 337
 url: /2023/08/14/weeks-into-baldurs.html
+source: microblog
 ---
 
 The last week has been spent playing [Baldur's Gate](https://store.steampowered.com/app/1086940/Baldurs_Gate_3/) almost every time I get a chance to, which just shows in my total number of hours so far...

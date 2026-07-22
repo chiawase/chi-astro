@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/25/happy-holidays-wishing.html
+source: microblog
 ---
 
 Happy Holidays! 😊 wishing you all a comfy time with your loved ones 🌟💖

@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 600
   height: 450
 url: /2023/09/04/day-precious-mbsept.html
+source: microblog
 ---
 
 My preciouses. I don't own cats yet, so this'll have to do for now. 😝

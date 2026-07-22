@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/19/fixed-my-finances.html
+source: microblog
 ---
 
 Fixed my finances again for the month. Using [YNAB](https://ynab.com/referral/?ref=iCYUP196bvG5Krtl)* really has helped me be more mindful of where I spend my money & credit. While I don't think I embody their budget mindset, I've gotten used to its system.

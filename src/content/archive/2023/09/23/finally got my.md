@@ -26,6 +26,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/23/finally-got-my.html
+source: microblog
 ---
 
 finally got my ffxiv-themed bucket hats!!! 🥰🌱 they are so cute huhu I can't wait to wear them with my outfits aaaaa

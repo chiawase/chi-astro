@@ -19,6 +19,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/a38bd407a9.jpg
   width: 1800
   height: 2400
+source: microblog
 ---
 
 ![Chi looking at the camera and smiling while at her home workstation, consisting of two monitors mounted on monitor arms, an iPad propped up, and a Macbook Pro elevated with a laptop stand in the middle of her two monitors. On her desk is her split keyboard, her trackball mouse which Chi is holding, and a full deskmat. The chair Chi is sitting on is still a normal dining chair, not her computer chair. Her setup is facing the window, letting natural light in.](/uploads/2024/a38bd407a9.jpg)

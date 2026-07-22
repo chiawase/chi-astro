@@ -11,6 +11,7 @@ mastodon:
   id: 112284056638709189
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Tried out a 5-day meal plan for this week's food. I'm now on day 3.

@@ -11,6 +11,7 @@ mastodon:
   id: 113348272836380547
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 gutom lang siguro 'to

@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/24/i-ended-up.html
+source: microblog
 ---
 
 I ended up not writing about my day yesterday as I was too brain-empty to do the whole process of uploading photos to put in the post 😆 I'll just do it when I can hahaha

@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 600
   height: 599
 url: /2023/09/10/day-cycle-mbsept.html
+source: microblog
 ---
 
 how apt that this is today's prompt 💖 Here's me with my trifold brompnot during the Car-Free Morning at Ayal Ave. 😁

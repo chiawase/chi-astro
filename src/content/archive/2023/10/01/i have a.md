@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/01/i-have-a.html
+source: microblog
 ---
 
 I have a bike ride this morning and I wanna arrive on time. Not too early, but on time. If I leave now, I feel like I'll be... too early 😆

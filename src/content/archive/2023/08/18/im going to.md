@@ -16,6 +16,7 @@ mastodon:
 photos: 
 photos_with_metadata: 
 url: /2023/08/18/im-going-to.html
+source: microblog
 ---
 
 I’m going to be an ADPList #BeMore2023 attendee! Looking forward to this 24-hour festival of non-stop learning in groundbreaking design, product growth, AI, careers, & more! Let me know if you're attending too 😄

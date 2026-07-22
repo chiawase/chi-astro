@@ -38,6 +38,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/11/18/watched-my-shinee.html
+source: microblog
 ---
 
 While last minute, I watched the premiere showing of My SHINee World at SM Megamall. It was worth it 🥹🤧

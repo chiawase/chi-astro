@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/26/just-got-back.html
+source: microblog
 ---
 
 Just got back from Iloilo! I'm grateful I got to talk about the current PH transportation sector gaps based on my personal experience as a commuter (and bike commuter!) + shared the story of how Pinay Bike Commuter Community started 🥰 Thank you to Climate Reality Project PH!

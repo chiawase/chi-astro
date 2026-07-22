@@ -11,6 +11,7 @@ mastodon:
   id: 112182598709077148
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 General PSA: but I have been hibernating since maybe last week, and I don't know when I'll go back to regular posting or regularly being online

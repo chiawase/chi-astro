@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/06/i-need-to.html
+source: microblog
 ---
 
 I need to remind myself that I don't always have to have the final word in things. 😆 Personally I wish I could give acknowledgement to someone that I've read their messages.

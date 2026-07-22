@@ -13,6 +13,7 @@ mastodon:
   hostname: social.lol
 microblog: true
 url: /2023/07/14/another-day-of.html
+source: microblog
 ---
 
 another day of trying to wake myself up because it's yet another early start to my day 😪

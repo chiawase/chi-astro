@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/22/guh-its-hard.html
+source: microblog
 ---
 
 guh it's hard to make a presentation that's supposed to be inspiring and all when I'm being slowly eaten up by my lack of self-worth thoughts again

@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/22/seems-like-is.html
+source: microblog
 ---
 
 Seems like 2023 is the year of transitions.

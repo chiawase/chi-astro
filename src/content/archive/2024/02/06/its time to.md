@@ -11,6 +11,7 @@ mastodon:
   id: 111883961721297316
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 It's time to fly! First stop: Qatar for layover 😄

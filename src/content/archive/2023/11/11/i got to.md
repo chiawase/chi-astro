@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/11/11/i-got-to.html
+source: microblog
 ---
 
 I got to socialize a bit more today. 😊 It's funny that now, complaining about traffic is one of the things that people generally talk about where everyone has their own thoughts. I'm happy to participate to add the "sustainable mobility" aspect to the things people think about 😉

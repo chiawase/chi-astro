@@ -15,6 +15,7 @@ threads:
   id: 18025930223531416
   url: https://www.threads.net/@_chiawase/post/DC0apMcqnj4
   username: _chiawase
+source: microblog
 ---
 
 lol i saw a bug in Notion while trying to save a notion page as a bookmark 😆

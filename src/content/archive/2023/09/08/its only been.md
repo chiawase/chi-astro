@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/08/its-only-been.html
+source: microblog
 ---
 
 It's only been a few days since we finally got Figma access for our team at work and I feel so powerful. 2 deliverables I would've taken maybe more than a week to work on was now finished in 2 days 😂

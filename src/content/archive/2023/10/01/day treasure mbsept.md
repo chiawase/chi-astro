@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 600
   height: 600
 url: /2023/10/01/day-treasure-mbsept.html
+source: microblog
 ---
 
 i gave this some thought, and figured one of my treasures are my hands. They allow me to do so many things. 😌

@@ -15,6 +15,7 @@ threads:
   id: 17939295836958329
   url: https://www.threads.net/@_chiawase/post/DETlOVJt7MV
   username: _chiawase
+source: microblog
 ---
 
 Kinda surreal to see photos from 10 years ago... college was 10 years ago.

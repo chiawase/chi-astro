@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 600
   height: 450
 url: /2023/09/22/day-not-falling.html
+source: microblog
 ---
 
 These bikes are not falling. As they are propped up each other. 😆

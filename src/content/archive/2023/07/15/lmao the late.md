@@ -5,6 +5,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/15/lmao-the-late.html
+source: microblog
 ---
 
 lmao the late lunch / dinner I had with my mom, her friends, and her friend's daughter turned into an intervention for my mom to stop letting herself be used by my tita, my mom's older sister

@@ -10,7 +10,8 @@ date: 2024-04-11T18:27:25+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2024/screenshot-2024-04-11-182124.png
 photos: 
-photos_with_metadata: 
+photos_with_metadata:
+source: microblog
 ---
 
 gasp omg it _has_ been a while since I last explored Micro.blog stuff! Thread crossposting won't be hard anymore 😆

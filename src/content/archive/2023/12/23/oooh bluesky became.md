@@ -16,6 +16,7 @@ mastodon:
 photos: 
 photos_with_metadata: 
 url: /2023/12/23/oooh-bluesky-became.html
+source: microblog
 ---
 
 oooh, BlueSky became a butterfly 🦋 

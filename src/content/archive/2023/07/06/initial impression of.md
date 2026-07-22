@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/06/initial-impression-of.html
+source: microblog
 ---
 
 Initial impression of Threads:

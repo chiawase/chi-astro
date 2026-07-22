@@ -11,6 +11,7 @@ mastodon:
   id: 112706171338407402
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Despite feeling a bit out of it and kinda staying within my comfort zone, today was a good first full day at Singapore. 

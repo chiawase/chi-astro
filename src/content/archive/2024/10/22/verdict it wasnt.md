@@ -11,6 +11,7 @@ mastodon:
   id: 113348701566564535
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 verdict: it wasn't gutom

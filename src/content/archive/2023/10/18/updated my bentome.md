@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/18/updated-my-bentome.html
+source: microblog
 ---
 
 Updated my Bento.me profile again, this time updating some links listed here + updating my bio. I'm thinking I could add a bit more here, but I'll not pressure myself so I can still feel good every time I do update this 😅

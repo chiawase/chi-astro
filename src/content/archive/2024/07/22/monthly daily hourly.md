@@ -11,6 +11,7 @@ mastodon:
   id: 112830765216045638
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Monthly, daily, hourly reminder to self that I want to do so many things yet I am only me

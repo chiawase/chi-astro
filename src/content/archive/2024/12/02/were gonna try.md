@@ -15,6 +15,7 @@ threads:
   id: 17851219722346896
   url: https://www.threads.net/@_chiawase/post/DDEnd2hKYei
   username: _chiawase
+source: microblog
 ---
 
 we're gonna try cooking corned beef sinigang....... it sounds so weird to me but it has apparently been a thing since 7-9 years ago. 😆 Weirded out but it's sinigang so I am also excited 😄

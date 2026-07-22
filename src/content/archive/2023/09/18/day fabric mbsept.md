@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/18/day-fabric-mbsept.html
+source: microblog
 ---
 
 I know I already posted this outfit yesterday, but the prompt calls for fabric. So here it is. 😆

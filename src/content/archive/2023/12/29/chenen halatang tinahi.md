@@ -20,6 +20,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/12/29/chenen-halatang-tinahi.html
+source: microblog
 ---
 
 chenen! halatang tinahi, pero goal naman is mawala butas. solb 👍😂

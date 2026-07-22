@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/21/i-feel-pumped.html
+source: microblog
 ---
 
 I feel pumped up. I hope I get to finish this talk I'm putting together today. I think I have everything in my mind now; I just need to organize it into the form of a 30-40 minute presentation 😆

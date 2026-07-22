@@ -11,6 +11,7 @@ mastodon:
   id: 111697336536376666
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Made a [Stuff I Use](https://chisenires.design/stuff-i-use/) page to have all my listed referral links and other links to things I just use all on one page. I also have it on my [/now](https://chi.omg.lol/now) page, but now I might consider removing that section here and just periodically update the new page I made 😆

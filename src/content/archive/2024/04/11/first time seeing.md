@@ -11,6 +11,7 @@ mastodon:
   id: 112252073767297244
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 First time seeing Recommendations here in Micro.blog. Gonna read up more on it. I hope the people and accounts I do eventually add (?) wouldn't mind I link to them though 😆

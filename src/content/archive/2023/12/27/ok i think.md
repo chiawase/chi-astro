@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/27/ok-i-think.html
+source: microblog
 ---
 
 OK I think I spent enough time writing online. I need to prep so I can go out for the afternoon 😆

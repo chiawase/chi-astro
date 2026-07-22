@@ -11,6 +11,7 @@ mastodon:
   id: 113033370988216397
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Seems like there really are times where, no matter how much effort you put in, so long as it's not to "their" ""standards"" or in the way it's supposed to be indicated, people are unknowingly punished for their actions, even if you're performing well beyond what you need to do.

@@ -12,6 +12,7 @@ mastodon:
   id: 111872494633547028
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Also just playing 🎮 Like A Dragon: Infinite Wealth until my trip on Tuesday 😆 gotta progress the story as much as possible :))

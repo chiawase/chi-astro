@@ -11,6 +11,7 @@ mastodon:
   id: 112314920631118374
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 It's so hot. It's been so hot the past few **weeks**. 🥵😢 sigh huhu

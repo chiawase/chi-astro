@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/13/yesterday-was-a.html
+source: microblog
 ---
 
 yesterday was a daze

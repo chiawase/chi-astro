@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/07/i-won-over.html
+source: microblog
 ---
 
 I won over my laziness and cooked some rice. Also letting some tofu drain a bit with some paper towels as I wait for the rice to cook. Hooray, I'm using my grocery budget well! 🥲😌

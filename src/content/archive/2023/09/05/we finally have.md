@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/05/we-finally-have.html
+source: microblog
 ---
 
 We finally have **Figma** access for our team at work!!! 😭💖 Finally hahahuhuhu I can feel more at home in what I use for designing 🥲

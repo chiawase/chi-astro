@@ -11,6 +11,7 @@ mastodon:
   id: 111879459731883153
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Part of me wonders if I'm packing (really) light for my Austria-Berlin trip 😂  it's only 10 days. I'm thinking I just need enough clothes to make sure I don't freeze my ass over there (assuming I encounter snow or just the winter-but-almost-spring weather (?))

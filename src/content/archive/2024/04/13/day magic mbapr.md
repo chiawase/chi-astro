@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/202cde523a.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 Saw these cool shiny playing cards yesterday while at my friend's cafe and lounge.

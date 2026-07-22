@@ -23,6 +23,7 @@ threads:
   id: 17914934766018910
   url: https://www.threads.net/@_chiawase/post/DDE4W6itwFD
   username: _chiawase
+source: microblog
 ---
 
 Corned beef sinigang done! It tastes like sinigang, and the corned beef was yummy, added a subtle salty taste. My partner said we need to use 2 cans of corned beef next time so there's more of it haha (Yes, the kind for breakfast normally 😆) interesting meal hehe 10/10 would eat again

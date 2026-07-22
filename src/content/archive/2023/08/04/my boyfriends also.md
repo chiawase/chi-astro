@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/04/my-boyfriends-also.html
+source: microblog
 ---
 
 My boyfriend's also making me try 🎮 [Baldur's Gate 3](https://store.steampowered.com/app/1086940/Baldurs_Gate_3/). Assuming the download goes well tonight, we might try to play it tomorrow. I wonder what kind of character I'll be creating 🤔

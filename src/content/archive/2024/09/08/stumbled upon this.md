@@ -11,6 +11,7 @@ mastodon:
   id: 113100909775908959
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Stumbled upon this [interactive comic about Spaced Repetition](https://ncase.me/remember/) and it's super cool and informative! I'm also really happy to see someone set up an interactive comic, I've wanted to do something like this in the past too 😄 (I know I can do it too, but I'll need to fix my priorities first 😆)

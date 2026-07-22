@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/05/day-forest-mbsept.html
+source: microblog
 ---
 
 This was from first trip to Europe, back in 2022. We rented bikes and rode along the bike paths around Amsterdam to get around. 😊🚲

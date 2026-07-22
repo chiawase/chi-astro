@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/29/day-contrast-mbsept.html
+source: microblog
 ---
 
 I'm not that big of a fan of graffiti in general, but this was a striking wall. Felt compelled to take a photo. This photo has a lot of sections 😆

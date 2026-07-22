@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/26661cadaa.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 Took a photo of this mountain while riding a taxi with other tourists who were also figuring out how to get to Jioufen 😆 Taken last April 10, 2023!

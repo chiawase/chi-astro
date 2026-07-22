@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/20/holy-shit-it.html
+source: microblog
 ---
 
 holy shit it has been so **hot** the past few days 🫠

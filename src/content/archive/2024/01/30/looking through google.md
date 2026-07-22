@@ -12,6 +12,7 @@ mastodon:
   id: 111842314048164415
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Looking through Google Maps now to familiarize myself with my Europe trip next week. I've already gone to the Salzburg Hauptbahnhof before because I've ridden the train then to go to Berlin, but now I need to figure out my route from the hbf to my hotel in Salzburg. 😆

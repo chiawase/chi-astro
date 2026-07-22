@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/09/at-this-point.html
+source: microblog
 ---
 
 At this point I'm still happy of my decision to not continue to use Twitter.

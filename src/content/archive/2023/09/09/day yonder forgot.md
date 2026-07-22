@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/09/day-yonder-forgot.html
+source: microblog
 ---
 
 forgot to post yesterday!!! huhu i broke my streak 😆

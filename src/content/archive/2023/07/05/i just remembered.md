@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/05/i-just-remembered.html
+source: microblog
 ---
 
 I just remembered that I did have some blog posts posted back in 2021 that I could migrate here. Please excuse me as I share some old content. 😆

@@ -16,6 +16,7 @@ threads:
   url: https://www.threads.net/@_chiawase/post/DDVkgNKNM1I
   username: _chiawase
 thumbnail: https://s3.amazonaws.com/micro.blog/thumbnails/2024/12/09/chisenires.design/e5e82f44c8fd883e573ce1bd35ba6cfa.png
+source: microblog
 ---
 
 i'm so sleepy but i need to go to the office 😫 post trip exhaustion 😆😅

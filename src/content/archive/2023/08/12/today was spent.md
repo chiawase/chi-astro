@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/12/today-was-spent.html
+source: microblog
 ---
 
 Today was spent out all day with friends! We hosted another Women Who Code In The Dark event around Ortigas 😆 It was fun seeing friends again and attending (and organizing) an in-person event after so long.

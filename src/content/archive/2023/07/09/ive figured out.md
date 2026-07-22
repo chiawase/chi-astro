@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/09/ive-figured-out.html
+source: microblog
 ---
 
 I've figured out adding alt text to the images I upload to Micro.blog via [@gluon](https://micro.blog/gluon) now. 😆 Hooray!

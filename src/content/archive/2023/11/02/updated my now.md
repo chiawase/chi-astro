@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/11/02/updated-my-now.html
+source: microblog
 ---
 
 Updated my [now page](https://chi.omg.lol/now) again, and my goodness, I'm still reading a lot of manga and... watching a lot of anime 😆

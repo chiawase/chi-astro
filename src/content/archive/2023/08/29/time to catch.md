@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/29/time-to-catch.html
+source: microblog
 ---
 
 Time to catch up on work after being gone for a week. 😅

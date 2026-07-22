@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/14/day-statue-mbsept.html
+source: microblog
 ---
 
 Apparently there is another Hachiko statue in Chiang Mai, Thailand, in their very own Little Tokyo area!

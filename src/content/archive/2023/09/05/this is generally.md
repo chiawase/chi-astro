@@ -17,6 +17,7 @@ mastodon:
 photos: 
 photos_with_metadata: 
 url: /2023/09/05/this-is-generally.html
+source: microblog
 ---
 
 This is generally a summary of why I'm still focused on Yakuza: Like a Dragon 🎮 more now. I'm just taking my sweet time with all of the side quests and minigames. 😁

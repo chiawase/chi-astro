@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/06/hooray-my-unit.html
+source: microblog
 ---
 
 Hooray! My unit is now really clean again 😄 I really gotta keep up on my cleaning habits so my space continues to be liveable 🥲

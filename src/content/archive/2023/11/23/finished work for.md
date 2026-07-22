@@ -8,6 +8,7 @@ bluesky:
   did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
 date: 2023-11-23T18:10:36+0800
 url: /2023/11/23/finished-work-for.html
+source: microblog
 ---
 
 Finished work for the week. Starting tomorrow until next week, I'm on leave, but I still have a bunch of things to do.

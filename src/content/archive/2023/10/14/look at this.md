@@ -16,6 +16,7 @@ mastodon:
 photos: 
 photos_with_metadata: 
 url: /2023/10/14/look-at-this.html
+source: microblog
 ---
 
 Look at this. Ridiculous 😝

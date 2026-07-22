@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/09/i-could-honestly.html
+source: microblog
 ---
 
 I could honestly go back to my unit today instead of tomorrow. Chill chill lang kami ng parents ko now sa bahay eh. But I do need to go somewhere tomorrow within the city too... 🤔

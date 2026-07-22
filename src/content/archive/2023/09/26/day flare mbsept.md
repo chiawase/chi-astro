@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 600
   height: 600
 url: /2023/09/26/day-flare-mbsept.html
+source: microblog
 ---
 
 Flare... flame? Fire? 😆😅

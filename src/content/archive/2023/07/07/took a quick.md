@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/07/took-a-quick.html
+source: microblog
 ---
 
 Took a quick peek at [Sunlit](https://apps.apple.com/ph/app/sunlit/id1334727769) earlier. The photos-only feed looks interesting!

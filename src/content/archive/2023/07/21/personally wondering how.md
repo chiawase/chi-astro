@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/21/personally-wondering-how.html
+source: microblog
 ---
 
 Personally wondering how I would go about setting up a site that needs monetary donations to keep if up.

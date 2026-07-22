@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/24acadf501.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 This is the only photo I have with a cactus in it 😆 Tried an iced coffee drink in the local mall a while back. It was OK. Nothing much to say about it 😝

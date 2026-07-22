@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/04/sigh-here-i.html
+source: microblog
 ---
 
 Sigh, here I go again with food orders instead of cooking with the stuff I have in my fridge 😖 Still can't form the habit again huhu

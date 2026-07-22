@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/21/lmao-im-trying.html
+source: microblog
 ---
 
 lmao I'm trying to do my eTravel registration update since I'm flying out of the country tomorrow, yet whenever I try to update, the site just throws back a POST error. 🙃 lowrd Philippines pls fix your systems

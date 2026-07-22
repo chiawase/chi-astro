@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/22/what-are-the.html
+source: microblog
 ---
 
 what are the odds of me seeing another random dude have the same polo shirt design as my boyfriend's fave polos

@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/11/19/what-a-weird.html
+source: microblog
 ---
 
 what a weird dream.

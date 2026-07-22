@@ -7,6 +7,7 @@ bluesky:
   hostname: bsky.social
   did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
 date: 2024-04-11T18:32:12+0800
+source: microblog
 ---
 
 Dang, the accessibility description pop-up doesn't work on [Arc](https://arc.net) when making new posts via the Micro.blog website 😢 The page is just frozen until I change the tab.

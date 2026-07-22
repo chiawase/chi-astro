@@ -11,6 +11,7 @@ mastodon:
   id: 112175985749021563
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Finally have time to myself. I hope I actually get to do the cleaning I told everyone I was gonna do during this time. 😆

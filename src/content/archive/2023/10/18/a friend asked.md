@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/18/a-friend-asked.html
+source: microblog
 ---
 
 A friend asked me how I was and, after listing down all the things I know I've yet to do, like my presentation on smart and inclusive mobility that I have to present next week at a conference 😱 + visa application prep!!, I also wondered why I feel like... there's less structure in my days.

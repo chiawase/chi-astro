@@ -14,6 +14,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/24/currently-reading-influence.html
+source: microblog
 ---
 
 Currently reading: [Influence](https://micro.blog/books/9780061899874) by Robert B. Cialdini, PhD 📚

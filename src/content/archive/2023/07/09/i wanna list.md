@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/09/i-wanna-list.html
+source: microblog
 ---
 
 I wanna list all the manga I've been reading so far in Micro.blog via Epilogue but I read things by chapter, not volume 🥲 As for actual books... I've yet to really keep the habit 😅

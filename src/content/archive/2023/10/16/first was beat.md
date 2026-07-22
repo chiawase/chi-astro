@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/16/first-was-beat.html
+source: microblog
 ---
 
 first was 🎮 beat saber, then oh shape, and now synth riders. I am thoroughly enjoying getting custom songs to play on these vr rhythm games 😆

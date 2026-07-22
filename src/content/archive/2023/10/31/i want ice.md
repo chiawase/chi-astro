@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/31/i-want-ice.html
+source: microblog
 ---
 
 i want ice cream :c

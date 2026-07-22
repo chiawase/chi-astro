@@ -25,6 +25,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/28/look-what-finally.html
+source: microblog
 ---
 
 look what finally arrived! 😆 thanks for these stickers, [@jean](https://micro.blog/jean)! 😊

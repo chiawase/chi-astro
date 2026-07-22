@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/22/updated-my-now.html
+source: microblog
 ---
 
 Updated my [/now](https://chisenires.design/now) page again to include the games I'm currently playing 😁

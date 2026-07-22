@@ -11,6 +11,7 @@ mastodon:
   id: 111676026670668333
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Happy New Year!! 🎉🎊

@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/22/day-disruption-mbsept.html
+source: microblog
 ---
 
 Here's a photo of my dad messing with my grandma's cat, Oscar, who was chilling on the stairs. 😆

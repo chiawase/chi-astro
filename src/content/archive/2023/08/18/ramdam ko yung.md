@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/18/ramdam-ko-yung.html
+source: microblog
 ---
 
 ramdam ko yung dami ng nakasalalay sakin 🫠 i wish to eventually be rid of responsibilities at least for the day, later

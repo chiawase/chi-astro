@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/21/even-though-its.html
+source: microblog
 ---
 
 even though it's the holidays and it's time to rest I kinda can't wait for these next few days to be over 😴

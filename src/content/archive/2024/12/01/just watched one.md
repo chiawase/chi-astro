@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 thumbnail: https://s3.amazonaws.com/micro.blog/thumbnails/2024/12/01/chisenires.design/37527a64d7ca9cd0b9be6ac79ccd1eb7.png
+source: microblog
 ---
 
 Just watched One Piece Fan Letter 🥹🥹🥹 that was so gooood aaaaaaa huhu I loved all the references 😭😭😭

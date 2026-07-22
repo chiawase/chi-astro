@@ -21,6 +21,7 @@ photos_with_metadata:
   width: 1800
   height: 2400
 url: /2023/07/17/this-trifold-fancy.html
+source: microblog
 ---
 
 this trifold + fancy dcb attached bag is giving me the idea that I can just go trifold to all my lakads ah

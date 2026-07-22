@@ -11,6 +11,7 @@ mastodon:
   id: 111843566544668995
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I kept using the word "maleta" that I forgot what the English word for it was 💀 it's suitcase! 😆

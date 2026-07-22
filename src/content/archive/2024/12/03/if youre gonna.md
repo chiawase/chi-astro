@@ -15,6 +15,7 @@ threads:
   id: 18073277560618437
   url: https://www.threads.net/@_chiawase/post/DDHKSXMqr0n
   username: _chiawase
+source: microblog
 ---
 
 If you're gonna set a meeting with me at least read the availability times I indicated 🙃 What was the point of asking if you weren't going to check those anyway? 🫠

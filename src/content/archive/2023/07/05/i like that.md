@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/05/i-like-that.html
+source: microblog
 ---
 
 I like that you can only edit replies in micro.blog after 24 hours. That makes the most sense for me in the conversation context. If you did want to correct yourself, then you could append it with another reply. But it wouldn't erase what you said initially.

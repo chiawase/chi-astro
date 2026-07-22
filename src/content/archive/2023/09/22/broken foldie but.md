@@ -26,6 +26,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2023/d80ce57bdc.jpg
 - url: https://cdn.uploads.micro.blog/113466/2023/04ec152629.jpg
 url: /2023/09/22/broken-foldie-but.html
+source: microblog
 ---
 
 I wanted to super celebrate World Car-Free Day today by doing my bike commutes to and from work, as usual. Even with the looming smog that was covering Metro Manila, which initially was suspected to be from the Taal Volcano down south but [apparently is most likely from motor vehicle emissions](https://newsinfo.inquirer.net/1835387/smog-in-metro-manila-not-from-taal-phivolcs-denr), I wanted to still keep up the notion that biking is and should be something more people do.

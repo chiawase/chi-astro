@@ -12,6 +12,7 @@ mastodon:
   id: 111684427256422479
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 🔗 [That Numbness You’re Feeling? There’s a Word for It. || Adam Grant @ The New York Times](https://www.nytimes.com/2024/01/01/opinion/israel-war-empathy-pain.html)

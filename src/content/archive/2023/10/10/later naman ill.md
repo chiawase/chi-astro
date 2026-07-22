@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/10/later-naman-ill.html
+source: microblog
 ---
 
 later naman i'll go out so maybe that'll give me a change of pace

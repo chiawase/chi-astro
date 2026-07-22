@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/04/ok-before-i.html
+source: microblog
 ---
 
 OK, before I sleep: can confirm, trying to sign in the iOS app for micro.blog via the link sent thru email just opens a blank page and does nothing in the app itself 🥲 [@help](https://micro.blog/help)? 😅

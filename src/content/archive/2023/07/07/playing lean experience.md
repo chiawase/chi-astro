@@ -30,6 +30,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2023/img-2176.jpeg
 - url: https://cdn.uploads.micro.blog/113466/2023/img-2178.jpeg
 url: /2023/07/07/playing-lean-experience.html
+source: microblog
 ---
 
 A few weeks ago, I played this board game with my Scrum team. It's called [**Playing Lean 2**](https://www.playinglean.com/), and it was apparently [a Kickstarter project](https://www.kickstarter.com/projects/simenfur/playing-lean-2-the-next-release)!

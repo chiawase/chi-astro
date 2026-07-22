@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/23/today-was-an.html
+source: microblog
 ---
 
 Today was an eventful day! I wanna write about it in a long-form blog. But for now, maybe deal with some thoughts and emotions first. 😆😅

@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/16/happy-to-see.html
+source: microblog
 ---
 
 Happy to see an article covering the experiences of pinay bike commuters 🥰

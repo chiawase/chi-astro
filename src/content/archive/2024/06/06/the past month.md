@@ -11,6 +11,7 @@ mastodon:
   id: 112564894764968361
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 The past month or so has been super hectic! But part of getting back to routine (for me) is also posting on this side of the internet, hence why I'm here again! 😆

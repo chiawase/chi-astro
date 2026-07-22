@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/10/day-language-mbsept.html
+source: microblog
 ---
 
 I took this photo while I was reloading my easycard in Taiwan. I found it amusing that they had a Tagalog translation 😄

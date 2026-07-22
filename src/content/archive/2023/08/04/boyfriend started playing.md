@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/04/boyfriend-started-playing.html
+source: microblog
 ---
 
 Boyfriend started playing the free trial for 🎮 FFXIV. 😄 So now I resubbed and have an alt in the EU server. 😆

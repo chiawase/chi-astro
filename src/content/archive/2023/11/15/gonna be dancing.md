@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/11/15/gonna-be-dancing.html
+source: microblog
 ---
 
 gonna be dancing again for a Year End Party 😆 ah, the quirks of being a new hire 😂

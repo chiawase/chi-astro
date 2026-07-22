@@ -20,6 +20,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/12/29/habang-technically-away.html
+source: microblog
 ---
 
 habang technically away from PC ako, pansasamantalahin ko na oras at itatahi ko yung mga butas ng mga pambahay ko (kahit di ganun kaganda) 😆🪡

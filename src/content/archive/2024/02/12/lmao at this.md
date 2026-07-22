@@ -19,6 +19,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/4e6d1a8a80.jpg
   width: 838
   height: 729
+source: microblog
 ---
 
 lmao at this ""not mandatory"" checkbox for marketing opt-in 😂😂 what can I expect, I'm trying to get free WiFi lol

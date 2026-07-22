@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/04/it-feels-refreshing.html
+source: microblog
 ---
 
 It feels refreshing to feel like I'm living again. ☺️

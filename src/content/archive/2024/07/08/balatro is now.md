@@ -12,6 +12,7 @@ mastodon:
   id: 112750847789500536
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 [Balatro](https://store.steampowered.com/app/2379780/Balatro/) is now my latest obsession. 🎮

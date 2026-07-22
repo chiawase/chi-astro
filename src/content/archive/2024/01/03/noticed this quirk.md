@@ -12,6 +12,7 @@ mastodon:
   id: 111690668856937981
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Noticed this quirk while adding documentation in Figma prototypes, sharing for visibility to others 😅

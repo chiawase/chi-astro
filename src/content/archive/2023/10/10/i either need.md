@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/10/i-either-need.html
+source: microblog
 ---
 
 I either need to talk to someone again today or... really just focus on a particular task without any interruptions.

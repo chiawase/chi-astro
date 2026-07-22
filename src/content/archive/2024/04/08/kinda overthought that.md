@@ -12,6 +12,7 @@ mastodon:
   id: 112235748579333866
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Kinda overthought that Day 7 prompt. I just used it as an excuse to show that amusing photo of me 😆

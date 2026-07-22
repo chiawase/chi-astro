@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/23/wow-september-really.html
+source: microblog
 ---
 
 wow, september really just passed by. Can't believe we're almost nearing the end of the month now 🙈

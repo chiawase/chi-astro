@@ -25,6 +25,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/13e13f8b19.jpg
   width: 1800
   height: 2400
+source: microblog
 ---
 
 First full day in Austria 🇦🇹!

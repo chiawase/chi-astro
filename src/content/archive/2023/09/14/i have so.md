@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/14/i-have-so.html
+source: microblog
 ---
 
 I have so many things happening every weekend, I wanna write about them all, but I guess I feel too conscious sometimes to just write whatever and then post it.

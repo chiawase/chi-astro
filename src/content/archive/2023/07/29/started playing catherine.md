@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/29/started-playing-catherine.html
+source: microblog
 ---
 
 Started playing 🎮 [Catherine Classic](https://store.steampowered.com/app/893180/Catherine_Classic/) and... so far it seems like a simple game, despite everything else. 😆 I fully see all the remnants of Persona in this 😝 It gets challenging after a while.

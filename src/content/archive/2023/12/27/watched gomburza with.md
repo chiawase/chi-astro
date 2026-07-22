@@ -21,6 +21,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/12/27/watched-gomburza-with.html
+source: microblog
 ---
 
 Watched [GomBurZa](https://jescom.ph/gomburzafilm/) with Karen today! Super on a whim, nasa Megamall na ako and was telling her "oh just lmk if u wanna hang" tapos nung sinabi niya yung movie I'm just like, "g" 😂

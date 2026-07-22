@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/01/the-realization-that.html
+source: microblog
 ---
 
 The realization that there really were a lot of red flags in the past, I was just either too lenient on considering them, or was still in denial of all the things that were happening 🫠

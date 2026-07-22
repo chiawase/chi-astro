@@ -11,6 +11,7 @@ mastodon:
   id: 113073326730038784
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 As much as I wanna capitalize on sharing my writings everywhere (I just shared [this post](https://chisenires.design/2024/09/03/reflections-and-thoughts.html) on Threads too), I still feel like sharing my blog posts on LinkedIn would seem out-of-place, even despite the numerous bullshittery I see there from people who _are_ capitalizing on the reach you can get there 😆

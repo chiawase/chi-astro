@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/22/so-happy-that.html
+source: microblog
 ---
 
 So happy that my boyfriend caught up to Jujutsu Kaisen. We're now watching the latest season together 😁

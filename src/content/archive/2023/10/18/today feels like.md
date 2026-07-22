@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/18/today-feels-like.html
+source: microblog
 ---
 
 Today feels like a holiday at work, but only because probably half of the company is at Enchanted Kingdom celebrating with family and friends because of our 10th Year Anniversary 😆

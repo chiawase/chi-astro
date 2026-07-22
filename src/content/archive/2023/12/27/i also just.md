@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/27/i-also-just.html
+source: microblog
 ---
 
 I also just wanted to share this neat game I saw on Game Pass, and then eventually was gifted to on Steam: [Venba](https://store.steampowered.com/app/1491670/Venba/)! 🎮

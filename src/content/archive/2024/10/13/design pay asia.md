@@ -11,6 +11,7 @@ mastodon:
   id: 113298084851564002
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Design Pay Asia has opened up this year's Design Pay Asia salary and report survey [(link here)](https://tally.so/r/3EDeGX??), and I do hope we get more representation in the survey in other Southeast Asian countries so we can get a better overview of the design landscape in the ASEAN region 😁 The form closes on November 3 to make it in time for the end of the year (most likely to analyze and prepare the report)!

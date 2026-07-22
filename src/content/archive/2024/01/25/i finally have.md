@@ -11,6 +11,7 @@ mastodon:
   id: 111813926152506532
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I finally have a few books I'm eyeing to buy again. But this time I'm thinking of just getting ebooks... As much as I would like a physical representation of the few books I have, part of me wonders how I'll go about bringing them around 🥲

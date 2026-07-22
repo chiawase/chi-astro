@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/27/newfound-appreciation-for.html
+source: microblog
 ---
 
 Newfound appreciation for translating Markdown when posting. IDs are automatically made from the text in headings after the hash. 😁

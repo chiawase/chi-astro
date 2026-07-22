@@ -11,6 +11,7 @@ mastodon:
   id: 111886757038892584
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 seems amusing that while in Qatar airport's free wifi, I can't seem to connect to:

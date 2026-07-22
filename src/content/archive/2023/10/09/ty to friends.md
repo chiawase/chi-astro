@@ -26,6 +26,7 @@ photos_with_metadata:
   width: 480
   height: 600
 url: /2023/10/09/ty-to-friends.html
+source: microblog
 ---
 
 ty to friends who give me more photos of me and my folding bike together in my usual #ootd hehe 😌🫶

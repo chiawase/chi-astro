@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 337
   height: 600
 url: /2023/09/17/day-oof-mbsept.html
+source: microblog
 ---
 
 This is a ramp at the mall near my place. It has been "under maintenance" for like 2 months already, with no visible damage.

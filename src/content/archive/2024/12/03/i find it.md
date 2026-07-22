@@ -15,6 +15,7 @@ threads:
   id: 18039043877031740
   url: https://www.threads.net/@_chiawase/post/DDGt2j4qKnc
   username: _chiawase
+source: microblog
 ---
 
 I find it funny that anything discussed outside of sync calls are referred to as "discussed offline"... when we still do all our discussions on MS Teams or somewhere online anyway 😆

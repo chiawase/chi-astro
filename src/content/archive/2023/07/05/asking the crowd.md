@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/05/asking-the-crowd.html
+source: microblog
 ---
 
 Alt text question for iOS / mobile micro.blog posters: other than the website, are there other apps that allow you to add alt text before you (cross)post an image? I tested it a bit with the micro.blog iOS app and [@gluon](https://micro.blog/gluon), but both don't seem to let me add them when I tap the image; instead, it removes (?) the image I just uploaded or asks if I want to make the image inline my post instead 😅

@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/11/04/i-think-i.html
+source: microblog
 ---
 
 I think I should be fine now, after drinking all my meds for the week? 🤔 hopefully i get to eat some stuff sa family buffet thing I have this weekend 😆

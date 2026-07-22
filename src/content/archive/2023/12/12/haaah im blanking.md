@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/12/haaah-im-blanking.html
+source: microblog
 ---
 
 haaah, i'm blanking out again, brain does not want to brain rn

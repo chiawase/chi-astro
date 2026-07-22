@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/22/today-is-the.html
+source: microblog
 ---
 
 Today is the day of my flight woohoo ✈️

@@ -11,6 +11,7 @@ mastodon:
   id: 111693098155598363
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 homg it is 1AM i need to sleep XD

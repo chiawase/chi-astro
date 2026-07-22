@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/23/omaygad-my-feet.html
+source: microblog
 ---
 
 omaygad my feet hurt 😆 i need better shoes

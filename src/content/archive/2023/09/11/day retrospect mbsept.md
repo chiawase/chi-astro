@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/11/day-retrospect-mbsept.html
+source: microblog
 ---
 
 This was the digital screen interface at the Ayala Museum when I visited a few months ago. Nice to see a copy of their recorded music preserved in the museum 😊

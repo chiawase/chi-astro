@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/27/every-time-i.html
+source: microblog
 ---
 
 Every time I see posts from friends who share their milestones online & see lots of people commenting "congrats girl!!" "we're so proud of you!" and other positive messages, part of me feels a bit envious that they are more vocal in sharing support.

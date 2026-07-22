@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/861eebef01.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 Took a photo of this page spread from a book I was reading while going around Taiwan back in April 2023. I just thought it was intriguing.

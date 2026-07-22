@@ -11,6 +11,7 @@ mastodon:
   id: 111702123227234472
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I really want a new profile picture. But I'm too lazy lately to just fix myself up and make a new one.

@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/22/in-other-news.html
+source: microblog
 ---
 
 In other news: I finished playing 🎮 Yakuza: Like a Dragon last night, like at around 1:40AM with how long the end cutscene was 😂

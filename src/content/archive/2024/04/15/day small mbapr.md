@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/bb6ce4bf0b.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 > "Many small people who in many small places do many small things that can alter the face of the world." <cite>(African Wisdom / Afrikanische Weisheit)</cite>

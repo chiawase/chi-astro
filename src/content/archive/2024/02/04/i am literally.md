@@ -19,6 +19,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/90120d6460.jpg
   width: 1170
   height: 1734
+source: microblog
 ---
 
 I am literally just looping through 6 songs right now

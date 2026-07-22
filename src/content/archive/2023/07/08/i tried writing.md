@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/08/i-tried-writing.html
+source: microblog
 ---
 
 I tried writing a longer post, but it turned out way too long for the text editor on mobile 😆😅 I got to around 2000 characters when I couldn't scroll down in [@gluon](https://micro.blog/gluon) to see the rest of what I wrote, [the same issue I encountered with the Micro.blog companion app](https://help.micro.blog/t/cant-scroll-when-creating-a-longer-post-in-micro-blog-ios-app/1948).

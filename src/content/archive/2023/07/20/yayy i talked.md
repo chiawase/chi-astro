@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/20/yayy-i-talked.html
+source: microblog
 ---
 
 Yayy! I talked about Micro.blog to [@julesb](https://micro.blog/julesb) and they joined just recently 😄 Hooray for bringing more friends in this space 😁

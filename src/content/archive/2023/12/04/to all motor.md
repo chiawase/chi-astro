@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/04/to-all-motor.html
+source: microblog
 ---
 
 To all motor vehicle drivers this holiday rush (or any day for that matter), please learn to slow down and be careful.

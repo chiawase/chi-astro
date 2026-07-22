@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/28/day-workout-mbsept.html
+source: microblog
 ---
 
 this was a rowing machine at the Manila Boat Club that I got to try! They recommend you practice here first before trying to row in a canoe along Pasig River 😁 I got some assumptions on rowing debunked as I used this 😆

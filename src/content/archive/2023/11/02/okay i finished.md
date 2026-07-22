@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/11/02/okay-i-finished.html
+source: microblog
 ---
 
 okay I finished paying some bills again, time to make full use of the holiday and not think about things for a while ;;

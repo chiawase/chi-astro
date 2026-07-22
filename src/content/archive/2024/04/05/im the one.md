@@ -12,6 +12,7 @@ mastodon:
   id: 112217030080353526
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I'm the one that suggested the prompt for today's @challenge but it'll take me a bit to look for an image for this 😆😆

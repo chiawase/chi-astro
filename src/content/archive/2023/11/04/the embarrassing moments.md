@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/11/04/the-embarrassing-moments.html
+source: microblog
 ---
 
 the embarrassing moments are flashing back in my head and are having a presentation it seems

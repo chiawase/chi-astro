@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/21/grabe-naman-jump.html
+source: microblog
 ---
 
 grabe naman jump ng cinema prices here

@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/04/august-was-a.html
+source: microblog
 ---
 
 August was a whirlwind for stuff that happened. Starting September so far in a very chill and calm manner.

@@ -21,6 +21,7 @@ photos_with_metadata:
   width: 1800
   height: 1800
 url: /2023/07/10/one-less-car.html
+source: microblog
 ---
 
 One less car. 🫡

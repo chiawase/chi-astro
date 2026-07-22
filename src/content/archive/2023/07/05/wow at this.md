@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/05/wow-at-this.html
+source: microblog
 ---
 
 wow at this point, I might make a list of the (micro?)blogs or sites I find super cool 😆 I've already discovered 2 setups that I super resonate with and want to emulate with my own. I just need the time.

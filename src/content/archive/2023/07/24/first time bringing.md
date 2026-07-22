@@ -26,6 +26,7 @@ photos_with_metadata:
   width: 1800
   height: 1350
 url: /2023/07/24/first-time-bringing.html
+source: microblog
 ---
 
 First time bringing my trifold bike to the office. It fits nicely under the table, if I don't have my bag attached to it 😆

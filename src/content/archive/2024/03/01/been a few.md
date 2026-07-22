@@ -12,6 +12,7 @@ mastodon:
   id: 112019560850665509
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Been a few days since I set up my Obsidian again. 😆 Let's see if I can (1) keep up with this, and (2) if I can figure out the Micro.blog integration with it. :))

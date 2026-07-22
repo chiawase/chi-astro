@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/02/broke-my-posting.html
+source: microblog
 ---
 
 Broke my posting streak yesterday because of personal stuff. And the days are going to be really busy.

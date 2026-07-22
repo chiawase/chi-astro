@@ -26,6 +26,7 @@ photos_with_metadata:
   width: 1800
   height: 2400
 url: /2023/08/23/good-morning.html
+source: microblog
 ---
 
 Good morning! 🌞

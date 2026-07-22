@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/11/i-am-excited.html
+source: microblog
 ---
 
 I am excited for the coming week 🥰

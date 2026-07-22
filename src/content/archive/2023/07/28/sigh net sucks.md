@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/28/sigh-net-sucks.html
+source: microblog
 ---
 
 sigh... net sucks again. Most likely because of the rains, but also lately it really has been getting worse.

@@ -11,6 +11,7 @@ mastodon:
   id: 112292928495865182
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 goddamn it i'm hungry again but it's almost 12am 😩

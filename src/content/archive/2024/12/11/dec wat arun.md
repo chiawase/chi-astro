@@ -27,6 +27,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/1cdd303352.jpg
   width: 600
   height: 600
+source: microblog
 ---
 
 Dec 5, 2024 • Wat Arun Temple

@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/29/ok-i-am.html
+source: microblog
 ---
 
 ok I am ready to go out and bike, there are no clouds in sight, it's a hot day but i will just manage and do my best before my dinner with friends laterrr

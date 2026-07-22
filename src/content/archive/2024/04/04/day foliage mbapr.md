@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/07413e751d.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 Took a photo of this cat with one of its legs not tucked under while I was at the Houtong Cat Village last year.

@@ -13,6 +13,7 @@ mastodon:
   hostname: social.lol
 microblog: true
 url: /2023/07/14/i-just-wanna.html
+source: microblog
 ---
 
 I just wanna have enough time to blog or write shit down, but these past few days got me busy and having me do anything but those 😭

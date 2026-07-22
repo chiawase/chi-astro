@@ -14,6 +14,7 @@ mastodon:
   hostname: social.lol
 microblog: true
 url: /2023/07/26/a-random-discussion.html
+source: microblog
 ---
 
 A random discussion with a friend on what lunch they're getting today turned out into an impromptu hangout to eat lunch together then stay at a cafe somewhere to co-work 😆

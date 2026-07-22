@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/11/13/im-trying-to.html
+source: microblog
 ---
 
 I'm trying to compile a list of things I would want to make up some kinda wishlist... but right now, other than games, and maybe just... general funds to survive day-to-day maybe?? I don't really want any (material or digital) thing at the moment. 😅

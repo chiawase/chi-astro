@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/154b5aae6b.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 Hmm, train. Train... station? 😁

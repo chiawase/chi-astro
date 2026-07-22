@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/14/omg-yay-my.html
+source: microblog
 ---
 
 omg yay my prompt is next for tomorrow 😁

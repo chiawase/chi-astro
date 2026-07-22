@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/07/going-to-bring.html
+source: microblog
 ---
 
 Going to bring my iPad to my parent's home and maybe try to set up my blogging / posting setup there, if apps allow it. If not, there's always the browser. 😁

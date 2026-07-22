@@ -5,6 +5,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/04/been-a-few.html
+source: microblog
 ---
 
 Been a few months since I went on micro.blog. I'm still wondering what setup I should have when writing long-form posts here.

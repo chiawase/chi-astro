@@ -13,6 +13,7 @@ mastodon:
   hostname: social.lol
 microblog: true
 url: /2023/07/25/ill-be-using.html
+source: microblog
 ---
 
 I'll be using [my Mastodon](https://social.lol/@chi) more as a dump for unfiltered thoughts. I can put content warnings there, and unlist some posts/toots.

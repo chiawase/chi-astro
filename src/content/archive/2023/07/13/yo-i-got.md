@@ -13,6 +13,7 @@ mastodon:
   hostname: social.lol
 microblog: true
 url: /2023/07/13/yo-i-got.html
+source: microblog
 ---
 
 yo I got to the office before 8am for this training... where are the people 😠

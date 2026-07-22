@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/04/i-want-to.html
+source: microblog
 ---
 
 I want to eventually figure out how Categories work in micro.blog. I already have so many ideas. 😆

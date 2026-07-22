@@ -16,6 +16,7 @@ threads:
   id: 17873263041162076
   url: https://www.threads.net/@_chiawase/post/DEJKDhLKnX-
   username: _chiawase
+source: microblog
 ---
 
 [Fields of Mistria](https://store.steampowered.com/app/2142790/Fields_of_Mistria/) has been a blast so far, I love the fact that it's more forgiving in terms of combat or gathering stuff. All the characters are lovely, even the snarky ones, and there's so much to do. 😆

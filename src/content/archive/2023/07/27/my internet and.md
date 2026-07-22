@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/27/my-internet-and.html
+source: microblog
 ---
 
 My internet and Adobe Xd keeps testing my patience today... 😤

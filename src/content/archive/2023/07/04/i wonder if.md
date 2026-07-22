@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/04/i-wonder-if.html
+source: microblog
 ---
 
 I wonder if there's also a concept of "threads" here once you've posted one thing?

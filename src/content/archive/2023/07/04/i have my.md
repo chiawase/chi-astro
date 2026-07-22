@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/04/i-have-my.html
+source: microblog
 ---
 
 I have my eyes on a specific trifold folding bike... but I need to sell my current duofold Bickerton folding bike first. 😆 As a fellow cyclist friend said, "unload to reload" hahaha

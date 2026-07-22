@@ -26,6 +26,7 @@ photos_with_metadata:
   width: 1800
   height: 2400
 url: /2023/07/17/my-hair-did.html
+source: microblog
 ---
 
 my hair did not dry properly. 😆

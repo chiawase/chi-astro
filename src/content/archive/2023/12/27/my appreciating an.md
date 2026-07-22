@@ -15,6 +15,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/27/my-appreciating-an.html
+source: microblog
 ---
 
 2023 was an eventful year for me. There were a lot of ups and downs. Before the year comes to a close, I just want to reflect on everything I've done so far and appreciate where I am now.

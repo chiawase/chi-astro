@@ -11,6 +11,7 @@ mastodon:
   id: 111684467016746392
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I aim to get back into the groove in the coming days. Just do things and deal with things as they come.

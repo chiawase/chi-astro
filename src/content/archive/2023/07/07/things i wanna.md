@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/07/things-i-wanna.html
+source: microblog
 ---
 
 Things I wanna do soon, in no particular order:

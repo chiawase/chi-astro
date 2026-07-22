@@ -32,6 +32,7 @@ photos_with_metadata:
   width: 1002
   height: 1002
 url: /2023/07/13/rainy-bike-to.html
+source: microblog
 ---
 
 rainy bike to work 🌧️🚲

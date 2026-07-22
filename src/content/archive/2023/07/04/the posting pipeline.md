@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/04/the-posting-pipeline.html
+source: microblog
 ---
 
 The posting pipeline for me now is:

@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/18/day-intense-mbsept.html
+source: microblog
 ---
 
 yep, that's 4 different kinds of drinks. 😅 there was a time I had no problems doing this one time. But now, I will pass. lolz

@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/28/day-embrace-mbsept.html
+source: microblog
 ---
 
 this took me a while to choose which photo of me and my boyfriend I'll post for the prompt that I almost missed it 😆 Making a mental note to try and have not just selfies as photos together 😝

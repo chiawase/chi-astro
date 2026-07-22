@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/18/ayoko-na-aaaaaaaaa.html
+source: microblog
 ---
 
 ayoko na aaaaaaaaa ang daming need tapusin ng Friday huhuhu 🙈 Last hurrah talaga before my week-long leave (na technically I'm also kinda "working" rin XD) 🫠

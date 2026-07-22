@@ -20,6 +20,7 @@ photos_with_metadata:
   width: 1800
   height: 3200
 url: /2023/07/09/view-this-morning.html
+source: microblog
 ---
 
 view this morning, bisita moment

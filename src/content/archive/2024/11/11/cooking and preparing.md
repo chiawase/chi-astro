@@ -20,6 +20,7 @@ photos:
   - https://cdn.uploads.micro.blog/113466/2024/photo-2024-11-11-23-28-47.jpg
 photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/photo-2024-11-11-23-28-47.jpg
+source: microblog
 ---
 <!-- markdownlint-disable MD013 -->
 My partner and I recently cooked a lot of food this weekend, and it got me to appreciate food and the ingredients that make sup the dishes we prepared. And I say this for both a dish I really loved as I grew up (sinigang) and another dish that I only recently started liking (curry rice). For this post I wanted to talk more about how cooking sinigang got me to appreciate it more as one of my favorite Filipino dishes.

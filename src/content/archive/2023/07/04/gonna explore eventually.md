@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/04/gonna-explore-eventually.html
+source: microblog
 ---
 
 Gonna explore eventually making public, online lists of the things I like.

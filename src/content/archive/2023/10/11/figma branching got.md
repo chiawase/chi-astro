@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/11/figma-branching-got.html
+source: microblog
 ---
 
 Figma branching got me scratching my head sometimes 😅 seems like there's still more ways to improve with this feature :))

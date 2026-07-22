@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/14/day-panic-mbsept.html
+source: microblog
 ---
 
 Taken while eating breakfast at a hospital a month ago. This was a woozy day.

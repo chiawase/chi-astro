@@ -12,6 +12,7 @@ mastodon:
   id: 112210230524306868
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Just tried out [FitXR](https://fitxr.com), and I'm thinking after the first 2 classes I did (sculpt & HIIT), I'll do this as part of my workout routine for the month of April 😁💪🏻

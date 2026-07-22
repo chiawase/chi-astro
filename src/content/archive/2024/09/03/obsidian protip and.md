@@ -12,6 +12,7 @@ mastodon:
   id: 113070672384593625
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Obsidian pro-tip (and note to self): when embedding blocks from other notes, make sure there is an empty line before AND after your block notation.

@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/07/booking-a-motor.html
+source: microblog
 ---
 
 Booking a motor taxi is taking longer than expected. Biking would just take me 40 minutes to an hour. Plus, it doesn't cost money. 😛 

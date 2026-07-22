@@ -20,6 +20,7 @@ threads:
   id: 18083681584527870
   url: https://www.threads.net/@_chiawase/post/DDmWHHHKK9O
   username: _chiawase
+source: microblog
 ---
 
 Weee you can ride a bicycle in-game in [Infinity Nikki](https://infinitynikki.infoldgames.com) 😁🚲

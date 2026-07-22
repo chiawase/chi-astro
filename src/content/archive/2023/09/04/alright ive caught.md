@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/04/alright-ive-caught.html
+source: microblog
 ---
 
 Alright, I've caught up to the photoblogging challenge 😁 back to my gaming. 🎮 Yakuza: Like a Dragon time 😎

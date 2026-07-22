@@ -12,6 +12,7 @@ mastodon:
   id: 112227781248089446
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Now a bit challenged for Day 7's prompt. Gets me into thinking :))) I know I don't have to think too much about it, but I want to at least have a bit of a memory attached to the photos I share 😆

@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/30/are-there-any.html
+source: microblog
 ---
 
 Are there any Helluva Boss fans around here huhu please I just wanna share in the amazement of Fizz knowing sign language and talking to one of his deaf fans during their meet & greet 🥹

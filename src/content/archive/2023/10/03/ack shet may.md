@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/03/ack-shet-may.html
+source: microblog
 ---
 
 ack shet may sipon ako hahaha 🤧 pero di pa nagmamanifest fully so it's in its awkward state of there and not there 🫠

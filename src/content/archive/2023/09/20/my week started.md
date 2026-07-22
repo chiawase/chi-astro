@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/20/my-week-started.html
+source: microblog
 ---
 
 my week started with a bad case of impostor syndrome, but now I am recuperating.

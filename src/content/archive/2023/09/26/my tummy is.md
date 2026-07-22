@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/26/my-tummy-is.html
+source: microblog
 ---
 
 my tummy is being weird again this morning sobs tapos i woke up with a migraine pa reeeee let us get through this day 😤

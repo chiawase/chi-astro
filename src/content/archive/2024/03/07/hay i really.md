@@ -12,6 +12,7 @@ mastodon:
   id: 112051352396430340
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Hay, I really should have bought the Meta Rayban Smart Glasses when I saw them in Austria. I just want a stylish way to record quick clips of things I see (mostly for my bike commute) and also get the bonus of not having to wear headphones if I need to listen to music or talk to someone while out.

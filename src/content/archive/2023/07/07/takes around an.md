@@ -26,6 +26,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/07/07/takes-around-an.html
+source: microblog
 ---
 
 takes around an hour pa rin umuwi, more or less. Weight training ulit because of my bag 😆 Brought my laptop and iPad so I could work on stuff while at home~

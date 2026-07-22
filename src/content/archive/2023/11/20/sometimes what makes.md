@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/11/20/sometimes-what-makes.html
+source: microblog
 ---
 
 sometimes what makes me more exhausted is my outlook on things talaga.

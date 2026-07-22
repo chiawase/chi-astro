@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/11/21/started-my-busuu.html
+source: microblog
 ---
 
 Started my [Busuu Premium](https://app.busuu.com/RGc9WdhAGQWt7gzX8) again, for a year. Mostly on a whim, but also to maybe just have another thing I'm doing during my time that can build up as I go along?

@@ -12,6 +12,7 @@ photos:
 photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2023/3f4aecc753.jpg
 url: /2023/08/07/lakad-tao-mode.html
+source: microblog
 ---
 
 lakad + tao mode today because I hauled a box of empty glass bottles from our house this morning to work for our office's donation drive. I couldn't figure out yet how I'd bring both my foldie and the box of bottles by myself 🫠 so I was at the mercy of traffic and rain today.

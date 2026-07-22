@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/04/day-buildup-mbsept.html
+source: microblog
 ---
 
 ![The view underneath the roof of the McDonald’s branch Chi was eating breakfast at. There are a lot of corners on the roof, somewhat akin to a lightning bolt shape. Also seen in view are some above-ground electric lines, and further in the distance are some high-rise condominium buildings.](/uploads/2023/e1dc274db5b34720b36b7fb1ea365f56.jpg)

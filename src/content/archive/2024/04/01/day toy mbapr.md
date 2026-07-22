@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/2771cf4885.jpg
   width: 600
   height: 450
+source: microblog
 ---
 
 Sharing this 3d-printed neko atsume style cat printed by my boyfriend, and colored in (with markers) by me 😁

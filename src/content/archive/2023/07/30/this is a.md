@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/30/this-is-a.html
+source: microblog
 ---
 
 This is a lazy weekend.

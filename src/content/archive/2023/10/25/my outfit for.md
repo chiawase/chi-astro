@@ -21,6 +21,7 @@ photos_with_metadata:
   width: 267
   height: 600
 url: /2023/10/25/my-outfit-for.html
+source: microblog
 ---
 
 my outfit for today! I need to get another cardigan type and maybe white sneakers so I can rotate around outfit pieces more 😆

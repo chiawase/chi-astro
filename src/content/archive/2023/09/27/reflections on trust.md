@@ -15,6 +15,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/27/reflections-on-trust.html
+source: microblog
 ---
 
 > I'll be rambling on a bit about thoughts I've had in the past... month or so after this section. I initially thought I'd just post this on Mastodon with its content warning setup, but I wanna feel more comfy writing about my thoughts in whatever form _here_, not having everything be curated for a particular purpose or use.

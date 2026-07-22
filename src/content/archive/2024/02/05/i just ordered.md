@@ -11,6 +11,7 @@ mastodon:
   id: 111879483904117042
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I just ordered later dinner lmao I guess I'll be up until... 1-2AM today 😂

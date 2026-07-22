@@ -11,6 +11,7 @@ mastodon:
   id: 111697240962612782
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 TIL about [Hotlinking](https://www.hostinger.ph/tutorials/hotlinking) as a term. Also learned that there are ways to protect yourself from it, too!

@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/11/22/yayyyy-finally-got.html
+source: microblog
 ---
 
 Yayyyy finally got my Schengen visa 💖 I'm gonna see my boyfriend next year!! hehehe

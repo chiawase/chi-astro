@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/9b9e41a5db.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 Interpreted this as, which would showcase how comfy and content I was?

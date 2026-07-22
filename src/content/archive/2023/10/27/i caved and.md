@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/27/i-caved-and.html
+source: microblog
 ---
 
 I caved and bought [Viewfinder](https://store.steampowered.com/app/1382070/Viewfinder/) on Steam. 😆 It was on sale!!! 🙈

@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/04/ooh-omg-i.html
+source: microblog
 ---
 
 ooh omg, I wanna join the September photoblogging challenge in Micro.blog! I missed it in the chatter, was out during the start of the month 🙈

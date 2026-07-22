@@ -15,7 +15,8 @@ mastodon:
   username: chi
   hostname: social.lol
 photos: 
-photos_with_metadata: 
+photos_with_metadata:
+source: microblog
 ---
 
 Very cute 😄 Hope Figma keeps this feature up 😁

@@ -15,6 +15,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/09/currently-reading-wonder.html
+source: microblog
 ---
 
 Currently reading: [Wonder Cat Kyuu-chan Vol. 7](https://micro.blog/books/9798888431405) by Sasami Nitori 📚 I literally just bought this now because I realize I haven't read enough of Kyuu-chan 😤

@@ -26,6 +26,7 @@ photos_with_metadata:
   width: 1800
   height: 2400
 url: /2023/07/15/meet-candy-its.html
+source: microblog
 ---
 
 meet Candy 🥰🚲❤️

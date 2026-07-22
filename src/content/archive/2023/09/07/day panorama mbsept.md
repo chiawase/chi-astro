@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 337
   height: 600
 url: /2023/09/07/day-panorama-mbsept.html
+source: microblog
 ---
 
 I rarely take actual panorama photos with my phone, but maybe this'll count? View of the clouds during my flight from the Philippines to Thailand ☁️🤩

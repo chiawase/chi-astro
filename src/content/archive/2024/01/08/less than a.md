@@ -11,6 +11,7 @@ mastodon:
   id: 111717788152711751
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Less than a month until my Europe trip! Time to see REAL SNOW ❄️ 😁

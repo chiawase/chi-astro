@@ -17,6 +17,7 @@ mastodon:
 photos: 
 photos_with_metadata: 
 url: /2023/07/04/yay-my-metatags.html
+source: microblog
 ---
 
 Yay my metatags work 😁 Got to use the Metatags Plug-in by [@manton](https://micro.blog/manton) and just tested it out. Woohoo 🥳

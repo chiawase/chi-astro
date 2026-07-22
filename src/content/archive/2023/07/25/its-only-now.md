@@ -13,6 +13,7 @@ mastodon:
   hostname: social.lol
 microblog: true
 url: /2023/07/25/its-only-now.html
+source: microblog
 ---
 
 It's only now that I really am actively removing Twitter links from my everywhere. It has devolved into something I don't think I can make space for myself anymore.

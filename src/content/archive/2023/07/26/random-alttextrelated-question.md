@@ -13,6 +13,7 @@ mastodon:
   hostname: social.lol
 microblog: true
 url: /2023/07/26/random-alttextrelated-question.html
+source: microblog
 ---
 
 Random alt-text-related question: is the "alt text is usually less than 100 characters" statement still true to this day? I know and have seen others who have written stuff way longer than that, and even I find myself going over especially when I need to provide context.

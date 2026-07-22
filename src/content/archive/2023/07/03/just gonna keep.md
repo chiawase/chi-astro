@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/03/just-gonna-keep.html
+source: microblog
 ---
 
 Just gonna keep posting here to get the hang of things. I'm happy there are 300 characters here so I can just post whatever 😆

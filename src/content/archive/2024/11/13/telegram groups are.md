@@ -11,6 +11,7 @@ mastodon:
   id: 113473472901238932
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Telegram groups are cool so far 🤔 Let's see if this holds up for Q4 planning for FoFPH stuff hehe :)

@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/30/its-over-i.html
+source: microblog
 ---
 
 It's over, I found where you can play Mahjong in [Yakuza: Like a Dragon](https://www.microsoft.com/store/productId/9NXCSWCQTNFG) 🎮 😆🀄️ watch me spend 200+ hours just playing this nyahaha

@@ -26,6 +26,7 @@ photos_with_metadata:
   width: 1800
   height: 2399
 url: /2023/07/10/bikepacksquared.html
+source: microblog
 ---
 
 bike(pack)squared 😂

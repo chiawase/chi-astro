@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/04/today-was-a.html
+source: microblog
 ---
 
 today was a really long day.

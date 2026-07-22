@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/19/stupid-things-this.html
+source: microblog
 ---
 
 stupid things this week

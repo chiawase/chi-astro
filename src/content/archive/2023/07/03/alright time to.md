@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/03/alright-time-to.html
+source: microblog
 ---
 
 Alright, time to play games. 🎮 I wonder if it would make sense for me to create a section of me just randomly updating when I'm playing certain games.

@@ -12,6 +12,7 @@ mastodon:
   id: 111963467923659390
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I'm so happy there's a Figma plugin to make APNG files, I can make animated Discord stickers now :3 hehez

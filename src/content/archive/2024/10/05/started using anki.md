@@ -11,6 +11,7 @@ mastodon:
   id: 113253035828251253
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Started using [Anki](https://apps.ankiweb.net/) this week to help me in reviewing sings for my Filipino Sign Language 1 (FSL 1) class. So far so good?

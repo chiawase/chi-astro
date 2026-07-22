@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/17/i-feel-bad.html
+source: microblog
 ---
 
 I feel bad I'm having to decide whether I should commit to the bit and bike commute to the design conference I'm attending later or just join my officemate's Grab carpool later 🫠

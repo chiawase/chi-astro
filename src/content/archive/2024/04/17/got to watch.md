@@ -11,6 +11,7 @@ mastodon:
   id: 112284196686683043
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Got to watch [GomBurZa](https://www.netflix.com/us/title/81754253?s=i&trkid=258593161&vlang=en&clip=81763782) again, this time with my boyfriend, because it's on Netflix!

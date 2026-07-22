@@ -11,6 +11,7 @@ mastodon:
   id: 111684540510973217
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I hope me cleaning up the Downloads folder on my work laptop is OK. If I need a file I previously downloaded already, I can always just search through our chat history or cloud files. 😆

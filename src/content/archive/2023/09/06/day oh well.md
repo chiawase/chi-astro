@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/06/day-oh-well.html
+source: microblog
 ---
 
 This was a moment that got me to go, "oh well, I'm drenched in the rain, but at least I'm near home." 😅

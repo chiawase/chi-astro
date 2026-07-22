@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/19/this-day-was.html
+source: microblog
 ---
 
 this day was so much fun 🥰 didn't expect it to be, but am glad it is 😁

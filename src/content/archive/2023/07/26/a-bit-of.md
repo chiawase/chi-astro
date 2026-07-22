@@ -2,6 +2,7 @@
 date: 2023-07-26T08:59:10+0800
 microblog: true
 url: /2023/07/26/a-bit-of.html
+source: microblog
 ---
 
 I feel a bit of grief over not using or updating in Twitter anymore, but only because at some point I did work hard to get my social graph to where it is now.

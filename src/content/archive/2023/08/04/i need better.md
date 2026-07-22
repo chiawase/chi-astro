@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/04/i-need-better.html
+source: microblog
 ---
 
 I need better ways to wake myself up in the morning. Something that's friendly to when you feel lazy to do so 😵‍💫

@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/30/wisdom-teeth-lolz.html
+source: microblog
 ---
 
 -2 wisdom teeth lolz 🦷🦷

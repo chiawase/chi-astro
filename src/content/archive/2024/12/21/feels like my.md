@@ -15,6 +15,7 @@ threads:
   id: 18089853766519677
   url: https://www.threads.net/@_chiawase/post/DD0rELRKVFB
   username: _chiawase
+source: microblog
 ---
 
 Feels like my headache / migraine finally went away for good, thank goodness

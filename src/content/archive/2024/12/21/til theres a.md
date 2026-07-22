@@ -15,6 +15,7 @@ threads:
   id: 17898732621017560
   url: https://www.threads.net/@_chiawase/post/DD0sfjmqu6z
   username: _chiawase
+source: microblog
 ---
 
 TIL there's a VR esports scene! Cool, interesting 😆

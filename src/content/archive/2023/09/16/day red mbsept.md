@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/16/day-red-mbsept.html
+source: microblog
 ---
 
 My outfit yesterday while with my bike 😁 red dress, red bike, red bag 😆

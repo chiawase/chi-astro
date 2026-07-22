@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/04/i-would-also.html
+source: microblog
 ---
 
 I would also just like to say, [@Burk](https://micro.blog/Burk) 's website is goals. 😆 Super cool and neat! I kinda wanna emulate some parts hehe

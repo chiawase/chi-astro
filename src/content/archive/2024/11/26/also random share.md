@@ -23,6 +23,7 @@ threads:
   id: 18072773722717941
   url: https://www.threads.net/@_chiawase/post/DC0E-Avq91a
   username: _chiawase
+source: microblog
 ---
 
 Also, random share, but I got a God Pack (?) yesterday while doing my usual pulls for Pokemon TCG Pocket 😆

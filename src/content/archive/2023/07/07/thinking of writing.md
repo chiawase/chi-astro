@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/07/thinking-of-writing.html
+source: microblog
 ---
 
 Thinking of writing about the hobbies or activities I've tried in the past, and if I stopped or continued after a while and why. Essentially journaling lol

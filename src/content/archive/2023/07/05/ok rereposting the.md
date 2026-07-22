@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/05/ok-rereposting-the.html
+source: microblog
 ---
 
 OK, re-reposting the first archived blog post seemed to work well. The links have definitely been broken though lol but I guess that's also on me for constantly changing website setups for the past few years 😅

@@ -4,6 +4,7 @@ mastodon:
   id: 111963362441800248
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I'm wondering why Microsoft Teams  hasn't changed their functionality of typing emojis from using parentheses `()` to using colons `::`. Is it a remnant of old tech from Skype (?) and they just never bothered to change it? 🤔

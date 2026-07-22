@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/14/day-glowing-mbsept.html
+source: microblog
 ---
 
 My friends and I retook this photo because the light was apparently directly on top of my head 🤣

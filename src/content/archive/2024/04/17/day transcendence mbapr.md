@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/73f69cb9a4.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 I guess this can count? 😆 This was taken after we rode over 140km around Taichung last April 2023. [This was the our actual Strava ride up to Sun Moon Lake](https://strava.app.link/AyGWaR58RIb) 😄 I can't believe I pulled it off then! I don't really do long rides that much anymore 😅

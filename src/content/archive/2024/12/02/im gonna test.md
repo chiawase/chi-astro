@@ -15,6 +15,7 @@ threads:
   id: 17996909660708084
   url: https://www.threads.net/@_chiawase/post/DDEwObRNMNd
   username: _chiawase
+source: microblog
 ---
 
 im gonna test first if thread posts work on Micro.blog and elsewhere

@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/dc43b0dc1c.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 Was chilling outside the hotel on my first full day in Salzburg back in February. I asked my boyfriend to take this photo of me because I found it amusing that I'm so cold I need my jacket... but here I am, going out in slippers 😆 I needed to balance the temp 😛

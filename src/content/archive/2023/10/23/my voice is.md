@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/23/my-voice-is.html
+source: microblog
 ---
 
 my voice is still raspy when I speak lol is this due to my screaming while riding amusement park rides last thursday 😂

@@ -16,6 +16,7 @@ threads:
   url: https://www.threads.net/@_chiawase/post/DCzZTECqoNs
   username: _chiawase
 thumbnail: https://s3.amazonaws.com/micro.blog/thumbnails/2024/11/25/chisenires.design/bdbad3a576841c9ed9a0cdcc5392db55.png
+source: microblog
 ---
 
 Even if I'm very "vocal" online in terms of random musings... part of me is still scared in sharing some thoughts. Fear of judgement just kicks in too strong.

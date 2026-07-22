@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/16/another-cold-day.html
+source: microblog
 ---
 
 Another cold day today 🌧️

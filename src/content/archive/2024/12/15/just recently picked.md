@@ -20,6 +20,7 @@ threads:
   id: 17894860191037561
   url: https://www.threads.net/@_chiawase/post/DDlZZlVtAu1
   username: _chiawase
+source: microblog
 ---
 
 Just recently picked up [Geoguessr](https://geoguessr.com) and... after 3 duels I am qualified for the Silver III Division 😆

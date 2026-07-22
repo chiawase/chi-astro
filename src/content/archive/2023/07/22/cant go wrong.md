@@ -21,6 +21,7 @@ photos_with_metadata:
   width: 1800
   height: 2400
 url: /2023/07/22/cant-go-wrong.html
+source: microblog
 ---
 
 can't go wrong with a shirt and shorts 😁 out for errands today!

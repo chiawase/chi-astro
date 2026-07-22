@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/11/03/finally-edited-and.html
+source: microblog
 ---
 
 finally edited and posted the reel for the highlights of our ride around Iloilo via bike lanes last week 😆

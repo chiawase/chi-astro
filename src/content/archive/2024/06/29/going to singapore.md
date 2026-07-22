@@ -11,6 +11,7 @@ mastodon:
   id: 112697483645693228
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Going to Singapore later! 😄 First time ever. I'm setting up ways for me to take notes down both online and offline, in the hopes of having enough notes by the end of my trip to gather my thoughts and make myself a highlights recap. 😆

@@ -14,6 +14,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/14/random-list-of.html
+source: microblog
 ---
 
 These things don't really have a deadline in my head, but I guess for the sake of writing stuff down, I want to share them here.

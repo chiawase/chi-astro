@@ -13,6 +13,7 @@ images:
 photos: 
 photos_with_metadata: 
 url: /2023/12/19/steam-year-in.html
+source: microblog
 ---
 
 2023 Steam Year in Review time!! 🎮

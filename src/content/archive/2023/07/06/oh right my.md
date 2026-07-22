@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/06/oh-right-my.html
+source: microblog
 ---
 
 oh right, my boyfriend is currently in the EU and therefore will not have access to Threads (at least until he goes home to the PH) 🫠

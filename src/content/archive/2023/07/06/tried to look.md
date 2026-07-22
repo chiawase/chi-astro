@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/06/tried-to-look.html
+source: microblog
 ---
 
 tried to look how you could "move" your Thread data to another instance since it's supposedly gonna be part of the fediverse, but it seems it's not the case YET. [(source)](https://help.instagram.com/515230437301944)

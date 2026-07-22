@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/01/i-did-it.html
+source: microblog
 ---
 
 I did it, I finished the micro.blog photoblogging challenge 🥳 #mbsept yahooo

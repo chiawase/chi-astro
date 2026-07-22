@@ -11,6 +11,7 @@ mastodon:
   id: 112307050553320167
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Excited for today because I'll be watching Rent (the musical) with a friend later today! #RentMNL2024 wooooo

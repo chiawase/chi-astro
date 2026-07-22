@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/06/the-heat-is.html
+source: microblog
 ---
 
 The heat is making me just want to play games the rest of the day instead of working. 🫠 Let me just live through [Roots of Pacha](https://store.steampowered.com/app/1245560/Roots_of_Pacha/) with my boyfriend!! I wanna just ride my guanaco in the game and explore the world there 😤 🎮

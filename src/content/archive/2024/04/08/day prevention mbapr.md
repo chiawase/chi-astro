@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/8e2ba5e36b.jpg
   width: 600
   height: 450
+source: microblog
 ---
 
 Food is apt for this prompt, I guess. Lately I've been (re)figuring out how I'd feed or sustain myself as I live alone. 

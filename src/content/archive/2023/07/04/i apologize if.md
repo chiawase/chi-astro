@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/04/i-apologize-if.html
+source: microblog
 ---
 
 I apologize if I'm really noisy now, posting so many random thoughts 🙈 I feel very empowered with the apps I'm using now to just share thoughts online 😆

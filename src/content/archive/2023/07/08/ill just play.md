@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/08/ill-just-play.html
+source: microblog
 ---
 
 I'll just play Honkai Star Rail for now. The dailies are getting a bit tedious to go through at times, but I know that's partly because I tried to buff up literally every character I got so far 😆😅🎮

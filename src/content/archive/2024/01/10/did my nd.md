@@ -11,6 +11,7 @@ mastodon:
   id: 111729019488504181
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 did my 2nd calisthenics class today 🙌🏻💪🏻 8 more classes remaining. So far so good 😄

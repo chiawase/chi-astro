@@ -12,6 +12,7 @@ mastodon:
   id: 112227766605150686
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Posted late for Day 6 because I was on recovery mode again yesterday. But today I'm trying to get back into it.

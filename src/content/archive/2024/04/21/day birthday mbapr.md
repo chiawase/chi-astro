@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/165d08000a.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 My birthday's coming up soon. Throwback to this gift the WeWork staff where I used to co-work at gave me 😁🍷

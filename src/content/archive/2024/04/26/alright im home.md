@@ -12,6 +12,7 @@ mastodon:
   id: 112337895216270180
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Alright, I'm home. IT'S TIME TO PLAY... 🎮 Hades 2 (technical test)!!! 😁 excited to explore the first area~

@@ -14,6 +14,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/07/a-year-does.html
+source: microblog
 ---
 
 The past year has been eventful, to say the least.

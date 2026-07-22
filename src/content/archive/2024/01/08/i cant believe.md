@@ -11,6 +11,7 @@ mastodon:
   id: 111720611942942127
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I can't believe it took me this long to try FigJam on iPad. It's amazing!

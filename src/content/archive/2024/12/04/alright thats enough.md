@@ -15,6 +15,7 @@ threads:
   id: 18052397074967947
   url: https://www.threads.net/@_chiawase/post/DDIpdtyqE7u
   username: _chiawase
+source: microblog
 ---
 
 alright that's enough commenting-about-work posting it's time to focus on my trip to THAILAND see you soon BKK!!! excited to go back again, this time (1) first flight abroad with my partner + (2) first flight arranged with friends purely for vacay purposes! 😄✈️🇹🇭

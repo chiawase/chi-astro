@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/72b1537d29.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 I realize I don't have any (recent?) photo showing any wind (or photos of windy places for that matter) so here's a selfie I took last year while riding around Taiwan on a bike. There would be super windy days that I learned to just put on more layers if I'm biking around 😆

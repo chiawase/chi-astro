@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/db6fd96553.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 I took a photo of this credit card reader on the remote for in-flight entertainment during my flight to Europe last February. I was amused seeing this in an era where cashless is getting more popular 😆 I guess before you could buy stuff with you card while on thr plane 😄

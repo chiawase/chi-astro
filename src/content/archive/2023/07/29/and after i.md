@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/29/and-after-i.html
+source: microblog
 ---
 
 And after I got tired a bit of the repetitiveness of 🎮 Catherine, I also started playing 🎮 [Yakuza: Like a Dragon](https://www.microsoft.com/store/productId/9NXCSWCQTNFG) (thanks Xbox Game Pass!)

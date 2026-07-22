@@ -15,7 +15,8 @@ mastodon:
   username: chi
   hostname: social.lol
 photos: 
-photos_with_metadata: 
+photos_with_metadata:
+source: microblog
 ---
 
 Whoa. Micro.blog UI update?! 👀‼️ The sidebar.... is now to the side!!! 🤯 hahaha that surprised me 😂

@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/11/feels-nice-to.html
+source: microblog
 ---
 
 feels nice to not feel pressured to post stuff online at all times, and also feels nice to live more in the present 😊

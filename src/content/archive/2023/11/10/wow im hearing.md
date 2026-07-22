@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/11/10/wow-im-hearing.html
+source: microblog
 ---
 
 wow im hearing birds so early in the morning! 😮

@@ -11,6 +11,7 @@ mastodon:
   id: 112321543030824397
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 wonder what's gonna happen in the coming month. lots of (potential) changes.

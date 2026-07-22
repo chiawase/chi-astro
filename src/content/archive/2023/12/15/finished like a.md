@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/15/finished-like-a.html
+source: microblog
 ---
 
 Finished 🎮 Like a Dragon Gaiden: The Man Who Erased His Name. 🥺😭✊🏻 huhuhuhu

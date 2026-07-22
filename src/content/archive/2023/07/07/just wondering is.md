@@ -5,6 +5,7 @@ images:
 photos: 
 photos_with_metadata: 
 url: /2023/07/07/just-wondering-is.html
+source: microblog
 ---
 
 Just wondering, is the Micro.blog companion app the same as the Micro.blog iOS app available on the App Store? Should that not be usable for people who aren't on a Micro.blog Premium subscription? 😮 Though I can use it just fine for now while I'm on the Basic plan 😅

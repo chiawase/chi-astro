@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/22/sheesh-i-gotta.html
+source: microblog
 ---
 
 sheesh i gotta catch up again on the micro.blog photoblogging challenge.

@@ -15,6 +15,7 @@ threads:
   id: 18035894933109467
   url: https://www.threads.net/@_chiawase/post/DD-3me4tSup
   username: _chiawase
+source: microblog
 ---
 
 Merry Christmas and Happy Holidays to all who celebrate 😊🎄

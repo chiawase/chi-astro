@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/18/today-is-the.html
+source: microblog
 ---
 
 Today is the last full day I can spend with my boyfriend in person 🤧 it just dawned on me now.

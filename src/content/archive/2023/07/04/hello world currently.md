@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/04/hello-world-currently.html
+source: microblog
 ---
 
 Hello, world! Currently posting from Gluon. 😁 I'm also gonna try and poke around the official Micro.blog iOS app this time around, and I'll see which one sticks.

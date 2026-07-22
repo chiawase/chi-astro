@@ -11,6 +11,7 @@ mastodon:
   id: 113470763820853097
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Finally done did it and did some stuff for FoFPH community things. Better late than never? 😅

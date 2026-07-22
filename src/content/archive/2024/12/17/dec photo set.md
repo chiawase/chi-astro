@@ -29,6 +29,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/111490e679.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 dec 9, 2024 • photo set of 3-player chess where I eventually won the round 😆

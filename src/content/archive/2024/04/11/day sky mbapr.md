@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/727df7c407.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 Tried windsurfing back in February 2022. That was fun! I'd like to do it again someday 😁 

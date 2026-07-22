@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/17/im-so-sleeeeepyyyyyy.html
+source: microblog
 ---
 
 im so sleeeeepyyyyyy 😪 (stayed up until 2 to play synth riders 🎮)

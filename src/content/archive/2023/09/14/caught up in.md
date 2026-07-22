@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/14/caught-up-in.html
+source: microblog
 ---
 
 Caught up in posting for the Micro.blog Photoblogging challenge again.

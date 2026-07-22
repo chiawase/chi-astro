@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/10/why-are-tuesdays.html
+source: microblog
 ---
 
 why are tuesdays my brain fog days, it literally does not cooperate with my meetings filled day 🫠

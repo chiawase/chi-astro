@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/05/my-calls-to.html
+source: microblog
 ---
 
 My calls to my bank's customer service calls are longer than my meetings. 😆😅

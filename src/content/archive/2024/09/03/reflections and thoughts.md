@@ -14,6 +14,7 @@ mastodon:
   id: 113071795824734169
   username: chi
   hostname: social.lol
+source: microblog
 ---
 <!-- markdownlint-disable MD013 -->
 Every now and then, I find myself wondering if I'm consistently focusing on the wrong things or unnecessary things while working. I'm not one who constantly pours myself over conversion metrics or other KPIs or numbers I need to "track" as a means to measure my impact as a designer, but maybe I need to learn how to be?

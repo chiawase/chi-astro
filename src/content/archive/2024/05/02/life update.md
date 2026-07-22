@@ -13,6 +13,7 @@ mastodon:
   id: 112366708017354470
   username: chi
   hostname: social.lol
+source: microblog
 ---
 <!-- markdownlint-disable MD013 -->
 Felt like writing this down and putting it here as a reference on some life updates I'm comfy to share:

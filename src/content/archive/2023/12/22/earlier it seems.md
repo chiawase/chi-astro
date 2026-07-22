@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/22/earlier-it-seems.html
+source: microblog
 ---
 
 Earlier it seems like Cloudflare had a bit of an outage, and it lasted for a few minutes (at least long enough to be noticeable?)

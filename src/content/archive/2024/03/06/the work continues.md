@@ -11,6 +11,7 @@ mastodon:
   id: 112046276790958284
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 The work continues.

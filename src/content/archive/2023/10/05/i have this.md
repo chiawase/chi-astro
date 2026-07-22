@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/05/i-have-this.html
+source: microblog
 ---
 
 I have this urge in me to just randomly do stuff online, either to stream what it is I'm playing or working on, or just to really do whatever. Even despite getting tired of social media in general, this urge in me to just share is still very much alive.

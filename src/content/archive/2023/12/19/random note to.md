@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/19/random-note-to.html
+source: microblog
 ---
 
 random note to self: the goal is to have more intentional experiences moving forward, wag na madala sa flow of things 😆

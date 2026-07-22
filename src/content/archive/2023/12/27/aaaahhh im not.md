@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/27/aaaahhh-im-not.html
+source: microblog
 ---
 
 aaaahhh, I'm not that great of a tech support at home as I thought I was 😆 but this is within context of being out in stores hahaha

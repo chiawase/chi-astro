@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/26/day-beverage-mbsept.html
+source: microblog
 ---
 
 I found this glass of juice amusingly big. So I put my hand next to it to see the comparison in size 😆

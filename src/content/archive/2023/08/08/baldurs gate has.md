@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/08/baldurs-gate-has.html
+source: microblog
 ---
 
 🎮 [Baldur's Gate 3](https://store.steampowered.com/app/1086940/Baldurs_Gate_3/) has so far, successfully captured my after-work gaming moments. My solo playthrough's already vastly different than the one me and my boyfriend are currently playing, all because of a misunderstanding amongst the NPCs 🤦🏻‍♀️ sigh :)))

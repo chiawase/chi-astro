@@ -11,6 +11,7 @@ mastodon:
   id: 111700862936286533
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 🔗 [InVision design collaboration services shutdown — Michael Shenkman, InVision CEO](https://www.invisionapp.com/inside-design/invision-design-collaboration-services-shutdown/)

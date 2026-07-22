@@ -12,6 +12,7 @@ mastodon:
   id: 112262128704980077
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Playing [Botany Manor](https://www.microsoft.com/store/productId/9PLP9LSKB6WV) right now as part of Game Pass. This is such a cute puzzle game. My kinda jam 😄🎮

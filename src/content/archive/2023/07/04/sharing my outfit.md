@@ -21,6 +21,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/07/04/sharing-my-outfit.html
+source: microblog
 ---
 
 Sharing my outfit from yesterday when I went to the office. First time wearing pants after a long while! I used up all my skirt outfits recently so I figured I could change things up a bit for myself 😄 📷

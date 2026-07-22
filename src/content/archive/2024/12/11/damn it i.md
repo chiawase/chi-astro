@@ -15,6 +15,7 @@ threads:
   id: 17859361023314980
   url: https://www.threads.net/@_chiawase/post/DDaqnF4KmpA
   username: _chiawase
+source: microblog
 ---
 
 damn it i feel sick as fuck huhu this is what reporting to office does to me 😩

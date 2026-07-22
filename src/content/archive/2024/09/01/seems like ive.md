@@ -15,7 +15,8 @@ mastodon:
   username: chi
   hostname: social.lol
 photos: 
-photos_with_metadata: 
+photos_with_metadata:
+source: microblog
 ---
 
 Seems like I've kept a habit going on for a few months now, albeit not that consistent, but at least i know every month I've gone back to my Obsidian

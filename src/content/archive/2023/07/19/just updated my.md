@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/19/just-updated-my.html
+source: microblog
 ---
 
 Just updated my [/now page](https://chi.omg.lol/now) on OMG.LOL. Mostly added the manga and anime I'm watching.

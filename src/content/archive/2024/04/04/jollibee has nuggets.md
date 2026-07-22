@@ -19,6 +19,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/1f2596c9f4.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 Jollibee has nuggets now 😆 about time they did! 😛

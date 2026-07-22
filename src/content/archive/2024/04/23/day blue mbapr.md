@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/94351e23f1.jpg
   width: 549
   height: 600
+source: microblog
 ---
 
 Taken last 24 June 2022. Second to the last gig I got to attend of [Banna Harbera](https://open.spotify.com/artist/53EF6PS4UcQwjNrpaE0968?si=JMWk_U6LRf6uJH9QffNWcQ) performing. They stopped putting new music out later that year too, but I was thankful I still got to attend some of the gigs when they were still playing. 🥹

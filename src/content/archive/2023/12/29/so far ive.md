@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/29/so-far-ive.html
+source: microblog
 ---
 
 So far I've done 2 out of the 4 things I listed in [my previous post](https://chisenires.design/2023/12/27/things-i-want.html). So far so good!

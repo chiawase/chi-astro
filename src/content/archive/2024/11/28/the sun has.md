@@ -15,6 +15,7 @@ threads:
   id: 17914665542935237
   url: https://www.threads.net/@_chiawase/post/DC5XBDAq_zF
   username: _chiawase
+source: microblog
 ---
 
 The sun has been out the past few days. Perfect time to sort thru laundry, one batch at a time 😄

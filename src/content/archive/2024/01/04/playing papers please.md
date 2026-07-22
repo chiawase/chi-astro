@@ -12,6 +12,7 @@ mastodon:
   id: 111697586069572166
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Playing 🎮 [Papers, Please](https://store.steampowered.com/app/239030/Papers_Please/) again today. Started it during the start of the year, and now I'm just playing to get the different endings. 😆

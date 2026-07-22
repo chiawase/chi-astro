@@ -11,6 +11,7 @@ mastodon:
   id: 111775139951357977
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 new sheets really make you want to melt into your bed 💤

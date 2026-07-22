@@ -12,6 +12,7 @@ mastodon:
   id: 112704065228375989
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Staying in the hostel for now because I am still getting my bearings being in another country lol solo traveler moment 😆

@@ -15,6 +15,7 @@ threads:
   id: 17907549021047712
   url: https://www.threads.net/@_chiawase/post/DCUCLdNNM-Z
   username: _chiawase
+source: microblog
 ---
 
 I wonder if there's an equivalent set of guidelines of [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) for mobile apps? Or I guess it also applies, no? 🤔

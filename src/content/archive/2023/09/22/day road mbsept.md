@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 339
   height: 600
 url: /2023/09/22/day-road-mbsept.html
+source: microblog
 ---
 
 Selfie of me riding along the roads of MueangKaen, Chiang Mai, Thailand! 😄

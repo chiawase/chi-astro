@@ -11,6 +11,7 @@ mastodon:
   id: 111679638715694247
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Finally back at the unit 😆 I missed you, my PC!

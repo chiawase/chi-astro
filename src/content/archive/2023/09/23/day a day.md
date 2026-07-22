@@ -22,6 +22,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/09/23/day-a-day.html
+source: microblog
 ---
 
 took this earlier when I got back home. Those are some heavy rain clouds 😳 not to mention a bleak late morning given the smog 😷💨

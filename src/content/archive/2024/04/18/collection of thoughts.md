@@ -13,6 +13,7 @@ mastodon:
   id: 112290266855383976
   username: chi
   hostname: social.lol
+source: microblog
 ---
 <!-- markdownlint-disable MD013 -->
 Dang, I thought the [Framework APAC](https://frameworkapac.splashthat.com/) would be live too (since they have an announcement for it as its own event and all), but I guess since [Figma already announced stuff yesterday](https://www.figma.com/blog/what-we-launched-at-framework-2024/), it really would just be a replay of the stuff they already did on April 16 🥲

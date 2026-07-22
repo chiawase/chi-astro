@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/28/ah-damn-thinking.html
+source: microblog
 ---
 
 Ah damn, thinking about code is making me feel a bit overwhelmed with things again :')

@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/27/things-i-want.html
+source: microblog
 ---
 
 Things I want to do back at my parent's house for the holidays:

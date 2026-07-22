@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/28/some-of-my.html
+source: microblog
 ---
 
 Some of my new officemates discovered that I could sing, too. 😆 I mean, I already did sing during our team building, but I guess being drunk that time doesn't count 😛

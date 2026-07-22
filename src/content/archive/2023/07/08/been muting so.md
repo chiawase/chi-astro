@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/08/been-muting-so.html
+source: microblog
 ---
 
 Been muting so many accounts on Threads, my goodness

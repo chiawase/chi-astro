@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/06/alright-im-also.html
+source: microblog
 ---
 
 Alright, I'm also on Threads now lol

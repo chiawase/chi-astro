@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/21/i-wonder-if.html
+source: microblog
 ---
 
 I wonder if there's already a way to get a computer to check the characters of a post & see if it's ascii or emoji art then have that be read to screen readers

@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/05/i-can-technically.html
+source: microblog
 ---
 
 I can technically swear here (on micro.blog), right? I don't know why I felt conscious of saying stuff like "shit" or "fuck" here 😆 I guess, trying to keep things clean for formalities' sake hahaha

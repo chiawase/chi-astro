@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/07/im-gonna-be.html
+source: microblog
 ---
 
 I'm gonna be with my parents this coming weekend. Family Day. Dreading to sleep in my room with no aircon tonight (in this HEAT 🫠), but hopefully the place we're gonna stay at has enough amenities to make it worthwhile.

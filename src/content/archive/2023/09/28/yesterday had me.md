@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/28/yesterday-had-me.html
+source: microblog
 ---
 
 Yesterday had me dealing with lots of things in the morning, which got me overwhelmed. Now I feel a bit better. 😊

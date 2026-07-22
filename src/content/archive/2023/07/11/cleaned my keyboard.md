@@ -25,6 +25,7 @@ photos_with_metadata:
   width: 1800
   height: 2400
 url: /2023/07/11/cleaned-my-keyboard.html
+source: microblog
 ---
 
 Cleaned my keyboard today 😁⌨️ Quick peek at my mouse and (split) keyboard setup!

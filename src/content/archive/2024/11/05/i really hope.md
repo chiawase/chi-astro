@@ -11,6 +11,7 @@ mastodon:
   id: 113431130060936557
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 I really hope I eventually find the time to learn more about Hugo so I could make this side of the internet a bit more me, while exercising the frontend skills I haven't really brushed up on in a long while lol

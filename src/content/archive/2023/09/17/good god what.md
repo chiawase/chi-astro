@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/17/good-god-what.html
+source: microblog
 ---
 
 good god what is that haze outside

@@ -16,6 +16,7 @@ mastodon:
 photos: 
 photos_with_metadata: 
 url: /2023/07/04/look-at-this.html
+source: microblog
 ---
 
 look at this: [www.thingiverse.com/thing:138...](https://www.thingiverse.com/thing:1381328)

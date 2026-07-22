@@ -3,6 +3,7 @@ title: "25 Things I Learned after 25 years of existing"
 summary: "My birthday has officially passed. I figured I'd write a list of 25 things I learned as I turned 25, in no particular order, just for the heck of it."
 tags: ["writing"]
 date: 2021-09-04T21:20:00+0800
+source: microblog
 ---
 
 Some of these may be rephrases of other items, and some might also contradict each other. Then again, this isn't a list you should take everything word-for-word. Some items resonate with different experiences in my life, hence why they're listed here.

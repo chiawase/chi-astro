@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/05/finally-got-my.html
+source: microblog
 ---
 
 Finally got my public Twitter archive. Not sure what actual benefit that'll be for others to see my old tweets, but I guess there is merit to look through what I've posted and shared in the past?

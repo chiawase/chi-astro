@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/21/i-broke-my.html
+source: microblog
 ---
 
 I broke my first glass cup while living alone 😅 gotta be more careful next time. Debris has been cleaned up, and I think I've gotten everything sweeped and thrown away.
