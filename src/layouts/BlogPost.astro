@@ -73,6 +73,16 @@ const fallbackTitle = "Chi’s blog post";
       </>
       )}
 
+    {post.data.heroImage && (
+      <img
+        src={post.data.heroImage.src}
+        width={post.data.heroImage.width}
+        height={post.data.heroImage.height}
+        alt=""
+        class="post-hero"
+      />
+    )}
+
     <div class="u-author h-card">
       <data value={SITE_URL} class="u-url"></data>
       <data value="chiawase" class="p-nickname"></data>
@@ -140,6 +150,13 @@ const fallbackTitle = "Chi’s blog post";
     -moz-hyphens: unset;
     -ms-hyphens: unset;
     hyphens: unset; /* Only for the blog titles */
+  }
+
+  .post-hero {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-block: 1rem;
   }
 
   .e-content {

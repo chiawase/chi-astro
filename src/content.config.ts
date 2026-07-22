@@ -24,13 +24,22 @@ const archive = defineCollection({
   // Load Markdown and MDX files in the `src/content/archive/` directory.
   loader: glob({ base: "./src/content/archive", pattern: "**/*.{md,mdx}" }),
   // Type-check frontmatter using a schema
-  schema: z.object({
-    title: z.string().optional().nullable(),
-    summary: z.string().optional().nullable(),
-    // Transform string to Date object
-    date: z.coerce.date(),
-    tags: z.array(z.string()).optional(),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string().optional().nullable(),
+      summary: z.string().optional().nullable(),
+      // Transform string to Date object
+      date: z.coerce.date(),
+      tags: z.array(z.string()).optional(),
+      source: z.enum(["wordpress", "microblog", "tumblr"]).optional(),
+      heroImage: image().optional(),
+      wpPostId: z.number().optional(),
+      draft: z.boolean().optional().nullable(),
+    }),
+});
+
+const archiveIntros = defineCollection({
+  loader: glob({ base: "./src/content/archive-intros", pattern: "*.{md,mdx}" }),
 });
 
 const games = defineCollection({
@@ -60,4 +69,4 @@ const manga = defineCollection({
   }),
 });
 
-export const collections = { blog, archive, games, manga };
+export const collections = { blog, archive, archiveIntros, games, manga };
