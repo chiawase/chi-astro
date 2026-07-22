@@ -28,33 +28,46 @@ import chiAndGoldShipBike from "@assets/chi-and-goldship.jpeg";
     gap: 2rem;
   }
 
+  .side-by-side figure {
+    max-width: 400px;
+  }
+
+  @media (min-width: 896px) and (max-width: 87.5rem) {
+    .side-by-side figure {
+      max-width: 300px;
+    }
+  }
+  
   .side-by-side:first-of-type {
     margin-bottom: 1rem;
   }
-
+  
   @media (max-width: 896px) {
     .side-by-side {
       flex-direction: column;
       align-items: center;
     }
   }
-  `}
+`}
+
 </style>
 
 <div class="h-card">
 
 <div class="side-by-side">
-<Image
-  src={chiPhoto}
-  alt=""
-  width="400"
-  height="400"
-  class="chi-image u-photo"
-/>
+  <figure>
+    <Image
+      src={chiPhoto}
+      alt=""
+      class="chi-image u-photo"
+    />
+    <figcaption>
+      Hello there! I’m <span class="p-name">**Chi Señires**</span>. I’m a <span class="p-job-title">UX Designer</span> from the <span class="p-country-name">Philippines</span> 🇵🇭
+    </figcaption>
+  </figure>
 
 <div class="chi-about-section">
 
-Hello there! I’m <span class="p-name">**Chi Señires**</span>. I’m a <span class="p-job-title">UX Designer</span> from the <span class="p-country-name">Philippines</span> 🇵🇭
 
 ## Quick <abbr title="Getting to Know Me">GTKM</abbr>
 
@@ -64,9 +77,10 @@ Hello there! I’m <span class="p-name">**Chi Señires**</span>. I’m a <span c
 - I do front-end web development from time to time. HTML & CSS my beloved(s)
 - I do my best to familiarize myself with accessibility, especially for online things.
 - I super duper love cats. But I don’t own any. (yet?)
-</div>
 
-</div>
+</div>{/* /.chi-about-section */}
+
+</div>{/* /.side-by-side */}
 
 <div class="side-by-side">
 
@@ -94,7 +108,7 @@ While I do have a list of the communities I organize in my now page, I figured I
 - [Pinay Bike Commuter Community](https://fb.com/groups/pinaybikecommutercommunity) (Co-founder, Moderator)
 - [<abbr title="User Experience Philippines">UXPH</abbr>](https://uxph.org) (Member, former Core Volunteer)
 
-</div>
+</div>{/* /.chi-about-section */}
 
 <figure class="chi-image">
 {/* Just manually making this a figure element so it also has the same styles */}
@@ -102,7 +116,7 @@ While I do have a list of the communities I organize in my now page, I figured I
 <figcaption>This photo was a bit amusing because it was taken as soon as someone was trying to make a U-turn on the road in front of me, ending up with them giving me a bit of lighting in the early evening 😆</figcaption>
 
 </figure>
-</div>
+</div>{/* /.side-by-side */}
 
 </div>
 </Page>

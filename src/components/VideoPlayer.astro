@@ -1,5 +1,4 @@
 ---
-import { MuxPlayer } from "@mux/mux-player-astro";
 import { getMuxPlaybackId } from "@utils/muxUploader"; // adjust relative path
 
 const { id, src, metadata } = Astro.props;
@@ -12,9 +11,12 @@ if (!playbackId && src) {
     throw new Error(`No Mux playbackId found for src="${src}". Run "npm run mux:upload".`);
   }
 }
+
+// Map Mux video metadata to web component
+const metadataAttr = metadata?.video_title
+  ? { "metadata-video-title": metadata.video_title }
+  : {};
 ---
 
-<MuxPlayer
-  playbackId={playbackId}
-  metadata={metadata}
-/>
+<mux-player playback-id={playbackId} {... metadataAttr}></mux-player>
+<script>import "@mux/mux-player";</script>
