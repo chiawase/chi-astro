@@ -14,7 +14,10 @@
     "webmentions:fetch": "webmention https://chisenires.design/feed.xml",
     "webmentions:send": "webmention https://chisenires.design/feed.xml --limit 1 --send",
     "mux:upload": "tsx src/scripts/muxUploadAll.ts",
-    "prepare": "husky"
+    "prepare": "husky",
+    "wp:import": "tsx src/scripts/importWordpress.ts --source wordpress",
+    "wp:import:dry": "tsx src/scripts/importWordpress.ts --source wordpress --dry-run",
+    "archive:backfill-source": "tsx src/scripts/backfillSource.ts"
   },
   "lint-staged": {
     "*.{md,mdx}": [
