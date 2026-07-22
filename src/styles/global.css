@@ -111,6 +111,13 @@ body {
     "ital" 0,
     "wght" 200;
 }
+
+@media (max-width: 87.5rem) {
+  body {
+    max-width: 50rem;
+  }
+}
+
 main,
 footer {
   padding: 1rem;
@@ -502,6 +509,13 @@ iframe {
 }
 iframe {
   aspect-ratio: 16/9;
+}
+
+mux-player {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin: 1rem 0;
 }
 
 li {
