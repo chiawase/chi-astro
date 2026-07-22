@@ -146,6 +146,13 @@ const fallbackTitle = "Chi’s blog post";
     max-width: 50rem;
   }
 
+  @media (max-width: 87.5rem) {
+    /* center content in table views or in awkward desktop states */
+    .e-content {
+      margin: 0 auto;
+    }
+  }
+
   @media (max-width: 896px) {
     .e-content {
       max-width: none;
@@ -192,7 +199,6 @@ const fallbackTitle = "Chi’s blog post";
 
   @media (min-width: 896px) {
     .post-feedback {
-      /*grid-template-columns: 1fr 1fr;*/
       align-items: start;
     }
   }

@@ -114,6 +114,29 @@ const fallbackTitle = "Chi’s blog post";
 
 
 <style>
+  .h-entry h1 {
+    -webkit-hyphens: unset;
+    -moz-hyphens: unset;
+    -ms-hyphens: unset;
+    hyphens: unset; /* Only for the blog titles */
+  }
+  
+  .e-content {
+    max-width: 50rem;
+  }
+  
+  @media (max-width: 87.5rem) {
+    /* center content in table views or in awkward desktop states */
+    .e-content {
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 896px) {
+    .e-content {
+      max-width: none;
+    }
+  }
   .links-nextprev {
     display: flex;
     justify-content: space-between;
