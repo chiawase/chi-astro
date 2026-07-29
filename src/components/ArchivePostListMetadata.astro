@@ -2,6 +2,7 @@
 import FormattedDate from "@components/FormattedDate.astro";
 
 interface Props {
+  postSource?: string;
   postTags: string[] | undefined;
   postSlug: string;
   postDate: Date;
@@ -9,6 +10,7 @@ interface Props {
 }
 
 const {
+  postSource,
   postTags,
   postSlug,
   postDate,
@@ -29,7 +31,7 @@ const hasTags = Array.isArray(postTags) && postTags.length > 0;
   </li>
   <li>
     <span class="post-reading-time">{postReadingTime}</span>
-    {hasTags && (<span class="post-metadata-separator"></span>)}
+    {(hasTags || postSource) && (<span class="post-metadata-separator"></span>)}
   </li>
   {hasTags && (<li>
     <div class="postlist-tags">
@@ -37,5 +39,9 @@ const hasTags = Array.isArray(postTags) && postTags.length > 0;
         <a href=`/tags/${t}/` class="post-tag p-category">{t}</a>
       ))}
     </div>
+    {postSource && (<span class="post-metadata-separator"></span>)}
   </li>)}
+  {postSource && (
+    <li><a href=`/archive/${postSource}/` class={`post-tag post-source source-${postSource}`}>{postSource}</a></li>
+  )}
 </ul>

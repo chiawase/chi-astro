@@ -1,6 +1,7 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content";
 import { SITE_URL, SITE_AUTHOR } from "@consts";
+import { ARCHIVE_SOURCES } from "@data/archiveSources";
 
 import Page from "@layouts/Page.astro";
 
@@ -38,6 +39,12 @@ const nextPost =
 
 const hasRealTitle = Boolean(post.data.title && post.data.title.trim().length > 0);
 const fallbackTitle = "Chi’s blog post";
+
+const isPoetry = Boolean(post.data.tags?.includes("poems") || post.data.tags?.includes("poetry") || post.data.tags?.includes("poem"));
+
+const sourceMeta = ARCHIVE_SOURCES.find(
+  (s) => s.source === post.data.source && s.enabled !== false && s.url !== "/archive/"
+);
 ---
 
 <Page
@@ -48,6 +55,9 @@ const fallbackTitle = "Chi’s blog post";
 >
 
   <article class="h-entry">
+    <div id="redirect-banner" hidden class="redirect-banner">
+      Redirected from an old URL. This post is now at its permanent home.
+    </div>
     {post.data.title && (
       <>
         {hasRealTitle ? (
@@ -57,6 +67,7 @@ const fallbackTitle = "Chi’s blog post";
         <h1 class="p-name visually-hidden">{fallbackTitle}</h1>
       )}
       <ArchivePostMetadata
+        postSource={post.data.source}
         postTags={post.data.tags}
         postSlug={slug}
         postDate={post.data.date}
@@ -89,11 +100,15 @@ const fallbackTitle = "Chi’s blog post";
         class="p-note"></data>
     </div>
 
-    <div class="e-content">
+    <div class={`e-content ${isPoetry ? "poetry" : ""}`}>
       <slot />
     </div>
 
+    {post.data.originalUrl && sourceMeta?.publicationTitle && (
+      <p class="original-source">Originally published on{" "}<a href={post.data.originalUrl} rel="external">{sourceMeta.publicationTitle}</a></p>
+    )}
     <ArchivePostMetadata
+      postSource={post.data.source}
       postTags={post.data.tags}
       postSlug={slug}
       postDate={post.data.date}
@@ -105,7 +120,10 @@ const fallbackTitle = "Chi’s blog post";
   <ul class="links-nextprev">
     {prevPost && (
       <li class="links-nextprev-prev">
-        <a href={`/archive/${prevPost.id}/`}>← Previous</a>
+        <a href={prevPost.data.source
+            ? `/archive/${prevPost.data.source}/${prevPost.id}/`
+            : `/archive/${prevPost.id}/`}
+          >← Previous</a>
         <span class="post-title-prev">
           {prevPost.data.title ??
             `${prepareOgText(prevPost.body ?? "", { maxLength: 60 })}`}
@@ -114,7 +132,10 @@ const fallbackTitle = "Chi’s blog post";
     )}
     {nextPost && (
       <li class="links-nextprev-next">
-        <a href={`/archive/${nextPost.id}/`}>Next →</a>
+        <a href={nextPost.data.source
+            ? `/archive/${nextPost.data.source}/${nextPost.id}/`
+            : `/archive/${nextPost.id}/`}
+          >Next →</a>
         <span class="post-title-next">
           {nextPost.data.title ??
             `${prepareOgText(nextPost.body ?? "", { maxLength: 60 })}`}
@@ -144,6 +165,17 @@ const fallbackTitle = "Chi’s blog post";
   
   .e-content {
     max-width: 50rem;
+  }
+
+  .e-content.poetry {
+    white-space: pre-wrap;
+  }
+
+  .original-source {
+    font-style: italic;
+    font-size: 0.85rem;
+    color: var(--color-gray-50);
+    margin-block-start: 1rem;
   }
   
   @media (max-width: 87.5rem) {
@@ -184,3 +216,11 @@ const fallbackTitle = "Chi’s blog post";
     margin: 0 auto;
   }
 </style>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("from") === "archive") {
+    const banner = document.getElementById("redirect-banner");
+    if (banner) banner.removeAttribute("hidden");
+    history.replaceState({}, "", window.location.pathname);
+  }
+</script>

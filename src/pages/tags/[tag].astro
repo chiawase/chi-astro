@@ -7,12 +7,15 @@ import BlogPostItem from "@components/BlogPostItem.astro";
 import getWebmentions from "@utils/webmentions";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("blog", ({ data }) => {
+  const blogPosts = await getCollection("blog", ({ data }) => {
+    return !data.draft || data.title?.startsWith("<%");
+  });
+  const archivePosts = await getCollection("archive", ({ data }) => {
     return !data.draft || data.title?.startsWith("<%");
   });
 
   const tags = new Set<string>();
-  for (const post of posts) {
+  for (const post of [...blogPosts, ...archivePosts]) {
     for (const t of post.data.tags ?? []) {
       const normalized = String(t).trim();
       if (normalized) tags.add(normalized);
@@ -20,7 +23,7 @@ export async function getStaticPaths() {
   }
 
   return Array.from(tags).map((t) => ({
-    params: { tag: encodeURIComponent(t.trim().toLowerCase()) },
+    params: { tag: t.trim().toLowerCase() },
     props: { tag: t },
   }));
 }
@@ -31,13 +34,20 @@ type Props = {
 
 const { tag } = Astro.props;
 
-const posts = await getCollection("blog", ({ data }) => {
+const blogPosts = await getCollection("blog", ({ data }) => {
+  return !data.draft || data.title?.startsWith("<%");
+});
+const archivePosts = await getCollection("archive", ({ data }) => {
   return !data.draft || data.title?.startsWith("<%");
 });
 
-const taggedPosts = posts
+const taggedPosts = [...blogPosts, ...archivePosts]
   .filter((p) => (p.data.tags ?? []).includes(tag) && (!(p.id).startsWith("_")) && !p.data.draft)
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  .sort((a, b) => {
+    const aDate = ("pubDate" in a.data ? a.data.pubDate : a.data.date).valueOf();
+    const bDate = ("pubDate" in b.data ? b.data.pubDate : b.data.date).valueOf();
+    return bDate - aDate;
+  });
 
 /* Get webmentions for all posts */
 const webmentions = await getWebmentions();
@@ -99,7 +109,11 @@ for (const wm of allWebmentions) {
       style=`--postslist-index: ${taggedPosts.length+1};`
     >
         {taggedPosts.map((post) => {
-          const targetUrl = new URL(`/blog/${post.id}/`, Astro.site).href;
+          const data = post.data as { source?: string };
+          const targetUrl = new URL(
+            data.source ? `/archive/${data.source}/${post.id}/` : `/blog/${post.id}/`,
+            Astro.site,
+          ).href;
           const wmSummary = summaryByTarget.get(normalizeUrlKey(targetUrl)) ??
             { likes: 0, reposts: 0, replies: 0, mentionOfs: 0 };
           return (<BlogPostItem

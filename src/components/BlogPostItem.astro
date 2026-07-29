@@ -6,7 +6,7 @@ import { prepareOgText } from "@utils/prepareOgText";
 import { getReadingTime } from "@utils/readingTime";
 
 interface Props {
-  post: CollectionEntry<"blog">;
+  post: CollectionEntry<"blog"> | CollectionEntry<"archive">;
   wmSummary?: {
     likes: number;
     reposts: number;
@@ -19,15 +19,24 @@ const { post, wmSummary } = Astro.props;
 
 // Calculate reading time using `body` property
 const postReadingTime = getReadingTime(post.body ?? "");
+
+const hasSource = "source" in post.data && post.data.source;
+const postUrl = hasSource
+  ? `/archive/${post.data.source}/${post.id}/`
+  : `/blog/${post.id}/`;
+const postDate = "pubDate" in post.data ? post.data.pubDate : post.data.date;
+const postLanguage = "postLanguage" in post.data
+  ? post.data.postLanguage ?? undefined
+  : undefined;
 ---
 
 <li class="postlist-item">
   {/* if with title */}
   {post.data.title && (
-      <a href={`/blog/${post.id}/`} class="postlist-link postlist-header">
-        {post.data.title}
-      </a>
-    )}
+    <a href={postUrl} class="postlist-link postlist-header">
+      {post.data.title}
+    </a>
+  )}
 
   {/* “summary” equivalent */}
   <p class="postlist-description">
@@ -36,9 +45,9 @@ const postReadingTime = getReadingTime(post.body ?? "");
   </p>
   <PostListMetadata
     postTags={post.data.tags}
-    postSlug={post.id}
-    postDate={post.data.pubDate}
-    postLanguage={post.data.postLanguage ?? undefined}
+    postUrl={postUrl}
+    postDate={postDate}
+    postLanguage={postLanguage}
     postReadingTime={postReadingTime}
     wmSummary={wmSummary}
   />

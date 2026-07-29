@@ -2,9 +2,9 @@
 import { getCollection } from "astro:content";
 import Page from "@layouts/Page.astro";
 
-const posts = await getCollection("blog", ({ data }) => {
-  return !data.draft;
-});
+const blogPosts = await getCollection("blog", ({ data }) => !data.draft);
+const archivePosts = await getCollection("archive", ({ data }) => !data.draft);
+const posts = [...blogPosts, ...archivePosts];
 
 const tagCounts = new Map<string, number>();
 for (const post of posts) {
@@ -16,17 +16,18 @@ for (const post of posts) {
   }
 }
 
-
 // sorted alphabetically
 const tagsSorted = Array.from(tagCounts.entries()).sort(([a], [b]) =>
   a.localeCompare(b, undefined, { sensitivity: "base" }),
 );
 
 const tagToSlug = (tag: string) => encodeURIComponent(tag.trim().toLowerCase());
+
+const tagsPageDescription = "All tags related to posts made in this blog. Also contains the tags from my Archives!";
 ---
 
-<Page title="Tags" description="All tags related to posts made in this blog.">
-  <blockquote>The tags listed here are still all just from my <a href="/blog/">Blog</a> page. I’m still thinking if I should also add the posts that show up in my <a href="/archive/">Archive</a>.</blockquote>
+<Page title="Tags" description={tagsPageDescription}>
+  <p>{tagsPageDescription}</p>
   {tagsSorted.length ? (
     <ul>
       {tagsSorted.map(([tag, count]) => (
@@ -40,3 +41,29 @@ const tagToSlug = (tag: string) => encodeURIComponent(tag.trim().toLowerCase());
     <p>No tags yet.</p>
   )}
 </Page>
+<style>
+:root {
+  --column-count: 4;
+  --column-gap: 1rem;
+}
+ul {
+  -moz-column-count: var(--column-count);
+  -moz-column-gap: var(--column-gap);
+  -webkit-column-count: var(--column-count);
+  -webkit-column-gap: var(--column-gap);
+  column-count: var(--column-count);
+  column-gap: var(--column-gap);
+}
+
+@media (max-width: 896px) {
+  :root {
+    --column-count: 3;
+  }
+}
+
+@media (max-width: 548px) {
+  :root {
+    --column-count: 2;
+  }
+}
+</style>

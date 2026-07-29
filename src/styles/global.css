@@ -432,7 +432,8 @@ div[data-remark-code-title] + pre {
   border-bottom-left-radius: 0.4rem;
 }
 
-blockquote {
+blockquote,
+.redirect-banner {
   border-left: 2px solid var(--text-color-link);
   margin-left: 0;
   padding: 1em;
@@ -444,7 +445,8 @@ blockquote {
 }
 
 @media (max-width: 896px) {
-  blockquote {
+  blockquote,
+  .redirect-banner {
     width: 100%;
   }
 }

@@ -37,8 +37,13 @@ const { current } = Astro.props as { current?: string };
 .archive-source-nav ul {
   list-style: none;
   padding: 0;
-  display: grid;
+  display: flex;
+  justify-content: space-evenly;
   gap: 0.5rem;
+}
+
+.archive-source-nav ul li {
+  flex: 1 0 calc(100%/3);
 }
 
 .archive-source-description {

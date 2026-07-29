@@ -17,12 +17,12 @@ const postReadingTime = getReadingTime(post.body ?? "");
 
 <li class="postlist-item">
   {/* if with title */}
-  {post.data.source && (
-    <span class={`archive-source-badge source-${post.data.source}`}>{post.data.source}</span>
-  )}
   {post.data.title && (
-      <a href={`/archive/${post.id}/`} class="postlist-link postlist-header">
-        {post.data.title}
+      <a href={post.data.source
+          ? `/archive/${post.data.source}/${post.id}/`
+          : `/archive/${post.id}/`}
+        class="postlist-link postlist-header">
+          {post.data.title}
       </a>
     )}
 
@@ -32,6 +32,7 @@ const postReadingTime = getReadingTime(post.body ?? "");
       prepareOgText(post.body ?? "", { maxLength: 180 })}
   </p>
   <ArchivePostListMetadata
+    postSource={post.data.source}
     postTags={post.data.tags}
     postSlug={post.id}
     postDate={post.data.date}

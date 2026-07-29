@@ -4,7 +4,7 @@ import WebmentionsSummary from "@components/WebmentionsSummary.astro";
 
 interface Props {
   postTags: string[] | undefined;
-  postSlug: string;
+  postUrl: string;
   postDate: Date;
   postLanguage?: string;
   postReadingTime?: string;
@@ -18,7 +18,7 @@ interface Props {
 
 const {
   postTags,
-  postSlug,
+  postUrl,
   postDate,
   postLanguage,
   postReadingTime,
@@ -37,7 +37,7 @@ const hasAnyWebmentions = (likesSize + repostsSize + repliesSize + mentionsOfSiz
 
 <ul class="post-metadata">
   <li>
-    <a href=`/blog/${postSlug}/` class="postlist-link">
+    <a href={postUrl} class="postlist-link">
     <FormattedDate
       dateType="published"
       dateString={postDate}
