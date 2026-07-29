@@ -1,8 +1,24 @@
 ---
 title: "Summer Romance"
 date: 2013-05-31T16:25:14+08:00
-tags: ["closeness","emotion","experience","feeling","love","passage","romance","shorts","summer","summer-romance","thinking","thoughts","time"]
+tags:
+  [
+    "closeness",
+    "emotion",
+    "experience",
+    "feeling",
+    "love",
+    "passage",
+    "romance",
+    "shorts",
+    "summer",
+    "summer-romance",
+    "thinking",
+    "thoughts",
+    "time",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/05/31/summer-romance/"
 ---
 
 I hate summer romance.
@@ -23,7 +39,7 @@ And when you tell someone else all of these experiences, you'll find out they ha
 
 That's the illusion of summer. You suddenly feel closer to others. You think you don't have to say anything else; they understand it perfectly. From the way they talk to you to their body language, you think and feel like you understand perfectly.
 
-*It's summer, anyway. It'll just pass.*
+_It's summer, anyway. It'll just pass._
 
 Maybe that's why summer feels so special. It leaves a mark in your mind every year, so you never forget it. Something always happens, whatever small thing it is, and it'll leave a mark somewhere.
 

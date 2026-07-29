@@ -1,11 +1,26 @@
 ---
 title: "Kausap"
 date: 2015-05-05T21:00:00+08:00
-tags: ["filipino","ikaw","isip","kanta","kausap","malayo","pansin","poems","random","reply","shorts","tagalog"]
+tags:
+  [
+    "filipino",
+    "ikaw",
+    "isip",
+    "kanta",
+    "kausap",
+    "malayo",
+    "pansin",
+    "poems",
+    "random",
+    "reply",
+    "shorts",
+    "tagalog",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2015/05/05/kausap/"
 ---
 
-*Natawa lang ako sa situation nung person. Haha. Enjoy :)*
+_Natawa lang ako sa situation nung person. Haha. Enjoy :)_
 
 ---
 

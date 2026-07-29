@@ -1,8 +1,9 @@
 ---
 title: "-- written in the light --"
 date: 2013-04-20T10:33:10+08:00
-tags: ["cold","leaving","light","love","poems","written"]
+tags: ["cold", "leaving", "light", "love", "poems", "written"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/04/20/written-in-the-light/"
 ---
 
 the walls only have
@@ -16,5 +17,5 @@ to come back again
 
 ---
 
-*Was supposed to be posted the morning after April 5 (when *-written in the dark- was posted), but I forgot.
+*Was supposed to be posted the morning after April 5 (when *-written in the dark- was posted), but I forgot.
 So here.

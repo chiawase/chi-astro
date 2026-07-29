@@ -1,8 +1,19 @@
 ---
 title: "It is done."
 date: 2013-05-22T05:57:20+08:00
-tags: ["beginning","end","hurt","it-is-done","love","pain","shorts","thoughts"]
+tags:
+  [
+    "beginning",
+    "end",
+    "hurt",
+    "it-is-done",
+    "love",
+    "pain",
+    "shorts",
+    "thoughts",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/05/22/it-is-done/"
 ---
 
 It is done.

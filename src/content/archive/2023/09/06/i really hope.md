@@ -2,11 +2,11 @@
 tags: ["cycling"]
 bluesky:
   id: bafyreidkp4sozn4pgsvb5u5lc7a37q3enla7ovkwzh2kigu5e2eqk766d4
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k6pj7nelqg2s'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k6pj7nelqg2s'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k6pj7nelqg2s"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k6pj7nelqg2s"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-09-06T15:35:52+0800
 mastodon:
   id: 111017050388926910

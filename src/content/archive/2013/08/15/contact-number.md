@@ -1,8 +1,27 @@
 ---
 title: "Contact Number"
 date: 2013-08-15T18:49:31+08:00
-tags: ["busy","cell-phone","communication","contact","coverage","coverage-area","inccorect","message","number","person","poems","random","range","shorts","telephone","thoughts"]
+tags:
+  [
+    "busy",
+    "cell-phone",
+    "communication",
+    "contact",
+    "coverage",
+    "coverage-area",
+    "inccorect",
+    "message",
+    "number",
+    "person",
+    "poems",
+    "random",
+    "range",
+    "shorts",
+    "telephone",
+    "thoughts",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/08/15/contact-number/"
 ---
 
 The number you have dialed

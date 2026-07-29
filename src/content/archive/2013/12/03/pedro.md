@@ -1,8 +1,10 @@
 ---
+
 title: "Pedro (?)"
 date: 2013-12-03T15:00:02+08:00
 tags: ["bisikleta","dati","filipino","kasama","opportunity","oras","pagkakataon","pedro","poem","poems","random","tagalog","thoughts"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/12/03/pedro/"
 ---
 
 Habang nagbibisikleta

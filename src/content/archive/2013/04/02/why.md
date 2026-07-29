@@ -1,8 +1,9 @@
 ---
 title: "why"
-date: 2013-04-02T09:35:16+08:00
-tags: ["life","poems"]
+date: 2012-11-16T09:35:16+08:00
+tags: ["life", "poems"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/04/02/why/"
 ---
 
 Welcome to the world
@@ -37,7 +38,3 @@ always hoping
 because we're not sure;
 life manages to surprise
 even the most experienced man.
-
----
-
-*originally published on November 16, 2012. *

@@ -1,8 +1,19 @@
 ---
 title: "Talk."
 date: 2014-06-23T19:18:40+08:00
-tags: ["communication","moment","monologue","organize","poems","talk","thoughts","wait"]
+tags:
+  [
+    "communication",
+    "moment",
+    "monologue",
+    "organize",
+    "poems",
+    "talk",
+    "thoughts",
+    "wait",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2014/06/23/talk/"
 ---
 
 Talk to me.
@@ -16,7 +27,7 @@ I'm here if you want to talk.
 You know that.
 I'm ready to listen to you talk.
 ...
-*Nothing?*
+_Nothing?_
 You really have nothing to say?
 You're serious about this -- nothing?
 Come on, you know it's not 'nothing'.
@@ -32,7 +43,7 @@ Just open your fucking mouth and speak!
 Why the hell can't you do that?
 Just let go of whatever anxiety you have!
 You want to share it, right?
-*It's so hard to deal with you!*
+_It's so hard to deal with you!_
 ...
 ...
 ...
@@ -42,7 +53,7 @@ Why did I let this happen. No.
 I should start talking-- no!
 What do I say? -- oh no.
 ...
-You know what, I'll just-- *wait, please don't go-- *You don't want to talk to me anyway, so-- *Please spare a moment! No-- *If you want to do that, that's fine--* I just need a minute to organize--* You don't even trust me anyway-- *I trust you! I trust you, I just--* You don't even want to talk to me-- *Why is it so hard to open up--* someone you love-- *about things like this, unnecessary*-- you know you can talk to me about anything-- *I know, I know*...
+You know what, I'll just-- *wait, please don't go-- *You don't want to talk to me anyway, so-- _Please spare a moment! No-- *If you want to do that, that's fine--* I just need a minute to organize--_ You don't even trust me anyway-- _I trust you! I trust you, I just--_ You don't even want to talk to me-- _Why is it so hard to open up--_ someone you love-- _about things like this, unnecessary_-- you know you can talk to me about anything-- _I know, I know_...
 ...
 ...
 ...

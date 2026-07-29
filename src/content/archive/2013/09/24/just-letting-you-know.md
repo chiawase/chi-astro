@@ -1,8 +1,26 @@
 ---
 title: "Just letting you know."
 date: 2013-09-24T21:35:28+08:00
-tags: ["annoyance","decisiveness","event","know","maybe","maybe-not","moment","nothing","problem","random","related","shorts","something","thoughts","you"]
+tags:
+  [
+    "annoyance",
+    "decisiveness",
+    "event",
+    "know",
+    "maybe",
+    "maybe-not",
+    "moment",
+    "nothing",
+    "problem",
+    "random",
+    "related",
+    "shorts",
+    "something",
+    "thoughts",
+    "you",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/09/24/just-letting-you-know/"
 ---
 
 I don't know, man.

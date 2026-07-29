@@ -1,8 +1,19 @@
 ---
-title: "\"bakit ganito?\""
+title: '"bakit ganito?"'
 date: 2014-01-08T18:50:55+08:00
-tags: ["bakit","bigat","damdamin","expectation","filipino","tagalog","thoughts","umaasa"]
+tags:
+  [
+    "bakit",
+    "bigat",
+    "damdamin",
+    "expectation",
+    "filipino",
+    "tagalog",
+    "thoughts",
+    "umaasa",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2014/01/08/bakit-ganito/"
 ---
 
 hindi ko alam kung ano
@@ -22,9 +33,10 @@ pwede ka pa rin masanay
 hindi ba pwedeng magkaroon
 ng sariling pagkakataon
 na hindi ako pinipilit
+
 - o kaya parang naipit sa sipit -
-isang sitwasyon na tama lang
-kung saan kalmado lang
+  isang sitwasyon na tama lang
+  kung saan kalmado lang
 
 maiintindihan mo ba
 kung sabihin ko na

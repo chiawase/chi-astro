@@ -1,14 +1,14 @@
 ---
 title: "Cooking and preparing the ingredients for a dish helped me appreciate food more"
 summary: "My partner and I recently cooked a lot of food this weekend, and it got me to appreciate food and the ingredients that make sup the dishes we prepared. And I say this for both a dish I really loved as I grew up (sinigang) and another dish that I only recently started liking (curry rice). For this post I wanted to talk more about how cooking sinigang got me to appreciate it more as one of my favorite Filipino dishes."
-tags: ["writing","cooking"]
+tags: ["writing", "cooking"]
 bluesky:
   id: bafyreihzziwpkqcgmw5envkrqdjlj5vag4jc645y32jx2ne7we7lplpzxa
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3laon7k4dy22a'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3laon7k4dy22a'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3laon7k4dy22a"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3laon7k4dy22a"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2024-11-11T23:31:16+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2024/photo-2024-11-11-23-28-47.jpg
@@ -19,10 +19,12 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2024/photo-2024-11-11-23-28-47.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2024/photo-2024-11-11-23-28-47.jpg
+  - url: https://cdn.uploads.micro.blog/113466/2024/photo-2024-11-11-23-28-47.jpg
 source: microblog
 ---
+
 <!-- markdownlint-disable MD013 -->
+
 My partner and I recently cooked a lot of food this weekend, and it got me to appreciate food and the ingredients that make sup the dishes we prepared. And I say this for both a dish I really loved as I grew up (sinigang) and another dish that I only recently started liking (curry rice). For this post I wanted to talk more about how cooking sinigang got me to appreciate it more as one of my favorite Filipino dishes.
 
 ![Sinigang na baboy in a pot and placed on a dining table. A bowl of rice is seen behind the pot, as well as some utensils and a placemat. Pieces of labanos and kangkong are floating on the top of the sabaw, and the sinigang looks like its signature orangey color.](/uploads/2024/photo-2024-11-11-23-28-47.jpg)
@@ -45,7 +47,7 @@ After it all blended together and we got rice on our plates already, I savored e
 
 It was a lot to prep, but the fact that cooking sinigang already sets you up for at least 2 days (for a 2-person household) makes it worth as a dish to just have ready at home.
 
-Earlier we finished the rest of the sinigang, and it was the first time I really got all the sabaw and other ingredients left in the pot and placed on my plate. I had newfound appreciation for a dish that reminded me of home. 
+Earlier we finished the rest of the sinigang, and it was the first time I really got all the sabaw and other ingredients left in the pot and placed on my plate. I had newfound appreciation for a dish that reminded me of home.
 
 In the future, I am open to adding more of the other ingredients we didn't initially have for this dish to learn how those other ingredients work together in sinigang. Hopefully this time around I wouldn't be putting them aside on my plate and I grow out of my picky eating habit. I'm happy I'm at a point now where I'm trying out more dishes since we cook them at home, and that I'm even learning more about dishes I was already a bit familiar with.
 

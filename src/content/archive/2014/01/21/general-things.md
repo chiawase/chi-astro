@@ -1,8 +1,31 @@
 ---
 title: "General Things"
 date: 2014-01-21T20:55:34+08:00
-tags: ["air","book","earth","enough","existence","general","language","library","life","page","people","place","poems","random","sky","specific","stars","thoughts","time","written"]
+tags:
+  [
+    "air",
+    "book",
+    "earth",
+    "enough",
+    "existence",
+    "general",
+    "language",
+    "library",
+    "life",
+    "page",
+    "people",
+    "place",
+    "poems",
+    "random",
+    "sky",
+    "specific",
+    "stars",
+    "thoughts",
+    "time",
+    "written",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2014/01/21/general-things/"
 ---
 
 We're both in the same place,

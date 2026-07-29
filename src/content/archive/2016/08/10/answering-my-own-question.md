@@ -1,8 +1,9 @@
 ---
 title: "Answering my own question"
 date: 2016-08-10T23:21:46+08:00
-tags: ["personal","shorts","thoughts"]
+tags: ["personal", "shorts", "thoughts"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2016/08/10/answering-my-own-question/"
 ---
 
 I have been feeling more scared over things I have little to no control over. All these what-ifs clouding my mind with scenes that rarely happen. What if this makes you angry? What if I don't get in? What if I become like them? What if I'm not good enough?

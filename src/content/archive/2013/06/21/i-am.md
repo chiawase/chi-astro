@@ -1,8 +1,26 @@
 ---
 title: "I am:"
 date: 2013-06-21T17:17:14+08:00
-tags: ["alone","cloud","coin","distant","eraser","isolation","leaf","loneliness","lonely","random","space","star","thoughts","value","wandering"]
+tags:
+  [
+    "alone",
+    "cloud",
+    "coin",
+    "distant",
+    "eraser",
+    "isolation",
+    "leaf",
+    "loneliness",
+    "lonely",
+    "random",
+    "space",
+    "star",
+    "thoughts",
+    "value",
+    "wandering",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/06/21/i-am/"
 ---
 
 I am a wandering cloud -- I mix in with the other clouds in the sky, doing my job of cooling the earth down when needed most. I float amongst the heavens, in the skies where no one else can touch me. My form may change however I wish, but I remain the same: I am a wandering cloud.

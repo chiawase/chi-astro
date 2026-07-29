@@ -1,8 +1,20 @@
 ---
 title: "Even If"
 date: 2013-05-18T08:25:09+08:00
-tags: ["even-if","happiness","happy-thoughts","sadness","shorts","thoughts","today","worth","worthwhile"]
+tags:
+  [
+    "even-if",
+    "happiness",
+    "happy-thoughts",
+    "sadness",
+    "shorts",
+    "thoughts",
+    "today",
+    "worth",
+    "worthwhile",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/05/18/even-if/"
 ---
 
 Even if the day takes its toll on your exhausted body; even when you think that you don't want to do anything anymore -- it's all worth it in the end.

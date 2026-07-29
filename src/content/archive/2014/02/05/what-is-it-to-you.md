@@ -1,8 +1,27 @@
 ---
 title: "What is it to you?"
 date: 2014-02-05T19:12:35+08:00
-tags: ["all","everything","failure","fool","heart","ignorant-fool","importance","love","mind","poems","random","realize","self","thoughts","trust","you"]
+tags:
+  [
+    "all",
+    "everything",
+    "failure",
+    "fool",
+    "heart",
+    "ignorant-fool",
+    "importance",
+    "love",
+    "mind",
+    "poems",
+    "random",
+    "realize",
+    "self",
+    "thoughts",
+    "trust",
+    "you",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2014/02/05/what-is-it-to-you/"
 ---
 
 What else are you holding back?

@@ -1,11 +1,28 @@
 ---
 title: "[NaPoWriMo 2015] Conversations"
 date: 2015-04-04T17:09:03+08:00
-tags: ["2015","conversations","fear","hiding","mind","monster","monstrosity","napowrimo","overcome","personal","poems","scared","tame","will"]
+tags:
+  [
+    "2015",
+    "conversations",
+    "fear",
+    "hiding",
+    "mind",
+    "monster",
+    "monstrosity",
+    "napowrimo",
+    "overcome",
+    "personal",
+    "poems",
+    "scared",
+    "tame",
+    "will",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2015/04/04/napowrimo-2015-conversations/"
 ---
 
-*This is for the [third prompt](http://www.napowrimo.net/day-three/), wherein we write a fourteener. I wanted to write something more... cheerful, but this is what came into my mind last night. And I couldn't think of anything else to write for that matter. So, here you go.*
+_This is for the [third prompt](http://www.napowrimo.net/day-three/), wherein we write a fourteener. I wanted to write something more... cheerful, but this is what came into my mind last night. And I couldn't think of anything else to write for that matter. So, here you go._
 
 ---
 

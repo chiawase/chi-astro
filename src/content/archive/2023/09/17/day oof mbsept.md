@@ -1,13 +1,13 @@
 ---
 title: "📷 Day 16: oof! #mbsept"
-tags: ["Photoblogging Challenges","mbSept"]
+tags: ["Photoblogging Challenges", "mbSept"]
 bluesky:
   id: bafyreiery6lmj6q472vfhsf3kgxo5a5aqr4ahlligyoo2mpo2vj42yx34i
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k7kaygvq3x2f'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k7kaygvq3x2f'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k7kaygvq3x2f"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k7kaygvq3x2f"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-09-17T06:50:31+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/e8b122988cc04b5393fe60ea97c3f3fb.jpg
@@ -18,9 +18,9 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2023/e8b122988cc04b5393fe60ea97c3f3fb.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/e8b122988cc04b5393fe60ea97c3f3fb.jpg
-  width: 337
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2023/e8b122988cc04b5393fe60ea97c3f3fb.jpg
+    width: 337
+    height: 600
 url: /2023/09/17/day-oof-mbsept.html
 source: microblog
 ---

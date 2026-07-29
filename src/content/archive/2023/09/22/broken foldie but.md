@@ -3,11 +3,11 @@ title: "Broken foldie, but lucky nonetheless: my World Car-Free Day experience"
 tags: ["cycling", "writing"]
 bluesky:
   id: bafyreies4utdho4qhgn77f27ti6xothfniczxbnoioz2j2a2fxzoobfcsq
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k7yahgbiaa2u'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k7yahgbiaa2u'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k7yahgbiaa2u"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k7yahgbiaa2u"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-09-22T20:18:08+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/04ec152629.jpg
@@ -22,9 +22,9 @@ photos:
   - https://cdn.uploads.micro.blog/113466/2023/d80ce57bdc.jpg
   - https://cdn.uploads.micro.blog/113466/2023/media.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/media.jpg
-- url: https://cdn.uploads.micro.blog/113466/2023/d80ce57bdc.jpg
-- url: https://cdn.uploads.micro.blog/113466/2023/04ec152629.jpg
+  - url: https://cdn.uploads.micro.blog/113466/2023/media.jpg
+  - url: https://cdn.uploads.micro.blog/113466/2023/d80ce57bdc.jpg
+  - url: https://cdn.uploads.micro.blog/113466/2023/04ec152629.jpg
 url: /2023/09/22/broken-foldie-but.html
 source: microblog
 ---
@@ -45,7 +45,7 @@ But, as I tried to pedal, the shifting seemed to get stuck. I was thinking maybe
 
 *side note: I just got this term from a friend online when I shared what happened. I just knew something broke on my rear derailleur. I didn't know what part. But that seems to be the name. 😅
 
-I immediately knew I couldn't ride home on my bike, even if I did consider for a second turning my bike into a single-speed one so at least I could just bring it home... But I didn't know how to do that. 
+I immediately knew I couldn't ride home on my bike, even if I did consider for a second turning my bike into a single-speed one so at least I could just bring it home... But I didn't know how to do that.
 
 The next thing I remembered was my teammate who I said goodbye to earlier. I immediately texted them to ask if they'd gone home already since we're also neighbors. They said that they were still just waiting for their Grab (a ride-sharing service in SEA). I asked if I could hitch a ride with them, and they said sure. So I was really lucky I got to come with them, otherwise, I might have waited outside my office for maybe an hour or so, just waiting to get a ride-share booking. That's how it usually is on Friday nights around my office.
 
@@ -55,7 +55,7 @@ We eventually got to the drop-off point, and I thanked my teammate for letting m
 
 I made my way to the side of the road, and one of the guards from the condominium where my teammate lives saw me rolling my folded bike. They saw my loose chain and asked, "Broken chain?" I just initially said yes since I didn't think it was important to explain that it wasn't the chain that broke, but the tensioner*.
 
-The guard then helped me hail a tricycle so I could go home. Thankfully the driver also seemed friendly;  I shared with him what happened as we made our way back to where I lived, which was around 1-2km away.
+The guard then helped me hail a tricycle so I could go home. Thankfully the driver also seemed friendly; I shared with him what happened as we made our way back to where I lived, which was around 1-2km away.
 
 ![Chi's folding bike in the middle of a tricycle's cabin, folded neatly to fit within the seat. Chi's bag, which usually is attached to the front of the bike, is found on the right side of the bike, near the tricycle's entrance, to help keep it in place as the trip goes on.](/uploads/2023/d80ce57bdc.jpg)
 ![A selfie of Chi wearing a mask and at the back of a tricycle, while holding onto her folded folding bike which was neatly tucked in the inner seat of the tricycle. It's a bit blurry because it's dark and the only source of light for the photo is the occasional streetlight.](/uploads/2023/04ec152629.jpg)

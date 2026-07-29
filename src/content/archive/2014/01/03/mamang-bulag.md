@@ -1,8 +1,21 @@
 ---
 title: "Mamang Bulag"
 date: 2014-01-03T10:53:02+08:00
-tags: ["blind","bulag","filipino","mamang-bulag","personal","poems","random","tagalog","thoughts","tula"]
+tags:
+  [
+    "blind",
+    "bulag",
+    "filipino",
+    "mamang-bulag",
+    "personal",
+    "poems",
+    "random",
+    "tagalog",
+    "thoughts",
+    "tula",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2014/01/03/mamang-bulag/"
 ---
 
 naalala ko isang araw, naglalakad ako
@@ -66,4 +79,5 @@ kung makakita kayo ng mamang bulag
 na naglalakad sa tabi niyo?
 
 ---
+
 *Sinulat ng ika-15 ng Hulyo 2013. *

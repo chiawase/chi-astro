@@ -1,13 +1,13 @@
 ---
 title: "📷 Day 13: page #mbApr"
-tags: ["Photoblogging Challenges","mbApr"]
+tags: ["Photoblogging Challenges", "mbApr"]
 bluesky:
   id: bafyreif36pejifcsx5y2d4p7bsgmpwrhbqzain43tb33mmvppt5g3sde6q
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kpygpwpbc622'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kpygpwpbc622'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kpygpwpbc622"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kpygpwpbc622"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2024-04-13T12:53:11+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2024/861eebef01.jpg
@@ -18,9 +18,9 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2024/861eebef01.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2024/861eebef01.jpg
-  width: 450
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2024/861eebef01.jpg
+    width: 450
+    height: 600
 source: microblog
 ---
 

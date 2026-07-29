@@ -1,8 +1,26 @@
 ---
 title: "Baby Steps"
 date: 2013-10-09T16:57:48+08:00
-tags: ["baby-steps","beginning","breeze","decisions","key","poems","rain","random","road","steps","thankful","thoughts","time","try","walking"]
+tags:
+  [
+    "baby-steps",
+    "beginning",
+    "breeze",
+    "decisions",
+    "key",
+    "poems",
+    "rain",
+    "random",
+    "road",
+    "steps",
+    "thankful",
+    "thoughts",
+    "time",
+    "try",
+    "walking",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/10/09/baby-steps/"
 ---
 
 It's been a long time.

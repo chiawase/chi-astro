@@ -1,8 +1,26 @@
 ---
 title: "_"
 date: 2013-10-10T18:50:05+08:00
-tags: ["blank","decisions","focus","life","mantra","next","random","realize","shorts","space","thoughts","uncertain","uncertainty","unsure"]
+tags:
+  [
+    "blank",
+    "decisions",
+    "focus",
+    "life",
+    "mantra",
+    "next",
+    "random",
+    "realize",
+    "shorts",
+    "space",
+    "thoughts",
+    "uncertain",
+    "uncertainty",
+    "unsure",
+    "poems",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/10/10/_/"
 ---
 
 uncertainty is always around the corner. wherever you go, with whomever you meet, whatever time of the day -- it's always there.
@@ -21,14 +39,10 @@ _
 
 you stare at the blank space.
 
- 
-
 keep blinking. it keeps blinking at you.
 
 _
 
 what else can you add?
-
- 
 
 _

@@ -1,8 +1,21 @@
 ---
 title: "Want"
 date: 2013-10-31T21:07:45+08:00
-tags: ["action","do","emotion","movement","poems","random","reaction","smile","thoughts","want"]
+tags:
+  [
+    "action",
+    "do",
+    "emotion",
+    "movement",
+    "poems",
+    "random",
+    "reaction",
+    "smile",
+    "thoughts",
+    "want",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/10/31/want/"
 ---
 
 I want to

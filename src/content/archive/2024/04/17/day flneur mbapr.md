@@ -1,13 +1,13 @@
 ---
 title: "📷 Day 16: flâneur #mbApr"
-tags: ["Photoblogging Challenges","mbApr"]
+tags: ["Photoblogging Challenges", "mbApr"]
 bluesky:
   id: bafyreihlstdahri3xtjmi7kztbdorhlelrkz4wzineqikbct3bnwt2lxgm
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kqc5ipzkjl2j'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kqc5ipzkjl2j'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kqc5ipzkjl2j"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kqc5ipzkjl2j"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2024-04-17T09:33:51+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2024/dc43b0dc1c.jpg
@@ -18,9 +18,9 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2024/dc43b0dc1c.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2024/dc43b0dc1c.jpg
-  width: 450
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2024/dc43b0dc1c.jpg
+    width: 450
+    height: 600
 source: microblog
 ---
 

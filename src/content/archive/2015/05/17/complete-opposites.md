@@ -1,8 +1,22 @@
 ---
+
 title: "Complete Opposites"
 date: 2015-05-17T21:36:55+08:00
-tags: ["balance","change","complete-opposites","different","love","opposites","personal","poems","stating-the-obvious","thoughts"]
+tags:
+  [
+    "balance",
+    "change",
+    "complete-opposites",
+    "different",
+    "love",
+    "opposites",
+    "personal",
+    "poems",
+    "stating-the-obvious",
+    "thoughts",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2015/05/17/complete-opposites/"
 ---
 
 I think it's better that we're complete opposites.
@@ -13,7 +27,7 @@ You would rather stay indoors,
 It would be better if I went out more;
 You love all kinds of food,
 I would be content with eating only a few;
-You like being straight to the point,
+You like being straight to the point,
 I would take a few detours here and there;
 You don't usually care what other people think,
 I, on the other hand... ... well.
@@ -36,7 +50,7 @@ not because of the saying, "opposites attract"--no,
 that is not my point here--
 but because that means we are different in lots of ways
 you fill up the emptiness inside of me,
-I shed some light to your dark days.
+I shed some light to your dark days.
 Although sometimes these differences make it difficult:
 you look up to the past
 I look up to the future,

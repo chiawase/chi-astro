@@ -2,11 +2,11 @@
 tags: ["cycling", "ootd"]
 bluesky:
   id: bafyreiehhtbkh2ooqhauiteubyoyqtekrhvqh6dzak3vwvz3rgis3nirrm
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k33nzcigd32l'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k33nzcigd32l'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k33nzcigd32l"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k33nzcigd32l"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-07-22T13:52:56+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/17c2c93dc1.jpg
@@ -17,9 +17,9 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2023/17c2c93dc1.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/17c2c93dc1.jpg
-  width: 1800
-  height: 2400
+  - url: https://cdn.uploads.micro.blog/113466/2023/17c2c93dc1.jpg
+    width: 1800
+    height: 2400
 url: /2023/07/22/had-to-wear.html
 source: microblog
 ---

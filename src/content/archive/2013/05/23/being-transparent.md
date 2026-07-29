@@ -1,8 +1,20 @@
 ---
 title: "Being transparent"
 date: 2013-05-23T20:00:08+08:00
-tags: ["disappear","entity","invisible","random","shorts","thoughts","transparency","transparentb","world"]
+tags:
+  [
+    "disappear",
+    "entity",
+    "invisible",
+    "random",
+    "shorts",
+    "thoughts",
+    "transparency",
+    "transparentb",
+    "world",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/05/23/being-transparent/"
 ---
 
 There will always be that one day when you feel that you are just a ghost in the wind, where your movements mean nothing to the lives of others. Being invisible, in another phrase. Or simply wishing not to exist anymore, or not to exist at all.
@@ -19,4 +31,4 @@ What would you think?
 
 ---
 
-*Originally written on June 11, 2012*
+_Originally written on June 11, 2012_

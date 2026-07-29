@@ -1,14 +1,14 @@
 ---
 title: "📝 Playing Lean 2: Experience and thoughts while playing"
 summary: "A few weeks ago, I played this board game with my Scrum team. It's called Playing Lean 2, and it was apparently a Kickstarter project!"
-tags: ["writing","games"]
+tags: ["writing", "games"]
 bluesky:
   id: bafyreiairoxw3ef3spdsximylec4ukf7j4wkw4byeztwqfjlm3la3il7yq
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k34gv5ciy42b'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k34gv5ciy42b'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k34gv5ciy42b"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k34gv5ciy42b"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-07-22T21:17:58+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/img-2176.jpeg
@@ -25,10 +25,10 @@ photos:
   - https://cdn.uploads.micro.blog/113466/2023/img-2184.jpeg
   - https://cdn.uploads.micro.blog/113466/2023/img-2185.jpeg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/img-2184.jpeg
-- url: https://cdn.uploads.micro.blog/113466/2023/img-2185.jpeg
-- url: https://cdn.uploads.micro.blog/113466/2023/img-2176.jpeg
-- url: https://cdn.uploads.micro.blog/113466/2023/img-2178.jpeg
+  - url: https://cdn.uploads.micro.blog/113466/2023/img-2184.jpeg
+  - url: https://cdn.uploads.micro.blog/113466/2023/img-2185.jpeg
+  - url: https://cdn.uploads.micro.blog/113466/2023/img-2176.jpeg
+  - url: https://cdn.uploads.micro.blog/113466/2023/img-2178.jpeg
 url: /2023/07/07/playing-lean-experience.html
 source: microblog
 ---
@@ -40,7 +40,7 @@ A few weeks ago, I played this board game with my Scrum team. It's called [**Pla
 
 It was an interesting experience playing it. The gameplay helps you appreciate the product-building process more... AKA if you wanna get things done, it takes time—or turns, in this case—and sometimes you won't have enough resources to do what you wanna do. Just like in real life! 😆🫠
 
-I was amused with all the sprint and product references in the game itself 😝 
+I was amused with all the sprint and product references in the game itself 😝
 
 ![Preview of the pieces and cards of Playing Lean 2, a board game simulating the process of a startup or company managing employees to build certain product features to cater to specific markets.](/uploads/2023/img-2176.jpeg)
 

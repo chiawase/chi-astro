@@ -1,8 +1,19 @@
 ---
 title: "the pattern"
 date: 2017-01-23T21:04:51+08:00
-tags: ["choice","paths","pattern","poems","question","someone","thoughts","time"]
+tags:
+  [
+    "choice",
+    "paths",
+    "pattern",
+    "poems",
+    "question",
+    "someone",
+    "thoughts",
+    "time",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2017/01/23/the-pattern/"
 ---
 
 Remember

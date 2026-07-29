@@ -1,8 +1,10 @@
 ---
+
 title: "A Note to Myself:"
 date: 2013-10-12T01:22:48+08:00
 tags: ["do","doing","feeling","flow","goal","going","life","love","myself","note","random","remember","right","shorts","something","soul","thoughts","wait","write"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/10/12/a-note-to-myself/"
 ---
 
 Don't you just love the feeling of finishing something you've worked so hard on?

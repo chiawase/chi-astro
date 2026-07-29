@@ -1,12 +1,12 @@
 ---
-tags: ["cycling","manga","MARRIAGETOXIN"]
+tags: ["cycling", "manga", "MARRIAGETOXIN"]
 bluesky:
   id: bafyreigt2mzovhvvvrz62enhjv4rewfchquj5q5v63peomsfusesnf6woe
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k53qmlhslx25'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k53qmlhslx25'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k53qmlhslx25"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k53qmlhslx25"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-08-17T01:29:54+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/9366959f09.jpg
@@ -17,9 +17,9 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2023/9366959f09.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/9366959f09.jpg
-  width: 689
-  height: 473
+  - url: https://cdn.uploads.micro.blog/113466/2023/9366959f09.jpg
+    width: 689
+    height: 473
 url: /2023/08/17/me-af-from.html
 source: microblog
 ---

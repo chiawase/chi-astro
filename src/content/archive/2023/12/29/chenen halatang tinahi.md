@@ -1,11 +1,11 @@
 ---
 bluesky:
   id: bafyreidoadkn62zp4hv5j3kouzk7chraabkulyokaoqbgsllogjqnve42e
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3khnxlgfvrm2h'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3khnxlgfvrm2h'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3khnxlgfvrm2h"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3khnxlgfvrm2h"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-12-29T13:34:10+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/c87542cbdc.jpg
@@ -16,9 +16,9 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2023/c87542cbdc.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/c87542cbdc.jpg
-  width: 450
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2023/c87542cbdc.jpg
+    width: 450
+    height: 600
 url: /2023/12/29/chenen-halatang-tinahi.html
 source: microblog
 ---

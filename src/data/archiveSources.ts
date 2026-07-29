@@ -1,5 +1,6 @@
 export type ArchiveSourceEntry = {
   title: string;
+  publicationTitle?: string;
   url: string;
   source: "wordpress" | "microblog" | "tumblr";
   description?: string;
@@ -23,6 +24,7 @@ export const ARCHIVE_SOURCES: ArchiveSourceEntry[] = [
   },
   {
     title: "WordPress",
+    publicationTitle: "A Collection of Thoughts from Yesterday's Tomorrow",
     url: "/archive/wordpress/",
     source: "wordpress",
     description:

@@ -1,11 +1,11 @@
 ---
 bluesky:
   id: bafyreidenozn3jcksj6lhjrcjudo7bzoqfdryye434qad33uccqcurpaey
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3ldhpwjyrhb2y'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3ldhpwjyrhb2y'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3ldhpwjyrhb2y"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3ldhpwjyrhb2y"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2024-12-17T09:46:13+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2024/111490e679.jpg
@@ -20,15 +20,15 @@ photos:
   - https://cdn.uploads.micro.blog/113466/2024/3797d28ca1.jpg
   - https://cdn.uploads.micro.blog/113466/2024/95048bd3ba.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2024/95048bd3ba.jpg
-  width: 450
-  height: 600
-- url: https://cdn.uploads.micro.blog/113466/2024/3797d28ca1.jpg
-  width: 450
-  height: 600
-- url: https://cdn.uploads.micro.blog/113466/2024/111490e679.jpg
-  width: 450
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2024/95048bd3ba.jpg
+    width: 450
+    height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2024/3797d28ca1.jpg
+    width: 450
+    height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2024/111490e679.jpg
+    width: 450
+    height: 600
 source: microblog
 ---
 

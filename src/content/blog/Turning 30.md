@@ -3,12 +3,13 @@ title: "Turning 30"
 summary: Just wanted to share some thoughts as I turn 30 today!
 pubDate: 2026-05-16T08:48:49+00:00
 updatedDate: 2026-05-16T15:38:32+00:00
-tags: 
-- writing
-- thoughts
+tags:
+  - writing
+  - thoughts
 postLanguage: taglish
 ---
-<!-- markdownlint-disable MD013 -->
+
+<!-- markdownlint-disable MD013 MD033 -->
 
 I’m writing this a few minutes before I go to prep for my weekly Saturday birthday kendo <span title="also means practice but has a more deeper meaning aside from just doing drills">keiko</span> 😆 At the start of the year, as I was fixing stuff on my website and knowing I turn 30 this year, I thought I’d do another rendition of [[/archive/2021/09/04/things-i-learned/|my old blog post of 25 things I learned after I turned 25]] but with 5 more items, but… I haven’t really been updating my website for a while. I think… maybe a month or more since my last update?
 
@@ -16,7 +17,7 @@ So instead I’ll just write some thoughts in a few paragraphs and then just kee
 
 I have 4 minutes until 5pm. I need to go to kendo soon, so I’ll type as fast as possible. Let’s go!
 
-***
+---
 
 ## I still wanna eventually (re-)setup my website with a CMS
 

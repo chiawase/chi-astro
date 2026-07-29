@@ -1,8 +1,23 @@
 ---
 title: "you"
 date: 2014-02-02T20:26:05+08:00
-tags: ["beyond","dream","experience","guide","love","mountain","poems","random","sadness","thoughts","wonders","you"]
+tags:
+  [
+    "beyond",
+    "dream",
+    "experience",
+    "guide",
+    "love",
+    "mountain",
+    "poems",
+    "random",
+    "sadness",
+    "thoughts",
+    "wonders",
+    "you",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2014/02/02/you/"
 ---
 
 you say sadness is the only thing you know

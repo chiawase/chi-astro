@@ -2,11 +2,11 @@
 tags: ["cycling"]
 bluesky:
   id: bafyreic727mkxcpq3m7xex6uxmxpibotpqxmbxdistwzy3pgsn6gxjpvjy
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k3adcsf5i22j'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k3adcsf5i22j'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k3adcsf5i22j"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k3adcsf5i22j"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-07-24T10:24:37+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/09eefc9415.jpg
@@ -19,12 +19,12 @@ photos:
   - https://cdn.uploads.micro.blog/113466/2023/09eefc9415.jpg
   - https://cdn.uploads.micro.blog/113466/2023/b594807cbf.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/b594807cbf.jpg
-  width: 1800
-  height: 2400
-- url: https://cdn.uploads.micro.blog/113466/2023/09eefc9415.jpg
-  width: 1800
-  height: 1350
+  - url: https://cdn.uploads.micro.blog/113466/2023/b594807cbf.jpg
+    width: 1800
+    height: 2400
+  - url: https://cdn.uploads.micro.blog/113466/2023/09eefc9415.jpg
+    width: 1800
+    height: 1350
 url: /2023/07/24/first-time-bringing.html
 source: microblog
 ---

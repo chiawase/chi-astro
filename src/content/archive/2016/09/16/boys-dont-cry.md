@@ -1,8 +1,9 @@
 ---
 title: "boys don't cry"
 date: 2016-09-16T19:58:28+08:00
-tags: ["poems","random"]
+tags: ["poems", "random"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2016/09/16/boys-dont-cry/"
 ---
 
 but i'm not a boy

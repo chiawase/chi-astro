@@ -1,8 +1,23 @@
 ---
 title: "push"
 date: 2013-11-29T00:03:29+08:00
-tags: ["decisions","direction","forward","jump","life","poems","push","random","risk","success","thoughts","world"]
+tags:
+  [
+    "decisions",
+    "direction",
+    "forward",
+    "jump",
+    "life",
+    "poems",
+    "push",
+    "random",
+    "risk",
+    "success",
+    "thoughts",
+    "world",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/11/29/push/"
 ---
 
 sometimes, all we need is a little push

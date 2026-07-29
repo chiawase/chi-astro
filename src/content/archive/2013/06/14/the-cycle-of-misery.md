@@ -1,8 +1,23 @@
 ---
 title: "The Cycle of Misery"
 date: 2013-06-14T10:28:20+08:00
-tags: ["alone","earthquake","lonely","move-on","poems","queasy","random","road","sad","thoughts","uneasy","unstable"]
+tags:
+  [
+    "alone",
+    "earthquake",
+    "lonely",
+    "move-on",
+    "poems",
+    "queasy",
+    "random",
+    "road",
+    "sad",
+    "thoughts",
+    "uneasy",
+    "unstable",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/06/14/the-cycle-of-misery/"
 ---
 
 I have this unending feeling of queasiness

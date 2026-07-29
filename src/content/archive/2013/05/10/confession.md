@@ -1,8 +1,20 @@
 ---
 title: "Confession"
 date: 2013-05-10T21:18:22+08:00
-tags: ["confession","confusion","feelings","like","love","poems","spoken-word","thoughts","trying-out"]
+tags:
+  [
+    "confession",
+    "confusion",
+    "feelings",
+    "like",
+    "love",
+    "poems",
+    "spoken-word",
+    "thoughts",
+    "trying-out",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/05/10/confession/"
 ---
 
 It's funny now I suddenly took notice of you
@@ -51,8 +63,8 @@ I wonder what you would say, though?
 Please tell me, please do.
 That's all I really want from you.
 
-----
+---
 
 on a side note, I've been making a lot of spoken word lately. But I think this one can stand on their own. XD
 
-To those who'd like to hear the spoken word version, here's a link: [https://soundcloud.com/crazeythechi/confession](https://soundcloud.com/crazeythechi/confession)
+To those who'd like to hear the spoken word version, here's a link: [https://soundcloud.com/crazeythechi/confession](https://soundcloud.com/crazeythechi/confession)

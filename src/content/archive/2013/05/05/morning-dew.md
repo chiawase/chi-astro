@@ -1,27 +1,39 @@
 ---
 title: "Morning Dew;;"
 date: 2013-05-05T07:46:15+08:00
-tags: ["connection","dew","letting-go","love","morning-dew","plants","random","thoughts","throwing-away"]
+tags:
+  [
+    "connection",
+    "dew",
+    "letting-go",
+    "love",
+    "morning-dew",
+    "plants",
+    "random",
+    "thoughts",
+    "throwing-away",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/05/05/morning-dew/"
 ---
 
-*Here you are, again. In the middle of everything. In the middle of what you call your 'everything'.*
+_Here you are, again. In the middle of everything. In the middle of what you call your 'everything'._
 
-*Who am I to you anyway? I'm no one. I'm just someone who managed to like you. Someone who managed to see the beauty in your soul out of all the other souls in this sea of people. I am just that someone who found you in the middle of everything. I am just someone who exhibits feelings for you. Nothing else.*
+_Who am I to you anyway? I'm no one. I'm just someone who managed to like you. Someone who managed to see the beauty in your soul out of all the other souls in this sea of people. I am just that someone who found you in the middle of everything. I am just someone who exhibits feelings for you. Nothing else._
 
-*Who are you to me?*
+_Who are you to me?_
 
-*... Who are you to me?*
+_... Who are you to me?_
 
-*You changed me. When I found you, I didn't know what to do exactly. I mean sure, I didn't notice your good features right away, but that's the thing, see - the more and more you spend time with someone, you slowly notice everything about them. And I did notice some flaws: maybe a broken wing here, chipped paint over there, maybe even a flaw in how your system works - but regardless, I still liked you. I still loved you. I still love you.*
+_You changed me. When I found you, I didn't know what to do exactly. I mean sure, I didn't notice your good features right away, but that's the thing, see - the more and more you spend time with someone, you slowly notice everything about them. And I did notice some flaws: maybe a broken wing here, chipped paint over there, maybe even a flaw in how your system works - but regardless, I still liked you. I still loved you. I still love you._
 
-*Why am I letting myself be pulled down by you? Why? You don't really love me. I know that. Even if I managed to get you for myself, even if I sacrificed a lot just to get you to be mine, even if I finally managed to make you mine, that we were together... You never really loved me.*
+_Why am I letting myself be pulled down by you? Why? You don't really love me. I know that. Even if I managed to get you for myself, even if I sacrificed a lot just to get you to be mine, even if I finally managed to make you mine, that we were together... You never really loved me._
 
-*Now, that just makes me sound like a bitch, ain't it? Assuming all over the place, saying that 'you don't love me'; I'm pretty sure you'll say you did. In your understanding of love, you did love me.*
+_Now, that just makes me sound like a bitch, ain't it? Assuming all over the place, saying that 'you don't love me'; I'm pretty sure you'll say you did. In your understanding of love, you did love me._
 
-*But for me, that wasn't love.*
+_But for me, that wasn't love._
 
-*Why's that? Well, you had suppressed feelings. After our separation, that managed to resurface - AND STAY. The mere fact that it stayed means that you took care of those feelings.*
+_Why's that? Well, you had suppressed feelings. After our separation, that managed to resurface - AND STAY. The mere fact that it stayed means that you took care of those feelings._
 
 Imagine there are two plants. There's this one that you've had for so long: you water it, fertilize it with whatever you may have there, and just take care of it. But after a while, you somehow put it aside. It doesn't seem as beautiful like it was before. It doesn't respond as much to your love as it did before. That's why you put it aside. And you managed to hide it from your sight - all of it that remains was a memory in your mind.
 

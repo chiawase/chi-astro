@@ -2,11 +2,11 @@
 title: "Asking the crowd: adding alt text / descriptions in micro.blog uploaded images?"
 bluesky:
   id: bafyreibfjiv4734slrio6vsmlagcgwvtp76dsjx3tr6dyvhbtlw4i2v4ae
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3jzqgej54lp2u'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3jzqgej54lp2u'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3jzqgej54lp2u"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3jzqgej54lp2u"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-07-05T09:11:35+0800
 mastodon:
   id: 110658813852644613

@@ -1,8 +1,28 @@
 ---
 title: "Trust."
 date: 2013-10-22T12:30:57+08:00
-tags: ["consequence","everyone","fault","happen","happening","injury","insult","mistrust","mouth","people","poems","random","secrets","thoughts","time","trust","try"]
+tags:
+  [
+    "consequence",
+    "everyone",
+    "fault",
+    "happen",
+    "happening",
+    "injury",
+    "insult",
+    "mistrust",
+    "mouth",
+    "people",
+    "poems",
+    "random",
+    "secrets",
+    "thoughts",
+    "time",
+    "trust",
+    "try",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/10/22/trust/"
 ---
 
 Something hard to find.

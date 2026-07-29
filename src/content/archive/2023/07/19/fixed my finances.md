@@ -1,11 +1,11 @@
 ---
 bluesky:
   id: bafyreiamlo2jc77exxombqxmhakgka4wbn4kkwmqf74374b7yo6wfsyhie
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k2tx5223ol2k'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k2tx5223ol2k'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k2tx5223ol2k"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k2tx5223ol2k"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-07-19T12:14:51+0800
 mastodon:
   id: 110738806705881598

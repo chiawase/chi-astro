@@ -1,8 +1,9 @@
 ---
 title: "What If"
 date: 2013-04-14T11:19:55+08:00
-tags: ["random","thoughts","what-if"]
+tags: ["random", "thoughts", "what-if"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/04/14/what-if/"
 ---
 
 What if I could just disappear into the darkness?
@@ -16,8 +17,6 @@ What if I committed suicide?
 No, I can't do that. Even if I was alone, even if I was with myself all my life... No, I will not commit suicide.
 
 But why? I just told myself I'm more dead than alive.
-
- 
 
 ---
 

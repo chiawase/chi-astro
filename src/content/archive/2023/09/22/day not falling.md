@@ -3,11 +3,11 @@ title: "📷 Day 21: (not) fall(ing) #mbsept 😆"
 tags: ["cycling", "Photoblogging Challenges", "mbSept"]
 bluesky:
   id: bafyreidr5zb3pcr5lraqbjq6qk6afiepmgqy4dg5bl77twniuimkqf6lty
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k7y65xtdji2t'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k7y65xtdji2t'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k7y65xtdji2t"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k7y65xtdji2t"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-09-22T19:36:51+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/9be6b55d039f48acaa87cd24f666f193.jpg
@@ -18,9 +18,9 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2023/9be6b55d039f48acaa87cd24f666f193.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/9be6b55d039f48acaa87cd24f666f193.jpg
-  width: 600
-  height: 450
+  - url: https://cdn.uploads.micro.blog/113466/2023/9be6b55d039f48acaa87cd24f666f193.jpg
+    width: 600
+    height: 450
 url: /2023/09/22/day-not-falling.html
 source: microblog
 ---

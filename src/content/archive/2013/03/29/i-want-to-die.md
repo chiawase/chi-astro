@@ -1,8 +1,9 @@
 ---
 title: "[I want to die.]"
 date: 2013-03-29T15:05:01+08:00
-tags: ["beginning","random","thoughts"]
+tags: ["beginning", "random", "thoughts"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/03/29/i-want-to-die/"
 ---
 
 Yes, that is the very first thing that came into mind when I wanted to start this blog. I wanted to write about what I wanted to do in order to die, or just pure suicidal thoughts in general. It sounded like bullshit after I thought about it though, so I didn't continue on with the plan.

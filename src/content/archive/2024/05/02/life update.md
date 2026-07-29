@@ -3,11 +3,11 @@ title: "Life update"
 tags: ["writing"]
 bluesky:
   id: bafyreia4qhgrevaru5qdfyfwioodnswcwhfrtt5ziheqqm4wgocrdur7ua
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3krguytu23k2x'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3krguytu23k2x'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3krguytu23k2x"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3krguytu23k2x"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2024-05-02T00:11:28+0800
 mastodon:
   id: 112366708017354470
@@ -15,7 +15,9 @@ mastodon:
   hostname: social.lol
 source: microblog
 ---
+
 <!-- markdownlint-disable MD013 -->
+
 Felt like writing this down and putting it here as a reference on some life updates I'm comfy to share:
 
 ## Moving places

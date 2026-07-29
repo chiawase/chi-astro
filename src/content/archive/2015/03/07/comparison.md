@@ -1,8 +1,9 @@
 ---
 title: "Comparison"
 date: 2015-03-07T07:21:06+08:00
-tags: ["comparison","past","poems","thoughts"]
+tags: ["comparison", "past", "poems", "thoughts"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2015/03/07/comparison/"
 ---
 
 what happened to the days when

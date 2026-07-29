@@ -1,8 +1,9 @@
 ---
 title: "| stuck; |"
 date: 2013-04-27T08:03:14+08:00
-tags: ["poems","thoughts"]
+tags: ["poems", "thoughts"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/04/27/stuck/"
 ---
 
 I can't get out. I don't know how.

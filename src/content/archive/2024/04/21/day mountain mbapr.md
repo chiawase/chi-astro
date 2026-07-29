@@ -1,13 +1,13 @@
 ---
 title: "📷 Day 21: mountain #mbApr"
-tags: ["Photoblogging Challenges","mbApr"]
+tags: ["Photoblogging Challenges", "mbApr"]
 bluesky:
   id: bafyreiafs2nvaihw3j4y65kvg34yx2oerndhkqu7obg237vealvqpnnyyq
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kqmhcrq75v27'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kqmhcrq75v27'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kqmhcrq75v27"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kqmhcrq75v27"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2024-04-21T11:57:18+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2024/26661cadaa.jpg
@@ -18,9 +18,9 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2024/26661cadaa.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2024/26661cadaa.jpg
-  width: 450
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2024/26661cadaa.jpg
+    width: 450
+    height: 600
 source: microblog
 ---
 

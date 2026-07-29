@@ -1,8 +1,20 @@
 ---
 title: "Could Haves"
 date: 2015-05-23T14:41:17+08:00
-tags: ["could-have","poem","poems","possibility","random","thoughts","wait","what-ifs","written"]
+tags:
+  [
+    "could-have",
+    "poem",
+    "poems",
+    "possibility",
+    "random",
+    "thoughts",
+    "wait",
+    "what-ifs",
+    "written",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2015/05/23/could-haves/"
 ---
 
 I could have picked up that dead bird on the street and set it aside.

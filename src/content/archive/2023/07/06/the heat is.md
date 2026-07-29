@@ -2,11 +2,11 @@
 tags: ["games"]
 bluesky:
   id: bafyreihbuvikz644kinivw3vdpek72wlrkpd36nih7a2ypuhubcepqooai
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3jztc24gr6q2i'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3jztc24gr6q2i'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3jztc24gr6q2i"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3jztc24gr6q2i"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-07-06T12:32:12+0800
 mastodon:
   id: 110665264922144088

@@ -57,7 +57,7 @@ Sometimes, a dear friend of yours is apparently an asshole to others. And that d
 
 So what if you seen-zoned someone? In casual conversations, it's fine. You're under no obligation to respond immediately. Take your time.
 
-Besides, you can think about this: *if it's so important that they need a response right away, they'll call. Sometimes, it's not as urgent as it's made out to be, but at least you hit two birds with one stone: the other person gets their response immediately, and you have one less thing to worry about.*
+Besides, you can think about this: _if it's so important that they need a response right away, they'll call. Sometimes, it's not as urgent as it's made out to be, but at least you hit two birds with one stone: the other person gets their response immediately, and you have one less thing to worry about._
 
 ## #10: It's okay to take a stand and defend yourself.
 

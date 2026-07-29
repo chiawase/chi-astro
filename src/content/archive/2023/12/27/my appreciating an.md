@@ -4,11 +4,11 @@ summary: "2023 was an eventful year for me. There were a lot of ups and downs. B
 tags: ["writing"]
 bluesky:
   id: bafyreievx3kzq2khdssa5nz536qnrkwijm4xb3ltfu56hjlbqbeumodeim
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3khisqivhjh22'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3khisqivhjh22'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3khisqivhjh22"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3khisqivhjh22"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-12-27T12:27:12+0800
 mastodon:
   id: 111650476587339458
@@ -104,4 +104,4 @@ I'm also still using YNAB, though I am open to trying out another app. It'll jus
 
 <hr>
 
-I'm sure I have more to say, but I think this is a good summary so far of what transpired during my 2023.  I really am thankful for where I am now, and I'll do my best to keep it up for the years to come, hopefully for the better.
+I'm sure I have more to say, but I think this is a good summary so far of what transpired during my 2023. I really am thankful for where I am now, and I'll do my best to keep it up for the years to come, hopefully for the better.

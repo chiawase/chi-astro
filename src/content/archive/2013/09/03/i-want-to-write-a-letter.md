@@ -1,8 +1,9 @@
 ---
 title: "I want to write a letter."
 date: 2013-09-03T21:37:24+08:00
-tags: ["poems","random","thoughts"]
+tags: ["poems", "random", "thoughts"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/09/03/i-want-to-write-a-letter/"
 ---
 
 write a letter

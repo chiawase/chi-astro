@@ -1,8 +1,27 @@
 ---
 title: "Bi(cycle)"
 date: 2013-10-30T09:12:38+08:00
-tags: ["bicycle","cycle","destination","direction","journey","left","memory","nothing","opposite","random","right","shorts","thoughts","two","walking","wrong"]
+tags:
+  [
+    "bicycle",
+    "cycle",
+    "destination",
+    "direction",
+    "journey",
+    "left",
+    "memory",
+    "nothing",
+    "opposite",
+    "random",
+    "right",
+    "shorts",
+    "thoughts",
+    "two",
+    "walking",
+    "wrong",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/10/30/bicycle/"
 ---
 
 (There's nothing wrong with being right.

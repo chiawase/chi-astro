@@ -1,8 +1,20 @@
 ---
 title: "the words on top of my head"
 date: 2014-03-07T22:05:36+08:00
-tags: ["decision","experience","happy","life","love","relationship","sure","thoughts","you"]
+tags:
+  [
+    "decision",
+    "experience",
+    "happy",
+    "life",
+    "love",
+    "relationship",
+    "sure",
+    "thoughts",
+    "you",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2014/03/07/the-words-on-top-of-my-head/"
 ---
 
 there are times when I miss your gaze

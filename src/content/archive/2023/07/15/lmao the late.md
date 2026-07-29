@@ -10,7 +10,7 @@ source: microblog
 
 lmao the late lunch / dinner I had with my mom, her friends, and her friend's daughter turned into an intervention for my mom to stop letting herself be used by my tita, my mom's older sister
 
-my mom's still handling my tita's _family's_ finances because her sister can't trust her own _husband_ and _3 adult children_ with helping out around the house. It has plagued her for years, and both me and my dad have told my mom off of her doing this. 
+my mom's still handling my tita's _family's_ finances because her sister can't trust her own _husband_ and _3 adult children_ with helping out around the house. It has plagued her for years, and both me and my dad have told my mom off of her doing this.
 
 She has consistently not listened or always had an excuse whenever I or my dad tell her, but thank god for my mom's friends. They talked reason into her and even gave her a deadline AND a timeline so she can set her boundaries and get this problem off her own plate.
 

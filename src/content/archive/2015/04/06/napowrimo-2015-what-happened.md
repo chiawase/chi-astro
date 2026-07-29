@@ -1,21 +1,37 @@
 ---
 title: "[NaPoWriMo 2015] What Happened"
 date: 2015-04-06T15:55:31+08:00
-tags: ["2015","dog","emily-dickinson","journey","man","mayor","napowrimo","poems","sea","shore","timestamps","town","wave"]
+tags:
+  [
+    "2015",
+    "dog",
+    "emily-dickinson",
+    "journey",
+    "man",
+    "mayor",
+    "napowrimo",
+    "poems",
+    "sea",
+    "shore",
+    "timestamps",
+    "town",
+    "wave",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2015/04/06/napowrimo-2015-what-happened/"
 ---
 
-This is for the [fifth prompt](http://www.napowrimo.net/day-five-2/)! We're supposed to write--or re-write--a poem made by Emily Dickinson. I chose this because the "title" (or what served as a title) seemed interesting.
+This is for the [fifth prompt](http://www.napowrimo.net/day-five-2/)! We're supposed to write--or re-write--a poem made by Emily Dickinson. I chose this because the "title" (or what served as a title) seemed interesting.
 
-The poem you're about to read is an account of my journey through the whole poem.
+The poem you're about to read is an account of my journey through the whole poem.
 
-I honestly don't know what happened. Haha!
+I honestly don't know what happened. Haha!
 
 ---
 
 **What Happened**
 
-*(after [Emily Dickinson's poem number 656](http://www.poetryfoundation.org/learning/guide/237890#poem))*
+_(after [Emily Dickinson's poem number 656](http://www.poetryfoundation.org/learning/guide/237890#poem))_
 
 It's 6:00AM.
 I started early and took my dog for a walk in the park.

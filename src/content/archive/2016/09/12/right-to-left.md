@@ -1,8 +1,9 @@
 ---
 title: "right to left"
 date: 2016-09-12T14:12:16+08:00
-tags: ["left","poems","random","right"]
+tags: ["left", "poems", "random", "right"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2016/09/12/right-to-left/"
 ---
 
 maybe some things are better

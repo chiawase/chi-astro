@@ -1,11 +1,26 @@
 ---
 title: "[NaPoWriMo 2015] morning routine"
 date: 2015-04-06T21:19:36+08:00
-tags: ["2015","abaude","coffee","early","love","making-love","morning","napowrimo","playful","poems","routine","sex"]
+tags:
+  [
+    "2015",
+    "abaude",
+    "coffee",
+    "early",
+    "love",
+    "making-love",
+    "morning",
+    "napowrimo",
+    "playful",
+    "poems",
+    "routine",
+    "sex",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2015/04/06/napowrimo-2015-morning-routine/"
 ---
 
-This is for the [sixth prompt](http://www.napowrimo.net/day-six-3/)! When I read this prompt, it got me excited. *wink*
+This is for the [sixth prompt](http://www.napowrimo.net/day-six-3/)! When I read this prompt, it got me excited. _wink_
 
 Haha! Anyway. I enjoyed making this. Hope you like it! :)
 

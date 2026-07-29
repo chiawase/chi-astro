@@ -2,11 +2,11 @@
 tags: ["ootd"]
 bluesky:
   id: bafyreidydymuz2mijys7f777xwkdipfxv3ypvok7qgnjapsyp72vr5qf6u
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k5ojdtfj322e'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k5ojdtfj322e'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k5ojdtfj322e"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k5ojdtfj322e"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-08-24T12:40:19+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/116ed60971.jpg
@@ -17,9 +17,9 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2023/116ed60971.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/116ed60971.jpg
-  width: 1800
-  height: 2400
+  - url: https://cdn.uploads.micro.blog/113466/2023/116ed60971.jpg
+    width: 1800
+    height: 2400
 url: /2023/08/24/all-i-can.html
 source: microblog
 ---

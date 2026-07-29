@@ -1,8 +1,10 @@
 ---
+
 title: "The Wait"
 date: 2013-10-25T23:28:47+08:00
 tags: ["clouds","hair","life","morning","night","part","poems","random","remember","river","stars","thoughts","time","universe","wait","wind","worth"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/10/25/the-wait/"
 ---
 
 I remember

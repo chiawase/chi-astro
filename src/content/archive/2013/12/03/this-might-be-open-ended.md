@@ -1,8 +1,24 @@
 ---
 title: "This might be open-ended."
 date: 2013-12-03T18:30:39+08:00
-tags: ["confusion","illusion","lie","message","open","poems","question","random","shorts","sigh","thoughts","try","why"]
+tags:
+  [
+    "confusion",
+    "illusion",
+    "lie",
+    "message",
+    "open",
+    "poems",
+    "question",
+    "random",
+    "shorts",
+    "sigh",
+    "thoughts",
+    "try",
+    "why",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/12/03/this-might-be-open-ended/"
 ---
 
 can you easily tell the difference

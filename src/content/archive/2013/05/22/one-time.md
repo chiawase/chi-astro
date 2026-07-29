@@ -1,13 +1,30 @@
 ---
 title: "One Time"
 date: 2013-05-22T20:30:10+08:00
-tags: ["beginning","belief","believing","end","hurt","i-love-you","last","love","one-time","pain","paths","road","shorts","thoughts"]
+tags:
+  [
+    "beginning",
+    "belief",
+    "believing",
+    "end",
+    "hurt",
+    "i-love-you",
+    "last",
+    "love",
+    "one-time",
+    "pain",
+    "paths",
+    "road",
+    "shorts",
+    "thoughts",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/05/22/one-time/"
 ---
 
 "I'm going to miss you."
 
-He said, as he hugged me for the last time. The warmth I felt from his body was...  cold. I will never feel this ever again. This is the last time.
+He said, as he hugged me for the last time. The warmth I felt from his body was... cold. I will never feel this ever again. This is the last time.
 
 "I'm going to miss you, too."
 
@@ -43,7 +60,7 @@ I would always ask that, even if I knew the answer. Even if I knew the secret, i
 
 "I love you, too."
 
-Those words pierced me like a fine needle trying to mend my broken heart. After this, I told myself, *now, I'm finally free.* He's finally free.
+Those words pierced me like a fine needle trying to mend my broken heart. After this, I told myself, _now, I'm finally free._ He's finally free.
 
 I believed him, for that one time. Only that one time now; that for at least a moment when we were still together, he loved me. No one else; he loved me with all his heart.
 

@@ -1,13 +1,14 @@
 ---
 title: "Yesterday, I may have had a panic attack at work."
 date: 2017-06-22T08:51:08+08:00
-tags: ["personal","thoughts"]
+tags: ["personal", "thoughts"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2017/06/22/yesterday-i-may-have-had-a-panic-attack-at-work/"
 ---
 
 And it wasn't because of the workload. No, the workload—so far—is actually pretty manageable.
 
-What got to me was my *own* negative thoughts.
+What got to me was my _own_ negative thoughts.
 
 And it affected me in a way that was not unfamiliar, but was something I didn't think I'd experience this early at my new job.
 
@@ -31,19 +32,19 @@ I learned to appreciate those breaks over time, because it gives the real me tim
 
 I understand that it can get pretty overwhelming when swamped with work. I get that we are simply human, and it's normal to feel this way.
 
-What I don't get, though, is when I get so worked up even though I *don't* have a lot of things to do. When I could really take my time with my work.
+What I don't get, though, is when I get so worked up even though I _don't_ have a lot of things to do. When I could really take my time with my work.
 
-It may be because I'm used to the fact that I have a lot of things I need to do for a day, and now I can afford to *chill*. And since I have all this time with me, my mind tries to fills those "gaps" with lots of menial things that people usually don't care about.
+It may be because I'm used to the fact that I have a lot of things I need to do for a day, and now I can afford to _chill_. And since I have all this time with me, my mind tries to fills those "gaps" with lots of menial things that people usually don't care about.
 
 It has become of a bother now, and especially so after the incident yesterday.
 
 ### A rundown on what happened
 
-To keep the story short, I felt like I was caught in the middle of a few people, and I subconsciously didn't want to disappoint all of them. One wanted to ask for more leeway on changes that could be made to this thing we're working on, the other one *doesn't* want that and wants everything to be final, and our lead just says it's fine to be a bit lenient over these things.
+To keep the story short, I felt like I was caught in the middle of a few people, and I subconsciously didn't want to disappoint all of them. One wanted to ask for more leeway on changes that could be made to this thing we're working on, the other one _doesn't_ want that and wants everything to be final, and our lead just says it's fine to be a bit lenient over these things.
 
 Okay, I thought, I understand. I wanted to follow the instructions to the letter, but I get that not everything will go right the first time. I understood and accepted that I can relax a bit on this issue, and that there's nothing to worry about anymore.
 
-But then I started thinking about how to tell all of them. I needed to talk to them about it. *Confront* them.
+But then I started thinking about how to tell all of them. I needed to talk to them about it. _Confront_ them.
 
 I have huge anxiety issues with sending emails. And I needed to send an email to just update everyone on what will be done on the matter at hand. I've done this lots of times before, and this was relatively easy.
 
@@ -69,7 +70,7 @@ I felt like my mind was detached from my body, that while my physical self was t
 
 It lasted for almost 5 minutes, I think. And it was one of the longest 5 minutes I've had so far.
 
-After that, I realized that my mind really can affect my body in ways I didn't think I could do. I felt that the overthinking was really *hurting* me physically, aside from the mental toll it has on my mind.
+After that, I realized that my mind really can affect my body in ways I didn't think I could do. I felt that the overthinking was really _hurting_ me physically, aside from the mental toll it has on my mind.
 
 It was a bit scary, but now I appreciate taking care of myself more. Now, I want to really set aside time for me to rest, to clear my mind, so I can start the day with a blank slate.
 

@@ -10,7 +10,7 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2023/3f4aecc753.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/3f4aecc753.jpg
+  - url: https://cdn.uploads.micro.blog/113466/2023/3f4aecc753.jpg
 url: /2023/08/07/lakad-tao-mode.html
 source: microblog
 ---

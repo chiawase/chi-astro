@@ -3,11 +3,11 @@ title: "📷 Day 5: forest #mbsept"
 tags: ["cycling", "Photoblogging Challenges", "mbSept"]
 bluesky:
   id: bafyreieytfrahg52pt6ylwulgq3xdygig2grebtptuyrud4curbrv5y5la
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k6maxy6a6m2g'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k6maxy6a6m2g'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k6maxy6a6m2g"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k6maxy6a6m2g"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-09-05T08:30:02+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/932f1e8090244b1ca10763e56ec076ff.jpg
@@ -18,9 +18,9 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2023/932f1e8090244b1ca10763e56ec076ff.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/932f1e8090244b1ca10763e56ec076ff.jpg
-  width: 450
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2023/932f1e8090244b1ca10763e56ec076ff.jpg
+    width: 450
+    height: 600
 url: /2023/09/05/day-forest-mbsept.html
 source: microblog
 ---

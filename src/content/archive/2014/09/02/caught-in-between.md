@@ -1,8 +1,20 @@
 ---
 title: "caught in-between"
 date: 2014-09-02T18:58:01+08:00
-tags: ["chance","fate","journey","paths","poems","random","shorts","thoughts","unknown"]
+tags:
+  [
+    "chance",
+    "fate",
+    "journey",
+    "paths",
+    "poems",
+    "random",
+    "shorts",
+    "thoughts",
+    "unknown",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2014/09/02/caught-in-between/"
 ---
 
 caught in-between
@@ -27,7 +39,7 @@ a little askew?
 
 time will tell
 what happens when
-they interlock
+they interlock
 all over again
 
 or maybe not,

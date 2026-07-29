@@ -2,11 +2,11 @@
 tags: ["design"]
 bluesky:
   id: bafyreidbntqxchrg7luc2hggciavsxctywoxebzl3trhvq7utuj2ffpmh4
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3ku6voe6s5w2c'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3ku6voe6s5w2c'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3ku6voe6s5w2c"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3ku6voe6s5w2c"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2024-06-06T00:17:50+0800
 mastodon:
   id: 112564913637993430

@@ -1,11 +1,25 @@
 ---
 title: "[NaPoWriMo 2015] Happy."
 date: 2015-04-02T16:53:48+08:00
-tags: ["2015","emotions","feeling","happy","life","napowrimo","negation","parenthesis","poems","verseus","writerskill"]
+tags:
+  [
+    "2015",
+    "emotions",
+    "feeling",
+    "happy",
+    "life",
+    "napowrimo",
+    "negation",
+    "parenthesis",
+    "poems",
+    "verseus",
+    "writerskill",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2015/04/02/napowrimo-2015-happy/"
 ---
 
-*This is for the [first prompt](http://www.napowrimo.net/day-one/): a poem of negation.*
+_This is for the [first prompt](http://www.napowrimo.net/day-one/): a poem of negation._
 
 ---
 

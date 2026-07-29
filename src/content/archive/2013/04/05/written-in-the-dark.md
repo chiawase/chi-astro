@@ -1,8 +1,9 @@
 ---
 title: "-- written in the dark --"
 date: 2013-04-05T19:05:26+08:00
-tags: ["darkness","longing","love","poems","thoughts","warmth","written"]
+tags: ["darkness", "longing", "love", "poems", "thoughts", "warmth", "written"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/04/05/written-in-the-dark/"
 ---
 
 I wish for a lover

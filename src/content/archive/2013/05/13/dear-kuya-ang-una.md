@@ -1,11 +1,29 @@
 ---
 title: "Dear Kuya: Ang Una"
 date: 2013-05-13T19:52:44+08:00
-tags: ["brother","dear-kuya","existing","filipino","if-only","kung-sana-lang","kuya","love","non-existent","poems","siblings","tagalog","thoughts","totoo","true"]
+tags:
+  [
+    "brother",
+    "dear-kuya",
+    "existing",
+    "filipino",
+    "if-only",
+    "kung-sana-lang",
+    "kuya",
+    "love",
+    "non-existent",
+    "poems",
+    "siblings",
+    "tagalog",
+    "thoughts",
+    "totoo",
+    "true",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/05/13/dear-kuya-ang-una/"
 ---
 
-*originally titled "Kung Sana Lang"; submitted for the 12th Day of NaPoWriMo.*
+_originally titled "Kung Sana Lang"; submitted for the 12th Day of NaPoWriMo._
 
 ---
 

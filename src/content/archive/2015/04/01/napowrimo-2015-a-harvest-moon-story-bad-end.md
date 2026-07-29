@@ -1,11 +1,22 @@
 ---
 title: "[NaPoWriMo 2015] A Harvest Moon Story: Bad End"
 date: 2015-04-01T20:57:57+08:00
-tags: ["2015","bonus","bonus-prompt","depressing","farm","harvest-moon","living","napowrimo"]
+tags:
+  [
+    "2015",
+    "bonus",
+    "bonus-prompt",
+    "depressing",
+    "farm",
+    "harvest-moon",
+    "living",
+    "napowrimo",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2015/04/01/napowrimo-2015-a-harvest-moon-story-bad-end/"
 ---
 
-*This is for the [bonus prompt](http://www.napowrimo.net/one-week-countdown-day-1/), wherein we start our poems with, "I guess it's too late to live on the farm".*
+_This is for the [bonus prompt](http://www.napowrimo.net/one-week-countdown-day-1/), wherein we start our poems with, "I guess it's too late to live on the farm"._
 
 --
 

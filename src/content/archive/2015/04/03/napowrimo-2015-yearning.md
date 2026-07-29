@@ -1,15 +1,33 @@
 ---
 title: "[NaPoWriMo 2015] Yearning"
 date: 2015-04-03T20:45:09+08:00
-tags: ["2015","associate","constellations","dreams","emptiness","hopes","images","napo","napowrimo","poems","spaces","stars","uncertainty","wishes","yearning"]
+tags:
+  [
+    "2015",
+    "associate",
+    "constellations",
+    "dreams",
+    "emptiness",
+    "hopes",
+    "images",
+    "napo",
+    "napowrimo",
+    "poems",
+    "spaces",
+    "stars",
+    "uncertainty",
+    "wishes",
+    "yearning",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2015/04/03/napowrimo-2015-yearning/"
 ---
 
-*Just like that, I finished another poem for NaPo. I originally wanted to publish this one for my entry, but I couldn't finish it earlier, so that's why I made [another one](https://chiawase.wordpress.com/2015/04/03/napowrimo-2015-sightings/) instead. But when I saw this in my notepad program, I didn't want to just erase it all, so I thought, "hey, why not finish it?"*
+_Just like that, I finished another poem for NaPo. I originally wanted to publish this one for my entry, but I couldn't finish it earlier, so that's why I made [another one](/archive/wordpress/2015/04/03/napowrimo-2015-sightings/) instead. But when I saw this in my notepad program, I didn't want to just erase it all, so I thought, "hey, why not finish it?"_
 
 And there you have it.
 
-*Again, this is for the [second prompt](http://www.napowrimo.net/day-two-2/).*
+_Again, this is for the [second prompt](http://www.napowrimo.net/day-two-2/)._
 
 ---
 

@@ -1,8 +1,10 @@
 ---
+
 title: "Lo(o)se"
 date: 2016-06-29T18:30:24+08:00
 tags: ["create","form","personal","random","sand","thoughts"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2016/06/29/loose/"
 ---
 
 Using some sand, you begin to create something. You want to create something sturdy, something that lasts. You want this to stay by your side, and you won't ever lose sight of it.

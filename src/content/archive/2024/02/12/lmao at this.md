@@ -1,11 +1,11 @@
 ---
 bluesky:
   id: bafyreiameg3hdsthqpjxr7i2ky7zje2npdwh6r7xhzylfkboafnjadh3uu
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kl7sjcfblm2v'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kl7sjcfblm2v'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kl7sjcfblm2v"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kl7sjcfblm2v"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2024-02-12T20:07:14+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2024/4e6d1a8a80.jpg
@@ -16,9 +16,9 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2024/4e6d1a8a80.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2024/4e6d1a8a80.jpg
-  width: 838
-  height: 729
+  - url: https://cdn.uploads.micro.blog/113466/2024/4e6d1a8a80.jpg
+    width: 838
+    height: 729
 source: microblog
 ---
 

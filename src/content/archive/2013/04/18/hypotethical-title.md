@@ -1,8 +1,10 @@
 ---
+
 title: "hypothetical title"
 date: 2013-04-18T20:35:29+08:00
 tags: ["hypothetical","love","marriage","poems","separation","written"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/04/18/hypotethical-title/"
 ---
 
 can I

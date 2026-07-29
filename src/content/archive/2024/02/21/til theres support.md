@@ -2,11 +2,11 @@
 tags: ["design", "figma"]
 bluesky:
   id: bafyreid4bjottb37sp6rsnipr26gxt4oz4iz2jew5oznq4ypmmjlroiibq
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3klwebsl3gk2w'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3klwebsl3gk2w'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3klwebsl3gk2w"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3klwebsl3gk2w"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2024-02-21T19:23:38+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2024/image-2024-02-21-192303854.png
@@ -14,7 +14,7 @@ mastodon:
   id: 111969214521262197
   username: chi
   hostname: social.lol
-photos: 
+photos:
 photos_with_metadata:
 source: microblog
 ---

@@ -1,8 +1,21 @@
 ---
 title: "I don't like being watched."
 date: 2013-05-24T09:49:14+08:00
-tags: ["break","death","gaze","move","poems","pressure","rope","stress","thoughts","watched"]
+tags:
+  [
+    "break",
+    "death",
+    "gaze",
+    "move",
+    "poems",
+    "pressure",
+    "rope",
+    "stress",
+    "thoughts",
+    "watched",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/05/24/i-dont-like-being-watched/"
 ---
 
 every plan I try to maneuver

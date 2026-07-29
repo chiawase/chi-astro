@@ -1,11 +1,26 @@
 ---
 title: "[NaPoWriMo 2015] Sightings"
 date: 2015-04-03T20:31:53+08:00
-tags: ["2015","big-dipper","constellations","experience","little-dipper","napowrimo","orion","orions-belt","personal","poems","self","stars"]
+tags:
+  [
+    "2015",
+    "big-dipper",
+    "constellations",
+    "experience",
+    "little-dipper",
+    "napowrimo",
+    "orion",
+    "orions-belt",
+    "personal",
+    "poems",
+    "self",
+    "stars",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2015/04/03/napowrimo-2015-sightings/"
 ---
 
-*This is for the [second prompt](http://www.napowrimo.net/day-two-2/)! I love this one. I just love stars and constellations and anything that has to do with astronomy. But because I love it so much, I also had a harder time deciding on what to write. Since for VerseUs, we have a deadline (technically), I just made this sort-of reflective poem so I could pass on time. I apologize if it seems unfinished or something. (Then again, we don't know a lot about stars yet, so maybe this could be parallel to that...? Hehe :P)*
+_This is for the [second prompt](http://www.napowrimo.net/day-two-2/)! I love this one. I just love stars and constellations and anything that has to do with astronomy. But because I love it so much, I also had a harder time deciding on what to write. Since for VerseUs, we have a deadline (technically), I just made this sort-of reflective poem so I could pass on time. I apologize if it seems unfinished or something. (Then again, we don't know a lot about stars yet, so maybe this could be parallel to that...? Hehe :P)_
 
 ---
 

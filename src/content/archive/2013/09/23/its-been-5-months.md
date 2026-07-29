@@ -1,8 +1,26 @@
 ---
 title: "It's been 5 months."
 date: 2013-09-23T13:29:33+08:00
-tags: ["fade","like","liked","months","new","old","past","poems","present","random","short","thoughts","time","weird","what"]
+tags:
+  [
+    "fade",
+    "like",
+    "liked",
+    "months",
+    "new",
+    "old",
+    "past",
+    "poems",
+    "present",
+    "random",
+    "short",
+    "thoughts",
+    "time",
+    "weird",
+    "what",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/09/23/its-been-5-months/"
 ---
 
 I don't know if it was obvious for you, but I like(d) you.

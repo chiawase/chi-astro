@@ -3,11 +3,11 @@ title: "📷 Day 17: transcendence #mbApr"
 tags: ["cycling", "Photoblogging Challenges"]
 bluesky:
   id: bafyreieronxrrkjpzxxgbv5uoxdjmpgfva2sor6ofckagthzb66yr3s6ie
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kqdlvsdjvn2n'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kqdlvsdjvn2n'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kqdlvsdjvn2n"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kqdlvsdjvn2n"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2024-04-17T23:24:28+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2024/73f69cb9a4.jpg
@@ -18,9 +18,9 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2024/73f69cb9a4.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2024/73f69cb9a4.jpg
-  width: 450
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2024/73f69cb9a4.jpg
+    width: 450
+    height: 600
 source: microblog
 ---
 

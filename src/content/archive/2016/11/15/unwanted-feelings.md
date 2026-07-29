@@ -3,6 +3,7 @@ title: "(unwanted) feelings"
 date: 2016-11-15T06:11:29+08:00
 tags: ["poems"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2016/11/15/unwanted-feelings/"
 ---
 
 night time

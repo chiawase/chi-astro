@@ -1,8 +1,23 @@
 ---
 title: "Going Home"
 date: 2013-06-13T18:15:24+08:00
-tags: ["alive","ease","going-home","hello","home","outdoors","poems","rain","random","rest","thoughts","transportation"]
+tags:
+  [
+    "alive",
+    "ease",
+    "going-home",
+    "hello",
+    "home",
+    "outdoors",
+    "poems",
+    "rain",
+    "random",
+    "rest",
+    "thoughts",
+    "transportation",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/06/13/going-home/"
 ---
 
 tears start to fall

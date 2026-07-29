@@ -3,6 +3,7 @@ title: "Nothing lasts forever"
 date: 2013-04-16T21:00:52+08:00
 tags: ["poems"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/04/16/nothing-lasts-forever/"
 ---
 
 No one will care.

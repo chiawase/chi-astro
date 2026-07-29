@@ -1,8 +1,22 @@
 ---
 title: "Words"
 date: 2013-07-29T08:03:11+08:00
-tags: ["boxes","empty","hidden","meaning","nothing","poems","random","reason","say","thoughts","words"]
+tags:
+  [
+    "boxes",
+    "empty",
+    "hidden",
+    "meaning",
+    "nothing",
+    "poems",
+    "random",
+    "reason",
+    "say",
+    "thoughts",
+    "words",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/07/29/words/"
 ---
 
 empty boxes

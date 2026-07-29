@@ -1,8 +1,20 @@
 ---
 title: "Turning My Needs Into Wants -- a reflection."
 date: 2015-06-26T21:15:05+08:00
-tags: ["discouraged","habit","mindset","needs","personal","random","reflection","thoughts","wants"]
+tags:
+  [
+    "discouraged",
+    "habit",
+    "mindset",
+    "needs",
+    "personal",
+    "random",
+    "reflection",
+    "thoughts",
+    "wants",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2015/06/26/turning-my-needs-into-wants-a-reflection/"
 ---
 
 I want to practice writing. I need to practice writing.

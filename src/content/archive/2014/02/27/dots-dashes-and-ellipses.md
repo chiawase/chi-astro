@@ -1,8 +1,10 @@
 ---
+
 title: "dots, dashes and ellipses"
 date: 2014-02-27T21:25:23+08:00
 tags: ["care","dashes","dots","ellipses","listen","mind","morse","poems","random","speak","thoughts","tomorrow"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2014/02/27/dots-dashes-and-ellipses/"
 ---
 
 what else can I say

@@ -1,11 +1,26 @@
 ---
 title: "[NaPoWriMo 2015] To: Ian"
 date: 2015-04-13T20:14:06+08:00
-tags: ["2015","adoration","body","lips","love","music","napowrimo","personal","poems","presence","stature","voice"]
+tags:
+  [
+    "2015",
+    "adoration",
+    "body",
+    "lips",
+    "love",
+    "music",
+    "napowrimo",
+    "personal",
+    "poems",
+    "presence",
+    "stature",
+    "voice",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2015/04/13/napowrimo-2015-to-ian/"
 ---
 
-Hello everyone, I am back! This is for the [twelfth prompt](http://www.napowrimo.net/day-twelve-3/)! I went back to the simple things, and talked about what was dear to me. :)
+Hello everyone, I am back! This is for the [twelfth prompt](http://www.napowrimo.net/day-twelve-3/)! I went back to the simple things, and talked about what was dear to me. :)
 
 ---
 

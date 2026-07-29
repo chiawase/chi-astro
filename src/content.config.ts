@@ -34,6 +34,7 @@ const archive = defineCollection({
       source: z.enum(["wordpress", "microblog", "tumblr"]).optional(),
       heroImage: image().optional(),
       wpPostId: z.number().optional(),
+      originalUrl: z.string().url().optional().nullable(),
       draft: z.boolean().optional().nullable(),
     }),
 });

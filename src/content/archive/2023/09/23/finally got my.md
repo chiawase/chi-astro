@@ -2,11 +2,11 @@
 tags: ["ootd", "games", "ffxiv"]
 bluesky:
   id: bafyreibvxi4wqmvwlwfepdxhbch3rnsmq3xj3qgectrew4vic2yll744ru
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3ka2hiiex3l2j'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3ka2hiiex3l2j'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3ka2hiiex3l2j"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3ka2hiiex3l2j"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-09-23T17:28:12+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/1ca8603670.jpg
@@ -19,12 +19,12 @@ photos:
   - https://cdn.uploads.micro.blog/113466/2023/1ca8603670.jpg
   - https://cdn.uploads.micro.blog/113466/2023/7bfc847f8b.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/1ca8603670.jpg
-  width: 450
-  height: 600
-- url: https://cdn.uploads.micro.blog/113466/2023/7bfc847f8b.jpg
-  width: 450
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2023/1ca8603670.jpg
+    width: 450
+    height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2023/7bfc847f8b.jpg
+    width: 450
+    height: 600
 url: /2023/09/23/finally-got-my.html
 source: microblog
 ---

@@ -1,8 +1,21 @@
 ---
 title: "i'm not"
 date: 2013-06-02T07:59:06+08:00
-tags: ["im-not","identity","me","myself","poems","random","think","who-am-i","written","you"]
+tags:
+  [
+    "im-not",
+    "identity",
+    "me",
+    "myself",
+    "poems",
+    "random",
+    "think",
+    "who-am-i",
+    "written",
+    "you",
+  ]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2013/06/02/im-not/"
 ---
 
 i'm not who you think i am

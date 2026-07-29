@@ -1,13 +1,13 @@
 ---
 title: "📷 Day 12: magic #mbApr"
-tags: ["Photoblogging Challenges","mbApr"]
+tags: ["Photoblogging Challenges", "mbApr"]
 bluesky:
   id: bafyreidt3mwqzlxfdfrf6sp47rbgqll73bgzkmrurxfhiwcekwrcvyniai
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kpyg7fum2i24'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kpyg7fum2i24'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kpyg7fum2i24"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kpyg7fum2i24"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2024-04-13T12:43:40+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2024/202cde523a.jpg
@@ -18,9 +18,9 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2024/202cde523a.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2024/202cde523a.jpg
-  width: 450
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2024/202cde523a.jpg
+    width: 450
+    height: 600
 source: microblog
 ---
 

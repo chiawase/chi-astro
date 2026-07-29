@@ -1,8 +1,9 @@
 ---
 title: "idle words"
 date: 2014-02-24T13:05:48+08:00
-tags: ["flatulence","random","think","thoughts","words","writing"]
+tags: ["flatulence", "random", "think", "thoughts", "words", "writing"]
 source: wordpress
+originalUrl: "https://chiawase.wordpress.com/2014/02/24/idle-words/"
 ---
 
 the hardest part of writing:

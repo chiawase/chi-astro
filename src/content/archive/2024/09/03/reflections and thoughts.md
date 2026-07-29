@@ -1,14 +1,14 @@
 ---
-title: "Reflections and thoughts on tracking \"metrics\", accomplishments, and impact as a UX designer"
-summary: "Every now and then, I find myself wondering if I'm consistently focusing on the wrong things or unnecessary things while working. I'm not one who constantly pours myself over conversion metrics or other KPIs or numbers I need to \"track\" as a means to measure my impact as a designer, but maybe I need to learn how to be?"
+title: 'Reflections and thoughts on tracking "metrics", accomplishments, and impact as a UX designer'
+summary: 'Every now and then, I find myself wondering if I''m consistently focusing on the wrong things or unnecessary things while working. I''m not one who constantly pours myself over conversion metrics or other KPIs or numbers I need to "track" as a means to measure my impact as a designer, but maybe I need to learn how to be?'
 tags: ["design", "Obsidian", "writing"]
 bluesky:
   id: bafyreicssslfnmfnvzyi7uskfnbylnizyjjbm3gsvdgsfeoocwx4253t6m
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3l37yvnzdkb2e'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3l37yvnzdkb2e'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3l37yvnzdkb2e"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3l37yvnzdkb2e"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2024-09-03T12:44:39+0800
 mastodon:
   id: 113071795824734169
@@ -16,7 +16,9 @@ mastodon:
   hostname: social.lol
 source: microblog
 ---
+
 <!-- markdownlint-disable MD013 -->
+
 Every now and then, I find myself wondering if I'm consistently focusing on the wrong things or unnecessary things while working. I'm not one who constantly pours myself over conversion metrics or other KPIs or numbers I need to "track" as a means to measure my impact as a designer, but maybe I need to learn how to be?
 
 A few years ago, my friends recommended I set up a [brag document](https://jvns.ca/blog/brag-documents/) for myself, and to help fight the mental health downs, also collate all the positive feedback I've gotten from people over the years. I did make one before—for the latter, I made a FigJam file where I would paste screenshots of messages I got from friends and former clients, and also note specific things I heard from people via sticky notes—but it's been... maybe 2 years since I last updated it?
