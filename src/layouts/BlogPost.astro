@@ -12,6 +12,7 @@ import WebmentionsLoader from "@components/WebmentionsLoader.astro";
 import Comments from "@components/Comments.astro";
 
 import { prepareOgText } from "@utils/prepareOgText";
+import { resolveCloudinaryUrl } from "@utils/cloudinary/resolveCloudinaryUrl";
 
 import chiPhoto from "@assets/chi.jpg";
 
@@ -75,9 +76,7 @@ const fallbackTitle = "Chi’s blog post";
 
     {post.data.heroImage && (
       <img
-        src={post.data.heroImage.src}
-        width={post.data.heroImage.width}
-        height={post.data.heroImage.height}
+        src={resolveCloudinaryUrl(post.data.heroImage)}
         alt=""
         class="post-hero"
       />

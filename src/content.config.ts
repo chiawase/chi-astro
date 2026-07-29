@@ -13,7 +13,7 @@ const blog = defineCollection({
       // Transform string to Date object
       pubDate: z.coerce.date(),
       updatedDate: z.coerce.date(),
-      heroImage: image().optional(),
+      heroImage: z.string().optional().nullable(),
       draft: z.boolean().optional().nullable(),
       postLanguage: z.string().optional().nullable(),
       tags: z.array(z.string()).optional(),
@@ -32,7 +32,7 @@ const archive = defineCollection({
       date: z.coerce.date(),
       tags: z.array(z.string()).optional(),
       source: z.enum(["wordpress", "microblog", "tumblr"]).optional(),
-      heroImage: image().optional(),
+      heroImage: z.string().optional().nullable(),
       wpPostId: z.number().optional(),
       originalUrl: z.string().url().optional().nullable(),
       draft: z.boolean().optional().nullable(),

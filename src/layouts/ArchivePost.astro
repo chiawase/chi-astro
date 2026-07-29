@@ -9,6 +9,7 @@ import ArchivePostMetadata from "@components/ArchivePostMetadata.astro";
 import Backlinks from "@components/Backlinks.astro";
 
 import { prepareOgText } from "@utils/prepareOgText";
+import { resolveCloudinaryUrl } from "@utils/cloudinary/resolveCloudinaryUrl";
 
 import chiPhoto from "@assets/chi.jpg";
 
@@ -82,9 +83,7 @@ const sourceMeta = ARCHIVE_SOURCES.find(
 
       {post.data.heroImage && (
         <img
-          src={post.data.heroImage.src}
-          width={post.data.heroImage.width}
-          height={post.data.heroImage.height}
+          src={resolveCloudinaryUrl(post.data.heroImage)}
           alt=""
           class="post-hero"
         />
