@@ -25,6 +25,4 @@ I placed a screenshot instead of the actual text because it has some weird forma
 
 Hope you like it. :)
 
-—
-
-[![NaPo 7 : useless words](/uploads/2015/04/007-useless_words.png)](/uploads/2015/04/007-useless_words.png)
+![NaPo 7 : useless words](/uploads/2015/04/007-useless_words.png)
