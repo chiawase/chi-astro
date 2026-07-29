@@ -11,6 +11,7 @@ mastodon:
   id: 111696692376807927
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Life really is so fleeting.

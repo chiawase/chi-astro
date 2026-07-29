@@ -2,11 +2,11 @@
 tags: ["ootd"]
 bluesky:
   id: bafyreiawpxgeb6o2hw2arzdevsxtl2qmviqgr55ijvoyics6q2xrhootjy
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kck3bvslic2n'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kck3bvslic2n'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kck3bvslic2n"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kck3bvslic2n"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-10-25T09:22:13+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/bc063ea267.jpg
@@ -17,10 +17,11 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2023/bc063ea267.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/bc063ea267.jpg
-  width: 267
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2023/bc063ea267.jpg
+    width: 267
+    height: 600
 url: /2023/10/25/my-outfit-for.html
+source: microblog
 ---
 
 my outfit for today! I need to get another cardigan type and maybe white sneakers so I can rotate around outfit pieces more 😆

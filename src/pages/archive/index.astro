@@ -3,23 +3,22 @@ import { getCollection } from "astro:content";
 
 import Page from "@layouts/Page.astro";
 import ArchiveItem from "@components/ArchiveItem.astro";
+import ArchiveSourceNav from "@components/ArchiveSourceNav.astro";
 
 const page = {
   title: "Archives",
   description: "Post archives from the time before I got all my posts together under one wing. Each post will be marked based on where it originally was posted in, assuming I remember!"
 };
 
-const posts = (await getCollection("archive")).sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
-);
+const posts = (await getCollection("archive"))
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
-<Page
-  title={page.title}
-  description={page.description}
->
+<Page title={page.title} description={page.description}>
   <section>
     <p>{page.description}</p>
+    <ArchiveSourceNav current="/archive/" />
     <ol
       reversed
       class="postlist"

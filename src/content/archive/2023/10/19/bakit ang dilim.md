@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/19/bakit-ang-dilim.html
+source: microblog
 ---
 
 bakit ang dilim sa SLEX? wala pala mga street lights rin dito? would expressways need them? (technically all roads do naman diba...? D:)

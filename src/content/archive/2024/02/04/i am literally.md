@@ -1,11 +1,11 @@
 ---
 bluesky:
   id: bafyreia4rg3axvoecbpmns35k2kvxtihb6nzlwjrzl3mnwd2jyymelzau4
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kklflnlrhk2e'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kklflnlrhk2e'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kklflnlrhk2e"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kklflnlrhk2e"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2024-02-04T17:22:39+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2024/90120d6460.jpg
@@ -16,9 +16,10 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2024/90120d6460.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2024/90120d6460.jpg
-  width: 1170
-  height: 1734
+  - url: https://cdn.uploads.micro.blog/113466/2024/90120d6460.jpg
+    width: 1170
+    height: 1734
+source: microblog
 ---
 
 I am literally just looping through 6 songs right now

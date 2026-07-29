@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/03/first-ever-test.html
+source: microblog
 ---
 
 Just trying to see how the functionality works here if I do try to post a more lengthier version of whatever it is I want to share.

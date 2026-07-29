@@ -3,6 +3,7 @@ title: "25 Things I Learned after 25 years of existing"
 summary: "My birthday has officially passed. I figured I'd write a list of 25 things I learned as I turned 25, in no particular order, just for the heck of it."
 tags: ["writing"]
 date: 2021-09-04T21:20:00+0800
+source: microblog
 ---
 
 Some of these may be rephrases of other items, and some might also contradict each other. Then again, this isn't a list you should take everything word-for-word. Some items resonate with different experiences in my life, hence why they're listed here.
@@ -56,7 +57,7 @@ Sometimes, a dear friend of yours is apparently an asshole to others. And that d
 
 So what if you seen-zoned someone? In casual conversations, it's fine. You're under no obligation to respond immediately. Take your time.
 
-Besides, you can think about this: *if it's so important that they need a response right away, they'll call. Sometimes, it's not as urgent as it's made out to be, but at least you hit two birds with one stone: the other person gets their response immediately, and you have one less thing to worry about.*
+Besides, you can think about this: _if it's so important that they need a response right away, they'll call. Sometimes, it's not as urgent as it's made out to be, but at least you hit two birds with one stone: the other person gets their response immediately, and you have one less thing to worry about._
 
 ## #10: It's okay to take a stand and defend yourself.
 

@@ -2,11 +2,11 @@
 tags: ["cycling", "invitations"]
 bluesky:
   id: bafyreihkofulnowsp4evc4yha6faz76plcfivoxwfcqz5x6ekhgnb232gi
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kdb45cbpiv2x'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kdb45cbpiv2x'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kdb45cbpiv2x"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kdb45cbpiv2x"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-11-03T13:10:30+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/6288b32b1d.png
@@ -14,9 +14,10 @@ mastodon:
   id: 111344893194917346
   username: chi
   hostname: social.lol
-photos: 
-photos_with_metadata: 
+photos:
+photos_with_metadata:
 url: /2023/11/03/hello-ill-be.html
+source: microblog
 ---
 
 Hello! I'll be participating in this event by Climate Reality Indonesia next week 😄

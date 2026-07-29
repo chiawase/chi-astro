@@ -10,7 +10,8 @@ date: 2024-04-15T18:34:53+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2024/chi-seires-arc.png
 photos: 
-photos_with_metadata: 
+photos_with_metadata:
+source: microblog
 ---
 
 Just for the sake of posting: jumped on the [Arc](https://arc.net) bandwagon last January 2024! 😁

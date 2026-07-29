@@ -20,6 +20,7 @@ photos_with_metadata:
   width: 450
   height: 600
 url: /2023/07/06/chicken-cordon-bleu.html
+source: microblog
 ---
 
 📷 chicken cordon bleu for lunch! Working remotely for a few hours 😄

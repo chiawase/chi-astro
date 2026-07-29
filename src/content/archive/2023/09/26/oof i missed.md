@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/09/26/oof-i-missed.html
+source: microblog
 ---
 
 oof i missed another day haha yesterday really was a daze

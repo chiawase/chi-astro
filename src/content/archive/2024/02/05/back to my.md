@@ -19,6 +19,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/9ebfd952a0.jpg
   width: 1800
   height: 2400
+source: microblog
 ---
 
 back to my red nail polish era 💅 

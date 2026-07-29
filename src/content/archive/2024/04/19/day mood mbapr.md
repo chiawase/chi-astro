@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/5a19047980.jpg
   width: 600
   height: 600
+source: microblog
 ---
 
 This horse/donkey statue is a mood after the events of this week. 😆

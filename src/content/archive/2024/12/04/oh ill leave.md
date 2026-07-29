@@ -15,6 +15,7 @@ threads:
   id: 18040048037465640
   url: https://www.threads.net/@_chiawase/post/DDIptZHN8Ps
   username: _chiawase
+source: microblog
 ---
 
 Oh, I'll leave this question up if ever any moots would like to share recos:

@@ -21,6 +21,7 @@ photos_with_metadata:
   width: 277
   height: 600
 url: /2023/07/13/ohhh-the-character.html
+source: microblog
 ---
 
 ohhh, the character count in Threads shows at the upper right corner of the new post bottom sheet if you get near the maximum count. It starts counting down once you reach 450 characters 😆

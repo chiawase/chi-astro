@@ -21,6 +21,7 @@ photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/b356d28ee4.jpg
   width: 450
   height: 600
+source: microblog
 ---
 
 Look at them crispy hibiscus popcorn and rice flakes on top of this poke bowl I ate somewhere around Salzburg 😁

@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/18/sobbing-why-do.html
+source: microblog
 ---
 
 sobbing why do nice things cost money 🥹 i saw a really cute skirt, swimsuit, and dress 🤧

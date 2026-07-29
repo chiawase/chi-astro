@@ -1,0 +1,47 @@
+---
+import { getCollection, render } from "astro:content";
+
+import Page from "@layouts/Page.astro";
+import ArchiveItem from "@components/ArchiveItem.astro";
+import ArchiveSourceNav from "@components/ArchiveSourceNav.astro";
+
+import { ARCHIVE_SOURCES, type ArchiveSourceEntry } from "@data/archiveSources";
+
+export async function getStaticPaths() {
+  return ARCHIVE_SOURCES
+    .filter((e) => e.url !== "/archive/" && e.enabled !== false)
+    .map((entry) => ({ params: { source: entry.source }, props: { entry } }));
+}
+
+type Props = { entry: ArchiveSourceEntry };
+const { entry } = Astro.props;
+
+// Find matching intro file. Filename convention: {source}.mdx
+const intros = await getCollection("archiveIntros", (i) => i.id === entry.source);
+const introContent = intros.length ? (await render(intros[0])).Content : null;
+
+const posts = (await getCollection("archive", (p) => p.data.source === entry.source && !p.data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<Page title={entry.title} description={entry.description}>
+  <section>
+    {introContent && <introContent />}
+    <ArchiveSourceNav current={entry.url} />
+    <p><strong>{posts.length}</strong> post{posts.length === 1 ? "" : "s"} from this source.</p>
+    {posts.length === 0 ? (
+      <p>No posts in this source yet.</p>
+    ) : (
+      <ol
+        reversed
+        class="postlist"
+        style={`--postslist-index: ${posts.length};`}
+      >
+        {posts.map((post) => {
+          return (<ArchiveItem post={post} />);
+        })}
+      </ol>
+    )}
+  </section>
+
+</Page>

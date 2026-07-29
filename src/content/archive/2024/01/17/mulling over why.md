@@ -2,6 +2,7 @@
 title: "Mulling over why at-the-office would work vs mostly-remote (I'm for the latter)"
 tags: ["writing", "career"]
 date: 2024-01-17T00:02:39+0800
+source: microblog
 ---
 
 Until now I struggle to find a reason why a team that has functioned and performed well even with a mostly-remote setup now changes into a more hybrid, more at-the-office setup for the team.

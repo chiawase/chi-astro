@@ -11,6 +11,7 @@ mastodon:
   id: 112743118275343639
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Currently still in hibernating mode after my trip to Singapore. Before that, there was also our department's team building 😆

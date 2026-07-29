@@ -4,17 +4,18 @@ summary: "I've been in a bit of a dilemma lately. I know I've been ignoring actu
 tags: ["writing"]
 bluesky:
   id: bafyreic4opc7zqkgntpekz4ngn3czoo2re5mzz55xi6hfq3tevqrpuojqq
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kadjwqo6om2k'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kadjwqo6om2k'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kadjwqo6om2k"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kadjwqo6om2k"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-09-27T08:07:13+0800
 mastodon:
   id: 111134194838096929
   username: chi
   hostname: social.lol
 url: /2023/09/27/reflections-on-trust.html
+source: microblog
 ---
 
 > I'll be rambling on a bit about thoughts I've had in the past... month or so after this section. I initially thought I'd just post this on Mastodon with its content warning setup, but I wanna feel more comfy writing about my thoughts in whatever form _here_, not having everything be curated for a particular purpose or use.
@@ -38,7 +39,7 @@ How does one eventually learn to do so?
 
 I know it's a constant thing you gotta keep up with, too. After all, every day is a new battle, a new challenge to face. Always gotta weather it through, or something along those lines.
 
-I hope I eventually get through this rut. It's sometimes annoying being hyperaware that the reason I can't function as well is because of my own mental and emotional incapacities (and I mean this as-a-matter-of-fact, not really undermining myself). 
+I hope I eventually get through this rut. It's sometimes annoying being hyperaware that the reason I can't function as well is because of my own mental and emotional incapacities (and I mean this as-a-matter-of-fact, not really undermining myself).
 
 Like, my logical side just goes, "come on, girl! You know you can do this, you just go through step 1, 2, etc." yet my body and emotional self just nopes out and has no energy or capacity to deal with it.
 

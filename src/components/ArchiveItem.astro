@@ -17,6 +17,9 @@ const postReadingTime = getReadingTime(post.body ?? "");
 
 <li class="postlist-item">
   {/* if with title */}
+  {post.data.source && (
+    <span class={`archive-source-badge source-${post.data.source}`}>{post.data.source}</span>
+  )}
   {post.data.title && (
       <a href={`/archive/${post.id}/`} class="postlist-link postlist-header">
         {post.data.title}
@@ -35,3 +38,14 @@ const postReadingTime = getReadingTime(post.body ?? "");
     postReadingTime={postReadingTime}
   />
 </li>
+
+<style>
+.archive-source-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.1rem 0.4rem;
+  margin-inline-end: 0.5rem;
+}
+
+.source-wordpress, .source-microblog { background-color: var(--background-color-overlay); }
+</style>

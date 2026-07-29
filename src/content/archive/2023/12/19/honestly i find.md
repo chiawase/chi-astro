@@ -2,11 +2,11 @@
 tags: ["games"]
 bluesky:
   id: bafyreiguoav27dfcluov5qbksr4fgcyrozlz3ubmg3i64vgs6p4ihtpcsa
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kgvaa3risi2t'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kgvaa3risi2t'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kgvaa3risi2t"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kgvaa3risi2t"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-12-19T17:31:57+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/image-2023-12-19-173128643.png
@@ -14,9 +14,10 @@ mastodon:
   id: 111606389216927208
   username: chi
   hostname: social.lol
-photos: 
-photos_with_metadata: 
+photos:
+photos_with_metadata:
 url: /2023/12/19/honestly-i-find.html
+source: microblog
 ---
 
 honestly I find it so funny that my stats for 🎮 Baldur's Gate 3 is like this HAHA the jab is totally real, I still haven't left Act One :((((((

@@ -1,13 +1,13 @@
 ---
 title: "📷 day 30: treasure #mbsept"
-tags: ["Photoblogging Challenges","mbSept"]
+tags: ["Photoblogging Challenges", "mbSept"]
 bluesky:
   id: bafyreihg5sf7at7yllpn35yuebucnn4ivyhibymyir7mre4wwewei6pgn4
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kangf3m47l2c'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kangf3m47l2c'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kangf3m47l2c"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kangf3m47l2c"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-10-01T06:27:48+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/b3ea0508f41a474eaf4360df895f9ceb.jpg
@@ -18,10 +18,11 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2023/b3ea0508f41a474eaf4360df895f9ceb.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/b3ea0508f41a474eaf4360df895f9ceb.jpg
-  width: 600
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2023/b3ea0508f41a474eaf4360df895f9ceb.jpg
+    width: 600
+    height: 600
 url: /2023/10/01/day-treasure-mbsept.html
+source: microblog
 ---
 
 i gave this some thought, and figured one of my treasures are my hands. They allow me to do so many things. 😌

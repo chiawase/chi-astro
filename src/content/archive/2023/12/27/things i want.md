@@ -1,17 +1,18 @@
 ---
 bluesky:
   id: bafyreifb6aqndrmabwdvsthyuamy3vn6zpsral5cdzolj3ognqkzsomr5y
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3khim2pwnxo2u'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3khim2pwnxo2u'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3khim2pwnxo2u"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3khim2pwnxo2u"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-12-27T10:24:55+0800
 mastodon:
   id: 111650006481080915
   username: chi
   hostname: social.lol
 url: /2023/12/27/things-i-want.html
+source: microblog
 ---
 
 Things I want to do back at my parent's house for the holidays:

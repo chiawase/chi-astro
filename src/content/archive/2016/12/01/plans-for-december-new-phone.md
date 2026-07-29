@@ -1,0 +1,20 @@
+---
+title: "Plans for December + New Phone!"
+date: 2016-12-01T20:31:18+08:00
+tags: ["personal","shorts","thoughts"]
+source: wordpress
+---
+
+First off, I was planning on doing [what was done in this Medium article](https://medium.com/@katerutter/sketch-things-better-with-the-7-ways-of-seeing-6f9a24e5b9dd#.8yhcvq7la) every day this month, but because of work, I might have to just reduce that to "do something like this when you have the time. Do at least 10 of these." Plus, I don't have a sketchpad ready for these kinds of things—I'd rather not mix these with my personal sketches—so there's that, too.
+
+Either way, I'll post them here when I have the time, and I *will* set some time aside for it. I want to see what I can create by doing this method of "seeing". :)
+
+Another update for me is that I got a new phone last Tuesday! It's a OnePlus 3. I got it from [KimstorePH](http://kimstore.com). :D
+> 
+> Hello, new phone! 😄 [#OnePlus3](https://twitter.com/hashtag/OnePlus3?src=hash) [#NeverSettle](https://twitter.com/hashtag/NeverSettle?src=hash) I'll take care of you from now on. 😊 [pic.twitter.com/dSXHmkIMTa](https://t.co/dSXHmkIMTa)
+> — Chi Señires (@ChiSenires) [November 29, 2016](https://twitter.com/ChiSenires/status/803735953441361920)
+The experience has been great so far! Although this is coming from someone who owned an O+ 8.91 for around 4 years, maybe? (Wow, it's been that long?) It's refreshing to use a new phone, and one that I think will last long with me. ^_^ I hope I can create some apps by testing it with this phone.
+
+I just wanted to share a bit of my life here again. I normally do that online via Twitter, but there's a different feeling when you write things down in a semi-orderly manner. Hehe. I also want to keep updating this blog of mine, for I think it's good practice when it comes to forming coherent sentences and getting points across. I know I need to hone those skills.
+
+That's it for now. Until next time! Hopefully I post some kind of sketch or update :)

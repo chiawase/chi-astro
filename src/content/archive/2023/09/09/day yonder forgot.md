@@ -1,13 +1,13 @@
 ---
 title: "📷 Day 8: yonder #mbsept"
-tags: ["Photoblogging Challenges","mbSept"]
+tags: ["Photoblogging Challenges", "mbSept"]
 bluesky:
   id: bafyreihq5r3ma4sbzdf32cmlxd422kb3ydo7yni5l2mu4qz4j76dq7vehm
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k6xju7rtvi2l'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k6xju7rtvi2l'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k6xju7rtvi2l"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k6xju7rtvi2l"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-09-09T20:09:34+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/d8e1a83ae43f4d58a55c734eff9d7b07.jpg
@@ -18,10 +18,11 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2023/d8e1a83ae43f4d58a55c734eff9d7b07.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/d8e1a83ae43f4d58a55c734eff9d7b07.jpg
-  width: 450
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2023/d8e1a83ae43f4d58a55c734eff9d7b07.jpg
+    width: 450
+    height: 600
 url: /2023/09/09/day-yonder-forgot.html
+source: microblog
 ---
 
 forgot to post yesterday!!! huhu i broke my streak 😆

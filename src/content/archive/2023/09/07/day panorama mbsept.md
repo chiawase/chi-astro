@@ -1,13 +1,13 @@
 ---
 title: "📷 Day 7: panorama #mbsept"
-tags: ["Photoblogging Challenges","mbSept"]
+tags: ["Photoblogging Challenges", "mbSept"]
 bluesky:
   id: bafyreiay53wose3v2dhmh5l6qaxxcsv4jak5c5jo2h4nyhlodh6do6n45a
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k6slderzhk25'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k6slderzhk25'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k6slderzhk25"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k6slderzhk25"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-09-07T20:51:22+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/1782ab2cb9294a08a35548bdf8728ce9.jpg
@@ -18,10 +18,11 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2023/1782ab2cb9294a08a35548bdf8728ce9.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/1782ab2cb9294a08a35548bdf8728ce9.jpg
-  width: 337
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2023/1782ab2cb9294a08a35548bdf8728ce9.jpg
+    width: 337
+    height: 600
 url: /2023/09/07/day-panorama-mbsept.html
+source: microblog
 ---
 
 I rarely take actual panorama photos with my phone, but maybe this'll count? View of the clouds during my flight from the Philippines to Thailand ☁️🤩

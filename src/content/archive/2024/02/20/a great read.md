@@ -11,6 +11,7 @@ mastodon:
   id: 111963896951075445
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 A great read on the opportunities for AI in accessibility: [alistapart.com/article/o...](https://alistapart.com/article/opportunities-for-ai-in-accessibility/)

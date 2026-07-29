@@ -12,6 +12,7 @@ mastodon:
   id: 112284026963291697
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 Stumped again for what to post for #mbApr day 17 🙈 I'll mull it over this day hahaha

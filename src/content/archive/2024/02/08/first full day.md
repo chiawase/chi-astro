@@ -2,11 +2,11 @@
 tags: ["ootd", "travel"]
 bluesky:
   id: bafyreihfei636shvvjw4t6ccjndl7k4nfqq6pwsob3aeymu5h5v2bqkyzm
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kkuc52sann2x'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kkuc52sann2x'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kkuc52sann2x"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kkuc52sann2x"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2024-02-08T06:14:36+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2024/13e13f8b19.jpg
@@ -19,12 +19,13 @@ photos:
   - https://cdn.uploads.micro.blog/113466/2024/13e13f8b19.jpg
   - https://cdn.uploads.micro.blog/113466/2024/7f81ec2af2.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2024/7f81ec2af2.jpg
-  width: 1800
-  height: 2400
-- url: https://cdn.uploads.micro.blog/113466/2024/13e13f8b19.jpg
-  width: 1800
-  height: 2400
+  - url: https://cdn.uploads.micro.blog/113466/2024/7f81ec2af2.jpg
+    width: 1800
+    height: 2400
+  - url: https://cdn.uploads.micro.blog/113466/2024/13e13f8b19.jpg
+    width: 1800
+    height: 2400
+source: microblog
 ---
 
 First full day in Austria 🇦🇹!

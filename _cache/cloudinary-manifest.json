@@ -3308,5 +3308,375 @@
     "etag": "52e14b80f8974cd971e3d60e8fa00f63",
     "uploadedAt": "2026-07-05T03:16:17.485Z",
     "sha1": "9727a2dfeccb4742c39acd956bd763ca9bcdceed"
+  },
+  "uploads/2016/10/img_20161001_1243344.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161001_1243344.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161001_1243344",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784733520/chisenires.design/uploads/2016/10/img_20161001_1243344.jpg",
+    "bytes": 1378553,
+    "etag": "32bce0109103dbce0f09b50c3e6a82de",
+    "uploadedAt": "2026-07-22T15:18:41.549Z",
+    "sha1": "2732ba38917fd757d90fe85e44ec81c840d0c1c4"
+  },
+  "uploads/2014/10/scanimage011.jpg": {
+    "localRelPath": "uploads/2014/10/scanimage011.jpg",
+    "publicId": "chisenires.design/uploads/2014/10/scanimage011",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784733520/chisenires.design/uploads/2014/10/scanimage011.jpg",
+    "bytes": 504896,
+    "etag": "bca1e192d8d07aa4cd87f85c08abe5da",
+    "uploadedAt": "2026-07-22T15:19:53.337Z",
+    "sha1": "f34217c7d84cf7b21b40dd590009f6c4b8173413"
+  },
+  "uploads/2015/04/007-useless_words.png": {
+    "localRelPath": "uploads/2015/04/007-useless_words.png",
+    "publicId": "chisenires.design/uploads/2015/04/007-useless_words",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784733519/chisenires.design/uploads/2015/04/007-useless_words.png",
+    "bytes": 6415,
+    "etag": "d4d7aff5283a12b185b96a0a5041e07e",
+    "uploadedAt": "2026-07-22T15:19:54.152Z",
+    "sha1": "81a2d41d70e62a2e8a5bf440c93b16691e707aa6"
+  },
+  "uploads/2016/08/2016-06-17-21-26-40.jpg": {
+    "localRelPath": "uploads/2016/08/2016-06-17-21-26-40.jpg",
+    "publicId": "chisenires.design/uploads/2016/08/2016-06-17-21-26-40",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784733520/chisenires.design/uploads/2016/08/2016-06-17-21-26-40.jpg",
+    "bytes": 772835,
+    "etag": "d987007da7c69ddd2c9a123d49274019",
+    "uploadedAt": "2026-07-22T15:19:55.210Z",
+    "sha1": "1ebef304bcad9cc893b1d6f3728064ec20734548"
+  },
+  "uploads/2016/09/319c74ab8d74a39e-2016promptlist.jpg": {
+    "localRelPath": "uploads/2016/09/319c74ab8d74a39e-2016promptlist.jpg",
+    "publicId": "chisenires.design/uploads/2016/09/319c74ab8d74a39e-2016promptlist",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784733520/chisenires.design/uploads/2016/09/319c74ab8d74a39e-2016promptlist.jpg",
+    "bytes": 164024,
+    "etag": "bf1312645d8eb13f0878699512235f64",
+    "uploadedAt": "2026-07-22T15:19:55.976Z",
+    "sha1": "c83f57a5cf67040dcf19097666e62bd3774c61c7"
+  },
+  "uploads/2016/10/img_20161002_104409.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161002_104409.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161002_104409",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784733520/chisenires.design/uploads/2016/10/img_20161002_104409.jpg",
+    "bytes": 300242,
+    "etag": "6e70af6311591fbf574b2179fdd97750",
+    "uploadedAt": "2026-07-22T15:19:56.814Z",
+    "sha1": "d85d6e27501bd414a9d42ff62fa9e43f2586a830"
+  },
+  "uploads/2016/10/img_20161014_215539.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161014_215539.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161014_215539",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784733520/chisenires.design/uploads/2016/10/img_20161014_215539.jpg",
+    "bytes": 584125,
+    "etag": "68f0ead7380dc6f3498c18097b0e9ccf",
+    "uploadedAt": "2026-07-22T15:19:57.748Z",
+    "sha1": "8339a90d2124c1c8e70babb210a6603408d5c9b1"
+  },
+  "uploads/2016/10/img_20161018_220406.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161018_220406.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161018_220406",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808867/chisenires.design/uploads/2016/10/img_20161018_220406.jpg",
+    "bytes": 157659,
+    "etag": "5b0aee3f9042e2a6552f2b73087d5e04",
+    "uploadedAt": "2026-07-23T12:14:29.201Z",
+    "sha1": "154268a506702668adb40f6701c798a3f18b3a8e"
+  },
+  "uploads/2013/04/2013-04-28_094328.jpg": {
+    "localRelPath": "uploads/2013/04/2013-04-28_094328.jpg",
+    "publicId": "chisenires.design/uploads/2013/04/2013-04-28_094328",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808866/chisenires.design/uploads/2013/04/2013-04-28_094328.jpg",
+    "bytes": 57966,
+    "etag": "54bedc7f81d1027dcb132050a15f7fbf",
+    "uploadedAt": "2026-07-23T12:19:51.564Z",
+    "sha1": "ad6bcf396463ef871cb2fdf0334d443dd5234f19"
+  },
+  "uploads/2013/08/alone1.jpg": {
+    "localRelPath": "uploads/2013/08/alone1.jpg",
+    "publicId": "chisenires.design/uploads/2013/08/alone1",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808866/chisenires.design/uploads/2013/08/alone1.jpg",
+    "bytes": 59335,
+    "etag": "e08288e1961139ba42f95de4ca1b0f9a",
+    "uploadedAt": "2026-07-23T12:19:52.378Z",
+    "sha1": "920e77b46eb77f8d4acad1e19a90a9527bba208d"
+  },
+  "uploads/2016/10/img_20161003_132810.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161003_132810.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161003_132810",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808868/chisenires.design/uploads/2016/10/img_20161003_132810.jpg",
+    "bytes": 1070491,
+    "etag": "83281b6684ba92deaeaac1c1a08381de",
+    "uploadedAt": "2026-07-23T12:19:53.711Z",
+    "sha1": "8bf4ba03b1401f54b5f8e85dd55d5424f2a71728"
+  },
+  "uploads/2016/10/img_20161004_104953.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161004_104953.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161004_104953",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808867/chisenires.design/uploads/2016/10/img_20161004_104953.jpg",
+    "bytes": 919090,
+    "etag": "9452adc4b9b86f225b8014c4805a42fc",
+    "uploadedAt": "2026-07-23T12:19:54.529Z",
+    "sha1": "23e15db361a42930e5386476204d5c7a75d9bd7d"
+  },
+  "uploads/2016/10/img_20161005_125058.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161005_125058.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161005_125058",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808867/chisenires.design/uploads/2016/10/img_20161005_125058.jpg",
+    "bytes": 886210,
+    "etag": "29d9e9f8ae59ad83489a0ca988320715",
+    "uploadedAt": "2026-07-23T12:19:55.348Z",
+    "sha1": "457e75163d6378ce48e1a39a5637a682351db39d"
+  },
+  "uploads/2016/10/img_20161006_125516.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161006_125516.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161006_125516",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808867/chisenires.design/uploads/2016/10/img_20161006_125516.jpg",
+    "bytes": 1239761,
+    "etag": "bb8063b1785bc97a85e956c5987f75e8",
+    "uploadedAt": "2026-07-23T12:19:56.384Z",
+    "sha1": "d81d429ce5fcc4f48b7b045d7f37103de7c3b785"
+  },
+  "uploads/2016/10/img_20161007_150908.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161007_150908.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161007_150908",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808867/chisenires.design/uploads/2016/10/img_20161007_150908.jpg",
+    "bytes": 822831,
+    "etag": "35b4e6bd8bedc8bbcf19ac95bcefb3cd",
+    "uploadedAt": "2026-07-23T12:19:57.194Z",
+    "sha1": "7a6d97479cf7f4b199032f37e687ca9311b259f7"
+  },
+  "uploads/2016/10/img_20161008_162303.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161008_162303.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161008_162303",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808868/chisenires.design/uploads/2016/10/img_20161008_162303.jpg",
+    "bytes": 1380717,
+    "etag": "bf33e33724004bf7ddb9cad0a2d51b8d",
+    "uploadedAt": "2026-07-23T12:19:58.317Z",
+    "sha1": "656756d44c879e0c5d3352838bdcd3d70f78f702"
+  },
+  "uploads/2016/10/img_20161009_203705.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161009_203705.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161009_203705",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808866/chisenires.design/uploads/2016/10/img_20161009_203705.jpg",
+    "bytes": 192316,
+    "etag": "f45a2e7054c79e3909d884bb179f91d2",
+    "uploadedAt": "2026-07-23T12:19:59.139Z",
+    "sha1": "8c54d02642a5b3ff70cd5412c9b6a25a45eb7f40"
+  },
+  "uploads/2016/10/img_20161010_143850.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161010_143850.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161010_143850",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808867/chisenires.design/uploads/2016/10/img_20161010_143850.jpg",
+    "bytes": 123118,
+    "etag": "eaac2edddd35821b7b641a2e870dd83d",
+    "uploadedAt": "2026-07-23T12:19:59.833Z",
+    "sha1": "04f01b6e61dcacbc1e2c2d82846a4447e9a3897e"
+  },
+  "uploads/2016/10/img_20161011_184051.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161011_184051.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161011_184051",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808866/chisenires.design/uploads/2016/10/img_20161011_184051.jpg",
+    "bytes": 126926,
+    "etag": "b737f07645baff73240af36cdf0704ed",
+    "uploadedAt": "2026-07-23T12:20:00.718Z",
+    "sha1": "e9fe1e4151c0a3fea638645380994b6980b4c977"
+  },
+  "uploads/2016/10/img_20161013_175012.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161013_175012.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161013_175012",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808867/chisenires.design/uploads/2016/10/img_20161013_175012.jpg",
+    "bytes": 172211,
+    "etag": "cecec737660f1b30b0328e81beacd685",
+    "uploadedAt": "2026-07-23T12:20:01.901Z",
+    "sha1": "2ed297b1927d0218cfe28ca4075bf2f32847d9b6"
+  },
+  "uploads/2016/10/img_20161013_180536.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161013_180536.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161013_180536",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808866/chisenires.design/uploads/2016/10/img_20161013_180536.jpg",
+    "bytes": 154174,
+    "etag": "de9d8627ae0b698192f53a076e4865a4",
+    "uploadedAt": "2026-07-23T12:20:02.663Z",
+    "sha1": "69e9b03d0e82b1d421861fdce26dbba097c9871b"
+  },
+  "uploads/2016/10/img_20161016_221418.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161016_221418.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161016_221418",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808867/chisenires.design/uploads/2016/10/img_20161016_221418.jpg",
+    "bytes": 1646397,
+    "etag": "3b1f39b19523eba4cbd778642cb87072",
+    "uploadedAt": "2026-07-23T12:20:03.692Z",
+    "sha1": "3e64f021be71e2ba5f409944a50c51c16399dfdc"
+  },
+  "uploads/2016/10/img_20161017_182720.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161017_182720.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161017_182720",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808867/chisenires.design/uploads/2016/10/img_20161017_182720.jpg",
+    "bytes": 979931,
+    "etag": "a607378e79120c2c1347df61676d4922",
+    "uploadedAt": "2026-07-23T12:20:04.462Z",
+    "sha1": "7cd839489dfb8ff05000eaa1bb8ec25254a3709a"
+  },
+  "uploads/2016/10/img_20161019_221915.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161019_221915.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161019_221915",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808867/chisenires.design/uploads/2016/10/img_20161019_221915.jpg",
+    "bytes": 624523,
+    "etag": "d300f5852fe8ec35881dddb93e844b90",
+    "uploadedAt": "2026-07-23T12:20:05.486Z",
+    "sha1": "2ac0a9e4fa7e995aaf3caa3b7c391b03b24b2f98"
+  },
+  "uploads/2016/10/img_20161020_180536.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161020_180536.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161020_180536",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808866/chisenires.design/uploads/2016/10/img_20161020_180536.jpg",
+    "bytes": 140156,
+    "etag": "5467201ed209fc390025abed67e54a34",
+    "uploadedAt": "2026-07-23T12:20:06.920Z",
+    "sha1": "4a5e92e5eeadc0f45366b56ece42f1211f818f0a"
+  },
+  "uploads/2016/10/img_20161027_222452.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161027_222452.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161027_222452",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808867/chisenires.design/uploads/2016/10/img_20161027_222452.jpg",
+    "bytes": 974565,
+    "etag": "c5ae1281e5938cc256a25ef6700bd7ed",
+    "uploadedAt": "2026-07-23T12:20:08.441Z",
+    "sha1": "4f8bfcaf45d766e96e30b9be46e7279bbb74eb59"
+  },
+  "uploads/2016/10/img_20161027_224638.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161027_224638.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161027_224638",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808867/chisenires.design/uploads/2016/10/img_20161027_224638.jpg",
+    "bytes": 595576,
+    "etag": "36bac7a0b62213530b8ae1e7b83d8591",
+    "uploadedAt": "2026-07-23T12:20:09.274Z",
+    "sha1": "2e1c075d32866f56ef31682f177321a50e2515e3"
+  },
+  "uploads/2016/10/img_20161031_085925.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161031_085925.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161031_085925",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784808867/chisenires.design/uploads/2016/10/img_20161031_085925.jpg",
+    "bytes": 891913,
+    "etag": "e192bebfda247c8eae3b8bec33a2fbb9",
+    "uploadedAt": "2026-07-23T12:20:10.788Z",
+    "sha1": "4209ea06086ddf3a0409c588cedd7e8967e71269"
+  },
+  "uploads/2016/10/791938767204429824-Cv2IHBqVMAEgHIy.jpg": {
+    "localRelPath": "uploads/2016/10/791938767204429824-Cv2IHBqVMAEgHIy.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/791938767204429824-Cv2IHBqVMAEgHIy",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784810196/chisenires.design/uploads/2016/10/791938767204429824-Cv2IHBqVMAEgHIy.jpg",
+    "bytes": 170478,
+    "etag": "0cd1a229d7ca6fa3a9c4f7643beba899",
+    "uploadedAt": "2026-07-23T12:36:36.866Z",
+    "sha1": "912674607c36012b331cf3cb81579deacc01a148"
+  },
+  "uploads/2016/10/img_20161028_173832.jpg": {
+    "localRelPath": "uploads/2016/10/img_20161028_173832.jpg",
+    "publicId": "chisenires.design/uploads/2016/10/img_20161028_173832",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1784810204/chisenires.design/uploads/2016/10/img_20161028_173832.jpg",
+    "bytes": 170478,
+    "etag": "0cd1a229d7ca6fa3a9c4f7643beba899",
+    "uploadedAt": "2026-07-23T12:36:45.529Z",
+    "sha1": "912674607c36012b331cf3cb81579deacc01a148"
+  },
+  "uploads/2016/08/baggage-webcomic-idea-003.jpg": {
+    "localRelPath": "uploads/2016/08/baggage-webcomic-idea-003.jpg",
+    "publicId": "chisenires.design/uploads/2016/08/baggage-webcomic-idea-003",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1785317606/chisenires.design/uploads/2016/08/baggage-webcomic-idea-003.jpg",
+    "bytes": 70082,
+    "etag": "668726081b6a2fd4cc24895d7429e393",
+    "uploadedAt": "2026-07-29T09:33:27.201Z",
+    "sha1": "5f090cb1a287717a52e50e151114af4158100865"
+  },
+  "uploads/2016/08/2016-06-17-21-26-35.jpg": {
+    "localRelPath": "uploads/2016/08/2016-06-17-21-26-35.jpg",
+    "publicId": "chisenires.design/uploads/2016/08/2016-06-17-21-26-35",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1785318100/chisenires.design/uploads/2016/08/2016-06-17-21-26-35.jpg",
+    "bytes": 878391,
+    "etag": "b79ba0b8b76382cc45ebe1e5d1e6dc35",
+    "uploadedAt": "2026-07-29T09:41:41.345Z",
+    "sha1": "516009ce4883e7a518786968e1d38e1b4f807bf6"
+  },
+  "uploads/2016/08/2016-06-17-21-25-12.jpg": {
+    "localRelPath": "uploads/2016/08/2016-06-17-21-25-12.jpg",
+    "publicId": "chisenires.design/uploads/2016/08/2016-06-17-21-25-12",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1785318100/chisenires.design/uploads/2016/08/2016-06-17-21-25-12.jpg",
+    "bytes": 834303,
+    "etag": "96dd27350b68b972c926ebb3271c54a1",
+    "uploadedAt": "2026-07-29T12:36:01.490Z",
+    "sha1": "e62c5da3440068a92b9da9aa0b6dc82829098f8c"
+  },
+  "uploads/2016/08/2016-06-17-21-25-27.jpg": {
+    "localRelPath": "uploads/2016/08/2016-06-17-21-25-27.jpg",
+    "publicId": "chisenires.design/uploads/2016/08/2016-06-17-21-25-27",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1785318100/chisenires.design/uploads/2016/08/2016-06-17-21-25-27.jpg",
+    "bytes": 847269,
+    "etag": "cd272a31adc3d257897bd30751099cc1",
+    "uploadedAt": "2026-07-29T12:36:03.229Z",
+    "sha1": "0c9aff53fc42e6c017e4a546c0c267c10f76eb7c"
+  },
+  "uploads/2016/08/2016-06-17-21-25-43.jpg": {
+    "localRelPath": "uploads/2016/08/2016-06-17-21-25-43.jpg",
+    "publicId": "chisenires.design/uploads/2016/08/2016-06-17-21-25-43",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1785318100/chisenires.design/uploads/2016/08/2016-06-17-21-25-43.jpg",
+    "bytes": 827954,
+    "etag": "dc33c3eb6f8f995459396728b8134641",
+    "uploadedAt": "2026-07-29T12:36:05.035Z",
+    "sha1": "35f81e36344f50fabd7a7b82a41bdebba5c95259"
+  },
+  "uploads/2016/08/2016-06-17-21-25-57.jpg": {
+    "localRelPath": "uploads/2016/08/2016-06-17-21-25-57.jpg",
+    "publicId": "chisenires.design/uploads/2016/08/2016-06-17-21-25-57",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1785318100/chisenires.design/uploads/2016/08/2016-06-17-21-25-57.jpg",
+    "bytes": 816214,
+    "etag": "1e1950ac84e9b7965f6bf7e4125e5c31",
+    "uploadedAt": "2026-07-29T12:36:06.607Z",
+    "sha1": "bcb3537a53f199935c28791a64336559e4fab97b"
+  },
+  "uploads/2016/08/2016-06-17-21-26-32.jpg": {
+    "localRelPath": "uploads/2016/08/2016-06-17-21-26-32.jpg",
+    "publicId": "chisenires.design/uploads/2016/08/2016-06-17-21-26-32",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1785318100/chisenires.design/uploads/2016/08/2016-06-17-21-26-32.jpg",
+    "bytes": 831759,
+    "etag": "9e62444933ef2d924e5dbf78aea43e4f",
+    "uploadedAt": "2026-07-29T12:36:08.452Z",
+    "sha1": "1ed054b7f076bf22b7e6756be002e49700237791"
   }
 }

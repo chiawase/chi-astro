@@ -6,6 +6,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/20/so-far-since.html
+source: microblog
 ---
 
 So far, since getting my trifold bike, I haven't booked an Angkas or JoyRide (motor taxi) to go to places by myself.

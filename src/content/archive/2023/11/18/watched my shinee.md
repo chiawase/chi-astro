@@ -4,11 +4,11 @@ summary: "While last minute, I watched the premiere showing of My SHINee World a
 tags: ["writing", "kpop", "SHINee"]
 bluesky:
   id: bafyreif436xjlkz4blf6tgbfjilcoomfdrlqsd2vlm4qwp7hnubg2s7cta
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kefofnz2cm2m'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kefofnz2cm2m'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kefofnz2cm2m"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kefofnz2cm2m"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-11-18T02:13:09+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/2cc8027a0e.jpg
@@ -25,26 +25,27 @@ photos:
   - https://cdn.uploads.micro.blog/113466/2023/a59615ebfe.jpg
   - https://cdn.uploads.micro.blog/113466/2023/a59615ebfe.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/a59615ebfe.jpg
-  width: 450
-  height: 600
-- url: https://cdn.uploads.micro.blog/113466/2023/2cc8027a0e.jpg
-  width: 450
-  height: 600
-- url: https://cdn.uploads.micro.blog/113466/2023/a59615ebfe.jpg
-  width: 450
-  height: 600
-- url: https://cdn.uploads.micro.blog/113466/2023/2cc8027a0e.jpg
-  width: 450
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2023/a59615ebfe.jpg
+    width: 450
+    height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2023/2cc8027a0e.jpg
+    width: 450
+    height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2023/a59615ebfe.jpg
+    width: 450
+    height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2023/2cc8027a0e.jpg
+    width: 450
+    height: 600
 url: /2023/11/18/watched-my-shinee.html
+source: microblog
 ---
 
 While last minute, I watched the premiere showing of My SHINee World at SM Megamall. It was worth it 🥹🤧
 
 ![A photo of Chi with the MY SHINee WORLD movie poster backdrop and with freebies from the documentary premiere. In front of her are a photo of the SHINee members (from left to right): Onew, Taemin, Jonghyun, Key, and Minho all pointing a thumbs up to the right side during one of their concerts. Chi is also posing with a thumbs up to join the SHINee members.](/uploads/2023/a59615ebfe.jpg)
 
-I didn't consider myself that much of a fan since all I've done was keep up with their music and know the members. But I think either way, they hold a special place in my heart and I'm happy to see how far they've gone all these years 😌🩵 
+I didn't consider myself that much of a fan since all I've done was keep up with their music and know the members. But I think either way, they hold a special place in my heart and I'm happy to see how far they've gone all these years 😌🩵
 
 Enjoying a group's music with other fans really makes the experience better, especially if you're all just there to celebrate the group members and what they do. I initially bought a seat that had no one next to me because I was a bit afraid of chatting up with other fans who might be more into the fandom than I was—I've always kept myself at the fringes, not really interacting with other people since I didn't initially see the need to back then.
 

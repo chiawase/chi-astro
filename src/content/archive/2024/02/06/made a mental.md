@@ -17,6 +17,7 @@ photos:
   - https://cdn.uploads.micro.blog/113466/2024/47edd16332.jpg
 photos_with_metadata:
 - url: https://cdn.uploads.micro.blog/113466/2024/47edd16332.jpg
+source: microblog
 ---
 
 Made a mental note not to delete the spam messages I would get today before I left for my flight. Trying to see if there was a method to the madness.

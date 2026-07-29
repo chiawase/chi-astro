@@ -11,7 +11,8 @@ date: 2024-04-13T13:26:16+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2024/screenshot-2024-04-13-132234.png
 photos: 
-photos_with_metadata: 
+photos_with_metadata:
+source: microblog
 ---
 
 My personal Obsidian Vault graph kinda looks like a globe, lol

@@ -15,23 +15,24 @@ photos:
   - https://cdn.uploads.micro.blog/113466/2024/7ba4268529.jpg
   - https://cdn.uploads.micro.blog/113466/2024/984860a48f.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2024/7ba4268529.jpg
-  width: 600
-  height: 600
-- url: https://cdn.uploads.micro.blog/113466/2024/984860a48f.jpg
-  width: 450
-  height: 600
-- url: https://cdn.uploads.micro.blog/113466/2024/0c334ed5f1.jpg
-  width: 600
-  height: 599
-- url: https://cdn.uploads.micro.blog/113466/2024/1cdd303352.jpg
-  width: 600
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2024/7ba4268529.jpg
+    width: 600
+    height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2024/984860a48f.jpg
+    width: 450
+    height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2024/0c334ed5f1.jpg
+    width: 600
+    height: 599
+  - url: https://cdn.uploads.micro.blog/113466/2024/1cdd303352.jpg
+    width: 600
+    height: 600
+source: microblog
 ---
 
 Dec 5, 2024 • Wat Arun Temple
 
-it was really majestic to see in person. But it also made me painfully aware of how flat the terrain was, due to the late morning sun (when we went) 🙈 
+it was really majestic to see in person. But it also made me painfully aware of how flat the terrain was, due to the late morning sun (when we went) 🙈
 
 last photo in this set was taken while we were on a river cruise along Chao Praya River and eating dinner!
 

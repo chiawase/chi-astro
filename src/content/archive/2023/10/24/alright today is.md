@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/10/24/alright-today-is.html
+source: microblog
 ---
 
 alright, today is gonna be a long day. Let's get through it!

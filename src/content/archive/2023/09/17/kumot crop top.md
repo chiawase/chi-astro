@@ -2,11 +2,11 @@
 tags: ["design", "ootd"]
 bluesky:
   id: bafyreihsl2uzil25iuif3jqzzlnz46nw7aywggremea2cnmsqc5gkjzbvy
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k7kl7cn4bf27'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k7kl7cn4bf27'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3k7kl7cn4bf27"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3k7kl7cn4bf27"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-09-17T09:53:19+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/325632d9f1b340abb7744c8c53676d79.jpg
@@ -17,10 +17,11 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2023/325632d9f1b340abb7744c8c53676d79.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2023/325632d9f1b340abb7744c8c53676d79.jpg
-  width: 450
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2023/325632d9f1b340abb7744c8c53676d79.jpg
+    width: 450
+    height: 600
 url: /2023/09/17/kumot-crop-top.html
+source: microblog
 ---
 
 - kumot crop top

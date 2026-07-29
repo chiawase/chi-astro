@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/08/26/im-back-from.html
+source: microblog
 ---
 
 I'm back from my trip to Chiang Mai, Thailand! 🇹🇭

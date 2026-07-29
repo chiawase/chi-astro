@@ -10,6 +10,7 @@ bluesky:
   did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
 date: 2023-12-01T22:14:23+0800
 url: /2023/12/01/my-last-week.html
+source: microblog
 ---
 
 Finally back home to my unit after being at home with my parents for the week!

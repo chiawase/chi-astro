@@ -1,0 +1,55 @@
+---
+import { ARCHIVE_SOURCES, type ArchiveSourceEntry } from "@data/archiveSources";
+
+const sortEntries = (entries: ArchiveSourceEntry[]): ArchiveSourceEntry[] =>
+  [...entries]
+    .filter((e) => e.enabled !== false)
+    .sort((a,b) => a.title.localeCompare(b.title));
+
+const entries = sortEntries(ARCHIVE_SOURCES);
+const { current } = Astro.props as { current?: string };
+---
+
+{
+  entries.length > 0 && (
+  <nav aria-label="Archive sources" class="archive-source-nav">
+    <p>Browse by source:</p>
+    <ul role="list">
+      {entries.map((entry) => (
+        <li>
+          <a href={entry.url} aria-current={current === entry.url ? "page" : undefined}>{entry.title}</a>
+          {entry.description && <span class="archive-source-description">{entry.description}</span> }
+        </li>
+      ))}
+    </ul>
+  </nav>
+  )
+}
+
+<style>
+.archive-source-nav { margin-block: 1.5rem; }
+
+.archive-source-nav p {
+  font-weight: 600;
+  margin-block-end: 0.5rem;
+}
+
+.archive-source-nav ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.archive-source-description {
+  display: block;
+  color: var(--color-gray-50);
+  font-size: 0.9rem;
+}
+
+[aria-current="page"] {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+</style>

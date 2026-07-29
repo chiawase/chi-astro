@@ -13,6 +13,13 @@ import Page from "@layouts/Page.astro";
 
 ---
 
+## 29 Jul 2026
+
+- finally brought in my old posts from WordPress and clearly marked my old micro.blog posts
+  - though I still have to figure out what to do with the bluesky or old URLs for microblog, but for now i focused on WP since that site is already down and I can’t access it anymore 🥲
+- also included the tags from my WordPress (and microblog) posts into my [Tags](/tags/) page
+  - ... got lots of cleanin’ up to do here lol
+
 ## 22 Jul 2026
 
 - fixed a broken link in my [Tags](/tags/) page pointing to the [Archive](/archive/)
@@ -23,18 +30,18 @@ import Page from "@layouts/Page.astro";
 ## 14 Jul 2026
 
 - made updates to my [About page](/about/)
-  - realized I haven't updated my profile picture there yet so I just went and did that
+  - realized I haven’t updated my profile picture there yet so I just went and did that
   - also added some layouting so it looks nice on desktop too
 - also added a new entry in my Blogroll—wondering if I should add notes here every time this list grows...
-  - also thinking what if I just pull this data from some link saving service I use, which at the moment is OMG.LOL's [Linkding instance at later.place](https://later.place/), but for now manual is the way to go
+  - also thinking what if I just pull this data from some link saving service I use, which at the moment is OMG.LOL’s [Linkding instance at later.place](https://later.place/), but for now manual is the way to go
 
 ## 11 Jul 2026
 
 - removed [Umami Analytics](https://umami.is/) from my site
-  - there was a time—forget when—when there was an issue with the server that was hosting the analytics tool I was using and I ended up "losing" website visitor data. I eventually set it up again but at that point I didn't really look at it as much as I did before. There was also a time when [I'd see a lot of "people" _supposedly_ coming from Singapore visiting my site](/blog/blocking-ai-scrapers/), but... I dunno. I do wanna see if that still happens now (more to see if it stops when I put up some stopgaps (?) rather than to see if _actual people_ from Singapore are seeing my site) but I guess the other way to "solve" that is to make it not an issue anymore by not tracking it. For now that will do.
+  - there was a time—forget when—when there was an issue with the server that was hosting the analytics tool I was using and I ended up “losing” website visitor data. I eventually set it up again but at that point I didn’t really look at it as much as I did before. There was also a time when [I’d see a lot of “people” _supposedly_ coming from Singapore visiting my site](/blog/blocking-ai-scrapers/), but... I dunno. I do wanna see if that still happens now (more to see if it stops when I put up some stopgaps (?) rather than to see if _actual people_ from Singapore are seeing my site) but I guess the other way to “solve” that is to make it not an issue anymore by not tracking it. For now that will do.
   - also mentioned in [this post where I initially talked about adding personal site analytics](/blog/testing-sharing-my-personal-website-analytics-publicly/#update-11-jul-2026)
 - set up comments on my [blog](/blog/) posts
-  - so at least if people have stuff to say about things there, they don't need to course it through Webmentions! Give it a try 😁
+  - so at least if people have stuff to say about things there, they don’t need to course it through Webmentions! Give it a try 😁
   - making use of [Remark42](https://remark42.com/) for this!
 
 ## 5 Jul 2026
@@ -42,15 +49,15 @@ import Page from "@layouts/Page.astro";
 > wow I was gone for a few months here wew
 
 - trying to fix my site to be ~~Astro 6~~ Astro 7 ready (in the middle of this update I think I missed another big version bump and since I wanna be updated, I am really just utilizing all tools avilable to me so I could make the upgrade cleanly)
-  - set up a custom implementation for my Backlinks instead of the one relying on `@braindb/astro` since it's not in the latest Astro anymore
+  - set up a custom implementation for my Backlinks instead of the one relying on `@braindb/astro` since it’s not in the latest Astro anymore
   - fix my `feed.xml.ts` so it generates a simple Atom feed without the full blog entry in the feed
-  - cleaned up my `astro.config.mjs` because I was apparently declaring MDX plugins twice, after checking the [Astro docs for MDX](https://docs.astro.build/en/guides/integrations-guide/mdx/#extendmarkdownconfig) it seems like MDX extends the `markdown` integrations by default, so the config is updated to reflect that, plus put it all within `unified()` since apparently that's how it's supposed to be done now
+  - cleaned up my `astro.config.mjs` because I was apparently declaring MDX plugins twice, after checking the [Astro docs for MDX](https://docs.astro.build/en/guides/integrations-guide/mdx/#extendmarkdownconfig) it seems like MDX extends the `markdown` integrations by default, so the config is updated to reflect that, plus put it all within `unified()` since apparently that’s how it’s supposed to be done now
 
 ## 5 Apr 2026
 
 - cleaned up my `package.json` to remove unused packages
 - also cleaned up a bunch of code based on the flags in `npx astro check`
-- removed the auto updating script for recent Manga since I haven't really read a lot of manga lately and I want to rework it.
+- removed the auto updating script for recent Manga since I haven’t really read a lot of manga lately and I want to rework it.
 
 ## 14 Mar 2026
 

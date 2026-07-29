@@ -2,17 +2,18 @@
 tags: ["games"]
 bluesky:
   id: bafyreieg44sgitulxrwlmc5pcs4kqqkbz6a2jycnnve32ginph62evgwka
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kgv7wamac72i'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kgv7wamac72i'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kgv7wamac72i"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kgv7wamac72i"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2023-12-19T17:27:03+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2023/8e7fbd5b-b707-4cb9-8739-abf0673f7305.png
-photos: 
-photos_with_metadata: 
+photos:
+photos_with_metadata:
 url: /2023/12/19/steam-year-in.html
+source: microblog
 ---
 
 2023 Steam Year in Review time!! 🎮

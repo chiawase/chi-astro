@@ -12,6 +12,7 @@ mastodon:
   id: 113625872810994663
   username: chi
   hostname: social.lol
+source: microblog
 ---
 
 One Piece latest chapter!!!! Dereshishishi 🥹🥹

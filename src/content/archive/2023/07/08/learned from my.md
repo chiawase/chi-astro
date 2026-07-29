@@ -12,6 +12,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/07/08/learned-from-my.html
+source: microblog
 ---
 
 Learned from my mom that one of my titos passed away already last month. Rest in peace, tito Darwin. 😔

@@ -1,11 +1,11 @@
 ---
 bluesky:
   id: bafyreieuo6sqj5wbxd4bf7qcz6goqp5eejente5yb45lyi62w72x2ipvca
-  url: 'at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kpbo3tyejd2j'
-  link: 'https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kpbo3tyejd2j'
+  url: "at://did:plc:f4mmql45u3lfj6iltwjvtcdk/app.bsky.feed.post/3kpbo3tyejd2j"
+  link: "https://bsky.app/profile/did:plc:f4mmql45u3lfj6iltwjvtcdk/post/3kpbo3tyejd2j"
   handle: chiawase.bsky.social
   hostname: bsky.social
-  did: 'did:plc:f4mmql45u3lfj6iltwjvtcdk'
+  did: "did:plc:f4mmql45u3lfj6iltwjvtcdk"
 date: 2024-04-04T11:34:10+0800
 images:
   - https://cdn.uploads.micro.blog/113466/2024/1f2596c9f4.jpg
@@ -16,9 +16,10 @@ mastodon:
 photos:
   - https://cdn.uploads.micro.blog/113466/2024/1f2596c9f4.jpg
 photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/113466/2024/1f2596c9f4.jpg
-  width: 450
-  height: 600
+  - url: https://cdn.uploads.micro.blog/113466/2024/1f2596c9f4.jpg
+    width: 450
+    height: 600
+source: microblog
 ---
 
 Jollibee has nuggets now 😆 about time they did! 😛

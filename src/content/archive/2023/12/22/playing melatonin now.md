@@ -13,6 +13,7 @@ mastodon:
   username: chi
   hostname: social.lol
 url: /2023/12/22/playing-melatonin-now.html
+source: microblog
 ---
 
 Playing 🎮 [Melatonin](https://store.steampowered.com/app/1585220/Melatonin/) now, this is such a cute rhythm game! I got it as a gift from one of my friends hehe  😊 Highly recommended!
