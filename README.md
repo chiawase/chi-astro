@@ -39,10 +39,3 @@ Access the website at: [chisenires.design](https://chisenires.design)
 ├── package.json
 └── tsconfig.json
 ```
-
-## Chi’s TODOs
-
-> The rest of the TODOs are listed in my [Issues](https://github.com/chiawase/chi-astro/issues) tab, but the ones I have listed here are just for my additional reference.
-
-- [ ] add some image gallery handling / viewing images closer (since some screenshots are small)
-- [ ] also add WordPress archived posts here
