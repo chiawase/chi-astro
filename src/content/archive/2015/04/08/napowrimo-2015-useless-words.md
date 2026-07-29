@@ -16,7 +16,6 @@ tags:
     "words",
   ]
 source: wordpress
-heroImage: "/uploads/2015/04/007-useless_words.png"
 originalUrl: "https://chiawase.wordpress.com/2015/04/08/napowrimo-2015-useless-words/"
 ---
 
