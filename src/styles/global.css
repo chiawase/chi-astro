@@ -761,3 +761,41 @@ mark {
 [data-footnote-ref]:after {
   content: "]";
 }
+
+/** For the status.lol in /now/, mimicking blockquote styling */
+.statuslol_container {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.statuslol_container .statuslol {
+  border-left: 2px solid var(--text-color-link);
+  margin-left: 0;
+  padding: 1rem 1.5rem;
+  line-height: 160%;
+  width: 100%;
+  color: var(--text-color);
+  background: var(--background-color-overlay);
+  transition: var(--subtle-transition);
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.statuslol_container .statuslol_emoji_container {
+  flex: 0 0 3rem;
+  font-size: 3rem;
+  padding-right: 0;
+}
+
+.statuslol_container .statuslol_emoji_container .statuslol_emoji {
+  width: 1.5rem;
+}
+
+.statuslol_container .statuslol_content {
+  flex: 1 1 0;
+}
+
+.statuslol_container .statuslol_time {
+  color: var(--text-color-link);
+}
