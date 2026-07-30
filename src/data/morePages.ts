@@ -13,6 +13,7 @@ export const MORE_PAGES: MorePagesEntry[] = [
   { title: "Tags", url: "/tags/" },
   { title: "Archive", url: "/archive/" },
   { title: "Changelog", url: "/changelog/" },
+  { title: "Privacy", url: "/privacy/" },
   {
     title: "Media Log",
     url: "/media/",
