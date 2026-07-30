@@ -1,0 +1,30 @@
+---
+title: "Privacy Policy"
+description: "Since I have comments on my blog posts, this is just to note what data I collect if you choose to interact with stuff in my site."
+---
+
+import Page from "@layouts/Page.astro";
+
+<Page title={frontmatter.title} description={frontmatter.description}>
+
+> Setting this up mostly to just have it, and to have something to put in Google instead of just the same base link to my personal site 😆
+
+I generally don’t collect any data from my posts. I used to have Personal Analytics set up, but since that wasn’t really serving me any real purpose, [I removed it](/blog/testing-sharing-my-personal-website-analytics-publicly/#update-11-jul-2026).
+
+This blog supports [webmentions](https://indieweb.org/Webmention), so if another site links to one of my posts or makes use of [Brid.gy](https://brid.gy/), a snippet of where the link was mentioned plus the author’s name, avatar, and whatever they wrote can show up underneath posts from my [Blog](/blog/). I pull this data from [webmention.io](https://webmention.io), which forwards the mentions on my behalf whenever I deploy a new update to my site. You can also send one manually via the form under each post.
+
+If you do want to comment on any of the posts in my [Blog](/blog/) and not send it via webmention, you can log in using the widget I have via Google, Github, Discord, or stay anonymous and just have a random name. This website won’t be able to see your password, it’s just good ol’ 3rd-party logins. The only things that get shared to this site are your display name and avatar (if any).
+
+My comments system is a self-hosted [Remark42](https://remark42.com/) server.
+
+**What generally gets stored:** display names, avatars, comment text (and webmention content), and the time it was posted.
+
+For comments, Remark42 also briefly records the commentor’s IP address to rate-limit spam and deduplicate votes. People who log in with a 3rd party account get a stable ID tied to whatever login provider you chose, which allows you to edit or delete the comments you leave on my posts. Webmention authors are identified by whatever they’ve set up on their end for microformats and what they have published on their source page. Those are not provided by me.
+
+Everyone else who visits the site gets to see the comments or webmentions people leave on my posts. I’m the only one—as site admin—who could potentially see the commenter IP addresses and internal user IDs (but I don’t really care for that stuff).
+
+Comments and webmentions stay up for as long as the blog post is up, unless you ask me to remove them specifically. If ever you want a comment or webmention removed (I think I can do that on my end...) just let me know by [reaching out online](/contact/) and I’ll deal with it.
+
+---
+
+</Page>
