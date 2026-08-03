@@ -49,7 +49,7 @@
     "astro-lightgallery": "^2.3.0",
     "chokidar": "^5.0.0",
     "cloudinary": "^2.9.0",
-    "fast-uri": "^4.1.1",
+    "fast-uri": "^4.1.2",
     "lodash": "^4.18.1",
     "luxon": "^3.7.2",
     "mdast-util-from-markdown": "^2.0.2",
