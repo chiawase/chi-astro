@@ -11,5 +11,5 @@ export const SITE_AUTHOR = {
   url: "https://chisenires.design/about/",
   email: "hello@chisenires.design",
 };
-export const COMMENT_URL = "https://comments.chisenires.design";
+export const COMMENT_URL = "https://chisenires.design/comments";
 export const COMMENT_SITE_ID = "chisenires.design";
