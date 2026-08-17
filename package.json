@@ -28,8 +28,6 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.9",
-    "@astrojs/language-server": "^2.16.11",
     "@astrojs/markdown-remark": "^7.2.1",
     "@astrojs/mdx": "^7.0.2",
     "@astrojs/rss": "^4.0.19",
@@ -47,9 +45,10 @@
     "astro-embed": "^0.13.1",
     "astro-icon": "^1.1.5",
     "astro-lightgallery": "^2.3.0",
+    "astro-robots-txt": "^1.0.0",
     "chokidar": "^5.0.0",
     "cloudinary": "^2.9.0",
-    "fast-uri": "^4.1.1",
+    "dotenv": "^17.2.3",
     "lodash": "^4.18.1",
     "luxon": "^3.7.2",
     "mdast-util-from-markdown": "^2.0.2",
@@ -63,25 +62,28 @@
     "rehype-stringify": "^10.0.1",
     "remark-code-title": "^0.2.5",
     "remark-gfm": "^4.0.1",
+    "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.2",
     "remark-remove-comments": "^1.1.1",
     "sharp": "^0.35.3",
     "svgo": "^4.0.2",
     "tar": "^7.5.21",
+    "unified": "^11.0.5",
     "unist-util-visit": "^5.1.0"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@astrojs/language-server": "^2.16.11",
     "@astrojs/ts-plugin": "^1.10.10",
     "@types/lodash": "^4.17.21",
     "@types/luxon": "^3.7.1",
-    "astro-robots-txt": "^1.0.0",
-    "dotenv": "^17.2.3",
+    "fast-uri": "^4.1.2",
     "husky": "^9.1.7",
+    "js-yaml": "^5.3.0",
     "lint-staged": "^16.3.1",
-    "remark-parse": "^11.0.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "unified": "^11.0.5"
+    "undici": "^8.10.0"
   },
   "overrides": {
     "minimist": "0.2.4",
