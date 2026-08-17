@@ -24,7 +24,6 @@ import rehypeFigureTitle from "rehype-figure-title";
 import rehypeExternalLinks from "rehype-external-links";
 
 /* Various plugins */
-import embeds from "astro-embed/integration";
 import icon from "astro-icon";
 
 /* Personal scripts */
@@ -39,11 +38,6 @@ export default defineConfig({
   trailingSlash: "always",
   redirects: siteRedirects,
   integrations: [
-    embeds({
-      services: {
-        YouTube: true,
-      },
-    }),
     mdx({}),
     sitemap(),
     robotsTxt(robotsTxtOptions),
