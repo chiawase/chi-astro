@@ -52,12 +52,6 @@ export const ACCOUNT_LINKS: AccountLinks[] = [
     note: "I don’t really browse here much but it helps to have an account when I occasionally get links to DEV.to articles and I get to show support to the actual post",
   },
   {
-    username: "@chiawase",
-    platform: "Digg",
-    socialUrl: "https://digg.com/@chiawase",
-    note: "I got access to the beta version of Digg, and I’m just trying it out now!",
-  },
-  {
     username: "@chisenires",
     platform: "Figma Community",
     socialUrl: "https://figma.com/@chisenires",
@@ -83,7 +77,7 @@ export const ACCOUNT_LINKS: AccountLinks[] = [
     username: "Arya Tsukino",
     platform: "FFXIV",
     socialUrl: "https://na.finalfantasyxiv.com/lodestone/character/36591732/",
-    note: "Started playing again this year! Subbing whenever I get bored lol",
+    note: "Started playing again this year! Continuing on MSQ hehe",
     customLabel: "Arya Tsukino @ Meteor - Ramuh #FFXIV",
   },
   {
