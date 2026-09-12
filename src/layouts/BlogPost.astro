@@ -51,6 +51,7 @@ const fallbackTitle = "Chi’s blog post";
   title={post.data.title ?? undefined}
   description={post.data.summary ?? undefined}
   showTitle={false}
+  postLanguage={(post.data.postLanguage !== undefined ? post.data.postLanguage : "english") ?? undefined}
 >
 
   <article class="h-entry">

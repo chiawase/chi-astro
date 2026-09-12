@@ -33,13 +33,18 @@ export function stripEmoji(input: string): string {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, post, description } = Astro.props;
+const { title, post, description, postLanguage } = Astro.props;
 
 const normalizedTitle = typeof title === "string" && title.trim().length > 0 ? title.trim() : undefined;
 const normalizedDescription =
   typeof description === "string" && description.trim().length > 0
   ? description.trim()
   : undefined;
+
+const normalizedPostLanguage =
+  typeof postLanguage === "string" && postLanguage.trim().length > 0
+    ? postLanguage.trim().toLowerCase()
+    : undefined;
 
 const hasPostTitle = Boolean(post?.data.title && post.data.title.trim().length > 0);
 
@@ -84,6 +89,14 @@ const URL_FONT = "victormonobody.woff2";
 const URL_VERTICAL_OFFSET = 82;
 const URL_OPACITY = 50;
 
+const POSTLANG_FONT = URL_FONT;
+const POSTLANG_FONT_SIZE = 24;
+const POSTLANG_LEFT_OFFSET = 520;
+const POSTLANG_VERTICAL_OFFSET = 72;
+const POSTLANG_TEXT_COLOR = "rgb:FFB2AC";
+const POSTLANG_BG_COLOR = "rgb:260804";
+const POSTLANG_PADDING = 12;
+
 const TITLE_FONT = "anybodyheading.woff2";
 const TITLE_FONT_SIZE = 80;
 const TITLE_VERTICAL_OFFSET = 152;
@@ -109,8 +122,6 @@ const ogImageUrl = constructCloudinaryUrl({
     overlays: [
     // showing URL
     {
-      width: TEXT_AREA_WIDTH,
-      crop: "fit",
       text: {
         fontFamily: URL_FONT,
         fontSize: BODY_FONT_SIZE,
@@ -128,6 +139,25 @@ const ogImageUrl = constructCloudinaryUrl({
         { opacity: URL_OPACITY }
       ]
     },
+    // showing postLanguage if available
+    ... (normalizedPostLanguage ? [{
+      text: {
+        fontFamily: POSTLANG_FONT,
+        fontSize: POSTLANG_FONT_SIZE,
+        color: POSTLANG_TEXT_COLOR,
+        fontWeight: "normal",
+        text: prepareOgText(`written in ${normalizedPostLanguage}`, { urlEncode: true }),
+        border: `${POSTLANG_PADDING}px_solid_${POSTLANG_BG_COLOR}`,
+      },
+      effects: [
+        { background: POSTLANG_BG_COLOR },
+      ],
+      position: {
+        x: POSTLANG_LEFT_OFFSET,
+        y: POSTLANG_VERTICAL_OFFSET,
+        gravity: "north_west",
+      },
+    }] : []),
     // showing post title
     {
       width: TEXT_AREA_WIDTH,

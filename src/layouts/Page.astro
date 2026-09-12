@@ -11,13 +11,15 @@ interface Props {
   title?: string | null;
   description?: string | null;
   showTitle?: boolean;
+  postLanguage?: string;
 }
 
 const {
   post,
   title,
   description,
-  showTitle = true
+  showTitle = true,
+  postLanguage,
 } = Astro.props;
 
 // Add handling in case of 404
@@ -29,9 +31,10 @@ const headTitle =
 <html lang="en">
   <head>
     <BaseHead
-    post={post}
+      post={post}
       title={headTitle ?? undefined}
       description={description ?? undefined}
+      postLanguage={postLanguage}
     />
   </head>
 
