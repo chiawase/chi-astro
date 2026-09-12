@@ -10,7 +10,7 @@ import ColorSchemePreference from "@components/ColorSchemePreference.astro";
 import { prepareOgText } from "@utils/prepareOgText";
 
 // Social media images via Cloudinary
-import { getCldOgImageUrl } from "astro-cloudinary/helpers";
+import { constructCloudinaryUrl } from "@cloudinary-util/url-loader";
 
 // Custom Fonts
 import "@fontsource-variable/victor-mono/wght-italic.css";
@@ -92,13 +92,21 @@ const BODY_FONT = "sourcesans3body.woff2";
 const BODY_FONT_SIZE = 36;
 const BODY_VERTICAL_OFFSET = 68;
 
-const ogImageUrl = getCldOgImageUrl({
-  src: FOLDER+SHARE_IMAGE_FILE_NAME,
-  width: metadataImageWidth,
-  height: metadataImageHeight,
-  quality: "auto:best",
-  format: "png",
-  overlays: [
+const ogImageUrl = constructCloudinaryUrl({
+  options: {
+    src: FOLDER+SHARE_IMAGE_FILE_NAME,
+    width: metadataImageWidth,
+    height: metadataImageHeight,
+    crop: {
+      width: metadataImageWidth,
+      height: metadataImageHeight,
+      type: "fill",
+      gravity: "center",
+      source: true,
+    },
+    quality: "auto:best",
+    format: "png",
+    overlays: [
     // showing URL
     {
       width: TEXT_AREA_WIDTH,
@@ -157,6 +165,12 @@ const ogImageUrl = getCldOgImageUrl({
       }
     },
   ],
+  },
+  config: {
+    cloud: {
+      cloudName: import.meta.env.PUBLIC_CLOUDINARY_CLOUD_NAME,
+    },
+  },
 });
 ---
 
