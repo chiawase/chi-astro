@@ -50,6 +50,7 @@ const fallbackTitle = "Chi’s blog post";
 <Page
   title={post.data.title ?? undefined}
   description={post.data.summary ?? undefined}
+  post={post}
   showTitle={false}
   postLanguage={(post.data.postLanguage !== undefined ? post.data.postLanguage : "english") ?? undefined}
 >
