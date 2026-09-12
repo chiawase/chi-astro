@@ -28,7 +28,7 @@ import icon from "astro-icon";
 
 /* Personal scripts */
 import cloudinaryWatch from "./src/utils/cloudinary/watch";
-import { remarkCloudinaryLocalUploads } from "./src/utils/cloudinary/remarkLocalUploads";
+import { remarkLocalUploads } from "./src/utils/cloudinary/remarkLocalUploads";
 import { rehypeUploadsToCloudinary } from "./src/utils/cloudinary/rehypeUploadsToCloudinary";
 
 // https://astro.build/config
@@ -48,7 +48,7 @@ export default defineConfig({
     processor: unified({
       remarkPlugins: [
         remarkRemoveComments,
-        remarkCloudinaryLocalUploads,
+        remarkLocalUploads,
         remarkCodeTitle,
         [wikiLinkPlugin, { format: "regular" }],
       ],

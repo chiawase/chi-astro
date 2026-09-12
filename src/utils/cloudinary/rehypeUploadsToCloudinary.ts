@@ -46,6 +46,7 @@ function toManifestKey(input: string): string | null {
   return input.slice(idx); // returns "uploads/...."
 }
 
+// add same auto format/quality optimization done by the remarkLocalUploads script does
 function rewriteUrl(original: string): string | null {
   const decoded = decodeURI(original);
   const key = toManifestKey(decoded);
@@ -55,7 +56,8 @@ function rewriteUrl(original: string): string | null {
   const manifest = loadManifest();
   const entry = manifest[key];
 
-  if (entry?.secureUrl) return entry.secureUrl;
+  if (entry?.secureUrl)
+    return entry.secureUrl.replace("/upload/", "/upload/f_auto,q_auto/");
 
   // Not found in manifest → leave as-is but warn (helps you catch strays)
   console.warn(`[cloudinary] Missing manifest entry for: ${key}`);
