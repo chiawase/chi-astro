@@ -3868,5 +3868,15 @@
     "etag": "2795ce7fb1dd083cb767b130d6f7e77b",
     "uploadedAt": "2026-09-08T14:28:54.350Z",
     "sha1": "c45ac5d11221958f106eb452d85cbf6d2914e30b"
+  },
+  "uploads/2026/Pasted image 20261007175520.png": {
+    "localRelPath": "uploads/2026/Pasted image 20261007175520.png",
+    "publicId": "chisenires.design/uploads/2026/Pasted image 20261007175520",
+    "resourceType": "image",
+    "secureUrl": "https://res.cloudinary.com/chi-personal-website/image/upload/v1791366923/chisenires.design/uploads/2026/Pasted%20image%2020261007175520.png",
+    "bytes": 1129404,
+    "etag": "aee145c231e0f663dce1d8a61edf15e8",
+    "uploadedAt": "2026-10-07T09:55:25.067Z",
+    "sha1": "92fc21b0c5ae3d5b68406801d6ab807133918592"
   }
 }
