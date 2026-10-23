@@ -9,7 +9,7 @@ import PostMetadata from "@components/PostMetadata.astro";
 import TableOfContents from "@components/TableOfContents.astro";
 import Backlinks from "@components/Backlinks.astro";
 import WebmentionsLoader from "@components/WebmentionsLoader.astro";
-import Comments from "@components/Comments.astro";
+// import Comments from "@components/Comments.astro";
 
 import { prepareOgText } from "@utils/prepareOgText";
 import { resolveCloudinaryUrl } from "@utils/cloudinary/resolveCloudinaryUrl";
@@ -134,10 +134,10 @@ const fallbackTitle = "Chi’s blog post";
   <Backlinks currentPostId={post.id} />
 
   <div class="post-feedback">
-    <section class="post-feedback__col post-feedback__col--comments">
+    <!-- <section class="post-feedback__col post-feedback__col--comments">
       <h4 id="comments">Comments<a aria-hidden="true" tabindex="-1" href="#comments"><span class="icon icon-link"></span></a></h4>
       <Comments />
-    </section>
+    </section> -->
     <section class="post-feedback__col post-feedback__col--webmentions">
       <WebmentionsLoader postUrl={`/blog/${post.id}/`} />
     </section>
