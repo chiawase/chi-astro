@@ -101,7 +101,9 @@ export const remarkLocalUploads: Plugin = () => {
 
       const secureUrl = await getManifestUrl(key);
       if (!secureUrl) {
-        console.warn(`[cloudinary] Missing manifest entry for: ${key}`);
+        console.warn(
+          `[cloudinary] Not uploaded yet: ${key} (run: npm run cloudinary:upload:folder -- "${key}")`,
+        );
         continue;
       }
 

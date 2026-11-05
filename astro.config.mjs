@@ -27,7 +27,6 @@ import rehypeExternalLinks from "rehype-external-links";
 import icon from "astro-icon";
 
 /* Personal scripts */
-import cloudinaryWatch from "./src/utils/cloudinary/watch";
 import { remarkLocalUploads } from "./src/utils/cloudinary/remarkLocalUploads";
 import { rehypeUploadsToCloudinary } from "./src/utils/cloudinary/rehypeUploadsToCloudinary";
 
@@ -37,13 +36,7 @@ export default defineConfig({
   site: SITE_URL,
   trailingSlash: "always",
   redirects: siteRedirects,
-  integrations: [
-    mdx({}),
-    sitemap(),
-    robotsTxt(robotsTxtOptions),
-    icon(),
-    cloudinaryWatch(),
-  ],
+  integrations: [mdx({}), sitemap(), robotsTxt(robotsTxtOptions), icon()],
   markdown: {
     processor: unified({
       remarkPlugins: [

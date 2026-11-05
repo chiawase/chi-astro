@@ -60,7 +60,9 @@ function rewriteUrl(original: string): string | null {
     return entry.secureUrl.replace("/upload/", "/upload/f_auto,q_auto/");
 
   // Not found in manifest → leave as-is but warn (helps you catch strays)
-  console.warn(`[cloudinary] Missing manifest entry for: ${key}`);
+  console.warn(
+    `[cloudinary] Not uploaded yet: ${key} (run: npm run cloudinary:upload:folder -- "${key}")`,
+  );
   return null;
 }
 
