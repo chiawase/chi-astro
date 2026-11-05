@@ -537,6 +537,10 @@ mux-player {
   display: block;
   width: 100%;
   aspect-ratio: 16/9;
+}
+
+/*only have margin top and bottom if no caption*/
+mux-player:not(+ figcaption) {
   margin: 1rem 0;
 }
 
