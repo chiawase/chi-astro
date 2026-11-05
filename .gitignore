@@ -33,3 +33,6 @@ _cache/*
 # Local media files
 src/content/img/uploads/**
 /uploads/**
+
+# Amp orb portals
+.amp/portals/*

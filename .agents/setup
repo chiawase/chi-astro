@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+# Prepares a fresh Amp orb: installs the Node version pinned in mise.toml and npm dependencies.
+set -euo pipefail
+
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+repo_root="$PWD"
+
+step() {
+  local name="$1"
+  shift
+  echo "==> $name"
+  local start=$SECONDS
+  "$@"
+  echo "<== $name ($((SECONDS - start))s)"
+}
+
+install_mise() {
+  if [[ ! -x "$HOME/.local/bin/mise" ]]; then
+    curl -fsSL https://mise.run | MISE_QUIET=1 sh
+  fi
+}
+
+install_node() {
+  "$HOME/.local/bin/mise" trust --quiet "$repo_root/mise.toml"
+  "$HOME/.local/bin/mise" install --yes
+}
+
+persist_shims() {
+  # Put mise shims first on PATH so Amp and supervised services use the pinned Node.
+  local marker="# chi-astro: mise shims"
+  if ! grep -Fqx "$marker" "$HOME/.bash_profile" 2>/dev/null; then
+    cat >> "$HOME/.bash_profile" <<'EOF'
+
+# chi-astro: mise shims
+case ":$PATH:" in
+  *":$HOME/.local/share/mise/shims:"*) ;;
+  *) export PATH="$HOME/.local/share/mise/shims:$PATH" ;;
+esac
+EOF
+  fi
+}
+
+install_deps() {
+  PATH="$HOME/.local/share/mise/shims:$PATH" npm ci --no-audit --no-fund --loglevel=error
+}
+
+step "Install mise" install_mise
+step "Install Node from mise.toml" install_node
+step "Persist mise shims in ~/.bash_profile" persist_shims
+step "Install npm dependencies" install_deps
