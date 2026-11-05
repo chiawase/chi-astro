@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.2.1",
-    "@astrojs/mdx": "^7.0.2",
+    "@astrojs/mdx": "^8.1.2",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
     "@cloudinary-util/url-loader": "^6.3.1",
