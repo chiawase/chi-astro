@@ -250,10 +250,10 @@ a[href]:active {
 }
 
 /* Showing the icon to mark external links */
-a[href^="http"]:not(.webmention-avatar a) {
+a[href^="http"]:not(.webmention-avatar a, astro-lightgallery a) {
   padding-right: 1.25rem;
 }
-a[href^="http"]:not(.webmention-avatar a):after {
+a[href^="http"]:not(.webmention-avatar a, astro-lightgallery a):after {
   position: absolute;
   content: "";
   display: inline-block;
@@ -264,15 +264,35 @@ a[href^="http"]:not(.webmention-avatar a):after {
   background-image: var(--svg-external-link-icon);
   transform: translateY(0.5rem);
 }
-a[href^="http"]:not(.webmention-avatar a):hover:after,
-a[href^="http"]:not(.webmention-avatar a):active:after {
+a[href^="http"]:not(.webmention-avatar a, astro-lightgallery a):hover:after,
+a[href^="http"]:not(.webmention-avatar a, astro-lightgallery a):active:after {
   background-image: var(--svg-external-link-icon-hover);
 }
 
 @media (max-width: 896px) {
-  a[href^="http"]:not(.webmention-avatar a):after {
+  a[href^="http"]:not(.webmention-avatar a, astro-lightgallery a):after {
     transform: translateY(0.3rem);
   }
+}
+
+/*
+  LightGallery "google-photos" layout modifier for galleries of portrait photos.
+  Add `gallery-portrait` to the layout's `classContainer` to use it.
+  The extra element selector is there to out-rank the library's own
+  height rules (including the breakpoint styles it injects at runtime).
+*/
+astro-lightgallery.gallery-portrait.astro-lightgallery-google-photos-container
+  .astro-lightgallery-google-photos-item {
+  flex: 1 1 0;
+  min-width: 0;
+}
+astro-lightgallery.gallery-portrait.astro-lightgallery-google-photos-container
+  .astro-lightgallery-google-photos-item
+  img {
+  height: auto;
+  max-height: none;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
 }
 
 p {
