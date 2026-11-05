@@ -540,7 +540,7 @@ mux-player {
 }
 
 /*only have margin top and bottom if no caption*/
-mux-player:not(+ figcaption) {
+mux-player:not(:has(+ figcaption)) {
   margin: 1rem 0;
 }
 
