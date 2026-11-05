@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { isImageFile } from "./uploader";
 
 // Minimal types so you don't need extra deps.
 type ManifestEntry = { secureUrl?: string };
@@ -52,6 +53,9 @@ function rewriteUrl(original: string): string | null {
   const key = toManifestKey(decoded);
 
   if (!key) return null;
+
+  // Cloudinary is for images only; videos go through Mux (VideoPlayer.astro)
+  if (!isImageFile(key)) return null;
 
   const manifest = loadManifest();
   const entry = manifest[key];

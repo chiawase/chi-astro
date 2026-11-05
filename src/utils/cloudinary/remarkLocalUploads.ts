@@ -1,6 +1,6 @@
 import type { Plugin } from "unified";
 import { visit } from "unist-util-visit";
-import { getManifestUrl } from "./uploader";
+import { getManifestUrl, isImageFile } from "./uploader";
 
 type Rewrite = {
   input: string;
@@ -98,6 +98,9 @@ export const remarkLocalUploads: Plugin = () => {
       if (idx === -1) continue;
 
       const key = decodeURIComponent(input.slice(idx)); // e.g. "uploads/2026/name.jpg"
+
+      // Cloudinary is for images only; videos go through Mux (VideoPlayer.astro)
+      if (!isImageFile(key)) continue;
 
       const secureUrl = await getManifestUrl(key);
       if (!secureUrl) {
