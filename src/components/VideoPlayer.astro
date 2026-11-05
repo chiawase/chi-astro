@@ -1,7 +1,15 @@
 ---
 import { getMuxPlaybackId } from "@utils/muxUploader";
 
-const { id, src, metadata } = Astro.props;
+type Props = {
+  id?: string; // Mux playback ID (skips the manifest lookup)
+  src?: string; // local path, e.g. /uploads/2026/foo.mov
+  caption?: string; // visible caption; falls back to metadata.video_title
+  metadata?: { video_title?: string }; // sent to Mux Data only
+};
+
+const { id, src, caption, metadata } = Astro.props;
+const captionText = caption ?? metadata?.video_title;
 
 let playbackId = id;
 
@@ -21,20 +29,27 @@ const metadataAttr = metadata?.video_title
   : {};
 ---
 
-{
-  playbackId ? (
-    <mux-player playback-id={playbackId} {...metadataAttr} />
-  ) : (
-    <p class="video-placeholder">
-      Video not on Mux yet: <code>{src}</code>
-    </p>
-  )
-}
+<figure class="video-figure">
+  {
+    playbackId ? (
+      <mux-player playback-id={playbackId} {...metadataAttr} />
+    ) : (
+      <p class="video-placeholder">
+        Video not on Mux yet: <code>{src}</code>
+      </p>
+    )
+  }
+  {captionText && <figcaption>{captionText}</figcaption>}
+</figure>
 <script>
   import "@mux/mux-player";
 </script>
 
 <style>
+  .video-figure {
+    margin-inline: 0;
+  }
+
   .video-placeholder {
     padding: 2rem 1rem;
     border: 2px dashed currentColor;
