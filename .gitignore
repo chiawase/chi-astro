@@ -27,6 +27,7 @@ pnpm-debug.log*
 
 _cache/*
 !_cache/cloudinary-manifest.json
+!_cache/mux-manifest.json
 
 
 # Local media files

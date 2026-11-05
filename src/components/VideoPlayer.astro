@@ -1,5 +1,5 @@
 ---
-import { getMuxPlaybackId } from "@utils/muxUploader"; // adjust relative path
+import { getMuxPlaybackId } from "@utils/muxUploader";
 
 const { id, src, metadata } = Astro.props;
 
@@ -8,7 +8,10 @@ let playbackId = id;
 if (!playbackId && src) {
   playbackId = await getMuxPlaybackId(src);
   if (!playbackId) {
-    throw new Error(`No Mux playbackId found for src="${src}". Run "npm run mux:upload".`);
+    const msg = `No Mux playbackId found for src="${src}". Run: npm run mux:upload -- "${src}"`;
+    // Builds still fail, so a missing video can't be deployed by accident
+    if (!import.meta.env.DEV) throw new Error(msg);
+    console.warn(`[mux] ${msg}`);
   }
 }
 
@@ -18,5 +21,24 @@ const metadataAttr = metadata?.video_title
   : {};
 ---
 
-<mux-player playback-id={playbackId} {... metadataAttr}></mux-player>
-<script>import "@mux/mux-player";</script>
+{
+  playbackId ? (
+    <mux-player playback-id={playbackId} {...metadataAttr} />
+  ) : (
+    <p class="video-placeholder">
+      Video not on Mux yet: <code>{src}</code>
+    </p>
+  )
+}
+<script>
+  import "@mux/mux-player";
+</script>
+
+<style>
+  .video-placeholder {
+    padding: 2rem 1rem;
+    border: 2px dashed currentColor;
+    text-align: center;
+    opacity: 0.7;
+  }
+</style>
