@@ -14,6 +14,7 @@
     "webmentions:fetch": "webmention https://chisenires.design/feed.xml",
     "webmentions:send": "webmention https://chisenires.design/feed.xml --limit 1 --send",
     "mux:upload": "tsx src/scripts/muxUploadAll.ts",
+    "crosspost": "node --env-file-if-exists=.env src/scripts/crosspost.mjs",
     "prepare": "husky"
   },
   "lint-staged": {
