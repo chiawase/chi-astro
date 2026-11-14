@@ -42,7 +42,7 @@
     "@mux/mux-node": "^12.8.1",
     "@mux/mux-player": "^3.13.0",
     "@remy/webmention": "^1.5.0",
-    "astro": "^7.3.2",
+    "astro": "^7.4.12",
     "astro-embed": "^0.13.1",
     "astro-icon": "^1.1.5",
     "astro-lightgallery": "^2.3.0",
