@@ -7,5 +7,6 @@
     "TaskCheckboxes",
     "clean-embeds"
   ],
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "showRibbon": true
 }
